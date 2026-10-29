@@ -1,0 +1,16 @@
+#ifndef SPECTACLE_CONFIG_H
+#define SPECTACLE_CONFIG_H
+
+/* Set to 1 if we have X11 at all */
+#cmakedefine01 WITH_X11
+
+/* Set the Spectacle version from CMake */
+#cmakedefine SPECTACLE_VERSION "@SPECTACLE_VERSION@"
+
+/* Set the QML module URI from CMake */
+#cmakedefine SPECTACLE_QML_URI "@SPECTACLE_QML_URI@"
+
+/* Set the QML module URI from CMake */
+static const auto SPECTACLE_QML_PATH = u"@SPECTACLE_QML_PATH@";
+
+#endif

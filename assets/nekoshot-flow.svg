@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-label="NekoShot workflow">
+  <defs>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#111a2c"/>
+      <stop offset="1" stop-color="#0c1322"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#22d3ee"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="400" rx="26" fill="#090d18"/>
+  <text x="48" y="62" font-family="Inter, 'Segoe UI', 'Noto Sans', sans-serif" font-size="30" font-weight="700" fill="#f8fafc">一次截图，五步完成</text>
+  <text x="48" y="92" font-family="Inter, 'Segoe UI', 'Noto Sans', sans-serif" font-size="17" fill="#7c8aa5">热键到可交互遮罩通常 &lt; 250 ms（常驻模式）</text>
+
+  <g font-family="Inter, 'Segoe UI', 'Noto Sans', sans-serif">
+    <g>
+      <rect x="40" y="130" width="204" height="176" rx="18" fill="url(#card)" stroke="#273449"/>
+      <circle cx="76" cy="166" r="17" fill="#8b5cf6"/>
+      <text x="76" y="172" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">1</text>
+      <text x="106" y="172" font-size="19" font-weight="700" fill="#e2e8f0">按下热键</text>
+      <text x="64" y="216" font-size="15" fill="#94a3b8">niri binds</text>
+      <text x="64" y="240" font-size="15" fill="#94a3b8">D-Bus 单实例</text>
+      <text x="64" y="264" font-size="15" fill="#64748b">冷启动 / 常驻</text>
+    </g>
+
+    <g>
+      <rect x="274" y="130" width="204" height="176" rx="18" fill="url(#card)" stroke="#273449"/>
+      <circle cx="310" cy="166" r="17" fill="#7c3aed"/>
+      <text x="310" y="172" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">2</text>
+      <text x="340" y="172" font-size="19" font-weight="700" fill="#e2e8f0">冻结画面</text>
+      <text x="298" y="216" font-size="15" fill="#94a3b8">grim · PPM</text>
+      <text x="298" y="240" font-size="15" fill="#94a3b8">wlr-screencopy</text>
+      <text x="298" y="264" font-size="15" fill="#64748b">多屏 + DPR 合成</text>
+    </g>
+
+    <g>
+      <rect x="508" y="130" width="204" height="176" rx="18" fill="url(#card)" stroke="#273449"/>
+      <circle cx="544" cy="166" r="17" fill="#0891b2"/>
+      <text x="544" y="172" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">3</text>
+      <text x="574" y="172" font-size="19" font-weight="700" fill="#e2e8f0">选区</text>
+      <text x="532" y="216" font-size="15" fill="#94a3b8">LayerShellQt</text>
+      <text x="532" y="240" font-size="15" fill="#94a3b8">十字准星 · 放大镜</text>
+      <text x="532" y="264" font-size="15" fill="#64748b">键盘 / 触控</text>
+    </g>
+
+    <g>
+      <rect x="742" y="130" width="204" height="176" rx="18" fill="url(#card)" stroke="#273449"/>
+      <circle cx="778" cy="166" r="17" fill="#0e7490"/>
+      <text x="778" y="172" text-anchor="middle" font-size="16" font-weight="700" fill="#fff">4</text>
+      <text x="808" y="172" font-size="19" font-weight="700" fill="#e2e8f0">标注 / OCR</text>
+      <text x="766" y="216" font-size="15" fill="#94a3b8">KQuickImageEditor</text>
+      <text x="766" y="240" font-size="15" fill="#94a3b8">tesseract</text>
+      <text x="766" y="264" font-size="15" fill="#64748b">箭头 · 文字 · 模糊</text>
+    </g>
+
+    <g>
+      <rect x="976" y="130" width="184" height="176" rx="18" fill="url(#card)" stroke="#273449"/>
+      <circle cx="1012" cy="166" r="17" fill="#22d3ee"/>
+      <text x="1012" y="172" text-anchor="middle" font-size="16" font-weight="700" fill="#04121a">5</text>
+      <text x="1042" y="172" font-size="19" font-weight="700" fill="#e2e8f0">导出</text>
+      <text x="1000" y="216" font-size="15" fill="#94a3b8">wl-copy · KIO</text>
+      <text x="1000" y="240" font-size="15" fill="#94a3b8">保存 / 另存为</text>
+      <text x="1000" y="264" font-size="15" fill="#64748b">wf-recorder 录屏</text>
+    </g>
+  </g>
+
+  <g stroke="url(#line)" stroke-width="2.5" marker-end="url(#arrow)">
+    <line x1="244" y1="218" x2="270" y2="218"/>
+    <line x1="478" y1="218" x2="504" y2="218"/>
+    <line x1="712" y1="218" x2="738" y2="218"/>
+    <line x1="946" y1="218" x2="972" y2="218"/>
+  </g>
+</svg>

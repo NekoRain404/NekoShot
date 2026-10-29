@@ -1,0 +1,9 @@
+binds {
+    Print       { spawn "nekoshot" "-r"; }
+    Ctrl+Print  { spawn "nekoshot" "-m"; }
+    Alt+Print   { spawn "nekoshot" "-a"; }
+    Mod+Shift+S { spawn "nekoshot" "-r"; }
+    Mod+Shift+U { spawn "nekoshot" "-u"; }
+    Mod+Shift+R { spawn "nekoshot" "-R" "r"; }
+    Mod+Shift+X { spawn "nekoshot" "--stop-recording"; }
+}

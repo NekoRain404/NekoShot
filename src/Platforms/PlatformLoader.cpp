@@ -1,0 +1,131 @@
+/* This file is part of Spectacle, the KDE screenshot utility
+ * SPDX-FileCopyrightText: 2019 Boudhayan Gupta <bgupta@kde.org>
+
+ * SPDX-License-Identifier: LGPL-2.0-or-later
+ */
+
+#include "PlatformLoader.h"
+#include "Config.h"
+#include "PlasmaVersion.h"
+#include "ScreenShotEffect.h"
+
+#include "ImagePlatformKWin.h"
+#include "ImagePlatformNiri.h"
+#include "NiriPlatform.h"
+#include "PlatformNull.h"
+#include "VideoPlatformNiri.h"
+#include "VideoPlatformWayland.h"
+
+#if WITH_X11
+#include "ImagePlatformXcb.h"
+#endif
+
+#include <KLocalizedString>
+#include <KWindowSystem>
+
+#include <QDebug>
+#include <QStandardPaths>
+
+ImagePlatformPtr getForcedImagePlatform()
+{
+    // These environment variables are only for testing purposes. The NekoShot
+    // name takes precedence; the Spectacle name is still accepted for
+    // compatibility with existing scripts.
+    auto platformName = qgetenv("NEKOSHOT_IMAGE_PLATFORM");
+    QByteArray variableName = "NEKOSHOT_IMAGE_PLATFORM";
+    if (platformName.isEmpty()) {
+        platformName = qgetenv("SPECTACLE_IMAGE_PLATFORM");
+        variableName = "SPECTACLE_IMAGE_PLATFORM";
+    }
+    if (platformName.isEmpty()) {
+        return nullptr;
+    }
+
+    if (platformName == ImagePlatformKWin::staticMetaObject.className()) {
+        return std::make_unique<ImagePlatformKWin>();
+    } else if (platformName == ImagePlatformNiri::staticMetaObject.className()) {
+        return std::make_unique<ImagePlatformNiri>();
+#if WITH_X11
+    } else if (platformName == ImagePlatformXcb::staticMetaObject.className()) {
+        return std::make_unique<ImagePlatformXcb>();
+#endif
+    } else if (platformName == ImagePlatformNull::staticMetaObject.className()) {
+        return std::make_unique<ImagePlatformNull>();
+    } else {
+        qWarning().noquote() << variableName << ":" << platformName << "is invalid";
+    }
+
+    return nullptr;
+}
+
+ImagePlatformPtr loadImagePlatform()
+{
+    if (auto platform = getForcedImagePlatform()) {
+        return platform;
+    }
+#if WITH_X11
+    // Check XDG_SESSION_TYPE because Spectacle might be using the XCB platform via XWayland
+    const bool isReallyX11 = KWindowSystem::isPlatformX11() && qstrcmp(qgetenv("XDG_SESSION_TYPE").constData(), "wayland") != 0;
+#else
+    const bool isReallyX11 = false;
+#endif
+    if (NiriPlatform::isNiriSession()) {
+        return std::make_unique<ImagePlatformNiri>();
+    }
+    // Before KWin 5.27.8, there was an infinite loop in KWin on X11 when doing rectangle captures.
+    // Spectacle uses CaptureScreen DBus calls to KWin for rectangle captures.
+    if (ScreenShotEffect::isLoaded() && ScreenShotEffect::version() != ScreenShotEffect::NullVersion
+        && (!isReallyX11 || PlasmaVersion::get() >= PlasmaVersion::check(5, 27, 8))) {
+        return std::make_unique<ImagePlatformKWin>();
+    }
+#if WITH_X11
+    else if (isReallyX11) {
+        return std::make_unique<ImagePlatformXcb>();
+    }
+#endif
+    // If nothing else worked, return the null platform
+    return std::make_unique<ImagePlatformNull>();
+}
+
+VideoPlatformPtr getForcedVideoPlatform()
+{
+    // This environment variable is only for testing purposes.
+    auto platformName = qgetenv("SPECTACLE_VIDEO_PLATFORM");
+    if (platformName.isEmpty()) {
+        return nullptr;
+    }
+
+    if (platformName == VideoPlatformWayland::staticMetaObject.className()) {
+        return std::make_unique<VideoPlatformWayland>();
+    } else if (platformName == VideoPlatformNiri::staticMetaObject.className()) {
+        return std::make_unique<VideoPlatformNiri>();
+    } else if (platformName == VideoPlatformNull::staticMetaObject.className()) {
+        return std::make_unique<VideoPlatformNull>();
+    } else if (!platformName.isEmpty()) {
+        qWarning() << "SPECTACLE_VIDEO_PLATFORM:" << platformName << "is invalid";
+    }
+
+    return nullptr;
+}
+
+VideoPlatformPtr loadVideoPlatform()
+{
+    if (auto platform = getForcedVideoPlatform()) {
+        return platform;
+    }
+    if (NiriPlatform::isNiriSession()) {
+        if (!QStandardPaths::findExecutable(QStringLiteral("wf-recorder")).isEmpty()) {
+            return std::make_unique<VideoPlatformNiri>();
+        }
+        return std::make_unique<VideoPlatformNull>(i18n("wf-recorder is not installed"));
+    }
+    if (KWindowSystem::isPlatformWayland()) {
+        return std::make_unique<VideoPlatformWayland>();
+    }
+#if WITH_X11
+    if (KWindowSystem::isPlatformX11()) {
+        return std::make_unique<VideoPlatformNull>(i18nc("@info", "Screen recording is not available on X11."));
+    }
+#endif
+    return std::make_unique<VideoPlatformNull>();
+}

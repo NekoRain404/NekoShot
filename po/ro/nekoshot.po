@@ -1,0 +1,2913 @@
+# Copyright (C) 2025 This file is copyright:
+# This file is distributed under the same license as the spectacle package.
+# SPDX-FileCopyrightText: 2020, 2021, 2022, 2023, 2024, 2025, 2026 Sergiu Bivol <sergiu@cip.md>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: spectacle\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-29 15:50+0800\n"
+"PO-Revision-Date: 2026-06-15 13:22+0100\n"
+"Last-Translator: Sergiu Bivol <sergiu@cip.md>\n"
+"Language-Team: Romanian <kde-i18n-ro@kde.org>\n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2;\n"
+"X-Generator: Lokalize 25.12.3\n"
+
+#: src/OcrManager.cpp:578
+msgctxt "@item:inlistbox"
+msgid "Orientation and Script Detection"
+msgstr "Detecția orientării și scrierii"
+
+#: src/OcrManager.cpp:619
+msgid "Math/Equation Detection"
+msgstr "Detecția matematicii/ecuațiilor"
+
+#: src/OcrManager.cpp:622
+msgid "Orientation and Script Detection"
+msgstr "Detecția orientării și scrierii"
+
+#: src/ShortcutActions.cpp:38
+msgctxt "@action global shortcut"
+msgid "Launch Spectacle"
+msgstr "Lansează Spectacle"
+
+#: src/ShortcutActions.cpp:44
+msgctxt "@action global shortcut"
+msgid "Capture Entire Desktop"
+msgstr "Capturează întregul birou"
+
+#: src/ShortcutActions.cpp:50
+msgctxt "@action global shortcut"
+msgid "Capture Current Monitor"
+msgstr "Capturează monitorul actual"
+
+#: src/ShortcutActions.cpp:56
+msgctxt "@action global shortcut"
+msgid "Capture Active Window"
+msgstr "Capturează fereastra activă"
+
+#: src/ShortcutActions.cpp:62
+msgctxt "@action global shortcut"
+msgid "Capture Rectangular Region"
+msgstr "Capturează o regiune dreptunghiulară"
+
+#: src/ShortcutActions.cpp:69
+msgctxt "@action global shortcut"
+msgid "Capture Selected Window"
+msgstr "Capturează fereastra aleasă"
+
+#: src/ShortcutActions.cpp:69
+msgctxt "@action global shortcut"
+msgid "Capture Window Under Cursor"
+msgstr "Capturează fereastra de sub cursor"
+
+#: src/ShortcutActions.cpp:76
+msgctxt "@action global shortcut"
+msgid "Start/Stop Screen Recording"
+msgstr "Pornește/oprește înregistrarea ecranului"
+
+#: src/ShortcutActions.cpp:82
+msgctxt "@action global shortcut"
+msgid "Start/Stop Window Recording"
+msgstr "Pornește/oprește înregistrarea ferestrei"
+
+#: src/ShortcutActions.cpp:88
+msgctxt "@action global shortcut"
+msgid "Start/Stop Region Recording"
+msgstr "Pornește/oprește înregistrarea regiunii"
+
+#: src/ShortcutActions.cpp:94
+msgctxt "@action global shortcut"
+msgid "Launch Spectacle without capturing"
+msgstr "Lansează Spectacle fără a captura"
+
+#: src/VideoFormatModel.cpp:31
+msgctxt "@item:inlistbox Container/encoder"
+msgid "WebM/VP9"
+msgstr "WebM/VP9"
+
+#: src/VideoFormatModel.cpp:38
+msgctxt "@item:inlistbox Container/encoder"
+msgid "MP4/H.264"
+msgstr "MP4/H.264"
+
+#: src/VideoFormatModel.cpp:45
+#, fuzzy
+msgctxt "@item:inlistbox Container/encoder"
+msgid "MP4/H.265"
+msgstr "MP4/H.264"
+
+#: src/VideoFormatModel.cpp:52
+msgctxt "@item:inlistbox Container/encoder"
+msgid "MP4/AV1"
+msgstr ""
+
+#: src/VideoFormatModel.cpp:59
+msgctxt "@item:inlistbox Container/encoder"
+msgid "Animated WebP (better than GIF)"
+msgstr "WebP animat (mai bun decât GIF)"
+
+#: src/VideoFormatModel.cpp:66
+msgctxt "@item:inlistbox Container/encoder"
+msgid "GIF (compatible, but inefficient)"
+msgstr "GIF (compatibil dar ineficient)"
+
+#: src/CaptureModeModel.cpp:167
+msgctxt "@action in capture mode section"
+msgid "Rectangular Region"
+msgstr "Regiune dreptunghiulară"
+
+#: src/CaptureModeModel.cpp:169
+msgctxt "@action in capture mode section"
+msgid "All Screens (Scaled to same size)"
+msgstr "Toate ecranele (scalate la aceeași mărime)"
+
+#: src/CaptureModeModel.cpp:171
+msgctxt "@action in capture mode section"
+msgid "Current Screen"
+msgstr "Ecranul actual"
+
+#: src/CaptureModeModel.cpp:173
+msgctxt "@action in capture mode section"
+msgid "Active Window"
+msgstr "Fereastra activă"
+
+#: src/CaptureModeModel.cpp:176
+msgctxt "@action in capture mode section"
+msgid "Select Window"
+msgstr "Alege fereastra"
+
+#: src/CaptureModeModel.cpp:176
+msgctxt "@action in capture mode section"
+msgid "Window Under Cursor"
+msgstr "Fereastra de sub cursor"
+
+#: src/CaptureModeModel.cpp:179
+msgctxt "@action in capture mode section"
+msgid "All Screens"
+msgstr "Toate ecranele"
+
+#: src/CaptureModeModel.cpp:181
+msgctxt "@action in capture mode section"
+msgid "Full Screen"
+msgstr "Ecran complet"
+
+#: src/CommandLineOptions.h:22
+msgid "Capture the entire desktop (default)"
+msgstr "Capturează întregul birou (implicit)"
+
+#: src/CommandLineOptions.h:25
+#, fuzzy
+msgid ""
+"When used with -f/--fullscreen, capture all screens scaled to the same size "
+"(niri: falls back to unscaled)"
+msgstr ""
+"Când e folosit cu -f/--fullscreen, capturează toate ecranele scalate la "
+"aceeași mărime"
+
+#: src/CommandLineOptions.h:28
+msgid "Capture the current monitor"
+msgstr "Capturează monitorul actual"
+
+#: src/CommandLineOptions.h:32
+msgid "Capture the active window"
+msgstr "Capturează fereastra activă"
+
+#: src/CommandLineOptions.h:35
+msgid ""
+"Capture the window currently under the cursor, including parents of pop-up "
+"menus"
+msgstr ""
+"Capturează fereastra de sub cursor, inclusiv părinții meniurilor contextuale"
+
+#: src/CommandLineOptions.h:38
+msgid "Capture a rectangular region of the screen"
+msgstr "Capturează o regiune dreptunghiulară a ecranului"
+
+#: src/CommandLineOptions.h:42
+msgid ""
+"Record the screen using the given mode. Modes:\n"
+"- r, region\n"
+"- s, screen\n"
+"- w, window"
+msgstr ""
+"Înregistrează ecranul folosind regimul dat. Regimuri:\n"
+"- r, regiune\n"
+"- s, ecran\n"
+"- w, fereastră"
+
+#: src/CommandLineOptions.h:50
+msgid "Launch Spectacle without taking a screenshot"
+msgstr "Lansează Spectacle fără a face o captură de ecran"
+
+#: src/CommandLineOptions.h:54
+msgid "Start in GUI mode (default)"
+msgstr "Pornește în regim de interfață grafică (implicit)"
+
+#: src/CommandLineOptions.h:58
+msgid "Take a screenshot and exit without showing the GUI"
+msgstr "Fă o captură și termină fără a arăta interfața grafică"
+
+#: src/CommandLineOptions.h:62
+msgid "Start in DBus-Activation mode"
+msgstr "Pornește în regim de activare DBus"
+
+#: src/CommandLineOptions.h:66
+msgid ""
+"In background mode, do not pop up a notification when the screenshot is taken"
+msgstr "În regim de fundal, nu arăta o notificare când se preia o captură"
+
+#: src/CommandLineOptions.h:70
+msgid "In background mode, save image to specified file"
+msgstr "În regim de fundal, salvează imaginea în fișierul specificat"
+
+#: src/CommandLineOptions.h:75
+msgid "In background mode, delay before taking the shot (in milliseconds)"
+msgstr ""
+"În regim de fundal, întârzierea înainte de a prelua captura (în milisecunde)"
+
+#: src/CommandLineOptions.h:80
+msgid ""
+"In background mode, copy screenshot image to clipboard, unless -o is also "
+"used."
+msgstr ""
+"În regim de fundal, copiază imaginea capturii în clipboard, decât dacă -o "
+"tot e folosit."
+
+#: src/CommandLineOptions.h:84
+msgid "In background mode, copy screenshot file path to clipboard"
+msgstr "În regim de fundal, copiază calea spre fișierul capturii în clipboard"
+
+#: src/CommandLineOptions.h:88
+msgid "Wait for a click before taking screenshot. Invalidates delay"
+msgstr "Așteaptă un clic înainte de a prelua captura. Invalidează întârzierea"
+
+#: src/CommandLineOptions.h:90
+#, fuzzy
+msgid "Starts a new GUI instance of NekoShot without registering to DBus"
+msgstr ""
+"Pornește o instanță Spectacle cu interfață grafică fără a se înregistra în "
+"DBus"
+
+#: src/CommandLineOptions.h:93
+msgid "In background mode, include pointer in the screenshot"
+msgstr "În regim de fundal, include indicatorul în captura de ecran"
+
+#: src/CommandLineOptions.h:97
+msgid "In background mode, exclude decorations in the screenshot"
+msgstr "În regim de fundal, exclude decorațiile din captura de ecran"
+
+#: src/CommandLineOptions.h:99
+msgid "In background mode, exclude shadows in the screenshot"
+msgstr "În regim de fundal, exclude umbrele  din captura de ecran"
+
+#: src/CommandLineOptions.h:102
+msgid "Open and edit existing screenshot file"
+msgstr "Deschide și redactează un fișier existent cu captură"
+
+#: src/CommandLineOptions.h:105
+msgid "Accept region selection on click-and-release"
+msgstr "Acceptă regiunea aleasă la apăsare-și-eliberare"
+
+#: src/CommandLineOptions.h:106
+msgid "Stay running and wait for D-Bus requests"
+msgstr ""
+
+#: src/CommandLineOptions.h:107
+#, fuzzy
+msgid "Stop the current recording"
+msgstr "Arată cursorul mausului pe înregistrare"
+
+#: src/ExportManager.cpp:466
+msgctxt "%1 is an error message"
+msgid "QImageWriter cannot write image: %1"
+msgstr "QImageWriter nu poate scrie imaginea: %1"
+
+#: src/ExportManager.cpp:482
+msgctxt "@info"
+msgid ""
+"Cannot save screenshot because creating the directory failed:<nl/"
+"><filename>%1</filename>"
+msgstr ""
+"Captura de ecran nu poate fi salvată deoarece crearea dosarului a eșuat:<nl/"
+"><filename>%1</filename>"
+
+#: src/ExportManager.cpp:491
+#, fuzzy
+msgid "Cannot save screenshot. Error while opening file."
+msgstr "Nu se poate salva captura. Eroare la scrierea fișierului."
+
+#: src/ExportManager.cpp:495
+msgid "Cannot save screenshot. Error while writing file."
+msgstr "Nu se poate salva captura. Eroare la scrierea fișierului."
+
+#: src/ExportManager.cpp:515
+msgctxt "@info"
+msgid ""
+"Cannot save screenshot because creating the remote directory failed:<nl/"
+"><filename>%1</filename>"
+msgstr ""
+"Captura de ecran nu poate fi salvată deoarece crearea dosarului distant a "
+"eșuat:<nl/><filename>%1</filename>"
+
+#: src/ExportManager.cpp:526 src/ExportManager.cpp:576
+msgid "Cannot save screenshot. Error while writing temporary local file."
+msgstr ""
+"Nu se poate salva captura. Eroare la scrierea fișierului local temporar."
+
+#: src/ExportManager.cpp:535
+msgid "Unable to save image. Could not upload file to remote location."
+msgstr ""
+"Nu se poate salva imaginea. Fișierul nu a putut fi încărcat în amplasarea "
+"distantă."
+
+#: src/ExportManager.cpp:583
+msgid "Cannot save screenshot. The save filename is invalid."
+msgstr "Nu se poate salva captura. Denumirea fișierului de salvat nu e validă."
+
+#: src/ExportManager.cpp:627
+msgid "Cannot save an empty screenshot image."
+msgstr "Nu se poate salva o imagine de captură goală."
+
+#: src/ExportManager.cpp:814
+msgctxt "@info:shell"
+msgid ""
+"Failed to export video: Temporary file URL must be an existing local file"
+msgstr ""
+"Exportul filmului a eșuat: URL-ul fișierului temporar trebuie să fie un "
+"fișier local existent"
+
+#: src/ExportManager.cpp:821
+msgctxt "@info:shell"
+msgid ""
+"Failed to export video: Output file URL must be a valid URL with a file name"
+msgstr ""
+"Exportul filmului a eșuat: URL-ul fișierului de ieșire trebuie să fie URL "
+"valid cu denumire de fișier"
+
+#: src/ExportManager.cpp:910
+msgctxt "@info, %1 is a file path"
+msgid "Unable to save recording. Could not move file to location: %1"
+msgstr ""
+"Nu se poate salva înregistrarea. Fișierul nu a putut fi mutat la amplasare: "
+"%1"
+
+#: src/ExportManager.cpp:938
+msgid "Printing failed. The printer failed to initialize."
+msgstr "Imprimarea a eșuat. Inițializarea imprimantei a eșuat."
+
+#: src/ExportManager.cpp:955
+msgctxt "filename placeholder description"
+msgid "Day (1–31)"
+msgstr "Zi (1–31)"
+
+#: src/ExportManager.cpp:956
+msgctxt "filename placeholder description"
+msgid "Day (01–31)"
+msgstr "Zi (01–31)"
+
+#: src/ExportManager.cpp:957
+msgctxt "filename placeholder description"
+msgid "Day (short name)"
+msgstr "Zi (prescurtat)"
+
+#: src/ExportManager.cpp:958
+msgctxt "filename placeholder description"
+msgid "Day (long name)"
+msgstr "Zi (pe lung)"
+
+#: src/ExportManager.cpp:959
+msgctxt "filename placeholder description"
+msgid "Month (1–12)"
+msgstr "Lună (1–12)"
+
+#: src/ExportManager.cpp:960
+msgctxt "filename placeholder description"
+msgid "Month (01–12)"
+msgstr "Lună (01–12)"
+
+#: src/ExportManager.cpp:961
+msgctxt "filename placeholder description"
+msgid "Month (short name)"
+msgstr "Lună (prescurtat)"
+
+#: src/ExportManager.cpp:962
+msgctxt "filename placeholder description"
+msgid "Month (long name)"
+msgstr "Lună (pe lung)"
+
+#: src/ExportManager.cpp:963
+msgctxt "filename placeholder description"
+msgid "Year (2 digit)"
+msgstr "An (2 cifre)"
+
+#: src/ExportManager.cpp:964
+msgctxt "filename placeholder description"
+msgid "Year (4 digit)"
+msgstr "An (4 cifre)"
+
+#: src/ExportManager.cpp:965
+msgctxt "filename placeholder description"
+msgid "Hour (0–23)"
+msgstr "Oră (0–23)"
+
+#: src/ExportManager.cpp:966
+msgctxt "filename placeholder description"
+msgid "Hour (00–23)"
+msgstr "Oră (00–23)"
+
+#: src/ExportManager.cpp:967
+msgctxt "filename placeholder description"
+msgid "Hour (1–12)"
+msgstr "Oră (1–12)"
+
+#: src/ExportManager.cpp:968
+msgctxt "filename placeholder description"
+msgid "Hour (01–12)"
+msgstr "Oră (01–12)"
+
+#: src/ExportManager.cpp:969
+msgctxt "filename placeholder description"
+msgid "Minute (0–59)"
+msgstr "Minut (0–59)"
+
+#: src/ExportManager.cpp:970
+msgctxt "filename placeholder description"
+msgid "Minute (00–59)"
+msgstr "Minut (00–59)"
+
+#: src/ExportManager.cpp:971
+msgctxt "filename placeholder description"
+msgid "Second (0–59)"
+msgstr "Secundă (0–59)"
+
+#: src/ExportManager.cpp:972
+msgctxt "filename placeholder description"
+msgid "Second (00–59)"
+msgstr "Secundă (00–59)"
+
+#: src/ExportManager.cpp:973
+msgctxt "filename placeholder description"
+msgid "Millisecond (0–999)"
+msgstr "Milisecundă (0–999)"
+
+#: src/ExportManager.cpp:975
+msgctxt "filename placeholder description"
+msgid "Millisecond (000–999)"
+msgstr "Milisecundă (000–999)"
+
+#: src/ExportManager.cpp:976
+msgctxt "filename placeholder description"
+msgid "AM/PM"
+msgstr "AM/PM"
+
+#: src/ExportManager.cpp:978
+msgctxt "filename placeholder description"
+msgid "am/pm"
+msgstr "am/pm"
+
+#: src/ExportManager.cpp:980
+msgctxt "filename placeholder description"
+msgid "AM/PM or am/pm (localized)"
+msgstr "AM/PM sau am/pm (localizat)"
+
+#: src/ExportManager.cpp:982
+msgctxt "filename placeholder description"
+msgid "Timezone (short name)"
+msgstr "Fus orar (prescurtat)"
+
+#: src/ExportManager.cpp:983
+msgctxt "filename placeholder description"
+msgid "Timezone offset (±0000)"
+msgstr "Decalaj de fus orar (±0000)"
+
+#: src/ExportManager.cpp:984
+msgctxt "filename placeholder description"
+msgid "Timezone offset (±00:00)"
+msgstr "Decalaj de fus orar (±00:00)"
+
+#: src/ExportManager.cpp:985
+msgctxt "filename placeholder description"
+msgid "Timezone (long name)"
+msgstr "Fus orar (pe lung)"
+
+#: src/ExportManager.cpp:986
+msgctxt "filename placeholder description"
+msgid "Seconds since the Unix epoch"
+msgstr "Secunde de la epoca Unix"
+
+#: src/ExportManager.cpp:987
+msgctxt "filename placeholder description"
+msgid "Window Title"
+msgstr "Titlul ferestrei"
+
+#: src/ExportManager.cpp:988
+msgctxt "filename placeholder description"
+msgid "Sequential numbering, padded by inserting additional '#' characters"
+msgstr ""
+"Numerotare secvențială, umplută prin introducerea de caractere „#” "
+"suplimentare"
+
+#: src/Main.cpp:48 src/SpectacleCore.cpp:1408
+msgid "NekoShot"
+msgstr ""
+
+#: src/Main.cpp:50
+msgid "Screenshot utility for niri, based on Spectacle"
+msgstr ""
+
+#: src/Main.cpp:52
+#, fuzzy
+msgid "© 2015 Boudhayan Gupta and Spectacle contributors"
+msgstr "© 2015 Boudhayan Gupta"
+
+#: src/Main.cpp:60
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Sergiu Bivol"
+
+#: src/Main.cpp:60
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "sergiu@cip.md"
+
+#: src/Main.cpp:78
+msgid ""
+"On Wayland, Spectacle requires KDE Plasma's KWin compositor, which does not "
+"seem to be available. Use Spectacle on KDE Plasma, or use a different "
+"screenshot tool."
+msgstr ""
+"Pe Wayland, Spectacle necesită compozitorul KWin din KDE Plasma, ce nu pare "
+"să fie disponibil. Folosiți Spectacle pe KDE Plasma, sau folosiți altă "
+"unealtă de capturare a ecranului."
+
+#: src/Main.cpp:103 src/Platforms/ImagePlatformNiri.cpp:167
+msgid "grim is not installed"
+msgstr ""
+
+#: src/Main.cpp:119
+msgid "--daemon cannot be combined with --new-instance"
+msgstr ""
+
+#: src/RecordingModeModel.cpp:104
+msgctxt "@item recording mode"
+msgid "Rectangular Region"
+msgstr "Regiune dreptunghiulară"
+
+#: src/RecordingModeModel.cpp:106
+msgctxt "@item recording mode"
+msgid "Window"
+msgstr "Fereastră"
+
+#: src/RecordingModeModel.cpp:108
+msgctxt "@item recording mode"
+msgid "Full Screen"
+msgstr "Ecran complet"
+
+#: src/SpectacleCore.cpp:288
+msgctxt "@info"
+msgid "An error occurred while taking a screenshot."
+msgstr "A intervenit o eroare la preluarea capturii."
+
+#: src/SpectacleCore.cpp:318
+#, fuzzy
+msgctxt "@info:tooltip title for recording tray icon"
+msgid "Spectacle is Recording with Sound"
+msgstr "Spectacle înregistrează"
+
+#: src/SpectacleCore.cpp:319
+msgctxt "@info:tooltip title for recording tray icon"
+msgid "Spectacle is Recording"
+msgstr "Spectacle înregistrează"
+
+#: src/SpectacleCore.cpp:324
+#, fuzzy
+msgctxt "recording notification title"
+msgid "Spectacle is Recording with Sound"
+msgstr "Spectacle înregistrează"
+
+#: src/SpectacleCore.cpp:325
+msgctxt "recording notification title"
+msgid "Spectacle is Recording"
+msgstr "Spectacle înregistrează"
+
+#: src/SpectacleCore.cpp:354
+msgctxt "recording notification message without shortcut"
+msgid "To finish the recording, click the pulsing red System Tray icon."
+msgstr ""
+"Pentru a finaliza înregistrarea, apăsați pictograma roșie ce pulsează în "
+"tava de sistem."
+
+#: src/SpectacleCore.cpp:356
+msgctxt "recording notification message with shortcut"
+msgid ""
+"To finish the recording, click the pulsing red System Tray icon or press "
+"<shortcut>%1</shortcut>."
+msgstr ""
+"Pentru a finaliza înregistrarea, apăsați pictograma roșie ce pulsează în "
+"tava de sistem sau apăsați <shortcut>%1</shortcut>."
+
+#: src/SpectacleCore.cpp:373
+msgctxt "missing webp support notification title"
+msgid "WebP support is missing."
+msgstr "Lipsește suportul pentru WebP."
+
+#: src/SpectacleCore.cpp:375
+msgctxt "missing webp support notification message"
+msgid ""
+"Please install Qt Image Formats to get animated system tray icons for "
+"Spectacle, and then report this packaging issue to your distributor."
+msgstr ""
+"Instalați Qt Image Formats pentru a obține pictograme animate în tava de "
+"sistem pentru Spectacle, apoi raportați acest defect de împachetare "
+"distribuitorului dumneavoastră."
+
+#: src/SpectacleCore.cpp:412
+msgctxt "recording notification title"
+msgid "Spectacle is Finishing the Recording"
+msgstr "Spectacle finalizează înregistrarea"
+
+#: src/SpectacleCore.cpp:413
+msgctxt "recording notification message"
+msgid "Please wait"
+msgstr "Așteptați"
+
+#: src/SpectacleCore.cpp:415
+msgctxt "@info:tooltip title for rendering tray icon"
+msgid "Spectacle is Finishing the Recording"
+msgstr "Spectacle finalizează înregistrarea"
+
+#: src/SpectacleCore.cpp:417
+msgctxt "@info:tooltip subtitle for rendering tray icon"
+msgid ""
+"Time recorded: %1\n"
+"Click to stop rendering early (this will lose data)"
+msgstr ""
+"Durata înregistrată: %1\n"
+"Apăsați pentru a opri randarea prematur (se vor pierde date)"
+
+#: src/SpectacleCore.cpp:442
+msgctxt "@info:tooltip subtitle for recording tray icon"
+msgid ""
+"Time recorded: %1\n"
+"Click to finish recording"
+msgstr ""
+"Durata înregistrată: %1\n"
+"Apăsați pentru a încheia înregistrarea"
+
+#: src/SpectacleCore.cpp:473
+msgctxt "@info"
+msgid "An error occurred while attempting to record the screen."
+msgstr "A intervenit o eroare la încercarea de a înregistra ecranul."
+
+#: src/SpectacleCore.cpp:525
+msgctxt "@info"
+msgid ""
+"The screenshot was copied to the clipboard and saved as <link url=\"%1\">%2</"
+"link>"
+msgstr ""
+"Captura de ecran a fost copiată în clipboard și salvată ca <link "
+"url=\"%1\">%2</link>"
+
+#: src/SpectacleCore.cpp:529
+msgctxt "@info"
+msgid ""
+"The screenshot has been saved as <link url=\"%1\">%2</link> and its location "
+"has been copied to clipboard"
+msgstr ""
+"Captura de ecran a fost salvată ca <link url=\"%1\">%2</link> și amplasarea "
+"acesteia a fost copiată în clipboard"
+
+#: src/SpectacleCore.cpp:534
+msgctxt "@info"
+msgid "The screenshot was saved as <link url=\"%1\">%2</link>"
+msgstr "Captura de ecran a fost salvată ca <link url=\"%1\">%2</link>"
+
+#: src/SpectacleCore.cpp:538
+msgctxt "@info"
+msgid "The screenshot has been copied to the clipboard."
+msgstr "Captura de ecran a fost copiată în clipboard."
+
+#: src/SpectacleCore.cpp:570
+msgctxt "@info"
+msgid ""
+"The video has been saved as <link url=\"%1\">%2</link> and its location has "
+"been copied to clipboard"
+msgstr ""
+"Videoclipul a fost salvat ca <link url=\"%1\">%2</link> și amplasarea "
+"acestuia a fost copiată în clipboard"
+
+#: src/SpectacleCore.cpp:575
+msgctxt "@info"
+msgid "The video was saved as <link url=\"%1\">%2</link>"
+msgstr "Videoclipul a fost salvat ca <link url=\"%1\">%2</link>"
+
+#: src/SpectacleCore.cpp:579
+msgctxt "@info"
+msgid "The video location has been copied to the clipboard."
+msgstr "Amplasarea fișierului video a fost copiată în clipboard."
+
+#: src/SpectacleCore.cpp:599
+msgctxt "@info"
+msgid "Code found: %1"
+msgstr "Cod găsit: %1"
+
+#: src/SpectacleCore.cpp:603
+msgctxt "@info"
+msgid "Found QR code with binary content."
+msgstr "A fost găsit cod QR cu conținut binar."
+
+#: src/SpectacleCore.cpp:611
+msgctxt "@info"
+msgid "Text extraction failed"
+msgstr "Extragerea textului a eșuat"
+
+#: src/SpectacleCore.cpp:616
+msgctxt "@info"
+msgid "No text found in the image"
+msgstr "Nu a fost găsit text în imagine"
+
+#: src/SpectacleCore.cpp:620
+msgctxt "@info"
+msgid "Text extraction completed"
+msgstr "Extragerea textului s-a încheiat"
+
+#: src/SpectacleCore.cpp:628
+msgctxt "@info:notification title"
+msgid "Text Extracted"
+msgstr "Text extras"
+
+#: src/SpectacleCore.cpp:648
+msgctxt "@info The variables are language names, e.g. 'English and German'"
+msgid "%1 and %2"
+msgstr "%1 și %2"
+
+#: src/SpectacleCore.cpp:653
+msgctxt "@info:notification"
+msgid "Text copied to clipboard.<nl/>Languages used: %1"
+msgstr "Text copiat în clipboard.<nl/>Limbi folosite: %1"
+
+#: src/SpectacleCore.cpp:658
+msgctxt "@action:button"
+msgid "Open in Text Editor"
+msgstr "Deschide în redactorul de text"
+
+#: src/SpectacleCore.cpp:808
+msgctxt "@info"
+msgid "Please select a region before extracting text"
+msgstr "Alegeți o regiune înainte de a extrage textul"
+
+#: src/SpectacleCore.cpp:830
+msgctxt "@info"
+msgid "OCR is not available."
+msgstr "Recunoașterea optică a textului nu e disponibilă."
+
+#: src/SpectacleCore.cpp:836
+msgctxt "@info"
+msgid "No screenshot available."
+msgstr "Nicio captură de ecran disponibilă."
+
+#: src/SpectacleCore.cpp:840
+msgctxt "@info"
+msgid "Extracting text from image..."
+msgstr "Se extrage textul din imagine…"
+
+#: src/SpectacleCore.cpp:973
+msgctxt "@info:shell"
+msgid "Ignoring activation: a recording is already in progress"
+msgstr ""
+
+#: src/SpectacleCore.cpp:1181
+msgctxt "@info:shell"
+msgid ""
+"--scaled is only allowed together with -f/--fullscreen and will be ignored"
+msgstr "--scaled e permis doar împreună cu -f/--fullscreen și va fi ignorat"
+
+#: src/SpectacleCore.cpp:1196
+msgctxt "@info:shell"
+msgid "%1 is not a valid mode for --record"
+msgstr "%1 nu e un regim valid pentru --record"
+
+#: src/SpectacleCore.cpp:1462
+msgctxt "%1 is the filename, %2 the path to the save location"
+msgid ""
+"A screenshot was saved as '%1' to '%2' and the file path of the screenshot "
+"has been saved to your clipboard."
+msgstr ""
+"Captura de ecran a fost salvată ca „%1” în „%2” și amplasarea acesteia a "
+"fost copiată în clipboard."
+
+#: src/SpectacleCore.cpp:1466
+msgctxt "%1 is the filename"
+msgid "A screenshot was saved as '%1' to your Pictures folder."
+msgstr "O captură a fost salvată ca „%1” în dosarul Poze."
+
+#: src/SpectacleCore.cpp:1469
+msgctxt "%1 is the filename, %2 the path to the save location"
+msgid "A screenshot was saved as '%1' to '%2'."
+msgstr "O captură a fost salvată ca „%1” în „%2”."
+
+#: src/SpectacleCore.cpp:1472
+msgid "A screenshot was saved to your clipboard."
+msgstr "O captură a fost salvată în clipboard."
+
+#: src/SpectacleCore.cpp:1477
+msgctxt "%1 is the filename, %2 the path to the save location"
+msgid ""
+"A recording was saved as '%1' to '%2' and the file path of the recording has "
+"been saved to your clipboard."
+msgstr ""
+"O înregistrare a fost salvată ca „%1” în „%2” și amplasarea acesteia a fost "
+"copiată în clipboard."
+
+#: src/SpectacleCore.cpp:1481
+msgctxt "%1 is the filename"
+msgid "A recording was saved as '%1' to your Videos folder."
+msgstr "O înregistrare a fost salvată ca „%1” în dosarul Video."
+
+#: src/SpectacleCore.cpp:1484
+msgctxt "%1 is the filename, %2 the path to the save location"
+msgid "A recording was saved as '%1' to '%2'."
+msgstr "O înregistrare a fost salvată ca „%1” în „%2”."
+
+#: src/SpectacleCore.cpp:1496
+msgctxt "Open the screenshot we just saved"
+msgid "Open"
+msgstr "Deschide"
+
+#: src/SpectacleCore.cpp:1508
+msgid "Annotate"
+msgstr "Adnotează"
+
+#: src/Gui/AcceptAction.qml:9
+msgctxt "@action accept selection"
+msgid "Accept"
+msgstr "Acceptă"
+
+#: src/Gui/NewScreenshotToolButton.qml:15
+#: src/Gui/CaptureModeButtonsColumn.qml:32
+msgid "Cancel (%1 second)"
+msgid_plural "Cancel (%1 seconds)"
+msgstr[0] "Renunță (%1 secundă)"
+msgstr[1] "Renunță (%1 secunde)"
+msgstr[2] "Renunță (%1 de secunde)"
+
+#: src/Gui/NewScreenshotToolButton.qml:27
+msgid "New Screenshot"
+msgstr "Captură nouă"
+
+#: src/Gui/OptionsMenuButton.qml:10
+msgctxt "@action"
+msgid "Options"
+msgstr "Opțiuni"
+
+#: src/Gui/CancelAction.qml:9
+msgctxt "@action cancel selection"
+msgid "Cancel"
+msgstr "Renunță"
+
+#: src/Gui/CopyImageAction.qml:13
+msgctxt "@action"
+msgid "Copy"
+msgstr "Copiază"
+
+#: src/Gui/RecordAction.qml:11
+msgctxt "@action start recording"
+msgid "Record"
+msgstr "Înregistrează"
+
+#: src/Gui/RecordOptions.qml:23
+msgid "Recording Settings"
+msgstr "Configurări înregistrare"
+
+#: src/Gui/RecordOptions.qml:37
+msgid "Finish recording"
+msgstr "Încheie înregistrarea"
+
+#: src/Gui/CopyLocationAction.qml:9
+msgctxt "@action"
+msgid "Copy Location"
+msgstr "Copiază amplasarea"
+
+#: src/Gui/EditAction.qml:11
+msgctxt "@action edit screenshot"
+msgid "Edit…"
+msgstr "Modifică…"
+
+#: src/Gui/CaptureOptions.qml:17
+msgid "Take a new screenshot"
+msgstr "Fă o captură nouă"
+
+#: src/Gui/CaptureOptions.qml:39
+msgctxt "@title:group"
+msgid "Screenshot Settings"
+msgstr "Configurări captură de ecran"
+
+#: src/Gui/ExportMenu.cpp:44
+msgctxt "@title:menu"
+msgid "Export"
+msgstr "Exportă"
+
+#: src/Gui/ExportMenu.cpp:47
+msgid "Open Default Screenshots Folder"
+msgstr "Deschide dosarul implicit pentru capturi"
+
+#: src/Gui/ExportMenu.cpp:133
+msgctxt "@action:button open screenshot in other application"
+msgid "Other Application…"
+msgstr "Altă aplicație…"
+
+#: src/Gui/ExportMenu.cpp:165
+msgid "Share"
+msgstr "Partajează"
+
+#: src/Gui/ExportMenu.cpp:258
+msgctxt "@action:menu"
+msgid "Extract Text by Language"
+msgstr "Extrage text după limbă"
+
+#: src/Gui/ExportMenu.cpp:294
+msgid "OCR engine is not available."
+msgstr "Motorul de recunoaștere optică nu e disponibil."
+
+#: src/Gui/ExportMenu.cpp:302
+msgid "OCR is not available. Please install Tesseract OCR."
+msgstr ""
+"OCR nu e disponibil. Instalați motorul de recunoaștere optică a caracterelor "
+"Tesseract."
+
+#: src/Gui/ExportMenu.cpp:303
+msgid "OCR engine is initializing…"
+msgstr "Motorul de recunoaștere optică se inițializează…"
+
+#: src/Gui/ExportMenu.cpp:313
+msgid "No OCR language data available."
+msgstr "Nu sunt disponibile date lingvistice pentru recunoaștere optică."
+
+#: src/Gui/HelpMenuButton.qml:10
+msgctxt "@action"
+msgid "Help"
+msgstr "Ajutor"
+
+#: src/Gui/CaptureOverlay.qml:149
+msgctxt "@info basic crop tool explanation"
+msgid "Click and drag to make a selection."
+msgstr "Apăsați și trageți pentru a evidenția o regiune."
+
+#: src/Gui/HelpMenu.cpp:40
+msgctxt "@title:menu"
+msgid "Help"
+msgstr "Ajutor"
+
+#: src/Gui/ShortcutsTextBox.qml:13
+msgid "Take Screenshot:"
+msgstr "Fă o captură nouă:"
+
+#: src/Gui/ShortcutsTextBox.qml:15
+msgid "Create new selection rectangle:"
+msgstr "Creează dreptunghi nou de selecție:"
+
+#: src/Gui/ShortcutsTextBox.qml:20
+msgid "Move selection rectangle:"
+msgstr "Mută dreptunghiul de selecție:"
+
+#: src/Gui/ShortcutsTextBox.qml:23
+msgid "Resize selection rectangle:"
+msgstr "Redimensionează dreptunghiul de selecție:"
+
+#: src/Gui/ShortcutsTextBox.qml:26
+msgid "Reset selection:"
+msgstr "Reinițializează selecția:"
+
+#: src/Gui/ShortcutsTextBox.qml:28
+msgid "Cancel:"
+msgstr "Renunță:"
+
+#: src/Gui/ShortcutsTextBox.qml:33
+msgctxt "Mouse action"
+msgid "Release left-click"
+msgstr "Eliberează clicul stâng"
+
+#: src/Gui/ShortcutsTextBox.qml:33
+msgctxt "Mouse action"
+msgid "Double-click"
+msgstr "Dublu-clic"
+
+#: src/Gui/ShortcutsTextBox.qml:34
+msgctxt "Keyboard action"
+msgid "Enter"
+msgstr "Enter"
+
+#: src/Gui/ShortcutsTextBox.qml:35
+msgctxt "Mouse action"
+msgid "Drag outside selection rectangle"
+msgstr "Trage în afara dreptunghiului de selecție"
+
+#: src/Gui/ShortcutsTextBox.qml:37
+msgctxt "Keyboard action"
+msgid "+ Shift: Magnifier"
+msgstr "+ Shift: Lupă"
+
+#: src/Gui/ShortcutsTextBox.qml:40
+msgctxt "Mouse action"
+msgid "Drag inside selection rectangle"
+msgstr "Trage în interiorul dreptunghiului de selecție"
+
+#: src/Gui/ShortcutsTextBox.qml:41
+msgctxt "Keyboard action"
+msgid "Arrow keys"
+msgstr "Tastele săgeți"
+
+#: src/Gui/ShortcutsTextBox.qml:42
+msgctxt "Keyboard action"
+msgid "+ Shift: Move in 1 pixel steps"
+msgstr "+ Shift: Mută cu pas de 1 pixel"
+
+#: src/Gui/ShortcutsTextBox.qml:43
+msgctxt "Mouse action"
+msgid "Drag handles"
+msgstr "Trage mânerele"
+
+#: src/Gui/ShortcutsTextBox.qml:44
+msgctxt "Keyboard action"
+msgid "Arrow keys + Alt"
+msgstr "Tastele săgeți + Alt"
+
+#: src/Gui/ShortcutsTextBox.qml:45
+msgctxt "Keyboard action"
+msgid "+ Shift: Resize in 1 pixel steps"
+msgstr "+ Shift: Redimensionează cu pas de 1 pixel"
+
+#: src/Gui/ShortcutsTextBox.qml:46
+msgctxt "Mouse action"
+msgid "Right-click"
+msgstr "Clic-dreapta"
+
+#: src/Gui/ShortcutsTextBox.qml:48
+msgctxt "Keyboard action"
+msgid "Escape"
+msgstr "Escape"
+
+#: src/Gui/ScreenshotView.qml:196
+msgctxt "@info crop tool explanation"
+msgid ""
+"Click and drag to make a selection.\n"
+"Double click the selection to accept and crop.\n"
+"Right click to clear the selection."
+msgstr ""
+"Apăsați și trageți pentru a efectua selecția.\n"
+"Dublu clic pe selecție pentru a accepta și decupa.\n"
+"Clic drept pentru a anula selecția."
+
+#: src/Gui/OptionsMenu.cpp:38
+msgctxt "@title:menu"
+msgid "Screenshot Settings"
+msgstr "Configurări captură de ecran"
+
+#: src/Gui/OptionsMenu.cpp:40
+msgctxt "@option:check for screenshots"
+msgid "Include mouse pointer"
+msgstr "Include indicatorul mausului"
+
+#: src/Gui/OptionsMenu.cpp:43
+msgctxt "@info:tooltip"
+msgid "Show the mouse cursor in the screenshot image"
+msgstr "Arată cursorul mausului în imaginea capturată"
+
+#: src/Gui/OptionsMenu.cpp:44
+#, fuzzy
+msgctxt "@info:tooltip"
+msgid "niri does not composite the cursor into screenshots"
+msgstr "Arată cursorul mausului în imaginea capturată"
+
+#: src/Gui/OptionsMenu.cpp:52
+msgctxt "@option:check"
+msgid "Include window titlebar and borders"
+msgstr "Include bara de titlu și muchiile ferestrei"
+
+#: src/Gui/OptionsMenu.cpp:53
+msgctxt "@info:tooltip"
+msgid ""
+"Show the window title bar, the minimize/maximize/close buttons, and the "
+"window border"
+msgstr ""
+"Arată bara de titlu, butoanele de minimizare/maximizare/închidere și "
+"conturul ferestrei"
+
+#: src/Gui/OptionsMenu.cpp:61
+msgctxt "@option:check"
+msgid "Include window shadow"
+msgstr "Include umbra ferestrei"
+
+#: src/Gui/OptionsMenu.cpp:62
+msgctxt "@info:tooltip"
+msgid "Show the window shadow"
+msgstr "Arată umbra ferestrei"
+
+#: src/Gui/OptionsMenu.cpp:70
+msgctxt "@option:check"
+msgid "Quit after manual Save or Copy"
+msgstr "Termină după salvare sau copiere manuală"
+
+#: src/Gui/OptionsMenu.cpp:71
+msgctxt "@info:tooltip"
+msgid "Quit Spectacle after manually saving or copying the image"
+msgstr "Termină Spectacle după salvarea sau copierea manuală a imaginii"
+
+#: src/Gui/OptionsMenu.cpp:83
+msgctxt "@option:check"
+msgid "Capture On Click"
+msgstr "Capturează la clic"
+
+#: src/Gui/OptionsMenu.cpp:98
+msgctxt "@label:spinbox"
+msgid "Delay:"
+msgstr "Întârziere:"
+
+#: src/Gui/OptionsMenu.cpp:103
+msgctxt "@item 0 delay special value"
+msgid "No Delay"
+msgstr "Fără întârziere"
+
+#: src/Gui/OptionsMenu.cpp:122
+msgctxt "@title:menu"
+msgid "Recording Settings"
+msgstr "Configurări înregistrare"
+
+#: src/Gui/OptionsMenu.cpp:124
+msgctxt "@option:check for recordings"
+msgid "Include mouse pointer"
+msgstr "Include indicatorul mausului"
+
+#: src/Gui/OptionsMenu.cpp:125
+msgctxt "@info:tooltip"
+msgid "Show the mouse cursor in the recording"
+msgstr "Arată cursorul mausului pe înregistrare"
+
+#: src/Gui/OptionsMenu.cpp:133
+msgctxt "@option:check for recordings"
+msgid "Record system audio"
+msgstr ""
+
+#: src/Gui/OptionsMenu.cpp:134
+msgctxt "@info:tooltip"
+msgid ""
+"Include the audio that is currently playing on the system in the recording"
+msgstr ""
+
+#: src/Gui/OptionsMenu.cpp:142
+#, fuzzy
+msgctxt "@option:check for recordings"
+msgid "Record microphone"
+msgstr "Înregistrează ecran"
+
+#: src/Gui/OptionsMenu.cpp:143
+msgctxt "@info:tooltip"
+msgid "Include audio from the default microphone in the recording"
+msgstr ""
+
+#: src/Gui/RecordingModeMenu.cpp:17
+msgctxt "@title:menu"
+msgid "Recording Modes"
+msgstr "Regimuri de înregistrare"
+
+#: src/Gui/RecordingSettingsColumn.qml:22
+#, fuzzy
+msgctxt "@option:check"
+msgid "Include mouse pointer"
+msgstr "Include indicatorul mausului"
+
+#: src/Gui/RecordingSettingsColumn.qml:23
+#, fuzzy
+msgctxt "@info:tooltip"
+msgid "Show the mouse cursor in the screen recording."
+msgstr "Arată cursorul mausului în înregistrarea ecranului."
+
+#: src/Gui/RecordingSettingsColumn.qml:32
+msgctxt "@option:check"
+msgid "Record system audio"
+msgstr ""
+
+#: src/Gui/RecordingSettingsColumn.qml:33
+msgctxt "@info:tooltip"
+msgid ""
+"Include the audio that is currently playing on the system in the recording."
+msgstr ""
+
+#: src/Gui/RecordingSettingsColumn.qml:45
+#, fuzzy
+msgctxt "@option:check"
+msgid "Record microphone"
+msgstr "Înregistrează ecran"
+
+#: src/Gui/RecordingSettingsColumn.qml:46
+msgctxt "@info:tooltip"
+msgid "Include audio from the default microphone in the recording."
+msgstr ""
+
+#: src/Gui/RecordingSettingsColumn.qml:57
+msgctxt "@info"
+msgid "The selected video format does not support audio."
+msgstr ""
+
+#: src/Gui/RecordingView.qml:90
+msgctxt "Recording in progress, %1 is the length of the recording so far"
+msgid ""
+"Recording:\n"
+"%1"
+msgstr ""
+"Înregistrare:\n"
+"%1"
+
+#: src/Gui/RecordingView.qml:129
+msgid "Pause"
+msgstr "Întrerupe"
+
+#: src/Gui/RecordingView.qml:129
+msgid "Play"
+msgstr "Redă"
+
+#: src/Gui/SaveAction.qml:13
+msgctxt "@action"
+msgid "Save"
+msgstr "Salvează"
+
+#: src/Gui/ScreenshotModeMenu.cpp:17
+msgctxt "@title:menu"
+msgid "Screenshot Modes"
+msgstr "Regimuri de captură"
+
+#: src/Gui/FontPopup.qml:54
+#, fuzzy
+msgid "Font"
+msgstr "Font:"
+
+#: src/Gui/FontPopup.qml:69
+msgid "Size"
+msgstr ""
+
+#: src/Gui/FontPopup.qml:82
+msgid "Bold"
+msgstr ""
+
+#: src/Gui/FontPopup.qml:86
+msgid "Italic"
+msgstr ""
+
+#: src/Gui/FontPopup.qml:94 src/Gui/ColorPopup.qml:292
+#, fuzzy
+msgid "Cancel"
+msgstr "Renunță"
+
+#: src/Gui/FontPopup.qml:99 src/Gui/ColorPopup.qml:297
+msgid "Apply"
+msgstr ""
+
+#: src/Gui/SaveAsAction.qml:9
+msgctxt "@action"
+msgid "Save As…"
+msgstr "Salvează ca…"
+
+#: src/Gui/ScreenshotModeMenuButton.qml:11
+msgctxt "@action select new screenshot mode"
+msgid "New Screenshot"
+msgstr "Captură nouă"
+
+#: src/Gui/UndoRedoGroup.qml:31
+msgid "Undo"
+msgstr "Desfă"
+
+#: src/Gui/UndoRedoGroup.qml:42
+msgid "Redo"
+msgstr "Refă"
+
+#: src/Gui/DialogPage.qml:53
+#, fuzzy
+msgid "Configure NekoShot…"
+msgstr "Configurează Spectacle…"
+
+#: src/Gui/DialogPage.qml:61
+msgid "Help"
+msgstr "Ajutor"
+
+#: src/Gui/DialogPage.qml:80
+msgctxt "@title:group"
+msgid "Take a Screenshot:"
+msgstr "Face o captură:"
+
+#: src/Gui/DialogPage.qml:95 src/Gui/DialogPage.qml:136
+msgctxt "@title:group"
+msgid "Options"
+msgstr "Opțiuni"
+
+#: src/Gui/DialogPage.qml:121
+msgctxt "@title:group"
+msgid "Make a Recording:"
+msgstr "Face o înregistrare:"
+
+#: src/Gui/DialogPage.qml:162
+msgctxt "@title:tab"
+msgid "Screenshot"
+msgstr "Captură de ecran"
+
+#: src/Gui/DialogPage.qml:168
+msgctxt "@title:tab"
+msgid "Recording"
+msgstr "Înregistrare"
+
+#: src/Gui/DialogPage.qml:171 src/Gui/RecordingModeMenuButton.qml:18
+msgctxt "@info:tooltip"
+msgid "This feature is not supported on the current platform"
+msgstr "Această caracteristică nu e permisă pe platforma actuală"
+
+#: src/Gui/SmartSpinBox.cpp:30
+msgctxt "Integer number of seconds"
+msgid " second"
+msgid_plural " seconds"
+msgstr[0] " secundă"
+msgstr[1] " secunde"
+msgstr[2] " de secunde"
+
+#: src/Gui/SmartSpinBox.cpp:32
+msgctxt "Decimal number of seconds"
+msgid " seconds"
+msgstr " secunde"
+
+#: src/Gui/ExportMenuButton.qml:13
+msgctxt "@action"
+msgid "Export"
+msgstr "Exportă"
+
+#: src/Gui/ViewerWindow.cpp:53
+msgctxt "@info, %1 is the error message"
+msgid "There was a problem sharing the image: %1"
+msgstr "A intervenit o problemă cu partajarea imaginii: %1"
+
+#: src/Gui/CaptureSettingsColumn.qml:17
+msgid "Include mouse pointer"
+msgstr "Include indicatorul mausului"
+
+#: src/Gui/CaptureSettingsColumn.qml:20
+msgid "Show the mouse cursor in the screenshot image."
+msgstr "Arată cursorul mausului în imaginea capturată."
+
+#: src/Gui/CaptureSettingsColumn.qml:21
+#, fuzzy
+msgid "niri does not composite the cursor into screenshots."
+msgstr "Arată cursorul mausului în imaginea capturată."
+
+#: src/Gui/CaptureSettingsColumn.qml:30
+msgid "Include window titlebar and borders"
+msgstr "Include bara de titlu și muchiile ferestrei"
+
+#: src/Gui/CaptureSettingsColumn.qml:31
+msgid ""
+"Show the window title bar and border when taking a screenshot of a window."
+msgstr "Arată bara de titlu și conturul la capturarea unei ferestre."
+
+#: src/Gui/CaptureSettingsColumn.qml:40
+msgid "Include window shadow"
+msgstr "Include umbra ferestrei"
+
+#: src/Gui/CaptureSettingsColumn.qml:41
+msgid "Show the window shadow when taking a screenshot of a window."
+msgstr "Arată umbra ferestrei la capturarea unei ferestre."
+
+#: src/Gui/CaptureSettingsColumn.qml:51
+msgid "Quit after manual Save or Copy"
+msgstr "Termină după salvare sau copiere manuală"
+
+#: src/Gui/CaptureSettingsColumn.qml:52
+msgid "Quit Spectacle after manually saving or copying the image."
+msgstr "Termină Spectacle după salvarea sau copierea manuală a imaginii."
+
+#: src/Gui/CaptureSettingsColumn.qml:61
+msgid "Capture on click"
+msgstr "Capturează la clic"
+
+#: src/Gui/CaptureSettingsColumn.qml:63
+msgid "Wait for a mouse click before capturing the screenshot image."
+msgstr "Așteaptă un clic de maus înainte de a captura imaginea."
+
+#: src/Gui/CaptureSettingsColumn.qml:74
+msgid "Delay:"
+msgstr "Întârziere:"
+
+#: src/Gui/DelaySpinBox.qml:15
+msgctxt "0 second delay"
+msgid "No Delay"
+msgstr "Fără întârziere"
+
+#: src/Gui/DelaySpinBox.qml:24
+msgctxt "Integer number of seconds"
+msgid "%2 second"
+msgid_plural "%2 seconds"
+msgstr[0] "%2 secundă"
+msgstr[1] "%2 secunde"
+msgstr[2] "%2 de secunde"
+
+#: src/Gui/DelaySpinBox.qml:26
+msgctxt "Decimal number of seconds"
+msgid "%1 seconds"
+msgstr "%1 secunde"
+
+#: src/Gui/OcrAction.qml:15
+msgctxt "@action"
+msgid "Extract Text"
+msgstr "Extrage text"
+
+#: src/Gui/RecordingModeMenuButton.qml:12
+msgctxt "@action select new recording mode"
+msgid "New Recording"
+msgstr "Înregistrare nouă"
+
+#: src/Gui/SizeLabel.qml:13
+msgctxt "Size, width×height"
+msgid "%1×%2"
+msgstr "%1×%2"
+
+#: src/Gui/ViewerPage.qml:228
+msgid "Zoom:"
+msgstr "Apropiere:"
+
+#: src/Gui/ViewerPage.qml:242
+msgid "Image Zoom"
+msgstr "Apropiere imagine"
+
+#: src/Gui/SpectacleWindow.cpp:170
+msgctxt "@title:window"
+msgid "%1 second"
+msgid_plural "%1 seconds"
+msgstr[0] "%1 secundă"
+msgstr[1] "%1 secunde"
+msgstr[2] "%1 de secunde"
+
+#: src/Gui/SpectacleWindow.cpp:173
+msgctxt "@title:window Unsaved Screenshot"
+msgid "Unsaved"
+msgstr "Nesalvat"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:88
+msgid "Stroke:"
+msgstr "Cursă:"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:120
+#, c-format
+msgctxt "px: pixels"
+msgid "%1px"
+msgid_plural "%1px"
+msgstr[0] "%1px"
+msgstr[1] "%1px"
+msgstr[2] "%1px"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:125
+msgid "Stroke Width"
+msgstr "Lățimea cursei"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:158 src/Gui/ColorPopup.qml:44
+msgid "Stroke Color"
+msgstr "Culoarea cursei"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:192
+msgid "Fill:"
+msgstr "Umplere:"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:204 src/Gui/ColorPopup.qml:45
+msgid "Fill Color"
+msgstr "Culoare umplere"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:241
+msgctxt "@label:slider strength of effect"
+msgid "Strength:"
+msgstr "Intensitate:"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:260
+msgctxt "@info:tooltip"
+msgid "The strength of the effect."
+msgstr "Intensitatea efectului."
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:287
+msgid "Font:"
+msgstr "Font:"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:301
+msgctxt "%2 font family, %3 font style name, %1 font point size"
+msgid "%2 %3 %1pt"
+msgid_plural "%2 %3 %1pts"
+msgstr[0] "%2 %3 %1pt"
+msgstr[1] "%2 %3 %1pt"
+msgstr[2] "%2 %3 %1pt"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:302
+msgctxt "%2 font family %1 font point size"
+msgid "%2 %1pt"
+msgid_plural "%2 %1pts"
+msgstr[0] "%2 %1pt"
+msgstr[1] "%2 %1pt"
+msgstr[2] "%2 %1pt"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:314
+msgid "Font Color"
+msgstr "Culoare font"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:351
+msgid "Number:"
+msgstr "Număr:"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:370
+msgid "Number for number annotations"
+msgstr "Numărul pentru adnotări cu număr"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:398
+msgid "Shadow"
+msgstr "Umbră"
+
+#: src/Gui/AnnotationsToolBarContents.qml:109
+msgctxt "@action:intoolbar no tool, to allow dragging"
+msgid "None"
+msgstr "Niciuna"
+
+#: src/Gui/AnnotationsToolBarContents.qml:121
+msgctxt "@action:intoolbar crop image tool"
+msgid "Crop"
+msgstr "Decupează"
+
+#: src/Gui/AnnotationsToolBarContents.qml:128
+msgctxt "@action:intoolbar select annotation tool"
+msgid "Select"
+msgstr "Alege"
+
+#: src/Gui/AnnotationsToolBarContents.qml:137
+msgctxt "@action:intoolbar freehand line tool"
+msgid "Freehand"
+msgstr "Linie liberă"
+
+#: src/Gui/AnnotationsToolBarContents.qml:138
+msgctxt "@info:tooltip"
+msgid "Shift: Snap to straight lines"
+msgstr "Shift: Limitează la linii drepte"
+
+#: src/Gui/AnnotationsToolBarContents.qml:145
+msgctxt "@action:intoolbar highlighter line tool"
+msgid "Highlighter"
+msgstr "Evidențiator"
+
+#: src/Gui/AnnotationsToolBarContents.qml:154
+msgctxt "@action:intoolbar straight line tool"
+msgid "Line"
+msgstr "Linie"
+
+#: src/Gui/AnnotationsToolBarContents.qml:155
+msgctxt "@info:tooltip"
+msgid "Shift: Snap to 45 degree increments"
+msgstr "Shift: Limitează la pas de 45 de grade"
+
+#: src/Gui/AnnotationsToolBarContents.qml:162
+msgctxt "@action:intoolbar arrow line tool"
+msgid "Arrow"
+msgstr "Săgeată"
+
+#: src/Gui/AnnotationsToolBarContents.qml:171
+msgctxt "@action:intoolbar rectangle tool"
+msgid "Rectangle"
+msgstr "Dreptunghi"
+
+#: src/Gui/AnnotationsToolBarContents.qml:173
+msgctxt "@info:tooltip"
+msgid ""
+"Shift: Snap to diagonal movements\n"
+"Control: Resize from center"
+msgstr ""
+"Shift: Limitează la mișcări diagonale\n"
+"Control: Redimensionează de la centru"
+
+#: src/Gui/AnnotationsToolBarContents.qml:180
+msgctxt "@action:intoolbar ellipse tool"
+msgid "Ellipse"
+msgstr "Elipsă"
+
+#: src/Gui/AnnotationsToolBarContents.qml:188
+msgctxt "@action:intoolbar pixelate tool"
+msgid "Pixelate"
+msgstr "Pixelează"
+
+#: src/Gui/AnnotationsToolBarContents.qml:196
+msgctxt "@action:intoolbar blur tool"
+msgid "Blur"
+msgstr "Încețoșează"
+
+#: src/Gui/AnnotationsToolBarContents.qml:204
+msgctxt "@action:intoolbar text tool"
+msgid "Text"
+msgstr "Text"
+
+#: src/Gui/AnnotationsToolBarContents.qml:211
+msgctxt "@action:intoolbar number stamp tool"
+msgid "Number"
+msgstr "Număr"
+
+#: src/Gui/InlineMessageList.qml:129
+msgctxt "@action:button"
+msgid "Open Containing Folder"
+msgstr "Deschide dosarul conținător"
+
+#: src/Gui/InlineMessageList.qml:139
+msgctxt "@action:button"
+msgid "Copy to Clipboard"
+msgstr "Copiază în clipboard"
+
+#: src/Gui/InlineMessageList.qml:149
+msgctxt "@action:button close inline notification"
+msgid "Close"
+msgstr "Închide"
+
+#: src/Gui/ColorPopup.qml:46
+#, fuzzy
+msgid "Text Color"
+msgstr "Culoare font"
+
+#: src/Gui/ColorPopup.qml:47
+#, fuzzy
+msgid "Color"
+msgstr "Culoare umplere"
+
+#: src/Gui/ColorPopup.qml:241
+msgid "Alpha"
+msgstr ""
+
+#: src/Gui/ColorPopup.qml:264
+msgid "Hex"
+msgstr ""
+
+#: src/Platforms/VideoPlatformWayland.cpp:165
+msgctxt "@info"
+msgid "KWin Screencasting is not available."
+msgstr "Difuzarea ecranului KWin nu e disponibilă."
+
+#: src/Platforms/VideoPlatformWayland.cpp:179
+msgctxt "@info:shell"
+msgid "Failed to record: File URL is not a local file"
+msgstr ""
+"Înregistrarea a eșuat: URL-ul pentru fișier nu indică spre fișier local"
+
+#: src/Platforms/VideoPlatformWayland.cpp:279
+msgctxt "@info"
+msgid ""
+"The stream closed because the target screen changed in a way that disrupted "
+"the recording."
+msgstr ""
+"Fluxul s-a închis deoarece ecranul-țintă s-a modificat într-un mod ce a "
+"deranjat înregistrarea."
+
+#: src/Platforms/VideoPlatformWayland.cpp:283
+msgctxt "@info"
+msgid ""
+"The stream closed because the target window changed in a way that disrupted "
+"the recording."
+msgstr ""
+"Fluxul s-a închis deoarece fereastra-țintă s-a modificat într-un mod ce a "
+"deranjat înregistrarea."
+
+#: src/Platforms/VideoPlatformWayland.cpp:287
+msgctxt "@info"
+msgid ""
+"The stream closed because a screen containing the target region changed in a "
+"way that disrupted the recording."
+msgstr ""
+"Fluxul s-a închis deoarece un ecran ce conținea regiunea-țintă s-a modificat "
+"într-un mod ce a deranjat înregistrarea."
+
+#: src/Platforms/VideoPlatformWayland.cpp:303
+msgctxt "@info:shell, %1 is the temporary URL"
+msgid "Failed to record: Temporary file URL is not a local file (%1)"
+msgstr ""
+"Înregistrarea a eșuat: URL-ul pentru fișier temporar nu e fișier local (%1)"
+
+#: src/Platforms/VideoPlatformWayland.cpp:314
+msgctxt "@info:shell, %1 is the output file URL"
+msgid "Failed to record: Output file URL is not a local file (%1)"
+msgstr ""
+"Înregistrarea a eșuat: URL-ul pentru fișier de ieșire nu e fișier local (%1)"
+
+#: src/Platforms/VideoPlatformWayland.cpp:381
+msgctxt "@info:shell, %1 is a directory path"
+msgid "Failed to record: Unable to create folder (%1)"
+msgstr "Înregistrarea a eșuat: Dosarul nu poate fi creat (%1)"
+
+#: src/Platforms/VideoPlatformWayland.cpp:409
+msgctxt "@info:shell"
+msgid "Screen recording canceled"
+msgstr "Înregistrare ecran anulată"
+
+#: src/Platforms/VideoPlatformWayland.cpp:411
+msgctxt "@info:shell"
+msgid "Window recording canceled"
+msgstr "Înregistrare fereastră anulată"
+
+#: src/Platforms/VideoPlatformWayland.cpp:417
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to select screen: %1"
+msgstr "Alegerea ecranului a eșuat: %1"
+
+#: src/Platforms/VideoPlatformWayland.cpp:419
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to select window: %1"
+msgstr "Alegerea ferestrei a eșuat: %1"
+
+#: src/Platforms/VideoPlatformWayland.cpp:447
+msgctxt "@info:shell"
+msgid "Failed to select screen: No screen contained the mouse cursor position"
+msgstr ""
+"Alegerea ecranului a eșuat: Niciun ecran nu conținea poziția cursorului"
+
+#: src/Platforms/VideoPlatformWayland.cpp:454
+msgctxt "@info:shell"
+msgid "Failed to select window: No window found"
+msgstr "Alegerea ferestrei a eșuat: Nicio fereastră găsită"
+
+#: src/Platforms/ImagePlatformKWin.cpp:73
+msgctxt "@info, %1 is the width"
+msgid "Bad width for KWin screenshot: %1"
+msgstr "Lățime eronată pentru captura KWin: %1"
+
+#: src/Platforms/ImagePlatformKWin.cpp:78
+msgctxt "@info, %1 is the height"
+msgid "Bad height for KWin screenshot: %1"
+msgstr "Înălțime eronată pentru captura KWin: %1"
+
+#: src/Platforms/ImagePlatformKWin.cpp:89
+msgctxt "@info, %1 is a file format like 'png', 'jpg'"
+msgid "Bad format for KWin screenshot: %1"
+msgstr "Format eronat pentru captura KWin: %1"
+
+#: src/Platforms/ImagePlatformKWin.cpp:107
+msgctxt "@info"
+msgid "Could not open file descriptor for reading KWin screenshot."
+msgstr ""
+"Nu s-a putut deschide descriptorul de fișier pentru citirea capturii KWin."
+
+#: src/Platforms/ImagePlatformKWin.cpp:177
+msgctxt "@info, %1 is an error code"
+msgid "pipe2() failed for KWin screenshot: %1"
+msgstr "pipe2() a eșuat pentru captura KWin: %1"
+
+#: src/Platforms/ImagePlatformKWin.cpp:233
+msgctxt "@info, %1 is an error message"
+msgid ""
+"KWin screenshot request failed:\n"
+"%1"
+msgstr ""
+"Cererea de captură de la KWin a eșuat:\n"
+"%1"
+
+#: src/Platforms/ImagePlatformKWin.cpp:235
+msgctxt "@info"
+msgid ""
+"Potentially relevant information:\n"
+"%1"
+msgstr ""
+"Informații potențial utile:\n"
+"%1"
+
+#: src/Platforms/ImagePlatformKWin.cpp:243
+msgctxt "@info"
+msgid "Unsupported KWin screenshot type metadata: %1"
+msgstr "Tip nesusținut de metadate pentru captura KWin: %1"
+
+#: src/Platforms/ImagePlatformNiri.cpp:115
+#, fuzzy
+msgid "Failed to capture the window"
+msgstr "Alegerea ferestrei a eșuat: %1"
+
+#: src/Platforms/ImagePlatformNiri.cpp:159
+#, fuzzy
+msgid "Unsupported capture mode"
+msgstr "Folosește ultimul regim de captură folosit"
+
+#: src/Platforms/ImagePlatformNiri.cpp:190
+msgid "No focused window"
+msgstr ""
+
+#: src/Platforms/ImagePlatformNiri.cpp:209
+msgid "No outputs found"
+msgstr ""
+
+#: src/Platforms/ImagePlatformNiri.cpp:215
+msgid "No focused output found"
+msgstr ""
+
+#: src/Platforms/ImagePlatformNiri.cpp:229
+#, fuzzy
+msgid "Failed to capture the screen"
+msgstr "Alegerea ecranului a eșuat: %1"
+
+#: src/Platforms/PlatformLoader.cpp:120
+msgid "wf-recorder is not installed"
+msgstr ""
+
+#: src/Platforms/PlatformLoader.cpp:127
+msgctxt "@info"
+msgid "Screen recording is not available on X11."
+msgstr "Înregistrarea ecranului nu e disponibilă pe X11."
+
+#: src/Platforms/VideoPlatformNiri.cpp:197
+msgid "gst-launch-1.0 is not installed"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:200
+msgid "gst-inspect-1.0 is not installed"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:218
+msgid "missing GStreamer elements: %1"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:287
+msgid "missing GStreamer elements: mp4mux"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:291
+msgid "missing GStreamer elements: vah264enc+h264parse or x264enc"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:297
+msgid "H.265/HEVC requires vah265enc, h265parse and mp4mux"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:302
+msgid "AV1 requires vaav1enc, av1parse and mp4mux"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:306
+msgid "the video format is not supported"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:356
+msgid "missing GStreamer audio elements: %1"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:432
+#, fuzzy
+msgid "the D-Bus session bus is not available"
+msgstr "Motorul de recunoaștere optică nu e disponibil."
+
+#: src/Platforms/VideoPlatformNiri.cpp:500
+#: src/Platforms/VideoPlatformNiri.cpp:1241
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to record: could not start the window picker: %1"
+msgstr "Înregistrarea a eșuat: Dosarul nu poate fi creat (%1)"
+
+#: src/Platforms/VideoPlatformNiri.cpp:518
+msgctxt "@info:shell, %1 is a process exit code"
+msgid "gst-launch-1.0 exited with code %1."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:520
+msgctxt "@info:shell, %1 is a process exit code"
+msgid "wf-recorder exited with code %1."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:917
+msgctxt "@info:shell"
+msgid "Recording canceled: no recording mode"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:921
+msgctxt "@info:shell"
+msgid "Failed to record: unsupported recording mode."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:925
+#: src/Platforms/VideoPlatformNiri.cpp:929
+#: src/Platforms/VideoPlatformNiri.cpp:1322
+#, fuzzy
+msgid "A recording is already starting"
+msgstr "Configurări înregistrare"
+
+#: src/Platforms/VideoPlatformNiri.cpp:936
+#: src/Platforms/VideoPlatformNiri.cpp:1083
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to record: window recording is unavailable: %1."
+msgstr "Înregistrarea ecranului nu e disponibilă pe X11."
+
+#: src/Platforms/VideoPlatformNiri.cpp:946
+#, fuzzy
+msgctxt "@info:shell"
+msgid "Failed to record: the output file URL is not a local file."
+msgstr ""
+"Înregistrarea a eșuat: URL-ul pentru fișier de ieșire nu e fișier local (%1)"
+
+#: src/Platforms/VideoPlatformNiri.cpp:962
+msgctxt "@info:shell, %1 is a file path"
+msgid "Failed to record: the video format of %1 is not supported."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:964
+msgctxt "@info:shell"
+msgid "Failed to record: the selected video format is not supported."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:971
+#, fuzzy
+msgid "Recording format changed"
+msgstr "Configurări înregistrare"
+
+#: src/Platforms/VideoPlatformNiri.cpp:973
+#, fuzzy
+msgid "WebM/VP9"
+msgstr "WebM/VP9"
+
+#: src/Platforms/VideoPlatformNiri.cpp:974
+#, fuzzy
+msgid "MP4/H.265"
+msgstr "MP4/H.264"
+
+#: src/Platforms/VideoPlatformNiri.cpp:975
+msgid "MP4/AV1"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:976
+#, fuzzy
+msgid "MP4/H.264"
+msgstr "MP4/H.264"
+
+#: src/Platforms/VideoPlatformNiri.cpp:972
+msgid ""
+"The selected format is not available for window recording; using %1 instead."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:992
+#, fuzzy
+msgctxt "@info:shell"
+msgid "Failed to record: unable to create a temporary output file."
+msgstr "Înregistrarea a eșuat: Dosarul nu poate fi creat (%1)"
+
+#: src/Platforms/VideoPlatformNiri.cpp:998
+#, fuzzy
+msgctxt "@info:shell, %1 is a directory path"
+msgid "Failed to record: unable to create folder (%1)."
+msgstr "Înregistrarea a eșuat: Dosarul nu poate fi creat (%1)"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1057
+#: src/Platforms/VideoPlatformNiri.cpp:1101
+#, fuzzy
+msgctxt "@info:shell"
+msgid "Failed to record: niri did not report a focused output."
+msgstr ""
+"Înregistrarea a eșuat: URL-ul pentru fișier nu indică spre fișier local"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1059
+#: src/Platforms/VideoPlatformNiri.cpp:1103
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to record: %1"
+msgstr "Alegerea ecranului a eșuat: %1"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1066
+#: src/Platforms/VideoPlatformNiri.cpp:1361
+#, fuzzy
+msgid "Failed to record: the screen connector is empty."
+msgstr "Înregistrarea a eșuat: Dosarul nu poate fi creat (%1)"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1113
+msgctxt "@info:shell"
+msgid "Failed to record: the recording region is empty."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1136
+msgid ""
+"Failed to record: wf-recorder does not support the selected video format."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1141
+msgid ""
+"Failed to record: HEVC region recording requires the libx265 encoder in wf-"
+"recorder."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1145
+msgid ""
+"Failed to record: AV1 region recording requires the libaom-av1 encoder in wf-"
+"recorder."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1149
+msgid ""
+"Failed to record: H.264 region recording requires the libx264 encoder in wf-"
+"recorder."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1153
+msgid ""
+"Failed to record: VP9 region recording requires the libvpx-vp9 encoder in wf-"
+"recorder."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1162
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to start wf-recorder: %1"
+msgstr "Alegerea ecranului a eșuat: %1"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1183
+#: src/Platforms/VideoPlatformNiri.cpp:1284
+msgid "Recording canceled: no window selected."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1191
+msgid "Recording canceled: the screencast stream did not start."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1247
+msgid "Recording canceled: no window was selected."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1271
+msgctxt "@info:shell, %1 is a process exit code"
+msgid "The window picker exited with code %1."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1327
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to record: screencast recording is unavailable: %1."
+msgstr "Înregistrarea ecranului nu e disponibilă pe X11."
+
+#: src/Platforms/VideoPlatformNiri.cpp:1331
+msgid ""
+"Failed to record: this video format is not supported for screencast "
+"recording."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1336
+#: src/Platforms/VideoPlatformNiri.cpp:1341
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to record: %1."
+msgstr "Alegerea ecranului a eșuat: %1"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1353
+msgid "No window selected to record"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1367
+msgid ""
+"Failed to record: screencast recording only supports screen, window and "
+"region modes."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1384
+#: src/Platforms/VideoPlatformNiri.cpp:1396
+#: src/Platforms/VideoPlatformNiri.cpp:1420
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to start screencast recording: %1"
+msgstr "Alegerea ecranului a eșuat: %1"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1390
+msgid ""
+"Failed to start screencast recording: niri returned an empty screencast "
+"session."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1401
+msgid ""
+"Failed to start screencast recording: niri returned an empty screencast "
+"stream."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1410
+msgid ""
+"Failed to start screencast recording: could not subscribe to the screencast "
+"stream signal."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1414
+msgid ""
+"Failed to start screencast recording: could not subscribe to the screencast "
+"session signal."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1425
+msgid ""
+"Failed to start screencast recording: the niri screencast session was closed."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1440
+msgid "Timed out waiting for the PipeWire stream"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1474
+#: src/Platforms/VideoPlatformNiri.cpp:1500
+msgid ""
+"Failed to start screencast recording: the stream format is not supported."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1479
+#: src/Platforms/VideoPlatformNiri.cpp:1485
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to start screencast recording: %1."
+msgstr "Alegerea ecranului a eșuat: %1"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1517
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to start gst-launch-1.0: %1"
+msgstr "Alegerea ecranului a eșuat: %1"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1592
+msgid "Failed to record: the niri screencast session was closed."
+msgstr ""
+
+#: src/Gui/SettingsDialog/SaveOptionsUtils.h:40
+msgctxt "@info"
+msgid "<filename>%1</filename>"
+msgstr "<filename>%1</filename>"
+
+#: src/Gui/SettingsDialog/SaveOptionsUtils.h:72
+msgid ""
+"You can use the following placeholders in the filename, which will be "
+"replaced with actual text when the file is saved:"
+msgstr ""
+"Puteți folosi următorii substituenți în denumirea fișierului, ce vor fi "
+"înlocuiți cu textul real la salvarea fișierului:"
+
+#: src/Gui/SettingsDialog/SaveOptionsUtils.h:87
+msgid "To save to a sub-folder"
+msgstr "Pentru a salva în subdosar"
+
+#: src/Gui/SettingsDialog/SaveOptionsUtils.h:90
+msgctxt "show fewer filename placeholder templates"
+msgid "Show Fewer"
+msgstr "Arată mai puține"
+
+#: src/Gui/SettingsDialog/SaveOptionsUtils.h:92
+msgctxt "show more filename placeholder templates"
+msgid "Show More"
+msgstr "Arată mai mult"
+
+#: src/Gui/SettingsDialog/VideoSaveOptionsPage.cpp:35
+msgid "Quality:"
+msgstr ""
+
+#: src/Gui/SettingsDialog/VideoSaveOptionsPage.cpp:37
+msgid "Low (smaller files)"
+msgstr ""
+
+#: src/Gui/SettingsDialog/VideoSaveOptionsPage.cpp:38
+msgid "Medium"
+msgstr ""
+
+#: src/Gui/SettingsDialog/VideoSaveOptionsPage.cpp:39
+msgid "High (larger files)"
+msgstr ""
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:37
+msgctxt "Settings category"
+msgid "General"
+msgstr "Generale"
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:38
+msgctxt "Settings category"
+msgid "Image Saving"
+msgstr "Salvare imagine"
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:39
+msgctxt "Settings category"
+msgid "Video Saving"
+msgstr "Salvare video"
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:40
+msgctxt "Settings category"
+msgid "Shortcuts"
+msgstr "Scurtături"
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:104
+msgid "Shortcuts"
+msgstr "Scurtături"
+
+#, kde-format
+#~ msgctxt "translatable folder name"
+#~ msgid "Screenshots"
+#~ msgstr "Capturi de ecran"
+
+#, kde-format
+#~ msgctxt "part of default image filename template"
+#~ msgid "Screenshot"
+#~ msgstr "Captură de ecran"
+
+#, kde-format
+#~ msgctxt "translatable folder name"
+#~ msgid "Screencasts"
+#~ msgstr "Înregistrări de ecran"
+
+#, kde-format
+#~ msgctxt "part of default video filename template"
+#~ msgid "Screencast"
+#~ msgstr "Înregistrare de ecran"
+
+#, kde-format
+#~ msgid "When launching Spectacle:"
+#~ msgstr "La lansarea Spectacle:"
+
+#, kde-format
+#~ msgid "Take rectangular screenshot"
+#~ msgstr "Fă o captură dreptunghiulară"
+
+#, kde-format
+#~ msgid "Take full screen screenshot"
+#~ msgstr "Fă o captură a întregului ecran"
+
+#, kde-format
+#~ msgid "Do not take a screenshot automatically"
+#~ msgstr "Nu fă captura automat"
+
+#, kde-format
+#~ msgid "After taking a screenshot:"
+#~ msgstr "După preluarea capturii:"
+
+#, kde-format
+#~ msgid "Save file to default folder"
+#~ msgstr "Salvează fișierul în dosarul implicit"
+
+#, kde-format
+#~ msgid "Do not copy anything"
+#~ msgstr "Nu copia nimic"
+
+#, kde-format
+#~ msgid "Copy image to clipboard"
+#~ msgstr "Copiază imaginea în clipboard"
+
+#, kde-format
+#~ msgid "Copy file location to clipboard"
+#~ msgstr "Copiază amplasarea fișierului în clipboard"
+
+#, kde-format
+#~ msgid "While Spectacle is running"
+#~ msgstr "În timp ce Spectacle rulează"
+
+#, kde-format
+#~ msgid "Press screenshot key to:"
+#~ msgstr "Apasă tasta de capturare pentru a:"
+
+#, kde-format
+#~ msgid "Take a new Screenshot"
+#~ msgstr "Face o captură nouă"
+
+#, kde-format
+#~ msgid "Open a new Spectacle window"
+#~ msgstr "Deschide o fereastră Spectacle nouă"
+
+#, kde-format
+#~ msgid "Return focus to Spectacle"
+#~ msgstr "Întoarce focalizarea către Spectacle"
+
+#, kde-format
+#~ msgid "Rectangular Region Selection"
+#~ msgstr "Selecție cu regiune dreptunghiulară"
+
+#, kde-format
+#~ msgid "General:"
+#~ msgstr "Generale:"
+
+#, kde-format
+#~ msgid "Use light background"
+#~ msgstr "Folosește fundal deschis"
+
+#, kde-format
+#~ msgid "Accept on click-and-release"
+#~ msgstr "Acceptă la apăsare-și-eliberare"
+
+#, kde-format
+#~ msgid "Show magnifier:"
+#~ msgstr "Arată lupa:"
+
+#, kde-format
+#~ msgid "Never"
+#~ msgstr "Niciodată"
+
+#, kde-format
+#~ msgid "Always"
+#~ msgstr "Întotdeauna"
+
+#, kde-format
+#~ msgid "While holding Shift"
+#~ msgstr "Cât e ținută Shift"
+
+#, kde-format
+#~ msgid "Remember selected area:"
+#~ msgstr "Ține minte zona aleasă:"
+
+#, kde-format
+#~ msgid "Until Spectacle is closed"
+#~ msgstr "Până la închiderea Spectacle"
+
+#, kde-format
+#~ msgid "Text Recognition (OCR)"
+#~ msgstr "Recunoașterea textului (OCR)"
+
+#, kde-format
+#~ msgid "Languages for OCR:"
+#~ msgstr "Limbi pentru OCR:"
+
+#, kde-format
+#~ msgid "Text extraction:"
+#~ msgstr "Extragerea textului:"
+
+#, kde-format
+#~ msgid "Close after extraction (skips auto-save)"
+#~ msgstr "Închide după extragere (sare peste salvarea automată)"
+
+#, kde-format
+#~ msgid ""
+#~ "Spectacle will close after text extraction and automatic saving will be "
+#~ "skipped."
+#~ msgstr ""
+#~ "Spectacle se va închide după extragerea textului și se va sări peste "
+#~ "salvarea automată."
+
+#, kde-format
+#~ msgid "OCR functionality is not available"
+#~ msgstr "Funcționalitatea de recunoaștere optică a textului nu e disponibilă"
+
+#, kde-format
+#~ msgid ""
+#~ "Please install the required packages:\n"
+#~ "• tesseract\n"
+#~ "• tesseract language data (e.g., tesseract-ocr-eng for English)"
+#~ msgstr ""
+#~ "Instalați pachetele necesare:\n"
+#~ "• tesseract\n"
+#~ "• pachetele lingvistice tesseract (de exemplu, tesseract-ocr-ron pentru "
+#~ "română)"
+
+#, kde-format
+#~ msgid "Save Location:"
+#~ msgstr "Locul salvării:"
+
+#, kde-format
+#~ msgid "Compression Quality:"
+#~ msgstr "Calitate compresie:"
+
+#, kde-format
+#~ msgid "For lossy image formats like JPEG"
+#~ msgstr "Pentru formate cu pierderi, ca JPEG"
+
+#, no-c-format, kde-format
+#~ msgid "%"
+#~ msgstr "%"
+
+#, kde-format
+#~ msgid "Filename:"
+#~ msgstr "Denumire fișier:"
+
+#, kde-format
+#~ msgctxt "Preview of the user configured filename"
+#~ msgid "Preview:"
+#~ msgstr "Previzualizare:"
+
+#, kde-format
+#~ msgid "What to do when Spectacle is launched"
+#~ msgstr "Ce să se întâmple la lansarea Spectacle"
+
+#, kde-format
+#~ msgid ""
+#~ "What should happen if print key is pressed when Spectacle is already "
+#~ "running"
+#~ msgstr ""
+#~ "Ce să se întâmple dacă e apăsată tasta de imprimare când Spectacle "
+#~ "rulează deja"
+
+#, kde-format
+#~ msgid "Save screenshot automatically after it is taken"
+#~ msgstr "Salvează automat captura după ce e făcută"
+
+#, kde-format
+#~ msgid ""
+#~ "Clipboard action which should be executed after the screenshot is taken"
+#~ msgstr "Acțiunea de clipboard ce trebuie executată după captură"
+
+#, kde-format
+#~ msgid "Whether to use a light color mask in the region selection dialog"
+#~ msgstr ""
+#~ "Dacă să fie folosită o mască deschisă la culoare în dialogul de alegere a "
+#~ "regiunii"
+
+#, kde-format
+#~ msgid ""
+#~ "Whether the screenshot should be captured after selecting the region and "
+#~ "releasing the mouse"
+#~ msgstr ""
+#~ "Dacă instantaneul să fie capturat după alegerea regiunii și eliberarea "
+#~ "mausului"
+
+#, kde-format
+#~ msgid "Remember the last rectangular region"
+#~ msgstr "Ține minte ultima regiune dreptunghiulară"
+
+#, kde-format
+#~ msgid "Default languages for OCR text recognition"
+#~ msgstr "Limbi implicite pentru recunoașterea optică a textului"
+
+#, kde-format
+#~ msgid "The last used region the user selected"
+#~ msgstr "Ultima regiune aleasă de utilizator"
+
+#, kde-format
+#~ msgid "Take screenshot on click"
+#~ msgstr "Fă o captură la clic"
+
+#, kde-format
+#~ msgid "Whether the mouse cursor is included in the screenshot"
+#~ msgstr "Dacă cursorul mausului să fie inclus în instantaneu"
+
+#, kde-format
+#~ msgid "Whether the mouse cursor is included in the video"
+#~ msgstr "Dacă cursorul mausului să fie inclus în video"
+
+#, fuzzy, kde-format
+#~| msgid "Whether the mouse cursor is included in the video"
+#~ msgid "Whether system audio is included in the recording"
+#~ msgstr "Dacă cursorul mausului să fie inclus în video"
+
+#, fuzzy, kde-format
+#~| msgid "Whether the mouse cursor is included in the video"
+#~ msgid "Whether microphone audio is included in the recording"
+#~ msgstr "Dacă cursorul mausului să fie inclus în video"
+
+#, kde-format
+#~ msgid "Whether the window decorations are included in the screenshot"
+#~ msgstr "Dacă decorațiile ferestrei să fie incluse în instantaneu"
+
+#, kde-format
+#~ msgid "Whether the window shadow is included in the screenshot"
+#~ msgstr "Dacă umbra ferestrei să fie incluse în instantaneu"
+
+#, kde-format
+#~ msgid "Quit after saving or copying an image"
+#~ msgstr "Termină după salvarea sau copierea unei imagini"
+
+#, kde-format
+#~ msgid "Delay"
+#~ msgstr "Întârziere"
+
+#, kde-format
+#~ msgid "Default filename"
+#~ msgstr "Denumire fișier implicită"
+
+#, kde-format
+#~ msgid "Compression quality for lossy file formats"
+#~ msgstr "Calitatea compresiei pentru formate de fișier cu pierderi"
+
+#, kde-format
+#~ msgid "Default save image format"
+#~ msgstr "Format implicit de salvare a imaginii"
+
+#, kde-format
+#~ msgid "The filename template used when saving screenshots"
+#~ msgstr "Șablon pentru denumirea de fișier folosită la salvarea capturilor"
+
+#, kde-format
+#~ msgid "The path of the file saved last"
+#~ msgstr "Calea ultimului fișier salvat"
+
+#, kde-format
+#~ msgid "Last path used for \"save as\" action"
+#~ msgstr "Ultima cale folosită pentru acțiunea „salvează ca”"
+
+#, kde-format
+#~ msgid "Default video format"
+#~ msgstr "Format video implicit"
+
+#, kde-format
+#~ msgid "The filename template used when saving screencasts"
+#~ msgstr ""
+#~ "Șablon pentru denumirea de fișier folosită la salvarea înregistrărilor"
+
+#, kde-format
+#~ msgid "Save &Location:"
+#~ msgstr "&Locul salvării:"
+
+#, kde-format
+#~ msgid "Spectacle"
+#~ msgstr "Spectacle"
+
+#, kde-format
+#~ msgid "KDE Screenshot Utility"
+#~ msgstr "Utilitar KDE de captură a ecranului"
+
+#~ msgid ""
+#~ "Capture the window currently under the cursor, excluding parents of pop-"
+#~ "up menus"
+#~ msgstr ""
+#~ "Capturează fereastra de sub cursor, exclusiv părinții meniurilor "
+#~ "contextuale"
+
+#~ msgid "Capture the current pop-up only"
+#~ msgstr "Capturează numai contextul actual"
+
+#~ msgid ""
+#~ "Capture only the current pop-up window (like a menu, tooltip etc) when "
+#~ "taking a screenshot of a window. If disabled, the pop-up is captured "
+#~ "along with the parent window."
+#~ msgstr ""
+#~ "Capturează numai fereastra contextuală actuală (cum ar fi un meniu, "
+#~ "indiciu, etc.) la capturarea unei ferestre.Dacă e dezactivată, fereastra "
+#~ "contextuală e capturată împreună cu fereastra părinte."
+
+#~ msgctxt "@option:check"
+#~ msgid "Capture the current pop-up only"
+#~ msgstr "Capturează numai contextul actual"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid ""
+#~ "Capture only the current pop-up window (like a menu, tooltip etc).\n"
+#~ "If disabled, the pop-up is captured along with the parent window"
+#~ msgstr ""
+#~ "Capturează numai fereastra contextuală actuală (cum ar fi un meniu, "
+#~ "indiciu, etc.).\n"
+#~ "Dacă e dezactivată, contextul e capturat împreună cu fereastra-părinte"
+
+#~ msgid "Only capture the current pop up menu"
+#~ msgstr "Capturează doar meniul contextual actual"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "The shared image link (<a href=\"%1\">%1</a>) has been copied to the "
+#~ "clipboard."
+#~ msgstr ""
+#~ "Legătura spre imaginea partajată (<a href=\"%1\">%1</a>) a fost copiată "
+#~ "în clipboard."
+
+#~ msgctxt "@action"
+#~ msgid "Open Containing Folder"
+#~ msgstr "Deschide dosarul conținător"
+
+#~ msgid "The last used annotation tool type"
+#~ msgstr "Ultimul tip de unealtă de adnotare folosit"
+
+#~ msgid "Stroke width for freehand annotation tool"
+#~ msgstr "Lățimea cursei pentru unealta de adnotare cu desen"
+
+#~ msgid "Stroke width for highlighter annotation tool"
+#~ msgstr "Lățimea cursei pentru unealta de adnotare cu evidențiator"
+
+#~ msgid "Stroke width for line annotation tool"
+#~ msgstr "Lățimea cursei pentru unealta de adnotare cu linie"
+
+#~ msgid "Stroke width for arrow annotation tool"
+#~ msgstr "Lățimea cursei pentru unealta de adnotare cu săgeată"
+
+#~ msgid "Stroke width for rectangle annotation tool"
+#~ msgstr "Lățimea cursei pentru unealta de adnotare cu dreptunghi"
+
+#~ msgid "Stroke width for ellipse annotation tool"
+#~ msgstr "Lățimea cursei pentru unealta de adnotare cu elipsă"
+
+#~ msgid "Stroke color for freehand annotation tool"
+#~ msgstr "Culoarea cursei pentru unealta de adnotare cu desen"
+
+#~ msgid "Stroke color for highlighter annotation tool"
+#~ msgstr "Culoarea cursei pentru unealta de adnotare cu evidențiator"
+
+#~ msgid "Stroke color for line annotation tool"
+#~ msgstr "Culoarea cursei pentru unealta de adnotare cu linie"
+
+#~ msgid "Stroke color for arrow annotation tool"
+#~ msgstr "Culoarea cursei pentru unealta de adnotare cu săgeată"
+
+#~ msgid "Stroke color for rectangle annotation tool"
+#~ msgstr "Culoarea cursei pentru unealta de adnotare cu dreptunghi"
+
+#~ msgid "Stroke color for ellipse annotation tool"
+#~ msgstr "Culoarea cursei pentru unealta de adnotare cu elipsă"
+
+#~ msgid "Fill color for rectangle annotation tool"
+#~ msgstr "Culoarea de umplere pentru unealta de adnotare cu dreptunghi"
+
+#~ msgid "Fill color for ellipse annotation tool"
+#~ msgstr "Culoarea de umplere pentru unealta de adnotare cu elipsă"
+
+#~ msgid "Fill color for number annotation tool"
+#~ msgstr "Culoarea de umplere pentru unealta de adnotare cu număr"
+
+#~ msgid "The strength of the blur effect."
+#~ msgstr "Intensitatea efectului de încețoșare."
+
+#~ msgid "The strength of the pixelate effect."
+#~ msgstr "Intensitatea efectului de pixelizare."
+
+#~ msgid "Font for text annotations"
+#~ msgstr "Font pentru adnotări textuale"
+
+#~ msgid "Font for number annotations"
+#~ msgstr "Font pentru adnotări numerice"
+
+#~ msgid "Font color for annotations"
+#~ msgstr "Culoarea fontului pentru adnotări"
+
+#~ msgid "Whether freehand annotation tool has a drop shadow"
+#~ msgstr "Dacă unealta de adnotare cu desen lasă o umbră"
+
+#~ msgid "Whether line annotation tool has a drop shadow"
+#~ msgstr "Dacă unealta de adnotare cu linie lasă o umbră"
+
+#~ msgid "Whether arrow annotation tool has a drop shadow"
+#~ msgstr "Dacă unealta de adnotare cu săgeată lasă o umbră"
+
+#~ msgid "Whether rectangle annotation tool has a drop shadow"
+#~ msgstr "Dacă unealta de adnotare cu dreptunghi lasă o umbră"
+
+#~ msgid "Whether ellipse annotation tool has a drop shadow"
+#~ msgstr "Dacă unealta de adnotare cu elipsă lasă o umbră"
+
+#~ msgid "Whether text annotation tool has a drop shadow"
+#~ msgstr "Dacă unealta de adnotare cu text lasă o umbră"
+
+#~ msgid "Whether number annotation tool has a drop shadow"
+#~ msgstr "Dacă unealta de adnotare cu număr lasă o umbră"
+
+#~ msgid "Show capture instructions"
+#~ msgstr "Arată instrucțiuni de capturare"
+
+#~ msgid "Whether to show capture instructions in the region selection"
+#~ msgstr "Dacă să fie afișate instrucțiuni de capturare în alegerea regiunii"
+
+#, fuzzy
+#~| msgid "Record Window"
+#~ msgctxt "@action global shortcut"
+#~ msgid "Record Window"
+#~ msgstr "Înregistrează fereastră"
+
+#, fuzzy
+#~| msgid "Record Rectangular Region"
+#~ msgctxt "@action global shortcut"
+#~ msgid "Record Rectangular Region"
+#~ msgstr "Înregistrează regiune dreptunghiulară"
+
+#~ msgctxt "recording notification message"
+#~ msgid "Click the system tray icon to finish recording"
+#~ msgstr "Apăsați pictograma din tavă pentru a încheia înregistrarea"
+
+#~ msgctxt "@info"
+#~ msgid "The screenshot location has been copied to the clipboard."
+#~ msgstr "Amplasarea capturii de ecran a fost copiată în clipboard."
+
+#~ msgctxt "@info"
+#~ msgid "Video shared"
+#~ msgstr "Video partajat"
+
+#~ msgctxt "@info"
+#~ msgid "Image shared"
+#~ msgstr "Imagine partajată"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "The shared video link (<a href=\"%1\">%1</a>) has been copied to the "
+#~ "clipboard."
+#~ msgstr ""
+#~ "Legătura spre filmul partajat (<a href=\"%1\">%1</a>) a fost copiată în "
+#~ "clipboard."
+
+#~ msgctxt "@info"
+#~ msgid "There was a problem sharing the video: %1"
+#~ msgstr "A intervenit o problemă cu partajarea filmului: %1"
+
+#~ msgid "Screenshot"
+#~ msgstr "Captură de ecran"
+
+#~ msgid "Configure..."
+#~ msgstr "Configurare..."
+
+#~ msgid "Capture Mode"
+#~ msgstr "Regim captură"
+
+#~ msgid "Capture Settings"
+#~ msgstr "Opțiuni captură"
+
+#, fuzzy
+#~| msgid "Recording Settings"
+#~ msgctxt "@title:group"
+#~ msgid "Recording Settings"
+#~ msgstr "Configurări înregistrare"
+
+#~ msgid ""
+#~ "Could not take a screenshot. Please report this bug here: <a "
+#~ "href=\"https://bugs.kde.org/enter_bug.cgi?product=Spectacle\">create a "
+#~ "spectacle bug</a>"
+#~ msgstr ""
+#~ "Nu s-a putut face captura de ecran. Raportați acest defect aici: <a "
+#~ "href=\"https://bugs.kde.org/enter_bug.cgi?product=Spectacle\">creează un "
+#~ "raport Spectacle</a>"
+
+#~ msgid "Screenshot capture canceled or failed"
+#~ msgstr "Capturarea ecranului anulată sau eșuată"
+
+#~ msgid "Show Annotation Tools"
+#~ msgstr "Arată unelte de adnotare"
+
+#~ msgid "Whether to show a magnifier in the region selection"
+#~ msgstr "Dacă să fie afișată o lupă la alegerea regiunii"
+
+#~ msgid "Capture Modes"
+#~ msgstr "Regimuri de captură"
+
+#, fuzzy
+#~| msgctxt "Decimal number of seconds"
+#~| msgid " seconds"
+#~ msgctxt "Decimal number of seconds"
+#~ msgid "%2 seconds"
+#~ msgstr " secunde"
+
+#~ msgctxt ""
+#~ "A placeholder in the user configurable filename will replaced by the "
+#~ "specified value"
+#~ msgid "Day"
+#~ msgstr "Zi"
+
+#~ msgctxt ""
+#~ "A placeholder in the user configurable filename will replaced by the "
+#~ "specified value"
+#~ msgid "Month"
+#~ msgstr "Lună"
+
+#~ msgctxt ""
+#~ "A placeholder in the user configurable filename will replaced by the "
+#~ "specified value"
+#~ msgid "Hour"
+#~ msgstr "Oră"
+
+#~ msgctxt ""
+#~ "A placeholder in the user configurable filename will replaced by the "
+#~ "specified value"
+#~ msgid "Minute"
+#~ msgstr "Minut"
+
+#~ msgctxt ""
+#~ "A placeholder in the user configurable filename will replaced by the "
+#~ "specified value"
+#~ msgid "Second"
+#~ msgstr "Secundă"
+
+#~ msgctxt ""
+#~ "A placeholder in the user configurable filename will replaced by the "
+#~ "specified value"
+#~ msgid "Timezone"
+#~ msgstr "Fus orar"
+
+#~ msgctxt ""
+#~ "A placeholder in the user configurable filename will replaced by the "
+#~ "specified value"
+#~ msgid "Sequential numbering"
+#~ msgstr "Numerotare secvențială"
+
+#~ msgid "The default filename used when recording a video"
+#~ msgstr "Denumirea implicită de fișier folosită la înregistrarea unui video"
+
+#, fuzzy
+#~| msgid "Screenshot"
+#~ msgctxt "@item recording mode"
+#~ msgid "Screen"
+#~ msgstr "Captură de ecran"
+
+#~ msgid "Workspace"
+#~ msgstr "Spațiu de lucru"
+
+#~ msgid "Failed to select output"
+#~ msgstr "Alegerea ecranului a eșuat"
+
+#~ msgctxt "@label:listbox"
+#~ msgid "Video format:"
+#~ msgstr "Format video:"
+
+#, fuzzy
+#~| msgid "Save"
+#~ msgctxt "Settings category"
+#~ msgid "Save"
+#~ msgstr "Salvează"
+
+#~ msgid "File format for saved screen recordings"
+#~ msgstr "Formatul de fișier pentru înregistrările de ecran salvate"
+
+#~ msgid "On Click"
+#~ msgstr "La clic"
+
+#~ msgid "Take a New Screenshot"
+#~ msgstr "Fă o captură nouă"
+
+#, fuzzy
+#~| msgid ""
+#~| "Capture only the current pop-up window (like a menu, tooltip etc).\n"
+#~| "If disabled, the pop-up is captured along with the parent window"
+#~ msgid "Capture only the current pop-up window (like a menu, tooltip etc).\n"
+#~ msgstr ""
+#~ "Capturează numai fereastra contextuală actuală (cum ar fi un meniu, "
+#~ "indiciu, etc.).\n"
+#~ "Dacă e dezactivată, contextul e capturat împreună cu fereastra părinte"
+
+#~ msgid "Full Screen (All Monitors)"
+#~ msgstr "Ecran complet (toate monitoarele)"
+
+#~ msgid "Full Screen (All Monitors, scaled)"
+#~ msgstr "Ecran complet (toate monitoarele, scalat)"
+
+#~ msgid "Image Size: %1x%2 pixels"
+#~ msgstr "Dimensiune imagine: %1x%2 pixeli"
+
+#~ msgid "Change Spectacle's settings."
+#~ msgstr "Modifică configurările Spectacle."
+
+#~ msgid "Add annotation to the screenshot"
+#~ msgstr "Adaugă adnotare la captură"
+
+#~ msgid "Tools"
+#~ msgstr "Unelte"
+
+#~ msgid "Ready to take a screenshot"
+#~ msgstr "Gata de capturat ecranul"
+
+#, fuzzy
+#~| msgid "Annotate"
+#~ msgctxt "@action:button"
+#~ msgid "Annotate"
+#~ msgstr "Adnotează"
+
+#~ msgid "Area:"
+#~ msgstr "Zonă:"
+
+#~ msgid "The last used copy mode"
+#~ msgstr "Ultimul regim de copiere folosit"
+
+#~ msgctxt "The entire screen area was captured, heading"
+#~ msgid "Full Screen Captured"
+#~ msgstr "Ecran complet capturat"
+
+#~ msgctxt "The current screen was captured, heading"
+#~ msgid "Current Screen Captured"
+#~ msgstr "Ecran actual capturat"
+
+#~ msgctxt "The active window was captured, heading"
+#~ msgid "Active Window Captured"
+#~ msgstr "Fereastra activă capturată"
+
+#~ msgctxt "The window under the mouse was captured, heading"
+#~ msgid "Window Under Cursor Captured"
+#~ msgstr "Fereastră de sub cursor capturată"
+
+#~ msgctxt "A rectangular region was captured, heading"
+#~ msgid "Rectangular Region Captured"
+#~ msgstr "Regiune dreptunghiulară capturată"
+
+#~ msgid "More Online Services"
+#~ msgstr "Mai multe servicii online"
+
+#~ msgid "KIPI plugin from library %1 failed to load"
+#~ msgstr "Încărcarea extensiei KIPI din biblioteca %1 a eșuat"
+
+#~ msgctxt "%1 is collection name, %2 is image count in collection"
+#~ msgid "%1 (%2 image)"
+#~ msgid_plural "%1 (%2 images)"
+#~ msgstr[0] "%1 (%2 imagine)"
+#~ msgstr[1] "%1 (%2 imagini)"
+#~ msgstr[2] "%1 (%2 de imagini)"
+
+#~ msgid "Taken with Spectacle"
+#~ msgstr "Făcut cu Spectacle"
+
+#~ msgid "Remember the region across restarts"
+#~ msgstr "Ține minte regiunea între reporniri succesive"
+
+#~ msgid ""
+#~ "Choose the image quality when saving with lossy image formats like JPEG"
+#~ msgstr ""
+#~ "Alegeți calitatea imaginii la salvarea cu format de imagine cu pierderi, "
+#~ "ca JPEG"
+
+#~ msgid "Copy file location to clipboard after saving"
+#~ msgstr "Copiază amplasarea fișierului în clipboard după salvare"
+
+#~ msgid "Copy screenshot automatically to the clipboard after it is taken"
+#~ msgstr "Copiază automat captura în clipboard după ce e făcută"
+
+#~ msgid "Whether to copy the file path after saving to the clipboard"
+#~ msgstr "Dacă să fie copiată calea fișierului după salvarea în clipboard"
+
+#~ msgid "Copy the current screenshot image to the clipboard."
+#~ msgstr "Copiază imaginea capturii de ecran actuale în clipboard."
+
+#~ msgid "currentText"
+#~ msgstr "textCurent"
+
+#~ msgid "Include pointer in the screenshot"
+#~ msgstr "Include indicatorul în captura de ecran"
+
+#~ msgid "Do not include window decorations in the screenshot"
+#~ msgstr "Nu include decorațiile ferestrelor în captura de ecran"

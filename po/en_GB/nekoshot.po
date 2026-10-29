@@ -1,0 +1,3161 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# SPDX-FileCopyrightText: 2024 Steve Allewell 2015
+# Steve Allewell <steve.allewell@gmail.com>, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-29 15:50+0800\n"
+"PO-Revision-Date: 2024-05-24 16:57+0100\n"
+"Last-Translator: Steve Allewell <steve.allewell@gmail.com>\n"
+"Language-Team: British English\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 24.02.2\n"
+
+#: src/OcrManager.cpp:578
+msgctxt "@item:inlistbox"
+msgid "Orientation and Script Detection"
+msgstr ""
+
+#: src/OcrManager.cpp:619
+msgid "Math/Equation Detection"
+msgstr ""
+
+#: src/OcrManager.cpp:622
+msgid "Orientation and Script Detection"
+msgstr ""
+
+#: src/ShortcutActions.cpp:38
+#, fuzzy
+msgctxt "@action global shortcut"
+msgid "Launch Spectacle"
+msgstr "Launch Spectacle"
+
+#: src/ShortcutActions.cpp:44
+#, fuzzy
+msgctxt "@action global shortcut"
+msgid "Capture Entire Desktop"
+msgstr "Capture Entire Desktop"
+
+#: src/ShortcutActions.cpp:50
+#, fuzzy
+msgctxt "@action global shortcut"
+msgid "Capture Current Monitor"
+msgstr "Capture Current Monitor"
+
+#: src/ShortcutActions.cpp:56
+#, fuzzy
+msgctxt "@action global shortcut"
+msgid "Capture Active Window"
+msgstr "Capture Active Window"
+
+#: src/ShortcutActions.cpp:62
+#, fuzzy
+msgctxt "@action global shortcut"
+msgid "Capture Rectangular Region"
+msgstr "Capture Rectangular Region"
+
+#: src/ShortcutActions.cpp:69
+#, fuzzy
+msgctxt "@action global shortcut"
+msgid "Capture Selected Window"
+msgstr "Capture Active Window"
+
+#: src/ShortcutActions.cpp:69
+#, fuzzy
+msgctxt "@action global shortcut"
+msgid "Capture Window Under Cursor"
+msgstr "Capture Window Under Cursor"
+
+#: src/ShortcutActions.cpp:76
+#, fuzzy
+msgctxt "@action global shortcut"
+msgid "Start/Stop Screen Recording"
+msgstr "Spectacle is Recording"
+
+#: src/ShortcutActions.cpp:82
+#, fuzzy
+msgctxt "@action global shortcut"
+msgid "Start/Stop Window Recording"
+msgstr "Spectacle is Recording"
+
+#: src/ShortcutActions.cpp:88
+#, fuzzy
+msgctxt "@action global shortcut"
+msgid "Start/Stop Region Recording"
+msgstr "Spectacle is Recording"
+
+#: src/ShortcutActions.cpp:94
+#, fuzzy
+msgctxt "@action global shortcut"
+msgid "Launch Spectacle without capturing"
+msgstr "Launch Spectacle without capturing"
+
+#: src/VideoFormatModel.cpp:31
+msgctxt "@item:inlistbox Container/encoder"
+msgid "WebM/VP9"
+msgstr "WebM/VP9"
+
+#: src/VideoFormatModel.cpp:38
+msgctxt "@item:inlistbox Container/encoder"
+msgid "MP4/H.264"
+msgstr "MP4/H.264"
+
+#: src/VideoFormatModel.cpp:45
+#, fuzzy
+msgctxt "@item:inlistbox Container/encoder"
+msgid "MP4/H.265"
+msgstr "MP4/H.264"
+
+#: src/VideoFormatModel.cpp:52
+msgctxt "@item:inlistbox Container/encoder"
+msgid "MP4/AV1"
+msgstr ""
+
+#: src/VideoFormatModel.cpp:59
+msgctxt "@item:inlistbox Container/encoder"
+msgid "Animated WebP (better than GIF)"
+msgstr ""
+
+#: src/VideoFormatModel.cpp:66
+msgctxt "@item:inlistbox Container/encoder"
+msgid "GIF (compatible, but inefficient)"
+msgstr ""
+
+#: src/CaptureModeModel.cpp:167
+#, fuzzy
+msgctxt "@action in capture mode section"
+msgid "Rectangular Region"
+msgstr "Rectangular Region"
+
+#: src/CaptureModeModel.cpp:169
+#, fuzzy
+msgctxt "@action in capture mode section"
+msgid "All Screens (Scaled to same size)"
+msgstr "All Screens (Scaled to same size)"
+
+#: src/CaptureModeModel.cpp:171
+#, fuzzy
+msgctxt "@action in capture mode section"
+msgid "Current Screen"
+msgstr "Current Screen"
+
+#: src/CaptureModeModel.cpp:173
+#, fuzzy
+msgctxt "@action in capture mode section"
+msgid "Active Window"
+msgstr "Active Window"
+
+#: src/CaptureModeModel.cpp:176
+#, fuzzy
+msgctxt "@action in capture mode section"
+msgid "Select Window"
+msgstr "Selected Window"
+
+#: src/CaptureModeModel.cpp:176
+#, fuzzy
+msgctxt "@action in capture mode section"
+msgid "Window Under Cursor"
+msgstr "Window Under Cursor"
+
+#: src/CaptureModeModel.cpp:179
+#, fuzzy
+msgctxt "@action in capture mode section"
+msgid "All Screens"
+msgstr "All Screens"
+
+#: src/CaptureModeModel.cpp:181
+#, fuzzy
+msgctxt "@action in capture mode section"
+msgid "Full Screen"
+msgstr "Full Screen"
+
+#: src/CommandLineOptions.h:22
+msgid "Capture the entire desktop (default)"
+msgstr "Capture the entire desktop (default)"
+
+#: src/CommandLineOptions.h:25
+msgid ""
+"When used with -f/--fullscreen, capture all screens scaled to the same size "
+"(niri: falls back to unscaled)"
+msgstr ""
+
+#: src/CommandLineOptions.h:28
+msgid "Capture the current monitor"
+msgstr "Capture the current monitor"
+
+#: src/CommandLineOptions.h:32
+msgid "Capture the active window"
+msgstr "Capture the active window"
+
+#: src/CommandLineOptions.h:35
+msgid ""
+"Capture the window currently under the cursor, including parents of pop-up "
+"menus"
+msgstr ""
+"Capture the window currently under the cursor, including parents of pop-up "
+"menus"
+
+#: src/CommandLineOptions.h:38
+msgid "Capture a rectangular region of the screen"
+msgstr "Capture a rectangular region of the screen"
+
+#: src/CommandLineOptions.h:42
+msgid ""
+"Record the screen using the given mode. Modes:\n"
+"- r, region\n"
+"- s, screen\n"
+"- w, window"
+msgstr ""
+"Record the screen using the given mode. Modes:\n"
+"- r, region\n"
+"- s, screen\n"
+"- w, window"
+
+#: src/CommandLineOptions.h:50
+msgid "Launch Spectacle without taking a screenshot"
+msgstr "Launch Spectacle without taking a screenshot"
+
+#: src/CommandLineOptions.h:54
+msgid "Start in GUI mode (default)"
+msgstr "Start in GUI mode (default)"
+
+#: src/CommandLineOptions.h:58
+msgid "Take a screenshot and exit without showing the GUI"
+msgstr "Take a screenshot and exit without showing the GUI"
+
+#: src/CommandLineOptions.h:62
+msgid "Start in DBus-Activation mode"
+msgstr "Start in DBus-Activation mode"
+
+#: src/CommandLineOptions.h:66
+msgid ""
+"In background mode, do not pop up a notification when the screenshot is taken"
+msgstr ""
+"In background mode, do not pop up a notification when the screenshot is taken"
+
+#: src/CommandLineOptions.h:70
+msgid "In background mode, save image to specified file"
+msgstr "In background mode, save image to specified file"
+
+#: src/CommandLineOptions.h:75
+msgid "In background mode, delay before taking the shot (in milliseconds)"
+msgstr "In background mode, delay before taking the shot (in milliseconds)"
+
+#: src/CommandLineOptions.h:80
+msgid ""
+"In background mode, copy screenshot image to clipboard, unless -o is also "
+"used."
+msgstr ""
+"In background mode, copy screenshot image to clipboard, unless -o is also "
+"used."
+
+#: src/CommandLineOptions.h:84
+msgid "In background mode, copy screenshot file path to clipboard"
+msgstr "In background mode, copy screenshot file path to clipboard"
+
+#: src/CommandLineOptions.h:88
+msgid "Wait for a click before taking screenshot. Invalidates delay"
+msgstr "Wait for a click before taking screenshot. Invalidates delay"
+
+#: src/CommandLineOptions.h:90
+#, fuzzy
+msgid "Starts a new GUI instance of NekoShot without registering to DBus"
+msgstr "Starts a new GUI instance of spectacle without registering to DBus"
+
+#: src/CommandLineOptions.h:93
+msgid "In background mode, include pointer in the screenshot"
+msgstr "In background mode, include pointer in the screenshot"
+
+#: src/CommandLineOptions.h:97
+msgid "In background mode, exclude decorations in the screenshot"
+msgstr "In background mode, exclude decorations in the screenshot"
+
+#: src/CommandLineOptions.h:99
+msgid "In background mode, exclude shadows in the screenshot"
+msgstr "In background mode, exclude shadows in the screenshot"
+
+#: src/CommandLineOptions.h:102
+msgid "Open and edit existing screenshot file"
+msgstr "Open and edit existing screenshot file"
+
+#: src/CommandLineOptions.h:105
+#, fuzzy
+msgid "Accept region selection on click-and-release"
+msgstr "Accept on click-and-release"
+
+#: src/CommandLineOptions.h:106
+msgid "Stay running and wait for D-Bus requests"
+msgstr ""
+
+#: src/CommandLineOptions.h:107
+#, fuzzy
+msgid "Stop the current recording"
+msgstr "Show the mouse cursor in the screen recording."
+
+#: src/ExportManager.cpp:466
+#, fuzzy
+msgctxt "%1 is an error message"
+msgid "QImageWriter cannot write image: %1"
+msgstr "QImageWriter cannot write image: %1"
+
+#: src/ExportManager.cpp:482
+msgctxt "@info"
+msgid ""
+"Cannot save screenshot because creating the directory failed:<nl/"
+"><filename>%1</filename>"
+msgstr ""
+"Cannot save screenshot because creating the directory failed:<nl/"
+"><filename>%1</filename>"
+
+#: src/ExportManager.cpp:491
+#, fuzzy
+msgid "Cannot save screenshot. Error while opening file."
+msgstr "Cannot save screenshot. Error while writing file."
+
+#: src/ExportManager.cpp:495
+msgid "Cannot save screenshot. Error while writing file."
+msgstr "Cannot save screenshot. Error while writing file."
+
+#: src/ExportManager.cpp:515
+msgctxt "@info"
+msgid ""
+"Cannot save screenshot because creating the remote directory failed:<nl/"
+"><filename>%1</filename>"
+msgstr ""
+"Cannot save screenshot because creating the remote directory failed:<nl/"
+"><filename>%1</filename>"
+
+#: src/ExportManager.cpp:526 src/ExportManager.cpp:576
+msgid "Cannot save screenshot. Error while writing temporary local file."
+msgstr "Cannot save screenshot. Error while writing temporary local file."
+
+#: src/ExportManager.cpp:535
+msgid "Unable to save image. Could not upload file to remote location."
+msgstr "Unable to save image. Could not upload file to remote location."
+
+#: src/ExportManager.cpp:583
+msgid "Cannot save screenshot. The save filename is invalid."
+msgstr "Cannot save screenshot. The save filename is invalid."
+
+#: src/ExportManager.cpp:627
+msgid "Cannot save an empty screenshot image."
+msgstr "Cannot save an empty screenshot image."
+
+#: src/ExportManager.cpp:814
+msgctxt "@info:shell"
+msgid ""
+"Failed to export video: Temporary file URL must be an existing local file"
+msgstr ""
+"Failed to export video: Temporary file URL must be an existing local file"
+
+#: src/ExportManager.cpp:821
+msgctxt "@info:shell"
+msgid ""
+"Failed to export video: Output file URL must be a valid URL with a file name"
+msgstr ""
+"Failed to export video: Output file URL must be a valid URL with a file name"
+
+#: src/ExportManager.cpp:910
+#, fuzzy
+msgctxt "@info, %1 is a file path"
+msgid "Unable to save recording. Could not move file to location: %1"
+msgstr "Unable to save recording. Could not move file to location: %1"
+
+#: src/ExportManager.cpp:938
+msgid "Printing failed. The printer failed to initialize."
+msgstr "Printing failed. The printer failed to initialise."
+
+#: src/ExportManager.cpp:955
+msgctxt "filename placeholder description"
+msgid "Day (1–31)"
+msgstr ""
+
+#: src/ExportManager.cpp:956
+msgctxt "filename placeholder description"
+msgid "Day (01–31)"
+msgstr ""
+
+#: src/ExportManager.cpp:957
+msgctxt "filename placeholder description"
+msgid "Day (short name)"
+msgstr ""
+
+#: src/ExportManager.cpp:958
+msgctxt "filename placeholder description"
+msgid "Day (long name)"
+msgstr ""
+
+#: src/ExportManager.cpp:959
+msgctxt "filename placeholder description"
+msgid "Month (1–12)"
+msgstr ""
+
+#: src/ExportManager.cpp:960
+msgctxt "filename placeholder description"
+msgid "Month (01–12)"
+msgstr ""
+
+#: src/ExportManager.cpp:961
+msgctxt "filename placeholder description"
+msgid "Month (short name)"
+msgstr ""
+
+#: src/ExportManager.cpp:962
+msgctxt "filename placeholder description"
+msgid "Month (long name)"
+msgstr ""
+
+#: src/ExportManager.cpp:963
+#, fuzzy
+msgctxt "filename placeholder description"
+msgid "Year (2 digit)"
+msgstr "Year (2 digit)"
+
+#: src/ExportManager.cpp:964
+#, fuzzy
+msgctxt "filename placeholder description"
+msgid "Year (4 digit)"
+msgstr "Year (4 digit)"
+
+#: src/ExportManager.cpp:965
+msgctxt "filename placeholder description"
+msgid "Hour (0–23)"
+msgstr ""
+
+#: src/ExportManager.cpp:966
+msgctxt "filename placeholder description"
+msgid "Hour (00–23)"
+msgstr ""
+
+#: src/ExportManager.cpp:967
+msgctxt "filename placeholder description"
+msgid "Hour (1–12)"
+msgstr ""
+
+#: src/ExportManager.cpp:968
+msgctxt "filename placeholder description"
+msgid "Hour (01–12)"
+msgstr ""
+
+#: src/ExportManager.cpp:969
+msgctxt "filename placeholder description"
+msgid "Minute (0–59)"
+msgstr ""
+
+#: src/ExportManager.cpp:970
+msgctxt "filename placeholder description"
+msgid "Minute (00–59)"
+msgstr ""
+
+#: src/ExportManager.cpp:971
+msgctxt "filename placeholder description"
+msgid "Second (0–59)"
+msgstr ""
+
+#: src/ExportManager.cpp:972
+msgctxt "filename placeholder description"
+msgid "Second (00–59)"
+msgstr ""
+
+#: src/ExportManager.cpp:973
+msgctxt "filename placeholder description"
+msgid "Millisecond (0–999)"
+msgstr ""
+
+#: src/ExportManager.cpp:975
+msgctxt "filename placeholder description"
+msgid "Millisecond (000–999)"
+msgstr ""
+
+#: src/ExportManager.cpp:976
+msgctxt "filename placeholder description"
+msgid "AM/PM"
+msgstr ""
+
+#: src/ExportManager.cpp:978
+msgctxt "filename placeholder description"
+msgid "am/pm"
+msgstr ""
+
+#: src/ExportManager.cpp:980
+msgctxt "filename placeholder description"
+msgid "AM/PM or am/pm (localized)"
+msgstr ""
+
+#: src/ExportManager.cpp:982
+msgctxt "filename placeholder description"
+msgid "Timezone (short name)"
+msgstr ""
+
+#: src/ExportManager.cpp:983
+msgctxt "filename placeholder description"
+msgid "Timezone offset (±0000)"
+msgstr ""
+
+#: src/ExportManager.cpp:984
+msgctxt "filename placeholder description"
+msgid "Timezone offset (±00:00)"
+msgstr ""
+
+#: src/ExportManager.cpp:985
+msgctxt "filename placeholder description"
+msgid "Timezone (long name)"
+msgstr ""
+
+#: src/ExportManager.cpp:986
+msgctxt "filename placeholder description"
+msgid "Seconds since the Unix epoch"
+msgstr ""
+
+#: src/ExportManager.cpp:987
+#, fuzzy
+msgctxt "filename placeholder description"
+msgid "Window Title"
+msgstr "Window Title"
+
+#: src/ExportManager.cpp:988
+#, fuzzy
+msgctxt "filename placeholder description"
+msgid "Sequential numbering, padded by inserting additional '#' characters"
+msgstr "Sequential numbering, padded out to N digits"
+
+#: src/Main.cpp:48 src/SpectacleCore.cpp:1408
+msgid "NekoShot"
+msgstr ""
+
+#: src/Main.cpp:50
+msgid "Screenshot utility for niri, based on Spectacle"
+msgstr ""
+
+#: src/Main.cpp:52
+#, fuzzy
+msgid "© 2015 Boudhayan Gupta and Spectacle contributors"
+msgstr "(C) 2015 Boudhayan Gupta"
+
+#: src/Main.cpp:60
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Steve Allewell"
+
+#: src/Main.cpp:60
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "steve.allewell@gmail.com"
+
+#: src/Main.cpp:78
+msgid ""
+"On Wayland, Spectacle requires KDE Plasma's KWin compositor, which does not "
+"seem to be available. Use Spectacle on KDE Plasma, or use a different "
+"screenshot tool."
+msgstr ""
+"On Wayland, Spectacle requires KDE Plasma's KWin compositor, which does not "
+"seem to be available. Use Spectacle on KDE Plasma, or use a different "
+"screenshot tool."
+
+#: src/Main.cpp:103 src/Platforms/ImagePlatformNiri.cpp:167
+msgid "grim is not installed"
+msgstr ""
+
+#: src/Main.cpp:119
+msgid "--daemon cannot be combined with --new-instance"
+msgstr ""
+
+#: src/RecordingModeModel.cpp:104
+msgctxt "@item recording mode"
+msgid "Rectangular Region"
+msgstr "Rectangular Region"
+
+#: src/RecordingModeModel.cpp:106
+msgctxt "@item recording mode"
+msgid "Window"
+msgstr "Window"
+
+#: src/RecordingModeModel.cpp:108
+msgctxt "@item recording mode"
+msgid "Full Screen"
+msgstr "Full Screen"
+
+#: src/SpectacleCore.cpp:288
+msgctxt "@info"
+msgid "An error occurred while taking a screenshot."
+msgstr "An error occurred while taking a screenshot."
+
+#: src/SpectacleCore.cpp:318
+#, fuzzy
+msgctxt "@info:tooltip title for recording tray icon"
+msgid "Spectacle is Recording with Sound"
+msgstr "Spectacle is Recording"
+
+#: src/SpectacleCore.cpp:319
+msgctxt "@info:tooltip title for recording tray icon"
+msgid "Spectacle is Recording"
+msgstr "Spectacle is Recording"
+
+#: src/SpectacleCore.cpp:324
+#, fuzzy
+msgctxt "recording notification title"
+msgid "Spectacle is Recording with Sound"
+msgstr "Spectacle is Recording"
+
+#: src/SpectacleCore.cpp:325
+msgctxt "recording notification title"
+msgid "Spectacle is Recording"
+msgstr "Spectacle is Recording"
+
+#: src/SpectacleCore.cpp:354
+msgctxt "recording notification message without shortcut"
+msgid "To finish the recording, click the pulsing red System Tray icon."
+msgstr ""
+
+#: src/SpectacleCore.cpp:356
+msgctxt "recording notification message with shortcut"
+msgid ""
+"To finish the recording, click the pulsing red System Tray icon or press "
+"<shortcut>%1</shortcut>."
+msgstr ""
+
+#: src/SpectacleCore.cpp:373
+msgctxt "missing webp support notification title"
+msgid "WebP support is missing."
+msgstr ""
+
+#: src/SpectacleCore.cpp:375
+msgctxt "missing webp support notification message"
+msgid ""
+"Please install Qt Image Formats to get animated system tray icons for "
+"Spectacle, and then report this packaging issue to your distributor."
+msgstr ""
+
+#: src/SpectacleCore.cpp:412
+#, fuzzy
+msgctxt "recording notification title"
+msgid "Spectacle is Finishing the Recording"
+msgstr "Spectacle is Recording"
+
+#: src/SpectacleCore.cpp:413
+#, fuzzy
+msgctxt "recording notification message"
+msgid "Please wait"
+msgstr "Please wait..."
+
+#: src/SpectacleCore.cpp:415
+#, fuzzy
+msgctxt "@info:tooltip title for rendering tray icon"
+msgid "Spectacle is Finishing the Recording"
+msgstr "Spectacle is Recording"
+
+#: src/SpectacleCore.cpp:417
+#, fuzzy
+msgctxt "@info:tooltip subtitle for rendering tray icon"
+msgid ""
+"Time recorded: %1\n"
+"Click to stop rendering early (this will lose data)"
+msgstr ""
+"Time recorded: %1\n"
+"Click to finish recording"
+
+#: src/SpectacleCore.cpp:442
+msgctxt "@info:tooltip subtitle for recording tray icon"
+msgid ""
+"Time recorded: %1\n"
+"Click to finish recording"
+msgstr ""
+"Time recorded: %1\n"
+"Click to finish recording"
+
+#: src/SpectacleCore.cpp:473
+msgctxt "@info"
+msgid "An error occurred while attempting to record the screen."
+msgstr "An error occurred while attempting to record the screen."
+
+#: src/SpectacleCore.cpp:525
+#, fuzzy
+msgctxt "@info"
+msgid ""
+"The screenshot was copied to the clipboard and saved as <link url=\"%1\">%2</"
+"link>"
+msgstr ""
+"The screenshot was copied to the clipboard and saved as <a href=\"%1\">%2</a>"
+
+#: src/SpectacleCore.cpp:529
+#, fuzzy
+msgctxt "@info"
+msgid ""
+"The screenshot has been saved as <link url=\"%1\">%2</link> and its location "
+"has been copied to clipboard"
+msgstr ""
+"The screenshot has been saved as <a href=\"%1\">%2</a> and its location has "
+"been copied to clipboard"
+
+#: src/SpectacleCore.cpp:534
+#, fuzzy
+msgctxt "@info"
+msgid "The screenshot was saved as <link url=\"%1\">%2</link>"
+msgstr "The screenshot was saved as <a href=\"%1\">%2</a>"
+
+#: src/SpectacleCore.cpp:538
+#, fuzzy
+msgctxt "@info"
+msgid "The screenshot has been copied to the clipboard."
+msgstr "The screenshot has been copied to the clipboard."
+
+#: src/SpectacleCore.cpp:570
+#, fuzzy
+msgctxt "@info"
+msgid ""
+"The video has been saved as <link url=\"%1\">%2</link> and its location has "
+"been copied to clipboard"
+msgstr ""
+"The video has been saved as <a href=\"%1\">%2</a> and its location has been "
+"copied to clipboard"
+
+#: src/SpectacleCore.cpp:575
+#, fuzzy
+msgctxt "@info"
+msgid "The video was saved as <link url=\"%1\">%2</link>"
+msgstr "The video was saved as <a href=\"%1\">%2</a>"
+
+#: src/SpectacleCore.cpp:579
+msgctxt "@info"
+msgid "The video location has been copied to the clipboard."
+msgstr "The video location has been copied to the clipboard."
+
+#: src/SpectacleCore.cpp:599
+#, fuzzy
+msgctxt "@info"
+msgid "Code found: %1"
+msgstr "QR Code found: %1"
+
+#: src/SpectacleCore.cpp:603
+#, fuzzy
+msgctxt "@info"
+msgid "Found QR code with binary content."
+msgstr "Found QR code with binary content."
+
+#: src/SpectacleCore.cpp:611
+msgctxt "@info"
+msgid "Text extraction failed"
+msgstr ""
+
+#: src/SpectacleCore.cpp:616
+msgctxt "@info"
+msgid "No text found in the image"
+msgstr ""
+
+#: src/SpectacleCore.cpp:620
+msgctxt "@info"
+msgid "Text extraction completed"
+msgstr ""
+
+#: src/SpectacleCore.cpp:628
+msgctxt "@info:notification title"
+msgid "Text Extracted"
+msgstr ""
+
+#: src/SpectacleCore.cpp:648
+msgctxt "@info The variables are language names, e.g. 'English and German'"
+msgid "%1 and %2"
+msgstr ""
+
+#: src/SpectacleCore.cpp:653
+#, fuzzy
+msgctxt "@info:notification"
+msgid "Text copied to clipboard.<nl/>Languages used: %1"
+msgstr "Copy image to clipboard"
+
+#: src/SpectacleCore.cpp:658
+msgctxt "@action:button"
+msgid "Open in Text Editor"
+msgstr ""
+
+#: src/SpectacleCore.cpp:808
+msgctxt "@info"
+msgid "Please select a region before extracting text"
+msgstr ""
+
+#: src/SpectacleCore.cpp:830
+#, fuzzy
+msgctxt "@info"
+msgid "OCR is not available."
+msgstr "KWin Screencasting is not available."
+
+#: src/SpectacleCore.cpp:836
+#, fuzzy
+msgctxt "@info"
+msgid "No screenshot available."
+msgstr "KWin Screencasting is not available."
+
+#: src/SpectacleCore.cpp:840
+msgctxt "@info"
+msgid "Extracting text from image..."
+msgstr ""
+
+#: src/SpectacleCore.cpp:973
+msgctxt "@info:shell"
+msgid "Ignoring activation: a recording is already in progress"
+msgstr ""
+
+#: src/SpectacleCore.cpp:1181
+msgctxt "@info:shell"
+msgid ""
+"--scaled is only allowed together with -f/--fullscreen and will be ignored"
+msgstr ""
+
+#: src/SpectacleCore.cpp:1196
+msgctxt "@info:shell"
+msgid "%1 is not a valid mode for --record"
+msgstr "%1 is not a valid mode for --record"
+
+#: src/SpectacleCore.cpp:1462
+#, fuzzy
+msgctxt "%1 is the filename, %2 the path to the save location"
+msgid ""
+"A screenshot was saved as '%1' to '%2' and the file path of the screenshot "
+"has been saved to your clipboard."
+msgstr ""
+"A screenshot was saved as '%1' to '%2' and the file path of the screenshot "
+"has been saved to your clipboard."
+
+#: src/SpectacleCore.cpp:1466
+#, fuzzy
+msgctxt "%1 is the filename"
+msgid "A screenshot was saved as '%1' to your Pictures folder."
+msgstr "A screenshot was saved as '%1' to your Pictures folder."
+
+#: src/SpectacleCore.cpp:1469
+#, fuzzy
+msgctxt "%1 is the filename, %2 the path to the save location"
+msgid "A screenshot was saved as '%1' to '%2'."
+msgstr "A screenshot was saved as '%1' to '%2'."
+
+#: src/SpectacleCore.cpp:1472
+msgid "A screenshot was saved to your clipboard."
+msgstr "A screenshot was saved to your clipboard."
+
+#: src/SpectacleCore.cpp:1477
+#, fuzzy
+msgctxt "%1 is the filename, %2 the path to the save location"
+msgid ""
+"A recording was saved as '%1' to '%2' and the file path of the recording has "
+"been saved to your clipboard."
+msgstr ""
+"A recording was saved as '%1' to '%2' and the file path of the recording has "
+"been saved to your clipboard."
+
+#: src/SpectacleCore.cpp:1481
+#, fuzzy
+msgctxt "%1 is the filename"
+msgid "A recording was saved as '%1' to your Videos folder."
+msgstr "A recording was saved as '%1' to your Videos folder."
+
+#: src/SpectacleCore.cpp:1484
+#, fuzzy
+msgctxt "%1 is the filename, %2 the path to the save location"
+msgid "A recording was saved as '%1' to '%2'."
+msgstr "A recording was saved as '%1' to '%2'."
+
+#: src/SpectacleCore.cpp:1496
+msgctxt "Open the screenshot we just saved"
+msgid "Open"
+msgstr "Open"
+
+#: src/SpectacleCore.cpp:1508
+msgid "Annotate"
+msgstr "Annotate"
+
+#: src/Gui/AcceptAction.qml:9
+msgctxt "@action accept selection"
+msgid "Accept"
+msgstr ""
+
+#: src/Gui/NewScreenshotToolButton.qml:15
+#: src/Gui/CaptureModeButtonsColumn.qml:32
+msgid "Cancel (%1 second)"
+msgid_plural "Cancel (%1 seconds)"
+msgstr[0] "Cancel (%1 second)"
+msgstr[1] "Cancel (%1 seconds)"
+
+#: src/Gui/NewScreenshotToolButton.qml:27
+msgid "New Screenshot"
+msgstr "New Screenshot"
+
+#: src/Gui/OptionsMenuButton.qml:10
+#, fuzzy
+msgctxt "@action"
+msgid "Options"
+msgstr "Options"
+
+#: src/Gui/CancelAction.qml:9
+#, fuzzy
+msgctxt "@action cancel selection"
+msgid "Cancel"
+msgstr "Cancel"
+
+#: src/Gui/CopyImageAction.qml:13
+#, fuzzy
+msgctxt "@action"
+msgid "Copy"
+msgstr "Copy"
+
+#: src/Gui/RecordAction.qml:11
+#, fuzzy
+msgctxt "@action start recording"
+msgid "Record"
+msgstr "Recording"
+
+#: src/Gui/RecordOptions.qml:23
+msgid "Recording Settings"
+msgstr "Recording Settings"
+
+#: src/Gui/RecordOptions.qml:37
+msgid "Finish recording"
+msgstr "Finish recording"
+
+#: src/Gui/CopyLocationAction.qml:9
+#, fuzzy
+msgctxt "@action"
+msgid "Copy Location"
+msgstr "Copy Location"
+
+#: src/Gui/EditAction.qml:11
+#, fuzzy
+msgctxt "@action edit screenshot"
+msgid "Edit…"
+msgstr "Edit…"
+
+#: src/Gui/CaptureOptions.qml:17
+msgid "Take a new screenshot"
+msgstr "Take a new screenshot"
+
+#: src/Gui/CaptureOptions.qml:39
+msgctxt "@title:group"
+msgid "Screenshot Settings"
+msgstr "Screenshot Settings"
+
+#: src/Gui/ExportMenu.cpp:44
+#, fuzzy
+msgctxt "@title:menu"
+msgid "Export"
+msgstr "Export"
+
+#: src/Gui/ExportMenu.cpp:47
+msgid "Open Default Screenshots Folder"
+msgstr "Open Default Screenshots Folder"
+
+#: src/Gui/ExportMenu.cpp:133
+#, fuzzy
+msgctxt "@action:button open screenshot in other application"
+msgid "Other Application…"
+msgstr "Other Application..."
+
+#: src/Gui/ExportMenu.cpp:165
+msgid "Share"
+msgstr "Share"
+
+#: src/Gui/ExportMenu.cpp:258
+msgctxt "@action:menu"
+msgid "Extract Text by Language"
+msgstr ""
+
+#: src/Gui/ExportMenu.cpp:294
+#, fuzzy
+msgid "OCR engine is not available."
+msgstr "KWin Screencasting is not available."
+
+#: src/Gui/ExportMenu.cpp:302
+msgid "OCR is not available. Please install Tesseract OCR."
+msgstr ""
+
+#: src/Gui/ExportMenu.cpp:303
+msgid "OCR engine is initializing…"
+msgstr ""
+
+#: src/Gui/ExportMenu.cpp:313
+#, fuzzy
+msgid "No OCR language data available."
+msgstr "No KIPI plugins available"
+
+#: src/Gui/HelpMenuButton.qml:10
+#, fuzzy
+msgctxt "@action"
+msgid "Help"
+msgstr "Help"
+
+#: src/Gui/CaptureOverlay.qml:149
+#, fuzzy
+msgctxt "@info basic crop tool explanation"
+msgid "Click and drag to make a selection."
+msgstr ""
+"Click and drag to draw a selection rectangle,\n"
+"or press Esc to quit"
+
+#: src/Gui/HelpMenu.cpp:40
+#, fuzzy
+msgctxt "@title:menu"
+msgid "Help"
+msgstr "Help"
+
+#: src/Gui/ShortcutsTextBox.qml:13
+msgid "Take Screenshot:"
+msgstr "Take Screenshot:"
+
+#: src/Gui/ShortcutsTextBox.qml:15
+msgid "Create new selection rectangle:"
+msgstr "Create new selection rectangle:"
+
+#: src/Gui/ShortcutsTextBox.qml:20
+msgid "Move selection rectangle:"
+msgstr "Move selection rectangle:"
+
+#: src/Gui/ShortcutsTextBox.qml:23
+msgid "Resize selection rectangle:"
+msgstr "Resize selection rectangle:"
+
+#: src/Gui/ShortcutsTextBox.qml:26
+msgid "Reset selection:"
+msgstr "Reset selection:"
+
+#: src/Gui/ShortcutsTextBox.qml:28
+msgid "Cancel:"
+msgstr "Cancel:"
+
+#: src/Gui/ShortcutsTextBox.qml:33
+msgctxt "Mouse action"
+msgid "Release left-click"
+msgstr "Release left-click"
+
+#: src/Gui/ShortcutsTextBox.qml:33
+msgctxt "Mouse action"
+msgid "Double-click"
+msgstr "Double-click"
+
+#: src/Gui/ShortcutsTextBox.qml:34
+msgctxt "Keyboard action"
+msgid "Enter"
+msgstr "Enter"
+
+#: src/Gui/ShortcutsTextBox.qml:35
+msgctxt "Mouse action"
+msgid "Drag outside selection rectangle"
+msgstr "Drag outside selection rectangle"
+
+#: src/Gui/ShortcutsTextBox.qml:37
+msgctxt "Keyboard action"
+msgid "+ Shift: Magnifier"
+msgstr "+ Shift: Magnifier"
+
+#: src/Gui/ShortcutsTextBox.qml:40
+msgctxt "Mouse action"
+msgid "Drag inside selection rectangle"
+msgstr "Drag inside selection rectangle"
+
+#: src/Gui/ShortcutsTextBox.qml:41
+msgctxt "Keyboard action"
+msgid "Arrow keys"
+msgstr "Arrow keys"
+
+#: src/Gui/ShortcutsTextBox.qml:42
+msgctxt "Keyboard action"
+msgid "+ Shift: Move in 1 pixel steps"
+msgstr "+ Shift: Move in 1 pixel steps"
+
+#: src/Gui/ShortcutsTextBox.qml:43
+msgctxt "Mouse action"
+msgid "Drag handles"
+msgstr "Drag handles"
+
+#: src/Gui/ShortcutsTextBox.qml:44
+msgctxt "Keyboard action"
+msgid "Arrow keys + Alt"
+msgstr "Arrow keys + Alt"
+
+#: src/Gui/ShortcutsTextBox.qml:45
+msgctxt "Keyboard action"
+msgid "+ Shift: Resize in 1 pixel steps"
+msgstr "+ Shift: Resize in 1 pixel steps"
+
+#: src/Gui/ShortcutsTextBox.qml:46
+msgctxt "Mouse action"
+msgid "Right-click"
+msgstr "Right-click"
+
+#: src/Gui/ShortcutsTextBox.qml:48
+msgctxt "Keyboard action"
+msgid "Escape"
+msgstr "Escape"
+
+#: src/Gui/ScreenshotView.qml:196
+msgctxt "@info crop tool explanation"
+msgid ""
+"Click and drag to make a selection.\n"
+"Double click the selection to accept and crop.\n"
+"Right click to clear the selection."
+msgstr ""
+"Click and drag to make a selection.\n"
+"Double click the selection to accept and crop.\n"
+"Right click to clear the selection."
+
+#: src/Gui/OptionsMenu.cpp:38
+#, fuzzy
+msgctxt "@title:menu"
+msgid "Screenshot Settings"
+msgstr "Screenshot Settings"
+
+#: src/Gui/OptionsMenu.cpp:40
+#, fuzzy
+msgctxt "@option:check for screenshots"
+msgid "Include mouse pointer"
+msgstr "Include mouse pointer"
+
+#: src/Gui/OptionsMenu.cpp:43
+#, fuzzy
+msgctxt "@info:tooltip"
+msgid "Show the mouse cursor in the screenshot image"
+msgstr "Show the mouse cursor in the screenshot image"
+
+#: src/Gui/OptionsMenu.cpp:44
+#, fuzzy
+msgctxt "@info:tooltip"
+msgid "niri does not composite the cursor into screenshots"
+msgstr "Show the mouse cursor in the screenshot image"
+
+#: src/Gui/OptionsMenu.cpp:52
+#, fuzzy
+msgctxt "@option:check"
+msgid "Include window titlebar and borders"
+msgstr "Include window titlebar and borders"
+
+#: src/Gui/OptionsMenu.cpp:53
+#, fuzzy
+msgctxt "@info:tooltip"
+msgid ""
+"Show the window title bar, the minimize/maximize/close buttons, and the "
+"window border"
+msgstr ""
+"Show the window title bar, the minimise/maximise/close buttons, and the "
+"window border"
+
+#: src/Gui/OptionsMenu.cpp:61
+#, fuzzy
+msgctxt "@option:check"
+msgid "Include window shadow"
+msgstr "Include window shadow"
+
+#: src/Gui/OptionsMenu.cpp:62
+#, fuzzy
+msgctxt "@info:tooltip"
+msgid "Show the window shadow"
+msgstr "Show the window shadow"
+
+#: src/Gui/OptionsMenu.cpp:70
+#, fuzzy
+msgctxt "@option:check"
+msgid "Quit after manual Save or Copy"
+msgstr "Quit after manual Save or Copy"
+
+#: src/Gui/OptionsMenu.cpp:71
+#, fuzzy
+msgctxt "@info:tooltip"
+msgid "Quit Spectacle after manually saving or copying the image"
+msgstr "Quit Spectacle after manually saving or copying the image"
+
+#: src/Gui/OptionsMenu.cpp:83
+#, fuzzy
+msgctxt "@option:check"
+msgid "Capture On Click"
+msgstr "Capture On Click"
+
+#: src/Gui/OptionsMenu.cpp:98
+#, fuzzy
+msgctxt "@label:spinbox"
+msgid "Delay:"
+msgstr "Delay:"
+
+#: src/Gui/OptionsMenu.cpp:103
+#, fuzzy
+msgctxt "@item 0 delay special value"
+msgid "No Delay"
+msgstr "No Delay"
+
+#: src/Gui/OptionsMenu.cpp:122
+#, fuzzy
+msgctxt "@title:menu"
+msgid "Recording Settings"
+msgstr "Recording Settings"
+
+#: src/Gui/OptionsMenu.cpp:124
+#, fuzzy
+msgctxt "@option:check for recordings"
+msgid "Include mouse pointer"
+msgstr "Include mouse pointer"
+
+#: src/Gui/OptionsMenu.cpp:125
+#, fuzzy
+msgctxt "@info:tooltip"
+msgid "Show the mouse cursor in the recording"
+msgstr "Show the mouse cursor in the screen recording."
+
+#: src/Gui/OptionsMenu.cpp:133
+msgctxt "@option:check for recordings"
+msgid "Record system audio"
+msgstr ""
+
+#: src/Gui/OptionsMenu.cpp:134
+msgctxt "@info:tooltip"
+msgid ""
+"Include the audio that is currently playing on the system in the recording"
+msgstr ""
+
+#: src/Gui/OptionsMenu.cpp:142
+#, fuzzy
+msgctxt "@option:check for recordings"
+msgid "Record microphone"
+msgstr "Record Screen"
+
+#: src/Gui/OptionsMenu.cpp:143
+msgctxt "@info:tooltip"
+msgid "Include audio from the default microphone in the recording"
+msgstr ""
+
+#: src/Gui/RecordingModeMenu.cpp:17
+#, fuzzy
+msgctxt "@title:menu"
+msgid "Recording Modes"
+msgstr "Recording"
+
+#: src/Gui/RecordingSettingsColumn.qml:22
+#, fuzzy
+msgctxt "@option:check"
+msgid "Include mouse pointer"
+msgstr "Include mouse pointer"
+
+#: src/Gui/RecordingSettingsColumn.qml:23
+#, fuzzy
+msgctxt "@info:tooltip"
+msgid "Show the mouse cursor in the screen recording."
+msgstr "Show the mouse cursor in the screen recording."
+
+#: src/Gui/RecordingSettingsColumn.qml:32
+msgctxt "@option:check"
+msgid "Record system audio"
+msgstr ""
+
+#: src/Gui/RecordingSettingsColumn.qml:33
+msgctxt "@info:tooltip"
+msgid ""
+"Include the audio that is currently playing on the system in the recording."
+msgstr ""
+
+#: src/Gui/RecordingSettingsColumn.qml:45
+#, fuzzy
+msgctxt "@option:check"
+msgid "Record microphone"
+msgstr "Record Screen"
+
+#: src/Gui/RecordingSettingsColumn.qml:46
+msgctxt "@info:tooltip"
+msgid "Include audio from the default microphone in the recording."
+msgstr ""
+
+#: src/Gui/RecordingSettingsColumn.qml:57
+msgctxt "@info"
+msgid "The selected video format does not support audio."
+msgstr ""
+
+#: src/Gui/RecordingView.qml:90
+#, fuzzy
+msgctxt "Recording in progress, %1 is the length of the recording so far"
+msgid ""
+"Recording:\n"
+"%1"
+msgstr ""
+"Recording:\n"
+"%1"
+
+#: src/Gui/RecordingView.qml:129
+msgid "Pause"
+msgstr "Pause"
+
+#: src/Gui/RecordingView.qml:129
+msgid "Play"
+msgstr "Play"
+
+#: src/Gui/SaveAction.qml:13
+#, fuzzy
+msgctxt "@action"
+msgid "Save"
+msgstr "Save"
+
+#: src/Gui/ScreenshotModeMenu.cpp:17
+#, fuzzy
+msgctxt "@title:menu"
+msgid "Screenshot Modes"
+msgstr "Screenshot"
+
+#: src/Gui/FontPopup.qml:54
+#, fuzzy
+msgid "Font"
+msgstr "Font:"
+
+#: src/Gui/FontPopup.qml:69
+msgid "Size"
+msgstr ""
+
+#: src/Gui/FontPopup.qml:82
+msgid "Bold"
+msgstr ""
+
+#: src/Gui/FontPopup.qml:86
+msgid "Italic"
+msgstr ""
+
+#: src/Gui/FontPopup.qml:94 src/Gui/ColorPopup.qml:292
+#, fuzzy
+msgid "Cancel"
+msgstr "Cancel"
+
+#: src/Gui/FontPopup.qml:99 src/Gui/ColorPopup.qml:297
+msgid "Apply"
+msgstr ""
+
+#: src/Gui/SaveAsAction.qml:9
+#, fuzzy
+msgctxt "@action"
+msgid "Save As…"
+msgstr "Save As..."
+
+#: src/Gui/ScreenshotModeMenuButton.qml:11
+#, fuzzy
+msgctxt "@action select new screenshot mode"
+msgid "New Screenshot"
+msgstr "New Screenshot"
+
+#: src/Gui/UndoRedoGroup.qml:31
+msgid "Undo"
+msgstr "Undo"
+
+#: src/Gui/UndoRedoGroup.qml:42
+msgid "Redo"
+msgstr "Redo"
+
+#: src/Gui/DialogPage.qml:53
+#, fuzzy
+msgid "Configure NekoShot…"
+msgstr "Configure Spectacle…"
+
+#: src/Gui/DialogPage.qml:61
+msgid "Help"
+msgstr "Help"
+
+#: src/Gui/DialogPage.qml:80
+msgctxt "@title:group"
+msgid "Take a Screenshot:"
+msgstr "Take a Screenshot:"
+
+#: src/Gui/DialogPage.qml:95 src/Gui/DialogPage.qml:136
+msgctxt "@title:group"
+msgid "Options"
+msgstr "Options"
+
+#: src/Gui/DialogPage.qml:121
+msgctxt "@title:group"
+msgid "Make a Recording:"
+msgstr "Make a Recording:"
+
+#: src/Gui/DialogPage.qml:162
+msgctxt "@title:tab"
+msgid "Screenshot"
+msgstr "Screenshot"
+
+#: src/Gui/DialogPage.qml:168
+msgctxt "@title:tab"
+msgid "Recording"
+msgstr "Recording"
+
+#: src/Gui/DialogPage.qml:171 src/Gui/RecordingModeMenuButton.qml:18
+msgctxt "@info:tooltip"
+msgid "This feature is not supported on the current platform"
+msgstr ""
+
+#: src/Gui/SmartSpinBox.cpp:30
+msgctxt "Integer number of seconds"
+msgid " second"
+msgid_plural " seconds"
+msgstr[0] " second"
+msgstr[1] " seconds"
+
+#: src/Gui/SmartSpinBox.cpp:32
+msgctxt "Decimal number of seconds"
+msgid " seconds"
+msgstr " seconds"
+
+#: src/Gui/ExportMenuButton.qml:13
+#, fuzzy
+msgctxt "@action"
+msgid "Export"
+msgstr "Export"
+
+#: src/Gui/ViewerWindow.cpp:53
+#, fuzzy
+msgctxt "@info, %1 is the error message"
+msgid "There was a problem sharing the image: %1"
+msgstr "There was a problem sharing the image: %1"
+
+#: src/Gui/CaptureSettingsColumn.qml:17
+msgid "Include mouse pointer"
+msgstr "Include mouse pointer"
+
+#: src/Gui/CaptureSettingsColumn.qml:20
+msgid "Show the mouse cursor in the screenshot image."
+msgstr "Show the mouse cursor in the screenshot image."
+
+#: src/Gui/CaptureSettingsColumn.qml:21
+#, fuzzy
+msgid "niri does not composite the cursor into screenshots."
+msgstr "Show the mouse cursor in the screenshot image."
+
+#: src/Gui/CaptureSettingsColumn.qml:30
+msgid "Include window titlebar and borders"
+msgstr "Include window titlebar and borders"
+
+#: src/Gui/CaptureSettingsColumn.qml:31
+msgid ""
+"Show the window title bar and border when taking a screenshot of a window."
+msgstr ""
+"Show the window title bar and border when taking a screenshot of a window."
+
+#: src/Gui/CaptureSettingsColumn.qml:40
+msgid "Include window shadow"
+msgstr "Include window shadow"
+
+#: src/Gui/CaptureSettingsColumn.qml:41
+msgid "Show the window shadow when taking a screenshot of a window."
+msgstr "Show the window shadow when taking a screenshot of a window."
+
+#: src/Gui/CaptureSettingsColumn.qml:51
+msgid "Quit after manual Save or Copy"
+msgstr "Quit after manual Save or Copy"
+
+#: src/Gui/CaptureSettingsColumn.qml:52
+msgid "Quit Spectacle after manually saving or copying the image."
+msgstr "Quit Spectacle after manually saving or copying the image."
+
+#: src/Gui/CaptureSettingsColumn.qml:61
+msgid "Capture on click"
+msgstr "Capture on click"
+
+#: src/Gui/CaptureSettingsColumn.qml:63
+msgid "Wait for a mouse click before capturing the screenshot image."
+msgstr "Wait for a mouse click before capturing the screenshot image."
+
+#: src/Gui/CaptureSettingsColumn.qml:74
+msgid "Delay:"
+msgstr "Delay:"
+
+#: src/Gui/DelaySpinBox.qml:15
+msgctxt "0 second delay"
+msgid "No Delay"
+msgstr "No Delay"
+
+#: src/Gui/DelaySpinBox.qml:24
+msgctxt "Integer number of seconds"
+msgid "%2 second"
+msgid_plural "%2 seconds"
+msgstr[0] "%2 second"
+msgstr[1] "%2 seconds"
+
+#: src/Gui/DelaySpinBox.qml:26
+msgctxt "Decimal number of seconds"
+msgid "%1 seconds"
+msgstr "%1 seconds"
+
+#: src/Gui/OcrAction.qml:15
+msgctxt "@action"
+msgid "Extract Text"
+msgstr ""
+
+#: src/Gui/RecordingModeMenuButton.qml:12
+#, fuzzy
+msgctxt "@action select new recording mode"
+msgid "New Recording"
+msgstr "Recording"
+
+#: src/Gui/SizeLabel.qml:13
+#, fuzzy
+msgctxt "Size, width×height"
+msgid "%1×%2"
+msgstr "%1×%2"
+
+#: src/Gui/ViewerPage.qml:228
+msgid "Zoom:"
+msgstr "Zoom:"
+
+#: src/Gui/ViewerPage.qml:242
+msgid "Image Zoom"
+msgstr "Image Zoom"
+
+#: src/Gui/SpectacleWindow.cpp:170
+msgctxt "@title:window"
+msgid "%1 second"
+msgid_plural "%1 seconds"
+msgstr[0] "%1 second"
+msgstr[1] "%1 seconds"
+
+#: src/Gui/SpectacleWindow.cpp:173
+msgctxt "@title:window Unsaved Screenshot"
+msgid "Unsaved"
+msgstr "Unsaved"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:88
+msgid "Stroke:"
+msgstr "Stroke:"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:120
+#, c-format
+msgctxt "px: pixels"
+msgid "%1px"
+msgid_plural "%1px"
+msgstr[0] "%1px"
+msgstr[1] "%1px"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:125
+msgid "Stroke Width"
+msgstr "Stroke Width"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:158 src/Gui/ColorPopup.qml:44
+msgid "Stroke Color"
+msgstr "Stroke Colour"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:192
+msgid "Fill:"
+msgstr "Fill:"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:204 src/Gui/ColorPopup.qml:45
+msgid "Fill Color"
+msgstr "Fill Colour"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:241
+msgctxt "@label:slider strength of effect"
+msgid "Strength:"
+msgstr "Strength:"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:260
+msgctxt "@info:tooltip"
+msgid "The strength of the effect."
+msgstr "The strength of the effect."
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:287
+msgid "Font:"
+msgstr "Font:"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:301
+msgctxt "%2 font family, %3 font style name, %1 font point size"
+msgid "%2 %3 %1pt"
+msgid_plural "%2 %3 %1pts"
+msgstr[0] "%2 %3 %1pt"
+msgstr[1] "%2 %3 %1pts"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:302
+msgctxt "%2 font family %1 font point size"
+msgid "%2 %1pt"
+msgid_plural "%2 %1pts"
+msgstr[0] "%2 %1pt"
+msgstr[1] "%2 %1pts"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:314
+msgid "Font Color"
+msgstr "Font Colour"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:351
+msgid "Number:"
+msgstr "Number:"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:370
+msgid "Number for number annotations"
+msgstr "Number for number annotations"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:398
+msgid "Shadow"
+msgstr "Shadow"
+
+#: src/Gui/AnnotationsToolBarContents.qml:109
+#, fuzzy
+msgctxt "@action:intoolbar no tool, to allow dragging"
+msgid "None"
+msgstr "None"
+
+#: src/Gui/AnnotationsToolBarContents.qml:121
+#, fuzzy
+msgctxt "@action:intoolbar crop image tool"
+msgid "Crop"
+msgstr "Crop"
+
+#: src/Gui/AnnotationsToolBarContents.qml:128
+#, fuzzy
+msgctxt "@action:intoolbar select annotation tool"
+msgid "Select"
+msgstr "Select"
+
+#: src/Gui/AnnotationsToolBarContents.qml:137
+#, fuzzy
+msgctxt "@action:intoolbar freehand line tool"
+msgid "Freehand"
+msgstr "Freehand"
+
+#: src/Gui/AnnotationsToolBarContents.qml:138
+msgctxt "@info:tooltip"
+msgid "Shift: Snap to straight lines"
+msgstr ""
+
+#: src/Gui/AnnotationsToolBarContents.qml:145
+#, fuzzy
+msgctxt "@action:intoolbar highlighter line tool"
+msgid "Highlighter"
+msgstr "Highlighter"
+
+#: src/Gui/AnnotationsToolBarContents.qml:154
+#, fuzzy
+msgctxt "@action:intoolbar straight line tool"
+msgid "Line"
+msgstr "Line"
+
+#: src/Gui/AnnotationsToolBarContents.qml:155
+msgctxt "@info:tooltip"
+msgid "Shift: Snap to 45 degree increments"
+msgstr ""
+
+#: src/Gui/AnnotationsToolBarContents.qml:162
+#, fuzzy
+msgctxt "@action:intoolbar arrow line tool"
+msgid "Arrow"
+msgstr "Arrow"
+
+#: src/Gui/AnnotationsToolBarContents.qml:171
+#, fuzzy
+msgctxt "@action:intoolbar rectangle tool"
+msgid "Rectangle"
+msgstr "Rectangle"
+
+#: src/Gui/AnnotationsToolBarContents.qml:173
+msgctxt "@info:tooltip"
+msgid ""
+"Shift: Snap to diagonal movements\n"
+"Control: Resize from center"
+msgstr ""
+
+#: src/Gui/AnnotationsToolBarContents.qml:180
+#, fuzzy
+msgctxt "@action:intoolbar ellipse tool"
+msgid "Ellipse"
+msgstr "Ellipse"
+
+#: src/Gui/AnnotationsToolBarContents.qml:188
+#, fuzzy
+msgctxt "@action:intoolbar pixelate tool"
+msgid "Pixelate"
+msgstr "Pixelate"
+
+#: src/Gui/AnnotationsToolBarContents.qml:196
+#, fuzzy
+msgctxt "@action:intoolbar blur tool"
+msgid "Blur"
+msgstr "Blur"
+
+#: src/Gui/AnnotationsToolBarContents.qml:204
+#, fuzzy
+msgctxt "@action:intoolbar text tool"
+msgid "Text"
+msgstr "Text"
+
+#: src/Gui/AnnotationsToolBarContents.qml:211
+#, fuzzy
+msgctxt "@action:intoolbar number stamp tool"
+msgid "Number"
+msgstr "Number"
+
+#: src/Gui/InlineMessageList.qml:129
+#, fuzzy
+msgctxt "@action:button"
+msgid "Open Containing Folder"
+msgstr "Open Containing Folder"
+
+#: src/Gui/InlineMessageList.qml:139
+#, fuzzy
+msgctxt "@action:button"
+msgid "Copy to Clipboard"
+msgstr "Copy to Clipboard"
+
+#: src/Gui/InlineMessageList.qml:149
+msgctxt "@action:button close inline notification"
+msgid "Close"
+msgstr ""
+
+#: src/Gui/ColorPopup.qml:46
+#, fuzzy
+msgid "Text Color"
+msgstr "Font Colour"
+
+#: src/Gui/ColorPopup.qml:47
+#, fuzzy
+msgid "Color"
+msgstr "Fill Colour"
+
+#: src/Gui/ColorPopup.qml:241
+msgid "Alpha"
+msgstr ""
+
+#: src/Gui/ColorPopup.qml:264
+msgid "Hex"
+msgstr ""
+
+#: src/Platforms/VideoPlatformWayland.cpp:165
+msgctxt "@info"
+msgid "KWin Screencasting is not available."
+msgstr "KWin Screencasting is not available."
+
+#: src/Platforms/VideoPlatformWayland.cpp:179
+msgctxt "@info:shell"
+msgid "Failed to record: File URL is not a local file"
+msgstr "Failed to record: File URL is not a local file"
+
+#: src/Platforms/VideoPlatformWayland.cpp:279
+msgctxt "@info"
+msgid ""
+"The stream closed because the target screen changed in a way that disrupted "
+"the recording."
+msgstr ""
+"The stream closed because the target screen changed in a way that disrupted "
+"the recording."
+
+#: src/Platforms/VideoPlatformWayland.cpp:283
+msgctxt "@info"
+msgid ""
+"The stream closed because the target window changed in a way that disrupted "
+"the recording."
+msgstr ""
+"The stream closed because the target window changed in a way that disrupted "
+"the recording."
+
+#: src/Platforms/VideoPlatformWayland.cpp:287
+msgctxt "@info"
+msgid ""
+"The stream closed because a screen containing the target region changed in a "
+"way that disrupted the recording."
+msgstr ""
+"The stream closed because a screen containing the target region changed in a "
+"way that disrupted the recording."
+
+#: src/Platforms/VideoPlatformWayland.cpp:303
+#, fuzzy
+msgctxt "@info:shell, %1 is the temporary URL"
+msgid "Failed to record: Temporary file URL is not a local file (%1)"
+msgstr "Failed to record: Temporary file URL is not a local file (%1)"
+
+#: src/Platforms/VideoPlatformWayland.cpp:314
+#, fuzzy
+msgctxt "@info:shell, %1 is the output file URL"
+msgid "Failed to record: Output file URL is not a local file (%1)"
+msgstr "Failed to record: Output file URL is not a local file (%1)"
+
+#: src/Platforms/VideoPlatformWayland.cpp:381
+#, fuzzy
+msgctxt "@info:shell, %1 is a directory path"
+msgid "Failed to record: Unable to create folder (%1)"
+msgstr "Failed to record: Unable to create folder (%1)"
+
+#: src/Platforms/VideoPlatformWayland.cpp:409
+msgctxt "@info:shell"
+msgid "Screen recording canceled"
+msgstr "Screen recording cancelled"
+
+#: src/Platforms/VideoPlatformWayland.cpp:411
+msgctxt "@info:shell"
+msgid "Window recording canceled"
+msgstr "Window recording cancelled"
+
+#: src/Platforms/VideoPlatformWayland.cpp:417
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to select screen: %1"
+msgstr "Failed to select screen: %1"
+
+#: src/Platforms/VideoPlatformWayland.cpp:419
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to select window: %1"
+msgstr "Failed to select window: %1"
+
+#: src/Platforms/VideoPlatformWayland.cpp:447
+msgctxt "@info:shell"
+msgid "Failed to select screen: No screen contained the mouse cursor position"
+msgstr "Failed to select screen: No screen contained the mouse cursor position"
+
+#: src/Platforms/VideoPlatformWayland.cpp:454
+msgctxt "@info:shell"
+msgid "Failed to select window: No window found"
+msgstr "Failed to select window: No window found"
+
+#: src/Platforms/ImagePlatformKWin.cpp:73
+#, fuzzy
+msgctxt "@info, %1 is the width"
+msgid "Bad width for KWin screenshot: %1"
+msgstr "Bad width for KWin screenshot: %1"
+
+#: src/Platforms/ImagePlatformKWin.cpp:78
+#, fuzzy
+msgctxt "@info, %1 is the height"
+msgid "Bad height for KWin screenshot: %1"
+msgstr "Bad height for KWin screenshot: %1"
+
+#: src/Platforms/ImagePlatformKWin.cpp:89
+#, fuzzy
+msgctxt "@info, %1 is a file format like 'png', 'jpg'"
+msgid "Bad format for KWin screenshot: %1"
+msgstr "Bad format for KWin screenshot: %1"
+
+#: src/Platforms/ImagePlatformKWin.cpp:107
+msgctxt "@info"
+msgid "Could not open file descriptor for reading KWin screenshot."
+msgstr "Could not open file descriptor for reading KWin screenshot."
+
+#: src/Platforms/ImagePlatformKWin.cpp:177
+#, fuzzy
+msgctxt "@info, %1 is an error code"
+msgid "pipe2() failed for KWin screenshot: %1"
+msgstr "pipe2() failed for KWin screenshot: %1"
+
+#: src/Platforms/ImagePlatformKWin.cpp:233
+#, fuzzy
+msgctxt "@info, %1 is an error message"
+msgid ""
+"KWin screenshot request failed:\n"
+"%1"
+msgstr ""
+"KWin screenshot request failed:\n"
+"%1"
+
+#: src/Platforms/ImagePlatformKWin.cpp:235
+msgctxt "@info"
+msgid ""
+"Potentially relevant information:\n"
+"%1"
+msgstr ""
+"Potentially relevant information:\n"
+"%1"
+
+#: src/Platforms/ImagePlatformKWin.cpp:243
+msgctxt "@info"
+msgid "Unsupported KWin screenshot type metadata: %1"
+msgstr "Unsupported KWin screenshot type metadata: %1"
+
+#: src/Platforms/ImagePlatformNiri.cpp:115
+#, fuzzy
+msgid "Failed to capture the window"
+msgstr "Failed to select window: %1"
+
+#: src/Platforms/ImagePlatformNiri.cpp:159
+#, fuzzy
+msgid "Unsupported capture mode"
+msgstr "Use last-used capture mode"
+
+#: src/Platforms/ImagePlatformNiri.cpp:190
+msgid "No focused window"
+msgstr ""
+
+#: src/Platforms/ImagePlatformNiri.cpp:209
+msgid "No outputs found"
+msgstr ""
+
+#: src/Platforms/ImagePlatformNiri.cpp:215
+msgid "No focused output found"
+msgstr ""
+
+#: src/Platforms/ImagePlatformNiri.cpp:229
+#, fuzzy
+msgid "Failed to capture the screen"
+msgstr "Failed to select screen: %1"
+
+#: src/Platforms/PlatformLoader.cpp:120
+msgid "wf-recorder is not installed"
+msgstr ""
+
+#: src/Platforms/PlatformLoader.cpp:127
+msgctxt "@info"
+msgid "Screen recording is not available on X11."
+msgstr "Screen recording is not available on X11."
+
+#: src/Platforms/VideoPlatformNiri.cpp:197
+msgid "gst-launch-1.0 is not installed"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:200
+msgid "gst-inspect-1.0 is not installed"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:218
+msgid "missing GStreamer elements: %1"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:287
+msgid "missing GStreamer elements: mp4mux"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:291
+msgid "missing GStreamer elements: vah264enc+h264parse or x264enc"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:297
+msgid "H.265/HEVC requires vah265enc, h265parse and mp4mux"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:302
+msgid "AV1 requires vaav1enc, av1parse and mp4mux"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:306
+msgid "the video format is not supported"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:356
+msgid "missing GStreamer audio elements: %1"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:432
+#, fuzzy
+msgid "the D-Bus session bus is not available"
+msgstr "KWin Screencasting is not available."
+
+#: src/Platforms/VideoPlatformNiri.cpp:500
+#: src/Platforms/VideoPlatformNiri.cpp:1241
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to record: could not start the window picker: %1"
+msgstr "Failed to record: Unable to create folder (%1)"
+
+#: src/Platforms/VideoPlatformNiri.cpp:518
+msgctxt "@info:shell, %1 is a process exit code"
+msgid "gst-launch-1.0 exited with code %1."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:520
+msgctxt "@info:shell, %1 is a process exit code"
+msgid "wf-recorder exited with code %1."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:917
+msgctxt "@info:shell"
+msgid "Recording canceled: no recording mode"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:921
+msgctxt "@info:shell"
+msgid "Failed to record: unsupported recording mode."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:925
+#: src/Platforms/VideoPlatformNiri.cpp:929
+#: src/Platforms/VideoPlatformNiri.cpp:1322
+#, fuzzy
+msgid "A recording is already starting"
+msgstr "Recording Settings"
+
+#: src/Platforms/VideoPlatformNiri.cpp:936
+#: src/Platforms/VideoPlatformNiri.cpp:1083
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to record: window recording is unavailable: %1."
+msgstr "Screen recording is not available on X11."
+
+#: src/Platforms/VideoPlatformNiri.cpp:946
+#, fuzzy
+msgctxt "@info:shell"
+msgid "Failed to record: the output file URL is not a local file."
+msgstr "Failed to record: Output file URL is not a local file (%1)"
+
+#: src/Platforms/VideoPlatformNiri.cpp:962
+msgctxt "@info:shell, %1 is a file path"
+msgid "Failed to record: the video format of %1 is not supported."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:964
+msgctxt "@info:shell"
+msgid "Failed to record: the selected video format is not supported."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:971
+#, fuzzy
+msgid "Recording format changed"
+msgstr "Recording Settings"
+
+#: src/Platforms/VideoPlatformNiri.cpp:973
+#, fuzzy
+msgid "WebM/VP9"
+msgstr "WebM/VP9"
+
+#: src/Platforms/VideoPlatformNiri.cpp:974
+#, fuzzy
+msgid "MP4/H.265"
+msgstr "MP4/H.264"
+
+#: src/Platforms/VideoPlatformNiri.cpp:975
+msgid "MP4/AV1"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:976
+#, fuzzy
+msgid "MP4/H.264"
+msgstr "MP4/H.264"
+
+#: src/Platforms/VideoPlatformNiri.cpp:972
+msgid ""
+"The selected format is not available for window recording; using %1 instead."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:992
+#, fuzzy
+msgctxt "@info:shell"
+msgid "Failed to record: unable to create a temporary output file."
+msgstr "Failed to record: Unable to create folder (%1)"
+
+#: src/Platforms/VideoPlatformNiri.cpp:998
+#, fuzzy
+msgctxt "@info:shell, %1 is a directory path"
+msgid "Failed to record: unable to create folder (%1)."
+msgstr "Failed to record: Unable to create folder (%1)"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1057
+#: src/Platforms/VideoPlatformNiri.cpp:1101
+#, fuzzy
+msgctxt "@info:shell"
+msgid "Failed to record: niri did not report a focused output."
+msgstr "Failed to record: File URL is not a local file"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1059
+#: src/Platforms/VideoPlatformNiri.cpp:1103
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to record: %1"
+msgstr "Failed to select screen: %1"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1066
+#: src/Platforms/VideoPlatformNiri.cpp:1361
+#, fuzzy
+msgid "Failed to record: the screen connector is empty."
+msgstr "Failed to record: Unable to create folder (%1)"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1113
+msgctxt "@info:shell"
+msgid "Failed to record: the recording region is empty."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1136
+msgid ""
+"Failed to record: wf-recorder does not support the selected video format."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1141
+msgid ""
+"Failed to record: HEVC region recording requires the libx265 encoder in wf-"
+"recorder."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1145
+msgid ""
+"Failed to record: AV1 region recording requires the libaom-av1 encoder in wf-"
+"recorder."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1149
+msgid ""
+"Failed to record: H.264 region recording requires the libx264 encoder in wf-"
+"recorder."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1153
+msgid ""
+"Failed to record: VP9 region recording requires the libvpx-vp9 encoder in wf-"
+"recorder."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1162
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to start wf-recorder: %1"
+msgstr "Failed to select screen: %1"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1183
+#: src/Platforms/VideoPlatformNiri.cpp:1284
+msgid "Recording canceled: no window selected."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1191
+msgid "Recording canceled: the screencast stream did not start."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1247
+msgid "Recording canceled: no window was selected."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1271
+msgctxt "@info:shell, %1 is a process exit code"
+msgid "The window picker exited with code %1."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1327
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to record: screencast recording is unavailable: %1."
+msgstr "Screen recording is not available on X11."
+
+#: src/Platforms/VideoPlatformNiri.cpp:1331
+msgid ""
+"Failed to record: this video format is not supported for screencast "
+"recording."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1336
+#: src/Platforms/VideoPlatformNiri.cpp:1341
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to record: %1."
+msgstr "Failed to select screen: %1"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1353
+msgid "No window selected to record"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1367
+msgid ""
+"Failed to record: screencast recording only supports screen, window and "
+"region modes."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1384
+#: src/Platforms/VideoPlatformNiri.cpp:1396
+#: src/Platforms/VideoPlatformNiri.cpp:1420
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to start screencast recording: %1"
+msgstr "Failed to select screen: %1"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1390
+msgid ""
+"Failed to start screencast recording: niri returned an empty screencast "
+"session."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1401
+msgid ""
+"Failed to start screencast recording: niri returned an empty screencast "
+"stream."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1410
+msgid ""
+"Failed to start screencast recording: could not subscribe to the screencast "
+"stream signal."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1414
+msgid ""
+"Failed to start screencast recording: could not subscribe to the screencast "
+"session signal."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1425
+msgid ""
+"Failed to start screencast recording: the niri screencast session was closed."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1440
+msgid "Timed out waiting for the PipeWire stream"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1474
+#: src/Platforms/VideoPlatformNiri.cpp:1500
+msgid ""
+"Failed to start screencast recording: the stream format is not supported."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1479
+#: src/Platforms/VideoPlatformNiri.cpp:1485
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to start screencast recording: %1."
+msgstr "Failed to select screen: %1"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1517
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to start gst-launch-1.0: %1"
+msgstr "Failed to select screen: %1"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1592
+msgid "Failed to record: the niri screencast session was closed."
+msgstr ""
+
+#: src/Gui/SettingsDialog/SaveOptionsUtils.h:40
+msgctxt "@info"
+msgid "<filename>%1</filename>"
+msgstr "<filename>%1</filename>"
+
+#: src/Gui/SettingsDialog/SaveOptionsUtils.h:72
+msgid ""
+"You can use the following placeholders in the filename, which will be "
+"replaced with actual text when the file is saved:"
+msgstr ""
+"You can use the following placeholders in the filename, which will be "
+"replaced with actual text when the file is saved:"
+
+#: src/Gui/SettingsDialog/SaveOptionsUtils.h:87
+msgid "To save to a sub-folder"
+msgstr "To save to a sub-folder"
+
+#: src/Gui/SettingsDialog/SaveOptionsUtils.h:90
+msgctxt "show fewer filename placeholder templates"
+msgid "Show Fewer"
+msgstr "Show Fewer"
+
+#: src/Gui/SettingsDialog/SaveOptionsUtils.h:92
+msgctxt "show more filename placeholder templates"
+msgid "Show More"
+msgstr "Show More"
+
+#: src/Gui/SettingsDialog/VideoSaveOptionsPage.cpp:35
+msgid "Quality:"
+msgstr ""
+
+#: src/Gui/SettingsDialog/VideoSaveOptionsPage.cpp:37
+msgid "Low (smaller files)"
+msgstr ""
+
+#: src/Gui/SettingsDialog/VideoSaveOptionsPage.cpp:38
+msgid "Medium"
+msgstr ""
+
+#: src/Gui/SettingsDialog/VideoSaveOptionsPage.cpp:39
+msgid "High (larger files)"
+msgstr ""
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:37
+msgctxt "Settings category"
+msgid "General"
+msgstr "General"
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:38
+msgctxt "Settings category"
+msgid "Image Saving"
+msgstr "Image Saving"
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:39
+msgctxt "Settings category"
+msgid "Video Saving"
+msgstr "Video Saving"
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:40
+msgctxt "Settings category"
+msgid "Shortcuts"
+msgstr "Shortcuts"
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:104
+msgid "Shortcuts"
+msgstr "Shortcuts"
+
+#, kde-format
+#~ msgctxt "translatable folder name"
+#~ msgid "Screenshots"
+#~ msgstr "Screenshots"
+
+#, kde-format
+#~ msgctxt "part of default image filename template"
+#~ msgid "Screenshot"
+#~ msgstr "Screenshot"
+
+#, kde-format
+#~ msgctxt "translatable folder name"
+#~ msgid "Screencasts"
+#~ msgstr "Screencasts"
+
+#, kde-format
+#~ msgctxt "part of default video filename template"
+#~ msgid "Screencast"
+#~ msgstr "Screencast"
+
+#, kde-format
+#~ msgid "When launching Spectacle:"
+#~ msgstr "When launching Spectacle:"
+
+#, fuzzy, kde-format
+#~| msgid "Take a new screenshot"
+#~ msgid "Take rectangular screenshot"
+#~ msgstr "Take a new screenshot"
+
+#, kde-format
+#~ msgid "Take full screen screenshot"
+#~ msgstr "Take full screen screenshot"
+
+#, kde-format
+#~ msgid "Do not take a screenshot automatically"
+#~ msgstr "Do not take a screenshot automatically"
+
+#, kde-format
+#~ msgid "After taking a screenshot:"
+#~ msgstr "After taking a screenshot:"
+
+#, kde-format
+#~ msgid "Save file to default folder"
+#~ msgstr "Save file to default folder"
+
+#, kde-format
+#~ msgid "Do not copy anything"
+#~ msgstr "Do not copy anything"
+
+#, kde-format
+#~ msgid "Copy image to clipboard"
+#~ msgstr "Copy image to clipboard"
+
+#, kde-format
+#~ msgid "Copy file location to clipboard"
+#~ msgstr "Copy file location to clipboard"
+
+#, kde-format
+#~ msgid "While Spectacle is running"
+#~ msgstr "While Spectacle is running"
+
+#, kde-format
+#~ msgid "Press screenshot key to:"
+#~ msgstr "Press screenshot key to:"
+
+#, kde-format
+#~ msgid "Take a new Screenshot"
+#~ msgstr "Take a new Screenshot"
+
+#, kde-format
+#~ msgid "Open a new Spectacle window"
+#~ msgstr "Open a new Spectacle window"
+
+#, kde-format
+#~ msgid "Return focus to Spectacle"
+#~ msgstr "Return focus to Spectacle"
+
+#, kde-format
+#~ msgid "Rectangular Region Selection"
+#~ msgstr "Rectangular Region Selection"
+
+#, kde-format
+#~ msgid "General:"
+#~ msgstr "General:"
+
+#, kde-format
+#~ msgid "Use light background"
+#~ msgstr "Use light background"
+
+#, kde-format
+#~ msgid "Accept on click-and-release"
+#~ msgstr "Accept on click-and-release"
+
+#, kde-format
+#~ msgid "Show magnifier:"
+#~ msgstr "Show magnifier:"
+
+#, kde-format
+#~ msgid "Never"
+#~ msgstr "Never"
+
+#, kde-format
+#~ msgid "Always"
+#~ msgstr "Always"
+
+#, kde-format
+#~ msgid "While holding Shift"
+#~ msgstr "While holding Shift"
+
+#, kde-format
+#~ msgid "Remember selected area:"
+#~ msgstr "Remember selected area:"
+
+#, kde-format
+#~ msgid "Until Spectacle is closed"
+#~ msgstr "Until Spectacle is closed"
+
+#, fuzzy, kde-format
+#~| msgid "Reset selection:"
+#~ msgid "Text extraction:"
+#~ msgstr "Reset selection:"
+
+#, fuzzy, kde-format
+#~| msgctxt "@info"
+#~| msgid "KWin Screencasting is not available."
+#~ msgid "OCR functionality is not available"
+#~ msgstr "KWin Screencasting is not available."
+
+#, kde-format
+#~ msgid "Save Location:"
+#~ msgstr "Save Location:"
+
+#, kde-format
+#~ msgid "Compression Quality:"
+#~ msgstr "Compression Quality:"
+
+#, kde-format
+#~ msgid "For lossy image formats like JPEG"
+#~ msgstr "For lossy image formats like JPEG"
+
+#, no-c-format, kde-format
+#~ msgid "%"
+#~ msgstr "%"
+
+#, kde-format
+#~ msgid "Filename:"
+#~ msgstr "Filename:"
+
+#, kde-format
+#~ msgctxt "Preview of the user configured filename"
+#~ msgid "Preview:"
+#~ msgstr "Preview:"
+
+#, kde-format
+#~ msgid "What to do when Spectacle is launched"
+#~ msgstr "What to do when Spectacle is launched"
+
+#, kde-format
+#~ msgid ""
+#~ "What should happen if print key is pressed when Spectacle is already "
+#~ "running"
+#~ msgstr ""
+#~ "What should happen if print key is pressed when Spectacle is already "
+#~ "running"
+
+#, kde-format
+#~ msgid "Save screenshot automatically after it is taken"
+#~ msgstr "Save screenshot automatically after it is taken"
+
+#, kde-format
+#~ msgid ""
+#~ "Clipboard action which should be executed after the screenshot is taken"
+#~ msgstr ""
+#~ "Clipboard action which should be executed after the screenshot is taken"
+
+#, kde-format
+#~ msgid "Whether to use a light color mask in the region selection dialog"
+#~ msgstr "Whether to use a light colour mask in the region selection dialogue"
+
+#, kde-format
+#~ msgid ""
+#~ "Whether the screenshot should be captured after selecting the region and "
+#~ "releasing the mouse"
+#~ msgstr ""
+#~ "Whether the screenshot should be captured after selecting the region and "
+#~ "releasing the mouse"
+
+#, kde-format
+#~ msgid "Remember the last rectangular region"
+#~ msgstr "Remember the last rectangular region"
+
+#, kde-format
+#~ msgid "The last used region the user selected"
+#~ msgstr "The last used region the user selected"
+
+#, kde-format
+#~ msgid "Take screenshot on click"
+#~ msgstr "Take screenshot on click"
+
+#, kde-format
+#~ msgid "Whether the mouse cursor is included in the screenshot"
+#~ msgstr "Whether the mouse cursor is included in the screenshot"
+
+#, kde-format
+#~ msgid "Whether the mouse cursor is included in the video"
+#~ msgstr "Whether the mouse cursor is included in the video"
+
+#, fuzzy, kde-format
+#~| msgid "Whether the mouse cursor is included in the video"
+#~ msgid "Whether system audio is included in the recording"
+#~ msgstr "Whether the mouse cursor is included in the video"
+
+#, fuzzy, kde-format
+#~| msgid "Whether the mouse cursor is included in the video"
+#~ msgid "Whether microphone audio is included in the recording"
+#~ msgstr "Whether the mouse cursor is included in the video"
+
+#, kde-format
+#~ msgid "Whether the window decorations are included in the screenshot"
+#~ msgstr "Whether the window decorations are included in the screenshot"
+
+#, kde-format
+#~ msgid "Whether the window shadow is included in the screenshot"
+#~ msgstr "Whether the window shadow is included in the screenshot"
+
+#, kde-format
+#~ msgid "Quit after saving or copying an image"
+#~ msgstr "Quit after saving or copying an image"
+
+#, kde-format
+#~ msgid "Delay"
+#~ msgstr "Delay"
+
+#, kde-format
+#~ msgid "Default filename"
+#~ msgstr "Default filename"
+
+#, kde-format
+#~ msgid "Compression quality for lossy file formats"
+#~ msgstr "Compression quality for lossy file formats"
+
+#, kde-format
+#~ msgid "Default save image format"
+#~ msgstr "Default save image format"
+
+#, kde-format
+#~ msgid "The filename template used when saving screenshots"
+#~ msgstr "The filename template used when saving screenshots"
+
+#, kde-format
+#~ msgid "The path of the file saved last"
+#~ msgstr "The path of the file saved last"
+
+#, kde-format
+#~ msgid "Last path used for \"save as\" action"
+#~ msgstr "Last path used for \"save as\" action"
+
+#, kde-format
+#~ msgid "Default video format"
+#~ msgstr "Default video format"
+
+#, kde-format
+#~ msgid "The filename template used when saving screencasts"
+#~ msgstr "The filename template used when saving screencasts"
+
+#, kde-format
+#~ msgid "Save &Location:"
+#~ msgstr "Save &Location:"
+
+#, kde-format
+#~ msgid "Spectacle"
+#~ msgstr "Spectacle"
+
+#, kde-format
+#~ msgid "KDE Screenshot Utility"
+#~ msgstr "KDE Screenshot Utility"
+
+#~ msgid ""
+#~ "Capture the window currently under the cursor, excluding parents of pop-"
+#~ "up menus"
+#~ msgstr ""
+#~ "Capture the window currently under the cursor, excluding parents of pop-"
+#~ "up menus"
+
+#~ msgid "Capture the current pop-up only"
+#~ msgstr "Capture the current pop-up only"
+
+#~ msgid ""
+#~ "Capture only the current pop-up window (like a menu, tooltip etc) when "
+#~ "taking a screenshot of a window. If disabled, the pop-up is captured "
+#~ "along with the parent window."
+#~ msgstr ""
+#~ "Capture only the current pop-up window (like a menu, tooltip etc) when "
+#~ "taking a screenshot of a window. If disabled, the pop-up is captured "
+#~ "along with the parent window."
+
+#, fuzzy
+#~| msgid "Capture the current pop-up only"
+#~ msgctxt "@option:check"
+#~ msgid "Capture the current pop-up only"
+#~ msgstr "Capture the current pop-up only"
+
+#, fuzzy
+#~| msgid ""
+#~| "Capture only the current pop-up window (like a menu, tooltip etc).\n"
+#~| "If disabled, the pop-up is captured along with the parent window"
+#~ msgctxt "@info:tooltip"
+#~ msgid ""
+#~ "Capture only the current pop-up window (like a menu, tooltip etc).\n"
+#~ "If disabled, the pop-up is captured along with the parent window"
+#~ msgstr ""
+#~ "Capture only the current pop-up window (like a menu, tooltip etc).\n"
+#~ "If disabled, the pop-up is captured along with the parent window"
+
+#~ msgid "Only capture the current pop up menu"
+#~ msgstr "Only capture the current pop up menu"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "The shared image link (<a href=\"%1\">%1</a>) has been copied to the "
+#~ "clipboard."
+#~ msgstr ""
+#~ "The shared image link (<a href=\"%1\">%1</a>) has been copied to the "
+#~ "clipboard."
+
+#, fuzzy
+#~| msgid "Open Containing Folder"
+#~ msgctxt "@action"
+#~ msgid "Open Containing Folder"
+#~ msgstr "Open Containing Folder"
+
+#~ msgid "The last used annotation tool type"
+#~ msgstr "The last used annotation tool type"
+
+#~ msgid "Stroke width for freehand annotation tool"
+#~ msgstr "Stroke width for freehand annotation tool"
+
+#~ msgid "Stroke width for highlighter annotation tool"
+#~ msgstr "Stroke width for highlighter annotation tool"
+
+#~ msgid "Stroke width for line annotation tool"
+#~ msgstr "Stroke width for line annotation tool"
+
+#~ msgid "Stroke width for arrow annotation tool"
+#~ msgstr "Stroke width for arrow annotation tool"
+
+#~ msgid "Stroke width for rectangle annotation tool"
+#~ msgstr "Stroke width for rectangle annotation tool"
+
+#~ msgid "Stroke width for ellipse annotation tool"
+#~ msgstr "Stroke width for ellipse annotation tool"
+
+#~ msgid "Stroke color for freehand annotation tool"
+#~ msgstr "Stroke colour for freehand annotation tool"
+
+#~ msgid "Stroke color for highlighter annotation tool"
+#~ msgstr "Stroke colour for highlighter annotation tool"
+
+#~ msgid "Stroke color for line annotation tool"
+#~ msgstr "Stroke colour for line annotation tool"
+
+#~ msgid "Stroke color for arrow annotation tool"
+#~ msgstr "Stroke colour for arrow annotation tool"
+
+#~ msgid "Stroke color for rectangle annotation tool"
+#~ msgstr "Stroke colour for rectangle annotation tool"
+
+#~ msgid "Stroke color for ellipse annotation tool"
+#~ msgstr "Stroke colour for ellipse annotation tool"
+
+#~ msgid "Fill color for rectangle annotation tool"
+#~ msgstr "Fill colour for rectangle annotation tool"
+
+#~ msgid "Fill color for ellipse annotation tool"
+#~ msgstr "Fill colour for ellipse annotation tool"
+
+#~ msgid "Fill color for number annotation tool"
+#~ msgstr "Fill colour for number annotation tool"
+
+#~ msgid "The strength of the blur effect."
+#~ msgstr "The strength of the blur effect."
+
+#~ msgid "The strength of the pixelate effect."
+#~ msgstr "The strength of the pixelate effect."
+
+#~ msgid "Font for text annotations"
+#~ msgstr "Font for text annotations"
+
+#~ msgid "Font for number annotations"
+#~ msgstr "Font for number annotations"
+
+#~ msgid "Font color for annotations"
+#~ msgstr "Font colour for annotations"
+
+#~ msgid "Whether freehand annotation tool has a drop shadow"
+#~ msgstr "Whether freehand annotation tool has a drop shadow"
+
+#~ msgid "Whether line annotation tool has a drop shadow"
+#~ msgstr "Whether line annotation tool has a drop shadow"
+
+#~ msgid "Whether arrow annotation tool has a drop shadow"
+#~ msgstr "Whether arrow annotation tool has a drop shadow"
+
+#~ msgid "Whether rectangle annotation tool has a drop shadow"
+#~ msgstr "Whether rectangle annotation tool has a drop shadow"
+
+#~ msgid "Whether ellipse annotation tool has a drop shadow"
+#~ msgstr "Whether ellipse annotation tool has a drop shadow"
+
+#~ msgid "Whether text annotation tool has a drop shadow"
+#~ msgstr "Whether text annotation tool has a drop shadow"
+
+#~ msgid "Whether number annotation tool has a drop shadow"
+#~ msgstr "Whether number annotation tool has a drop shadow"
+
+#~ msgid "Show capture instructions"
+#~ msgstr "Show capture instructions"
+
+#~ msgid "Whether to show capture instructions in the region selection"
+#~ msgstr "Whether to show capture instructions in the region selection"
+
+#, fuzzy
+#~| msgid "Record Window"
+#~ msgctxt "@action global shortcut"
+#~ msgid "Record Window"
+#~ msgstr "Record Window"
+
+#, fuzzy
+#~| msgid "Record Rectangular Region"
+#~ msgctxt "@action global shortcut"
+#~ msgid "Record Rectangular Region"
+#~ msgstr "Record Rectangular Region"
+
+#~ msgctxt "recording notification message"
+#~ msgid "Click the system tray icon to finish recording"
+#~ msgstr "Click the system tray icon to finish recording"
+
+#~ msgctxt "@info"
+#~ msgid "The screenshot location has been copied to the clipboard."
+#~ msgstr "The screenshot location has been copied to the clipboard."
+
+#~ msgctxt "@info"
+#~ msgid "Video shared"
+#~ msgstr "Video shared"
+
+#~ msgctxt "@info"
+#~ msgid "Image shared"
+#~ msgstr "Image shared"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "The shared video link (<a href=\"%1\">%1</a>) has been copied to the "
+#~ "clipboard."
+#~ msgstr ""
+#~ "The shared video link (<a href=\"%1\">%1</a>) has been copied to the "
+#~ "clipboard."
+
+#~ msgctxt "@info"
+#~ msgid "There was a problem sharing the video: %1"
+#~ msgstr "There was a problem sharing the video: %1"
+
+#~ msgid "Screenshot"
+#~ msgstr "Screenshot"
+
+#~ msgid "Configure..."
+#~ msgstr "Configure..."
+
+#~ msgid "Capture Mode"
+#~ msgstr "Capture Mode"
+
+#~ msgid "Capture Settings"
+#~ msgstr "Capture Settings"
+
+#, fuzzy
+#~| msgid "Recording Settings"
+#~ msgctxt "@title:group"
+#~ msgid "Recording Settings"
+#~ msgstr "Recording Settings"
+
+#~ msgid ""
+#~ "Could not take a screenshot. Please report this bug here: <a "
+#~ "href=\"https://bugs.kde.org/enter_bug.cgi?product=Spectacle\">create a "
+#~ "spectacle bug</a>"
+#~ msgstr ""
+#~ "Could not take a screenshot. Please report this bug here: <a "
+#~ "href=\"https://bugs.kde.org/enter_bug.cgi?product=Spectacle\">create a "
+#~ "spectacle bug</a>"
+
+#~ msgid "Screenshot capture canceled or failed"
+#~ msgstr "Screenshot capture cancelled or failed"
+
+#~ msgid "Show Annotation Tools"
+#~ msgstr "Show Annotation Tools"
+
+#~ msgid "Whether to show a magnifier in the region selection"
+#~ msgstr "Whether to show a magnifier in the region selection"
+
+#~ msgid "Capture Modes"
+#~ msgstr "Capture Modes"
+
+#, fuzzy
+#~| msgctxt "Decimal number of seconds"
+#~| msgid " seconds"
+#~ msgctxt "Decimal number of seconds"
+#~ msgid "%2 seconds"
+#~ msgstr " seconds"
+
+#~ msgctxt ""
+#~ "A placeholder in the user configurable filename will replaced by the "
+#~ "specified value"
+#~ msgid "Day"
+#~ msgstr "Day"
+
+#~ msgctxt ""
+#~ "A placeholder in the user configurable filename will replaced by the "
+#~ "specified value"
+#~ msgid "Month"
+#~ msgstr "Month"
+
+#~ msgctxt ""
+#~ "A placeholder in the user configurable filename will replaced by the "
+#~ "specified value"
+#~ msgid "Hour"
+#~ msgstr "Hour"
+
+#~ msgctxt ""
+#~ "A placeholder in the user configurable filename will replaced by the "
+#~ "specified value"
+#~ msgid "Minute"
+#~ msgstr "Minute"
+
+#~ msgctxt ""
+#~ "A placeholder in the user configurable filename will replaced by the "
+#~ "specified value"
+#~ msgid "Second"
+#~ msgstr "Second"
+
+#~ msgctxt ""
+#~ "A placeholder in the user configurable filename will replaced by the "
+#~ "specified value"
+#~ msgid "Timezone"
+#~ msgstr "Timezone"
+
+#~ msgctxt ""
+#~ "A placeholder in the user configurable filename will replaced by the "
+#~ "specified value"
+#~ msgid "Sequential numbering"
+#~ msgstr "Sequential numbering"
+
+#~ msgid "The default filename used when recording a video"
+#~ msgstr "The default filename used when recording a video"
+
+#, fuzzy
+#~| msgid "Screenshot"
+#~ msgctxt "@item recording mode"
+#~ msgid "Screen"
+#~ msgstr "Screenshot"
+
+#~ msgid "Workspace"
+#~ msgstr "Workspace"
+
+#~ msgid "Failed to select output"
+#~ msgstr "Failed to select output"
+
+#~ msgctxt "@label:listbox"
+#~ msgid "Video format:"
+#~ msgstr "Video format:"
+
+#, fuzzy
+#~| msgid "Save"
+#~ msgctxt "Settings category"
+#~ msgid "Save"
+#~ msgstr "Save"
+
+#~ msgid "File format for saved screen recordings"
+#~ msgstr "File format for saved screen recordings"
+
+#~ msgid "On Click"
+#~ msgstr "On Click"
+
+#~ msgid "Take a New Screenshot"
+#~ msgstr "Take a New Screenshot"
+
+#, fuzzy
+#~| msgid ""
+#~| "Capture only the current pop-up window (like a menu, tooltip etc).\n"
+#~| "If disabled, the pop-up is captured along with the parent window"
+#~ msgid "Capture only the current pop-up window (like a menu, tooltip etc).\n"
+#~ msgstr ""
+#~ "Capture only the current pop-up window (like a menu, tooltip etc).\n"
+#~ "If disabled, the pop-up is captured along with the parent window"
+
+#~ msgid "Full Screen (All Monitors)"
+#~ msgstr "Full Screen (All Monitors)"
+
+#~ msgid "Full Screen (All Monitors, scaled)"
+#~ msgstr "Full Screen (All Monitors, scaled)"
+
+#~ msgid "Image Size: %1x%2 pixels"
+#~ msgstr "Image Size: %1x%2 pixels"
+
+#~ msgid "Change Spectacle's settings."
+#~ msgstr "Change Spectacle's settings."
+
+#~ msgid "Add annotation to the screenshot"
+#~ msgstr "Add annotation to the screenshot"
+
+#~ msgid "Tools"
+#~ msgstr "Tools"
+
+#~ msgid "Copy Image to Clipboard"
+#~ msgstr "Copy Image to Clipboard"
+
+#~ msgid "Ready to take a screenshot"
+#~ msgstr "Ready to take a screenshot"
+
+#~ msgctxt "@action:button"
+#~ msgid "Annotate"
+#~ msgstr "Annotate"
+
+#~ msgid "Area:"
+#~ msgstr "Area:"
+
+#~ msgid "<b>Options</b>"
+#~ msgstr "<b>Options</b>"
+
+#~ msgid "The last used copy mode"
+#~ msgstr "The last used copy mode"
+
+#~ msgctxt "The entire screen area was captured, heading"
+#~ msgid "Full Screen Captured"
+#~ msgstr "Full Screen Captured"
+
+#~ msgctxt "The current screen was captured, heading"
+#~ msgid "Current Screen Captured"
+#~ msgstr "Current Screen Captured"
+
+#~ msgctxt "The active window was captured, heading"
+#~ msgid "Active Window Captured"
+#~ msgstr "Active Window Captured"
+
+#~ msgctxt "The window under the mouse was captured, heading"
+#~ msgid "Window Under Cursor Captured"
+#~ msgstr "Window Under Cursor Captured"
+
+#~ msgctxt "A rectangular region was captured, heading"
+#~ msgid "Rectangular Region Captured"
+#~ msgstr "Rectangular Region Captured"
+
+#~ msgid "More Online Services"
+#~ msgstr "More Online Services"
+
+#~ msgid "KIPI plugin from library %1 failed to load"
+#~ msgstr "KIPI plugin from library %1 failed to load"
+
+#~ msgctxt "%1 is collection name, %2 is image count in collection"
+#~ msgid "%1 (%2 image)"
+#~ msgid_plural "%1 (%2 images)"
+#~ msgstr[0] "%1 (%2 image)"
+#~ msgstr[1] "%1 (%2 images)"
+
+#~ msgid "Taken with Spectacle"
+#~ msgstr "Taken with Spectacle"
+
+#~ msgid "Remember the region across restarts"
+#~ msgstr "Remember the region across restarts"
+
+#~ msgid ""
+#~ "Choose the image quality when saving with lossy image formats like JPEG"
+#~ msgstr ""
+#~ "Choose the image quality when saving with lossy image formats like JPEG"
+
+#~ msgid "Copy file location to clipboard after saving"
+#~ msgstr "Copy file location to clipboard after saving"
+
+#~ msgid "Copy screenshot automatically to the clipboard after it is taken"
+#~ msgstr "Copy screenshot automatically to the clipboard after it is taken"
+
+#~ msgid "Whether to copy the file path after saving to the clipboard"
+#~ msgstr "Whether to copy the file path after saving to the clipboard"
+
+#~ msgid "Copy the current screenshot image to the clipboard."
+#~ msgstr "Copy the current screenshot image to the clipboard."
+
+#~ msgid "currentText"
+#~ msgstr "currentText"
+
+#~ msgid "Include pointer in the screenshot"
+#~ msgstr "Include pointer in the screenshot"
+
+#~ msgid "Do not include window decorations in the screenshot"
+#~ msgstr "Do not include window decorations in the screenshot"
+
+#, fuzzy
+#~| msgid "Capture Entire Desktop"
+#~ msgctxt "The entire desktop was captured, heading"
+#~ msgid "Entire Desktop Captured"
+#~ msgstr "Capture Entire Desktop"
+
+#~ msgctxt "@title:window"
+#~ msgid "Configure"
+#~ msgstr "Configure"
+
+#~ msgid "Apply Unsaved Changes"
+#~ msgstr "Apply Unsaved Changes"
+
+#~ msgid ""
+#~ "You have made changes to the settings in this tab. Do you want to apply "
+#~ "those changes?"
+#~ msgstr ""
+#~ "You have made changes to the settings in this tab. Do you want to apply "
+#~ "those changes?"
+
+#~ msgctxt "Mouse action"
+#~ msgid "Click and drag,"
+#~ msgstr "Click and drag,"
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgctxt "Keyboard action"
+#~ msgid "Shift:"
+#~ msgstr "Shift:"
+
+#~ msgctxt "Shift key action first half"
+#~ msgid "Hold to toggle magnifier"
+#~ msgstr "Hold to toggle magnifier"
+
+#~ msgctxt "Shift key action second half"
+#~ msgid "while dragging selection handles"
+#~ msgstr "while dragging selection handles"
+
+#~ msgctxt "Shift key action second line"
+#~ msgid "Hold Alt to resize, Shift to fine‑tune"
+#~ msgstr "Hold Alt to resize, Shift to fine‑tune"
+
+#~ msgctxt "Keyboard action"
+#~ msgid "Esc:"
+#~ msgstr "Esc:"
+
+#~ msgctxt "%1 is the default filename of a screenshot"
+#~ msgid ""
+#~ "<p>You can use the following placeholders in the filename, which will be "
+#~ "replaced with actual text when the file is saved:</p><blockquote><b>%Y</"
+#~ "b>: Year (4 digit)<br /><b>%y</b>: Year (2 digit)<br /><b>%M</b>: "
+#~ "Month<br /><b>%D</b>: Day<br /><b>%H</b>: Hour<br /><b>%m</b>: Minute<br /"
+#~ "><b>%S</b>: Second<br /><b>%T</b>: Window title<br /><b>%d</b>: "
+#~ "Sequential numbering<br /><b>%Nd</b>: Sequential numbering, padded out to "
+#~ "N digits</blockquote><p>To save to a sub-folder, use slashes, e.g.:</"
+#~ "p><blockquote><b>%Y</b>/<b>%M</b>/%1</blockquote>"
+#~ msgstr ""
+#~ "<p>You can use the following placeholders in the filename, which will be "
+#~ "replaced with actual text when the file is saved:</p><blockquote><b>%Y</"
+#~ "b>: Year (4 digit)<br /><b>%y</b>: Year (2 digit)<br /><b>%M</b>: "
+#~ "Month<br /><b>%D</b>: Day<br /><b>%H</b>: Hour<br /><b>%m</b>: Minute<br /"
+#~ "><b>%S</b>: Second<br /><b>%T</b>: Window title<br /><b>%d</b>: "
+#~ "Sequential numbering<br /><b>%Nd</b>: Sequential numbering, padded out to "
+#~ "N digits</blockquote><p>To save to a sub-folder, use slashes, e.g.:</"
+#~ "p><blockquote><b>%Y</b>/<b>%M</b>/%1</blockquote>"
+
+#~ msgid "Rectangular Region:"
+#~ msgstr "Rectangular Region:"
+
+#~ msgid "Default Save Location"
+#~ msgstr "Default Save Location"
+
+#~ msgid "You can find the shared image at: <a href=\"%1\">%1</a>"
+#~ msgstr "You can find the shared image at: <a href=\"%1\">%1</a>"
+
+#~ msgid ""
+#~ "To take the screenshot, double-click or press Enter. Right-click to reset "
+#~ "the selection, or press Esc to quit"
+#~ msgstr ""
+#~ "To take the screenshot, double-click or press Enter. Right-click to reset "
+#~ "the selection, or press Esc to quit"
+
+#~ msgid "Save &&& Exit"
+#~ msgstr "Save &&& Exit"
+
+#~ msgid "Save screenshot in your Pictures directory and exit"
+#~ msgstr "Save screenshot in your Pictures directory and exit"
+
+#~ msgid "Export Image..."
+#~ msgstr "Export Image..."
+
+#~ msgid "Preferences"
+#~ msgstr "Preferences"
+
+#~ msgid "Dynamic Save Button"
+#~ msgstr "Dynamic Save Button"
+
+#~ msgid ""
+#~ "The default behavior of the save button is to <b>Save & Exit</b>. Enable "
+#~ "this option to change the save button to either <b>Save</b>, <b>Save As</"
+#~ "b> or <b>Save & Exit</b>, according to the save action you perform, every "
+#~ "time you save an image."
+#~ msgstr ""
+#~ "The default behaviour of the save button is to <b>Save & Exit</b>. Enable "
+#~ "this option to change the save button to either <b>Save</b>, <b>Save As</"
+#~ "b> or <b>Save & Exit</b>, according to the save action you perform, every "
+#~ "time you save an image."
+
+#~ msgid "Set save button action to last used save method"
+#~ msgstr "Set save button action to last used save method"
+
+#~ msgid ""
+#~ "When a screenshot is saved, copy the location at which the file was saved "
+#~ "to the clipboard. You can then paste it anywhere that accepts text input. "
+#~ "Note that you must be running a clipboard manager in order to keep the "
+#~ "path in the clipboard after Spectacle quits."
+#~ msgstr ""
+#~ "When a screenshot is saved, copy the location at which the file was saved "
+#~ "to the clipboard. You can then paste it anywhere that accepts text input. "
+#~ "Note that you must be running a clipboard manager in order to keep the "
+#~ "path in the clipboard after Spectacle quits."
+
+#~ msgid "Light Background For Rectangular Region"
+#~ msgstr "Light Background For Rectangular Region"
+
+#~ msgid ""
+#~ "Use a light background color to mask the cropped-out area in the "
+#~ "rectangular region selector. This may make dark cursors easier to see."
+#~ msgstr ""
+#~ "Use a light background colour to mask the cropped-out area in the "
+#~ "rectangular region selector. This may make dark cursors easier to see."
+
+#~ msgid ""
+#~ "By default, Spectacle does not show an initial selection when you take a "
+#~ "screenshot of a rectangular region. Enable this option to remember the "
+#~ "last selected region of the screen, and set it as the initial selection "
+#~ "when you use the rectangular region selector the next time."
+#~ msgstr ""
+#~ "By default, Spectacle does not show an initial selection when you take a "
+#~ "screenshot of a rectangular region. Enable this option to remember the "
+#~ "last selected region of the screen, and set it as the initial selection "
+#~ "when you use the rectangular region selector the next time."
+
+#~ msgid ""
+#~ "Set the directory where you'd like to save your screenshots when you "
+#~ "press <b>Save</b> or <b>Save & Exit</b>."
+#~ msgstr ""
+#~ "Set the directory where you'd like to save your screenshots when you "
+#~ "press <b>Save</b> or <b>Save & Exit</b>."
+
+#~ msgid ""
+#~ "<p>Set a default filename for saved screenshots.</p><p>You can use the "
+#~ "following placeholders in the filename, which will be replaced with "
+#~ "actual text when the file is saved:</p><blockquote><b>%Y</b>: Year (4 "
+#~ "digit)<br /><b>%y</b>: Year (2 digit)<br /><b>%M</b>: Month<br /><b>%D</"
+#~ "b>: Day<br /><b>%H</b>: Hour<br /><b>%m</b>: Minute<br /><b>%S</b>: "
+#~ "Second</blockquote><p>If a file with this name already exists, a serial "
+#~ "number will be appended to the filename. For example, if the filename is "
+#~ "\"Screenshot\", and \"Screenshot.png\" already exists, the image will be "
+#~ "saved as \"Screenshot-1.png\".</p><p>Typing an extension into the "
+#~ "filename will automatically set the image format correctly and remove the "
+#~ "extension from the filename field.</p>"
+#~ msgstr ""
+#~ "<p>Set a default filename for saved screenshots.</p><p>You can use the "
+#~ "following placeholders in the filename, which will be replaced with "
+#~ "actual text when the file is saved:</p><blockquote><b>%Y</b>: Year (4 "
+#~ "digit)<br /><b>%y</b>: Year (2 digit)<br /><b>%M</b>: Month<br /><b>%D</"
+#~ "b>: Day<br /><b>%H</b>: Hour<br /><b>%m</b>: Minute<br /><b>%S</b>: "
+#~ "Second</blockquote><p>If a file with this name already exists, a serial "
+#~ "number will be appended to the filename. For example, if the filename is "
+#~ "\"Screenshot\", and \"Screenshot.png\" already exists, the image will be "
+#~ "saved as \"Screenshot-1.png\".</p><p>Typing an extension into the "
+#~ "filename will automatically set the image format correctly and remove the "
+#~ "extension from the filename field.</p>"
+
+#~ msgid "Application Preferences"
+#~ msgstr "Application Preferences"
+
+#~ msgid "Open With..."
+#~ msgstr "Open With..."
+
+#~ msgid "Cannot send screenshot to the application"
+#~ msgstr "Cannot send screenshot to the application"
+
+#~ msgid "Cannot save screenshot. The file already exists."
+#~ msgstr "Cannot save screenshot. The file already exists."
+
+#, fuzzy
+#~| msgid "Capture Area"
+#~ msgid "Kapture"
+#~ msgstr "Capture Area"
+
+#~ msgid "KScreenGenie"
+#~ msgstr "KScreenGenie"
+
+#~ msgid "Send To..."
+#~ msgstr "Send To..."

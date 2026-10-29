@@ -1,0 +1,113 @@
+.\" SPDX-FileCopyrightText: 2026 NekoShot contributors
+.\" SPDX-License-Identifier: GPL-2.0-or-later
+.TH NEKOSHOT 1 "2026-10-29" "nekoshot 0.10.3" "User Commands"
+.SH NAME
+nekoshot \- Spectacle-based screenshot and screen recording utility for niri
+.SH SYNOPSIS
+.B nekoshot
+[\fIOPTIONS\fR]
+.SH DESCRIPTION
+.B nekoshot
+is a port of KDE Spectacle to the niri Wayland compositor.  Screenshots are
+captured with \fBgrim\fR and niri's IPC; screen, window and region recordings
+use niri's Mutter ScreenCast implementation with GStreamer, falling back to
+\fBwf-recorder\fR when necessary.
+.PP
+With no options the configured launch action is used.  A running instance
+started with \fB--daemon\fR accepts D-Bus requests from niri key bindings.
+.SH OPTIONS
+.TP
+.B \-r, \-\-region
+Take a rectangular region screenshot (or start a region recording with \fB\-R\fR).
+.TP
+.B \-m, \-\-current
+Capture the focused output.
+.TP
+.B \-f, \-\-fullscreen
+Capture all outputs.
+.TP
+.B \-a, \-\-active\-window
+Capture the focused window.
+.TP
+.B \-u, \-\-window\-under\-cursor
+Pick a window by clicking it and capture that window.
+.TP
+.B \-l, \-\-launch\-only
+Open the interface without taking a screenshot.
+.TP
+.B \-b, \-\-background
+Run without opening the viewer unless requested; export and quit.
+.TP
+.B \-n, \-\-nonotify
+Do not show a notification after saving.
+.TP
+.B \-p, \-\-pointer
+Include the mouse pointer when the backend supports it.  niri's screencopy
+does not composite the cursor into screenshots; recordings use
+\fBcursor-mode\fR instead.
+.TP
+.B \-d, \-\-delay \fISECONDS\fR
+Wait before capturing.
+.TP
+.B \-o, \-\-output \fIPATH\fR
+Write the screenshot or recording to \fIPATH\fR.
+.TP
+.B \-R, \-\-record \fIMODE\fR
+Start recording.  \fIMODE\fR is \fBr\fR (region), \fBs\fR (screen) or
+\fBw\fR (window; opens niri's window picker).
+.TP
+.B \-\-stop\-recording
+Stop the current recording and wait for the file to be finalized.
+.TP
+.B \-\-daemon
+Stay resident and accept D-Bus capture requests.  Combine with niri's
+\fBspawn-at-startup\fR for instant key bindings.
+.TP
+.B \-\-scaled
+Capture all outputs at logical resolution instead of native resolution.
+.TP
+.B \-\-new\-instance
+Start a separate process instead of forwarding to the running instance.
+.TP
+.B \-v, \-\-version
+Print the version.
+.TP
+.B \-h, \-\-help
+Print help.
+.SH FILES
+.TP
+.I ~/.config/nekoshotrc
+Configuration file (KConfig format).
+.TP
+.I ~/Pictures/Screenshots
+Default screenshot location.
+.TP
+.I ~/Videos/Screencasts
+Default recording location.
+.SH ENVIRONMENT
+.TP
+.B NIRI_SOCKET
+Used to detect and query the niri compositor.
+.TP
+.B NEKOSHOT_IMAGE_PLATFORM
+Force a screenshot backend; mainly for testing.
+.SH EXAMPLES
+.TP
+.B nekoshot \-b \-r \-o /tmp/shot.png \-n
+Capture a region headlessly and write it to a file.
+.TP
+.B nekoshot \-R s
+Record the focused output until \fBnekoshot \-\-stop\-recording\fR is called.
+.TP
+.B nekoshot \-R w
+Pick a window with the pointer and record it.
+.SH SEE ALSO
+.BR grim (1),
+.BR wf-recorder (1),
+.BR niri (1),
+.BR gst-launch-1.0 (1)
+.SH BUGS
+Report issues at https://github.com/NekoRain404/NekoShot/issues.
+.SH AUTHORS
+NekoRain and NekoShot contributors.  Based on Spectacle by Boudhayan Gupta,
+David Redondo, Noah Davis and the KDE community.

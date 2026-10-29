@@ -1,0 +1,2848 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Elkana Bardugo <ttv200@gmail.com>, 2016.
+# Elkana Bardugo <ttv200@gmail.com>, 2017. #zanata
+# SPDX-FileCopyrightText: 2023-2026 Yaron Shahrabani <sh.yaron@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: spectacle\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-29 15:50+0800\n"
+"PO-Revision-Date: 2026-08-01 14:52+0300\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
+"Language-Team: צוות התרגום של KDE ישראל\n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n == 1) ? 0 : ((n == 2) ? 1 : ((n > 10 && "
+"n % 10 == 0) ? 2 : 3));\n"
+"X-Generator: Lokalize 26.04.3\n"
+
+#: src/OcrManager.cpp:578
+msgctxt "@item:inlistbox"
+msgid "Orientation and Script Detection"
+msgstr "כיוון וזיהוי סוג כתב"
+
+#: src/OcrManager.cpp:619
+msgid "Math/Equation Detection"
+msgstr "זיהוי מתמטיקה/משוואה"
+
+#: src/OcrManager.cpp:622
+msgid "Orientation and Script Detection"
+msgstr "כיוון וזיהוי סוג כתב"
+
+#: src/ShortcutActions.cpp:38
+msgctxt "@action global shortcut"
+msgid "Launch Spectacle"
+msgstr "הפעלת Spectacle"
+
+#: src/ShortcutActions.cpp:44
+msgctxt "@action global shortcut"
+msgid "Capture Entire Desktop"
+msgstr "צילום כל שולחן העבודה"
+
+#: src/ShortcutActions.cpp:50
+msgctxt "@action global shortcut"
+msgid "Capture Current Monitor"
+msgstr "צילום המסך הנוכחי"
+
+#: src/ShortcutActions.cpp:56
+msgctxt "@action global shortcut"
+msgid "Capture Active Window"
+msgstr "צילום החלון הפעיל"
+
+#: src/ShortcutActions.cpp:62
+msgctxt "@action global shortcut"
+msgid "Capture Rectangular Region"
+msgstr "צילום אזור מרובע"
+
+#: src/ShortcutActions.cpp:69
+msgctxt "@action global shortcut"
+msgid "Capture Selected Window"
+msgstr "צילום החלון הפעיל"
+
+#: src/ShortcutActions.cpp:69
+msgctxt "@action global shortcut"
+msgid "Capture Window Under Cursor"
+msgstr "צילום החלון שמתחת לסמן העכבר"
+
+#: src/ShortcutActions.cpp:76
+msgctxt "@action global shortcut"
+msgid "Start/Stop Screen Recording"
+msgstr "התחלת/עצירת הקלטת מסך"
+
+#: src/ShortcutActions.cpp:82
+msgctxt "@action global shortcut"
+msgid "Start/Stop Window Recording"
+msgstr "התחלת/עצירת הקלטת חלון"
+
+#: src/ShortcutActions.cpp:88
+msgctxt "@action global shortcut"
+msgid "Start/Stop Region Recording"
+msgstr "התחלת/עצירת הקלטת אזור"
+
+#: src/ShortcutActions.cpp:94
+msgctxt "@action global shortcut"
+msgid "Launch Spectacle without capturing"
+msgstr "להפעיל את Spectacle מבלי לצלם"
+
+#: src/VideoFormatModel.cpp:31
+msgctxt "@item:inlistbox Container/encoder"
+msgid "WebM/VP9"
+msgstr "WebM/VP9"
+
+#: src/VideoFormatModel.cpp:38
+msgctxt "@item:inlistbox Container/encoder"
+msgid "MP4/H.264"
+msgstr "MP4/H.264"
+
+#: src/VideoFormatModel.cpp:45
+#, fuzzy
+msgctxt "@item:inlistbox Container/encoder"
+msgid "MP4/H.265"
+msgstr "MP4/H.264"
+
+#: src/VideoFormatModel.cpp:52
+msgctxt "@item:inlistbox Container/encoder"
+msgid "MP4/AV1"
+msgstr ""
+
+#: src/VideoFormatModel.cpp:59
+msgctxt "@item:inlistbox Container/encoder"
+msgid "Animated WebP (better than GIF)"
+msgstr "WebP מונפש (עדיף על GIF)"
+
+#: src/VideoFormatModel.cpp:66
+msgctxt "@item:inlistbox Container/encoder"
+msgid "GIF (compatible, but inefficient)"
+msgstr "GIF (נתמך, אבל לא יעיל)"
+
+#: src/CaptureModeModel.cpp:167
+msgctxt "@action in capture mode section"
+msgid "Rectangular Region"
+msgstr "אזור מרובע"
+
+#: src/CaptureModeModel.cpp:169
+msgctxt "@action in capture mode section"
+msgid "All Screens (Scaled to same size)"
+msgstr "כל המסכים (מותאמים לגודל זהה)"
+
+#: src/CaptureModeModel.cpp:171
+msgctxt "@action in capture mode section"
+msgid "Current Screen"
+msgstr "מסך נוכחי"
+
+#: src/CaptureModeModel.cpp:173
+msgctxt "@action in capture mode section"
+msgid "Active Window"
+msgstr "חלון פעיל"
+
+#: src/CaptureModeModel.cpp:176
+msgctxt "@action in capture mode section"
+msgid "Select Window"
+msgstr "חלון נבחר"
+
+#: src/CaptureModeModel.cpp:176
+msgctxt "@action in capture mode section"
+msgid "Window Under Cursor"
+msgstr "החלון שמתחת לעכבר"
+
+#: src/CaptureModeModel.cpp:179
+msgctxt "@action in capture mode section"
+msgid "All Screens"
+msgstr "כל המסכים"
+
+#: src/CaptureModeModel.cpp:181
+msgctxt "@action in capture mode section"
+msgid "Full Screen"
+msgstr "מסך מלא"
+
+#: src/CommandLineOptions.h:22
+msgid "Capture the entire desktop (default)"
+msgstr "צילום כל המסך (ברירת־מחדל)"
+
+#: src/CommandLineOptions.h:25
+#, fuzzy
+msgid ""
+"When used with -f/--fullscreen, capture all screens scaled to the same size "
+"(niri: falls back to unscaled)"
+msgstr ""
+"בעת שימוש עם ‎-f/--fullscreen, ללכוד את כל המסכים בתיאום קנה מידה לאותו הגודל"
+
+#: src/CommandLineOptions.h:28
+msgid "Capture the current monitor"
+msgstr "צילום המסך הנוכחי"
+
+#: src/CommandLineOptions.h:32
+msgid "Capture the active window"
+msgstr "צילום החלון הפעיל"
+
+#: src/CommandLineOptions.h:35
+msgid ""
+"Capture the window currently under the cursor, including parents of pop-up "
+"menus"
+msgstr "צילום החלון הנוכחי שמתחת לעכבר, כולל הורים של תפריטים קופצים"
+
+#: src/CommandLineOptions.h:38
+msgid "Capture a rectangular region of the screen"
+msgstr "צילום אזור מרובע מהמסך"
+
+#: src/CommandLineOptions.h:42
+msgid ""
+"Record the screen using the given mode. Modes:\n"
+"- r, region\n"
+"- s, screen\n"
+"- w, window"
+msgstr ""
+"הקלטת המסך באמצעות המצב שסופק: מצבים:\n"
+"‎-r, אזור\n"
+"‎-s, מסך\n"
+"‎-w, חלון"
+
+#: src/CommandLineOptions.h:50
+msgid "Launch Spectacle without taking a screenshot"
+msgstr "להפעיל את Spectacle מבלי לצלם"
+
+#: src/CommandLineOptions.h:54
+msgid "Start in GUI mode (default)"
+msgstr "הפעלה במצב ממשק חזותי (ברירת־מחדל)"
+
+#: src/CommandLineOptions.h:58
+msgid "Take a screenshot and exit without showing the GUI"
+msgstr "לצלם את המסך ולצאת מבלי להציג את החלון החזותי"
+
+#: src/CommandLineOptions.h:62
+msgid "Start in DBus-Activation mode"
+msgstr "הפעלה במצב תפעול דרך D-Bus"
+
+#: src/CommandLineOptions.h:66
+msgid ""
+"In background mode, do not pop up a notification when the screenshot is taken"
+msgstr "במצב רקע, לא להקפיץ התראה כשהמסך מצולם"
+
+#: src/CommandLineOptions.h:70
+msgid "In background mode, save image to specified file"
+msgstr "במצב רקע, לשמור את התמונה לקובץ מסוים"
+
+#: src/CommandLineOptions.h:75
+msgid "In background mode, delay before taking the shot (in milliseconds)"
+msgstr "במצב רקע, להשהות בטרם הצילום (במילישניות)"
+
+#: src/CommandLineOptions.h:80
+msgid ""
+"In background mode, copy screenshot image to clipboard, unless -o is also "
+"used."
+msgstr ""
+"במצב רקע, להעתיק את תמונת צילום המסך ללוח הגזירים, אלא אם כן נעשה שימוש גם "
+"ב־‎-o."
+
+#: src/CommandLineOptions.h:84
+msgid "In background mode, copy screenshot file path to clipboard"
+msgstr "במצב רקע, להעתיק את נתיב קובץ צילום המסך ללוח הגזירים"
+
+#: src/CommandLineOptions.h:88
+msgid "Wait for a click before taking screenshot. Invalidates delay"
+msgstr "להמתין ללחיצה לפני הצילום. מחליף השהיה"
+
+#: src/CommandLineOptions.h:90
+#, fuzzy
+msgid "Starts a new GUI instance of NekoShot without registering to DBus"
+msgstr "להפעיל מופע גרפי חדש של Spectacle מבלי להירשם מול D-Bus"
+
+#: src/CommandLineOptions.h:93
+msgid "In background mode, include pointer in the screenshot"
+msgstr "במצב רקע, לכלול את סמן העכבר בצילום המסך"
+
+#: src/CommandLineOptions.h:97
+msgid "In background mode, exclude decorations in the screenshot"
+msgstr "במצב רקע, לא לכלול את העיטורים בצילום המסך"
+
+#: src/CommandLineOptions.h:99
+msgid "In background mode, exclude shadows in the screenshot"
+msgstr "במצב רקע, לא לכלול את ההצללות בצילום המסך"
+
+#: src/CommandLineOptions.h:102
+msgid "Open and edit existing screenshot file"
+msgstr "פתיחת קובץ צילום מסך קיים"
+
+#: src/CommandLineOptions.h:105
+msgid "Accept region selection on click-and-release"
+msgstr "לקבל בחירת אזור בלחיצה ושחרור"
+
+#: src/CommandLineOptions.h:106
+msgid "Stay running and wait for D-Bus requests"
+msgstr ""
+
+#: src/CommandLineOptions.h:107
+#, fuzzy
+msgid "Stop the current recording"
+msgstr "להציג את סמן העכבר בהקלטת המסך"
+
+#: src/ExportManager.cpp:466
+msgctxt "%1 is an error message"
+msgid "QImageWriter cannot write image: %1"
+msgstr "‏QImageWriter לא יכול לכתוב תמונה: %1"
+
+#: src/ExportManager.cpp:482
+msgctxt "@info"
+msgid ""
+"Cannot save screenshot because creating the directory failed:<nl/"
+"><filename>%1</filename>"
+msgstr ""
+"אי אפשר לשמור את צילום המסך כי יצירת התיקייה נכשלה:<nl/><filename>%1</"
+"filename>"
+
+#: src/ExportManager.cpp:491
+msgid "Cannot save screenshot. Error while opening file."
+msgstr "לא ניתן לשמור צילום מסך. שגיאה בפתיחת הקובץ."
+
+#: src/ExportManager.cpp:495
+msgid "Cannot save screenshot. Error while writing file."
+msgstr "לא ניתן לשמור צילום מסך. שגיאה בכתיבה."
+
+#: src/ExportManager.cpp:515
+msgctxt "@info"
+msgid ""
+"Cannot save screenshot because creating the remote directory failed:<nl/"
+"><filename>%1</filename>"
+msgstr ""
+"אי אפשר לשמור את צילום המסך כי יצירת התיקייה המרוחקת נכשלה:<nl/"
+"><filename>%1</filename>"
+
+#: src/ExportManager.cpp:526 src/ExportManager.cpp:576
+msgid "Cannot save screenshot. Error while writing temporary local file."
+msgstr "לא ניתן לשמור צילום מסך. שגיאה בכתיבת הקובץ המקומי הזמני."
+
+#: src/ExportManager.cpp:535
+msgid "Unable to save image. Could not upload file to remote location."
+msgstr "לא ניתן לשמור תמונה. לא ניתן להעלות למקום המרוחק."
+
+#: src/ExportManager.cpp:583
+msgid "Cannot save screenshot. The save filename is invalid."
+msgstr "לא ניתן לשמור צילום מסך. שם הקובץ לשמירה שגויה."
+
+#: src/ExportManager.cpp:627
+msgid "Cannot save an empty screenshot image."
+msgstr "לא ניתן לשמור תמונת צילום מסך ריקה."
+
+#: src/ExportManager.cpp:814
+msgctxt "@info:shell"
+msgid ""
+"Failed to export video: Temporary file URL must be an existing local file"
+msgstr "יייצוא הסרטון נכשל: כתובת הקובץ הזמני חייב להיות קובץ מקומי קיים"
+
+#: src/ExportManager.cpp:821
+msgctxt "@info:shell"
+msgid ""
+"Failed to export video: Output file URL must be a valid URL with a file name"
+msgstr "ייצוא הסרטון נכשל: כתובת קובץ הפלט חייבת להיות כתובת תקפה עם שם קובץ"
+
+#: src/ExportManager.cpp:910
+msgctxt "@info, %1 is a file path"
+msgid "Unable to save recording. Could not move file to location: %1"
+msgstr "לא ניתן לשמור הקלטה. לא ניתן להעביר את הקובץ למקום: %1"
+
+#: src/ExportManager.cpp:938
+msgid "Printing failed. The printer failed to initialize."
+msgstr "ההדפסה נכשלה. הפעלת המדפסת נכשלה."
+
+#: src/ExportManager.cpp:955
+msgctxt "filename placeholder description"
+msgid "Day (1–31)"
+msgstr "יום (1–31)"
+
+#: src/ExportManager.cpp:956
+msgctxt "filename placeholder description"
+msgid "Day (01–31)"
+msgstr "יום (01–31)"
+
+#: src/ExportManager.cpp:957
+msgctxt "filename placeholder description"
+msgid "Day (short name)"
+msgstr "יום (שם מקוצר)"
+
+#: src/ExportManager.cpp:958
+msgctxt "filename placeholder description"
+msgid "Day (long name)"
+msgstr "יום (שם ארוך)"
+
+#: src/ExportManager.cpp:959
+msgctxt "filename placeholder description"
+msgid "Month (1–12)"
+msgstr "חודש (1–12)"
+
+#: src/ExportManager.cpp:960
+msgctxt "filename placeholder description"
+msgid "Month (01–12)"
+msgstr "חודש (01–12)"
+
+#: src/ExportManager.cpp:961
+msgctxt "filename placeholder description"
+msgid "Month (short name)"
+msgstr "חודש (שם קצר)"
+
+#: src/ExportManager.cpp:962
+msgctxt "filename placeholder description"
+msgid "Month (long name)"
+msgstr "חודש (שם ארוך)"
+
+#: src/ExportManager.cpp:963
+msgctxt "filename placeholder description"
+msgid "Year (2 digit)"
+msgstr "שנה (2 ספרות)"
+
+#: src/ExportManager.cpp:964
+msgctxt "filename placeholder description"
+msgid "Year (4 digit)"
+msgstr "שנה (4 ספרות)"
+
+#: src/ExportManager.cpp:965
+msgctxt "filename placeholder description"
+msgid "Hour (0–23)"
+msgstr "שעה (0–23)"
+
+#: src/ExportManager.cpp:966
+msgctxt "filename placeholder description"
+msgid "Hour (00–23)"
+msgstr "שעה (00–23)"
+
+#: src/ExportManager.cpp:967
+msgctxt "filename placeholder description"
+msgid "Hour (1–12)"
+msgstr "שעה (1–12)"
+
+#: src/ExportManager.cpp:968
+msgctxt "filename placeholder description"
+msgid "Hour (01–12)"
+msgstr "שעה (01–12)"
+
+#: src/ExportManager.cpp:969
+msgctxt "filename placeholder description"
+msgid "Minute (0–59)"
+msgstr "דקה (0–59)"
+
+#: src/ExportManager.cpp:970
+msgctxt "filename placeholder description"
+msgid "Minute (00–59)"
+msgstr "דקה (00–59)"
+
+#: src/ExportManager.cpp:971
+msgctxt "filename placeholder description"
+msgid "Second (0–59)"
+msgstr "שנייה (0–59)"
+
+#: src/ExportManager.cpp:972
+msgctxt "filename placeholder description"
+msgid "Second (00–59)"
+msgstr "שנייה (00–59)"
+
+#: src/ExportManager.cpp:973
+msgctxt "filename placeholder description"
+msgid "Millisecond (0–999)"
+msgstr "מילישנייה (0–999)"
+
+#: src/ExportManager.cpp:975
+msgctxt "filename placeholder description"
+msgid "Millisecond (000–999)"
+msgstr "מילישנייה (000–999)"
+
+#: src/ExportManager.cpp:976
+msgctxt "filename placeholder description"
+msgid "AM/PM"
+msgstr "AM/PM"
+
+#: src/ExportManager.cpp:978
+msgctxt "filename placeholder description"
+msgid "am/pm"
+msgstr "am/pm"
+
+#: src/ExportManager.cpp:980
+msgctxt "filename placeholder description"
+msgid "AM/PM or am/pm (localized)"
+msgstr "AM/PM או am/pm (בהתאם למקום)"
+
+#: src/ExportManager.cpp:982
+msgctxt "filename placeholder description"
+msgid "Timezone (short name)"
+msgstr "אזור זמן (שם קצר)"
+
+#: src/ExportManager.cpp:983
+msgctxt "filename placeholder description"
+msgid "Timezone offset (±0000)"
+msgstr "הפרש אזור זמן (±0000)"
+
+#: src/ExportManager.cpp:984
+msgctxt "filename placeholder description"
+msgid "Timezone offset (±00:00)"
+msgstr "הפרש אזור זמן (±00:00)"
+
+#: src/ExportManager.cpp:985
+msgctxt "filename placeholder description"
+msgid "Timezone (long name)"
+msgstr "אזור זמן (שם ארוך)"
+
+#: src/ExportManager.cpp:986
+msgctxt "filename placeholder description"
+msgid "Seconds since the Unix epoch"
+msgstr "שניות מאז ה־Epoch (שעת האפס) של יוניקס"
+
+#: src/ExportManager.cpp:987
+msgctxt "filename placeholder description"
+msgid "Window Title"
+msgstr "כותרת חלון"
+
+#: src/ExportManager.cpp:988
+msgctxt "filename placeholder description"
+msgid "Sequential numbering, padded by inserting additional '#' characters"
+msgstr "מספור רציף, מרופד בהוספת תווי ‚#’ נוספים"
+
+#: src/Main.cpp:48 src/SpectacleCore.cpp:1408
+msgid "NekoShot"
+msgstr ""
+
+#: src/Main.cpp:50
+msgid "Screenshot utility for niri, based on Spectacle"
+msgstr ""
+
+#: src/Main.cpp:52
+#, fuzzy
+msgid "© 2015 Boudhayan Gupta and Spectacle contributors"
+msgstr "© 2015 בודהיאן גופטה"
+
+#: src/Main.cpp:60
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "אלקנה ברדוגו,צוות התרגום של KDE ישראל"
+
+#: src/Main.cpp:60
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "ttv200@gmail.com,kde-l10n-he@kde.org"
+
+#: src/Main.cpp:78
+msgid ""
+"On Wayland, Spectacle requires KDE Plasma's KWin compositor, which does not "
+"seem to be available. Use Spectacle on KDE Plasma, or use a different "
+"screenshot tool."
+msgstr ""
+"ב־Wayland,‏ Spectacle צריך את המנהל החלונאי KWin של פלזמה מבית KDE, שנראה "
+"שהוא לא זמין. יש להשתמש ב־Spectacle עם פלזמה מבית KDE או להשתמש בכלי אחר "
+"לצילום המסך."
+
+#: src/Main.cpp:103 src/Platforms/ImagePlatformNiri.cpp:167
+msgid "grim is not installed"
+msgstr ""
+
+#: src/Main.cpp:119
+msgid "--daemon cannot be combined with --new-instance"
+msgstr ""
+
+#: src/RecordingModeModel.cpp:104
+msgctxt "@item recording mode"
+msgid "Rectangular Region"
+msgstr "אזור מרובע"
+
+#: src/RecordingModeModel.cpp:106
+msgctxt "@item recording mode"
+msgid "Window"
+msgstr "חלון"
+
+#: src/RecordingModeModel.cpp:108
+msgctxt "@item recording mode"
+msgid "Full Screen"
+msgstr "מסך מלא"
+
+#: src/SpectacleCore.cpp:288
+msgctxt "@info"
+msgid "An error occurred while taking a screenshot."
+msgstr "אירעה שגיאה בצילום המסך."
+
+#: src/SpectacleCore.cpp:318
+msgctxt "@info:tooltip title for recording tray icon"
+msgid "Spectacle is Recording with Sound"
+msgstr "מתבצעת הקלטה עם Spectacle עם שמע"
+
+#: src/SpectacleCore.cpp:319
+msgctxt "@info:tooltip title for recording tray icon"
+msgid "Spectacle is Recording"
+msgstr "מתבצעת הקלטה עם Spectacle"
+
+#: src/SpectacleCore.cpp:324
+msgctxt "recording notification title"
+msgid "Spectacle is Recording with Sound"
+msgstr "מתבצעת הקלטה עם Spectacle עם שמע"
+
+#: src/SpectacleCore.cpp:325
+msgctxt "recording notification title"
+msgid "Spectacle is Recording"
+msgstr "מתבצעת הקלטה עם Spectacle"
+
+#: src/SpectacleCore.cpp:354
+msgctxt "recording notification message without shortcut"
+msgid "To finish the recording, click the pulsing red System Tray icon."
+msgstr "כדי לסיים את ההקלטה, יש ללחוץ על הסמל האדום המהבהב בשורת המשימות."
+
+#: src/SpectacleCore.cpp:356
+msgctxt "recording notification message with shortcut"
+msgid ""
+"To finish the recording, click the pulsing red System Tray icon or press "
+"<shortcut>%1</shortcut>."
+msgstr ""
+"כדי לסיים את ההקלטה, יש ללחוץ על הסמל האדום המהבהב בשורת המשימות אוללחוץ על "
+"<shortcut>%1</shortcut>."
+
+#: src/SpectacleCore.cpp:373
+msgctxt "missing webp support notification title"
+msgid "WebP support is missing."
+msgstr "התמיכה ב־WebP חסרה."
+
+#: src/SpectacleCore.cpp:375
+msgctxt "missing webp support notification message"
+msgid ""
+"Please install Qt Image Formats to get animated system tray icons for "
+"Spectacle, and then report this packaging issue to your distributor."
+msgstr ""
+"נא להתקין את תסדירי התמונות של Qt כדי שסמלי שורת המערכת של Spectacle יונפשו, "
+"ולאחר מכן לדווח על תקלת אריזה מול ההפצה שלך."
+
+#: src/SpectacleCore.cpp:412
+msgctxt "recording notification title"
+msgid "Spectacle is Finishing the Recording"
+msgstr "מסתיימת הקלטה דרך Spectacle"
+
+#: src/SpectacleCore.cpp:413
+msgctxt "recording notification message"
+msgid "Please wait"
+msgstr "נא להמתין"
+
+#: src/SpectacleCore.cpp:415
+msgctxt "@info:tooltip title for rendering tray icon"
+msgid "Spectacle is Finishing the Recording"
+msgstr "מסתיימת הקלטה דרך Spectacle"
+
+#: src/SpectacleCore.cpp:417
+msgctxt "@info:tooltip subtitle for rendering tray icon"
+msgid ""
+"Time recorded: %1\n"
+"Click to stop rendering early (this will lose data)"
+msgstr ""
+"זמן הקלטה: %1\n"
+"לחיצה תסיים לעבד מוקדם (יגרום לאובדן נתונים)"
+
+#: src/SpectacleCore.cpp:442
+msgctxt "@info:tooltip subtitle for recording tray icon"
+msgid ""
+"Time recorded: %1\n"
+"Click to finish recording"
+msgstr ""
+"זמן הקלטה: %1\n"
+"לחיצה תסיים את ההקלטה"
+
+#: src/SpectacleCore.cpp:473
+msgctxt "@info"
+msgid "An error occurred while attempting to record the screen."
+msgstr "אירעה שגיאה בניסיון לצלם את המסך."
+
+#: src/SpectacleCore.cpp:525
+msgctxt "@info"
+msgid ""
+"The screenshot was copied to the clipboard and saved as <link url=\"%1\">%2</"
+"link>"
+msgstr "צילום המסך הועתק ללוח הגזירים ונשמר בשם <link url=\"%1\">%2</link>"
+
+#: src/SpectacleCore.cpp:529
+msgctxt "@info"
+msgid ""
+"The screenshot has been saved as <link url=\"%1\">%2</link> and its location "
+"has been copied to clipboard"
+msgstr ""
+"צילום המסך נשמר בשם <link url=\"%1\">%2</link> והמקום שלו הועתק ללוח הגזירים"
+
+#: src/SpectacleCore.cpp:534
+msgctxt "@info"
+msgid "The screenshot was saved as <link url=\"%1\">%2</link>"
+msgstr "צילום המסך נשמר בשם <link url=\"%1\">%2</link>"
+
+#: src/SpectacleCore.cpp:538
+msgctxt "@info"
+msgid "The screenshot has been copied to the clipboard."
+msgstr "צילום המסך הועתק ללוח הגזירים."
+
+#: src/SpectacleCore.cpp:570
+msgctxt "@info"
+msgid ""
+"The video has been saved as <link url=\"%1\">%2</link> and its location has "
+"been copied to clipboard"
+msgstr ""
+"הסרטון נשמר בשם <link url=\"%1\">%2</link> והמקום שלו הועתק ללוח הגזירים"
+
+#: src/SpectacleCore.cpp:575
+msgctxt "@info"
+msgid "The video was saved as <link url=\"%1\">%2</link>"
+msgstr "הסרטון נשמר בשם <link url=\"%1\">%2</link>"
+
+#: src/SpectacleCore.cpp:579
+msgctxt "@info"
+msgid "The video location has been copied to the clipboard."
+msgstr "מקום הסרטון הועתק ללוח הגזירים."
+
+#: src/SpectacleCore.cpp:599
+msgctxt "@info"
+msgid "Code found: %1"
+msgstr "נמצא קוד: %1"
+
+#: src/SpectacleCore.cpp:603
+msgctxt "@info"
+msgid "Found QR code with binary content."
+msgstr "נמצא קוד QR עם תוכן בינרי."
+
+#: src/SpectacleCore.cpp:611
+msgctxt "@info"
+msgid "Text extraction failed"
+msgstr "חילוץ טקסט נכשל"
+
+#: src/SpectacleCore.cpp:616
+msgctxt "@info"
+msgid "No text found in the image"
+msgstr "לא נמצא טקסט בתמונה"
+
+#: src/SpectacleCore.cpp:620
+msgctxt "@info"
+msgid "Text extraction completed"
+msgstr "חילוץ טקסט הושלם"
+
+#: src/SpectacleCore.cpp:628
+msgctxt "@info:notification title"
+msgid "Text Extracted"
+msgstr "חולץ טקסט"
+
+#: src/SpectacleCore.cpp:648
+msgctxt "@info The variables are language names, e.g. 'English and German'"
+msgid "%1 and %2"
+msgstr "%1 וגם %2"
+
+#: src/SpectacleCore.cpp:653
+msgctxt "@info:notification"
+msgid "Text copied to clipboard.<nl/>Languages used: %1"
+msgstr "הטקסט הועתק ללוח הגזירים.<nl/>השפות בשימוש: %1"
+
+#: src/SpectacleCore.cpp:658
+msgctxt "@action:button"
+msgid "Open in Text Editor"
+msgstr "פתיחה בעורך טקסט"
+
+#: src/SpectacleCore.cpp:808
+msgctxt "@info"
+msgid "Please select a region before extracting text"
+msgstr "נא לבחור אזור בטרם חילוץ טקסט"
+
+#: src/SpectacleCore.cpp:830
+msgctxt "@info"
+msgid "OCR is not available."
+msgstr "זיהוי תווים אופטי לא זמין."
+
+#: src/SpectacleCore.cpp:836
+msgctxt "@info"
+msgid "No screenshot available."
+msgstr "אין צילום מסך זמין."
+
+#: src/SpectacleCore.cpp:840
+msgctxt "@info"
+msgid "Extracting text from image..."
+msgstr "טקסט מחולץ מתמונה…"
+
+#: src/SpectacleCore.cpp:973
+msgctxt "@info:shell"
+msgid "Ignoring activation: a recording is already in progress"
+msgstr ""
+
+#: src/SpectacleCore.cpp:1181
+msgctxt "@info:shell"
+msgid ""
+"--scaled is only allowed together with -f/--fullscreen and will be ignored"
+msgstr "‏‎--scaled מותר לשימוש רק עם ‎-f/--fullscreen והוא לא יילקח בחשבון"
+
+#: src/SpectacleCore.cpp:1196
+msgctxt "@info:shell"
+msgid "%1 is not a valid mode for --record"
+msgstr "%1 אינו מצב תקף עבור ‎--record"
+
+#: src/SpectacleCore.cpp:1462
+msgctxt "%1 is the filename, %2 the path to the save location"
+msgid ""
+"A screenshot was saved as '%1' to '%2' and the file path of the screenshot "
+"has been saved to your clipboard."
+msgstr ""
+"צילום המסך נשמר בשם ‚%1’ אל ‚%2’ ונתיב קובץ צילום המסך נשמר ללוח הגזירים שלך."
+
+#: src/SpectacleCore.cpp:1466
+msgctxt "%1 is the filename"
+msgid "A screenshot was saved as '%1' to your Pictures folder."
+msgstr "צילום המסך נשמר בשם ‚%1’ בתיקיית התמונות שלך."
+
+#: src/SpectacleCore.cpp:1469
+msgctxt "%1 is the filename, %2 the path to the save location"
+msgid "A screenshot was saved as '%1' to '%2'."
+msgstr "צילום המסך נשמר בשם ‚%1’ אל ‚%2’."
+
+#: src/SpectacleCore.cpp:1472
+msgid "A screenshot was saved to your clipboard."
+msgstr "צילום המסך נשמר ללוח הגזירים שלך."
+
+#: src/SpectacleCore.cpp:1477
+msgctxt "%1 is the filename, %2 the path to the save location"
+msgid ""
+"A recording was saved as '%1' to '%2' and the file path of the recording has "
+"been saved to your clipboard."
+msgstr ""
+"הקלטה נשמרה בתור ‚%1’ אל ‚%2’ והנתיב לקובץ ההקלטה נשמר ללוח הגזירים שלך."
+
+#: src/SpectacleCore.cpp:1481
+msgctxt "%1 is the filename"
+msgid "A recording was saved as '%1' to your Videos folder."
+msgstr "הקלטה נשמרה בתור ‚%1’ לתיקיית הסרטונים (Videos) שלך."
+
+#: src/SpectacleCore.cpp:1484
+msgctxt "%1 is the filename, %2 the path to the save location"
+msgid "A recording was saved as '%1' to '%2'."
+msgstr "הקלטת המסך נשמרה בשם ‚%1’ אל ‚%2’."
+
+#: src/SpectacleCore.cpp:1496
+msgctxt "Open the screenshot we just saved"
+msgid "Open"
+msgstr "פתיחה"
+
+#: src/SpectacleCore.cpp:1508
+msgid "Annotate"
+msgstr "פירוש"
+
+#: src/Gui/AcceptAction.qml:9
+msgctxt "@action accept selection"
+msgid "Accept"
+msgstr "קבלה"
+
+#: src/Gui/NewScreenshotToolButton.qml:15
+#: src/Gui/CaptureModeButtonsColumn.qml:32
+msgid "Cancel (%1 second)"
+msgid_plural "Cancel (%1 seconds)"
+msgstr[0] "ביטול (שנייה)"
+msgstr[1] "ביטול (שתי שניות)"
+msgstr[2] "ביטול (%1 שניות)"
+msgstr[3] "ביטול (%1 שניות)"
+
+#: src/Gui/NewScreenshotToolButton.qml:27
+msgid "New Screenshot"
+msgstr "צילום מסך חדש"
+
+#: src/Gui/OptionsMenuButton.qml:10
+msgctxt "@action"
+msgid "Options"
+msgstr "אפשרויות"
+
+#: src/Gui/CancelAction.qml:9
+msgctxt "@action cancel selection"
+msgid "Cancel"
+msgstr "ביטול"
+
+#: src/Gui/CopyImageAction.qml:13
+msgctxt "@action"
+msgid "Copy"
+msgstr "העתקה"
+
+#: src/Gui/RecordAction.qml:11
+msgctxt "@action start recording"
+msgid "Record"
+msgstr "הקלטה"
+
+#: src/Gui/RecordOptions.qml:23
+msgid "Recording Settings"
+msgstr "הגדרות הקלטה"
+
+#: src/Gui/RecordOptions.qml:37
+msgid "Finish recording"
+msgstr "סיום ההקלטה"
+
+#: src/Gui/CopyLocationAction.qml:9
+msgctxt "@action"
+msgid "Copy Location"
+msgstr "העתקת מקום"
+
+#: src/Gui/EditAction.qml:11
+msgctxt "@action edit screenshot"
+msgid "Edit…"
+msgstr "עריכה…"
+
+#: src/Gui/CaptureOptions.qml:17
+msgid "Take a new screenshot"
+msgstr "צילום מסך חדש"
+
+#: src/Gui/CaptureOptions.qml:39
+msgctxt "@title:group"
+msgid "Screenshot Settings"
+msgstr "הגדרות צילום מסך"
+
+#: src/Gui/ExportMenu.cpp:44
+msgctxt "@title:menu"
+msgid "Export"
+msgstr "ייצוא"
+
+#: src/Gui/ExportMenu.cpp:47
+msgid "Open Default Screenshots Folder"
+msgstr "פתיחת תיקיית צילומי המסך כברירת מחדל"
+
+#: src/Gui/ExportMenu.cpp:133
+msgctxt "@action:button open screenshot in other application"
+msgid "Other Application…"
+msgstr "יישום אחר…"
+
+#: src/Gui/ExportMenu.cpp:165
+msgid "Share"
+msgstr "שיתוף"
+
+#: src/Gui/ExportMenu.cpp:258
+msgctxt "@action:menu"
+msgid "Extract Text by Language"
+msgstr "חילוץ טקסט לפי שפה"
+
+#: src/Gui/ExportMenu.cpp:294
+msgid "OCR engine is not available."
+msgstr "מנוע זיהוי התווים האופטי לא זמין."
+
+#: src/Gui/ExportMenu.cpp:302
+msgid "OCR is not available. Please install Tesseract OCR."
+msgstr "זיהוי תווים אופטי לא זמין. נא להתקין את Tesseract OCR."
+
+#: src/Gui/ExportMenu.cpp:303
+msgid "OCR engine is initializing…"
+msgstr "מנגנון זיהוי התווים האופטי…"
+
+#: src/Gui/ExportMenu.cpp:313
+msgid "No OCR language data available."
+msgstr "אין נתוני שפה זמינים לזיהוי תווים אופטי."
+
+#: src/Gui/HelpMenuButton.qml:10
+msgctxt "@action"
+msgid "Help"
+msgstr "עזרה"
+
+#: src/Gui/CaptureOverlay.qml:149
+msgctxt "@info basic crop tool explanation"
+msgid "Click and drag to make a selection."
+msgstr "לחיצה וגרירה לבחירה."
+
+#: src/Gui/HelpMenu.cpp:40
+msgctxt "@title:menu"
+msgid "Help"
+msgstr "עזרה"
+
+#: src/Gui/ShortcutsTextBox.qml:13
+msgid "Take Screenshot:"
+msgstr "צילום המסך:"
+
+#: src/Gui/ShortcutsTextBox.qml:15
+msgid "Create new selection rectangle:"
+msgstr "יצירת מרובע בחירה חדש:"
+
+#: src/Gui/ShortcutsTextBox.qml:20
+msgid "Move selection rectangle:"
+msgstr "העברת מרובע בחירה:"
+
+#: src/Gui/ShortcutsTextBox.qml:23
+msgid "Resize selection rectangle:"
+msgstr "שינוי גודל מרובע הבחירה:"
+
+#: src/Gui/ShortcutsTextBox.qml:26
+msgid "Reset selection:"
+msgstr "איפוס בחירה:"
+
+#: src/Gui/ShortcutsTextBox.qml:28
+msgid "Cancel:"
+msgstr "ביטול:"
+
+#: src/Gui/ShortcutsTextBox.qml:33
+msgctxt "Mouse action"
+msgid "Release left-click"
+msgstr "שחרור לחצן שמאלי"
+
+#: src/Gui/ShortcutsTextBox.qml:33
+msgctxt "Mouse action"
+msgid "Double-click"
+msgstr "לחיצה כפולה"
+
+#: src/Gui/ShortcutsTextBox.qml:34
+msgctxt "Keyboard action"
+msgid "Enter"
+msgstr "Enter"
+
+#: src/Gui/ShortcutsTextBox.qml:35
+msgctxt "Mouse action"
+msgid "Drag outside selection rectangle"
+msgstr "גרירה מחוץ למרובע הבחירה"
+
+#: src/Gui/ShortcutsTextBox.qml:37
+msgctxt "Keyboard action"
+msgid "+ Shift: Magnifier"
+msgstr "+ Shift: זכוכית מגדלת"
+
+#: src/Gui/ShortcutsTextBox.qml:40
+msgctxt "Mouse action"
+msgid "Drag inside selection rectangle"
+msgstr "גרירה בתוך המרובע הנבחר"
+
+#: src/Gui/ShortcutsTextBox.qml:41
+msgctxt "Keyboard action"
+msgid "Arrow keys"
+msgstr "מקשי חיצים"
+
+#: src/Gui/ShortcutsTextBox.qml:42
+msgctxt "Keyboard action"
+msgid "+ Shift: Move in 1 pixel steps"
+msgstr "+ Shift: הזזה בצעדים של פיקסל אחד"
+
+#: src/Gui/ShortcutsTextBox.qml:43
+msgctxt "Mouse action"
+msgid "Drag handles"
+msgstr "גרירת הידיות"
+
+#: src/Gui/ShortcutsTextBox.qml:44
+msgctxt "Keyboard action"
+msgid "Arrow keys + Alt"
+msgstr "מקשי חיצים + Alt"
+
+#: src/Gui/ShortcutsTextBox.qml:45
+msgctxt "Keyboard action"
+msgid "+ Shift: Resize in 1 pixel steps"
+msgstr "+ Shift: שינוי גודל בצעדים של פיקסל אחד"
+
+#: src/Gui/ShortcutsTextBox.qml:46
+msgctxt "Mouse action"
+msgid "Right-click"
+msgstr "לחיצה ימני"
+
+#: src/Gui/ShortcutsTextBox.qml:48
+msgctxt "Keyboard action"
+msgid "Escape"
+msgstr "Escape"
+
+#: src/Gui/ScreenshotView.qml:196
+msgctxt "@info crop tool explanation"
+msgid ""
+"Click and drag to make a selection.\n"
+"Double click the selection to accept and crop.\n"
+"Right click to clear the selection."
+msgstr ""
+"לחיצה וגרירה בוחרות.\n"
+"לחיצה כפולה על הבחירה מאשרת את החיתוך.\n"
+"לחיצה ימנית מבטלת את הבחירה."
+
+#: src/Gui/OptionsMenu.cpp:38
+msgctxt "@title:menu"
+msgid "Screenshot Settings"
+msgstr "הגדרות צילום מסך"
+
+#: src/Gui/OptionsMenu.cpp:40
+msgctxt "@option:check for screenshots"
+msgid "Include mouse pointer"
+msgstr "כולל סמן העכבר"
+
+#: src/Gui/OptionsMenu.cpp:43
+msgctxt "@info:tooltip"
+msgid "Show the mouse cursor in the screenshot image"
+msgstr "להציג את סמן העכבר בצילום המסך"
+
+#: src/Gui/OptionsMenu.cpp:44
+#, fuzzy
+msgctxt "@info:tooltip"
+msgid "niri does not composite the cursor into screenshots"
+msgstr "להציג את סמן העכבר בצילום המסך"
+
+#: src/Gui/OptionsMenu.cpp:52
+msgctxt "@option:check"
+msgid "Include window titlebar and borders"
+msgstr "כולל שורת הכותרת והגבולות"
+
+#: src/Gui/OptionsMenu.cpp:53
+msgctxt "@info:tooltip"
+msgid ""
+"Show the window title bar, the minimize/maximize/close buttons, and the "
+"window border"
+msgstr "להציג את כותרת החלון, את כפתורי המזעור/הגדלה/סגירה ואת מסגרת החלון"
+
+#: src/Gui/OptionsMenu.cpp:61
+msgctxt "@option:check"
+msgid "Include window shadow"
+msgstr "כולל הצללת החלון"
+
+#: src/Gui/OptionsMenu.cpp:62
+msgctxt "@info:tooltip"
+msgid "Show the window shadow"
+msgstr "הצגת צללית החלון"
+
+#: src/Gui/OptionsMenu.cpp:70
+msgctxt "@option:check"
+msgid "Quit after manual Save or Copy"
+msgstr "לצאת אחרי שמירה או העתקה ידניים"
+
+#: src/Gui/OptionsMenu.cpp:71
+msgctxt "@info:tooltip"
+msgid "Quit Spectacle after manually saving or copying the image"
+msgstr "לצאת מ־Spectacle אחרי שמירה או העתקה ידנית של התמונה"
+
+#: src/Gui/OptionsMenu.cpp:83
+msgctxt "@option:check"
+msgid "Capture On Click"
+msgstr "צילום בלחיצה"
+
+#: src/Gui/OptionsMenu.cpp:98
+msgctxt "@label:spinbox"
+msgid "Delay:"
+msgstr "השהיה:"
+
+#: src/Gui/OptionsMenu.cpp:103
+msgctxt "@item 0 delay special value"
+msgid "No Delay"
+msgstr "ללא השהיה"
+
+#: src/Gui/OptionsMenu.cpp:122
+msgctxt "@title:menu"
+msgid "Recording Settings"
+msgstr "הגדרות הקלטה"
+
+#: src/Gui/OptionsMenu.cpp:124
+msgctxt "@option:check for recordings"
+msgid "Include mouse pointer"
+msgstr "כולל סמן העכבר"
+
+#: src/Gui/OptionsMenu.cpp:125
+msgctxt "@info:tooltip"
+msgid "Show the mouse cursor in the recording"
+msgstr "להציג את סמן העכבר בהקלטת המסך"
+
+#: src/Gui/OptionsMenu.cpp:133
+msgctxt "@option:check for recordings"
+msgid "Record system audio"
+msgstr "הקלטת שמע המערכת"
+
+#: src/Gui/OptionsMenu.cpp:134
+msgctxt "@info:tooltip"
+msgid ""
+"Include the audio that is currently playing on the system in the recording"
+msgstr "לכלול את השמע שמתנגן כרגע במערכת כחלק מההקלטה"
+
+#: src/Gui/OptionsMenu.cpp:142
+msgctxt "@option:check for recordings"
+msgid "Record microphone"
+msgstr "הקלטת מיקרופון"
+
+#: src/Gui/OptionsMenu.cpp:143
+msgctxt "@info:tooltip"
+msgid "Include audio from the default microphone in the recording"
+msgstr "לכלול שמע ממיקרופון ברירת המחדל כחלק מההקלטה"
+
+#: src/Gui/RecordingModeMenu.cpp:17
+msgctxt "@title:menu"
+msgid "Recording Modes"
+msgstr "מצבי הקלטה"
+
+#: src/Gui/RecordingSettingsColumn.qml:22
+msgctxt "@option:check"
+msgid "Include mouse pointer"
+msgstr "לכלול את סמן העכבר"
+
+#: src/Gui/RecordingSettingsColumn.qml:23
+msgctxt "@info:tooltip"
+msgid "Show the mouse cursor in the screen recording."
+msgstr "להציג את סמן העכבר בהקלטת המסך."
+
+#: src/Gui/RecordingSettingsColumn.qml:32
+msgctxt "@option:check"
+msgid "Record system audio"
+msgstr "הקלטת שמע מערכת"
+
+#: src/Gui/RecordingSettingsColumn.qml:33
+msgctxt "@info:tooltip"
+msgid ""
+"Include the audio that is currently playing on the system in the recording."
+msgstr "לכלול את השמע שמתנגן כרגע במערכת כחלק מההקלטה."
+
+#: src/Gui/RecordingSettingsColumn.qml:45
+msgctxt "@option:check"
+msgid "Record microphone"
+msgstr "הקלטת מסך"
+
+#: src/Gui/RecordingSettingsColumn.qml:46
+msgctxt "@info:tooltip"
+msgid "Include audio from the default microphone in the recording."
+msgstr "לכלול שמע ממיקרופון ברירת המחדל כחלק מההקלטה."
+
+#: src/Gui/RecordingSettingsColumn.qml:57
+msgctxt "@info"
+msgid "The selected video format does not support audio."
+msgstr "תסדיר הווידאו הנבחר לא תומך בשמע."
+
+#: src/Gui/RecordingView.qml:90
+msgctxt "Recording in progress, %1 is the length of the recording so far"
+msgid ""
+"Recording:\n"
+"%1"
+msgstr ""
+"מתבצעת הקלטה:\n"
+"%1"
+
+#: src/Gui/RecordingView.qml:129
+msgid "Pause"
+msgstr "השהיה"
+
+#: src/Gui/RecordingView.qml:129
+msgid "Play"
+msgstr "ניגון"
+
+#: src/Gui/SaveAction.qml:13
+msgctxt "@action"
+msgid "Save"
+msgstr "שמירה"
+
+#: src/Gui/ScreenshotModeMenu.cpp:17
+msgctxt "@title:menu"
+msgid "Screenshot Modes"
+msgstr "מצבי צילום מסך"
+
+#: src/Gui/FontPopup.qml:54
+#, fuzzy
+msgid "Font"
+msgstr "גופן:"
+
+#: src/Gui/FontPopup.qml:69
+msgid "Size"
+msgstr ""
+
+#: src/Gui/FontPopup.qml:82
+msgid "Bold"
+msgstr ""
+
+#: src/Gui/FontPopup.qml:86
+msgid "Italic"
+msgstr ""
+
+#: src/Gui/FontPopup.qml:94 src/Gui/ColorPopup.qml:292
+#, fuzzy
+msgid "Cancel"
+msgstr "ביטול"
+
+#: src/Gui/FontPopup.qml:99 src/Gui/ColorPopup.qml:297
+msgid "Apply"
+msgstr ""
+
+#: src/Gui/SaveAsAction.qml:9
+msgctxt "@action"
+msgid "Save As…"
+msgstr "שמירה בשם…"
+
+#: src/Gui/ScreenshotModeMenuButton.qml:11
+msgctxt "@action select new screenshot mode"
+msgid "New Screenshot"
+msgstr "צילום מסך חדש"
+
+#: src/Gui/UndoRedoGroup.qml:31
+msgid "Undo"
+msgstr "ביטול"
+
+#: src/Gui/UndoRedoGroup.qml:42
+msgid "Redo"
+msgstr "ביצוע מחדש"
+
+#: src/Gui/DialogPage.qml:53
+#, fuzzy
+msgid "Configure NekoShot…"
+msgstr "הגדרת Spectacle…"
+
+#: src/Gui/DialogPage.qml:61
+msgid "Help"
+msgstr "עזרה"
+
+#: src/Gui/DialogPage.qml:80
+msgctxt "@title:group"
+msgid "Take a Screenshot:"
+msgstr "צילום המסך:"
+
+#: src/Gui/DialogPage.qml:95 src/Gui/DialogPage.qml:136
+msgctxt "@title:group"
+msgid "Options"
+msgstr "אפשרויות"
+
+#: src/Gui/DialogPage.qml:121
+msgctxt "@title:group"
+msgid "Make a Recording:"
+msgstr "ביצוע הקלטה:"
+
+#: src/Gui/DialogPage.qml:162
+msgctxt "@title:tab"
+msgid "Screenshot"
+msgstr "צילום מסך"
+
+#: src/Gui/DialogPage.qml:168
+msgctxt "@title:tab"
+msgid "Recording"
+msgstr "הקלטה"
+
+#: src/Gui/DialogPage.qml:171 src/Gui/RecordingModeMenuButton.qml:18
+msgctxt "@info:tooltip"
+msgid "This feature is not supported on the current platform"
+msgstr "היכולת הזאת לא נתמכת בפלטפורמה הנוכחית"
+
+#: src/Gui/SmartSpinBox.cpp:30
+msgctxt "Integer number of seconds"
+msgid " second"
+msgid_plural " seconds"
+msgstr[0] " שנייה"
+msgstr[1] " שניות"
+msgstr[2] "שניות"
+msgstr[3] "שניות"
+
+#: src/Gui/SmartSpinBox.cpp:32
+msgctxt "Decimal number of seconds"
+msgid " seconds"
+msgstr " שניות"
+
+#: src/Gui/ExportMenuButton.qml:13
+msgctxt "@action"
+msgid "Export"
+msgstr "ייצוא"
+
+#: src/Gui/ViewerWindow.cpp:53
+msgctxt "@info, %1 is the error message"
+msgid "There was a problem sharing the image: %1"
+msgstr "התרחשה תקלה בשיתוף התמונה: %1"
+
+#: src/Gui/CaptureSettingsColumn.qml:17
+msgid "Include mouse pointer"
+msgstr "כולל סמן העכבר"
+
+#: src/Gui/CaptureSettingsColumn.qml:20
+msgid "Show the mouse cursor in the screenshot image."
+msgstr "הצגת סמן העכבר בתמונת צילום המסך."
+
+#: src/Gui/CaptureSettingsColumn.qml:21
+#, fuzzy
+msgid "niri does not composite the cursor into screenshots."
+msgstr "הצגת סמן העכבר בתמונת צילום המסך."
+
+#: src/Gui/CaptureSettingsColumn.qml:30
+msgid "Include window titlebar and borders"
+msgstr "כולל שורת הכותרת והגבולות"
+
+#: src/Gui/CaptureSettingsColumn.qml:31
+msgid ""
+"Show the window title bar and border when taking a screenshot of a window."
+msgstr "להציג את כותרת ומסגרת החלון בעת צילום החלון."
+
+#: src/Gui/CaptureSettingsColumn.qml:40
+msgid "Include window shadow"
+msgstr "כולל הצללת החלון"
+
+#: src/Gui/CaptureSettingsColumn.qml:41
+msgid "Show the window shadow when taking a screenshot of a window."
+msgstr "להציג את הצללת החלון בעת צילום החלון."
+
+#: src/Gui/CaptureSettingsColumn.qml:51
+msgid "Quit after manual Save or Copy"
+msgstr "לצאת אחרי שמירה או העתקה ידניים"
+
+#: src/Gui/CaptureSettingsColumn.qml:52
+msgid "Quit Spectacle after manually saving or copying the image."
+msgstr "לצאת מ־Spectacle אחרי שמירת או העתקת התמונה ידנית."
+
+#: src/Gui/CaptureSettingsColumn.qml:61
+msgid "Capture on click"
+msgstr "ללכוד בלחיצה"
+
+#: src/Gui/CaptureSettingsColumn.qml:63
+msgid "Wait for a mouse click before capturing the screenshot image."
+msgstr "להמתין ללחיצת העכבר בטרם צילום המסך."
+
+#: src/Gui/CaptureSettingsColumn.qml:74
+msgid "Delay:"
+msgstr "השהיה:"
+
+#: src/Gui/DelaySpinBox.qml:15
+msgctxt "0 second delay"
+msgid "No Delay"
+msgstr "ללא השהיה"
+
+#: src/Gui/DelaySpinBox.qml:24
+msgctxt "Integer number of seconds"
+msgid "%2 second"
+msgid_plural "%2 seconds"
+msgstr[0] "שנייה"
+msgstr[1] "%2 שניות"
+msgstr[2] "%2 שניות"
+msgstr[3] "%2 שניות"
+
+#: src/Gui/DelaySpinBox.qml:26
+msgctxt "Decimal number of seconds"
+msgid "%1 seconds"
+msgstr "%1 שניות"
+
+#: src/Gui/OcrAction.qml:15
+msgctxt "@action"
+msgid "Extract Text"
+msgstr "חילוץ טקסט"
+
+#: src/Gui/RecordingModeMenuButton.qml:12
+msgctxt "@action select new recording mode"
+msgid "New Recording"
+msgstr "הקלטה חדשה"
+
+#: src/Gui/SizeLabel.qml:13
+msgctxt "Size, width×height"
+msgid "%1×%2"
+msgstr "%1×%2"
+
+#: src/Gui/ViewerPage.qml:228
+msgid "Zoom:"
+msgstr "תקריב:"
+
+#: src/Gui/ViewerPage.qml:242
+msgid "Image Zoom"
+msgstr "תקריב על תמונה"
+
+#: src/Gui/SpectacleWindow.cpp:170
+msgctxt "@title:window"
+msgid "%1 second"
+msgid_plural "%1 seconds"
+msgstr[0] "שנייה"
+msgstr[1] "%1 שניות"
+msgstr[2] "%1 שניות"
+msgstr[3] "%1 שניות"
+
+#: src/Gui/SpectacleWindow.cpp:173
+msgctxt "@title:window Unsaved Screenshot"
+msgid "Unsaved"
+msgstr "לא נשמר"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:88
+msgid "Stroke:"
+msgstr "מתאר:"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:120
+#, fuzzy, c-format
+msgctxt "px: pixels"
+msgid "%1px"
+msgid_plural "%1px"
+msgstr[0] "פיקסל"
+msgstr[1] "שני פיקסלים"
+msgstr[2] "%1 פיקסלים"
+msgstr[3] "%1 פיקסלים"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:125
+msgid "Stroke Width"
+msgstr "עובי מתאר"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:158 src/Gui/ColorPopup.qml:44
+msgid "Stroke Color"
+msgstr "צבע מתאר"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:192
+msgid "Fill:"
+msgstr "מילוי:"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:204 src/Gui/ColorPopup.qml:45
+msgid "Fill Color"
+msgstr "צבע מילוי"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:241
+msgctxt "@label:slider strength of effect"
+msgid "Strength:"
+msgstr "עוצמה:"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:260
+msgctxt "@info:tooltip"
+msgid "The strength of the effect."
+msgstr "עוצמת האפקט."
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:287
+msgid "Font:"
+msgstr "גופן:"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:301
+msgctxt "%2 font family, %3 font style name, %1 font point size"
+msgid "%2 %3 %1pt"
+msgid_plural "%2 %3 %1pts"
+msgstr[0] "%2 %3 נקודה"
+msgstr[1] "%2 %3 %1 נק׳"
+msgstr[2] "%2 %3 %1 נק׳"
+msgstr[3] "%2 %3 %1 נק׳"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:302
+msgctxt "%2 font family %1 font point size"
+msgid "%2 %1pt"
+msgid_plural "%2 %1pts"
+msgstr[0] "%2 נקודה"
+msgstr[1] "%2 %1 נק׳"
+msgstr[2] "%2 %1 נק׳"
+msgstr[3] "%2 %1 נק׳"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:314
+msgid "Font Color"
+msgstr "צבע גופן"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:351
+msgid "Number:"
+msgstr "מספר:"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:370
+msgid "Number for number annotations"
+msgstr "מספר מספרי פירושים"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:398
+msgid "Shadow"
+msgstr "הצללה"
+
+#: src/Gui/AnnotationsToolBarContents.qml:109
+msgctxt "@action:intoolbar no tool, to allow dragging"
+msgid "None"
+msgstr "בלי"
+
+#: src/Gui/AnnotationsToolBarContents.qml:121
+msgctxt "@action:intoolbar crop image tool"
+msgid "Crop"
+msgstr "חיתוך"
+
+#: src/Gui/AnnotationsToolBarContents.qml:128
+msgctxt "@action:intoolbar select annotation tool"
+msgid "Select"
+msgstr "בחירה"
+
+#: src/Gui/AnnotationsToolBarContents.qml:137
+msgctxt "@action:intoolbar freehand line tool"
+msgid "Freehand"
+msgstr "יד חופשית"
+
+#: src/Gui/AnnotationsToolBarContents.qml:138
+msgctxt "@info:tooltip"
+msgid "Shift: Snap to straight lines"
+msgstr "Shift: הצמדה לקווים ישרים"
+
+#: src/Gui/AnnotationsToolBarContents.qml:145
+msgctxt "@action:intoolbar highlighter line tool"
+msgid "Highlighter"
+msgstr "מדגיש"
+
+#: src/Gui/AnnotationsToolBarContents.qml:154
+msgctxt "@action:intoolbar straight line tool"
+msgid "Line"
+msgstr "קו"
+
+#: src/Gui/AnnotationsToolBarContents.qml:155
+msgctxt "@info:tooltip"
+msgid "Shift: Snap to 45 degree increments"
+msgstr "Shift: הצמדה לתוספות של 45 מעלות"
+
+#: src/Gui/AnnotationsToolBarContents.qml:162
+msgctxt "@action:intoolbar arrow line tool"
+msgid "Arrow"
+msgstr "חץ"
+
+#: src/Gui/AnnotationsToolBarContents.qml:171
+msgctxt "@action:intoolbar rectangle tool"
+msgid "Rectangle"
+msgstr "מרובע"
+
+#: src/Gui/AnnotationsToolBarContents.qml:173
+msgctxt "@info:tooltip"
+msgid ""
+"Shift: Snap to diagonal movements\n"
+"Control: Resize from center"
+msgstr ""
+"Shift: הצמדה לתנועות אלכסוניות\n"
+"Ctrl: שינוי גודל מהמרכז"
+
+#: src/Gui/AnnotationsToolBarContents.qml:180
+msgctxt "@action:intoolbar ellipse tool"
+msgid "Ellipse"
+msgstr "אליפסה"
+
+#: src/Gui/AnnotationsToolBarContents.qml:188
+msgctxt "@action:intoolbar pixelate tool"
+msgid "Pixelate"
+msgstr "טשטוש בפיקסלים"
+
+#: src/Gui/AnnotationsToolBarContents.qml:196
+msgctxt "@action:intoolbar blur tool"
+msgid "Blur"
+msgstr "טשטוש"
+
+#: src/Gui/AnnotationsToolBarContents.qml:204
+msgctxt "@action:intoolbar text tool"
+msgid "Text"
+msgstr "טקסט"
+
+#: src/Gui/AnnotationsToolBarContents.qml:211
+msgctxt "@action:intoolbar number stamp tool"
+msgid "Number"
+msgstr "מספר"
+
+#: src/Gui/InlineMessageList.qml:129
+msgctxt "@action:button"
+msgid "Open Containing Folder"
+msgstr "פתיחת התיקייה המכילה"
+
+#: src/Gui/InlineMessageList.qml:139
+msgctxt "@action:button"
+msgid "Copy to Clipboard"
+msgstr "העתקה ללוח הגזירים"
+
+#: src/Gui/InlineMessageList.qml:149
+msgctxt "@action:button close inline notification"
+msgid "Close"
+msgstr "סגירה"
+
+#: src/Gui/ColorPopup.qml:46
+#, fuzzy
+msgid "Text Color"
+msgstr "צבע גופן"
+
+#: src/Gui/ColorPopup.qml:47
+#, fuzzy
+msgid "Color"
+msgstr "צבע מילוי"
+
+#: src/Gui/ColorPopup.qml:241
+msgid "Alpha"
+msgstr ""
+
+#: src/Gui/ColorPopup.qml:264
+msgid "Hex"
+msgstr ""
+
+#: src/Platforms/VideoPlatformWayland.cpp:165
+msgctxt "@info"
+msgid "KWin Screencasting is not available."
+msgstr "הסרטת מסך של KWin לא זמינה."
+
+#: src/Platforms/VideoPlatformWayland.cpp:179
+msgctxt "@info:shell"
+msgid "Failed to record: File URL is not a local file"
+msgstr "ההקלטה נכשלה: כתובת הקובץ אינה קובץ מקומי"
+
+#: src/Platforms/VideoPlatformWayland.cpp:279
+msgctxt "@info"
+msgid ""
+"The stream closed because the target screen changed in a way that disrupted "
+"the recording."
+msgstr "התזרים נסגר כיוון שמסך היעד השתנה באופן שקטע את ההקלטה."
+
+#: src/Platforms/VideoPlatformWayland.cpp:283
+msgctxt "@info"
+msgid ""
+"The stream closed because the target window changed in a way that disrupted "
+"the recording."
+msgstr "התזרים נסגר כיוון שחלון היעד השתנה באופן שקטע את ההקלטה."
+
+#: src/Platforms/VideoPlatformWayland.cpp:287
+msgctxt "@info"
+msgid ""
+"The stream closed because a screen containing the target region changed in a "
+"way that disrupted the recording."
+msgstr "התזרים נסגר כיוון שמסך שהכיל את אזור היעד השתנה באופן שקטע את ההקלטה."
+
+#: src/Platforms/VideoPlatformWayland.cpp:303
+msgctxt "@info:shell, %1 is the temporary URL"
+msgid "Failed to record: Temporary file URL is not a local file (%1)"
+msgstr "ההקלטה נכשלה: כתובת קובץ זמנית אינה קובץ מקומי (%1)"
+
+#: src/Platforms/VideoPlatformWayland.cpp:314
+msgctxt "@info:shell, %1 is the output file URL"
+msgid "Failed to record: Output file URL is not a local file (%1)"
+msgstr "ההקלטה נכשלה: כתובת פלט הקובץ אינה קובץ מקומי (%1)"
+
+#: src/Platforms/VideoPlatformWayland.cpp:381
+msgctxt "@info:shell, %1 is a directory path"
+msgid "Failed to record: Unable to create folder (%1)"
+msgstr "ההקלטה נכשלה: לא ניתן ליצור תיקייה (%1)"
+
+#: src/Platforms/VideoPlatformWayland.cpp:409
+msgctxt "@info:shell"
+msgid "Screen recording canceled"
+msgstr "הקלטת המסך בוטלה"
+
+#: src/Platforms/VideoPlatformWayland.cpp:411
+msgctxt "@info:shell"
+msgid "Window recording canceled"
+msgstr "הקלטת החלון בוטלה"
+
+#: src/Platforms/VideoPlatformWayland.cpp:417
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to select screen: %1"
+msgstr "בחירת המסך נכשלה: %1"
+
+#: src/Platforms/VideoPlatformWayland.cpp:419
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to select window: %1"
+msgstr "בחירת החלון נכשלה: %1"
+
+#: src/Platforms/VideoPlatformWayland.cpp:447
+msgctxt "@info:shell"
+msgid "Failed to select screen: No screen contained the mouse cursor position"
+msgstr "בחירת המסך נכשלה: לא נמצא מסך במקום של העכבר"
+
+#: src/Platforms/VideoPlatformWayland.cpp:454
+msgctxt "@info:shell"
+msgid "Failed to select window: No window found"
+msgstr "בחירת החלון נכשלה: לא נמצא חלון"
+
+#: src/Platforms/ImagePlatformKWin.cpp:73
+msgctxt "@info, %1 is the width"
+msgid "Bad width for KWin screenshot: %1"
+msgstr "רוחב שגוי לצילום מסך של KWin:‏ %1"
+
+#: src/Platforms/ImagePlatformKWin.cpp:78
+msgctxt "@info, %1 is the height"
+msgid "Bad height for KWin screenshot: %1"
+msgstr "גובה שגוי לצילום מסך של KWin:‏ %1"
+
+#: src/Platforms/ImagePlatformKWin.cpp:89
+msgctxt "@info, %1 is a file format like 'png', 'jpg'"
+msgid "Bad format for KWin screenshot: %1"
+msgstr "תסדיר שגוי לצילום מסך של KWin:‏ %1"
+
+#: src/Platforms/ImagePlatformKWin.cpp:107
+msgctxt "@info"
+msgid "Could not open file descriptor for reading KWin screenshot."
+msgstr "לא ניתן לפתוח את מתאר הקובץ לקריאת צילום מסך של KWin."
+
+#: src/Platforms/ImagePlatformKWin.cpp:177
+msgctxt "@info, %1 is an error code"
+msgid "pipe2() failed for KWin screenshot: %1"
+msgstr "‏pipe2()‎ נכשל לצילום מסך של KWin‏: %1"
+
+#: src/Platforms/ImagePlatformKWin.cpp:233
+msgctxt "@info, %1 is an error message"
+msgid ""
+"KWin screenshot request failed:\n"
+"%1"
+msgstr ""
+"בקשת צילום המסך מ־KWin נכשלה:\n"
+"%1"
+
+#: src/Platforms/ImagePlatformKWin.cpp:235
+msgctxt "@info"
+msgid ""
+"Potentially relevant information:\n"
+"%1"
+msgstr ""
+"פרטים שכנראה עשויים לעזור:\n"
+"%1"
+
+#: src/Platforms/ImagePlatformKWin.cpp:243
+msgctxt "@info"
+msgid "Unsupported KWin screenshot type metadata: %1"
+msgstr "נתוני־על של צילום מסך של KWin לא נתמכים: %1"
+
+#: src/Platforms/ImagePlatformNiri.cpp:115
+#, fuzzy
+msgid "Failed to capture the window"
+msgstr "בחירת החלון נכשלה: %1"
+
+#: src/Platforms/ImagePlatformNiri.cpp:159
+#, fuzzy
+msgid "Unsupported capture mode"
+msgstr "להשתמש במצב הצילום האחרון שהיה בשימוש"
+
+#: src/Platforms/ImagePlatformNiri.cpp:190
+msgid "No focused window"
+msgstr ""
+
+#: src/Platforms/ImagePlatformNiri.cpp:209
+msgid "No outputs found"
+msgstr ""
+
+#: src/Platforms/ImagePlatformNiri.cpp:215
+msgid "No focused output found"
+msgstr ""
+
+#: src/Platforms/ImagePlatformNiri.cpp:229
+#, fuzzy
+msgid "Failed to capture the screen"
+msgstr "בחירת המסך נכשלה: %1"
+
+#: src/Platforms/PlatformLoader.cpp:120
+msgid "wf-recorder is not installed"
+msgstr ""
+
+#: src/Platforms/PlatformLoader.cpp:127
+msgctxt "@info"
+msgid "Screen recording is not available on X11."
+msgstr "הקלטת מסך לא זמינה ב־X11."
+
+#: src/Platforms/VideoPlatformNiri.cpp:197
+msgid "gst-launch-1.0 is not installed"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:200
+msgid "gst-inspect-1.0 is not installed"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:218
+msgid "missing GStreamer elements: %1"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:287
+msgid "missing GStreamer elements: mp4mux"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:291
+msgid "missing GStreamer elements: vah264enc+h264parse or x264enc"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:297
+msgid "H.265/HEVC requires vah265enc, h265parse and mp4mux"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:302
+msgid "AV1 requires vaav1enc, av1parse and mp4mux"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:306
+#, fuzzy
+msgid "the video format is not supported"
+msgstr "תסדיר הווידאו הנבחר לא תומך בשמע."
+
+#: src/Platforms/VideoPlatformNiri.cpp:356
+msgid "missing GStreamer audio elements: %1"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:432
+#, fuzzy
+msgid "the D-Bus session bus is not available"
+msgstr "מנוע זיהוי התווים האופטי לא זמין."
+
+#: src/Platforms/VideoPlatformNiri.cpp:500
+#: src/Platforms/VideoPlatformNiri.cpp:1241
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to record: could not start the window picker: %1"
+msgstr "ההקלטה נכשלה: לא ניתן ליצור תיקייה (%1)"
+
+#: src/Platforms/VideoPlatformNiri.cpp:518
+msgctxt "@info:shell, %1 is a process exit code"
+msgid "gst-launch-1.0 exited with code %1."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:520
+msgctxt "@info:shell, %1 is a process exit code"
+msgid "wf-recorder exited with code %1."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:917
+msgctxt "@info:shell"
+msgid "Recording canceled: no recording mode"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:921
+msgctxt "@info:shell"
+msgid "Failed to record: unsupported recording mode."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:925
+#: src/Platforms/VideoPlatformNiri.cpp:929
+#: src/Platforms/VideoPlatformNiri.cpp:1322
+#, fuzzy
+msgid "A recording is already starting"
+msgstr "הגדרות הקלטה"
+
+#: src/Platforms/VideoPlatformNiri.cpp:936
+#: src/Platforms/VideoPlatformNiri.cpp:1083
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to record: window recording is unavailable: %1."
+msgstr "הקלטת מסך לא זמינה ב־X11."
+
+#: src/Platforms/VideoPlatformNiri.cpp:946
+#, fuzzy
+msgctxt "@info:shell"
+msgid "Failed to record: the output file URL is not a local file."
+msgstr "ההקלטה נכשלה: כתובת פלט הקובץ אינה קובץ מקומי (%1)"
+
+#: src/Platforms/VideoPlatformNiri.cpp:962
+#, fuzzy
+msgctxt "@info:shell, %1 is a file path"
+msgid "Failed to record: the video format of %1 is not supported."
+msgstr "תסדיר הווידאו הנבחר לא תומך בשמע."
+
+#: src/Platforms/VideoPlatformNiri.cpp:964
+#, fuzzy
+msgctxt "@info:shell"
+msgid "Failed to record: the selected video format is not supported."
+msgstr "תסדיר הווידאו הנבחר לא תומך בשמע."
+
+#: src/Platforms/VideoPlatformNiri.cpp:971
+#, fuzzy
+msgid "Recording format changed"
+msgstr "הגדרות הקלטה"
+
+#: src/Platforms/VideoPlatformNiri.cpp:973
+#, fuzzy
+msgid "WebM/VP9"
+msgstr "WebM/VP9"
+
+#: src/Platforms/VideoPlatformNiri.cpp:974
+#, fuzzy
+msgid "MP4/H.265"
+msgstr "MP4/H.264"
+
+#: src/Platforms/VideoPlatformNiri.cpp:975
+msgid "MP4/AV1"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:976
+#, fuzzy
+msgid "MP4/H.264"
+msgstr "MP4/H.264"
+
+#: src/Platforms/VideoPlatformNiri.cpp:972
+msgid ""
+"The selected format is not available for window recording; using %1 instead."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:992
+#, fuzzy
+msgctxt "@info:shell"
+msgid "Failed to record: unable to create a temporary output file."
+msgstr "ההקלטה נכשלה: לא ניתן ליצור תיקייה (%1)"
+
+#: src/Platforms/VideoPlatformNiri.cpp:998
+#, fuzzy
+msgctxt "@info:shell, %1 is a directory path"
+msgid "Failed to record: unable to create folder (%1)."
+msgstr "ההקלטה נכשלה: לא ניתן ליצור תיקייה (%1)"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1057
+#: src/Platforms/VideoPlatformNiri.cpp:1101
+#, fuzzy
+msgctxt "@info:shell"
+msgid "Failed to record: niri did not report a focused output."
+msgstr "ההקלטה נכשלה: כתובת הקובץ אינה קובץ מקומי"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1059
+#: src/Platforms/VideoPlatformNiri.cpp:1103
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to record: %1"
+msgstr "בחירת המסך נכשלה: %1"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1066
+#: src/Platforms/VideoPlatformNiri.cpp:1361
+#, fuzzy
+msgid "Failed to record: the screen connector is empty."
+msgstr "ההקלטה נכשלה: לא ניתן ליצור תיקייה (%1)"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1113
+msgctxt "@info:shell"
+msgid "Failed to record: the recording region is empty."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1136
+msgid ""
+"Failed to record: wf-recorder does not support the selected video format."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1141
+msgid ""
+"Failed to record: HEVC region recording requires the libx265 encoder in wf-"
+"recorder."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1145
+msgid ""
+"Failed to record: AV1 region recording requires the libaom-av1 encoder in wf-"
+"recorder."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1149
+msgid ""
+"Failed to record: H.264 region recording requires the libx264 encoder in wf-"
+"recorder."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1153
+msgid ""
+"Failed to record: VP9 region recording requires the libvpx-vp9 encoder in wf-"
+"recorder."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1162
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to start wf-recorder: %1"
+msgstr "בחירת המסך נכשלה: %1"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1183
+#: src/Platforms/VideoPlatformNiri.cpp:1284
+msgid "Recording canceled: no window selected."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1191
+msgid "Recording canceled: the screencast stream did not start."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1247
+msgid "Recording canceled: no window was selected."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1271
+msgctxt "@info:shell, %1 is a process exit code"
+msgid "The window picker exited with code %1."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1327
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to record: screencast recording is unavailable: %1."
+msgstr "הקלטת מסך לא זמינה ב־X11."
+
+#: src/Platforms/VideoPlatformNiri.cpp:1331
+msgid ""
+"Failed to record: this video format is not supported for screencast "
+"recording."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1336
+#: src/Platforms/VideoPlatformNiri.cpp:1341
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to record: %1."
+msgstr "בחירת המסך נכשלה: %1"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1353
+msgid "No window selected to record"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1367
+msgid ""
+"Failed to record: screencast recording only supports screen, window and "
+"region modes."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1384
+#: src/Platforms/VideoPlatformNiri.cpp:1396
+#: src/Platforms/VideoPlatformNiri.cpp:1420
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to start screencast recording: %1"
+msgstr "בחירת המסך נכשלה: %1"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1390
+msgid ""
+"Failed to start screencast recording: niri returned an empty screencast "
+"session."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1401
+msgid ""
+"Failed to start screencast recording: niri returned an empty screencast "
+"stream."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1410
+msgid ""
+"Failed to start screencast recording: could not subscribe to the screencast "
+"stream signal."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1414
+msgid ""
+"Failed to start screencast recording: could not subscribe to the screencast "
+"session signal."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1425
+msgid ""
+"Failed to start screencast recording: the niri screencast session was closed."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1440
+msgid "Timed out waiting for the PipeWire stream"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1474
+#: src/Platforms/VideoPlatformNiri.cpp:1500
+msgid ""
+"Failed to start screencast recording: the stream format is not supported."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1479
+#: src/Platforms/VideoPlatformNiri.cpp:1485
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to start screencast recording: %1."
+msgstr "בחירת המסך נכשלה: %1"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1517
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to start gst-launch-1.0: %1"
+msgstr "בחירת המסך נכשלה: %1"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1592
+msgid "Failed to record: the niri screencast session was closed."
+msgstr ""
+
+#: src/Gui/SettingsDialog/SaveOptionsUtils.h:40
+msgctxt "@info"
+msgid "<filename>%1</filename>"
+msgstr "<filename>%1</filename>"
+
+#: src/Gui/SettingsDialog/SaveOptionsUtils.h:72
+msgid ""
+"You can use the following placeholders in the filename, which will be "
+"replaced with actual text when the file is saved:"
+msgstr ""
+"אפשר להשתמש בממלאי המקום הבאים בשם הקובץ, הם יוחלפו בטקסט הממשי בעת שמירת "
+"הקובץ:"
+
+#: src/Gui/SettingsDialog/SaveOptionsUtils.h:87
+msgid "To save to a sub-folder"
+msgstr "כדי לשמור לתת־תיקייה"
+
+#: src/Gui/SettingsDialog/SaveOptionsUtils.h:90
+msgctxt "show fewer filename placeholder templates"
+msgid "Show Fewer"
+msgstr "להציג פחות"
+
+#: src/Gui/SettingsDialog/SaveOptionsUtils.h:92
+msgctxt "show more filename placeholder templates"
+msgid "Show More"
+msgstr "להציג יותר"
+
+#: src/Gui/SettingsDialog/VideoSaveOptionsPage.cpp:35
+msgid "Quality:"
+msgstr ""
+
+#: src/Gui/SettingsDialog/VideoSaveOptionsPage.cpp:37
+msgid "Low (smaller files)"
+msgstr ""
+
+#: src/Gui/SettingsDialog/VideoSaveOptionsPage.cpp:38
+msgid "Medium"
+msgstr ""
+
+#: src/Gui/SettingsDialog/VideoSaveOptionsPage.cpp:39
+msgid "High (larger files)"
+msgstr ""
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:37
+msgctxt "Settings category"
+msgid "General"
+msgstr "כללי"
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:38
+msgctxt "Settings category"
+msgid "Image Saving"
+msgstr "שמירת תמונה"
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:39
+msgctxt "Settings category"
+msgid "Video Saving"
+msgstr "שמירת סרטון"
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:40
+msgctxt "Settings category"
+msgid "Shortcuts"
+msgstr "קיצורי מקשים"
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:104
+msgid "Shortcuts"
+msgstr "קיצורי מקשים"
+
+#, kde-format
+#~ msgctxt "translatable folder name"
+#~ msgid "Screenshots"
+#~ msgstr "צילומי מסך"
+
+#, kde-format
+#~ msgctxt "part of default image filename template"
+#~ msgid "Screenshot"
+#~ msgstr "צילום מסך"
+
+#, kde-format
+#~ msgctxt "translatable folder name"
+#~ msgid "Screencasts"
+#~ msgstr "הסרטות מסך"
+
+#, kde-format
+#~ msgctxt "part of default video filename template"
+#~ msgid "Screencast"
+#~ msgstr "הסרטת מסך"
+
+#, kde-format
+#~ msgid "When launching Spectacle:"
+#~ msgstr "עם הפעלת Spectacle:"
+
+#, kde-format
+#~ msgid "Take rectangular screenshot"
+#~ msgstr "צילום מסך מרובע"
+
+#, kde-format
+#~ msgid "Take full screen screenshot"
+#~ msgstr "לצלם את כל המסך"
+
+#, kde-format
+#~ msgid "Do not take a screenshot automatically"
+#~ msgstr "לא לצלם את המסך אוטומטית"
+
+#, kde-format
+#~ msgid "After taking a screenshot:"
+#~ msgstr "לאחר צילום המסך:"
+
+#, kde-format
+#~ msgid "Save file to default folder"
+#~ msgstr "לשמור את הקובץ למקום ברירת המחדל"
+
+#, kde-format
+#~ msgid "Do not copy anything"
+#~ msgstr "לא להעתיק כלום"
+
+#, kde-format
+#~ msgid "Copy image to clipboard"
+#~ msgstr "להעתיק תמונה ללוח הגזירים"
+
+#, kde-format
+#~ msgid "Copy file location to clipboard"
+#~ msgstr "העתקת מקום הקובץ ללוח הגזירים"
+
+#, kde-format
+#~ msgid "While Spectacle is running"
+#~ msgstr "בזמן פעילות של Spectacle"
+
+#, kde-format
+#~ msgid "Press screenshot key to:"
+#~ msgstr "לחיצה על כפתור צילום המסך:"
+
+#, kde-format
+#~ msgid "Take a new Screenshot"
+#~ msgstr "תצלם צילום מסך חדש"
+
+#, kde-format
+#~ msgid "Open a new Spectacle window"
+#~ msgstr "פתיחת חלון חדש של Spectacle"
+
+#, kde-format
+#~ msgid "Return focus to Spectacle"
+#~ msgstr "תחזיר את המיקוד ל־Spectacle"
+
+#, kde-format
+#~ msgid "Rectangular Region Selection"
+#~ msgstr "בחירת אזור מרובע במסך"
+
+#, kde-format
+#~ msgid "General:"
+#~ msgstr "כללי:"
+
+#, kde-format
+#~ msgid "Use light background"
+#~ msgstr "להשתמש ברקע בהיר"
+
+#, kde-format
+#~ msgid "Accept on click-and-release"
+#~ msgstr "לקבל בלחיצה ושחרור"
+
+#, kde-format
+#~ msgid "Show magnifier:"
+#~ msgstr "הצגת זכוכית מגדלת:"
+
+#, kde-format
+#~ msgid "Never"
+#~ msgstr "אף פעם"
+
+#, kde-format
+#~ msgid "Always"
+#~ msgstr "תמיד"
+
+#, kde-format
+#~ msgid "While holding Shift"
+#~ msgstr "תוך כדי החזקת Shift"
+
+#, kde-format
+#~ msgid "Remember selected area:"
+#~ msgstr "לזכור את השטח הנבחר:"
+
+#, kde-format
+#~ msgid "Until Spectacle is closed"
+#~ msgstr "עד לסגירת Spectacle"
+
+#, kde-format
+#~ msgid "Text Recognition (OCR)"
+#~ msgstr "זיהוי טקסט (OCR)"
+
+#, kde-format
+#~ msgid "Languages for OCR:"
+#~ msgstr "שפות לזיהוי תווים אופטי:"
+
+#, kde-format
+#~ msgid "Text extraction:"
+#~ msgstr "חילוץ טקסט:"
+
+#, kde-format
+#~ msgid "Close after extraction (skips auto-save)"
+#~ msgstr "לסגור לאחר החילוץ (דילוג על שמירה אוטומטית)"
+
+#, kde-format
+#~ msgid ""
+#~ "Spectacle will close after text extraction and automatic saving will be "
+#~ "skipped."
+#~ msgstr "Spectacle ייסגר לאחר החילוץ הזה ושמירה אוטומטית תיפסח."
+
+#, kde-format
+#~ msgid "OCR functionality is not available"
+#~ msgstr "יכולת זיהוי התווים האופטי לא זמינה"
+
+#, kde-format
+#~ msgid ""
+#~ "Please install the required packages:\n"
+#~ "• tesseract\n"
+#~ "• tesseract language data (e.g., tesseract-ocr-eng for English)"
+#~ msgstr ""
+#~ "נא להתקין את החבילות ההכרחיות:\n"
+#~ "• tesseract\n"
+#~ "• נתוני שפה של tesseract (למשל: tesseract-ocr-heb לעברית)"
+
+#, kde-format
+#~ msgid "Save Location:"
+#~ msgstr "מקום שמירה:"
+
+#, kde-format
+#~ msgid "Compression Quality:"
+#~ msgstr "איכות דחיסה:"
+
+#, kde-format
+#~ msgid "For lossy image formats like JPEG"
+#~ msgstr "לתסדירי תמונה ירודי איכות כגון JPEG"
+
+#, no-c-format, kde-format
+#~ msgid "%"
+#~ msgstr "%"
+
+#, kde-format
+#~ msgid "Filename:"
+#~ msgstr "שם הקובץ:"
+
+#, kde-format
+#~ msgctxt "Preview of the user configured filename"
+#~ msgid "Preview:"
+#~ msgstr "תצוגה מקדימה:"
+
+#, kde-format
+#~ msgid "What to do when Spectacle is launched"
+#~ msgstr "מה לעשות עם הפעלת Spectacle"
+
+#, kde-format
+#~ msgid ""
+#~ "What should happen if print key is pressed when Spectacle is already "
+#~ "running"
+#~ msgstr "מה אמור לקרות אם מקש ההדפסה נלחץ כש־Spectacle כבר פעיל"
+
+#, kde-format
+#~ msgid "Save screenshot automatically after it is taken"
+#~ msgstr "לשמור את צילום המסך אוטומטית לאחר הצילום"
+
+#, kde-format
+#~ msgid ""
+#~ "Clipboard action which should be executed after the screenshot is taken"
+#~ msgstr "פעולת לוח גזירים שתופעלת לאחר צילום המסך"
+
+#, kde-format
+#~ msgid "Whether to use a light color mask in the region selection dialog"
+#~ msgstr "האם להשתמש במסכת צבע בהיר בחלונית בחירת השטח"
+
+#, kde-format
+#~ msgid ""
+#~ "Whether the screenshot should be captured after selecting the region and "
+#~ "releasing the mouse"
+#~ msgstr "האם לצלם את המסך לאחר בחירת השטח ושחרור לחצן העכבר"
+
+#, kde-format
+#~ msgid "Remember the last rectangular region"
+#~ msgstr "לשמור את האזור המרובע האחרון"
+
+#, kde-format
+#~ msgid "Default languages for OCR text recognition"
+#~ msgstr "שפות ברירת מחדל לזיהוי טקסט עם זיהוי תווים אופטי"
+
+#, kde-format
+#~ msgid "The last used region the user selected"
+#~ msgstr "השטח האחרון שבחר המשתמש"
+
+#, kde-format
+#~ msgid "Take screenshot on click"
+#~ msgstr "צילום המסך בלחיצה"
+
+#, kde-format
+#~ msgid "Whether the mouse cursor is included in the screenshot"
+#~ msgstr "האם לכלול את סמן העכבר בצילום המסך"
+
+#, kde-format
+#~ msgid "Whether the mouse cursor is included in the video"
+#~ msgstr "האם לכלול את סמן העכבר בסרטון"
+
+#, kde-format
+#~ msgid "Whether system audio is included in the recording"
+#~ msgstr "האם לכלול את שמע המערכת בסרטון"
+
+#, kde-format
+#~ msgid "Whether microphone audio is included in the recording"
+#~ msgstr "האם לכלול את המיקרופון בהקלטה"
+
+#, kde-format
+#~ msgid "Whether the window decorations are included in the screenshot"
+#~ msgstr "האם עיטורי החלונות ייכללו בצילום המסך"
+
+#, kde-format
+#~ msgid "Whether the window shadow is included in the screenshot"
+#~ msgstr "האם הצללת החלון תיכלל בצילום המסך"
+
+#, kde-format
+#~ msgid "Quit after saving or copying an image"
+#~ msgstr "לצאת לאחר שמירת או העתקת תמונה"
+
+#, kde-format
+#~ msgid "Delay"
+#~ msgstr "השהיה"
+
+#, kde-format
+#~ msgid "Default filename"
+#~ msgstr "שם קובץ ברירת המחדל"
+
+#, kde-format
+#~ msgid "Compression quality for lossy file formats"
+#~ msgstr "איכות הדחיסה לתסדירים ירודי איכות"
+
+#, kde-format
+#~ msgid "Default save image format"
+#~ msgstr "תסדיר התמונה לשמירה כברירת מחדל"
+
+#, kde-format
+#~ msgid "The filename template used when saving screenshots"
+#~ msgstr "תבנית שם הקובץ שתשמש לשמירת צילומי מסך"
+
+#, kde-format
+#~ msgid "The path of the file saved last"
+#~ msgstr "נתיב הקובץ האחרון שנשמר"
+
+#, kde-format
+#~ msgid "Last path used for \"save as\" action"
+#~ msgstr "נתיב אחרון ששימש לפעולת „שמירה בשם”"
+
+#, kde-format
+#~ msgid "Default video format"
+#~ msgstr "תסדיר הווידאו כברירת מחדל"
+
+#, kde-format
+#~ msgid "The filename template used when saving screencasts"
+#~ msgstr "תבנית שם הקובץ שתשמש לשמירת הסרטות מסך"
+
+#, kde-format
+#~ msgid "Save &Location:"
+#~ msgstr "מקום &שמירה:"
+
+#, kde-format
+#~ msgid "Spectacle"
+#~ msgstr "Spectacle"
+
+#, kde-format
+#~ msgid "KDE Screenshot Utility"
+#~ msgstr "כלי צילום מסך של KDE"
+
+#~ msgid ""
+#~ "Capture the window currently under the cursor, excluding parents of pop-"
+#~ "up menus"
+#~ msgstr "צילום החלון הנוכחי שמתחת לעכבר, ללא הורים של תפריטים קופצים"
+
+#~ msgid "Capture the current pop-up only"
+#~ msgstr "ללכוד את החלונית הקופצת הנוכחית בלבד"
+
+#~ msgid ""
+#~ "Capture only the current pop-up window (like a menu, tooltip etc) when "
+#~ "taking a screenshot of a window. If disabled, the pop-up is captured "
+#~ "along with the parent window."
+#~ msgstr ""
+#~ "לצלם רק את החלון הקופץ הנוכחי (כמו תפריט, חלונית עצה וכו׳) בעת צילום "
+#~ "חלון. אם האפשרות מושבתת, החלונית הקופצת תצולם יחד עם חלון ההורה."
+
+#~ msgctxt "@option:check"
+#~ msgid "Capture the current pop-up only"
+#~ msgstr "לצלם את החלונית הקופצת הנוכחית בלבד"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid ""
+#~ "Capture only the current pop-up window (like a menu, tooltip etc).\n"
+#~ "If disabled, the pop-up is captured along with the parent window"
+#~ msgstr ""
+#~ "לצלם רק את החלון הקופץ הנוכחי (כמו תפריט, חלונית עצה וכו׳).\n"
+#~ "אם האפשרות מושבתת, החלונית הקופצת מצולמת עם חלון ההורה"
+
+#~ msgid "Only capture the current pop up menu"
+#~ msgstr "לצלם רק את התפריט הקופץ הנוכחי"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "The shared image link (<a href=\"%1\">%1</a>) has been copied to the "
+#~ "clipboard."
+#~ msgstr "קישור התמונה ששותפה (<a href=\"%1\">%1</a>) הועתק ללוח הגזירים."
+
+#~ msgctxt "@action"
+#~ msgid "Open Containing Folder"
+#~ msgstr "פתיחת התיקייה המכילה"
+
+#~ msgid "The last used annotation tool type"
+#~ msgstr "סוג כלי הפירוש האחרון שהיה בשימוש"
+
+#~ msgid "Stroke width for freehand annotation tool"
+#~ msgstr "עובי מתאר לכלי פירוש ביד חופשית"
+
+#~ msgid "Stroke width for highlighter annotation tool"
+#~ msgstr "עובי מתאר לכלי פירוש מדגיש"
+
+#~ msgid "Stroke width for line annotation tool"
+#~ msgstr "עובי מתאר לכלי פירוש קו"
+
+#~ msgid "Stroke width for arrow annotation tool"
+#~ msgstr "עובי מתאר לכלי פירוש חץ"
+
+#~ msgid "Stroke width for rectangle annotation tool"
+#~ msgstr "עובי מתאר לכלי פירוש מרובע"
+
+#~ msgid "Stroke width for ellipse annotation tool"
+#~ msgstr "עובי מתאר לכלי פירוש אליפסה"
+
+#~ msgid "Stroke color for freehand annotation tool"
+#~ msgstr "צבע מתאר לכלי פירוש ביד חופשית"
+
+#~ msgid "Stroke color for highlighter annotation tool"
+#~ msgstr "צבע מתאר לכלי פירוש מדגיש"
+
+#~ msgid "Stroke color for line annotation tool"
+#~ msgstr "צבע מתאר לכלי פירוש קו"
+
+#~ msgid "Stroke color for arrow annotation tool"
+#~ msgstr "צבע מתאר לכלי פירוש חץ"
+
+#~ msgid "Stroke color for rectangle annotation tool"
+#~ msgstr "צבע מתאר לכלי פירוש מרובע"
+
+#~ msgid "Stroke color for ellipse annotation tool"
+#~ msgstr "צבע מתאר לכלי פירוש אליפסה"
+
+#~ msgid "Fill color for rectangle annotation tool"
+#~ msgstr "צבע המילוי לכלי פירוש מרובע"
+
+#~ msgid "Fill color for ellipse annotation tool"
+#~ msgstr "צבע המילוי לכלי פירוש אליפסה"
+
+#~ msgid "Fill color for number annotation tool"
+#~ msgstr "צבע מילוי לכלי הסבר במספרים"
+
+#~ msgid "The strength of the blur effect."
+#~ msgstr "עוצמת אפקט הטשטוש."
+
+#~ msgid "The strength of the pixelate effect."
+#~ msgstr "עוצמת אפקט הפיקסול."
+
+#~ msgid "Font for text annotations"
+#~ msgstr "גופן לפירושי טקסט"
+
+#~ msgid "Font for number annotations"
+#~ msgstr "גופן לפירושים מספריים"
+
+#~ msgid "Font color for annotations"
+#~ msgstr "צבע גופן לפירושים"
+
+#~ msgid "Whether freehand annotation tool has a drop shadow"
+#~ msgstr "האם לכלי פירוש ביד חופשית יש היטל של צל"
+
+#~ msgid "Whether line annotation tool has a drop shadow"
+#~ msgstr "האם לכלי פירוש קו יש היטל של צל"
+
+#~ msgid "Whether arrow annotation tool has a drop shadow"
+#~ msgstr "האם לכלי פירוש חץ יש היטל של צל"
+
+#~ msgid "Whether rectangle annotation tool has a drop shadow"
+#~ msgstr "האם לכלי פירוש מרובע יש היטל של צל"
+
+#~ msgid "Whether ellipse annotation tool has a drop shadow"
+#~ msgstr "האם לכלי פירוש אליפסה יש היטל של צל"
+
+#~ msgid "Whether text annotation tool has a drop shadow"
+#~ msgstr "האם לכלי פירוש טקסט יש היטל של צל"
+
+#~ msgid "Whether number annotation tool has a drop shadow"
+#~ msgstr "האם לכלי פירוש מספר יש היטל של צל"
+
+#~ msgid "Show capture instructions"
+#~ msgstr "הצגת הנחיות צילום"
+
+#~ msgid "Whether to show capture instructions in the region selection"
+#~ msgstr "האם להציג הנחיות צילום בבחירת השטח"
+
+#~ msgctxt "@action global shortcut"
+#~ msgid "Record Window"
+#~ msgstr "הקלטת חלון"
+
+#~ msgctxt "@action global shortcut"
+#~ msgid "Record Rectangular Region"
+#~ msgstr "הקלטת אזור מרובע"
+
+#~ msgctxt "recording notification message"
+#~ msgid "Click the system tray icon to finish recording"
+#~ msgstr "לחיצה על שורת המערכת תסיים את ההקלטה"
+
+#~ msgctxt "@info"
+#~ msgid "The screenshot location has been copied to the clipboard."
+#~ msgstr "מקום צילום המסך הועתק ללוח הגזירים."
+
+#~ msgctxt "@info"
+#~ msgid "Video shared"
+#~ msgstr "סרטון שותף"
+
+#~ msgctxt "@info"
+#~ msgid "Image shared"
+#~ msgstr "תמונה שותפה"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "The shared video link (<a href=\"%1\">%1</a>) has been copied to the "
+#~ "clipboard."
+#~ msgstr "קישור הסרטון ששותף (<a href=\"%1\">%1</a>) הועתק ללוח הגזירים."
+
+#~ msgctxt "@info"
+#~ msgid "There was a problem sharing the video: %1"
+#~ msgstr "התרחשה תקלה בשיתוף הסרטון: %1"
+
+#~ msgid "Screenshot"
+#~ msgstr "צילום מסך"
+
+#~ msgid "Configure..."
+#~ msgstr "הגדרה…"
+
+#~ msgid "Capture Mode"
+#~ msgstr "מצב צילום"
+
+#~ msgid "Capture Settings"
+#~ msgstr "הגדרות לכידה"
+
+#~ msgctxt "@title:group"
+#~ msgid "Recording Settings"
+#~ msgstr "הגדרות הקלטה"
+
+#~ msgid ""
+#~ "Could not take a screenshot. Please report this bug here: <a "
+#~ "href=\"https://bugs.kde.org/enter_bug.cgi?product=Spectacle\">create a "
+#~ "spectacle bug</a>"
+#~ msgstr ""
+#~ "לא ניתן לצלם את המסך. נא לדווח על התקלה הזאת כאן: <a href=\"https://"
+#~ "bugs.kde.org/enter_bug.cgi?product=Spectacle\">דיווח על תקלה ב־spectacle</"
+#~ "a>"
+
+#~ msgid "Screenshot capture canceled or failed"
+#~ msgstr "צילום המסך בוטל או נכשל"
+
+#~ msgid "Show Annotation Tools"
+#~ msgstr "הצגת כלי פירוש"
+
+#~ msgid "Whether to show a magnifier in the region selection"
+#~ msgstr "האם להציג זכוכית מגדלת בבחירת השטח"
+
+#~ msgid "Capture Modes"
+#~ msgstr "מצבי צילום"
+
+#~ msgctxt "Decimal number of seconds"
+#~ msgid "%2 seconds"
+#~ msgstr "%2 שניות"
+
+#~ msgctxt ""
+#~ "A placeholder in the user configurable filename will replaced by the "
+#~ "specified value"
+#~ msgid "Day"
+#~ msgstr "יום"
+
+#~ msgctxt ""
+#~ "A placeholder in the user configurable filename will replaced by the "
+#~ "specified value"
+#~ msgid "Month"
+#~ msgstr "חודש"
+
+#~ msgctxt ""
+#~ "A placeholder in the user configurable filename will replaced by the "
+#~ "specified value"
+#~ msgid "Hour"
+#~ msgstr "שעה"
+
+#~ msgctxt ""
+#~ "A placeholder in the user configurable filename will replaced by the "
+#~ "specified value"
+#~ msgid "Minute"
+#~ msgstr "דקה"
+
+#~ msgctxt ""
+#~ "A placeholder in the user configurable filename will replaced by the "
+#~ "specified value"
+#~ msgid "Second"
+#~ msgstr "שנייה"
+
+#~ msgctxt ""
+#~ "A placeholder in the user configurable filename will replaced by the "
+#~ "specified value"
+#~ msgid "Timezone"
+#~ msgstr "אזור זמן"
+
+#~ msgctxt ""
+#~ "A placeholder in the user configurable filename will replaced by the "
+#~ "specified value"
+#~ msgid "Sequential numbering"
+#~ msgstr "מספור רציף"
+
+#~ msgid "The default filename used when recording a video"
+#~ msgstr "שם ברירת המחדל שמשמש בעת הקלטת סרטון"
+
+#~ msgctxt "@item recording mode"
+#~ msgid "Region"
+#~ msgstr "אזור"
+
+#~ msgctxt "@item recording mode"
+#~ msgid "Screen"
+#~ msgstr "מסך"
+
+#~ msgid "Workspace"
+#~ msgstr "מרחב עבודה"
+
+#~ msgid "Failed to select output"
+#~ msgstr "בחירת הפלט נכשלה"
+
+#~ msgid "On Click"
+#~ msgstr "בלחיצה"
+
+#~ msgid "Take a New Screenshot"
+#~ msgstr "צור צילום מסך חדש"
+
+#, fuzzy
+#~| msgid "Capture the current pop-up only"
+#~ msgid "Capture only the current pop-up window (like a menu, tooltip etc).\n"
+#~ msgstr "לכוד את החלון הקופץ הנוכחי בלבד"
+
+#~ msgid "Full Screen (All Monitors)"
+#~ msgstr "מסך מלא (כל המסכים)"
+
+#, fuzzy
+#~| msgid "Full Screen (All Monitors)"
+#~ msgid "Full Screen (All Monitors, scaled)"
+#~ msgstr "מסך מלא (כל המסכים)"
+
+#~ msgid "Image Size: %1x%2 pixels"
+#~ msgstr "גודל תמונה: %1x%2 נקודות"
+
+#, fuzzy
+#~| msgid "Take a New Screenshot"
+#~ msgid "Add annotation to the screenshot"
+#~ msgstr "צור צילום מסך חדש"
+
+#, fuzzy
+#~| msgid "Take a New Screenshot"
+#~ msgid "Ready to take a screenshot"
+#~ msgstr "צור צילום מסך חדש"
+
+#~ msgid "Area:"
+#~ msgstr "איזור:"
+
+#, fuzzy
+#~| msgid "<b>Content Options</b>"
+#~ msgid "<b>Options</b>"
+#~ msgstr "<b>אפשרויות תוכן</b>"
+
+#~ msgctxt "The entire screen area was captured, heading"
+#~ msgid "Full Screen Captured"
+#~ msgstr "צולם כל המסך"
+
+#~ msgctxt "The current screen was captured, heading"
+#~ msgid "Current Screen Captured"
+#~ msgstr "מולם המסך הנוכחי"
+
+#~ msgctxt "The active window was captured, heading"
+#~ msgid "Active Window Captured"
+#~ msgstr "צולם החלון הפעיל"
+
+#~ msgctxt "The window under the mouse was captured, heading"
+#~ msgid "Window Under Cursor Captured"
+#~ msgstr "צולם החלון שמתחת לעכבר"
+
+#~ msgctxt "A rectangular region was captured, heading"
+#~ msgid "Rectangular Region Captured"
+#~ msgstr "צולם מלבן נבחר"
+
+#~ msgid "More Online Services"
+#~ msgstr "עוד שירותים באינטרנט"
+
+#~ msgctxt "%1 is collection name, %2 is image count in collection"
+#~ msgid "%1 (%2 image)"
+#~ msgid_plural "%1 (%2 images)"
+#~ msgstr[0] "%1 (תמונה %2)"
+#~ msgstr[1] "%1 (%2 תמונות)"
+
+#~ msgid "Taken with Spectacle"
+#~ msgstr "צולם באמצעות Spectacle"
+
+#, fuzzy
+#~| msgid "Copy the current screenshot image to the clipboard."
+#~ msgid "Copy screenshot automatically to the clipboard after it is taken"
+#~ msgstr "העתק את התמונה שצולמה ללוח העתקה"
+
+#, fuzzy
+#~| msgid "Take a New Screenshot"
+#~ msgid "Include pointer in the screenshot"
+#~ msgstr "צור צילום מסך חדש"
+
+#, fuzzy
+#~| msgid "Take a New Screenshot"
+#~ msgid "Do not include window decorations in the screenshot"
+#~ msgstr "צור צילום מסך חדש"
+
+#, fuzzy
+#~| msgid "Capture the entire desktop (default)"
+#~ msgctxt "The entire desktop was captured, heading"
+#~ msgid "Entire Desktop Captured"
+#~ msgstr "צלם את כל המסך (ברירת־מחדל)"
+
+#~ msgid "Apply Unsaved Changes"
+#~ msgstr "החל שינויים לא שמורים"
+
+#~ msgid ""
+#~ "You have made changes to the settings in this tab. Do you want to apply "
+#~ "those changes?"
+#~ msgstr "ביצעת שינויים בהגדרות בכרטיסיה זו. לשמור את השינויים"
+
+#, fuzzy
+#~| msgid "Rectangular Region"
+#~ msgid "Rectangular Region:"
+#~ msgstr "איזור מלבני"
+
+#~ msgid "You can find the shared image at: <a href=\"%1\">%1</a>"
+#~ msgstr "תוכל למצוא את התמונה המשותפת ב: <a href=\"%1\">%1</a>"
+
+#~ msgid "Save &&& Exit"
+#~ msgstr "שמור וצא"
+
+#~ msgid "Save screenshot in your Pictures directory and exit"
+#~ msgstr "שומר את הצילום מסך בתיקית התמונות שלך ויוצא"
+
+#~ msgid "Export Image..."
+#~ msgstr "יצא תמונה..."
+
+#~ msgid "Preferences"
+#~ msgstr "העדפות"
+
+#~ msgid "Dynamic Save Button"
+#~ msgstr "כפתור שמירה דינמי"
+
+#~ msgid "Application Preferences"
+#~ msgstr "העדפות ישום"

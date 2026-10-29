@@ -1,0 +1,2697 @@
+# Sanskrit translations for spectacle package.
+# Copyright (C) 2024 This file is copyright:
+# This file is distributed under the same license as the spectacle package.
+# Kali <EMAIL@ADDRESS>, 2024.
+#
+# SPDX-FileCopyrightText: 2024 kali <skkalwar999@gmail.com>
+msgid ""
+msgstr ""
+"Project-Id-Version: spectacle\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-29 15:50+0800\n"
+"PO-Revision-Date: 2024-12-25 19:45+0530\n"
+"Last-Translator: kali <shreekantkalwar@gmail.com>\n"
+"Language-Team: Sanskrit <kde-i18n-doc@kde.org>\n"
+"Language: sa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n>2);\n"
+"X-Generator: Lokalize 24.08.2\n"
+
+#: src/OcrManager.cpp:578
+msgctxt "@item:inlistbox"
+msgid "Orientation and Script Detection"
+msgstr ""
+
+#: src/OcrManager.cpp:619
+msgid "Math/Equation Detection"
+msgstr ""
+
+#: src/OcrManager.cpp:622
+msgid "Orientation and Script Detection"
+msgstr ""
+
+#: src/ShortcutActions.cpp:38
+msgctxt "@action global shortcut"
+msgid "Launch Spectacle"
+msgstr "लॉन्च स्पेक्टेकल"
+
+#: src/ShortcutActions.cpp:44
+msgctxt "@action global shortcut"
+msgid "Capture Entire Desktop"
+msgstr "सम्पूर्णं डेस्कटॉपं गृह्यताम्"
+
+#: src/ShortcutActions.cpp:50
+msgctxt "@action global shortcut"
+msgid "Capture Current Monitor"
+msgstr "वर्तमान निरीक्षक कैप्चर करें"
+
+#: src/ShortcutActions.cpp:56
+msgctxt "@action global shortcut"
+msgid "Capture Active Window"
+msgstr "सक्रिय विण्डो कैप्चर करें"
+
+#: src/ShortcutActions.cpp:62
+msgctxt "@action global shortcut"
+msgid "Capture Rectangular Region"
+msgstr "आयताकार क्षेत्र कैप्चर करें"
+
+#: src/ShortcutActions.cpp:69
+msgctxt "@action global shortcut"
+msgid "Capture Selected Window"
+msgstr "चयनितविण्डो कैप्चर करें"
+
+#: src/ShortcutActions.cpp:69
+msgctxt "@action global shortcut"
+msgid "Capture Window Under Cursor"
+msgstr "कर्सरस्य अधः विण्डो कैप्चर कुर्वन्तु"
+
+#: src/ShortcutActions.cpp:76
+#, fuzzy
+msgctxt "@action global shortcut"
+msgid "Start/Stop Screen Recording"
+msgstr "तमाशा Recording अस्ति"
+
+#: src/ShortcutActions.cpp:82
+#, fuzzy
+msgctxt "@action global shortcut"
+msgid "Start/Stop Window Recording"
+msgstr "तमाशा Recording अस्ति"
+
+#: src/ShortcutActions.cpp:88
+#, fuzzy
+msgctxt "@action global shortcut"
+msgid "Start/Stop Region Recording"
+msgstr "तमाशा Recording अस्ति"
+
+#: src/ShortcutActions.cpp:94
+msgctxt "@action global shortcut"
+msgid "Launch Spectacle without capturing"
+msgstr "कैप्चरिंग विना Spectacle प्रारम्भं कुर्वन्तु"
+
+#: src/VideoFormatModel.cpp:31
+msgctxt "@item:inlistbox Container/encoder"
+msgid "WebM/VP9"
+msgstr "WebM/VP9"
+
+#: src/VideoFormatModel.cpp:38
+msgctxt "@item:inlistbox Container/encoder"
+msgid "MP4/H.264"
+msgstr "MP4/H.264"
+
+#: src/VideoFormatModel.cpp:45
+#, fuzzy
+msgctxt "@item:inlistbox Container/encoder"
+msgid "MP4/H.265"
+msgstr "MP4/H.264"
+
+#: src/VideoFormatModel.cpp:52
+msgctxt "@item:inlistbox Container/encoder"
+msgid "MP4/AV1"
+msgstr ""
+
+#: src/VideoFormatModel.cpp:59
+msgctxt "@item:inlistbox Container/encoder"
+msgid "Animated WebP (better than GIF)"
+msgstr "एनिमेटेड् WebP (GIF इत्यस्मात् उत्तमम्)"
+
+#: src/VideoFormatModel.cpp:66
+msgctxt "@item:inlistbox Container/encoder"
+msgid "GIF (compatible, but inefficient)"
+msgstr "GIF (सङ्गतम्, परन्तु अकुशलम्)"
+
+#: src/CaptureModeModel.cpp:167
+msgctxt "@action in capture mode section"
+msgid "Rectangular Region"
+msgstr "आयताकार क्षेत्र"
+
+#: src/CaptureModeModel.cpp:169
+msgctxt "@action in capture mode section"
+msgid "All Screens (Scaled to same size)"
+msgstr "सर्वाणि पटलानि (समान आकारे स्केल कृताः)"
+
+#: src/CaptureModeModel.cpp:171
+msgctxt "@action in capture mode section"
+msgid "Current Screen"
+msgstr "वर्तमान स्क्रीन"
+
+#: src/CaptureModeModel.cpp:173
+msgctxt "@action in capture mode section"
+msgid "Active Window"
+msgstr "सक्रिय विण्डो"
+
+#: src/CaptureModeModel.cpp:176
+msgctxt "@action in capture mode section"
+msgid "Select Window"
+msgstr "विण्डो इति चिनोतु"
+
+#: src/CaptureModeModel.cpp:176
+msgctxt "@action in capture mode section"
+msgid "Window Under Cursor"
+msgstr "कर्सरस्य अधः विण्डो"
+
+#: src/CaptureModeModel.cpp:179
+msgctxt "@action in capture mode section"
+msgid "All Screens"
+msgstr "सर्वाणि पटलानि"
+
+#: src/CaptureModeModel.cpp:181
+msgctxt "@action in capture mode section"
+msgid "Full Screen"
+msgstr "पूर्णपर्दे"
+
+#: src/CommandLineOptions.h:22
+msgid "Capture the entire desktop (default)"
+msgstr "सम्पूर्णं डेस्कटॉपं (पूर्वनिर्धारितं) गृह्यताम् ।"
+
+#: src/CommandLineOptions.h:25
+msgid ""
+"When used with -f/--fullscreen, capture all screens scaled to the same size "
+"(niri: falls back to unscaled)"
+msgstr ""
+
+#: src/CommandLineOptions.h:28
+msgid "Capture the current monitor"
+msgstr "वर्तमाननिरीक्षकं गृह्यताम्"
+
+#: src/CommandLineOptions.h:32
+msgid "Capture the active window"
+msgstr "सक्रियविण्डो गृह्यताम्"
+
+#: src/CommandLineOptions.h:35
+msgid ""
+"Capture the window currently under the cursor, including parents of pop-up "
+"menus"
+msgstr "कर्सरस्य अधः वर्तमानं विण्डो गृह्यताम्, यत्र पॉप-अप-मेनू-मातापितरौ अपि सन्ति"
+
+#: src/CommandLineOptions.h:38
+msgid "Capture a rectangular region of the screen"
+msgstr "स्क्रीनस्य आयताकारप्रदेशं गृह्यताम्"
+
+#: src/CommandLineOptions.h:42
+msgid ""
+"Record the screen using the given mode. Modes:\n"
+"- r, region\n"
+"- s, screen\n"
+"- w, window"
+msgstr ""
+"दत्तस्य मोडस्य उपयोगेन स्क्रीनम् अभिलेखयन्तु। मोडाः : १.\n"
+"- र, प्रदेश\n"
+"- s, screen\n"
+"- व, खिडकी"
+
+#: src/CommandLineOptions.h:50
+msgid "Launch Spectacle without taking a screenshot"
+msgstr "स्क्रीनशॉट् न गृहीत्वा Spectacle प्रारम्भं कुर्वन्तु"
+
+#: src/CommandLineOptions.h:54
+msgid "Start in GUI mode (default)"
+msgstr "GUI मोड् (पूर्वनिर्धारितम्) आरभ्यताम् ।"
+
+#: src/CommandLineOptions.h:58
+msgid "Take a screenshot and exit without showing the GUI"
+msgstr "स्क्रीनशॉट् गृहीत्वा GUI न दर्शयित्वा निर्गच्छन्तु"
+
+#: src/CommandLineOptions.h:62
+msgid "Start in DBus-Activation mode"
+msgstr "DBus-Activation मोड् मध्ये आरभत"
+
+#: src/CommandLineOptions.h:66
+msgid ""
+"In background mode, do not pop up a notification when the screenshot is taken"
+msgstr "पृष्ठभूमिविधाने स्क्रीनशॉट् गृहीते सूचनां न पोप् अप कुर्वन्तु"
+
+#: src/CommandLineOptions.h:70
+msgid "In background mode, save image to specified file"
+msgstr "पृष्ठभूमिविधाने चित्रं निर्दिष्टसञ्चिकायां रक्षन्तु"
+
+#: src/CommandLineOptions.h:75
+msgid "In background mode, delay before taking the shot (in milliseconds)"
+msgstr "पृष्ठभूमिविधाने शॉट् ग्रहीतुं पूर्वं विलम्बं कुर्वन्तु (मिलिसेकेण्ड् मध्ये) ।"
+
+#: src/CommandLineOptions.h:80
+msgid ""
+"In background mode, copy screenshot image to clipboard, unless -o is also "
+"used."
+msgstr ""
+"पृष्ठभूमिविधाने, स्क्रीनशॉट् चित्रं क्लिप्बोर्ड् प्रति प्रतिलिख्यताम्, यावत् -o इत्यस्य अपि "
+"उपयोगः न भवति ।"
+
+#: src/CommandLineOptions.h:84
+msgid "In background mode, copy screenshot file path to clipboard"
+msgstr "पृष्ठभूमिविधाने, स्क्रीनशॉट् सञ्चिकामार्गं क्लिप्बोर्ड् प्रति प्रतिलिख्यताम्"
+
+#: src/CommandLineOptions.h:88
+msgid "Wait for a click before taking screenshot. Invalidates delay"
+msgstr "स्क्रीनशॉट् ग्रहीतुं पूर्वं क्लिक् प्रतीक्ष्यताम्। विलम्बं अमान्यं करोति"
+
+#: src/CommandLineOptions.h:90
+#, fuzzy
+msgid "Starts a new GUI instance of NekoShot without registering to DBus"
+msgstr "DBus मध्ये पञ्जीकरणं विना तमाशायाः नूतनं GUI उदाहरणं आरभते"
+
+#: src/CommandLineOptions.h:93
+msgid "In background mode, include pointer in the screenshot"
+msgstr "पृष्ठभूमिविधाने स्क्रीनशॉट् मध्ये सूचकं समावेशयन्तु"
+
+#: src/CommandLineOptions.h:97
+msgid "In background mode, exclude decorations in the screenshot"
+msgstr "पृष्ठभूमिविधाने स्क्रीनशॉट् मध्ये अलङ्काराः बहिष्कृताः"
+
+#: src/CommandLineOptions.h:99
+msgid "In background mode, exclude shadows in the screenshot"
+msgstr "पृष्ठभूमिविधाने स्क्रीनशॉट् मध्ये छायाः बहिष्कृताः कुर्वन्तु"
+
+#: src/CommandLineOptions.h:102
+msgid "Open and edit existing screenshot file"
+msgstr "विद्यमानं स्क्रीनशॉट् सञ्चिकां उद्घाट्य सम्पादयन्तु"
+
+#: src/CommandLineOptions.h:105
+#, fuzzy
+msgid "Accept region selection on click-and-release"
+msgstr "क्लिक्-एण्ड्-रिलीज् इत्यत्र स्वीकुर्वन्तु"
+
+#: src/CommandLineOptions.h:106
+msgid "Stay running and wait for D-Bus requests"
+msgstr ""
+
+#: src/CommandLineOptions.h:107
+#, fuzzy
+msgid "Stop the current recording"
+msgstr "स्क्रीन रिकार्डिङ्ग् मध्ये मूषकस्य कर्सरं दर्शयतु ।"
+
+#: src/ExportManager.cpp:466
+#, fuzzy
+msgctxt "%1 is an error message"
+msgid "QImageWriter cannot write image: %1"
+msgstr "QImageWriter चित्रं लिखितुं न शक्नोति: %1"
+
+#: src/ExportManager.cpp:482
+msgctxt "@info"
+msgid ""
+"Cannot save screenshot because creating the directory failed:<nl/"
+"><filename>%1</filename>"
+msgstr ""
+"स्क्रीनशॉट् रक्षितुम् न शक्यते यतः निर्देशिकायाः निर्माणं विफलम् अभवत्:<nl/><filename>%1</"
+"filename>"
+
+#: src/ExportManager.cpp:491
+#, fuzzy
+msgid "Cannot save screenshot. Error while opening file."
+msgstr "स्क्रीनशॉट् रक्षितुं न शक्यते। सञ्चिकां लिखन् त्रुटिः।"
+
+#: src/ExportManager.cpp:495
+msgid "Cannot save screenshot. Error while writing file."
+msgstr "स्क्रीनशॉट् रक्षितुं न शक्यते। सञ्चिकां लिखन् त्रुटिः।"
+
+#: src/ExportManager.cpp:515
+msgctxt "@info"
+msgid ""
+"Cannot save screenshot because creating the remote directory failed:<nl/"
+"><filename>%1</filename>"
+msgstr ""
+"स्क्रीनशॉट् रक्षितुं न शक्यते यतः दूरस्थनिर्देशिकायाः निर्माणं विफलम् अभवत्:<nl/"
+"><filename>%1</filename>"
+
+#: src/ExportManager.cpp:526 src/ExportManager.cpp:576
+msgid "Cannot save screenshot. Error while writing temporary local file."
+msgstr "स्क्रीनशॉट् रक्षितुं न शक्यते। अस्थायी स्थानीयसञ्चिकां लिखन् त्रुटिः।"
+
+#: src/ExportManager.cpp:535
+msgid "Unable to save image. Could not upload file to remote location."
+msgstr "चित्रं रक्षितुं असमर्थः। दूरस्थस्थाने सञ्चिकां अपलोड् कर्तुं न शक्तवान् ।"
+
+#: src/ExportManager.cpp:583
+msgid "Cannot save screenshot. The save filename is invalid."
+msgstr "स्क्रीनशॉट् रक्षितुं न शक्यते। रक्षणसञ्चिकानाम अमान्यम् अस्ति ।"
+
+#: src/ExportManager.cpp:627
+msgid "Cannot save an empty screenshot image."
+msgstr "रिक्तं स्क्रीनशॉट् चित्रं रक्षितुं न शक्यते ।"
+
+#: src/ExportManager.cpp:814
+msgctxt "@info:shell"
+msgid ""
+"Failed to export video: Temporary file URL must be an existing local file"
+msgstr ""
+"विडियो निर्यातयितुं असफलम्: अस्थायी सञ्चिका URL विद्यमानस्थानीयसञ्चिका भवितुमर्हति"
+
+#: src/ExportManager.cpp:821
+msgctxt "@info:shell"
+msgid ""
+"Failed to export video: Output file URL must be a valid URL with a file name"
+msgstr ""
+"विडियो निर्यातयितुं असफलम्: आउटपुट् सञ्चिका URL सञ्चिकानाम्ना सह वैधः URL भवितुमर्हति"
+
+#: src/ExportManager.cpp:910
+#, fuzzy
+msgctxt "@info, %1 is a file path"
+msgid "Unable to save recording. Could not move file to location: %1"
+msgstr "रिकार्डिङ्ग् रक्षितुं असमर्थः। सञ्चिकां स्थानं प्रति स्थानान्तरयितुं न शक्तम्: %1"
+
+#: src/ExportManager.cpp:938
+msgid "Printing failed. The printer failed to initialize."
+msgstr "मुद्रणं विफलम् अभवत् । मुद्रकः आरम्भं कर्तुं असफलः अभवत् ।"
+
+#: src/ExportManager.cpp:955
+msgctxt "filename placeholder description"
+msgid "Day (1–31)"
+msgstr ""
+
+#: src/ExportManager.cpp:956
+msgctxt "filename placeholder description"
+msgid "Day (01–31)"
+msgstr ""
+
+#: src/ExportManager.cpp:957
+msgctxt "filename placeholder description"
+msgid "Day (short name)"
+msgstr ""
+
+#: src/ExportManager.cpp:958
+msgctxt "filename placeholder description"
+msgid "Day (long name)"
+msgstr ""
+
+#: src/ExportManager.cpp:959
+msgctxt "filename placeholder description"
+msgid "Month (1–12)"
+msgstr ""
+
+#: src/ExportManager.cpp:960
+msgctxt "filename placeholder description"
+msgid "Month (01–12)"
+msgstr ""
+
+#: src/ExportManager.cpp:961
+msgctxt "filename placeholder description"
+msgid "Month (short name)"
+msgstr ""
+
+#: src/ExportManager.cpp:962
+msgctxt "filename placeholder description"
+msgid "Month (long name)"
+msgstr ""
+
+#: src/ExportManager.cpp:963
+msgctxt "filename placeholder description"
+msgid "Year (2 digit)"
+msgstr ""
+
+#: src/ExportManager.cpp:964
+msgctxt "filename placeholder description"
+msgid "Year (4 digit)"
+msgstr ""
+
+#: src/ExportManager.cpp:965
+msgctxt "filename placeholder description"
+msgid "Hour (0–23)"
+msgstr ""
+
+#: src/ExportManager.cpp:966
+msgctxt "filename placeholder description"
+msgid "Hour (00–23)"
+msgstr ""
+
+#: src/ExportManager.cpp:967
+msgctxt "filename placeholder description"
+msgid "Hour (1–12)"
+msgstr ""
+
+#: src/ExportManager.cpp:968
+msgctxt "filename placeholder description"
+msgid "Hour (01–12)"
+msgstr ""
+
+#: src/ExportManager.cpp:969
+msgctxt "filename placeholder description"
+msgid "Minute (0–59)"
+msgstr ""
+
+#: src/ExportManager.cpp:970
+msgctxt "filename placeholder description"
+msgid "Minute (00–59)"
+msgstr ""
+
+#: src/ExportManager.cpp:971
+msgctxt "filename placeholder description"
+msgid "Second (0–59)"
+msgstr ""
+
+#: src/ExportManager.cpp:972
+msgctxt "filename placeholder description"
+msgid "Second (00–59)"
+msgstr ""
+
+#: src/ExportManager.cpp:973
+msgctxt "filename placeholder description"
+msgid "Millisecond (0–999)"
+msgstr ""
+
+#: src/ExportManager.cpp:975
+msgctxt "filename placeholder description"
+msgid "Millisecond (000–999)"
+msgstr ""
+
+#: src/ExportManager.cpp:976
+msgctxt "filename placeholder description"
+msgid "AM/PM"
+msgstr ""
+
+#: src/ExportManager.cpp:978
+msgctxt "filename placeholder description"
+msgid "am/pm"
+msgstr ""
+
+#: src/ExportManager.cpp:980
+msgctxt "filename placeholder description"
+msgid "AM/PM or am/pm (localized)"
+msgstr ""
+
+#: src/ExportManager.cpp:982
+msgctxt "filename placeholder description"
+msgid "Timezone (short name)"
+msgstr ""
+
+#: src/ExportManager.cpp:983
+msgctxt "filename placeholder description"
+msgid "Timezone offset (±0000)"
+msgstr ""
+
+#: src/ExportManager.cpp:984
+msgctxt "filename placeholder description"
+msgid "Timezone offset (±00:00)"
+msgstr ""
+
+#: src/ExportManager.cpp:985
+msgctxt "filename placeholder description"
+msgid "Timezone (long name)"
+msgstr ""
+
+#: src/ExportManager.cpp:986
+msgctxt "filename placeholder description"
+msgid "Seconds since the Unix epoch"
+msgstr ""
+
+#: src/ExportManager.cpp:987
+#, fuzzy
+msgctxt "filename placeholder description"
+msgid "Window Title"
+msgstr "कोष्ठ"
+
+#: src/ExportManager.cpp:988
+msgctxt "filename placeholder description"
+msgid "Sequential numbering, padded by inserting additional '#' characters"
+msgstr ""
+
+#: src/Main.cpp:48 src/SpectacleCore.cpp:1408
+msgid "NekoShot"
+msgstr ""
+
+#: src/Main.cpp:50
+msgid "Screenshot utility for niri, based on Spectacle"
+msgstr ""
+
+#: src/Main.cpp:52
+#, fuzzy
+msgid "© 2015 Boudhayan Gupta and Spectacle contributors"
+msgstr "(ग) 2015 बौधायन गुप्त"
+
+#: src/Main.cpp:60
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "श्रीकान्त् कलवार्"
+
+#: src/Main.cpp:60
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "skkalwar999@gmail.com"
+
+#: src/Main.cpp:78
+msgid ""
+"On Wayland, Spectacle requires KDE Plasma's KWin compositor, which does not "
+"seem to be available. Use Spectacle on KDE Plasma, or use a different "
+"screenshot tool."
+msgstr ""
+"Wayland इत्यत्र Spectacle इत्यस्य KDE Plasma इत्यस्य KWin compositor इत्यस्य आवश्यकता "
+"वर्तते, यत् उपलब्धं न दृश्यते । KDE Plasma इत्यत्र Spectacle इत्यस्य उपयोगं कुर्वन्तु, अथवा "
+"भिन्नं स्क्रीनशॉट् साधनं उपयुज्यताम् ।"
+
+#: src/Main.cpp:103 src/Platforms/ImagePlatformNiri.cpp:167
+msgid "grim is not installed"
+msgstr ""
+
+#: src/Main.cpp:119
+msgid "--daemon cannot be combined with --new-instance"
+msgstr ""
+
+#: src/RecordingModeModel.cpp:104
+msgctxt "@item recording mode"
+msgid "Rectangular Region"
+msgstr "आयताकार क्षेत्र"
+
+#: src/RecordingModeModel.cpp:106
+msgctxt "@item recording mode"
+msgid "Window"
+msgstr "कोष्ठ"
+
+#: src/RecordingModeModel.cpp:108
+msgctxt "@item recording mode"
+msgid "Full Screen"
+msgstr "पूर्णपर्दे"
+
+#: src/SpectacleCore.cpp:288
+msgctxt "@info"
+msgid "An error occurred while taking a screenshot."
+msgstr "स्क्रीनशॉट् गृह्णन् त्रुटिः अभवत् ।"
+
+#: src/SpectacleCore.cpp:318
+#, fuzzy
+msgctxt "@info:tooltip title for recording tray icon"
+msgid "Spectacle is Recording with Sound"
+msgstr "तमाशा Recording अस्ति"
+
+#: src/SpectacleCore.cpp:319
+msgctxt "@info:tooltip title for recording tray icon"
+msgid "Spectacle is Recording"
+msgstr "तमाशा Recording अस्ति"
+
+#: src/SpectacleCore.cpp:324
+#, fuzzy
+msgctxt "recording notification title"
+msgid "Spectacle is Recording with Sound"
+msgstr "तमाशा Recording अस्ति"
+
+#: src/SpectacleCore.cpp:325
+msgctxt "recording notification title"
+msgid "Spectacle is Recording"
+msgstr "तमाशा Recording अस्ति"
+
+#: src/SpectacleCore.cpp:354
+msgctxt "recording notification message without shortcut"
+msgid "To finish the recording, click the pulsing red System Tray icon."
+msgstr ""
+
+#: src/SpectacleCore.cpp:356
+msgctxt "recording notification message with shortcut"
+msgid ""
+"To finish the recording, click the pulsing red System Tray icon or press "
+"<shortcut>%1</shortcut>."
+msgstr ""
+
+#: src/SpectacleCore.cpp:373
+msgctxt "missing webp support notification title"
+msgid "WebP support is missing."
+msgstr "WebP समर्थनम् अभावितम् अस्ति।"
+
+#: src/SpectacleCore.cpp:375
+msgctxt "missing webp support notification message"
+msgid ""
+"Please install Qt Image Formats to get animated system tray icons for "
+"Spectacle, and then report this packaging issue to your distributor."
+msgstr ""
+"कृपया Spectacle कृते एनिमेटेड् सिस्टम् ट्रे चिह्नानि प्राप्तुं Qt Image Formats संस्थापयन्तु, "
+"ततः एतत् पैकेजिंग् समस्यां स्ववितरकं प्रति सूचयन्तु ।"
+
+#: src/SpectacleCore.cpp:412
+#, fuzzy
+msgctxt "recording notification title"
+msgid "Spectacle is Finishing the Recording"
+msgstr "तमाशा Recording अस्ति"
+
+#: src/SpectacleCore.cpp:413
+msgctxt "recording notification message"
+msgid "Please wait"
+msgstr ""
+
+#: src/SpectacleCore.cpp:415
+#, fuzzy
+msgctxt "@info:tooltip title for rendering tray icon"
+msgid "Spectacle is Finishing the Recording"
+msgstr "तमाशा Recording अस्ति"
+
+#: src/SpectacleCore.cpp:417
+#, fuzzy
+msgctxt "@info:tooltip subtitle for rendering tray icon"
+msgid ""
+"Time recorded: %1\n"
+"Click to stop rendering early (this will lose data)"
+msgstr ""
+"अभिलेखितः समयः : %1\n"
+"रिकार्डिङ्ग् समाप्तुं क्लिक् कुर्वन्तु"
+
+#: src/SpectacleCore.cpp:442
+msgctxt "@info:tooltip subtitle for recording tray icon"
+msgid ""
+"Time recorded: %1\n"
+"Click to finish recording"
+msgstr ""
+"अभिलेखितः समयः : %1\n"
+"रिकार्डिङ्ग् समाप्तुं क्लिक् कुर्वन्तु"
+
+#: src/SpectacleCore.cpp:473
+msgctxt "@info"
+msgid "An error occurred while attempting to record the screen."
+msgstr "पटलस्य अभिलेखनार्थं प्रयतमाने त्रुटिः अभवत् ।"
+
+#: src/SpectacleCore.cpp:525
+#, fuzzy
+msgctxt "@info"
+msgid ""
+"The screenshot was copied to the clipboard and saved as <link url=\"%1\">%2</"
+"link>"
+msgstr "स्क्रीनशॉट् क्लिप्बोर्ड् मध्ये प्रतिलिपितः <a href=\"%1\">%2</a> इति रूपेण रक्षितः"
+
+#: src/SpectacleCore.cpp:529
+#, fuzzy
+msgctxt "@info"
+msgid ""
+"The screenshot has been saved as <link url=\"%1\">%2</link> and its location "
+"has been copied to clipboard"
+msgstr ""
+"स्क्रीनशॉट् <a href=\"%1\">%2</a> इति रक्षितः अस्ति तस्य स्थानं च क्लिप्बोर्ड् प्रति "
+"प्रतिलिखितम् अस्ति"
+
+#: src/SpectacleCore.cpp:534
+#, fuzzy
+msgctxt "@info"
+msgid "The screenshot was saved as <link url=\"%1\">%2</link>"
+msgstr "स्क्रीनशॉट् <a href=\"%1\">%2</a> इति रूपेण रक्षितम्"
+
+#: src/SpectacleCore.cpp:538
+#, fuzzy
+msgctxt "@info"
+msgid "The screenshot has been copied to the clipboard."
+msgstr "स्क्रीनशॉट् क्लिप्बोर्ड् मध्ये प्रतिलिपितः अस्ति ।"
+
+#: src/SpectacleCore.cpp:570
+#, fuzzy
+msgctxt "@info"
+msgid ""
+"The video has been saved as <link url=\"%1\">%2</link> and its location has "
+"been copied to clipboard"
+msgstr ""
+"विडियो <a href=\"%1\">%2</a> इति रक्षितः अस्ति तस्य स्थानं च क्लिप्बोर्ड् प्रति "
+"प्रतिलिखितम् अस्ति"
+
+#: src/SpectacleCore.cpp:575
+#, fuzzy
+msgctxt "@info"
+msgid "The video was saved as <link url=\"%1\">%2</link>"
+msgstr "विडियो <a href=\"%1\">%2</a> इति रूपेण रक्षितः आसीत्"
+
+#: src/SpectacleCore.cpp:579
+msgctxt "@info"
+msgid "The video location has been copied to the clipboard."
+msgstr "विडियो स्थानं क्लिप्बोर्ड् प्रति प्रतिलिखितम् अस्ति।"
+
+#: src/SpectacleCore.cpp:599
+#, fuzzy
+msgctxt "@info"
+msgid "Code found: %1"
+msgstr "QR कोडः प्राप्तः: %1"
+
+#: src/SpectacleCore.cpp:603
+#, fuzzy
+msgctxt "@info"
+msgid "Found QR code with binary content."
+msgstr "द्विचक्रीयसामग्रीयुक्तः QR कोडः प्राप्तः।"
+
+#: src/SpectacleCore.cpp:611
+msgctxt "@info"
+msgid "Text extraction failed"
+msgstr ""
+
+#: src/SpectacleCore.cpp:616
+msgctxt "@info"
+msgid "No text found in the image"
+msgstr ""
+
+#: src/SpectacleCore.cpp:620
+msgctxt "@info"
+msgid "Text extraction completed"
+msgstr ""
+
+#: src/SpectacleCore.cpp:628
+msgctxt "@info:notification title"
+msgid "Text Extracted"
+msgstr ""
+
+#: src/SpectacleCore.cpp:648
+msgctxt "@info The variables are language names, e.g. 'English and German'"
+msgid "%1 and %2"
+msgstr ""
+
+#: src/SpectacleCore.cpp:653
+#, fuzzy
+msgctxt "@info:notification"
+msgid "Text copied to clipboard.<nl/>Languages used: %1"
+msgstr "चित्रं क्लिप्बोर्ड् प्रति प्रतिलिख्यताम्"
+
+#: src/SpectacleCore.cpp:658
+msgctxt "@action:button"
+msgid "Open in Text Editor"
+msgstr ""
+
+#: src/SpectacleCore.cpp:808
+msgctxt "@info"
+msgid "Please select a region before extracting text"
+msgstr ""
+
+#: src/SpectacleCore.cpp:830
+#, fuzzy
+msgctxt "@info"
+msgid "OCR is not available."
+msgstr "KWin Screencasting इति उपलब्धं नास्ति ।"
+
+#: src/SpectacleCore.cpp:836
+#, fuzzy
+msgctxt "@info"
+msgid "No screenshot available."
+msgstr "KWin Screencasting इति उपलब्धं नास्ति ।"
+
+#: src/SpectacleCore.cpp:840
+msgctxt "@info"
+msgid "Extracting text from image..."
+msgstr ""
+
+#: src/SpectacleCore.cpp:973
+msgctxt "@info:shell"
+msgid "Ignoring activation: a recording is already in progress"
+msgstr ""
+
+#: src/SpectacleCore.cpp:1181
+msgctxt "@info:shell"
+msgid ""
+"--scaled is only allowed together with -f/--fullscreen and will be ignored"
+msgstr ""
+
+#: src/SpectacleCore.cpp:1196
+msgctxt "@info:shell"
+msgid "%1 is not a valid mode for --record"
+msgstr "%1 --record कृते वैधविधिः नास्ति"
+
+#: src/SpectacleCore.cpp:1462
+#, fuzzy
+msgctxt "%1 is the filename, %2 the path to the save location"
+msgid ""
+"A screenshot was saved as '%1' to '%2' and the file path of the screenshot "
+"has been saved to your clipboard."
+msgstr ""
+"एकः स्क्रीनशॉट् '%1' तः '%2' पर्यन्तं रक्षितः आसीत् तथा च स्क्रीनशॉट् इत्यस्य सञ्चिकामार्गः "
+"भवतः क्लिप्बोर्ड् मध्ये रक्षितः अस्ति ।"
+
+#: src/SpectacleCore.cpp:1466
+#, fuzzy
+msgctxt "%1 is the filename"
+msgid "A screenshot was saved as '%1' to your Pictures folder."
+msgstr "भवतः चित्रपुटे '%1' इति रूपेण स्क्रीनशॉट् रक्षितम् ।"
+
+#: src/SpectacleCore.cpp:1469
+#, fuzzy
+msgctxt "%1 is the filename, %2 the path to the save location"
+msgid "A screenshot was saved as '%1' to '%2'."
+msgstr "एकं स्क्रीनशॉट् '%1' तः '%2' पर्यन्तं रक्षितम् आसीत् ।"
+
+#: src/SpectacleCore.cpp:1472
+msgid "A screenshot was saved to your clipboard."
+msgstr "भवतः क्लिप्बोर्ड् मध्ये एकः स्क्रीनशॉट् रक्षितः आसीत् ।"
+
+#: src/SpectacleCore.cpp:1477
+#, fuzzy
+msgctxt "%1 is the filename, %2 the path to the save location"
+msgid ""
+"A recording was saved as '%1' to '%2' and the file path of the recording has "
+"been saved to your clipboard."
+msgstr ""
+"एकं रिकार्डिङ्ग् '%1' तः '%2' पर्यन्तं रक्षितम् आसीत् तथा च रिकार्डिङ्ग् इत्यस्य "
+"सञ्चिकामार्गः भवतः क्लिप्बोर्ड् मध्ये रक्षितः अस्ति ।"
+
+#: src/SpectacleCore.cpp:1481
+#, fuzzy
+msgctxt "%1 is the filename"
+msgid "A recording was saved as '%1' to your Videos folder."
+msgstr "एकं रिकार्डिङ्ग् भवतः Videos समुच्चय मध्ये '%1' इति रूपेण रक्षितम् आसीत् ।"
+
+#: src/SpectacleCore.cpp:1484
+#, fuzzy
+msgctxt "%1 is the filename, %2 the path to the save location"
+msgid "A recording was saved as '%1' to '%2'."
+msgstr "एकं अभिलेखनं '%1' तः '%2' पर्यन्तं रक्षितम् आसीत् ।"
+
+#: src/SpectacleCore.cpp:1496
+msgctxt "Open the screenshot we just saved"
+msgid "Open"
+msgstr "उद्घाटित"
+
+#: src/SpectacleCore.cpp:1508
+msgid "Annotate"
+msgstr "टिप्पणीं कुरुत"
+
+#: src/Gui/AcceptAction.qml:9
+msgctxt "@action accept selection"
+msgid "Accept"
+msgstr ""
+
+#: src/Gui/NewScreenshotToolButton.qml:15
+#: src/Gui/CaptureModeButtonsColumn.qml:32
+msgid "Cancel (%1 second)"
+msgid_plural "Cancel (%1 seconds)"
+msgstr[0] "रद्दं कुरुत (%1 सेकण्ड्)"
+msgstr[1] "रद्दं कुरुत (%1 सेकण्ड्)"
+
+#: src/Gui/NewScreenshotToolButton.qml:27
+msgid "New Screenshot"
+msgstr "नवीन स्क्रीनशॉट"
+
+#: src/Gui/OptionsMenuButton.qml:10
+#, fuzzy
+msgctxt "@action"
+msgid "Options"
+msgstr "विकल्पाः"
+
+#: src/Gui/CancelAction.qml:9
+#, fuzzy
+msgctxt "@action cancel selection"
+msgid "Cancel"
+msgstr "निरसयतु:"
+
+#: src/Gui/CopyImageAction.qml:13
+#, fuzzy
+msgctxt "@action"
+msgid "Copy"
+msgstr "प्रतिलिपि"
+
+#: src/Gui/RecordAction.qml:11
+#, fuzzy
+msgctxt "@action start recording"
+msgid "Record"
+msgstr "अभिलेखनम्"
+
+#: src/Gui/RecordOptions.qml:23
+msgid "Recording Settings"
+msgstr "रिकार्डिङ्ग सेटिंग्स्"
+
+#: src/Gui/RecordOptions.qml:37
+msgid "Finish recording"
+msgstr "रिकार्डिङ्गं समाप्तं कुर्वन्तु"
+
+#: src/Gui/CopyLocationAction.qml:9
+#, fuzzy
+msgctxt "@action"
+msgid "Copy Location"
+msgstr "प्रतिलिपि स्थानम्"
+
+#: src/Gui/EditAction.qml:11
+#, fuzzy
+msgctxt "@action edit screenshot"
+msgid "Edit…"
+msgstr "सम्पादन…"
+
+#: src/Gui/CaptureOptions.qml:17
+msgid "Take a new screenshot"
+msgstr "नूतनं स्क्रीनशॉट् गृह्यताम्"
+
+#: src/Gui/CaptureOptions.qml:39
+msgctxt "@title:group"
+msgid "Screenshot Settings"
+msgstr "स्क्रीनशॉट सेटिंग्स्"
+
+#: src/Gui/ExportMenu.cpp:44
+#, fuzzy
+msgctxt "@title:menu"
+msgid "Export"
+msgstr "निर्यात"
+
+#: src/Gui/ExportMenu.cpp:47
+msgid "Open Default Screenshots Folder"
+msgstr "पूर्वनिर्धारित स्क्रीनशॉट्स् समुच्चय उद्घाटयन्तु"
+
+#: src/Gui/ExportMenu.cpp:133
+#, fuzzy
+msgctxt "@action:button open screenshot in other application"
+msgid "Other Application…"
+msgstr "अन्य अनुप्रयोग..."
+
+#: src/Gui/ExportMenu.cpp:165
+msgid "Share"
+msgstr "संविभागः"
+
+#: src/Gui/ExportMenu.cpp:258
+msgctxt "@action:menu"
+msgid "Extract Text by Language"
+msgstr ""
+
+#: src/Gui/ExportMenu.cpp:294
+#, fuzzy
+msgid "OCR engine is not available."
+msgstr "KWin Screencasting इति उपलब्धं नास्ति ।"
+
+#: src/Gui/ExportMenu.cpp:302
+msgid "OCR is not available. Please install Tesseract OCR."
+msgstr ""
+
+#: src/Gui/ExportMenu.cpp:303
+msgid "OCR engine is initializing…"
+msgstr ""
+
+#: src/Gui/ExportMenu.cpp:313
+msgid "No OCR language data available."
+msgstr ""
+
+#: src/Gui/HelpMenuButton.qml:10
+#, fuzzy
+msgctxt "@action"
+msgid "Help"
+msgstr "साहाय्यम्‌"
+
+#: src/Gui/CaptureOverlay.qml:149
+msgctxt "@info basic crop tool explanation"
+msgid "Click and drag to make a selection."
+msgstr ""
+
+#: src/Gui/HelpMenu.cpp:40
+#, fuzzy
+msgctxt "@title:menu"
+msgid "Help"
+msgstr "साहाय्यम्‌"
+
+#: src/Gui/ShortcutsTextBox.qml:13
+msgid "Take Screenshot:"
+msgstr "स्क्रीनशॉट् गृह्यताम् :"
+
+#: src/Gui/ShortcutsTextBox.qml:15
+msgid "Create new selection rectangle:"
+msgstr "नूतनं चयन आयतं रचयन्तु :"
+
+#: src/Gui/ShortcutsTextBox.qml:20
+msgid "Move selection rectangle:"
+msgstr "चयन आयतं चालयन्तु :"
+
+#: src/Gui/ShortcutsTextBox.qml:23
+msgid "Resize selection rectangle:"
+msgstr "चयन आयतस्य आकारं परिवर्तयतु :"
+
+#: src/Gui/ShortcutsTextBox.qml:26
+msgid "Reset selection:"
+msgstr "चयनं पुनः सेट् कुर्वन्तु :"
+
+#: src/Gui/ShortcutsTextBox.qml:28
+msgid "Cancel:"
+msgstr "निरसयतु:"
+
+#: src/Gui/ShortcutsTextBox.qml:33
+msgctxt "Mouse action"
+msgid "Release left-click"
+msgstr "वाम-क्लिक् मुक्तं कुर्वन्तु"
+
+#: src/Gui/ShortcutsTextBox.qml:33
+msgctxt "Mouse action"
+msgid "Double-click"
+msgstr "द्विवारं क्लिक् कुर्वन्तु"
+
+#: src/Gui/ShortcutsTextBox.qml:34
+msgctxt "Keyboard action"
+msgid "Enter"
+msgstr "प्रवेश"
+
+#: src/Gui/ShortcutsTextBox.qml:35
+msgctxt "Mouse action"
+msgid "Drag outside selection rectangle"
+msgstr "चयन आयतं बहिः कर्षन्तु"
+
+#: src/Gui/ShortcutsTextBox.qml:37
+msgctxt "Keyboard action"
+msgid "+ Shift: Magnifier"
+msgstr "+ शिफ्टः आवर्धकः"
+
+#: src/Gui/ShortcutsTextBox.qml:40
+msgctxt "Mouse action"
+msgid "Drag inside selection rectangle"
+msgstr "चयन आयतस्य अन्तः कर्षन्तु"
+
+#: src/Gui/ShortcutsTextBox.qml:41
+msgctxt "Keyboard action"
+msgid "Arrow keys"
+msgstr "बाणकुंजी"
+
+#: src/Gui/ShortcutsTextBox.qml:42
+msgctxt "Keyboard action"
+msgid "+ Shift: Move in 1 pixel steps"
+msgstr "+ Shift: 1 पिक्सेल चरणेषु गच्छन्तु"
+
+#: src/Gui/ShortcutsTextBox.qml:43
+msgctxt "Mouse action"
+msgid "Drag handles"
+msgstr "हन्डलं कर्षयन्तु"
+
+#: src/Gui/ShortcutsTextBox.qml:44
+msgctxt "Keyboard action"
+msgid "Arrow keys + Alt"
+msgstr "बाणकुंजी + Alt"
+
+#: src/Gui/ShortcutsTextBox.qml:45
+msgctxt "Keyboard action"
+msgid "+ Shift: Resize in 1 pixel steps"
+msgstr "+ Shift: 1 पिक्सेल-चरणयोः आकारं परिवर्तयन्तु"
+
+#: src/Gui/ShortcutsTextBox.qml:46
+msgctxt "Mouse action"
+msgid "Right-click"
+msgstr "राइट्-क्लिक् कुर्वन्तु"
+
+#: src/Gui/ShortcutsTextBox.qml:48
+msgctxt "Keyboard action"
+msgid "Escape"
+msgstr "परिभ्रंशति"
+
+#: src/Gui/ScreenshotView.qml:196
+msgctxt "@info crop tool explanation"
+msgid ""
+"Click and drag to make a selection.\n"
+"Double click the selection to accept and crop.\n"
+"Right click to clear the selection."
+msgstr ""
+"चयनं कर्तुं क्लिक् कृत्वा कर्षयन्तु ।\n"
+"स्वीकृत्य क्रॉप् कर्तुं चयनं द्विवारं क्लिक् कुर्वन्तु ।\n"
+"चयनं स्वच्छं कर्तुं राइट् क्लिक् कुर्वन्तु ।"
+
+#: src/Gui/OptionsMenu.cpp:38
+#, fuzzy
+msgctxt "@title:menu"
+msgid "Screenshot Settings"
+msgstr "स्क्रीनशॉट सेटिंग्स्"
+
+#: src/Gui/OptionsMenu.cpp:40
+#, fuzzy
+msgctxt "@option:check for screenshots"
+msgid "Include mouse pointer"
+msgstr "मूषकसूचकं समावेशयन्तु"
+
+#: src/Gui/OptionsMenu.cpp:43
+#, fuzzy
+msgctxt "@info:tooltip"
+msgid "Show the mouse cursor in the screenshot image"
+msgstr "स्क्रीनशॉट् इमेज् मध्ये मूषकस्य कर्सरं दर्शयतु"
+
+#: src/Gui/OptionsMenu.cpp:44
+#, fuzzy
+msgctxt "@info:tooltip"
+msgid "niri does not composite the cursor into screenshots"
+msgstr "स्क्रीनशॉट् इमेज् मध्ये मूषकस्य कर्सरं दर्शयतु"
+
+#: src/Gui/OptionsMenu.cpp:52
+#, fuzzy
+msgctxt "@option:check"
+msgid "Include window titlebar and borders"
+msgstr "विण्डो शीर्षकपट्टिका, सीमाः च समाविष्टाः कुर्वन्तु"
+
+#: src/Gui/OptionsMenu.cpp:53
+#, fuzzy
+msgctxt "@info:tooltip"
+msgid ""
+"Show the window title bar, the minimize/maximize/close buttons, and the "
+"window border"
+msgstr "विण्डो शीर्षकपट्टिकां, न्यूनतमं/अधिकतमं/बन्दं बटनं, विण्डो सीमां च दर्शयतु"
+
+#: src/Gui/OptionsMenu.cpp:61
+#, fuzzy
+msgctxt "@option:check"
+msgid "Include window shadow"
+msgstr "विण्डो छाया समावेशयन्तु"
+
+#: src/Gui/OptionsMenu.cpp:62
+#, fuzzy
+msgctxt "@info:tooltip"
+msgid "Show the window shadow"
+msgstr "विण्डो छायां दर्शयतु"
+
+#: src/Gui/OptionsMenu.cpp:70
+#, fuzzy
+msgctxt "@option:check"
+msgid "Quit after manual Save or Copy"
+msgstr "मैनुअल् Save अथवा Copy इत्यस्य अनन्तरं त्यजन्तु"
+
+#: src/Gui/OptionsMenu.cpp:71
+#, fuzzy
+msgctxt "@info:tooltip"
+msgid "Quit Spectacle after manually saving or copying the image"
+msgstr "चित्रं मैन्युअल् रूपेण रक्षित्वा प्रतिलिपि कृत्वा वा Spectacle त्यजन्तु"
+
+#: src/Gui/OptionsMenu.cpp:83
+#, fuzzy
+msgctxt "@option:check"
+msgid "Capture On Click"
+msgstr "Capture On Click इति"
+
+#: src/Gui/OptionsMenu.cpp:98
+#, fuzzy
+msgctxt "@label:spinbox"
+msgid "Delay:"
+msgstr "विलम्बः:"
+
+#: src/Gui/OptionsMenu.cpp:103
+#, fuzzy
+msgctxt "@item 0 delay special value"
+msgid "No Delay"
+msgstr "न विलम्बः"
+
+#: src/Gui/OptionsMenu.cpp:122
+#, fuzzy
+msgctxt "@title:menu"
+msgid "Recording Settings"
+msgstr "रिकार्डिङ्ग सेटिंग्स्"
+
+#: src/Gui/OptionsMenu.cpp:124
+#, fuzzy
+msgctxt "@option:check for recordings"
+msgid "Include mouse pointer"
+msgstr "मूषकसूचकं समावेशयन्तु"
+
+#: src/Gui/OptionsMenu.cpp:125
+#, fuzzy
+msgctxt "@info:tooltip"
+msgid "Show the mouse cursor in the recording"
+msgstr "स्क्रीन रिकार्डिङ्ग् मध्ये मूषकस्य कर्सरं दर्शयतु ।"
+
+#: src/Gui/OptionsMenu.cpp:133
+msgctxt "@option:check for recordings"
+msgid "Record system audio"
+msgstr ""
+
+#: src/Gui/OptionsMenu.cpp:134
+msgctxt "@info:tooltip"
+msgid ""
+"Include the audio that is currently playing on the system in the recording"
+msgstr ""
+
+#: src/Gui/OptionsMenu.cpp:142
+#, fuzzy
+msgctxt "@option:check for recordings"
+msgid "Record microphone"
+msgstr "रिकार्ड स्क्रीन"
+
+#: src/Gui/OptionsMenu.cpp:143
+msgctxt "@info:tooltip"
+msgid "Include audio from the default microphone in the recording"
+msgstr ""
+
+#: src/Gui/RecordingModeMenu.cpp:17
+#, fuzzy
+msgctxt "@title:menu"
+msgid "Recording Modes"
+msgstr "अभिलेखनम्"
+
+#: src/Gui/RecordingSettingsColumn.qml:22
+#, fuzzy
+msgctxt "@option:check"
+msgid "Include mouse pointer"
+msgstr "मूषकसूचकं समावेशयन्तु"
+
+#: src/Gui/RecordingSettingsColumn.qml:23
+#, fuzzy
+msgctxt "@info:tooltip"
+msgid "Show the mouse cursor in the screen recording."
+msgstr "स्क्रीन रिकार्डिङ्ग् मध्ये मूषकस्य कर्सरं दर्शयतु ।"
+
+#: src/Gui/RecordingSettingsColumn.qml:32
+msgctxt "@option:check"
+msgid "Record system audio"
+msgstr ""
+
+#: src/Gui/RecordingSettingsColumn.qml:33
+msgctxt "@info:tooltip"
+msgid ""
+"Include the audio that is currently playing on the system in the recording."
+msgstr ""
+
+#: src/Gui/RecordingSettingsColumn.qml:45
+#, fuzzy
+msgctxt "@option:check"
+msgid "Record microphone"
+msgstr "रिकार्ड स्क्रीन"
+
+#: src/Gui/RecordingSettingsColumn.qml:46
+msgctxt "@info:tooltip"
+msgid "Include audio from the default microphone in the recording."
+msgstr ""
+
+#: src/Gui/RecordingSettingsColumn.qml:57
+msgctxt "@info"
+msgid "The selected video format does not support audio."
+msgstr ""
+
+#: src/Gui/RecordingView.qml:90
+#, fuzzy
+msgctxt "Recording in progress, %1 is the length of the recording so far"
+msgid ""
+"Recording:\n"
+"%1"
+msgstr ""
+"रिकार्डिङ्ग् : १.\n"
+"%1"
+
+#: src/Gui/RecordingView.qml:129
+msgid "Pause"
+msgstr "विराम"
+
+#: src/Gui/RecordingView.qml:129
+msgid "Play"
+msgstr "क्रीडतु"
+
+#: src/Gui/SaveAction.qml:13
+#, fuzzy
+msgctxt "@action"
+msgid "Save"
+msgstr "रक्ष्"
+
+#: src/Gui/ScreenshotModeMenu.cpp:17
+#, fuzzy
+msgctxt "@title:menu"
+msgid "Screenshot Modes"
+msgstr "स्क्रीनशॉट्"
+
+#: src/Gui/FontPopup.qml:54
+#, fuzzy
+msgid "Font"
+msgstr "फन्ट् :"
+
+#: src/Gui/FontPopup.qml:69
+msgid "Size"
+msgstr ""
+
+#: src/Gui/FontPopup.qml:82
+msgid "Bold"
+msgstr ""
+
+#: src/Gui/FontPopup.qml:86
+msgid "Italic"
+msgstr ""
+
+#: src/Gui/FontPopup.qml:94 src/Gui/ColorPopup.qml:292
+#, fuzzy
+msgid "Cancel"
+msgstr "निरसयतु:"
+
+#: src/Gui/FontPopup.qml:99 src/Gui/ColorPopup.qml:297
+msgid "Apply"
+msgstr ""
+
+#: src/Gui/SaveAsAction.qml:9
+#, fuzzy
+msgctxt "@action"
+msgid "Save As…"
+msgstr "Save As..."
+
+#: src/Gui/ScreenshotModeMenuButton.qml:11
+#, fuzzy
+msgctxt "@action select new screenshot mode"
+msgid "New Screenshot"
+msgstr "नवीन स्क्रीनशॉट"
+
+#: src/Gui/UndoRedoGroup.qml:31
+msgid "Undo"
+msgstr "पूर्ववत"
+
+#: src/Gui/UndoRedoGroup.qml:42
+msgid "Redo"
+msgstr "पुनः करो"
+
+#: src/Gui/DialogPage.qml:53
+#, fuzzy
+msgid "Configure NekoShot…"
+msgstr "चक्षुषी विन्यस्तं कुर्वन्तु..."
+
+#: src/Gui/DialogPage.qml:61
+msgid "Help"
+msgstr "साहाय्यम्‌"
+
+#: src/Gui/DialogPage.qml:80
+msgctxt "@title:group"
+msgid "Take a Screenshot:"
+msgstr "एकं स्क्रीनशॉट् गृह्यताम्:"
+
+#: src/Gui/DialogPage.qml:95 src/Gui/DialogPage.qml:136
+msgctxt "@title:group"
+msgid "Options"
+msgstr "विकल्पाः"
+
+#: src/Gui/DialogPage.qml:121
+msgctxt "@title:group"
+msgid "Make a Recording:"
+msgstr "रिकार्डिङ्गं कुर्वन्तु :"
+
+#: src/Gui/DialogPage.qml:162
+msgctxt "@title:tab"
+msgid "Screenshot"
+msgstr "स्क्रीनशॉट"
+
+#: src/Gui/DialogPage.qml:168
+msgctxt "@title:tab"
+msgid "Recording"
+msgstr "अभिलेखनम्"
+
+#: src/Gui/DialogPage.qml:171 src/Gui/RecordingModeMenuButton.qml:18
+msgctxt "@info:tooltip"
+msgid "This feature is not supported on the current platform"
+msgstr ""
+
+#: src/Gui/SmartSpinBox.cpp:30
+msgctxt "Integer number of seconds"
+msgid " second"
+msgid_plural " seconds"
+msgstr[0] " क्षण"
+msgstr[1] " सेकण्ड्"
+
+#: src/Gui/SmartSpinBox.cpp:32
+msgctxt "Decimal number of seconds"
+msgid " seconds"
+msgstr " सेकण्ड्"
+
+#: src/Gui/ExportMenuButton.qml:13
+#, fuzzy
+msgctxt "@action"
+msgid "Export"
+msgstr "निर्यात"
+
+#: src/Gui/ViewerWindow.cpp:53
+#, fuzzy
+msgctxt "@info, %1 is the error message"
+msgid "There was a problem sharing the image: %1"
+msgstr "चित्रस्य साझेदारीयां समस्या आसीत्: %1"
+
+#: src/Gui/CaptureSettingsColumn.qml:17
+msgid "Include mouse pointer"
+msgstr "मूषकसूचकं समावेशयन्तु"
+
+#: src/Gui/CaptureSettingsColumn.qml:20
+msgid "Show the mouse cursor in the screenshot image."
+msgstr "स्क्रीनशॉट् इमेज् मध्ये मूषकस्य कर्सरं दर्शयतु ।"
+
+#: src/Gui/CaptureSettingsColumn.qml:21
+#, fuzzy
+msgid "niri does not composite the cursor into screenshots."
+msgstr "स्क्रीनशॉट् इमेज् मध्ये मूषकस्य कर्सरं दर्शयतु ।"
+
+#: src/Gui/CaptureSettingsColumn.qml:30
+msgid "Include window titlebar and borders"
+msgstr "विण्डो शीर्षकपट्टिका, सीमाः च समाविष्टाः कुर्वन्तु"
+
+#: src/Gui/CaptureSettingsColumn.qml:31
+msgid ""
+"Show the window title bar and border when taking a screenshot of a window."
+msgstr "विण्डो इत्यस्य स्क्रीनशॉट् गृह्णन्ते सति विण्डो शीर्षकपट्टिकां सीमां च दर्शयन्तु ।"
+
+#: src/Gui/CaptureSettingsColumn.qml:40
+msgid "Include window shadow"
+msgstr "विण्डो छाया समावेशयन्तु"
+
+#: src/Gui/CaptureSettingsColumn.qml:41
+msgid "Show the window shadow when taking a screenshot of a window."
+msgstr "विण्डो इत्यस्य स्क्रीनशॉट् गृह्णन्ते सति विण्डो छाया दर्शयन्तु ।"
+
+#: src/Gui/CaptureSettingsColumn.qml:51
+msgid "Quit after manual Save or Copy"
+msgstr "मैनुअल् Save अथवा Copy इत्यस्य अनन्तरं त्यजन्तु"
+
+#: src/Gui/CaptureSettingsColumn.qml:52
+msgid "Quit Spectacle after manually saving or copying the image."
+msgstr "चित्रं मैन्युअल् रूपेण रक्षित्वा प्रतिलिपि कृत्वा वा Spectacle त्यजन्तु ।"
+
+#: src/Gui/CaptureSettingsColumn.qml:61
+msgid "Capture on click"
+msgstr "क्लिक् कृत्वा कैप्चर कुर्वन्तु"
+
+#: src/Gui/CaptureSettingsColumn.qml:63
+msgid "Wait for a mouse click before capturing the screenshot image."
+msgstr "स्क्रीनशॉट् इमेज् गृहीतुं पूर्वं मूषकस्य क्लिक् प्रतीक्ष्यताम् ।"
+
+#: src/Gui/CaptureSettingsColumn.qml:74
+msgid "Delay:"
+msgstr "विलम्बः:"
+
+#: src/Gui/DelaySpinBox.qml:15
+msgctxt "0 second delay"
+msgid "No Delay"
+msgstr "न विलम्बः"
+
+#: src/Gui/DelaySpinBox.qml:24
+msgctxt "Integer number of seconds"
+msgid "%2 second"
+msgid_plural "%2 seconds"
+msgstr[0] "%2 द्वितीयम्"
+msgstr[1] "%2 सेकण्ड्"
+
+#: src/Gui/DelaySpinBox.qml:26
+msgctxt "Decimal number of seconds"
+msgid "%1 seconds"
+msgstr "%1 सेकण्ड्"
+
+#: src/Gui/OcrAction.qml:15
+msgctxt "@action"
+msgid "Extract Text"
+msgstr ""
+
+#: src/Gui/RecordingModeMenuButton.qml:12
+#, fuzzy
+msgctxt "@action select new recording mode"
+msgid "New Recording"
+msgstr "अभिलेखनम्"
+
+#: src/Gui/SizeLabel.qml:13
+#, fuzzy
+msgctxt "Size, width×height"
+msgid "%1×%2"
+msgstr "%1×%2"
+
+#: src/Gui/ViewerPage.qml:228
+msgid "Zoom:"
+msgstr "जूम :"
+
+#: src/Gui/ViewerPage.qml:242
+msgid "Image Zoom"
+msgstr "इमेज ज़ूम"
+
+#: src/Gui/SpectacleWindow.cpp:170
+msgctxt "@title:window"
+msgid "%1 second"
+msgid_plural "%1 seconds"
+msgstr[0] "%1 द्वितीयम्"
+msgstr[1] "%1 सेकण्ड्"
+
+#: src/Gui/SpectacleWindow.cpp:173
+msgctxt "@title:window Unsaved Screenshot"
+msgid "Unsaved"
+msgstr "अरक्षितम्"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:88
+msgid "Stroke:"
+msgstr "प्रहार:"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:120
+#, c-format
+msgctxt "px: pixels"
+msgid "%1px"
+msgid_plural "%1px"
+msgstr[0] "%1px"
+msgstr[1] "%1px"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:125
+msgid "Stroke Width"
+msgstr "आघात चौड़ाई"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:158 src/Gui/ColorPopup.qml:44
+msgid "Stroke Color"
+msgstr "आघात रंग"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:192
+msgid "Fill:"
+msgstr "पूरण:"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:204 src/Gui/ColorPopup.qml:45
+msgid "Fill Color"
+msgstr "Fill Color इति"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:241
+msgctxt "@label:slider strength of effect"
+msgid "Strength:"
+msgstr "बलः:"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:260
+msgctxt "@info:tooltip"
+msgid "The strength of the effect."
+msgstr "प्रभावस्य बलम् ।"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:287
+msgid "Font:"
+msgstr "फन्ट् :"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:301
+msgctxt "%2 font family, %3 font style name, %1 font point size"
+msgid "%2 %3 %1pt"
+msgid_plural "%2 %3 %1pts"
+msgstr[0] "%2 %3 %1pt"
+msgstr[1] "%2 %3 %1pts"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:302
+msgctxt "%2 font family %1 font point size"
+msgid "%2 %1pt"
+msgid_plural "%2 %1pts"
+msgstr[0] "%2 %1pt"
+msgstr[1] "%2 %1pts"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:314
+msgid "Font Color"
+msgstr "फॉन्ट रङ्ग"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:351
+msgid "Number:"
+msgstr "संख्या:"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:370
+msgid "Number for number annotations"
+msgstr "संख्याटिप्पणीनां कृते संख्या"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:398
+msgid "Shadow"
+msgstr "छाया"
+
+#: src/Gui/AnnotationsToolBarContents.qml:109
+#, fuzzy
+msgctxt "@action:intoolbar no tool, to allow dragging"
+msgid "None"
+msgstr "न कश्चित्"
+
+#: src/Gui/AnnotationsToolBarContents.qml:121
+#, fuzzy
+msgctxt "@action:intoolbar crop image tool"
+msgid "Crop"
+msgstr "अन्नग्रह"
+
+#: src/Gui/AnnotationsToolBarContents.qml:128
+#, fuzzy
+msgctxt "@action:intoolbar select annotation tool"
+msgid "Select"
+msgstr "विचि"
+
+#: src/Gui/AnnotationsToolBarContents.qml:137
+#, fuzzy
+msgctxt "@action:intoolbar freehand line tool"
+msgid "Freehand"
+msgstr "मुक्तहस्त"
+
+#: src/Gui/AnnotationsToolBarContents.qml:138
+msgctxt "@info:tooltip"
+msgid "Shift: Snap to straight lines"
+msgstr ""
+
+#: src/Gui/AnnotationsToolBarContents.qml:145
+#, fuzzy
+msgctxt "@action:intoolbar highlighter line tool"
+msgid "Highlighter"
+msgstr "हाइलाइटर"
+
+#: src/Gui/AnnotationsToolBarContents.qml:154
+#, fuzzy
+msgctxt "@action:intoolbar straight line tool"
+msgid "Line"
+msgstr "पंक्ति"
+
+#: src/Gui/AnnotationsToolBarContents.qml:155
+msgctxt "@info:tooltip"
+msgid "Shift: Snap to 45 degree increments"
+msgstr ""
+
+#: src/Gui/AnnotationsToolBarContents.qml:162
+#, fuzzy
+msgctxt "@action:intoolbar arrow line tool"
+msgid "Arrow"
+msgstr "बाण"
+
+#: src/Gui/AnnotationsToolBarContents.qml:171
+#, fuzzy
+msgctxt "@action:intoolbar rectangle tool"
+msgid "Rectangle"
+msgstr "आयत"
+
+#: src/Gui/AnnotationsToolBarContents.qml:173
+msgctxt "@info:tooltip"
+msgid ""
+"Shift: Snap to diagonal movements\n"
+"Control: Resize from center"
+msgstr ""
+
+#: src/Gui/AnnotationsToolBarContents.qml:180
+#, fuzzy
+msgctxt "@action:intoolbar ellipse tool"
+msgid "Ellipse"
+msgstr "दीर्घवृत्तम्"
+
+#: src/Gui/AnnotationsToolBarContents.qml:188
+#, fuzzy
+msgctxt "@action:intoolbar pixelate tool"
+msgid "Pixelate"
+msgstr "पिक्सेलेट्"
+
+#: src/Gui/AnnotationsToolBarContents.qml:196
+#, fuzzy
+msgctxt "@action:intoolbar blur tool"
+msgid "Blur"
+msgstr "धुंधला"
+
+#: src/Gui/AnnotationsToolBarContents.qml:204
+#, fuzzy
+msgctxt "@action:intoolbar text tool"
+msgid "Text"
+msgstr "पाठ"
+
+#: src/Gui/AnnotationsToolBarContents.qml:211
+#, fuzzy
+msgctxt "@action:intoolbar number stamp tool"
+msgid "Number"
+msgstr "संख्या"
+
+#: src/Gui/InlineMessageList.qml:129
+#, fuzzy
+msgctxt "@action:button"
+msgid "Open Containing Folder"
+msgstr "Containing Folder उद्घाटयन्तु"
+
+#: src/Gui/InlineMessageList.qml:139
+#, fuzzy
+msgctxt "@action:button"
+msgid "Copy to Clipboard"
+msgstr "चित्रं क्लिप्बोर्ड् प्रति प्रतिलिख्यताम्"
+
+#: src/Gui/InlineMessageList.qml:149
+msgctxt "@action:button close inline notification"
+msgid "Close"
+msgstr ""
+
+#: src/Gui/ColorPopup.qml:46
+#, fuzzy
+msgid "Text Color"
+msgstr "फॉन्ट रङ्ग"
+
+#: src/Gui/ColorPopup.qml:47
+#, fuzzy
+msgid "Color"
+msgstr "Fill Color इति"
+
+#: src/Gui/ColorPopup.qml:241
+msgid "Alpha"
+msgstr ""
+
+#: src/Gui/ColorPopup.qml:264
+msgid "Hex"
+msgstr ""
+
+#: src/Platforms/VideoPlatformWayland.cpp:165
+msgctxt "@info"
+msgid "KWin Screencasting is not available."
+msgstr "KWin Screencasting इति उपलब्धं नास्ति ।"
+
+#: src/Platforms/VideoPlatformWayland.cpp:179
+msgctxt "@info:shell"
+msgid "Failed to record: File URL is not a local file"
+msgstr "अभिलेखनं कर्तुं असफलम्: सञ्चिकायाः URL स्थानीयसञ्चिका नास्ति"
+
+#: src/Platforms/VideoPlatformWayland.cpp:279
+msgctxt "@info"
+msgid ""
+"The stream closed because the target screen changed in a way that disrupted "
+"the recording."
+msgstr "लक्ष्यपर्दे परिवर्तनं कृत्वा रिकार्डिङ्ग् बाधितं भवति इति कारणेन धारा निमीलिता ।"
+
+#: src/Platforms/VideoPlatformWayland.cpp:283
+msgctxt "@info"
+msgid ""
+"The stream closed because the target window changed in a way that disrupted "
+"the recording."
+msgstr "लक्ष्यविण्डो परिवर्तनं कृत्वा रिकार्डिङ्ग् बाधितं भवति इति कारणेन धारा निमीलिता ।"
+
+#: src/Platforms/VideoPlatformWayland.cpp:287
+msgctxt "@info"
+msgid ""
+"The stream closed because a screen containing the target region changed in a "
+"way that disrupted the recording."
+msgstr ""
+"लक्ष्यप्रदेशयुक्तः पटलः एतादृशरीत्या परिवर्तितः यत् रिकार्डिङ्ग् बाधितं भवति इति कारणेन "
+"धारा निमीलिता ।"
+
+#: src/Platforms/VideoPlatformWayland.cpp:303
+#, fuzzy
+msgctxt "@info:shell, %1 is the temporary URL"
+msgid "Failed to record: Temporary file URL is not a local file (%1)"
+msgstr "अभिलेखनं कर्तुं असफलम्: अस्थायी सञ्चिका URL स्थानीयसञ्चिका नास्ति (%1)"
+
+#: src/Platforms/VideoPlatformWayland.cpp:314
+#, fuzzy
+msgctxt "@info:shell, %1 is the output file URL"
+msgid "Failed to record: Output file URL is not a local file (%1)"
+msgstr "अभिलेखनं कर्तुं असफलम्: निर्गमसञ्चिका URL स्थानीयसञ्चिका नास्ति (%1) ।"
+
+#: src/Platforms/VideoPlatformWayland.cpp:381
+#, fuzzy
+msgctxt "@info:shell, %1 is a directory path"
+msgid "Failed to record: Unable to create folder (%1)"
+msgstr "अभिलेखनं कर्तुं असफलम्: पुटं निर्मातुं असमर्थम् (%1)"
+
+#: src/Platforms/VideoPlatformWayland.cpp:409
+msgctxt "@info:shell"
+msgid "Screen recording canceled"
+msgstr "स्क्रीन रिकार्डिङ्ग् रद्दम्"
+
+#: src/Platforms/VideoPlatformWayland.cpp:411
+msgctxt "@info:shell"
+msgid "Window recording canceled"
+msgstr "विण्डो रिकार्डिङ्ग् रद्दम्"
+
+#: src/Platforms/VideoPlatformWayland.cpp:417
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to select screen: %1"
+msgstr "स्क्रीन चयनं कर्तुं असफलम्: %1"
+
+#: src/Platforms/VideoPlatformWayland.cpp:419
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to select window: %1"
+msgstr "विण्डो चिन्वितुं असफलम्: %1"
+
+#: src/Platforms/VideoPlatformWayland.cpp:447
+msgctxt "@info:shell"
+msgid "Failed to select screen: No screen contained the mouse cursor position"
+msgstr "स्क्रीन चयनं कर्तुं असफलम्: कस्यापि पटले मूषकस्य कर्सरस्थानं नासीत्"
+
+#: src/Platforms/VideoPlatformWayland.cpp:454
+msgctxt "@info:shell"
+msgid "Failed to select window: No window found"
+msgstr "विण्डो चयनं कर्तुं असफलम्: विण्डो न प्राप्तम्"
+
+#: src/Platforms/ImagePlatformKWin.cpp:73
+#, fuzzy
+msgctxt "@info, %1 is the width"
+msgid "Bad width for KWin screenshot: %1"
+msgstr "KWin स्क्रीनशॉट् कृते दुर्विस्तारः: %1"
+
+#: src/Platforms/ImagePlatformKWin.cpp:78
+#, fuzzy
+msgctxt "@info, %1 is the height"
+msgid "Bad height for KWin screenshot: %1"
+msgstr "KWin स्क्रीनशॉट् कृते दुर्गतिः: %1"
+
+#: src/Platforms/ImagePlatformKWin.cpp:89
+#, fuzzy
+msgctxt "@info, %1 is a file format like 'png', 'jpg'"
+msgid "Bad format for KWin screenshot: %1"
+msgstr "KWin स्क्रीनशॉट् कृते दुष्टस्वरूपम्: %1"
+
+#: src/Platforms/ImagePlatformKWin.cpp:107
+msgctxt "@info"
+msgid "Could not open file descriptor for reading KWin screenshot."
+msgstr "KWin स्क्रीनशॉट् पठितुं सञ्चिकावर्णकं उद्घाटयितुं न शक्तवान् ।"
+
+#: src/Platforms/ImagePlatformKWin.cpp:177
+#, fuzzy
+msgctxt "@info, %1 is an error code"
+msgid "pipe2() failed for KWin screenshot: %1"
+msgstr "pipe2() KWin स्क्रीनशॉट् कृते विफलम्: %1"
+
+#: src/Platforms/ImagePlatformKWin.cpp:233
+#, fuzzy
+msgctxt "@info, %1 is an error message"
+msgid ""
+"KWin screenshot request failed:\n"
+"%1"
+msgstr ""
+"KWin स्क्रीनशॉट् अनुरोधः विफलः अभवत्:\n"
+"%1"
+
+#: src/Platforms/ImagePlatformKWin.cpp:235
+msgctxt "@info"
+msgid ""
+"Potentially relevant information:\n"
+"%1"
+msgstr ""
+"सम्भाव्य प्रासंगिकसूचना : १.\n"
+"%1"
+
+#: src/Platforms/ImagePlatformKWin.cpp:243
+msgctxt "@info"
+msgid "Unsupported KWin screenshot type metadata: %1"
+msgstr "असमर्थितः KWin स्क्रीनशॉट् प्रकारः मेटाडाटा: %1"
+
+#: src/Platforms/ImagePlatformNiri.cpp:115
+#, fuzzy
+msgid "Failed to capture the window"
+msgstr "विण्डो चिन्वितुं असफलम्: %1"
+
+#: src/Platforms/ImagePlatformNiri.cpp:159
+#, fuzzy
+msgid "Unsupported capture mode"
+msgstr "अन्तिम-प्रयुक्तं कैप्चर मोड् उपयुज्यताम्"
+
+#: src/Platforms/ImagePlatformNiri.cpp:190
+msgid "No focused window"
+msgstr ""
+
+#: src/Platforms/ImagePlatformNiri.cpp:209
+msgid "No outputs found"
+msgstr ""
+
+#: src/Platforms/ImagePlatformNiri.cpp:215
+msgid "No focused output found"
+msgstr ""
+
+#: src/Platforms/ImagePlatformNiri.cpp:229
+#, fuzzy
+msgid "Failed to capture the screen"
+msgstr "स्क्रीन चयनं कर्तुं असफलम्: %1"
+
+#: src/Platforms/PlatformLoader.cpp:120
+msgid "wf-recorder is not installed"
+msgstr ""
+
+#: src/Platforms/PlatformLoader.cpp:127
+msgctxt "@info"
+msgid "Screen recording is not available on X11."
+msgstr "X11 इत्यत्र स्क्रीन रिकार्डिङ्ग् उपलब्धं नास्ति ।"
+
+#: src/Platforms/VideoPlatformNiri.cpp:197
+msgid "gst-launch-1.0 is not installed"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:200
+msgid "gst-inspect-1.0 is not installed"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:218
+msgid "missing GStreamer elements: %1"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:287
+msgid "missing GStreamer elements: mp4mux"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:291
+msgid "missing GStreamer elements: vah264enc+h264parse or x264enc"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:297
+msgid "H.265/HEVC requires vah265enc, h265parse and mp4mux"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:302
+msgid "AV1 requires vaav1enc, av1parse and mp4mux"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:306
+msgid "the video format is not supported"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:356
+msgid "missing GStreamer audio elements: %1"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:432
+#, fuzzy
+msgid "the D-Bus session bus is not available"
+msgstr "KWin Screencasting इति उपलब्धं नास्ति ।"
+
+#: src/Platforms/VideoPlatformNiri.cpp:500
+#: src/Platforms/VideoPlatformNiri.cpp:1241
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to record: could not start the window picker: %1"
+msgstr "अभिलेखनं कर्तुं असफलम्: पुटं निर्मातुं असमर्थम् (%1)"
+
+#: src/Platforms/VideoPlatformNiri.cpp:518
+msgctxt "@info:shell, %1 is a process exit code"
+msgid "gst-launch-1.0 exited with code %1."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:520
+msgctxt "@info:shell, %1 is a process exit code"
+msgid "wf-recorder exited with code %1."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:917
+msgctxt "@info:shell"
+msgid "Recording canceled: no recording mode"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:921
+msgctxt "@info:shell"
+msgid "Failed to record: unsupported recording mode."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:925
+#: src/Platforms/VideoPlatformNiri.cpp:929
+#: src/Platforms/VideoPlatformNiri.cpp:1322
+#, fuzzy
+msgid "A recording is already starting"
+msgstr "रिकार्डिङ्ग सेटिंग्स्"
+
+#: src/Platforms/VideoPlatformNiri.cpp:936
+#: src/Platforms/VideoPlatformNiri.cpp:1083
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to record: window recording is unavailable: %1."
+msgstr "X11 इत्यत्र स्क्रीन रिकार्डिङ्ग् उपलब्धं नास्ति ।"
+
+#: src/Platforms/VideoPlatformNiri.cpp:946
+#, fuzzy
+msgctxt "@info:shell"
+msgid "Failed to record: the output file URL is not a local file."
+msgstr "अभिलेखनं कर्तुं असफलम्: निर्गमसञ्चिका URL स्थानीयसञ्चिका नास्ति (%1) ।"
+
+#: src/Platforms/VideoPlatformNiri.cpp:962
+msgctxt "@info:shell, %1 is a file path"
+msgid "Failed to record: the video format of %1 is not supported."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:964
+msgctxt "@info:shell"
+msgid "Failed to record: the selected video format is not supported."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:971
+#, fuzzy
+msgid "Recording format changed"
+msgstr "रिकार्डिङ्ग सेटिंग्स्"
+
+#: src/Platforms/VideoPlatformNiri.cpp:973
+#, fuzzy
+msgid "WebM/VP9"
+msgstr "WebM/VP9"
+
+#: src/Platforms/VideoPlatformNiri.cpp:974
+#, fuzzy
+msgid "MP4/H.265"
+msgstr "MP4/H.264"
+
+#: src/Platforms/VideoPlatformNiri.cpp:975
+msgid "MP4/AV1"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:976
+#, fuzzy
+msgid "MP4/H.264"
+msgstr "MP4/H.264"
+
+#: src/Platforms/VideoPlatformNiri.cpp:972
+msgid ""
+"The selected format is not available for window recording; using %1 instead."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:992
+#, fuzzy
+msgctxt "@info:shell"
+msgid "Failed to record: unable to create a temporary output file."
+msgstr "अभिलेखनं कर्तुं असफलम्: पुटं निर्मातुं असमर्थम् (%1)"
+
+#: src/Platforms/VideoPlatformNiri.cpp:998
+#, fuzzy
+msgctxt "@info:shell, %1 is a directory path"
+msgid "Failed to record: unable to create folder (%1)."
+msgstr "अभिलेखनं कर्तुं असफलम्: पुटं निर्मातुं असमर्थम् (%1)"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1057
+#: src/Platforms/VideoPlatformNiri.cpp:1101
+#, fuzzy
+msgctxt "@info:shell"
+msgid "Failed to record: niri did not report a focused output."
+msgstr "अभिलेखनं कर्तुं असफलम्: सञ्चिकायाः URL स्थानीयसञ्चिका नास्ति"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1059
+#: src/Platforms/VideoPlatformNiri.cpp:1103
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to record: %1"
+msgstr "स्क्रीन चयनं कर्तुं असफलम्: %1"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1066
+#: src/Platforms/VideoPlatformNiri.cpp:1361
+#, fuzzy
+msgid "Failed to record: the screen connector is empty."
+msgstr "अभिलेखनं कर्तुं असफलम्: पुटं निर्मातुं असमर्थम् (%1)"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1113
+msgctxt "@info:shell"
+msgid "Failed to record: the recording region is empty."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1136
+msgid ""
+"Failed to record: wf-recorder does not support the selected video format."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1141
+msgid ""
+"Failed to record: HEVC region recording requires the libx265 encoder in wf-"
+"recorder."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1145
+msgid ""
+"Failed to record: AV1 region recording requires the libaom-av1 encoder in wf-"
+"recorder."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1149
+msgid ""
+"Failed to record: H.264 region recording requires the libx264 encoder in wf-"
+"recorder."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1153
+msgid ""
+"Failed to record: VP9 region recording requires the libvpx-vp9 encoder in wf-"
+"recorder."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1162
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to start wf-recorder: %1"
+msgstr "स्क्रीन चयनं कर्तुं असफलम्: %1"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1183
+#: src/Platforms/VideoPlatformNiri.cpp:1284
+msgid "Recording canceled: no window selected."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1191
+msgid "Recording canceled: the screencast stream did not start."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1247
+msgid "Recording canceled: no window was selected."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1271
+msgctxt "@info:shell, %1 is a process exit code"
+msgid "The window picker exited with code %1."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1327
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to record: screencast recording is unavailable: %1."
+msgstr "X11 इत्यत्र स्क्रीन रिकार्डिङ्ग् उपलब्धं नास्ति ।"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1331
+msgid ""
+"Failed to record: this video format is not supported for screencast "
+"recording."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1336
+#: src/Platforms/VideoPlatformNiri.cpp:1341
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to record: %1."
+msgstr "स्क्रीन चयनं कर्तुं असफलम्: %1"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1353
+msgid "No window selected to record"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1367
+msgid ""
+"Failed to record: screencast recording only supports screen, window and "
+"region modes."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1384
+#: src/Platforms/VideoPlatformNiri.cpp:1396
+#: src/Platforms/VideoPlatformNiri.cpp:1420
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to start screencast recording: %1"
+msgstr "स्क्रीन चयनं कर्तुं असफलम्: %1"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1390
+msgid ""
+"Failed to start screencast recording: niri returned an empty screencast "
+"session."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1401
+msgid ""
+"Failed to start screencast recording: niri returned an empty screencast "
+"stream."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1410
+msgid ""
+"Failed to start screencast recording: could not subscribe to the screencast "
+"stream signal."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1414
+msgid ""
+"Failed to start screencast recording: could not subscribe to the screencast "
+"session signal."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1425
+msgid ""
+"Failed to start screencast recording: the niri screencast session was closed."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1440
+msgid "Timed out waiting for the PipeWire stream"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1474
+#: src/Platforms/VideoPlatformNiri.cpp:1500
+msgid ""
+"Failed to start screencast recording: the stream format is not supported."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1479
+#: src/Platforms/VideoPlatformNiri.cpp:1485
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to start screencast recording: %1."
+msgstr "स्क्रीन चयनं कर्तुं असफलम्: %1"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1517
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to start gst-launch-1.0: %1"
+msgstr "स्क्रीन चयनं कर्तुं असफलम्: %1"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1592
+msgid "Failed to record: the niri screencast session was closed."
+msgstr ""
+
+#: src/Gui/SettingsDialog/SaveOptionsUtils.h:40
+msgctxt "@info"
+msgid "<filename>%1</filename>"
+msgstr "<सञ्चिकानाम>%1</सञ्चिकानाम>"
+
+#: src/Gui/SettingsDialog/SaveOptionsUtils.h:72
+msgid ""
+"You can use the following placeholders in the filename, which will be "
+"replaced with actual text when the file is saved:"
+msgstr ""
+"भवान् सञ्चिकानाम्नि निम्नलिखितस्थानधारकाणां उपयोगं कर्तुं शक्नोति, यत् सञ्चिकायाः रक्षणसमये "
+"वास्तविकपाठेन प्रतिस्थापितं भविष्यति ।"
+
+#: src/Gui/SettingsDialog/SaveOptionsUtils.h:87
+msgid "To save to a sub-folder"
+msgstr "उपपुटे रक्षितुं"
+
+#: src/Gui/SettingsDialog/SaveOptionsUtils.h:90
+msgctxt "show fewer filename placeholder templates"
+msgid "Show Fewer"
+msgstr "न्यूनानि दर्शयतु"
+
+#: src/Gui/SettingsDialog/SaveOptionsUtils.h:92
+msgctxt "show more filename placeholder templates"
+msgid "Show More"
+msgstr "अधिकं दर्शयतु"
+
+#: src/Gui/SettingsDialog/VideoSaveOptionsPage.cpp:35
+msgid "Quality:"
+msgstr ""
+
+#: src/Gui/SettingsDialog/VideoSaveOptionsPage.cpp:37
+msgid "Low (smaller files)"
+msgstr ""
+
+#: src/Gui/SettingsDialog/VideoSaveOptionsPage.cpp:38
+msgid "Medium"
+msgstr ""
+
+#: src/Gui/SettingsDialog/VideoSaveOptionsPage.cpp:39
+msgid "High (larger files)"
+msgstr ""
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:37
+msgctxt "Settings category"
+msgid "General"
+msgstr "सामान्य"
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:38
+msgctxt "Settings category"
+msgid "Image Saving"
+msgstr "इमेज सेविंग्"
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:39
+msgctxt "Settings category"
+msgid "Video Saving"
+msgstr "विडियो सेविंग्"
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:40
+msgctxt "Settings category"
+msgid "Shortcuts"
+msgstr "शॉर्टकट"
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:104
+msgid "Shortcuts"
+msgstr "शॉर्टकट"
+
+#, kde-format
+#~ msgctxt "translatable folder name"
+#~ msgid "Screenshots"
+#~ msgstr "स्क्रीनशॉट्"
+
+#, kde-format
+#~ msgctxt "part of default image filename template"
+#~ msgid "Screenshot"
+#~ msgstr "स्क्रीनशॉट"
+
+#, kde-format
+#~ msgctxt "translatable folder name"
+#~ msgid "Screencasts"
+#~ msgstr "स्क्रीनकास्ट्"
+
+#, kde-format
+#~ msgctxt "part of default video filename template"
+#~ msgid "Screencast"
+#~ msgstr "पटकथा"
+
+#, kde-format
+#~ msgid "When launching Spectacle:"
+#~ msgstr "Spectacle इत्यस्य प्रारम्भकाले :"
+
+#, fuzzy, kde-format
+#~| msgid "Take a new screenshot"
+#~ msgid "Take rectangular screenshot"
+#~ msgstr "नूतनं स्क्रीनशॉट् गृह्यताम्"
+
+#, kde-format
+#~ msgid "Take full screen screenshot"
+#~ msgstr "पूर्णपर्दे स्क्रीनशॉट् गृह्यताम्"
+
+#, kde-format
+#~ msgid "Do not take a screenshot automatically"
+#~ msgstr "स्वयमेव स्क्रीनशॉट् न गृह्यताम्"
+
+#, kde-format
+#~ msgid "After taking a screenshot:"
+#~ msgstr "स्क्रीनशॉट् गृहीत्वा :"
+
+#, kde-format
+#~ msgid "Save file to default folder"
+#~ msgstr "सञ्चिकां पूर्वनिर्धारितपुटे रक्षन्तु"
+
+#, kde-format
+#~ msgid "Do not copy anything"
+#~ msgstr "किमपि प्रतिलिपिं न कुर्वन्तु"
+
+#, kde-format
+#~ msgid "Copy image to clipboard"
+#~ msgstr "चित्रं क्लिप्बोर्ड् प्रति प्रतिलिख्यताम्"
+
+#, kde-format
+#~ msgid "Copy file location to clipboard"
+#~ msgstr "सञ्चिकास्थानं क्लिप्बोर्ड् प्रति प्रतिलिख्यताम्"
+
+#, kde-format
+#~ msgid "While Spectacle is running"
+#~ msgstr "यदा स्पेक्टेकल् प्रचलति"
+
+#, kde-format
+#~ msgid "Press screenshot key to:"
+#~ msgstr "स्क्रीनशॉट् कीलं नुदन्तु यत्:"
+
+#, kde-format
+#~ msgid "Take a new Screenshot"
+#~ msgstr "नूतनं Screenshot गृह्यताम्"
+
+#, kde-format
+#~ msgid "Open a new Spectacle window"
+#~ msgstr "नूतनं Spectacle विण्डो उद्घाटयन्तु"
+
+#, kde-format
+#~ msgid "Return focus to Spectacle"
+#~ msgstr "चक्षुषी प्रति ध्यानं प्रत्यागच्छतु"
+
+#, kde-format
+#~ msgid "Rectangular Region Selection"
+#~ msgstr "आयताकार क्षेत्र चयन"
+
+#, kde-format
+#~ msgid "General:"
+#~ msgstr "सामान्य:"
+
+#, kde-format
+#~ msgid "Use light background"
+#~ msgstr "हल्के पृष्ठभूमिस्य उपयोगं कुर्वन्तु"
+
+#, kde-format
+#~ msgid "Accept on click-and-release"
+#~ msgstr "क्लिक्-एण्ड्-रिलीज् इत्यत्र स्वीकुर्वन्तु"
+
+#, kde-format
+#~ msgid "Show magnifier:"
+#~ msgstr "आवर्धकं दर्शयतु :"
+
+#, kde-format
+#~ msgid "Never"
+#~ msgstr "कदापि न"
+
+#, kde-format
+#~ msgid "Always"
+#~ msgstr "सर्वदा"
+
+#, kde-format
+#~ msgid "While holding Shift"
+#~ msgstr "Shift इति धारयन्"
+
+#, kde-format
+#~ msgid "Remember selected area:"
+#~ msgstr "चयनितं क्षेत्रं स्मर्यताम् :"
+
+#, kde-format
+#~ msgid "Until Spectacle is closed"
+#~ msgstr "यावत् Spectacle न बन्दं भवति"
+
+#, fuzzy, kde-format
+#~| msgid "Reset selection:"
+#~ msgid "Text extraction:"
+#~ msgstr "चयनं पुनः सेट् कुर्वन्तु :"
+
+#, fuzzy, kde-format
+#~| msgctxt "@info"
+#~| msgid "KWin Screencasting is not available."
+#~ msgid "OCR functionality is not available"
+#~ msgstr "KWin Screencasting इति उपलब्धं नास्ति ।"
+
+#, kde-format
+#~ msgid "Save Location:"
+#~ msgstr "स्थानं रक्षतु :"
+
+#, kde-format
+#~ msgid "Compression Quality:"
+#~ msgstr "संपीडन गुणवत्ता :"
+
+#, kde-format
+#~ msgid "For lossy image formats like JPEG"
+#~ msgstr "JPEG इत्यादीनां हानिकारकप्रतिबिम्बस्वरूपाणां कृते"
+
+#, no-c-format, kde-format
+#~ msgid "%"
+#~ msgstr "% "
+
+#, kde-format
+#~ msgid "Filename:"
+#~ msgstr "सञ्चिकानाम :"
+
+#, kde-format
+#~ msgctxt "Preview of the user configured filename"
+#~ msgid "Preview:"
+#~ msgstr "पूर्वावलोकनम् :"
+
+#, kde-format
+#~ msgid "What to do when Spectacle is launched"
+#~ msgstr "यदा Spectacle इत्यस्य प्रारम्भः भवति तदा किं कर्तव्यम्"
+
+#, kde-format
+#~ msgid ""
+#~ "What should happen if print key is pressed when Spectacle is already "
+#~ "running"
+#~ msgstr "यदा Spectacle पूर्वमेव चालितं भवति तदा print key नुदति चेत् किं भवेत्"
+
+#, kde-format
+#~ msgid "Save screenshot automatically after it is taken"
+#~ msgstr "स्क्रीनशॉट् गृहीतस्य अनन्तरं स्वयमेव रक्षन्तु"
+
+#, kde-format
+#~ msgid ""
+#~ "Clipboard action which should be executed after the screenshot is taken"
+#~ msgstr "क्लिप्बोर्ड क्रिया या स्क्रीनशॉट् गृहीतस्य अनन्तरं निष्पादनीया"
+
+#, kde-format
+#~ msgid "Whether to use a light color mask in the region selection dialog"
+#~ msgstr "क्षेत्रचयनसंवादे लघुवर्णमास्कस्य उपयोगः करणीयः वा इति"
+
+#, kde-format
+#~ msgid ""
+#~ "Whether the screenshot should be captured after selecting the region and "
+#~ "releasing the mouse"
+#~ msgstr "प्रदेशं चयनं कृत्वा मूषकं मुक्तं कृत्वा स्क्रीनशॉट् गृहीतव्यः वा इति"
+
+#, kde-format
+#~ msgid "Remember the last rectangular region"
+#~ msgstr "अन्तिमः आयताकारः प्रदेशः स्मर्यताम्"
+
+#, kde-format
+#~ msgid "The last used region the user selected"
+#~ msgstr "अन्तिमः प्रयुक्तः प्रदेशः उपयोक्त्रा चयनितः"
+
+#, kde-format
+#~ msgid "Take screenshot on click"
+#~ msgstr "क्लिक् कृत्वा स्क्रीनशॉट् गृह्यताम्"
+
+#, kde-format
+#~ msgid "Whether the mouse cursor is included in the screenshot"
+#~ msgstr "मूषकस्य कर्सरः स्क्रीनशॉट् मध्ये समाविष्टः अस्ति वा"
+
+#, kde-format
+#~ msgid "Whether the mouse cursor is included in the video"
+#~ msgstr "मूषकस्य कर्सरः विडियोमध्ये समाविष्टः अस्ति वा"
+
+#, fuzzy, kde-format
+#~| msgid "Whether the mouse cursor is included in the video"
+#~ msgid "Whether system audio is included in the recording"
+#~ msgstr "मूषकस्य कर्सरः विडियोमध्ये समाविष्टः अस्ति वा"
+
+#, fuzzy, kde-format
+#~| msgid "Whether the mouse cursor is included in the video"
+#~ msgid "Whether microphone audio is included in the recording"
+#~ msgstr "मूषकस्य कर्सरः विडियोमध्ये समाविष्टः अस्ति वा"
+
+#, kde-format
+#~ msgid "Whether the window decorations are included in the screenshot"
+#~ msgstr "स्क्रीनशॉट् मध्ये विण्डो अलङ्काराः समाविष्टाः सन्ति वा"
+
+#, kde-format
+#~ msgid "Whether the window shadow is included in the screenshot"
+#~ msgstr "स्क्रीनशॉट् मध्ये विण्डो छाया समाविष्टा अस्ति वा"
+
+#, kde-format
+#~ msgid "Quit after saving or copying an image"
+#~ msgstr "चित्रं रक्षित्वा प्रतिलिपि कृत्वा वा त्यजन्तु"
+
+#, kde-format
+#~ msgid "Delay"
+#~ msgstr "विलम्बः"
+
+#, kde-format
+#~ msgid "Default filename"
+#~ msgstr "पूर्वनिर्धारितं सञ्चिकानाम"
+
+#, kde-format
+#~ msgid "Compression quality for lossy file formats"
+#~ msgstr "हानियुक्तसञ्चिकास्वरूपेषु संपीडनगुणवत्ता"
+
+#, kde-format
+#~ msgid "Default save image format"
+#~ msgstr "पूर्वनिर्धारितं चित्रस्वरूपं रक्षन्तु"
+
+#, kde-format
+#~ msgid "The filename template used when saving screenshots"
+#~ msgstr "स्क्रीनशॉट् रक्षन्ते सति प्रयुक्तः सञ्चिकानाम टेम्पलेट्"
+
+#, kde-format
+#~ msgid "The path of the file saved last"
+#~ msgstr "अन्तिमे रक्षितस्य सञ्चिकायाः मार्गः"
+
+#, kde-format
+#~ msgid "Last path used for \"save as\" action"
+#~ msgstr "\"save as\" क्रियायाः कृते प्रयुक्तः अन्तिमः मार्गः"
+
+#, kde-format
+#~ msgid "Default video format"
+#~ msgstr "पूर्वनिर्धारितं विडियो प्रारूपम्"
+
+#, kde-format
+#~ msgid "The filename template used when saving screencasts"
+#~ msgstr "स्क्रीनकास्ट् रक्षन्ते सति प्रयुक्तः सञ्चिकानाम टेम्पलेट्"
+
+#, kde-format
+#~ msgid "Save &Location:"
+#~ msgstr "रक्षितुम् &स्थानम् :"
+
+#, kde-format
+#~ msgid "Spectacle"
+#~ msgstr "तमाशा"
+
+#, kde-format
+#~ msgid "KDE Screenshot Utility"
+#~ msgstr "KDE स्क्रीनशॉट उपयोगिता"
+
+#~ msgid ""
+#~ "Capture the window currently under the cursor, excluding parents of pop-"
+#~ "up menus"
+#~ msgstr "कर्सरस्य अधः वर्तमानं विण्डो गृह्यताम्, पॉप-अप-मेनू-मातापितरौ विहाय"
+
+#~ msgid "Capture the current pop-up only"
+#~ msgstr "केवलं वर्तमानं पॉप-अपं गृह्यताम्"
+
+#~ msgid ""
+#~ "Capture only the current pop-up window (like a menu, tooltip etc) when "
+#~ "taking a screenshot of a window. If disabled, the pop-up is captured "
+#~ "along with the parent window."
+#~ msgstr ""
+#~ "विण्डो इत्यस्य स्क्रीनशॉट् गृह्णन्ते सति केवलं वर्तमानं पॉप-अप विण्डो (यथा मेनू, टूलटिप् "
+#~ "इत्यादीनि) गृह्यताम् । यदि अक्षमम् अस्ति तर्हि मातापितृविण्डो इत्यनेन सह पॉप्-अपः गृह्यते "
+#~ "।"
+
+#, fuzzy
+#~| msgid "Capture the current pop-up only"
+#~ msgctxt "@option:check"
+#~ msgid "Capture the current pop-up only"
+#~ msgstr "केवलं वर्तमानं पॉप-अपं गृह्यताम्"
+
+#, fuzzy
+#~| msgid ""
+#~| "Capture only the current pop-up window (like a menu, tooltip etc).\n"
+#~| "If disabled, the pop-up is captured along with the parent window"
+#~ msgctxt "@info:tooltip"
+#~ msgid ""
+#~ "Capture only the current pop-up window (like a menu, tooltip etc).\n"
+#~ "If disabled, the pop-up is captured along with the parent window"
+#~ msgstr ""
+#~ "केवलं वर्तमानं पॉप-अप विण्डो (यथा मेनू, टूलटिप् इत्यादि) गृह्यताम् ।\n"
+#~ "यदि अक्षमम् अस्ति तर्हि मातापितृविण्डो इत्यनेन सह पॉप्-अपः गृह्यते"
+
+#~ msgid "Only capture the current pop up menu"
+#~ msgstr "केवलं वर्तमानं पॉप अप मेन्यू गृह्यताम्"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "The shared image link (<a href=\"%1\">%1</a>) has been copied to the "
+#~ "clipboard."
+#~ msgstr ""
+#~ "साझाप्रतिबिम्बलिङ्क् ( <a href=\"%1\">%1</a> ) क्लिप्बोर्ड् प्रति प्रतिलिपितः अस्ति ।"
+
+#, fuzzy
+#~| msgid "Open Containing Folder"
+#~ msgctxt "@action"
+#~ msgid "Open Containing Folder"
+#~ msgstr "Containing Folder उद्घाटयन्तु"
+
+#~ msgid "The last used annotation tool type"
+#~ msgstr "अन्तिमः प्रयुक्तः एनोटेशन टूल् प्रकारः"
+
+#~ msgid "Stroke width for freehand annotation tool"
+#~ msgstr "मुक्तहस्तटिप्पणीसाधनस्य कृते आघातविस्तारः"
+
+#~ msgid "Stroke width for highlighter annotation tool"
+#~ msgstr "हाइलाइटर एनोटेशन टूल् कृते स्ट्रोक् विड्थ्"
+
+#~ msgid "Stroke width for line annotation tool"
+#~ msgstr "रेखाटिप्पणीसाधनस्य कृते आघातविस्तारः"
+
+#~ msgid "Stroke width for arrow annotation tool"
+#~ msgstr "बाण-टिप्पणी-उपकरणस्य कृते आघात-विस्तारः"
+
+#~ msgid "Stroke width for rectangle annotation tool"
+#~ msgstr "आयत-टिप्पणी-उपकरणस्य कृते स्ट्रोक्-विस्तारः"
+
+#~ msgid "Stroke width for ellipse annotation tool"
+#~ msgstr "दीर्घवृत्ताभिलेखनसाधनस्य कृते आघातविस्तारः"
+
+#~ msgid "Stroke color for freehand annotation tool"
+#~ msgstr "मुक्तहस्त टिप्पणीसाधनस्य कृते आघातवर्णः"
+
+#~ msgid "Stroke color for highlighter annotation tool"
+#~ msgstr "हाइलाइटर एनोटेशन टूल् कृते स्ट्रोक् कलर"
+
+#~ msgid "Stroke color for line annotation tool"
+#~ msgstr "रेखाटिप्पणीसाधनस्य कृते स्ट्रोक् वर्णः"
+
+#~ msgid "Stroke color for arrow annotation tool"
+#~ msgstr "बाण-टिप्पणी-उपकरणस्य कृते स्ट्रोक्-वर्णः"
+
+#~ msgid "Stroke color for rectangle annotation tool"
+#~ msgstr "आयत-टिप्पणी-उपकरणस्य कृते स्ट्रोक्-वर्णः"
+
+#~ msgid "Stroke color for ellipse annotation tool"
+#~ msgstr "दीर्घवृत्ताभिलेखनसाधनस्य कृते आघातवर्णः"
+
+#~ msgid "Fill color for rectangle annotation tool"
+#~ msgstr "आयत-टिप्पणी-उपकरणस्य कृते वर्णं पूरयन्तु"
+
+#~ msgid "Fill color for ellipse annotation tool"
+#~ msgstr "दीर्घवृत्तटिप्पणीसाधनस्य कृते वर्णं पूरयन्तु"
+
+#~ msgid "Fill color for number annotation tool"
+#~ msgstr "संख्याटिप्पणीसाधनस्य कृते वर्णं पूरयन्तु"
+
+#~ msgid "The strength of the blur effect."
+#~ msgstr "धुन्धलप्रभावस्य बलम्।"
+
+#~ msgid "The strength of the pixelate effect."
+#~ msgstr "पिक्सेलेट् प्रभावस्य बलम् ।"
+
+#~ msgid "Font for text annotations"
+#~ msgstr "पाठटिप्पणीनां कृते फन्ट्"
+
+#~ msgid "Font for number annotations"
+#~ msgstr "संख्याटिप्पणीनां कृते फन्ट्"
+
+#~ msgid "Font color for annotations"
+#~ msgstr "एनोटेशन्स् कृते फन्ट् वर्णः"
+
+#~ msgid "Whether freehand annotation tool has a drop shadow"
+#~ msgstr "मुक्तहस्तटिप्पणीसाधनस्य बून्दछाया अस्ति वा"
+
+#~ msgid "Whether line annotation tool has a drop shadow"
+#~ msgstr "रेखाटिप्पणीसाधनस्य बून्दछाया अस्ति वा"
+
+#~ msgid "Whether arrow annotation tool has a drop shadow"
+#~ msgstr "बाण-टिप्पणी-उपकरणस्य बून्द-छाया अस्ति वा"
+
+#~ msgid "Whether rectangle annotation tool has a drop shadow"
+#~ msgstr "आयत-टिप्पणी-उपकरणस्य बून्द-छाया अस्ति वा"
+
+#~ msgid "Whether ellipse annotation tool has a drop shadow"
+#~ msgstr "दीर्घवृत्ताभिलेखनसाधनस्य बून्दछाया अस्ति वा"
+
+#~ msgid "Whether text annotation tool has a drop shadow"
+#~ msgstr "पाठटिप्पणीसाधनस्य बून्दछाया अस्ति वा"
+
+#~ msgid "Whether number annotation tool has a drop shadow"
+#~ msgstr "संख्याटिप्पणीसाधनस्य बून्दछाया अस्ति वा"
+
+#~ msgid "Show capture instructions"
+#~ msgstr "ग्रहणनिर्देशान् दर्शयतु"
+
+#~ msgid "Whether to show capture instructions in the region selection"
+#~ msgstr "क्षेत्रचयनं मध्ये कैप्चर निर्देशाः दर्शयितव्याः वा"
+
+#~ msgctxt "@action global shortcut"
+#~ msgid "Record Window"
+#~ msgstr "अभिलेख विण्डो"
+
+#~ msgctxt "@action global shortcut"
+#~ msgid "Record Rectangular Region"
+#~ msgstr "अभिलेख आयताकार क्षेत्र"
+
+#~ msgctxt "recording notification message"
+#~ msgid "Click the system tray icon to finish recording"
+#~ msgstr "रिकार्डिङ्ग् समाप्तुं सिस्टम् ट्रे चिह्नं नुदन्तु"
+
+#~ msgctxt "@info"
+#~ msgid "The screenshot location has been copied to the clipboard."
+#~ msgstr "स्क्रीनशॉट् स्थानं क्लिप्बोर्ड् प्रति प्रतिलिखितम् अस्ति ।"
+
+#~ msgctxt "@info"
+#~ msgid "Video shared"
+#~ msgstr "विडियो साझा"
+
+#~ msgctxt "@info"
+#~ msgid "Image shared"
+#~ msgstr "चित्रं साझां कृतम्"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "The shared video link (<a href=\"%1\">%1</a>) has been copied to the "
+#~ "clipboard."
+#~ msgstr ""
+#~ "साझां विडियो लिङ्क् ( <a href=\"%1\">%1</a> ) क्लिप्बोर्ड् प्रति प्रतिलिखितम् अस्ति ।"
+
+#~ msgctxt "@info"
+#~ msgid "There was a problem sharing the video: %1"
+#~ msgstr "विडियो साझाकरणे समस्या आसीत्: %1"
+
+#~ msgid "Screenshot"
+#~ msgstr "स्क्रीनशॉट"
+
+#~ msgid "Configure..."
+#~ msgstr "विन्यस्तं कुर्वन्तु..."
+
+#~ msgid "Capture Mode"
+#~ msgstr "कैप्चर मोड"
+
+#~ msgid "Capture Settings"
+#~ msgstr "सेटिंग्स् कैप्चर"

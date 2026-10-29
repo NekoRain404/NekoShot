@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="460" viewBox="0 0 1200 460" role="img" aria-label="NekoShot architecture">
+  <defs>
+    <linearGradient id="band" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#111a2c"/>
+      <stop offset="1" stop-color="#0c1322"/>
+    </linearGradient>
+    <marker id="down" viewBox="0 0 10 10" refX="5" refY="9" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,0 L5,10 z" fill="#22d3ee"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="460" rx="26" fill="#090d18"/>
+  <text x="48" y="58" font-family="Inter, 'Segoe UI', 'Noto Sans', sans-serif" font-size="30" font-weight="700" fill="#f8fafc">分层架构</text>
+  <text x="48" y="88" font-family="Inter, 'Segoe UI', 'Noto Sans', sans-serif" font-size="17" fill="#7c8aa5">平台差异收敛在 ImagePlatform / VideoPlatform，界面与流程沿用 Spectacle</text>
+
+  <g font-family="Inter, 'Segoe UI', 'Noto Sans', sans-serif">
+    <rect x="40" y="116" width="760" height="92" rx="16" fill="url(#band)" stroke="#273449"/>
+    <text x="64" y="148" font-size="14" fill="#8b5cf6" font-weight="700">QML UI</text>
+    <text x="64" y="178" font-size="16" fill="#cbd5e1">CaptureOverlay · SelectionEditor · AnnotationEditor · ViewerWindow · Settings</text>
+
+    <rect x="40" y="236" width="760" height="92" rx="16" fill="url(#band)" stroke="#273449"/>
+    <text x="64" y="268" font-size="14" fill="#a78bfa" font-weight="700">CORE</text>
+    <text x="64" y="298" font-size="16" fill="#cbd5e1">SpectacleCore · ExportManager · AnnotationDocument · tesseract OCR · D-Bus</text>
+
+    <rect x="40" y="356" width="760" height="76" rx="16" fill="url(#band)" stroke="#273449"/>
+    <text x="64" y="386" font-size="14" fill="#22d3ee" font-weight="700">PLATFORM</text>
+    <text x="64" y="412" font-size="16" fill="#cbd5e1">ImagePlatformNiri (grim + niri IPC) · VideoPlatformNiri (wf-recorder)</text>
+
+    <rect x="840" y="116" width="320" height="316" rx="16" fill="url(#band)" stroke="#273449"/>
+    <text x="864" y="148" font-size="14" fill="#22d3ee" font-weight="700">NIRI DESKTOP</text>
+    <text x="864" y="184" font-size="16" fill="#cbd5e1">niri binds → CLI / D-Bus</text>
+    <text x="864" y="216" font-size="16" fill="#cbd5e1">layer-shell 遮罩</text>
+    <text x="864" y="248" font-size="16" fill="#cbd5e1">StatusNotifier 托盘</text>
+    <text x="864" y="280" font-size="16" fill="#cbd5e1">KNotification → DMS</text>
+    <text x="864" y="312" font-size="16" fill="#cbd5e1">nekoshotrc 配置</text>
+    <text x="864" y="344" font-size="16" fill="#cbd5e1">KWin / X11 后端保留</text>
+    <text x="864" y="376" font-size="16" fill="#64748b">KDE 会话仍可用</text>
+  </g>
+
+  <g stroke="#22d3ee" stroke-opacity="0.6" stroke-width="2" marker-end="url(#down)">
+    <line x1="420" y1="208" x2="420" y2="232"/>
+    <line x1="420" y1="328" x2="420" y2="352"/>
+  </g>
+</svg>

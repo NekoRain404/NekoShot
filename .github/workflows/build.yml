@@ -1,0 +1,28 @@
+name: build
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  arch:
+    runs-on: ubuntu-latest
+    container: archlinux:base-devel
+    steps:
+      - name: Install build and runtime dependencies
+        run: |
+          pacman -Syu --noconfirm --needed git cmake ninja extra-cmake-modules \
+            qt6-base qt6-declarative qt6-multimedia qt6-wayland qt6-tools \
+            wayland plasma-wayland-protocols kcoreaddons kconfig ki18n \
+            kguiaddons kwindowsystem knotifications kdbusaddons kglobalaccel \
+            kxmlgui kio kpipewire kirigami kstatusnotifieritem prison kcrash \
+            layer-shell-qt kquickimageeditor tesseract grim wl-clipboard wf-recorder gstreamer \
+            gst-plugins-good gst-plugins-ugly gst-plugin-va libva-utils \
+            gst-libav gettext
+      - uses: actions/checkout@v4
+      - name: Configure
+        run: cmake -S . -B build -G Ninja -DCMAKE_BUILD_TYPE=Release -DWITH_X11=OFF
+      - name: Build
+        run: cmake --build build
+      - name: Test
+        run: ctest --test-dir build --output-on-failure

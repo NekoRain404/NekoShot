@@ -1,0 +1,33 @@
+pkgname=nekoshot
+pkgver=0.10.3
+pkgrel=1
+pkgdesc="Spectacle-based screenshot utility for niri"
+arch=(x86_64)
+url="https://github.com/NekoRain404/NekoShot"
+license=(GPL-2.0-or-later)
+depends=(grim wl-clipboard kquickimageeditor niri qt6-base qt6-declarative qt6-multimedia qt6-wayland kcoreaddons kconfig ki18n kguiaddons kwindowsystem knotifications kdbusaddons kglobalaccel kxmlgui kio kpipewire kirigami kstatusnotifieritem prison kcrash layer-shell-qt tesseract)
+makedepends=(cmake ninja extra-cmake-modules qt6-tools wayland plasma-wayland-protocols)
+optdepends=('wf-recorder: region/screen recording fallback' 'gstreamer: screen/window/region recording' 'gst-plugins-good: VP9/WebM, Opus and pulsesrc' 'gst-plugins-ugly: H.264 software fallback (x264enc)' 'gst-plugin-va: VA-API H.264/H.265/AV1 encoding' 'libva-utils: VA-API profile probing (vainfo)' 'gst-libav: MP4/AAC audio (avenc_aac)' 'qt6-imageformats: animated WebP tray icons' 'kimageformats: extra image formats' 'tesseract-data-eng: English OCR')
+conflicts=('spectacle')
+source=()
+sha256sums=()
+
+build() {
+  # Always configure into a clean tree: stale generated translations from a
+  # previous domain would otherwise be installed alongside the new ones.
+  rm -rf build
+  cmake -S "$startdir/.." -B build -G Ninja \
+    -DCMAKE_BUILD_TYPE=Release -DWITH_X11=OFF -DCMAKE_INSTALL_PREFIX=/usr
+  cmake --build build
+}
+
+check() {
+  ctest --test-dir build --output-on-failure
+}
+
+package() {
+  DESTDIR="$pkgdir" cmake --install build
+
+  install -Dm644 "$startdir/../LICENSES/GPL-2.0-or-later.txt" \
+    "$pkgdir/usr/share/licenses/$pkgname/GPL-2.0-or-later.txt"
+}

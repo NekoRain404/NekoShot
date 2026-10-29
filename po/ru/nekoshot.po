@@ -1,0 +1,3351 @@
+# translation of kscreengenie.po to Russian
+# translation of ksnapshot.po to Russian
+# KDE3 - kdegraphics/ksnapshot.po Russian translation.
+# Copyright (C) 2005, KDE Russian translation team.
+#
+# Translators listed below for year 2013 and earlier worked on translation of
+# KSnapshot.
+#
+# SPDX-FileCopyrightText: 2018-2026 Alexander Yavorsky <kekcuha@gmail.com>
+# Denis Pershin <dyp@perchine.com>, 1998, 1999.
+# Andrey Cherepanov <sibskull@mail.ru>, 2001-2005.
+# Nickolai Shaforostoff <shafff@ukr.net>, 2004.
+# Andrey Cherepanov <skull@kde.ru>, 2009.
+# Artem Sereda <overmind88@gmail.com>, 2009.
+# Nick Shaforostoff <shafff@ukr.net>, 2009.
+# Alexander Potashev <aspotashev@gmail.com>, 2010, 2011.
+# Yuri Efremov <yur.arh@gmail.com>, 2011.
+# Alexander Lakhin <exclusion@gmail.com>, 2013.
+# Alexander Potashev <aspotashev@gmail.com>, 2015, 2016, 2017, 2018.
+# Andrew <kissmeoutbeforeugo@gmail.com>, 2016.
+# SPDX-FileCopyrightText: 2022, 2025 Olesya Gerasimenko <translation-team@basealt.ru>
+# Alexander Yavorsky <kekcuha@gmail.com>, 2024.
+# SPDX-FileCopyrightText: 2026 Mariya Shikunova <maremarie@altlinux.org>
+msgid ""
+msgstr ""
+"Project-Id-Version: ksnapshot\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-29 15:50+0800\n"
+"PO-Revision-Date: 2026-09-06 19:40+0200\n"
+"Last-Translator: Alexander Yavorskiy <kekcuha@gmail.com>\n"
+"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 26.08.0\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : "
+"n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Environment: kde\n"
+"X-Accelerator-Marker: &\n"
+"X-Text-Markup: kde4\n"
+
+#: src/OcrManager.cpp:578
+msgctxt "@item:inlistbox"
+msgid "Orientation and Script Detection"
+msgstr "Определение ориентации и письменности"
+
+#: src/OcrManager.cpp:619
+msgid "Math/Equation Detection"
+msgstr "Определение формул"
+
+#: src/OcrManager.cpp:622
+msgid "Orientation and Script Detection"
+msgstr "Определение ориентации и письменности"
+
+#: src/ShortcutActions.cpp:38
+msgctxt "@action global shortcut"
+msgid "Launch Spectacle"
+msgstr "Запустить Spectacle"
+
+#: src/ShortcutActions.cpp:44
+msgctxt "@action global shortcut"
+msgid "Capture Entire Desktop"
+msgstr "Сделать снимок всего рабочего стола"
+
+# BUGME: term inconsistency: "monitor" vs "screen" --aspotashev
+#: src/ShortcutActions.cpp:50
+msgctxt "@action global shortcut"
+msgid "Capture Current Monitor"
+msgstr "Сделать снимок текущего экрана"
+
+#: src/ShortcutActions.cpp:56
+msgctxt "@action global shortcut"
+msgid "Capture Active Window"
+msgstr "Сделать снимок активного окна"
+
+#: src/ShortcutActions.cpp:62
+msgctxt "@action global shortcut"
+msgid "Capture Rectangular Region"
+msgstr "Сделать снимок прямоугольной области"
+
+#: src/ShortcutActions.cpp:69
+msgctxt "@action global shortcut"
+msgid "Capture Selected Window"
+msgstr "Сделать снимок выбранного окна"
+
+#: src/ShortcutActions.cpp:69
+msgctxt "@action global shortcut"
+msgid "Capture Window Under Cursor"
+msgstr "Сделать снимок окна под указателем мыши"
+
+#: src/ShortcutActions.cpp:76
+msgctxt "@action global shortcut"
+msgid "Start/Stop Screen Recording"
+msgstr "Запустить или остановить запись экрана"
+
+#: src/ShortcutActions.cpp:82
+msgctxt "@action global shortcut"
+msgid "Start/Stop Window Recording"
+msgstr "Запустить или остановить запись окна"
+
+#: src/ShortcutActions.cpp:88
+msgctxt "@action global shortcut"
+msgid "Start/Stop Region Recording"
+msgstr "Запустить или остановить запись области"
+
+#: src/ShortcutActions.cpp:94
+msgctxt "@action global shortcut"
+msgid "Launch Spectacle without capturing"
+msgstr "Запустить Spectacle без создания снимка"
+
+#: src/VideoFormatModel.cpp:31
+msgctxt "@item:inlistbox Container/encoder"
+msgid "WebM/VP9"
+msgstr "WebM/VP9"
+
+#: src/VideoFormatModel.cpp:38
+msgctxt "@item:inlistbox Container/encoder"
+msgid "MP4/H.264"
+msgstr "MP4/H.264"
+
+#: src/VideoFormatModel.cpp:45
+#, fuzzy
+msgctxt "@item:inlistbox Container/encoder"
+msgid "MP4/H.265"
+msgstr "MP4/H.264"
+
+#: src/VideoFormatModel.cpp:52
+msgctxt "@item:inlistbox Container/encoder"
+msgid "MP4/AV1"
+msgstr ""
+
+#: src/VideoFormatModel.cpp:59
+msgctxt "@item:inlistbox Container/encoder"
+msgid "Animated WebP (better than GIF)"
+msgstr "Анимированный WebP (лучше, чем GIF)"
+
+#: src/VideoFormatModel.cpp:66
+msgctxt "@item:inlistbox Container/encoder"
+msgid "GIF (compatible, but inefficient)"
+msgstr "GIF (совместимый, но неэффективный)"
+
+#: src/CaptureModeModel.cpp:167
+msgctxt "@action in capture mode section"
+msgid "Rectangular Region"
+msgstr "Прямоугольная область"
+
+#: src/CaptureModeModel.cpp:169
+msgctxt "@action in capture mode section"
+msgid "All Screens (Scaled to same size)"
+msgstr "Все экраны (одинаковый масштаб)"
+
+# BUGME: term inconsistency: "monitor" vs "screen" --aspotashev
+#: src/CaptureModeModel.cpp:171
+msgctxt "@action in capture mode section"
+msgid "Current Screen"
+msgstr "Текущий экран"
+
+#: src/CaptureModeModel.cpp:173
+msgctxt "@action in capture mode section"
+msgid "Active Window"
+msgstr "Активное окно"
+
+#: src/CaptureModeModel.cpp:176
+msgctxt "@action in capture mode section"
+msgid "Select Window"
+msgstr "Выбранное окно"
+
+#: src/CaptureModeModel.cpp:176
+msgctxt "@action in capture mode section"
+msgid "Window Under Cursor"
+msgstr "Окно под указателем мыши"
+
+#: src/CaptureModeModel.cpp:179
+msgctxt "@action in capture mode section"
+msgid "All Screens"
+msgstr "Все экраны"
+
+#: src/CaptureModeModel.cpp:181
+msgctxt "@action in capture mode section"
+msgid "Full Screen"
+msgstr "Весь экран"
+
+#: src/CommandLineOptions.h:22
+msgid "Capture the entire desktop (default)"
+msgstr "Сделать снимок всего рабочего стола (по умолчанию)."
+
+#: src/CommandLineOptions.h:25
+#, fuzzy
+msgid ""
+"When used with -f/--fullscreen, capture all screens scaled to the same size "
+"(niri: falls back to unscaled)"
+msgstr ""
+"При использовании с параметром -f/--fullscreen захватываются все экраны, "
+"масштабированные до одного размера."
+
+# BUGME: term inconsistency: "monitor" vs "screen" --aspotashev
+#: src/CommandLineOptions.h:28
+msgid "Capture the current monitor"
+msgstr "Сделать снимок текущего экрана."
+
+#: src/CommandLineOptions.h:32
+msgid "Capture the active window"
+msgstr "Сделать снимок активного окна."
+
+#: src/CommandLineOptions.h:35
+msgid ""
+"Capture the window currently under the cursor, including parents of pop-up "
+"menus"
+msgstr ""
+"Сделать снимок окна под указателем мыши, включая родительские окна "
+"всплывающих меню."
+
+#: src/CommandLineOptions.h:38
+msgid "Capture a rectangular region of the screen"
+msgstr "Сделать снимок прямоугольной области экрана."
+
+#: src/CommandLineOptions.h:42
+msgid ""
+"Record the screen using the given mode. Modes:\n"
+"- r, region\n"
+"- s, screen\n"
+"- w, window"
+msgstr ""
+"Выполнить запись экрана в заданном режиме. Возможные режимы:\n"
+"- r, область;\n"
+"- s, экран;\n"
+"- w, окно."
+
+#: src/CommandLineOptions.h:50
+msgid "Launch Spectacle without taking a screenshot"
+msgstr "Запустить Spectacle без создания снимка экрана"
+
+#: src/CommandLineOptions.h:54
+msgid "Start in GUI mode (default)"
+msgstr "Запустить в графическом режиме (по умолчанию)."
+
+#: src/CommandLineOptions.h:58
+msgid "Take a screenshot and exit without showing the GUI"
+msgstr ""
+"Фоновый режим: сделать снимок экрана и выйти, не показывая графический "
+"интерфейс."
+
+#: src/CommandLineOptions.h:62
+msgid "Start in DBus-Activation mode"
+msgstr "Запустить в режиме активации через D-Bus."
+
+#: src/CommandLineOptions.h:66
+msgid ""
+"In background mode, do not pop up a notification when the screenshot is taken"
+msgstr ""
+"В фоновом режиме не показывать всплывающее уведомление после создания снимка "
+"экрана."
+
+#: src/CommandLineOptions.h:70
+msgid "In background mode, save image to specified file"
+msgstr "В фоновом режиме сохранить изображение в указанный файл."
+
+#: src/CommandLineOptions.h:75
+msgid "In background mode, delay before taking the shot (in milliseconds)"
+msgstr "В фоновом режиме сделать задержку перед съёмкой (в миллисекундах)."
+
+#: src/CommandLineOptions.h:80
+msgid ""
+"In background mode, copy screenshot image to clipboard, unless -o is also "
+"used."
+msgstr ""
+"В фоновом режиме скопировать изображение в буфер обмена (только если не "
+"использован аргумент -o)."
+
+#: src/CommandLineOptions.h:84
+msgid "In background mode, copy screenshot file path to clipboard"
+msgstr "В фоновом режиме скопировать путь к файлу изображения в буфер обмена."
+
+#: src/CommandLineOptions.h:88
+msgid "Wait for a click before taking screenshot. Invalidates delay"
+msgstr ""
+"Ждать щелчка мышью, прежде чем сделать снимок экрана. Отменяет задержку."
+
+#: src/CommandLineOptions.h:90
+#, fuzzy
+msgid "Starts a new GUI instance of NekoShot without registering to DBus"
+msgstr ""
+"Запуск нового экземпляра приложения в графическом режиме без регистрации в "
+"DBus."
+
+#: src/CommandLineOptions.h:93
+msgid "In background mode, include pointer in the screenshot"
+msgstr "В фоновом режиме включать указатель мыши в снимок экрана."
+
+#: src/CommandLineOptions.h:97
+msgid "In background mode, exclude decorations in the screenshot"
+msgstr "В фоновом режиме не включать заголовок и границы окна в снимок."
+
+#: src/CommandLineOptions.h:99
+msgid "In background mode, exclude shadows in the screenshot"
+msgstr "В фоновом режиме не включать тень окна в снимок."
+
+#: src/CommandLineOptions.h:102
+msgid "Open and edit existing screenshot file"
+msgstr "Открыть и отредактировать существующий файл снимка экрана"
+
+#: src/CommandLineOptions.h:105
+msgid "Accept region selection on click-and-release"
+msgstr "Выделять область при отпускании кнопки мыши"
+
+#: src/CommandLineOptions.h:106
+msgid "Stay running and wait for D-Bus requests"
+msgstr ""
+
+#: src/CommandLineOptions.h:107
+#, fuzzy
+msgid "Stop the current recording"
+msgstr "Показывать положение указателя мыши в записи экрана"
+
+#: src/ExportManager.cpp:466
+msgctxt "%1 is an error message"
+msgid "QImageWriter cannot write image: %1"
+msgstr "Ошибка записи изображения с помощью QImageWriter: %1"
+
+#: src/ExportManager.cpp:482
+msgctxt "@info"
+msgid ""
+"Cannot save screenshot because creating the directory failed:<nl/"
+"><filename>%1</filename>"
+msgstr ""
+"Не удалось сохранить снимок экрана из-за ошибки создания папки:<nl/"
+"><filename>%1</filename>"
+
+#: src/ExportManager.cpp:491
+msgid "Cannot save screenshot. Error while opening file."
+msgstr "Не удалось сохранить снимок экрана. Ошибка при открытии файла."
+
+#: src/ExportManager.cpp:495
+msgid "Cannot save screenshot. Error while writing file."
+msgstr "Не удалось сохранить снимок экрана. Ошибка при записи файла."
+
+#: src/ExportManager.cpp:515
+msgctxt "@info"
+msgid ""
+"Cannot save screenshot because creating the remote directory failed:<nl/"
+"><filename>%1</filename>"
+msgstr ""
+"Не удалось сохранить снимок экрана из-за ошибки создания папки в сетевой "
+"файловой системе:<nl/><filename>%1</filename>"
+
+#: src/ExportManager.cpp:526 src/ExportManager.cpp:576
+msgid "Cannot save screenshot. Error while writing temporary local file."
+msgstr ""
+"Не удалось сохранить снимок экрана. Ошибка при записи временного файла."
+
+#: src/ExportManager.cpp:535
+msgid "Unable to save image. Could not upload file to remote location."
+msgstr ""
+"Ошибка при сохранении изображения. Не удалось загрузить файл на удалённый "
+"адрес."
+
+#: src/ExportManager.cpp:583
+msgid "Cannot save screenshot. The save filename is invalid."
+msgstr "Не удалось сохранить снимок экрана. Недопустимое имя файла."
+
+#: src/ExportManager.cpp:627
+msgid "Cannot save an empty screenshot image."
+msgstr "Невозможно сохранить пустой снимок экрана."
+
+#: src/ExportManager.cpp:814
+msgctxt "@info:shell"
+msgid ""
+"Failed to export video: Temporary file URL must be an existing local file"
+msgstr ""
+"Не удалось экспортировать видео: адресом временного файла должен быть "
+"существующий локальный файл"
+
+#: src/ExportManager.cpp:821
+msgctxt "@info:shell"
+msgid ""
+"Failed to export video: Output file URL must be a valid URL with a file name"
+msgstr ""
+"Не удалось экспортировать видео: файл вывода должен быть корректным URL-"
+"адресом и содержать имя файла"
+
+#: src/ExportManager.cpp:910
+msgctxt "@info, %1 is a file path"
+msgid "Unable to save recording. Could not move file to location: %1"
+msgstr ""
+"Ошибка при сохранении записи: не удалось переместить файл в расположение «%1»"
+
+#: src/ExportManager.cpp:938
+msgid "Printing failed. The printer failed to initialize."
+msgstr "Ошибка печати: не удалось инициализировать принтер."
+
+#: src/ExportManager.cpp:955
+msgctxt "filename placeholder description"
+msgid "Day (1–31)"
+msgstr "День (1–31)"
+
+#: src/ExportManager.cpp:956
+msgctxt "filename placeholder description"
+msgid "Day (01–31)"
+msgstr "День (01–31)"
+
+#: src/ExportManager.cpp:957
+msgctxt "filename placeholder description"
+msgid "Day (short name)"
+msgstr "День (краткое название)"
+
+#: src/ExportManager.cpp:958
+msgctxt "filename placeholder description"
+msgid "Day (long name)"
+msgstr "День (полное название)"
+
+#: src/ExportManager.cpp:959
+msgctxt "filename placeholder description"
+msgid "Month (1–12)"
+msgstr "Месяц (1–12)"
+
+#: src/ExportManager.cpp:960
+msgctxt "filename placeholder description"
+msgid "Month (01–12)"
+msgstr "Месяц (01–12)"
+
+#: src/ExportManager.cpp:961
+msgctxt "filename placeholder description"
+msgid "Month (short name)"
+msgstr "Месяц (краткое название)"
+
+#: src/ExportManager.cpp:962
+msgctxt "filename placeholder description"
+msgid "Month (long name)"
+msgstr "Месяц (полное название)"
+
+#: src/ExportManager.cpp:963
+msgctxt "filename placeholder description"
+msgid "Year (2 digit)"
+msgstr "Год (2 цифры)"
+
+#: src/ExportManager.cpp:964
+msgctxt "filename placeholder description"
+msgid "Year (4 digit)"
+msgstr "Год (4 цифры)"
+
+#: src/ExportManager.cpp:965
+msgctxt "filename placeholder description"
+msgid "Hour (0–23)"
+msgstr "Час (0–23)"
+
+#: src/ExportManager.cpp:966
+msgctxt "filename placeholder description"
+msgid "Hour (00–23)"
+msgstr "Час (00–23)"
+
+#: src/ExportManager.cpp:967
+msgctxt "filename placeholder description"
+msgid "Hour (1–12)"
+msgstr "Час (1–12)"
+
+#: src/ExportManager.cpp:968
+msgctxt "filename placeholder description"
+msgid "Hour (01–12)"
+msgstr "Час (01–12)"
+
+#: src/ExportManager.cpp:969
+msgctxt "filename placeholder description"
+msgid "Minute (0–59)"
+msgstr "Минута (0–59)"
+
+#: src/ExportManager.cpp:970
+msgctxt "filename placeholder description"
+msgid "Minute (00–59)"
+msgstr "Минута (00–59)"
+
+#: src/ExportManager.cpp:971
+msgctxt "filename placeholder description"
+msgid "Second (0–59)"
+msgstr "Секунда (0–59)"
+
+#: src/ExportManager.cpp:972
+msgctxt "filename placeholder description"
+msgid "Second (00–59)"
+msgstr "Секунда (00–59)"
+
+#: src/ExportManager.cpp:973
+msgctxt "filename placeholder description"
+msgid "Millisecond (0–999)"
+msgstr "Миллисекунда (0–999)"
+
+#: src/ExportManager.cpp:975
+msgctxt "filename placeholder description"
+msgid "Millisecond (000–999)"
+msgstr "Миллисекунда (000–999)"
+
+#: src/ExportManager.cpp:976
+msgctxt "filename placeholder description"
+msgid "AM/PM"
+msgstr "AM/PM"
+
+#: src/ExportManager.cpp:978
+msgctxt "filename placeholder description"
+msgid "am/pm"
+msgstr "am/pm"
+
+#: src/ExportManager.cpp:980
+msgctxt "filename placeholder description"
+msgid "AM/PM or am/pm (localized)"
+msgstr "AM/PM или am/pm (локализовано)"
+
+#: src/ExportManager.cpp:982
+msgctxt "filename placeholder description"
+msgid "Timezone (short name)"
+msgstr "Часовой пояс (краткое наименование)"
+
+#: src/ExportManager.cpp:983
+msgctxt "filename placeholder description"
+msgid "Timezone offset (±0000)"
+msgstr "Смещение часового пояса (±0000)"
+
+#: src/ExportManager.cpp:984
+msgctxt "filename placeholder description"
+msgid "Timezone offset (±00:00)"
+msgstr "Смещение часового пояса (±00:00)"
+
+#: src/ExportManager.cpp:985
+msgctxt "filename placeholder description"
+msgid "Timezone (long name)"
+msgstr "Часовой пояс (полное наименование)"
+
+#: src/ExportManager.cpp:986
+msgctxt "filename placeholder description"
+msgid "Seconds since the Unix epoch"
+msgstr "Количество секунд с наступления эпохи Unix"
+
+#: src/ExportManager.cpp:987
+msgctxt "filename placeholder description"
+msgid "Window Title"
+msgstr "Заголовок окна"
+
+#: src/ExportManager.cpp:988
+msgctxt "filename placeholder description"
+msgid "Sequential numbering, padded by inserting additional '#' characters"
+msgstr "Последовательная нумерация, дополненная символами «#»"
+
+#: src/Main.cpp:48 src/SpectacleCore.cpp:1408
+msgid "NekoShot"
+msgstr ""
+
+#: src/Main.cpp:50
+msgid "Screenshot utility for niri, based on Spectacle"
+msgstr ""
+
+#: src/Main.cpp:52
+#, fuzzy
+msgid "© 2015 Boudhayan Gupta and Spectacle contributors"
+msgstr "© Boudhayan Gupta, 2015"
+
+#: src/Main.cpp:60
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr ""
+"Денис Першин,Андрей Черепанов,Виктор Рыжих,Александр Поташев,Андрей "
+"Фомин,Дмитрий Астанков,Павел Чернышов"
+
+#: src/Main.cpp:60
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "dyp@perchine.com,skull@kde.ru,victorr2007@yandex.ru,aspotashev@gmail.com,kissmeoutbeforeugo@gmail.com,mornie@basealt.ru,farline99@yandex.ru"
+
+#: src/Main.cpp:78
+msgid ""
+"On Wayland, Spectacle requires KDE Plasma's KWin compositor, which does not "
+"seem to be available. Use Spectacle on KDE Plasma, or use a different "
+"screenshot tool."
+msgstr ""
+"В Wayland для работы Spectacle необходим компоновщик KWin из KDE Plasma, но "
+"он, по-видимому, недоступен. Используйте Spectacle в KDE Plasma или другое "
+"средство создания снимков экрана."
+
+#: src/Main.cpp:103 src/Platforms/ImagePlatformNiri.cpp:167
+msgid "grim is not installed"
+msgstr ""
+
+#: src/Main.cpp:119
+msgid "--daemon cannot be combined with --new-instance"
+msgstr ""
+
+#: src/RecordingModeModel.cpp:104
+msgctxt "@item recording mode"
+msgid "Rectangular Region"
+msgstr "Прямоугольная область"
+
+#: src/RecordingModeModel.cpp:106
+msgctxt "@item recording mode"
+msgid "Window"
+msgstr "Окно"
+
+#: src/RecordingModeModel.cpp:108
+msgctxt "@item recording mode"
+msgid "Full Screen"
+msgstr "Весь экран"
+
+#: src/SpectacleCore.cpp:288
+msgctxt "@info"
+msgid "An error occurred while taking a screenshot."
+msgstr "При создании снимка экрана произошла ошибка."
+
+#: src/SpectacleCore.cpp:318
+msgctxt "@info:tooltip title for recording tray icon"
+msgid "Spectacle is Recording with Sound"
+msgstr "Приложение Spectacle выполняет запись со звуком"
+
+#: src/SpectacleCore.cpp:319
+msgctxt "@info:tooltip title for recording tray icon"
+msgid "Spectacle is Recording"
+msgstr "Приложение Spectacle выполняет запись"
+
+#: src/SpectacleCore.cpp:324
+msgctxt "recording notification title"
+msgid "Spectacle is Recording with Sound"
+msgstr "Приложение Spectacle выполняет запись со звуком"
+
+#: src/SpectacleCore.cpp:325
+msgctxt "recording notification title"
+msgid "Spectacle is Recording"
+msgstr "Приложение Spectacle выполняет запись"
+
+#: src/SpectacleCore.cpp:354
+msgctxt "recording notification message without shortcut"
+msgid "To finish the recording, click the pulsing red System Tray icon."
+msgstr ""
+"Для остановки записи нажмите на пульсирующий красный значок в системном "
+"лотке."
+
+#: src/SpectacleCore.cpp:356
+msgctxt "recording notification message with shortcut"
+msgid ""
+"To finish the recording, click the pulsing red System Tray icon or press "
+"<shortcut>%1</shortcut>."
+msgstr ""
+"Для остановки записи нажмите на пульсирующий красный значок в системном "
+"лотке или нажмите <shortcut>%1</shortcut>."
+
+#: src/SpectacleCore.cpp:373
+msgctxt "missing webp support notification title"
+msgid "WebP support is missing."
+msgstr "Отсутствует поддержка WebP."
+
+#: src/SpectacleCore.cpp:375
+msgctxt "missing webp support notification message"
+msgid ""
+"Please install Qt Image Formats to get animated system tray icons for "
+"Spectacle, and then report this packaging issue to your distributor."
+msgstr ""
+"Чтобы в системном лотке появились анимированные значки для Spectacle, "
+"установите модуль Qt Image Formats, а затем сообщите о его нехватке в пакете "
+"разработчикам дистрибутива."
+
+#: src/SpectacleCore.cpp:412
+msgctxt "recording notification title"
+msgid "Spectacle is Finishing the Recording"
+msgstr "Приложение Spectacle завершает запись"
+
+#: src/SpectacleCore.cpp:413
+msgctxt "recording notification message"
+msgid "Please wait"
+msgstr "Подождите"
+
+#: src/SpectacleCore.cpp:415
+msgctxt "@info:tooltip title for rendering tray icon"
+msgid "Spectacle is Finishing the Recording"
+msgstr "Приложение Spectacle завершает запись"
+
+#: src/SpectacleCore.cpp:417
+msgctxt "@info:tooltip subtitle for rendering tray icon"
+msgid ""
+"Time recorded: %1\n"
+"Click to stop rendering early (this will lose data)"
+msgstr ""
+"Продолжительность записи: %1\n"
+"Нажмите, чтобы прервать обработку (это приведёт к потере данных)"
+
+#: src/SpectacleCore.cpp:442
+msgctxt "@info:tooltip subtitle for recording tray icon"
+msgid ""
+"Time recorded: %1\n"
+"Click to finish recording"
+msgstr ""
+"Продолжительность записи: %1\n"
+"Нажмите, чтобы остановить запись"
+
+#: src/SpectacleCore.cpp:473
+msgctxt "@info"
+msgid "An error occurred while attempting to record the screen."
+msgstr "При создании записи экрана произошла ошибка."
+
+#: src/SpectacleCore.cpp:525
+msgctxt "@info"
+msgid ""
+"The screenshot was copied to the clipboard and saved as <link url=\"%1\">%2</"
+"link>"
+msgstr ""
+"Снимок экрана скопирован в буфер обмена и сохранён в файл <link "
+"url=\"%1\">%2</link>."
+
+#: src/SpectacleCore.cpp:529
+msgctxt "@info"
+msgid ""
+"The screenshot has been saved as <link url=\"%1\">%2</link> and its location "
+"has been copied to clipboard"
+msgstr ""
+"Снимок экрана сохранён в файл <link url=\"%1\">%2</link>, полный путь к нему "
+"скопирован в буфер обмена."
+
+#: src/SpectacleCore.cpp:534
+msgctxt "@info"
+msgid "The screenshot was saved as <link url=\"%1\">%2</link>"
+msgstr "Снимок экрана сохранён в файл <link url=\"%1\">%2</link>."
+
+#: src/SpectacleCore.cpp:538
+msgctxt "@info"
+msgid "The screenshot has been copied to the clipboard."
+msgstr "Снимок экрана скопирован в буфер обмена."
+
+#: src/SpectacleCore.cpp:570
+msgctxt "@info"
+msgid ""
+"The video has been saved as <link url=\"%1\">%2</link> and its location has "
+"been copied to clipboard"
+msgstr ""
+"Видео сохранено в файл (<link url=\"%1\">%2</link>) и полный путь к нему "
+"скопирован в буфер обмена."
+
+#: src/SpectacleCore.cpp:575
+msgctxt "@info"
+msgid "The video was saved as <link url=\"%1\">%2</link>"
+msgstr "Запись экрана сохранена в файл <link url=\"%1\">%2</link>"
+
+#: src/SpectacleCore.cpp:579
+msgctxt "@info"
+msgid "The video location has been copied to the clipboard."
+msgstr "Путь к файлу видео скопирован в буфер обмена."
+
+#: src/SpectacleCore.cpp:599
+msgctxt "@info"
+msgid "Code found: %1"
+msgstr "Найден код: %1"
+
+#: src/SpectacleCore.cpp:603
+msgctxt "@info"
+msgid "Found QR code with binary content."
+msgstr "Найден QR-код, содержащий двоичные данные."
+
+#: src/SpectacleCore.cpp:611
+msgctxt "@info"
+msgid "Text extraction failed"
+msgstr "Ошибка извлечения текста"
+
+#: src/SpectacleCore.cpp:616
+msgctxt "@info"
+msgid "No text found in the image"
+msgstr "Текст на изображении не найден"
+
+#: src/SpectacleCore.cpp:620
+msgctxt "@info"
+msgid "Text extraction completed"
+msgstr "Извлечение текста завершено"
+
+#: src/SpectacleCore.cpp:628
+msgctxt "@info:notification title"
+msgid "Text Extracted"
+msgstr "Текст извлечён"
+
+#: src/SpectacleCore.cpp:648
+msgctxt "@info The variables are language names, e.g. 'English and German'"
+msgid "%1 and %2"
+msgstr "%1 и %2"
+
+#: src/SpectacleCore.cpp:653
+msgctxt "@info:notification"
+msgid "Text copied to clipboard.<nl/>Languages used: %1"
+msgstr "Текст скопирован в буфер обмена.<nl/>Использованные языки: %1"
+
+#: src/SpectacleCore.cpp:658
+msgctxt "@action:button"
+msgid "Open in Text Editor"
+msgstr "Открыть в текстовом редакторе"
+
+#: src/SpectacleCore.cpp:808
+msgctxt "@info"
+msgid "Please select a region before extracting text"
+msgstr "Укажите участок, прежде чем извлекать текст"
+
+#: src/SpectacleCore.cpp:830
+msgctxt "@info"
+msgid "OCR is not available."
+msgstr "Средство распознавания текста недоступно."
+
+#: src/SpectacleCore.cpp:836
+msgctxt "@info"
+msgid "No screenshot available."
+msgstr "Снимок экрана недоступен."
+
+#: src/SpectacleCore.cpp:840
+msgctxt "@info"
+msgid "Extracting text from image..."
+msgstr "Извлечение текста из изображения…"
+
+#: src/SpectacleCore.cpp:973
+msgctxt "@info:shell"
+msgid "Ignoring activation: a recording is already in progress"
+msgstr ""
+
+#: src/SpectacleCore.cpp:1181
+msgctxt "@info:shell"
+msgid ""
+"--scaled is only allowed together with -f/--fullscreen and will be ignored"
+msgstr ""
+"Параметр --scaled допустим только совместно с -f/--fullscreen и будет "
+"игнорирован."
+
+#: src/SpectacleCore.cpp:1196
+msgctxt "@info:shell"
+msgid "%1 is not a valid mode for --record"
+msgstr "%1 не является допустимым режимом при указании ключа --record"
+
+#: src/SpectacleCore.cpp:1462
+msgctxt "%1 is the filename, %2 the path to the save location"
+msgid ""
+"A screenshot was saved as '%1' to '%2' and the file path of the screenshot "
+"has been saved to your clipboard."
+msgstr ""
+"Снимок экрана сохранён как «%1» в «%2», полный путь к нему скопирован в "
+"буфер обмена."
+
+#: src/SpectacleCore.cpp:1466
+msgctxt "%1 is the filename"
+msgid "A screenshot was saved as '%1' to your Pictures folder."
+msgstr "Снимок экрана сохранён в файл «%1» в папке «Изображения» («Pictures»)."
+
+#: src/SpectacleCore.cpp:1469
+msgctxt "%1 is the filename, %2 the path to the save location"
+msgid "A screenshot was saved as '%1' to '%2'."
+msgstr "Снимок экрана сохранён в файл «%1» в папке «%2»."
+
+#: src/SpectacleCore.cpp:1472
+msgid "A screenshot was saved to your clipboard."
+msgstr "Снимок экрана скопирован в буфер обмена."
+
+#: src/SpectacleCore.cpp:1477
+msgctxt "%1 is the filename, %2 the path to the save location"
+msgid ""
+"A recording was saved as '%1' to '%2' and the file path of the recording has "
+"been saved to your clipboard."
+msgstr ""
+"Запись экрана сохранена как «%1» в «%2», полный путь к ней скопирован в "
+"буфер обмена."
+
+#: src/SpectacleCore.cpp:1481
+msgctxt "%1 is the filename"
+msgid "A recording was saved as '%1' to your Videos folder."
+msgstr "Запись экрана сохранена в файл «%1» в папке «Видео» («Videos»)."
+
+#: src/SpectacleCore.cpp:1484
+msgctxt "%1 is the filename, %2 the path to the save location"
+msgid "A recording was saved as '%1' to '%2'."
+msgstr "Запись экрана сохранена в файл «%1» в папке «%2»."
+
+#: src/SpectacleCore.cpp:1496
+msgctxt "Open the screenshot we just saved"
+msgid "Open"
+msgstr "Открыть"
+
+#: src/SpectacleCore.cpp:1508
+msgid "Annotate"
+msgstr "Комментировать"
+
+#: src/Gui/AcceptAction.qml:9
+msgctxt "@action accept selection"
+msgid "Accept"
+msgstr "Принять"
+
+#: src/Gui/NewScreenshotToolButton.qml:15
+#: src/Gui/CaptureModeButtonsColumn.qml:32
+msgid "Cancel (%1 second)"
+msgid_plural "Cancel (%1 seconds)"
+msgstr[0] "Отмена (%1 секунда)"
+msgstr[1] "Отмена (%1 секунды)"
+msgstr[2] "Отмена (%1 секунд)"
+msgstr[3] "Отмена (%1 секунда)"
+
+#: src/Gui/NewScreenshotToolButton.qml:27
+msgid "New Screenshot"
+msgstr "Сделать новый снимок"
+
+# BUGME: please add @title:window; please add ellipsis to the action name --aspotashev
+#: src/Gui/OptionsMenuButton.qml:10
+msgctxt "@action"
+msgid "Options"
+msgstr "Параметры"
+
+#: src/Gui/CancelAction.qml:9
+msgctxt "@action cancel selection"
+msgid "Cancel"
+msgstr "Отмена"
+
+#: src/Gui/CopyImageAction.qml:13
+msgctxt "@action"
+msgid "Copy"
+msgstr "Копировать"
+
+#: src/Gui/RecordAction.qml:11
+msgctxt "@action start recording"
+msgid "Record"
+msgstr "Записать"
+
+#: src/Gui/RecordOptions.qml:23
+msgid "Recording Settings"
+msgstr "Параметры записи"
+
+#: src/Gui/RecordOptions.qml:37
+msgid "Finish recording"
+msgstr "Завершить запись"
+
+#: src/Gui/CopyLocationAction.qml:9
+msgctxt "@action"
+msgid "Copy Location"
+msgstr "Копировать путь к файлу"
+
+#: src/Gui/EditAction.qml:11
+msgctxt "@action edit screenshot"
+msgid "Edit…"
+msgstr "Редактировать…"
+
+#: src/Gui/CaptureOptions.qml:17
+msgid "Take a new screenshot"
+msgstr "Сделать новый снимок"
+
+#: src/Gui/CaptureOptions.qml:39
+msgctxt "@title:group"
+msgid "Screenshot Settings"
+msgstr "Параметры снимка экрана"
+
+#: src/Gui/ExportMenu.cpp:44
+msgctxt "@title:menu"
+msgid "Export"
+msgstr "Экспорт"
+
+#: src/Gui/ExportMenu.cpp:47
+msgid "Open Default Screenshots Folder"
+msgstr "Открыть папку со снимками экрана, заданную по умолчанию"
+
+#: src/Gui/ExportMenu.cpp:133
+msgctxt "@action:button open screenshot in other application"
+msgid "Other Application…"
+msgstr "Другое приложение…"
+
+#: src/Gui/ExportMenu.cpp:165
+msgid "Share"
+msgstr "Опубликовать"
+
+#: src/Gui/ExportMenu.cpp:258
+msgctxt "@action:menu"
+msgid "Extract Text by Language"
+msgstr "Извлечение текста по языку"
+
+#: src/Gui/ExportMenu.cpp:294
+msgid "OCR engine is not available."
+msgstr "Модуль распознавания текста недоступен."
+
+#: src/Gui/ExportMenu.cpp:302
+msgid "OCR is not available. Please install Tesseract OCR."
+msgstr ""
+"Средство распознавания текста недоступно. Установите средство распознавания "
+"текста Tesseract."
+
+#: src/Gui/ExportMenu.cpp:303
+msgid "OCR engine is initializing…"
+msgstr "Инициализация модуля распознавания текста…"
+
+#: src/Gui/ExportMenu.cpp:313
+msgid "No OCR language data available."
+msgstr "Нет доступных данных для распознавания на указанном языке."
+
+#: src/Gui/HelpMenuButton.qml:10
+msgctxt "@action"
+msgid "Help"
+msgstr "Справка"
+
+#: src/Gui/CaptureOverlay.qml:149
+msgctxt "@info basic crop tool explanation"
+msgid "Click and drag to make a selection."
+msgstr "Щёлкните левой кнопкой мыши и, не отпуская её, выполните выделение."
+
+#: src/Gui/HelpMenu.cpp:40
+msgctxt "@title:menu"
+msgid "Help"
+msgstr "Справка"
+
+#: src/Gui/ShortcutsTextBox.qml:13
+msgid "Take Screenshot:"
+msgstr "Создание снимка экрана:"
+
+#: src/Gui/ShortcutsTextBox.qml:15
+msgid "Create new selection rectangle:"
+msgstr "Создание прямоугольной области выделения:"
+
+#: src/Gui/ShortcutsTextBox.qml:20
+msgid "Move selection rectangle:"
+msgstr "Перемещение прямоугольной области выделения:"
+
+#: src/Gui/ShortcutsTextBox.qml:23
+msgid "Resize selection rectangle:"
+msgstr "Изменение размера области выделения:"
+
+#: src/Gui/ShortcutsTextBox.qml:26
+msgid "Reset selection:"
+msgstr "Отмена выделения:"
+
+#: src/Gui/ShortcutsTextBox.qml:28
+msgid "Cancel:"
+msgstr "Отмена создания снимка экрана:"
+
+#: src/Gui/ShortcutsTextBox.qml:33
+msgctxt "Mouse action"
+msgid "Release left-click"
+msgstr "Отпускание левой кнопки мыши"
+
+#: src/Gui/ShortcutsTextBox.qml:33
+msgctxt "Mouse action"
+msgid "Double-click"
+msgstr "Двойной щелчок левой кнопкой мыши"
+
+#: src/Gui/ShortcutsTextBox.qml:34
+msgctxt "Keyboard action"
+msgid "Enter"
+msgstr "Ввод"
+
+#: src/Gui/ShortcutsTextBox.qml:35
+msgctxt "Mouse action"
+msgid "Drag outside selection rectangle"
+msgstr "Перемещение мыши с нажатой левой кнопкой вне выделения"
+
+#: src/Gui/ShortcutsTextBox.qml:37
+msgctxt "Keyboard action"
+msgid "+ Shift: Magnifier"
+msgstr "+ Shift: экранная лупа"
+
+#: src/Gui/ShortcutsTextBox.qml:40
+msgctxt "Mouse action"
+msgid "Drag inside selection rectangle"
+msgstr "Перемещение мыши с нажатой левой кнопкой внутри выделения"
+
+#: src/Gui/ShortcutsTextBox.qml:41
+msgctxt "Keyboard action"
+msgid "Arrow keys"
+msgstr "Клавиши со стрелками"
+
+#: src/Gui/ShortcutsTextBox.qml:42
+msgctxt "Keyboard action"
+msgid "+ Shift: Move in 1 pixel steps"
+msgstr "+ Shift: перемещение с шагом 1 пикс."
+
+#: src/Gui/ShortcutsTextBox.qml:43
+msgctxt "Mouse action"
+msgid "Drag handles"
+msgstr "Перетаскивание маркеров"
+
+#: src/Gui/ShortcutsTextBox.qml:44
+msgctxt "Keyboard action"
+msgid "Arrow keys + Alt"
+msgstr "Клавиши со стрелками + Alt"
+
+#: src/Gui/ShortcutsTextBox.qml:45
+msgctxt "Keyboard action"
+msgid "+ Shift: Resize in 1 pixel steps"
+msgstr "+ Shift: изменение размера с шагом 1 пикс."
+
+#: src/Gui/ShortcutsTextBox.qml:46
+msgctxt "Mouse action"
+msgid "Right-click"
+msgstr "Щелчок правой кнопкой мыши"
+
+#: src/Gui/ShortcutsTextBox.qml:48
+msgctxt "Keyboard action"
+msgid "Escape"
+msgstr "Escape"
+
+#: src/Gui/ScreenshotView.qml:196
+msgctxt "@info crop tool explanation"
+msgid ""
+"Click and drag to make a selection.\n"
+"Double click the selection to accept and crop.\n"
+"Right click to clear the selection."
+msgstr ""
+"Создать область выделения: зажмите левую кнопку и перемещайте указатель "
+"мыши.\n"
+"Обрезать по выделению: двойной щелчок по выделенной области.\n"
+"Сбросить выделение: щелчок правой кнопкой."
+
+#: src/Gui/OptionsMenu.cpp:38
+msgctxt "@title:menu"
+msgid "Screenshot Settings"
+msgstr "Параметры снимка экрана"
+
+#: src/Gui/OptionsMenu.cpp:40
+msgctxt "@option:check for screenshots"
+msgid "Include mouse pointer"
+msgstr "Включая указатель мыши"
+
+#: src/Gui/OptionsMenu.cpp:43
+msgctxt "@info:tooltip"
+msgid "Show the mouse cursor in the screenshot image"
+msgstr "Добавить указатель мыши на снимок экрана"
+
+#: src/Gui/OptionsMenu.cpp:44
+#, fuzzy
+msgctxt "@info:tooltip"
+msgid "niri does not composite the cursor into screenshots"
+msgstr "Эта кнопка позволяет распечатать полученный снимок."
+
+#: src/Gui/OptionsMenu.cpp:52
+msgctxt "@option:check"
+msgid "Include window titlebar and borders"
+msgstr "Включая заголовок и границы окна"
+
+#: src/Gui/OptionsMenu.cpp:53
+msgctxt "@info:tooltip"
+msgid ""
+"Show the window title bar, the minimize/maximize/close buttons, and the "
+"window border"
+msgstr ""
+"Включить в снимок заголовок окна, кнопки в заголовке («свернуть», "
+"«распахнуть», «закрыть» и другие) и границы окна"
+
+#: src/Gui/OptionsMenu.cpp:61
+msgctxt "@option:check"
+msgid "Include window shadow"
+msgstr "Включая тень окна"
+
+#: src/Gui/OptionsMenu.cpp:62
+msgctxt "@info:tooltip"
+msgid "Show the window shadow"
+msgstr "Включить в снимок экрана тень окна"
+
+#: src/Gui/OptionsMenu.cpp:70
+msgctxt "@option:check"
+msgid "Quit after manual Save or Copy"
+msgstr "Выйти после сохранения или копирования"
+
+#: src/Gui/OptionsMenu.cpp:71
+msgctxt "@info:tooltip"
+msgid "Quit Spectacle after manually saving or copying the image"
+msgstr "Выйти из Spectacle после сохранения или копирования снимка экрана"
+
+#: src/Gui/OptionsMenu.cpp:83
+msgctxt "@option:check"
+msgid "Capture On Click"
+msgstr "Снимать по щелчку"
+
+#: src/Gui/OptionsMenu.cpp:98
+msgctxt "@label:spinbox"
+msgid "Delay:"
+msgstr "Задержка:"
+
+#: src/Gui/OptionsMenu.cpp:103
+msgctxt "@item 0 delay special value"
+msgid "No Delay"
+msgstr "Без задержки"
+
+#: src/Gui/OptionsMenu.cpp:122
+msgctxt "@title:menu"
+msgid "Recording Settings"
+msgstr "Параметры записи"
+
+#: src/Gui/OptionsMenu.cpp:124
+msgctxt "@option:check for recordings"
+msgid "Include mouse pointer"
+msgstr "Включая указатель мыши"
+
+#: src/Gui/OptionsMenu.cpp:125
+msgctxt "@info:tooltip"
+msgid "Show the mouse cursor in the recording"
+msgstr "Показывать положение указателя мыши в записи экрана"
+
+#: src/Gui/OptionsMenu.cpp:133
+msgctxt "@option:check for recordings"
+msgid "Record system audio"
+msgstr "Записывать системный звук"
+
+#: src/Gui/OptionsMenu.cpp:134
+msgctxt "@info:tooltip"
+msgid ""
+"Include the audio that is currently playing on the system in the recording"
+msgstr "Включать в запись звук, воспроизводимый в системе в данный момент."
+
+#: src/Gui/OptionsMenu.cpp:142
+msgctxt "@option:check for recordings"
+msgid "Record microphone"
+msgstr "Записывать звук с микрофона"
+
+#: src/Gui/OptionsMenu.cpp:143
+msgctxt "@info:tooltip"
+msgid "Include audio from the default microphone in the recording"
+msgstr "Включать в запись звук с микрофона по умолчанию"
+
+#: src/Gui/RecordingModeMenu.cpp:17
+msgctxt "@title:menu"
+msgid "Recording Modes"
+msgstr "Режимы записи"
+
+#: src/Gui/RecordingSettingsColumn.qml:22
+msgctxt "@option:check"
+msgid "Include mouse pointer"
+msgstr "Включая указатель мыши"
+
+#: src/Gui/RecordingSettingsColumn.qml:23
+msgctxt "@info:tooltip"
+msgid "Show the mouse cursor in the screen recording."
+msgstr "Показывать положение указателя мыши в записи экрана."
+
+#: src/Gui/RecordingSettingsColumn.qml:32
+msgctxt "@option:check"
+msgid "Record system audio"
+msgstr "Записывать системный звук"
+
+#: src/Gui/RecordingSettingsColumn.qml:33
+msgctxt "@info:tooltip"
+msgid ""
+"Include the audio that is currently playing on the system in the recording."
+msgstr "Включать в запись звук, воспроизводимый в системе в данный момент"
+
+#: src/Gui/RecordingSettingsColumn.qml:45
+msgctxt "@option:check"
+msgid "Record microphone"
+msgstr "Записывать звук с микрофона"
+
+#: src/Gui/RecordingSettingsColumn.qml:46
+msgctxt "@info:tooltip"
+msgid "Include audio from the default microphone in the recording."
+msgstr "Включать звук с микрофона по умолчанию в запись"
+
+#: src/Gui/RecordingSettingsColumn.qml:57
+msgctxt "@info"
+msgid "The selected video format does not support audio."
+msgstr "Выбранный формат видео не поддерживает звук."
+
+#: src/Gui/RecordingView.qml:90
+msgctxt "Recording in progress, %1 is the length of the recording so far"
+msgid ""
+"Recording:\n"
+"%1"
+msgstr ""
+"Запись экрана:\n"
+"%1"
+
+#: src/Gui/RecordingView.qml:129
+msgid "Pause"
+msgstr "Приостановить"
+
+#: src/Gui/RecordingView.qml:129
+msgid "Play"
+msgstr "Воспроизвести"
+
+#: src/Gui/SaveAction.qml:13
+msgctxt "@action"
+msgid "Save"
+msgstr "Сохранить"
+
+#: src/Gui/ScreenshotModeMenu.cpp:17
+msgctxt "@title:menu"
+msgid "Screenshot Modes"
+msgstr "Режимы съёмки"
+
+#: src/Gui/FontPopup.qml:54
+#, fuzzy
+msgid "Font"
+msgstr "Шрифт:"
+
+#: src/Gui/FontPopup.qml:69
+msgid "Size"
+msgstr ""
+
+#: src/Gui/FontPopup.qml:82
+msgid "Bold"
+msgstr ""
+
+#: src/Gui/FontPopup.qml:86
+msgid "Italic"
+msgstr ""
+
+#: src/Gui/FontPopup.qml:94 src/Gui/ColorPopup.qml:292
+#, fuzzy
+msgid "Cancel"
+msgstr "Отмена"
+
+#: src/Gui/FontPopup.qml:99 src/Gui/ColorPopup.qml:297
+msgid "Apply"
+msgstr ""
+
+#: src/Gui/SaveAsAction.qml:9
+msgctxt "@action"
+msgid "Save As…"
+msgstr "Сохранить как…"
+
+#: src/Gui/ScreenshotModeMenuButton.qml:11
+msgctxt "@action select new screenshot mode"
+msgid "New Screenshot"
+msgstr "Сделать новый снимок"
+
+#: src/Gui/UndoRedoGroup.qml:31
+msgid "Undo"
+msgstr "Отменить"
+
+#: src/Gui/UndoRedoGroup.qml:42
+msgid "Redo"
+msgstr "Повторить"
+
+#: src/Gui/DialogPage.qml:53
+#, fuzzy
+msgid "Configure NekoShot…"
+msgstr "Настроить Spectacle…"
+
+#: src/Gui/DialogPage.qml:61
+msgid "Help"
+msgstr "Справка"
+
+#: src/Gui/DialogPage.qml:80
+msgctxt "@title:group"
+msgid "Take a Screenshot:"
+msgstr "Создание снимка экрана:"
+
+# BUGME: please add @title:window; please add ellipsis to the action name --aspotashev
+#: src/Gui/DialogPage.qml:95 src/Gui/DialogPage.qml:136
+msgctxt "@title:group"
+msgid "Options"
+msgstr "Параметры"
+
+#: src/Gui/DialogPage.qml:121
+msgctxt "@title:group"
+msgid "Make a Recording:"
+msgstr "Запись экрана:"
+
+#: src/Gui/DialogPage.qml:162
+msgctxt "@title:tab"
+msgid "Screenshot"
+msgstr "Снимок экрана"
+
+#: src/Gui/DialogPage.qml:168
+msgctxt "@title:tab"
+msgid "Recording"
+msgstr "Запись экрана"
+
+#: src/Gui/DialogPage.qml:171 src/Gui/RecordingModeMenuButton.qml:18
+msgctxt "@info:tooltip"
+msgid "This feature is not supported on the current platform"
+msgstr "Возможность не поддерживается на текущей платформе."
+
+#: src/Gui/SmartSpinBox.cpp:30
+msgctxt "Integer number of seconds"
+msgid " second"
+msgid_plural " seconds"
+msgstr[0] " секунда"
+msgstr[1] " секунды"
+msgstr[2] " секунд"
+msgstr[3] " секунда"
+
+# BUGME: plurals please --aspotashev
+#: src/Gui/SmartSpinBox.cpp:32
+msgctxt "Decimal number of seconds"
+msgid " seconds"
+msgstr " секунды"
+
+#: src/Gui/ExportMenuButton.qml:13
+msgctxt "@action"
+msgid "Export"
+msgstr "Экспорт"
+
+#: src/Gui/ViewerWindow.cpp:53
+msgctxt "@info, %1 is the error message"
+msgid "There was a problem sharing the image: %1"
+msgstr "Не удалось опубликовать изображение: %1"
+
+#: src/Gui/CaptureSettingsColumn.qml:17
+msgid "Include mouse pointer"
+msgstr "Включая указатель мыши"
+
+#: src/Gui/CaptureSettingsColumn.qml:20
+msgid "Show the mouse cursor in the screenshot image."
+msgstr "Добавить указатель мыши на снимок экрана."
+
+#: src/Gui/CaptureSettingsColumn.qml:21
+#, fuzzy
+msgid "niri does not composite the cursor into screenshots."
+msgstr "Эта кнопка позволяет распечатать полученный снимок."
+
+#: src/Gui/CaptureSettingsColumn.qml:30
+msgid "Include window titlebar and borders"
+msgstr "Включая заголовок и границы окна"
+
+#: src/Gui/CaptureSettingsColumn.qml:31
+msgid ""
+"Show the window title bar and border when taking a screenshot of a window."
+msgstr "При съёмке окна захватывать его заголовок и границы."
+
+#: src/Gui/CaptureSettingsColumn.qml:40
+msgid "Include window shadow"
+msgstr "Включая тень окна"
+
+#: src/Gui/CaptureSettingsColumn.qml:41
+msgid "Show the window shadow when taking a screenshot of a window."
+msgstr "При съёмке окна захватывать его тень."
+
+#: src/Gui/CaptureSettingsColumn.qml:51
+msgid "Quit after manual Save or Copy"
+msgstr "Выйти после сохранения или копирования"
+
+#: src/Gui/CaptureSettingsColumn.qml:52
+msgid "Quit Spectacle after manually saving or copying the image."
+msgstr "Выйти из Spectacle после сохранения или копирования снимка экрана."
+
+#: src/Gui/CaptureSettingsColumn.qml:61
+msgid "Capture on click"
+msgstr "Снимать по щелчку"
+
+#: src/Gui/CaptureSettingsColumn.qml:63
+msgid "Wait for a mouse click before capturing the screenshot image."
+msgstr "Ждать щелчка мышью перед съёмкой изображения экрана."
+
+#: src/Gui/CaptureSettingsColumn.qml:74
+msgid "Delay:"
+msgstr "Задержка:"
+
+#: src/Gui/DelaySpinBox.qml:15
+msgctxt "0 second delay"
+msgid "No Delay"
+msgstr "Без задержки"
+
+#: src/Gui/DelaySpinBox.qml:24
+msgctxt "Integer number of seconds"
+msgid "%2 second"
+msgid_plural "%2 seconds"
+msgstr[0] "%2 секунда"
+msgstr[1] "%2 секунды"
+msgstr[2] "%2 секунд"
+msgstr[3] "%2 секунда"
+
+#: src/Gui/DelaySpinBox.qml:26
+msgctxt "Decimal number of seconds"
+msgid "%1 seconds"
+msgstr "%1 секунды"
+
+#: src/Gui/OcrAction.qml:15
+msgctxt "@action"
+msgid "Extract Text"
+msgstr "Извлечь текст"
+
+#: src/Gui/RecordingModeMenuButton.qml:12
+msgctxt "@action select new recording mode"
+msgid "New Recording"
+msgstr "Новая запись"
+
+#: src/Gui/SizeLabel.qml:13
+msgctxt "Size, width×height"
+msgid "%1×%2"
+msgstr "%1×%2"
+
+#: src/Gui/ViewerPage.qml:228
+msgid "Zoom:"
+msgstr "Масштаб:"
+
+#: src/Gui/ViewerPage.qml:242
+msgid "Image Zoom"
+msgstr "Масштаб изображения"
+
+#: src/Gui/SpectacleWindow.cpp:170
+msgctxt "@title:window"
+msgid "%1 second"
+msgid_plural "%1 seconds"
+msgstr[0] "%1 секунда"
+msgstr[1] "%1 секунды"
+msgstr[2] "%1 секунд"
+msgstr[3] "%1 секунда"
+
+#: src/Gui/SpectacleWindow.cpp:173
+msgctxt "@title:window Unsaved Screenshot"
+msgid "Unsaved"
+msgstr "Несохранённый снимок экрана"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:88
+msgid "Stroke:"
+msgstr "Обводка:"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:120
+#, fuzzy, c-format
+msgctxt "px: pixels"
+msgid "%1px"
+msgid_plural "%1px"
+msgstr[0] "%1 пикс."
+msgstr[1] "%1 пикс."
+msgstr[2] "%1 пикс."
+msgstr[3] "%1 пикс."
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:125
+msgid "Stroke Width"
+msgstr "Ширина обводки"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:158 src/Gui/ColorPopup.qml:44
+msgid "Stroke Color"
+msgstr "Цвет обводки"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:192
+msgid "Fill:"
+msgstr "Заливка:"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:204 src/Gui/ColorPopup.qml:45
+msgid "Fill Color"
+msgstr "Цвет заливки"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:241
+msgctxt "@label:slider strength of effect"
+msgid "Strength:"
+msgstr "Интенсивность:"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:260
+msgctxt "@info:tooltip"
+msgid "The strength of the effect."
+msgstr "Интенсивность эффекта."
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:287
+msgid "Font:"
+msgstr "Шрифт:"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:301
+msgctxt "%2 font family, %3 font style name, %1 font point size"
+msgid "%2 %3 %1pt"
+msgid_plural "%2 %3 %1pts"
+msgstr[0] "%2 %3 %1 пт"
+msgstr[1] "%2 %3 %1 пт"
+msgstr[2] "%2 %3 %1 пт"
+msgstr[3] "%2 %3 %1 пт"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:302
+msgctxt "%2 font family %1 font point size"
+msgid "%2 %1pt"
+msgid_plural "%2 %1pts"
+msgstr[0] "%2 %1 пт"
+msgstr[1] "%2 %1 пт"
+msgstr[2] "%2 %1 пт"
+msgstr[3] "%2 %1 пт"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:314
+msgid "Font Color"
+msgstr "Цвет шрифта"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:351
+msgid "Number:"
+msgstr "Число:"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:370
+msgid "Number for number annotations"
+msgstr "Число для числовых аннотаций"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:398
+msgid "Shadow"
+msgstr "Тень"
+
+#: src/Gui/AnnotationsToolBarContents.qml:109
+msgctxt "@action:intoolbar no tool, to allow dragging"
+msgid "None"
+msgstr "Ничего"
+
+#: src/Gui/AnnotationsToolBarContents.qml:121
+msgctxt "@action:intoolbar crop image tool"
+msgid "Crop"
+msgstr "Кадрирование"
+
+#: src/Gui/AnnotationsToolBarContents.qml:128
+msgctxt "@action:intoolbar select annotation tool"
+msgid "Select"
+msgstr "Выбрать"
+
+#: src/Gui/AnnotationsToolBarContents.qml:137
+msgctxt "@action:intoolbar freehand line tool"
+msgid "Freehand"
+msgstr "Произвольная линия"
+
+#: src/Gui/AnnotationsToolBarContents.qml:138
+msgctxt "@info:tooltip"
+msgid "Shift: Snap to straight lines"
+msgstr "Shift: привязка к прямым линиям"
+
+#: src/Gui/AnnotationsToolBarContents.qml:145
+msgctxt "@action:intoolbar highlighter line tool"
+msgid "Highlighter"
+msgstr "Выделение"
+
+#: src/Gui/AnnotationsToolBarContents.qml:154
+msgctxt "@action:intoolbar straight line tool"
+msgid "Line"
+msgstr "Линия"
+
+#: src/Gui/AnnotationsToolBarContents.qml:155
+msgctxt "@info:tooltip"
+msgid "Shift: Snap to 45 degree increments"
+msgstr "Shift: привязка к шагам в 45 градусов"
+
+#: src/Gui/AnnotationsToolBarContents.qml:162
+msgctxt "@action:intoolbar arrow line tool"
+msgid "Arrow"
+msgstr "Стрелка"
+
+#: src/Gui/AnnotationsToolBarContents.qml:171
+msgctxt "@action:intoolbar rectangle tool"
+msgid "Rectangle"
+msgstr "Прямоугольник"
+
+#: src/Gui/AnnotationsToolBarContents.qml:173
+msgctxt "@info:tooltip"
+msgid ""
+"Shift: Snap to diagonal movements\n"
+"Control: Resize from center"
+msgstr ""
+"Shift: привязка к перемещениям по диагонали\n"
+"Control: изменение размера от центра"
+
+#: src/Gui/AnnotationsToolBarContents.qml:180
+msgctxt "@action:intoolbar ellipse tool"
+msgid "Ellipse"
+msgstr "Эллипс"
+
+#: src/Gui/AnnotationsToolBarContents.qml:188
+msgctxt "@action:intoolbar pixelate tool"
+msgid "Pixelate"
+msgstr "Пикселизация"
+
+#: src/Gui/AnnotationsToolBarContents.qml:196
+msgctxt "@action:intoolbar blur tool"
+msgid "Blur"
+msgstr "Размытие"
+
+#: src/Gui/AnnotationsToolBarContents.qml:204
+msgctxt "@action:intoolbar text tool"
+msgid "Text"
+msgstr "Текст"
+
+#: src/Gui/AnnotationsToolBarContents.qml:211
+msgctxt "@action:intoolbar number stamp tool"
+msgid "Number"
+msgstr "Число"
+
+#: src/Gui/InlineMessageList.qml:129
+msgctxt "@action:button"
+msgid "Open Containing Folder"
+msgstr "Открыть папку с файлом"
+
+#: src/Gui/InlineMessageList.qml:139
+msgctxt "@action:button"
+msgid "Copy to Clipboard"
+msgstr "Копировать в буфер обмена"
+
+#: src/Gui/InlineMessageList.qml:149
+msgctxt "@action:button close inline notification"
+msgid "Close"
+msgstr "Закрыть"
+
+#: src/Gui/ColorPopup.qml:46
+#, fuzzy
+msgid "Text Color"
+msgstr "Цвет шрифта"
+
+#: src/Gui/ColorPopup.qml:47
+#, fuzzy
+msgid "Color"
+msgstr "Цвет заливки"
+
+#: src/Gui/ColorPopup.qml:241
+msgid "Alpha"
+msgstr ""
+
+#: src/Gui/ColorPopup.qml:264
+msgid "Hex"
+msgstr ""
+
+#: src/Platforms/VideoPlatformWayland.cpp:165
+msgctxt "@info"
+msgid "KWin Screencasting is not available."
+msgstr "Трансляция экрана KWin недоступна."
+
+#: src/Platforms/VideoPlatformWayland.cpp:179
+msgctxt "@info:shell"
+msgid "Failed to record: File URL is not a local file"
+msgstr ""
+"Не удалось выполнить запись: URL-адрес файла не является локальным файлом"
+
+#: src/Platforms/VideoPlatformWayland.cpp:279
+msgctxt "@info"
+msgid ""
+"The stream closed because the target screen changed in a way that disrupted "
+"the recording."
+msgstr ""
+"Трансляция была прекращена, поскольку параметры целевого экрана были "
+"изменены таким образом, препятствующим продолжению записи."
+
+#: src/Platforms/VideoPlatformWayland.cpp:283
+msgctxt "@info"
+msgid ""
+"The stream closed because the target window changed in a way that disrupted "
+"the recording."
+msgstr ""
+"Трансляция была прекращена, поскольку параметры целевого окна были изменены "
+"таким образом, препятствующим продолжению записи."
+
+#: src/Platforms/VideoPlatformWayland.cpp:287
+msgctxt "@info"
+msgid ""
+"The stream closed because a screen containing the target region changed in a "
+"way that disrupted the recording."
+msgstr ""
+"Трансляция была прекращена, поскольку параметры целевой области были "
+"изменены таким образом, препятствующим продолжению записи."
+
+#: src/Platforms/VideoPlatformWayland.cpp:303
+msgctxt "@info:shell, %1 is the temporary URL"
+msgid "Failed to record: Temporary file URL is not a local file (%1)"
+msgstr ""
+"Не удалось выполнить запись: URL-адрес временного файла не является "
+"локальным файлом («%1»)"
+
+#: src/Platforms/VideoPlatformWayland.cpp:314
+msgctxt "@info:shell, %1 is the output file URL"
+msgid "Failed to record: Output file URL is not a local file (%1)"
+msgstr ""
+"Не удалось выполнить запись: URL-адрес файла вывода не является локальным "
+"файлом («%1»)"
+
+#: src/Platforms/VideoPlatformWayland.cpp:381
+msgctxt "@info:shell, %1 is a directory path"
+msgid "Failed to record: Unable to create folder (%1)"
+msgstr "Не удалось выполнить запись: невозможно создать папку «%1»"
+
+#: src/Platforms/VideoPlatformWayland.cpp:409
+msgctxt "@info:shell"
+msgid "Screen recording canceled"
+msgstr "Запись экрана отменена"
+
+#: src/Platforms/VideoPlatformWayland.cpp:411
+msgctxt "@info:shell"
+msgid "Window recording canceled"
+msgstr "Запись окна отменена"
+
+#: src/Platforms/VideoPlatformWayland.cpp:417
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to select screen: %1"
+msgstr "Не удалось выбрать экран: %1"
+
+#: src/Platforms/VideoPlatformWayland.cpp:419
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to select window: %1"
+msgstr "Не удалось выбрать окно: %1"
+
+#: src/Platforms/VideoPlatformWayland.cpp:447
+msgctxt "@info:shell"
+msgid "Failed to select screen: No screen contained the mouse cursor position"
+msgstr "Не удалось выбрать экран: ни на одном экране нет указателя мыши"
+
+#: src/Platforms/VideoPlatformWayland.cpp:454
+msgctxt "@info:shell"
+msgid "Failed to select window: No window found"
+msgstr "Не удалось выбрать окно: не найдено ни одного окна"
+
+#: src/Platforms/ImagePlatformKWin.cpp:73
+msgctxt "@info, %1 is the width"
+msgid "Bad width for KWin screenshot: %1"
+msgstr "Недопустимая ширина снимка экрана KWin: %1"
+
+#: src/Platforms/ImagePlatformKWin.cpp:78
+msgctxt "@info, %1 is the height"
+msgid "Bad height for KWin screenshot: %1"
+msgstr "Недопустимая высота снимка экрана KWin: %1"
+
+#: src/Platforms/ImagePlatformKWin.cpp:89
+msgctxt "@info, %1 is a file format like 'png', 'jpg'"
+msgid "Bad format for KWin screenshot: %1"
+msgstr "Недопустимый формат снимка экрана KWin: %1"
+
+#: src/Platforms/ImagePlatformKWin.cpp:107
+msgctxt "@info"
+msgid "Could not open file descriptor for reading KWin screenshot."
+msgstr "Не удалось открыть файловый дескриптор при чтении снимка экрана KWin."
+
+#: src/Platforms/ImagePlatformKWin.cpp:177
+msgctxt "@info, %1 is an error code"
+msgid "pipe2() failed for KWin screenshot: %1"
+msgstr "Ошибка вызова pipe2() для создания снимка экрана KWin: %1"
+
+#: src/Platforms/ImagePlatformKWin.cpp:233
+msgctxt "@info, %1 is an error message"
+msgid ""
+"KWin screenshot request failed:\n"
+"%1"
+msgstr ""
+"Ошибка запроса создания снимка экрана KWin:\n"
+"%1"
+
+#: src/Platforms/ImagePlatformKWin.cpp:235
+msgctxt "@info"
+msgid ""
+"Potentially relevant information:\n"
+"%1"
+msgstr ""
+"Сведения, которые, возможно, будут полезны:\n"
+"%1"
+
+#: src/Platforms/ImagePlatformKWin.cpp:243
+msgctxt "@info"
+msgid "Unsupported KWin screenshot type metadata: %1"
+msgstr "Неподдерживаемый тип метаданных снимка экрана KWin: %1"
+
+#: src/Platforms/ImagePlatformNiri.cpp:115
+#, fuzzy
+msgid "Failed to capture the window"
+msgstr "Не удалось выбрать окно: %1"
+
+#: src/Platforms/ImagePlatformNiri.cpp:159
+#, fuzzy
+msgid "Unsupported capture mode"
+msgstr "Использовать последний режим съёмки"
+
+#: src/Platforms/ImagePlatformNiri.cpp:190
+msgid "No focused window"
+msgstr ""
+
+#: src/Platforms/ImagePlatformNiri.cpp:209
+msgid "No outputs found"
+msgstr ""
+
+#: src/Platforms/ImagePlatformNiri.cpp:215
+msgid "No focused output found"
+msgstr ""
+
+#: src/Platforms/ImagePlatformNiri.cpp:229
+#, fuzzy
+msgid "Failed to capture the screen"
+msgstr "Не удалось выбрать экран: %1"
+
+#: src/Platforms/PlatformLoader.cpp:120
+msgid "wf-recorder is not installed"
+msgstr ""
+
+#: src/Platforms/PlatformLoader.cpp:127
+msgctxt "@info"
+msgid "Screen recording is not available on X11."
+msgstr "Запись экрана недоступна при использовании X11."
+
+#: src/Platforms/VideoPlatformNiri.cpp:197
+msgid "gst-launch-1.0 is not installed"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:200
+msgid "gst-inspect-1.0 is not installed"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:218
+msgid "missing GStreamer elements: %1"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:287
+msgid "missing GStreamer elements: mp4mux"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:291
+msgid "missing GStreamer elements: vah264enc+h264parse or x264enc"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:297
+msgid "H.265/HEVC requires vah265enc, h265parse and mp4mux"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:302
+msgid "AV1 requires vaav1enc, av1parse and mp4mux"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:306
+#, fuzzy
+msgid "the video format is not supported"
+msgstr "Выбранный формат видео не поддерживает звук."
+
+#: src/Platforms/VideoPlatformNiri.cpp:356
+msgid "missing GStreamer audio elements: %1"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:432
+#, fuzzy
+msgid "the D-Bus session bus is not available"
+msgstr "Модуль распознавания текста недоступен."
+
+#: src/Platforms/VideoPlatformNiri.cpp:500
+#: src/Platforms/VideoPlatformNiri.cpp:1241
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to record: could not start the window picker: %1"
+msgstr "Не удалось выполнить запись: невозможно создать папку «%1»"
+
+#: src/Platforms/VideoPlatformNiri.cpp:518
+msgctxt "@info:shell, %1 is a process exit code"
+msgid "gst-launch-1.0 exited with code %1."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:520
+msgctxt "@info:shell, %1 is a process exit code"
+msgid "wf-recorder exited with code %1."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:917
+msgctxt "@info:shell"
+msgid "Recording canceled: no recording mode"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:921
+msgctxt "@info:shell"
+msgid "Failed to record: unsupported recording mode."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:925
+#: src/Platforms/VideoPlatformNiri.cpp:929
+#: src/Platforms/VideoPlatformNiri.cpp:1322
+#, fuzzy
+msgid "A recording is already starting"
+msgstr "Параметры записи"
+
+#: src/Platforms/VideoPlatformNiri.cpp:936
+#: src/Platforms/VideoPlatformNiri.cpp:1083
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to record: window recording is unavailable: %1."
+msgstr "Запись экрана недоступна при использовании X11."
+
+#: src/Platforms/VideoPlatformNiri.cpp:946
+#, fuzzy
+msgctxt "@info:shell"
+msgid "Failed to record: the output file URL is not a local file."
+msgstr ""
+"Не удалось выполнить запись: URL-адрес файла вывода не является локальным "
+"файлом («%1»)"
+
+#: src/Platforms/VideoPlatformNiri.cpp:962
+#, fuzzy
+msgctxt "@info:shell, %1 is a file path"
+msgid "Failed to record: the video format of %1 is not supported."
+msgstr "Выбранный формат видео не поддерживает звук."
+
+#: src/Platforms/VideoPlatformNiri.cpp:964
+#, fuzzy
+msgctxt "@info:shell"
+msgid "Failed to record: the selected video format is not supported."
+msgstr "Выбранный формат видео не поддерживает звук."
+
+#: src/Platforms/VideoPlatformNiri.cpp:971
+#, fuzzy
+msgid "Recording format changed"
+msgstr "Параметры записи"
+
+#: src/Platforms/VideoPlatformNiri.cpp:973
+#, fuzzy
+msgid "WebM/VP9"
+msgstr "WebM/VP9"
+
+#: src/Platforms/VideoPlatformNiri.cpp:974
+#, fuzzy
+msgid "MP4/H.265"
+msgstr "MP4/H.264"
+
+#: src/Platforms/VideoPlatformNiri.cpp:975
+msgid "MP4/AV1"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:976
+#, fuzzy
+msgid "MP4/H.264"
+msgstr "MP4/H.264"
+
+#: src/Platforms/VideoPlatformNiri.cpp:972
+msgid ""
+"The selected format is not available for window recording; using %1 instead."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:992
+#, fuzzy
+msgctxt "@info:shell"
+msgid "Failed to record: unable to create a temporary output file."
+msgstr "Не удалось выполнить запись: невозможно создать папку «%1»"
+
+#: src/Platforms/VideoPlatformNiri.cpp:998
+#, fuzzy
+msgctxt "@info:shell, %1 is a directory path"
+msgid "Failed to record: unable to create folder (%1)."
+msgstr "Не удалось выполнить запись: невозможно создать папку «%1»"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1057
+#: src/Platforms/VideoPlatformNiri.cpp:1101
+#, fuzzy
+msgctxt "@info:shell"
+msgid "Failed to record: niri did not report a focused output."
+msgstr ""
+"Не удалось выполнить запись: URL-адрес файла не является локальным файлом"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1059
+#: src/Platforms/VideoPlatformNiri.cpp:1103
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to record: %1"
+msgstr "Не удалось выбрать экран: %1"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1066
+#: src/Platforms/VideoPlatformNiri.cpp:1361
+#, fuzzy
+msgid "Failed to record: the screen connector is empty."
+msgstr "Не удалось выполнить запись: невозможно создать папку «%1»"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1113
+msgctxt "@info:shell"
+msgid "Failed to record: the recording region is empty."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1136
+msgid ""
+"Failed to record: wf-recorder does not support the selected video format."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1141
+msgid ""
+"Failed to record: HEVC region recording requires the libx265 encoder in wf-"
+"recorder."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1145
+msgid ""
+"Failed to record: AV1 region recording requires the libaom-av1 encoder in wf-"
+"recorder."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1149
+msgid ""
+"Failed to record: H.264 region recording requires the libx264 encoder in wf-"
+"recorder."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1153
+msgid ""
+"Failed to record: VP9 region recording requires the libvpx-vp9 encoder in wf-"
+"recorder."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1162
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to start wf-recorder: %1"
+msgstr "Не удалось выбрать экран: %1"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1183
+#: src/Platforms/VideoPlatformNiri.cpp:1284
+msgid "Recording canceled: no window selected."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1191
+msgid "Recording canceled: the screencast stream did not start."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1247
+msgid "Recording canceled: no window was selected."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1271
+msgctxt "@info:shell, %1 is a process exit code"
+msgid "The window picker exited with code %1."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1327
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to record: screencast recording is unavailable: %1."
+msgstr "Запись экрана недоступна при использовании X11."
+
+#: src/Platforms/VideoPlatformNiri.cpp:1331
+msgid ""
+"Failed to record: this video format is not supported for screencast "
+"recording."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1336
+#: src/Platforms/VideoPlatformNiri.cpp:1341
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to record: %1."
+msgstr "Не удалось выбрать экран: %1"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1353
+msgid "No window selected to record"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1367
+msgid ""
+"Failed to record: screencast recording only supports screen, window and "
+"region modes."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1384
+#: src/Platforms/VideoPlatformNiri.cpp:1396
+#: src/Platforms/VideoPlatformNiri.cpp:1420
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to start screencast recording: %1"
+msgstr "Не удалось выбрать экран: %1"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1390
+msgid ""
+"Failed to start screencast recording: niri returned an empty screencast "
+"session."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1401
+msgid ""
+"Failed to start screencast recording: niri returned an empty screencast "
+"stream."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1410
+msgid ""
+"Failed to start screencast recording: could not subscribe to the screencast "
+"stream signal."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1414
+msgid ""
+"Failed to start screencast recording: could not subscribe to the screencast "
+"session signal."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1425
+msgid ""
+"Failed to start screencast recording: the niri screencast session was closed."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1440
+msgid "Timed out waiting for the PipeWire stream"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1474
+#: src/Platforms/VideoPlatformNiri.cpp:1500
+msgid ""
+"Failed to start screencast recording: the stream format is not supported."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1479
+#: src/Platforms/VideoPlatformNiri.cpp:1485
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to start screencast recording: %1."
+msgstr "Не удалось выбрать экран: %1"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1517
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to start gst-launch-1.0: %1"
+msgstr "Не удалось выбрать экран: %1"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1592
+msgid "Failed to record: the niri screencast session was closed."
+msgstr ""
+
+#: src/Gui/SettingsDialog/SaveOptionsUtils.h:40
+msgctxt "@info"
+msgid "<filename>%1</filename>"
+msgstr "<filename>%1</filename>"
+
+#: src/Gui/SettingsDialog/SaveOptionsUtils.h:72
+msgid ""
+"You can use the following placeholders in the filename, which will be "
+"replaced with actual text when the file is saved:"
+msgstr ""
+"В имени файла можно использовать следующие подстановочные знаки, которые "
+"будут заменены на фактический текст при сохранении файла:"
+
+#: src/Gui/SettingsDialog/SaveOptionsUtils.h:87
+msgid "To save to a sub-folder"
+msgstr "Сохранение во вложенную папку"
+
+#: src/Gui/SettingsDialog/SaveOptionsUtils.h:90
+msgctxt "show fewer filename placeholder templates"
+msgid "Show Fewer"
+msgstr "Показать меньше"
+
+#: src/Gui/SettingsDialog/SaveOptionsUtils.h:92
+msgctxt "show more filename placeholder templates"
+msgid "Show More"
+msgstr "Показать больше"
+
+#: src/Gui/SettingsDialog/VideoSaveOptionsPage.cpp:35
+msgid "Quality:"
+msgstr ""
+
+#: src/Gui/SettingsDialog/VideoSaveOptionsPage.cpp:37
+msgid "Low (smaller files)"
+msgstr ""
+
+#: src/Gui/SettingsDialog/VideoSaveOptionsPage.cpp:38
+msgid "Medium"
+msgstr ""
+
+#: src/Gui/SettingsDialog/VideoSaveOptionsPage.cpp:39
+msgid "High (larger files)"
+msgstr ""
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:37
+msgctxt "Settings category"
+msgid "General"
+msgstr "Общие"
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:38
+msgctxt "Settings category"
+msgid "Image Saving"
+msgstr "Сохранение изображений"
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:39
+msgctxt "Settings category"
+msgid "Video Saving"
+msgstr "Сохранение видео"
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:40
+msgctxt "Settings category"
+msgid "Shortcuts"
+msgstr "Комбинации клавиш"
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:104
+msgid "Shortcuts"
+msgstr "Комбинации клавиш"
+
+#, kde-format
+#~ msgctxt "translatable folder name"
+#~ msgid "Screenshots"
+#~ msgstr "Снимки экрана"
+
+#, kde-format
+#~ msgctxt "part of default image filename template"
+#~ msgid "Screenshot"
+#~ msgstr "Снимок экрана"
+
+#, kde-format
+#~ msgctxt "translatable folder name"
+#~ msgid "Screencasts"
+#~ msgstr "Записи экрана"
+
+#, kde-format
+#~ msgctxt "part of default video filename template"
+#~ msgid "Screencast"
+#~ msgstr "Запись экрана"
+
+#, kde-format
+#~ msgid "When launching Spectacle:"
+#~ msgstr "При запуске Spectacle:"
+
+#, kde-format
+#~ msgid "Take rectangular screenshot"
+#~ msgstr "Сделать снимок прямоугольной области"
+
+#, kde-format
+#~ msgid "Take full screen screenshot"
+#~ msgstr "Сделать снимок всего экрана"
+
+#, kde-format
+#~ msgid "Do not take a screenshot automatically"
+#~ msgstr "Не делать снимок экрана автоматически"
+
+#, kde-format
+#~ msgid "After taking a screenshot:"
+#~ msgstr "После создания снимка экрана:"
+
+#, kde-format
+#~ msgid "Save file to default folder"
+#~ msgstr "Сохранять изображение в папку по умолчанию"
+
+#, kde-format
+#~ msgid "Do not copy anything"
+#~ msgstr "Не использовать буфер обмена"
+
+#, kde-format
+#~ msgid "Copy image to clipboard"
+#~ msgstr "Копировать изображение в буфер обмена"
+
+#, kde-format
+#~ msgid "Copy file location to clipboard"
+#~ msgstr "Копировать полный путь в буфер обмена"
+
+#, kde-format
+#~ msgid "While Spectacle is running"
+#~ msgstr "При работе Spectacle"
+
+#, kde-format
+#~ msgid "Press screenshot key to:"
+#~ msgstr "Действие при нажатии клавиши Print Screen:"
+
+#, kde-format
+#~ msgid "Take a new Screenshot"
+#~ msgstr "Сделать новый снимок"
+
+#, kde-format
+#~ msgid "Open a new Spectacle window"
+#~ msgstr "Открыть новое окно Spectacle"
+
+#, kde-format
+#~ msgid "Return focus to Spectacle"
+#~ msgstr "Переключиться на окно Spectacle"
+
+#, kde-format
+#~ msgid "Rectangular Region Selection"
+#~ msgstr "Выделение прямоугольной области"
+
+#, kde-format
+#~ msgid "General:"
+#~ msgstr "Общее:"
+
+#, kde-format
+#~ msgid "Use light background"
+#~ msgstr "Использовать светлый фон"
+
+#, kde-format
+#~ msgid "Accept on click-and-release"
+#~ msgstr "Применять по нажатию и отпусканию левой кнопки мыши"
+
+#, kde-format
+#~ msgid "Show magnifier:"
+#~ msgstr "Показывать экранную лупу:"
+
+#, kde-format
+#~ msgid "Never"
+#~ msgstr "Никогда"
+
+#, kde-format
+#~ msgid "Always"
+#~ msgstr "Всегда"
+
+#, kde-format
+#~ msgid "While holding Shift"
+#~ msgstr "При нажатой клавише Shift"
+
+#, kde-format
+#~ msgid "Remember selected area:"
+#~ msgstr "Запоминать выбранную область:"
+
+#, kde-format
+#~ msgid "Until Spectacle is closed"
+#~ msgstr "До закрытия Spectacle"
+
+#, kde-format
+#~ msgid "Text Recognition (OCR)"
+#~ msgstr "Распознавание текста"
+
+#, kde-format
+#~ msgid "Languages for OCR:"
+#~ msgstr "Языки для распознавания:"
+
+#, kde-format
+#~ msgid "Text extraction:"
+#~ msgstr "Извлечение текста:"
+
+#, kde-format
+#~ msgid "Close after extraction (skips auto-save)"
+#~ msgstr "Закрыть после извлечения (автосохранение будет пропущено)"
+
+#, kde-format
+#~ msgid ""
+#~ "Spectacle will close after text extraction and automatic saving will be "
+#~ "skipped."
+#~ msgstr ""
+#~ "Spectacle закроется после извлечения текста, и автоматическое сохранение "
+#~ "будет пропущено."
+
+#, kde-format
+#~ msgid "OCR functionality is not available"
+#~ msgstr "Функция распознавания текста недоступна"
+
+#, kde-format
+#~ msgid ""
+#~ "Please install the required packages:\n"
+#~ "• tesseract\n"
+#~ "• tesseract language data (e.g., tesseract-ocr-eng for English)"
+#~ msgstr ""
+#~ "Установите необходимые пакеты:\n"
+#~ "• tesseract\n"
+#~ "• данные языка tesseract (например, tesseract-ocr-rus для русского)"
+
+#, kde-format
+#~ msgid "Save Location:"
+#~ msgstr "Путь для сохранения:"
+
+#, kde-format
+#~ msgid "Compression Quality:"
+#~ msgstr "Качество сжатия:"
+
+#, kde-format
+#~ msgid "For lossy image formats like JPEG"
+#~ msgstr ""
+#~ "При сохранении в форматах, использующих сжатие с потерями, таких как JPEG"
+
+#, no-c-format, kde-format
+#~ msgid "%"
+#~ msgstr "%"
+
+#, kde-format
+#~ msgid "Filename:"
+#~ msgstr "Имя файла:"
+
+#, kde-format
+#~ msgctxt "Preview of the user configured filename"
+#~ msgid "Preview:"
+#~ msgstr "Предварительный просмотр:"
+
+#, kde-format
+#~ msgid "What to do when Spectacle is launched"
+#~ msgstr "Что делать при запуске Spectacle"
+
+#, kde-format
+#~ msgid ""
+#~ "What should happen if print key is pressed when Spectacle is already "
+#~ "running"
+#~ msgstr ""
+#~ "Поведение при нажатии клавиши PrintScr, если приложение уже запущено"
+
+#, kde-format
+#~ msgid "Save screenshot automatically after it is taken"
+#~ msgstr "Сохранять снимок экрана в файл после его создания"
+
+#, kde-format
+#~ msgid ""
+#~ "Clipboard action which should be executed after the screenshot is taken"
+#~ msgstr "Действие с буфером обмена, выполняемое после создания снимка экрана"
+
+#, kde-format
+#~ msgid "Whether to use a light color mask in the region selection dialog"
+#~ msgstr ""
+#~ "Использовать светлый фон при создании прямоугольной области выделения"
+
+#, kde-format
+#~ msgid ""
+#~ "Whether the screenshot should be captured after selecting the region and "
+#~ "releasing the mouse"
+#~ msgstr ""
+#~ "Выполнять снимок экрана при отпускании кнопки мыши после задания "
+#~ "прямоугольной области"
+
+#, kde-format
+#~ msgid "Remember the last rectangular region"
+#~ msgstr "Запоминать прямоугольную область"
+
+#, kde-format
+#~ msgid "Default languages for OCR text recognition"
+#~ msgstr "Языки по умолчанию для распознавания текста"
+
+#, kde-format
+#~ msgid "The last used region the user selected"
+#~ msgstr "Последняя использованная прямоугольная область"
+
+#, kde-format
+#~ msgid "Take screenshot on click"
+#~ msgstr "Создавать снимок по щелчку мышью"
+
+#, kde-format
+#~ msgid "Whether the mouse cursor is included in the screenshot"
+#~ msgstr "Не убирать указатель мыши со снимка экрана"
+
+#, kde-format
+#~ msgid "Whether the mouse cursor is included in the video"
+#~ msgstr "Не убирать указатель мыши при записи видео"
+
+#, kde-format
+#~ msgid "Whether system audio is included in the recording"
+#~ msgstr "Не убирать системный звук при записи видео"
+
+#, kde-format
+#~ msgid "Whether microphone audio is included in the recording"
+#~ msgstr "Не убирать звук с микрофона при записи видео"
+
+#, kde-format
+#~ msgid "Whether the window decorations are included in the screenshot"
+#~ msgstr "Не убирать заголовок и границы окна со снимка экрана"
+
+#, kde-format
+#~ msgid "Whether the window shadow is included in the screenshot"
+#~ msgstr "Не убирать тень окна со снимка экрана"
+
+#, kde-format
+#~ msgid "Quit after saving or copying an image"
+#~ msgstr "Выйти после сохранения или копирования"
+
+#, kde-format
+#~ msgid "Delay"
+#~ msgstr "Задержка"
+
+#, kde-format
+#~ msgid "Default filename"
+#~ msgstr "Имя файла по умолчанию"
+
+#, kde-format
+#~ msgid "Compression quality for lossy file formats"
+#~ msgstr "Качество сжатия для форматов с потерями"
+
+#, kde-format
+#~ msgid "Default save image format"
+#~ msgstr "Формат для сохранения снимков экрана по умолчанию"
+
+#, kde-format
+#~ msgid "The filename template used when saving screenshots"
+#~ msgstr "Шаблон имени файла для сохранения снимков экрана"
+
+#, kde-format
+#~ msgid "The path of the file saved last"
+#~ msgstr "Путь последнего сохранённого снимка экрана"
+
+#, kde-format
+#~ msgid "Last path used for \"save as\" action"
+#~ msgstr "Путь, использованный при последнем сохранении"
+
+#, kde-format
+#~ msgid "Default video format"
+#~ msgstr "Формат для сохранения видео по умолчанию"
+
+#, kde-format
+#~ msgid "The filename template used when saving screencasts"
+#~ msgstr "Шаблон имени файла для сохранения записей с экрана"
+
+#, kde-format
+#~ msgid "Save &Location:"
+#~ msgstr "&Путь для сохранения:"
+
+#, kde-format
+#~ msgid "Spectacle"
+#~ msgstr "Spectacle"
+
+#, kde-format
+#~ msgid "KDE Screenshot Utility"
+#~ msgstr "Приложение для создания снимков экрана от KDE"
+
+#~ msgid ""
+#~ "Capture the window currently under the cursor, excluding parents of pop-"
+#~ "up menus"
+#~ msgstr ""
+#~ "Сделать снимок окна под указателем мыши, не включая родительские окна "
+#~ "всплывающих меню."
+
+#~ msgid "Capture the current pop-up only"
+#~ msgstr "Захватить только текущее всплывающее окно"
+
+#~ msgid ""
+#~ "Capture only the current pop-up window (like a menu, tooltip etc) when "
+#~ "taking a screenshot of a window. If disabled, the pop-up is captured "
+#~ "along with the parent window."
+#~ msgstr ""
+#~ "При съёмке окна захватить только текущее всплывающее окно (например, "
+#~ "меню, всплывающую подсказку и тому подобное).\n"
+#~ "Если флажок снят, то в снимок будет также включено родительское окно."
+
+#~ msgctxt "@option:check"
+#~ msgid "Capture the current pop-up only"
+#~ msgstr "Захватить только текущее всплывающее окно"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid ""
+#~ "Capture only the current pop-up window (like a menu, tooltip etc).\n"
+#~ "If disabled, the pop-up is captured along with the parent window"
+#~ msgstr ""
+#~ "Захватить только текущее всплывающее окно (например, меню, всплывающую "
+#~ "подсказку и тому подобное).\n"
+#~ "Если флажок снят, то в снимок будет также включено родительское окно."
+
+#~ msgid "Only capture the current pop up menu"
+#~ msgstr "Захватить только текущее всплывающее меню"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "The shared image link (<a href=\"%1\">%1</a>) has been copied to the "
+#~ "clipboard."
+#~ msgstr ""
+#~ "Ссылка на опубликованный снимок экрана (<a href=\"%1\">%1</a>) "
+#~ "скопирована в буфер обмена."
+
+#, fuzzy
+#~ msgctxt "@action"
+#~ msgid "Open Containing Folder"
+#~ msgstr "Открыть содержащую папку"
+
+#~ msgid "The last used annotation tool type"
+#~ msgstr "Последний использованный инструмент"
+
+#~ msgid "Stroke width for freehand annotation tool"
+#~ msgstr "Ширина обводки произвольный линии"
+
+#~ msgid "Stroke width for highlighter annotation tool"
+#~ msgstr "Ширина обводки выделения"
+
+#~ msgid "Stroke width for line annotation tool"
+#~ msgstr "Ширина обводки линии"
+
+#~ msgid "Stroke width for arrow annotation tool"
+#~ msgstr "Ширина обводки стрелки"
+
+#~ msgid "Stroke width for rectangle annotation tool"
+#~ msgstr "Ширина обводки прямоугольника"
+
+#~ msgid "Stroke width for ellipse annotation tool"
+#~ msgstr "Ширина обводки эллипса"
+
+#~ msgid "Stroke color for freehand annotation tool"
+#~ msgstr "Цвет обводки произвольный линии"
+
+#~ msgid "Stroke color for highlighter annotation tool"
+#~ msgstr "Цвет обводки выделения"
+
+#~ msgid "Stroke color for line annotation tool"
+#~ msgstr "Цвет обводки линии"
+
+#~ msgid "Stroke color for arrow annotation tool"
+#~ msgstr "Цвет обводки стрелки"
+
+#~ msgid "Stroke color for rectangle annotation tool"
+#~ msgstr "Цвет обводки прямоугольника"
+
+#~ msgid "Stroke color for ellipse annotation tool"
+#~ msgstr "Цвет обводки эллипса"
+
+#~ msgid "Fill color for rectangle annotation tool"
+#~ msgstr "Цвет заполнения прямоугольника"
+
+#~ msgid "Fill color for ellipse annotation tool"
+#~ msgstr "Цвет заполнения эллипса"
+
+#~ msgid "Fill color for number annotation tool"
+#~ msgstr "Цвет заполнения чисел"
+
+#~ msgid "The strength of the blur effect."
+#~ msgstr "Насыщенность эффекта размытия."
+
+#~ msgid "The strength of the pixelate effect."
+#~ msgstr "Интенсивность эффекта пикселизации."
+
+#~ msgid "Font for text annotations"
+#~ msgstr "Шрифт для текста"
+
+#~ msgid "Font for number annotations"
+#~ msgstr "Шрифт для чисел"
+
+#~ msgid "Font color for annotations"
+#~ msgstr "Цвет шрифта"
+
+#~ msgid "Whether freehand annotation tool has a drop shadow"
+#~ msgstr "Тень при использовании инструмента «произвольная линия»"
+
+#~ msgid "Whether line annotation tool has a drop shadow"
+#~ msgstr "Тень при использовании инструмента «линия»"
+
+#~ msgid "Whether arrow annotation tool has a drop shadow"
+#~ msgstr "Тень при использовании инструмента «стрелка»"
+
+#~ msgid "Whether rectangle annotation tool has a drop shadow"
+#~ msgstr "Тень при использовании инструмента «прямоугольник»"
+
+#~ msgid "Whether ellipse annotation tool has a drop shadow"
+#~ msgstr "Тень при использовании инструмента «эллипс»"
+
+#~ msgid "Whether text annotation tool has a drop shadow"
+#~ msgstr "Тень при использовании инструмента «текст»"
+
+#~ msgid "Whether number annotation tool has a drop shadow"
+#~ msgstr "Тень при использовании инструмента «цифры»"
+
+#~ msgid "Show capture instructions"
+#~ msgstr "Показывать инструкции по захвату"
+
+#~ msgid "Whether to show capture instructions in the region selection"
+#~ msgstr ""
+#~ "Показывать инструкции по захвату для прямоугольной области выделения"
+
+#~ msgctxt "@action global shortcut"
+#~ msgid "Record Window"
+#~ msgstr "Запись окна"
+
+#~ msgctxt "@action global shortcut"
+#~ msgid "Record Rectangular Region"
+#~ msgstr "Запись прямоугольной области"
+
+#~ msgctxt "recording notification message"
+#~ msgid "Click the system tray icon to finish recording"
+#~ msgstr "Чтобы остановить запись нажмите на значок в системном лотке"
+
+#~ msgctxt "@info"
+#~ msgid "The screenshot location has been copied to the clipboard."
+#~ msgstr "Путь к файлу снимка экрана скопирован в буфер обмена."
+
+#~ msgctxt "@info"
+#~ msgid "Video shared"
+#~ msgstr "Видео опубликовано"
+
+#~ msgctxt "@info"
+#~ msgid "Image shared"
+#~ msgstr "Изображение опубликовано"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "The shared video link (<a href=\"%1\">%1</a>) has been copied to the "
+#~ "clipboard."
+#~ msgstr ""
+#~ "Ссылка на опубликованное видео (<a href=\"%1\">%1</a>) скопирована в "
+#~ "буфер обмена."
+
+#~ msgctxt "@info"
+#~ msgid "There was a problem sharing the video: %1"
+#~ msgstr "Не удалось опубликовать видео: %1"
+
+#~ msgid "Screenshot"
+#~ msgstr "Снимок экрана"
+
+#~ msgid "Configure..."
+#~ msgstr "Настройка..."
+
+#~ msgid "Capture Mode"
+#~ msgstr "Режим съёмки"
+
+#~ msgid "Capture Settings"
+#~ msgstr "Параметры съёмки"
+
+#, fuzzy
+#~ msgctxt "@title:group"
+#~ msgid "Recording Settings"
+#~ msgstr "Параметры записи"
+
+#~ msgid ""
+#~ "Could not take a screenshot. Please report this bug here: <a "
+#~ "href=\"https://bugs.kde.org/enter_bug.cgi?product=Spectacle\">create a "
+#~ "spectacle bug</a>"
+#~ msgstr ""
+#~ "Не удалось создать снимок экрана. Сообщите об этой <a href=\"https://"
+#~ "bugs.kde.org/enter_bug.cgi?product=Spectacle\">ошибке Spectacle</a>."
+
+#~ msgid "Screenshot capture canceled or failed"
+#~ msgstr "Создание снимка экрана отменено или не удалось."
+
+#~ msgid "Show Annotation Tools"
+#~ msgstr "Показать инструменты комментирования"
+
+#~ msgid "Whether to show a magnifier in the region selection"
+#~ msgstr "Использовать экранную лупу для прямоугольной области выделения"
+
+#~ msgid "Capture Modes"
+#~ msgstr "Режимы съёмки"
+
+# BUGME: plurals please --aspotashev
+#~ msgctxt "Decimal number of seconds"
+#~ msgid "%2 seconds"
+#~ msgstr "%2 секунды"
+
+#~ msgctxt ""
+#~ "A placeholder in the user configurable filename will replaced by the "
+#~ "specified value"
+#~ msgid "Day"
+#~ msgstr "День"
+
+#~ msgctxt ""
+#~ "A placeholder in the user configurable filename will replaced by the "
+#~ "specified value"
+#~ msgid "Month"
+#~ msgstr "Месяц"
+
+#~ msgctxt ""
+#~ "A placeholder in the user configurable filename will replaced by the "
+#~ "specified value"
+#~ msgid "Hour"
+#~ msgstr "Часы"
+
+#~ msgctxt ""
+#~ "A placeholder in the user configurable filename will replaced by the "
+#~ "specified value"
+#~ msgid "Minute"
+#~ msgstr "Минуты"
+
+# BUGME: plurals please --aspotashev
+#~ msgctxt ""
+#~ "A placeholder in the user configurable filename will replaced by the "
+#~ "specified value"
+#~ msgid "Second"
+#~ msgstr "Секунды"
+
+#~ msgctxt ""
+#~ "A placeholder in the user configurable filename will replaced by the "
+#~ "specified value"
+#~ msgid "Timezone"
+#~ msgstr "Часовой пояс"
+
+#~ msgctxt ""
+#~ "A placeholder in the user configurable filename will replaced by the "
+#~ "specified value"
+#~ msgid "Sequential numbering"
+#~ msgstr "Последовательная нумерация"
+
+#~ msgid "The default filename used when recording a video"
+#~ msgstr "Имя файла по умолчанию для записи видео"
+
+#, fuzzy
+#~ msgctxt "@item recording mode"
+#~ msgid "Region"
+#~ msgstr "Область экрана"
+
+#, fuzzy
+#~ msgctxt "@item recording mode"
+#~ msgid "Screen"
+#~ msgstr "Снимок экрана"
+
+#~ msgid "Workspace"
+#~ msgstr "Область окна"
+
+#~ msgid "Failed to select output"
+#~ msgstr "Не удалось выбрать окно вывода"
+
+#, fuzzy
+#~ msgctxt "Settings category"
+#~ msgid "Save"
+#~ msgstr "Сохранить"
+
+#, fuzzy
+#~ msgid "File format for saved screen recordings"
+#~ msgstr "Новая запись экрана"
+
+#~ msgid "On Click"
+#~ msgstr "По щелчку"
+
+#~ msgid "Take a New Screenshot"
+#~ msgstr "Сделать новый снимок"
+
+#~ msgid "Capture only the current pop-up window (like a menu, tooltip etc).\n"
+#~ msgstr ""
+#~ "Захватить только текущее всплывающее окно (например, меню, всплывающую "
+#~ "подсказку и тому подобное).\n"
+
+# BUGME: term inconsistency: "monitor" vs "screen" --aspotashev
+#~ msgid "Full Screen (All Monitors)"
+#~ msgstr "Все экраны"
+
+# BUGME: term inconsistency: "monitor" vs "screen" --aspotashev
+#~ msgid "Full Screen (All Monitors, scaled)"
+#~ msgstr "Все экраны с масштабированием"
+
+#~ msgid "Image Size: %1x%2 pixels"
+#~ msgstr "Размер изображения: %1×%2 пикселов"
+
+#~ msgid "Change Spectacle's settings."
+#~ msgstr "Настройка параметров Spectacle"
+
+#~ msgid "Add annotation to the screenshot"
+#~ msgstr "Добавить комментарий к снимку экрана"
+
+#~ msgid "Tools"
+#~ msgstr "Сервис"
+
+#~ msgid "Copy Image to Clipboard"
+#~ msgstr "Копировать изображение в буфер обмена"
+
+#~ msgid "Ready to take a screenshot"
+#~ msgstr "Программа готова к созданию снимка экрана"
+
+#~ msgctxt "@action:button"
+#~ msgid "Annotate"
+#~ msgstr "Комментировать"
+
+#~ msgid "Area:"
+#~ msgstr "Область:"
+
+#~ msgid "<b>Options</b>"
+#~ msgstr "<b>Параметры</b>"
+
+#~ msgid "The last used copy mode"
+#~ msgstr "Последний использованный режим копирования"
+
+#~ msgctxt "The entire screen area was captured, heading"
+#~ msgid "Full Screen Captured"
+#~ msgstr "Сделан снимок всех экранов"
+
+#~ msgctxt "The current screen was captured, heading"
+#~ msgid "Current Screen Captured"
+#~ msgstr "Сделан снимок текущего экрана"
+
+#~ msgctxt "The active window was captured, heading"
+#~ msgid "Active Window Captured"
+#~ msgstr "Сделан снимок активного окна"
+
+#~ msgctxt "The window under the mouse was captured, heading"
+#~ msgid "Window Under Cursor Captured"
+#~ msgstr "Сделан снимок окна под курсором мыши"
+
+#~ msgctxt "A rectangular region was captured, heading"
+#~ msgid "Rectangular Region Captured"
+#~ msgstr "Сделан снимок прямоугольной области"
+
+#~ msgid "More Online Services"
+#~ msgstr "Другие способы публикации"
+
+#~ msgid "KIPI plugin from library %1 failed to load"
+#~ msgstr "Не удалось загрузить модуль KIPI из библиотеки %1"
+
+#~ msgctxt "%1 is collection name, %2 is image count in collection"
+#~ msgid "%1 (%2 image)"
+#~ msgid_plural "%1 (%2 images)"
+#~ msgstr[0] "%1 (%2 изображение)"
+#~ msgstr[1] "%1 (%2 изображения)"
+#~ msgstr[2] "%1 (%2 изображений)"
+#~ msgstr[3] "%1 (%2 изображение)"
+
+#~ msgid "Taken with Spectacle"
+#~ msgstr "Создано с помощью Spectacle"
+
+#~ msgid "Remember the region across restarts"
+#~ msgstr "Запоминать прямоугольную область после выхода из программы"
+
+#~ msgid ""
+#~ "Choose the image quality when saving with lossy image formats like JPEG"
+#~ msgstr ""
+#~ "Выберите качество изображения при сохранении в форматах сжатия с потерями "
+#~ "(например, JPEG)"
+
+#~ msgid "Copy file location to clipboard after saving"
+#~ msgstr "Копировать путь в буфер обмена после сохранения"
+
+#~ msgid "Copy screenshot automatically to the clipboard after it is taken"
+#~ msgstr "Копировать снимок экрана в буфер обмена после его создания"
+
+#~ msgid "Whether to copy the file path after saving to the clipboard"
+#~ msgstr "Копировать путь к файлу снимка экрана после его сохранения"
+
+#~ msgid "Copy the current screenshot image to the clipboard."
+#~ msgstr "Копировать полученный снимок в буфер обмена"
+
+#~ msgid "currentText"
+#~ msgstr "currentText"
+
+#, fuzzy
+#~ msgid "Include pointer in the screenshot"
+#~ msgstr "После создания снимка экрана:"
+
+#, fuzzy
+#~ msgid "Do not include window decorations in the screenshot"
+#~ msgstr "Не убирать заголовок и границы окна со снимка экрана"
+
+#, fuzzy
+#~ msgctxt "The entire desktop was captured, heading"
+#~ msgid "Entire Desktop Captured"
+#~ msgstr "Сделать снимок всех экранов"
+
+#~ msgctxt "@title:window"
+#~ msgid "Configure"
+#~ msgstr "Настройка"
+
+#~ msgid "Apply Unsaved Changes"
+#~ msgstr "Несохранённые изменения"
+
+#~ msgid ""
+#~ "You have made changes to the settings in this tab. Do you want to apply "
+#~ "those changes?"
+#~ msgstr "В текущей вкладке имеются несохранённые изменения. Применить их?"
+
+#~ msgctxt "Mouse action"
+#~ msgid "Click and drag,"
+#~ msgstr "Щелчок и удерживание левой кнопки мыши,"
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgctxt "Keyboard action"
+#~ msgid "Shift:"
+#~ msgstr "Shift:"
+
+#~ msgctxt "Shift key action first half"
+#~ msgid "Hold to toggle magnifier"
+#~ msgstr "Удерживайте для включения экранной лупы"
+
+#~ msgctxt "Shift key action second half"
+#~ msgid "while dragging selection handles"
+#~ msgstr "во время выделения"
+
+#~ msgctxt "Shift key action second line"
+#~ msgid "Hold Alt to resize, Shift to fine‑tune"
+#~ msgstr "Удерживайте Alt для изменения размера, Shift для подгонки"
+
+#~ msgctxt "Keyboard action"
+#~ msgid "Esc:"
+#~ msgstr "Esc:"
+
+#~ msgctxt "%1 is the default filename of a screenshot"
+#~ msgid ""
+#~ "<p>You can use the following placeholders in the filename, which will be "
+#~ "replaced with actual text when the file is saved:</p><blockquote><b>%Y</"
+#~ "b>: Year (4 digit)<br /><b>%y</b>: Year (2 digit)<br /><b>%M</b>: "
+#~ "Month<br /><b>%D</b>: Day<br /><b>%H</b>: Hour<br /><b>%m</b>: Minute<br /"
+#~ "><b>%S</b>: Second<br /><b>%T</b>: Window title<br /><b>%d</b>: "
+#~ "Sequential numbering<br /><b>%Nd</b>: Sequential numbering, padded out to "
+#~ "N digits</blockquote><p>To save to a sub-folder, use slashes, e.g.:</"
+#~ "p><blockquote><b>%Y</b>/<b>%M</b>/%1</blockquote>"
+#~ msgstr ""
+#~ "<p>Возможно использовать следующие подстановки в имени файла, которые "
+#~ "будут заменены на фактический текст при сохранении файла:</p> "
+#~ "<blockquote> <b>%Y</b> — год (4 цифры),<br /> <b>%y</b> — год (2 цифры),"
+#~ "<br /> <b>%M</b> — месяц,<br /> <b>%D</b> — день,<br /> <b>%H</b> — часы,"
+#~ "<br /> <b>%m</b> — минуты,<br /> <b>%S</b> — секунды, <br /> <b>%T</b> — "
+#~ "заголовок окна<br /> <b>%d</b> — порядковый номер<br /> <b>%Nd</b> — "
+#~ "порядковый номер, состоящий из N цифр</blockquote> <p>Для сохранения во "
+#~ "вложенных папках используйте символ косой черты, например:</p> "
+#~ "<blockquote><b>%Y</b>/<b>%M</b>/%1</blockquote>"
+
+#~ msgid "Rectangular Region:"
+#~ msgstr "Прямоугольная область:"
+
+#~ msgid "Default Save Location"
+#~ msgstr "Каталог для сохранения"
+
+#~ msgid "You can find the shared image at: <a href=\"%1\">%1</a>"
+#~ msgstr ""
+#~ "Опубликованное изображение доступно по ссылке: <a href=\"%1\">%1</a>"
+
+#~ msgid ""
+#~ "To take the screenshot, double-click or press Enter. Right-click to reset "
+#~ "the selection, or press Esc to quit"
+#~ msgstr ""
+#~ "Для того, чтобы сделать снимок области, нажмите клавишу Enter или "
+#~ "сделайте двойной щелчок мышью. Для отмены выбора области щёлкните правой "
+#~ "кнопкой мыши, для отмены создания снимка нажмите клавишу Esc."
+
+#~ msgid "Save &&& Exit"
+#~ msgstr "Сохранить и выйти"
+
+#~ msgid "Save screenshot in your Pictures directory and exit"
+#~ msgstr "Сохранить снимок в папке «Изображения» и выйти"
+
+#~ msgid "Export Image..."
+#~ msgstr "Экспорт..."
+
+# BUGME: please add ellipsis --aspotashev
+#~ msgid "Preferences"
+#~ msgstr "Настроить Spectacle..."
+
+#~ msgid "Dynamic Save Button"
+#~ msgstr "Динамическая кнопка сохранения"
+
+#~ msgid ""
+#~ "The default behavior of the save button is to <b>Save & Exit</b>. Enable "
+#~ "this option to change the save button to either <b>Save</b>, <b>Save As</"
+#~ "b> or <b>Save & Exit</b>, according to the save action you perform, every "
+#~ "time you save an image."
+#~ msgstr ""
+#~ "По умолчанию кнопка сохранения выглядит как <b>Сохранить и выйти</b>. "
+#~ "Включите этот параметр, чтобы изменить её на <b>Сохранить</b>, "
+#~ "<b>Сохранить как...</b> или <b>Сохранить и выйти</b>, в зависимости от "
+#~ "того, каким из этих действий сохранялось предыдущее изображение."
+
+#~ msgid "Set save button action to last used save method"
+#~ msgstr "Кнопка сохранения будет использовать предыдущий метод сохранения"
+
+#~ msgid ""
+#~ "When a screenshot is saved, copy the location at which the file was saved "
+#~ "to the clipboard. You can then paste it anywhere that accepts text input. "
+#~ "Note that you must be running a clipboard manager in order to keep the "
+#~ "path in the clipboard after Spectacle quits."
+#~ msgstr ""
+#~ "После сохранения снимка экрана программа скопирует его расположение в "
+#~ "буфер обмена. После этого его можно будет вставить в любое место, "
+#~ "поддеживающее текстовый ввод. Учтите, что для того, чтобы хранить путь в "
+#~ "буфере обмена после выхода из Spectacle, должен быть запущен менеджер "
+#~ "буфера обмена."
+
+#~ msgid "Light Background For Rectangular Region"
+#~ msgstr "Светлый фон для прямоугольной области"
+
+#~ msgid ""
+#~ "Use a light background color to mask the cropped-out area in the "
+#~ "rectangular region selector. This may make dark cursors easier to see."
+#~ msgstr ""
+#~ "Использовать светлый фон, чтобы скрыть отрезанную часть при выделении "
+#~ "прямоугольной области. Это поможет лучше видеть тёмный курсор."
+
+#~ msgid ""
+#~ "By default, Spectacle does not show an initial selection when you take a "
+#~ "screenshot of a rectangular region. Enable this option to remember the "
+#~ "last selected region of the screen, and set it as the initial selection "
+#~ "when you use the rectangular region selector the next time."
+#~ msgstr ""
+#~ "По умолчанию Spectacle не отображает предыдущее выделение, когда вы "
+#~ "делаете снимок прямоугольной области. Включите этот параметр, чтобы "
+#~ "запомнить последнюю выделенную область на экране и показывать её, когда "
+#~ "вы будете выделять прямоугольную область в следующий раз."
+
+#~ msgid ""
+#~ "Set the directory where you'd like to save your screenshots when you "
+#~ "press <b>Save</b> or <b>Save & Exit</b>."
+#~ msgstr ""
+#~ "Выберите каталог, в который будут сохраняться снимки экрана при нажатии "
+#~ "кнопок <b>Сохранить и выйти</b> и <b>Сохранить</b>."
+
+#~ msgid "Application Preferences"
+#~ msgstr "Настройка приложения"
+
+#~ msgid "Open With..."
+#~ msgstr "Открыть в..."
+
+#~ msgid "KScreenGenie"
+#~ msgstr "KScreenGenie"
+
+#~ msgid ""
+#~ "Select a region using the mouse. To take the snapshot, press the Enter "
+#~ "key or double click. Press Esc to quit."
+#~ msgstr ""
+#~ "Выберите область с помощью курсора мыши. Для того, чтобы сделать снимок "
+#~ "области, нажмите клавишу Enter или сделайте двойной щелчок мышью. Нажмите "
+#~ "клавишу Esc чтобы отменить."
+
+#~ msgid "snapshot"
+#~ msgstr "снимок"
+
+#~ msgid "KDE Background Screenshot Utility"
+#~ msgstr "Программа KDE для создания снимков экрана"
+
+#~ msgid "KBackgroundSnapshot"
+#~ msgstr "KBackgroundSnapshot"
+
+#~ msgid "(c) 2007, Montel Laurent"
+#~ msgstr "© Montel Laurent, 2007"
+
+#~ msgid "untitled"
+#~ msgstr "безымянный"
+
+#~ msgid "Send To..."
+#~ msgstr "Открыть в..."
+
+#~ msgid "Quick Save Snapshot &As..."
+#~ msgstr "Быстрое сохранение &как..."
+
+#~ msgid ""
+#~ "Save the snapshot to the file specified by the user without showing the "
+#~ "file dialog."
+#~ msgstr ""
+#~ "Сохранить снимок в файле с именем, указанным пользователем, без показа "
+#~ "диалога выбора файла."
+
+#~ msgid "Save Snapshot &As..."
+#~ msgstr "Сохранить снимок &как..."
+
+#~ msgid "Save the snapshot to the file specified by the user."
+#~ msgstr "Сохранить снимок в файле с именем, указанным пользователем."
+
+#~ msgid "The screen has been successfully grabbed."
+#~ msgstr "Снимок экрана был успешно сделан."
+
+#~ msgid "Preview of the snapshot image (%1 x %2)"
+#~ msgstr "Предварительный просмотр снимка (%1 × %2)"
+
+#~ msgid ""
+#~ "Captures the window under the mouse on startup (instead of the desktop)"
+#~ msgstr "Создавать снимок активного окна при запуске (вместо целого экрана)"
+
+#~ msgid "File Exists"
+#~ msgstr "Файл с таким именем уже существует"
+
+#~ msgid "<qt>Do you really want to overwrite <b>%1</b>?</qt>"
+#~ msgstr "<qt>Заменить существующий файл с именем <b>%1</b>?</qt>"
+
+#~ msgid "Overwrite"
+#~ msgstr "Заменить"
+
+#~ msgid "Unable to Save Image"
+#~ msgstr "Невозможно сохранить изображение"
+
+#~ msgid "Title"
+#~ msgstr "Заголовок окна"
+
+#~ msgid ""
+#~ "This is a preview of the current snapshot.\n"
+#~ "\n"
+#~ "The image can be dragged to another application or document to copy the "
+#~ "full screenshot there. Try it with the file manager.\n"
+#~ "\n"
+#~ "You can also copy the image to the clipboard by pressing Ctrl+C."
+#~ msgstr ""
+#~ "Это уменьшенная копия текущего снимка.\n"
+#~ "\n"
+#~ "Это изображение можно перетащить в другое приложение или документ, и туда "
+#~ "будет вставлен полный снимок экрана. Попробуйте проделать это с файловым "
+#~ "менеджером.\n"
+#~ "\n"
+#~ "Вы также можете скопировать изображение в буфер обмена, нажав Ctrl+C."
+
+#~ msgid "Click this button to take a new snapshot."
+#~ msgstr "При нажатии на эту кнопку будет сделан новый снимок экрана."
+
+#~ msgid ""
+#~ "<qt>Using this menu, you can select from the six following snapshot "
+#~ "modes:\n"
+#~ "<p>\n"
+#~ "<b>Full Screen</b> - captures the entire desktop.<br/>\n"
+#~ "<b>Window Under Cursor</b> - captures only the window (or menu) that is "
+#~ "under the mouse cursor when the snapshot is taken.<br/>\n"
+#~ "<b>Rectangular Region</b> - captures only the rectangular region of the "
+#~ "desktop that you specify. When taking a new snapshot in this mode you "
+#~ "will be able to select any area of the screen by clicking and dragging "
+#~ "the mouse.<br/>\n"
+#~ "<b>Freehand Region</b> - captures arbitrary shapes that you specify. When "
+#~ "taking a new snapshot in this mode you will be able to select any shape "
+#~ "by dragging the mouse.<br/>\n"
+#~ "<b>Section of Window</b> - captures only a section of the window. When "
+#~ "taking a new snapshot in this mode you will be able to select any child "
+#~ "window by moving the mouse over it.<br/>\n"
+#~ "<b>Current Screen</b> - if you have multiple screens, this captures the "
+#~ "screen containing the mouse cursor when the snapshot is taken.\n"
+#~ "</p></qt>"
+#~ msgstr ""
+#~ "<qt>В этом меню вы можете выбрать один из следующих режимов получения "
+#~ "снимка экрана:\n"
+#~ "<p>\n"
+#~ "<b>Весь экран</b> — снимок всего экрана.<br/>\n"
+#~ "<b>Окно под курсором мыши</b> — снимок только окна (или меню), которое в "
+#~ "момент снимка находилось под курсором мыши.<br/>\n"
+#~ "<b>Прямоугольная область</b>  — снимок только заданной прямоугольной "
+#~ "области экрана. В этом режиме вы можете выделить область экрана, щёлкнув "
+#~ "и переместив мышь.<br/>\n"
+#~ "<b>Произвольная область</b> — снимок произвольной формы. В этом режиме вы "
+#~ "можете выделить любую область, перемещая мышь.<br/>\n"
+#~ "<b>Область окна</b> — снимок указанной области окна под курсором мыши. В "
+#~ "этом режиме вы можете выделить любое дочернее окно, перемещая мышь над "
+#~ "ним.<br/>\n"
+#~ "<b>Текущий экран</b> — если у вас несколько экранов, вы сделаете снимок "
+#~ "того, на котором в момент снимка находится указатель мыши.\n"
+#~ "</p></qt>"
+
+#~ msgid "Snapshot &delay:"
+#~ msgstr "&Задержка:"
+
+#~ msgid "Snapshot delay in seconds"
+#~ msgstr "Задержка получения снимка в секундах"
+
+#~ msgid ""
+#~ "<qt><p>\n"
+#~ "This is the number of seconds to wait after clicking the <i>New Snapshot</"
+#~ "i> button before taking the snapshot.\n"
+#~ "</p><p>\n"
+#~ "This is very useful for getting windows, menus and other items on the "
+#~ "screen set up just the way you want.\n"
+#~ "</p><p>\n"
+#~ "If <i>no delay</i> is set, the program will wait for a mouse click before "
+#~ "taking a snapshot.\n"
+#~ "</p>\n"
+#~ "</qt>"
+#~ msgstr ""
+#~ "<qt><p>\n"
+#~ "Здесь указывается количество секунд до реального получения снимка экрана "
+#~ "после нажатия кнопки <i>Новый снимок</i>.\n"
+#~ "</p><p>\n"
+#~ "Эта возможность используется для снятия снимков окон, меню и других "
+#~ "элементов экрана с необходимой задержкой, чтобы вы успели активизировать "
+#~ "их.\n"
+#~ "</p><p>\n"
+#~ "Если <i>задержка не указана</i>, снимок будет сделан только после нажатия "
+#~ "левой клавиши мыши.\n"
+#~ "</p>\n"
+#~ "</qt>"
+
+#~ msgid ""
+#~ "When enabled, snapshot of a window will also include the window "
+#~ "decorations"
+#~ msgstr ""
+#~ "При включении этого флажка снимок будет включать также обрамление окна."
+
+#~ msgid "KSnapshot"
+#~ msgstr "KSnapshot"
+
+#~ msgid ""
+#~ "(c) 1997-2008, Richard J. Moore,\n"
+#~ "(c) 2000, Matthias Ettrich,\n"
+#~ "(c) 2002-2003 Aaron J. Seigo"
+#~ msgstr ""
+#~ "© Richard J. Moore, 1997-2008\n"
+#~ "© Matthias Ettrich, 2000\n"
+#~ "© Aaron J. Seigo, 2002-2003"
+
+#~ msgid "Richard J. Moore"
+#~ msgstr "Richard J. Moore"
+
+#~ msgid "Matthias Ettrich"
+#~ msgstr "Matthias Ettrich"
+
+#~ msgid "Aaron J. Seigo"
+#~ msgstr "Aaron J. Seigo"
+
+#~ msgid "Nadeem Hasan"
+#~ msgstr "Nadeem Hasan"
+
+#~ msgid ""
+#~ "Region Grabbing\n"
+#~ "Reworked GUI"
+#~ msgstr ""
+#~ "Выделение области\n"
+#~ "Переработка интерфейса"
+
+#~ msgid "Marcus Hufgard"
+#~ msgstr "Marcus Hufgard"
+
+#~ msgid "\"Open With\" function"
+#~ msgstr "Открытие во внешнем приложении"
+
+#~ msgid "Pau Garcia i Quiles"
+#~ msgstr "Pau Garcia i Quiles"
+
+#~ msgid "Free region grabbing, KIPI plugins support, port to Windows"
+#~ msgstr ""
+#~ "Выделение произвольной области, поддержка расширений KIPI, портирование "
+#~ "на Windows"
+
+#~ msgid "Snapshot will be taken in 1 second"
+#~ msgid_plural "Snapshot will be taken in %1 seconds"
+#~ msgstr[0] "Снимок будет произведён через %1 секунду"
+#~ msgstr[1] "Снимок будет произведён через %1 секунды"
+#~ msgstr[2] "Снимок будет произведён через %1 секунд"
+#~ msgstr[3] "Снимок будет произведён через %1 секунду"
+
+#~ msgid ""
+#~ "Click this button to save the current snapshot. To quickly save the "
+#~ "snapshot without showing the file dialog, press Ctrl+Shift+S. The "
+#~ "filename is automatically incremented after each save."
+#~ msgstr ""
+#~ "При нажатии на эту кнопку сделанный снимок экрана будет сохранён в файл. "
+#~ "Для быстрого сохранения без использования диалога выбора файла, нажмите "
+#~ "Control+Shift+S. При каждом сохранении будет создан новый файл с "
+#~ "инкрементируемым именем."
+
+#~ msgid "Click this button to open the snapshot with another application."
+#~ msgstr ""
+#~ "При нажатии на эту кнопку снимок экрана будет открыт во внешнем "
+#~ "приложении."
+
+#~ msgid "Snapshot will be taken in %1 seconds"
+#~ msgstr "Задержка получения снимка в секундах (%1)"
+
+#~ msgid ""
+#~ "_: NAME OF TRANSLATORS\n"
+#~ "Your names"
+#~ msgstr "Денис Першин,Андрей Черепанов"
+
+#~ msgid ""
+#~ "_: EMAIL OF TRANSLATORS\n"
+#~ "Your emails"
+#~ msgstr "dyp@perchine.com,sibskull@mail.ru"

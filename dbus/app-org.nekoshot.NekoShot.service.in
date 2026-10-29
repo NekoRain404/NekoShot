@@ -1,0 +1,7 @@
+[Unit]
+Description=NekoShot screenshot capture utility
+
+[Service]
+ExecStart=@KDE_INSTALL_FULL_BINDIR@/nekoshot --dbus
+BusName=org.nekoshot.NekoShot
+KillMode=process

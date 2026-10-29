@@ -1,0 +1,2659 @@
+# translation of spectacle.pot to Esperanto
+# Copyright (C) 2015 Free Software Foundation, Inc.
+# This file is distributed under the same license as the spectacle package.
+# Oliver Kellogg <olivermkellogg@gmail.com>, 2023.
+#
+# Minuskloj: ĉ ĝ ĵ ĥ ŝ ŭ   Majuskloj: Ĉ Ĝ Ĵ Ĥ Ŝ Ŭ
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: spectacle\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-29 15:50+0800\n"
+"PO-Revision-Date: 2025-03-22 22:36+0100\n"
+"Last-Translator: Oliver Kellogg <olivermkellogg@gmail.com>\n"
+"Language-Team: Esperanto <kde-i18n-eo@kde.org>\n"
+"Language: eo\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: translate-po (https://github.com/zcribe/translate-po)\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: src/OcrManager.cpp:578
+msgctxt "@item:inlistbox"
+msgid "Orientation and Script Detection"
+msgstr ""
+
+#: src/OcrManager.cpp:619
+msgid "Math/Equation Detection"
+msgstr ""
+
+#: src/OcrManager.cpp:622
+msgid "Orientation and Script Detection"
+msgstr ""
+
+#: src/ShortcutActions.cpp:38
+msgctxt "@action global shortcut"
+msgid "Launch Spectacle"
+msgstr "Lanĉi Spectacle"
+
+#: src/ShortcutActions.cpp:44
+msgctxt "@action global shortcut"
+msgid "Capture Entire Desktop"
+msgstr "Kapti Tutan Labortablon"
+
+#: src/ShortcutActions.cpp:50
+msgctxt "@action global shortcut"
+msgid "Capture Current Monitor"
+msgstr "Kapti Aktualan Ekranon"
+
+#: src/ShortcutActions.cpp:56
+msgctxt "@action global shortcut"
+msgid "Capture Active Window"
+msgstr "Kapti Aktivan Fenestron"
+
+#: src/ShortcutActions.cpp:62
+msgctxt "@action global shortcut"
+msgid "Capture Rectangular Region"
+msgstr "Kapti Rektangulan Regionon"
+
+#: src/ShortcutActions.cpp:69
+msgctxt "@action global shortcut"
+msgid "Capture Selected Window"
+msgstr "Kapti Elektitan Fenestron"
+
+#: src/ShortcutActions.cpp:69
+msgctxt "@action global shortcut"
+msgid "Capture Window Under Cursor"
+msgstr "Kapti Fenestron Sub Kursoro"
+
+#: src/ShortcutActions.cpp:76
+#, fuzzy
+msgctxt "@action global shortcut"
+msgid "Start/Stop Screen Recording"
+msgstr "Spectacle estas Registranta"
+
+#: src/ShortcutActions.cpp:82
+#, fuzzy
+msgctxt "@action global shortcut"
+msgid "Start/Stop Window Recording"
+msgstr "Spectacle estas Registranta"
+
+#: src/ShortcutActions.cpp:88
+#, fuzzy
+msgctxt "@action global shortcut"
+msgid "Start/Stop Region Recording"
+msgstr "Spectacle estas Registranta"
+
+#: src/ShortcutActions.cpp:94
+msgctxt "@action global shortcut"
+msgid "Launch Spectacle without capturing"
+msgstr "Lanĉi Spectacle sen kapti"
+
+#: src/VideoFormatModel.cpp:31
+msgctxt "@item:inlistbox Container/encoder"
+msgid "WebM/VP9"
+msgstr "WebM/VP9"
+
+#: src/VideoFormatModel.cpp:38
+msgctxt "@item:inlistbox Container/encoder"
+msgid "MP4/H.264"
+msgstr "MP4/H.264"
+
+#: src/VideoFormatModel.cpp:45
+#, fuzzy
+msgctxt "@item:inlistbox Container/encoder"
+msgid "MP4/H.265"
+msgstr "MP4/H.264"
+
+#: src/VideoFormatModel.cpp:52
+msgctxt "@item:inlistbox Container/encoder"
+msgid "MP4/AV1"
+msgstr ""
+
+#: src/VideoFormatModel.cpp:59
+msgctxt "@item:inlistbox Container/encoder"
+msgid "Animated WebP (better than GIF)"
+msgstr "Animaciita WebP (pli bona ol GIF)"
+
+#: src/VideoFormatModel.cpp:66
+msgctxt "@item:inlistbox Container/encoder"
+msgid "GIF (compatible, but inefficient)"
+msgstr "GIF (kongrua, sed neefika)"
+
+#: src/CaptureModeModel.cpp:167
+msgctxt "@action in capture mode section"
+msgid "Rectangular Region"
+msgstr "Rektangula Regiono"
+
+#: src/CaptureModeModel.cpp:169
+msgctxt "@action in capture mode section"
+msgid "All Screens (Scaled to same size)"
+msgstr "Ĉiuj Ekranoj (Skalitaj al sama grandeco)"
+
+#: src/CaptureModeModel.cpp:171
+msgctxt "@action in capture mode section"
+msgid "Current Screen"
+msgstr "Nuna Ekrano"
+
+#: src/CaptureModeModel.cpp:173
+msgctxt "@action in capture mode section"
+msgid "Active Window"
+msgstr "Aktiva Fenestro"
+
+#: src/CaptureModeModel.cpp:176
+msgctxt "@action in capture mode section"
+msgid "Select Window"
+msgstr "Elekti Fenestron"
+
+#: src/CaptureModeModel.cpp:176
+msgctxt "@action in capture mode section"
+msgid "Window Under Cursor"
+msgstr "Fenestro Sub Kursoro"
+
+#: src/CaptureModeModel.cpp:179
+msgctxt "@action in capture mode section"
+msgid "All Screens"
+msgstr "Ĉiuj Ekranoj"
+
+#: src/CaptureModeModel.cpp:181
+msgctxt "@action in capture mode section"
+msgid "Full Screen"
+msgstr "Plenekrane"
+
+#: src/CommandLineOptions.h:22
+msgid "Capture the entire desktop (default)"
+msgstr "Kapti la tutan labortablon (defaŭlte)"
+
+#: src/CommandLineOptions.h:25
+msgid ""
+"When used with -f/--fullscreen, capture all screens scaled to the same size "
+"(niri: falls back to unscaled)"
+msgstr ""
+
+#: src/CommandLineOptions.h:28
+msgid "Capture the current monitor"
+msgstr "Kapti la nunan ekranon"
+
+#: src/CommandLineOptions.h:32
+msgid "Capture the active window"
+msgstr "Kapti la aktivan fenestron"
+
+#: src/CommandLineOptions.h:35
+msgid ""
+"Capture the window currently under the cursor, including parents of pop-up "
+"menus"
+msgstr ""
+"Kapti la fenestron nuntempe sub la kursoro, inkluzive de gepatroj de "
+"ŝprucmenuoj"
+
+#: src/CommandLineOptions.h:38
+msgid "Capture a rectangular region of the screen"
+msgstr "Kapti rektangulan regionon de la ekrano"
+
+#: src/CommandLineOptions.h:42
+msgid ""
+"Record the screen using the given mode. Modes:\n"
+"- r, region\n"
+"- s, screen\n"
+"- w, window"
+msgstr ""
+"Registri la ekranon uzante la donitan reĝimon. Reĝimoj:\n"
+"- r, regiono\n"
+"- s, screen (ekrano)\n"
+"- w, window (fenestro)"
+
+#: src/CommandLineOptions.h:50
+msgid "Launch Spectacle without taking a screenshot"
+msgstr "Lanĉi Spectacle sen preni ekrankopion"
+
+#: src/CommandLineOptions.h:54
+msgid "Start in GUI mode (default)"
+msgstr "Komenci en GUI-reĝimo (defaŭlte)"
+
+#: src/CommandLineOptions.h:58
+msgid "Take a screenshot and exit without showing the GUI"
+msgstr "Preni ekrankopion kaj eliri sen montri la GUI"
+
+#: src/CommandLineOptions.h:62
+msgid "Start in DBus-Activation mode"
+msgstr "Komenci en DBus-Aktiviga reĝimo"
+
+#: src/CommandLineOptions.h:66
+msgid ""
+"In background mode, do not pop up a notification when the screenshot is taken"
+msgstr "En fona reĝimo, ne aperigi sciigon kiam la ekrankopio estas prenita"
+
+#: src/CommandLineOptions.h:70
+msgid "In background mode, save image to specified file"
+msgstr "En fona reĝimo, konservi bildon al specifita dosiero"
+
+#: src/CommandLineOptions.h:75
+msgid "In background mode, delay before taking the shot (in milliseconds)"
+msgstr "En fona reĝimo, prokrasti antaŭ preni la pafon (en milisekundoj)"
+
+#: src/CommandLineOptions.h:80
+msgid ""
+"In background mode, copy screenshot image to clipboard, unless -o is also "
+"used."
+msgstr ""
+"En fona reĝimo, kopii ekrankopion al tondujo, krom se ankaŭ -o estas uzata."
+
+#: src/CommandLineOptions.h:84
+msgid "In background mode, copy screenshot file path to clipboard"
+msgstr "En fona reĝimo, kopii ekrankopan dosiervojon al tondujo"
+
+#: src/CommandLineOptions.h:88
+msgid "Wait for a click before taking screenshot. Invalidates delay"
+msgstr "Atendi klakon antaŭ fari ekrankopion. Nuligas prokraston"
+
+#: src/CommandLineOptions.h:90
+#, fuzzy
+msgid "Starts a new GUI instance of NekoShot without registering to DBus"
+msgstr "Lanĉas novan GUI-okazaĵon de Spectacle sen registriĝi al DBus"
+
+#: src/CommandLineOptions.h:93
+msgid "In background mode, include pointer in the screenshot"
+msgstr "En fona reĝimo, inkludi montrilon en la ekrankopio"
+
+#: src/CommandLineOptions.h:97
+msgid "In background mode, exclude decorations in the screenshot"
+msgstr "En fona reĝimo, ekskludi ornamadojn en la ekrankopio"
+
+#: src/CommandLineOptions.h:99
+msgid "In background mode, exclude shadows in the screenshot"
+msgstr "En fona reĝimo, ekskludi ombrojn en la ekrankopio"
+
+#: src/CommandLineOptions.h:102
+msgid "Open and edit existing screenshot file"
+msgstr "Malfermi kaj redakti ekzistantan ekrankopian dosieron"
+
+#: src/CommandLineOptions.h:105
+#, fuzzy
+msgid "Accept region selection on click-and-release"
+msgstr "Akcepti je klako-kaj-malteno"
+
+#: src/CommandLineOptions.h:106
+msgid "Stay running and wait for D-Bus requests"
+msgstr ""
+
+#: src/CommandLineOptions.h:107
+#, fuzzy
+msgid "Stop the current recording"
+msgstr "Montri la muskursoron en la registraĵo"
+
+#: src/ExportManager.cpp:466
+#, fuzzy
+msgctxt "%1 is an error message"
+msgid "QImageWriter cannot write image: %1"
+msgstr "QImageWriter ne povas skribi bildon: %1"
+
+#: src/ExportManager.cpp:482
+msgctxt "@info"
+msgid ""
+"Cannot save screenshot because creating the directory failed:<nl/"
+"><filename>%1</filename>"
+msgstr ""
+"Ne povas konservi ekrankopion ĉar kreado de la dosierujo malsukcesis:<nl/"
+"><filename>%1</filename>"
+
+#: src/ExportManager.cpp:491
+#, fuzzy
+msgid "Cannot save screenshot. Error while opening file."
+msgstr "Ne povas konservi ekrankopion. Eraro dum skribado de dosiero."
+
+#: src/ExportManager.cpp:495
+msgid "Cannot save screenshot. Error while writing file."
+msgstr "Ne povas konservi ekrankopion. Eraro dum skribado de dosiero."
+
+#: src/ExportManager.cpp:515
+msgctxt "@info"
+msgid ""
+"Cannot save screenshot because creating the remote directory failed:<nl/"
+"><filename>%1</filename>"
+msgstr ""
+"Ne povas konservi ekrankopion ĉar kreado de la fora dosierujo malsukcesis:"
+"<nl/><filename>%1</filename>"
+
+#: src/ExportManager.cpp:526 src/ExportManager.cpp:576
+msgid "Cannot save screenshot. Error while writing temporary local file."
+msgstr ""
+"Ne povas konservi ekrankopion. Eraro dum skribado de provizora loka dosiero."
+
+#: src/ExportManager.cpp:535
+msgid "Unable to save image. Could not upload file to remote location."
+msgstr "Ne eblas konservi bildon. Ne eblis alŝuti dosieron al fora loko."
+
+#: src/ExportManager.cpp:583
+msgid "Cannot save screenshot. The save filename is invalid."
+msgstr "Ne povas konservi ekrankopion. La konserva dosiernomo estas nevalida."
+
+#: src/ExportManager.cpp:627
+msgid "Cannot save an empty screenshot image."
+msgstr "Ne povas konservi malplenan ekrankopion."
+
+#: src/ExportManager.cpp:814
+msgctxt "@info:shell"
+msgid ""
+"Failed to export video: Temporary file URL must be an existing local file"
+msgstr ""
+"Malsukcesis elporti filmeton: Provizora dosier-URL devas esti ekzistanta "
+"loka dosiero"
+
+#: src/ExportManager.cpp:821
+msgctxt "@info:shell"
+msgid ""
+"Failed to export video: Output file URL must be a valid URL with a file name"
+msgstr ""
+"Malsukcesis elporti filmeton: Eligdosiera URL devas esti valida URL kun "
+"dosiernomo"
+
+#: src/ExportManager.cpp:910
+#, fuzzy
+msgctxt "@info, %1 is a file path"
+msgid "Unable to save recording. Could not move file to location: %1"
+msgstr "Ne eblas konservi bildon. Ne eblis movi dosieron al loko: %1"
+
+#: src/ExportManager.cpp:938
+msgid "Printing failed. The printer failed to initialize."
+msgstr "Presado malsukcesis. La presilo malsukcesis pravalorigi."
+
+#: src/ExportManager.cpp:955
+msgctxt "filename placeholder description"
+msgid "Day (1–31)"
+msgstr "Tago (1–31)"
+
+#: src/ExportManager.cpp:956
+msgctxt "filename placeholder description"
+msgid "Day (01–31)"
+msgstr "Tago (01–31)"
+
+#: src/ExportManager.cpp:957
+msgctxt "filename placeholder description"
+msgid "Day (short name)"
+msgstr "Tago (mallonga nomo)"
+
+#: src/ExportManager.cpp:958
+msgctxt "filename placeholder description"
+msgid "Day (long name)"
+msgstr "Tago (longa nomo)"
+
+#: src/ExportManager.cpp:959
+msgctxt "filename placeholder description"
+msgid "Month (1–12)"
+msgstr "Monato (1–12)"
+
+#: src/ExportManager.cpp:960
+msgctxt "filename placeholder description"
+msgid "Month (01–12)"
+msgstr "Monato (01–12)"
+
+#: src/ExportManager.cpp:961
+msgctxt "filename placeholder description"
+msgid "Month (short name)"
+msgstr "Monato (mallonga nomo)"
+
+#: src/ExportManager.cpp:962
+msgctxt "filename placeholder description"
+msgid "Month (long name)"
+msgstr "Monato (longa nomo)"
+
+#: src/ExportManager.cpp:963
+msgctxt "filename placeholder description"
+msgid "Year (2 digit)"
+msgstr "Jaro (2-cifera)"
+
+#: src/ExportManager.cpp:964
+msgctxt "filename placeholder description"
+msgid "Year (4 digit)"
+msgstr "Jaro (4-cifera)"
+
+#: src/ExportManager.cpp:965
+msgctxt "filename placeholder description"
+msgid "Hour (0–23)"
+msgstr "Horo (0–23)"
+
+#: src/ExportManager.cpp:966
+msgctxt "filename placeholder description"
+msgid "Hour (00–23)"
+msgstr "Horo (00–23)"
+
+#: src/ExportManager.cpp:967
+msgctxt "filename placeholder description"
+msgid "Hour (1–12)"
+msgstr "Horo (1–12)"
+
+#: src/ExportManager.cpp:968
+msgctxt "filename placeholder description"
+msgid "Hour (01–12)"
+msgstr "Horo (01–12)"
+
+#: src/ExportManager.cpp:969
+msgctxt "filename placeholder description"
+msgid "Minute (0–59)"
+msgstr "Minuto (0–59)"
+
+#: src/ExportManager.cpp:970
+msgctxt "filename placeholder description"
+msgid "Minute (00–59)"
+msgstr "Minuto (00–59)"
+
+#: src/ExportManager.cpp:971
+msgctxt "filename placeholder description"
+msgid "Second (0–59)"
+msgstr "Sekundo (0–59)"
+
+#: src/ExportManager.cpp:972
+msgctxt "filename placeholder description"
+msgid "Second (00–59)"
+msgstr "Sekundo (00–59)"
+
+#: src/ExportManager.cpp:973
+msgctxt "filename placeholder description"
+msgid "Millisecond (0–999)"
+msgstr "Milisekundo (0–999)"
+
+#: src/ExportManager.cpp:975
+msgctxt "filename placeholder description"
+msgid "Millisecond (000–999)"
+msgstr "Milisekundo (000–999)"
+
+#: src/ExportManager.cpp:976
+msgctxt "filename placeholder description"
+msgid "AM/PM"
+msgstr "ATM/PTM"
+
+#: src/ExportManager.cpp:978
+msgctxt "filename placeholder description"
+msgid "am/pm"
+msgstr "atm/ptm"
+
+#: src/ExportManager.cpp:980
+msgctxt "filename placeholder description"
+msgid "AM/PM or am/pm (localized)"
+msgstr "ATM/PTM aŭ atm/ptm (lokalizita)"
+
+#: src/ExportManager.cpp:982
+msgctxt "filename placeholder description"
+msgid "Timezone (short name)"
+msgstr "Horzono (mallonga nomo)"
+
+#: src/ExportManager.cpp:983
+msgctxt "filename placeholder description"
+msgid "Timezone offset (±0000)"
+msgstr "Horzona deŝovo (±0000)"
+
+#: src/ExportManager.cpp:984
+msgctxt "filename placeholder description"
+msgid "Timezone offset (±00:00)"
+msgstr "Horzona deŝovo (±00:00)"
+
+#: src/ExportManager.cpp:985
+msgctxt "filename placeholder description"
+msgid "Timezone (long name)"
+msgstr "Horzono (longa nomo)"
+
+#: src/ExportManager.cpp:986
+msgctxt "filename placeholder description"
+msgid "Seconds since the Unix epoch"
+msgstr "Sekundoj ekde la Uniksa epoko"
+
+#: src/ExportManager.cpp:987
+msgctxt "filename placeholder description"
+msgid "Window Title"
+msgstr "Fenestra Titolo"
+
+#: src/ExportManager.cpp:988
+msgctxt "filename placeholder description"
+msgid "Sequential numbering, padded by inserting additional '#' characters"
+msgstr "Sinsekva nombrado, remburita enmetante aldonajn signojn '#'"
+
+#: src/Main.cpp:48 src/SpectacleCore.cpp:1408
+msgid "NekoShot"
+msgstr ""
+
+#: src/Main.cpp:50
+msgid "Screenshot utility for niri, based on Spectacle"
+msgstr ""
+
+#: src/Main.cpp:52
+#, fuzzy
+msgid "© 2015 Boudhayan Gupta and Spectacle contributors"
+msgstr "(C) 2015 Boudhayan Gupta"
+
+#: src/Main.cpp:60
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Oliver Kellogg"
+
+#: src/Main.cpp:60
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "olivermkellogg@gmail.com"
+
+#: src/Main.cpp:78
+msgid ""
+"On Wayland, Spectacle requires KDE Plasma's KWin compositor, which does not "
+"seem to be available. Use Spectacle on KDE Plasma, or use a different "
+"screenshot tool."
+msgstr ""
+"Sur Wayland, Spectacle postulas la KWin-komponiston de KDE Plasma, kiu "
+"ŝajnas ne esti disponebla. Uzu Spectacle sur KDE-Plasmo aŭ uzu alian "
+"ekrankopiilon."
+
+#: src/Main.cpp:103 src/Platforms/ImagePlatformNiri.cpp:167
+msgid "grim is not installed"
+msgstr ""
+
+#: src/Main.cpp:119
+msgid "--daemon cannot be combined with --new-instance"
+msgstr ""
+
+#: src/RecordingModeModel.cpp:104
+msgctxt "@item recording mode"
+msgid "Rectangular Region"
+msgstr "Ortangula Regiono"
+
+#: src/RecordingModeModel.cpp:106
+msgctxt "@item recording mode"
+msgid "Window"
+msgstr "Fenestro"
+
+#: src/RecordingModeModel.cpp:108
+msgctxt "@item recording mode"
+msgid "Full Screen"
+msgstr "Plenekrana"
+
+#: src/SpectacleCore.cpp:288
+msgctxt "@info"
+msgid "An error occurred while taking a screenshot."
+msgstr "Eraro okazis prenante ekrankopion."
+
+#: src/SpectacleCore.cpp:318
+#, fuzzy
+msgctxt "@info:tooltip title for recording tray icon"
+msgid "Spectacle is Recording with Sound"
+msgstr "Spectacle estas Registranta"
+
+#: src/SpectacleCore.cpp:319
+msgctxt "@info:tooltip title for recording tray icon"
+msgid "Spectacle is Recording"
+msgstr "Spectacle estas Registranta"
+
+#: src/SpectacleCore.cpp:324
+#, fuzzy
+msgctxt "recording notification title"
+msgid "Spectacle is Recording with Sound"
+msgstr "Spectacle estas Registranta"
+
+#: src/SpectacleCore.cpp:325
+msgctxt "recording notification title"
+msgid "Spectacle is Recording"
+msgstr "Spectacle estas Registranta"
+
+#: src/SpectacleCore.cpp:354
+msgctxt "recording notification message without shortcut"
+msgid "To finish the recording, click the pulsing red System Tray icon."
+msgstr ""
+
+#: src/SpectacleCore.cpp:356
+msgctxt "recording notification message with shortcut"
+msgid ""
+"To finish the recording, click the pulsing red System Tray icon or press "
+"<shortcut>%1</shortcut>."
+msgstr ""
+
+#: src/SpectacleCore.cpp:373
+msgctxt "missing webp support notification title"
+msgid "WebP support is missing."
+msgstr "Subteno por WebP mankas."
+
+#: src/SpectacleCore.cpp:375
+msgctxt "missing webp support notification message"
+msgid ""
+"Please install Qt Image Formats to get animated system tray icons for "
+"Spectacle, and then report this packaging issue to your distributor."
+msgstr ""
+"Bonvolu instali Qt Image Formats por ekhavi animaciitajn sustempletajn "
+"piktogramojn por Spectacle, kaj tiam raportu tiun pakproblemon al via "
+"distribuanto."
+
+#: src/SpectacleCore.cpp:412
+#, fuzzy
+msgctxt "recording notification title"
+msgid "Spectacle is Finishing the Recording"
+msgstr "Spectacle estas Registranta"
+
+#: src/SpectacleCore.cpp:413
+msgctxt "recording notification message"
+msgid "Please wait"
+msgstr ""
+
+#: src/SpectacleCore.cpp:415
+#, fuzzy
+msgctxt "@info:tooltip title for rendering tray icon"
+msgid "Spectacle is Finishing the Recording"
+msgstr "Spectacle estas Registranta"
+
+#: src/SpectacleCore.cpp:417
+#, fuzzy
+msgctxt "@info:tooltip subtitle for rendering tray icon"
+msgid ""
+"Time recorded: %1\n"
+"Click to stop rendering early (this will lose data)"
+msgstr ""
+"Tempdaŭro registrita: %1\n"
+"Klaku por fini registradon"
+
+#: src/SpectacleCore.cpp:442
+msgctxt "@info:tooltip subtitle for recording tray icon"
+msgid ""
+"Time recorded: %1\n"
+"Click to finish recording"
+msgstr ""
+"Tempdaŭro registrita: %1\n"
+"Klaku por fini registradon"
+
+#: src/SpectacleCore.cpp:473
+msgctxt "@info"
+msgid "An error occurred while attempting to record the screen."
+msgstr "Eraro okazis provante registri la ekranon."
+
+#: src/SpectacleCore.cpp:525
+#, fuzzy
+msgctxt "@info"
+msgid ""
+"The screenshot was copied to the clipboard and saved as <link url=\"%1\">%2</"
+"link>"
+msgstr ""
+"La ekrankopio estis kopiita al la tondujo kaj konservita kiel <a "
+"href=\"%1\">%2</a>"
+
+#: src/SpectacleCore.cpp:529
+#, fuzzy
+msgctxt "@info"
+msgid ""
+"The screenshot has been saved as <link url=\"%1\">%2</link> and its location "
+"has been copied to clipboard"
+msgstr ""
+"La ekrankopio estis konservita kiel <a href=\"%1\">%2</a> kaj ĝia loko estis "
+"kopiita al tondujo"
+
+#: src/SpectacleCore.cpp:534
+#, fuzzy
+msgctxt "@info"
+msgid "The screenshot was saved as <link url=\"%1\">%2</link>"
+msgstr "La ekrankopio estis konservita kiel <a href=\"%1\">%2</a>"
+
+#: src/SpectacleCore.cpp:538
+#, fuzzy
+msgctxt "@info"
+msgid "The screenshot has been copied to the clipboard."
+msgstr "La ekrankopio estis kopiita al la tondujo."
+
+#: src/SpectacleCore.cpp:570
+#, fuzzy
+msgctxt "@info"
+msgid ""
+"The video has been saved as <link url=\"%1\">%2</link> and its location has "
+"been copied to clipboard"
+msgstr ""
+"La filmeto estis konservita kiel <a href=\"%1\">%2</a> kaj ĝia loko estis "
+"kopiita al tondujo"
+
+#: src/SpectacleCore.cpp:575
+#, fuzzy
+msgctxt "@info"
+msgid "The video was saved as <link url=\"%1\">%2</link>"
+msgstr "La video estis konservita kiel <a href=\"%1\">%2</a>"
+
+#: src/SpectacleCore.cpp:579
+msgctxt "@info"
+msgid "The video location has been copied to the clipboard."
+msgstr "La filmejo estis kopiita al la tondujo."
+
+#: src/SpectacleCore.cpp:599
+#, fuzzy
+msgctxt "@info"
+msgid "Code found: %1"
+msgstr "QR-Kodo trovita: %1"
+
+#: src/SpectacleCore.cpp:603
+#, fuzzy
+msgctxt "@info"
+msgid "Found QR code with binary content."
+msgstr "Trovis QR-kodon kun duuma enhavo."
+
+#: src/SpectacleCore.cpp:611
+msgctxt "@info"
+msgid "Text extraction failed"
+msgstr ""
+
+#: src/SpectacleCore.cpp:616
+msgctxt "@info"
+msgid "No text found in the image"
+msgstr ""
+
+#: src/SpectacleCore.cpp:620
+msgctxt "@info"
+msgid "Text extraction completed"
+msgstr ""
+
+#: src/SpectacleCore.cpp:628
+msgctxt "@info:notification title"
+msgid "Text Extracted"
+msgstr ""
+
+#: src/SpectacleCore.cpp:648
+msgctxt "@info The variables are language names, e.g. 'English and German'"
+msgid "%1 and %2"
+msgstr ""
+
+#: src/SpectacleCore.cpp:653
+#, fuzzy
+msgctxt "@info:notification"
+msgid "Text copied to clipboard.<nl/>Languages used: %1"
+msgstr "Kopii bildon al tondujo"
+
+#: src/SpectacleCore.cpp:658
+msgctxt "@action:button"
+msgid "Open in Text Editor"
+msgstr ""
+
+#: src/SpectacleCore.cpp:808
+msgctxt "@info"
+msgid "Please select a region before extracting text"
+msgstr ""
+
+#: src/SpectacleCore.cpp:830
+#, fuzzy
+msgctxt "@info"
+msgid "OCR is not available."
+msgstr "KWin Screencasting ne haveblas."
+
+#: src/SpectacleCore.cpp:836
+#, fuzzy
+msgctxt "@info"
+msgid "No screenshot available."
+msgstr "KWin Screencasting ne haveblas."
+
+#: src/SpectacleCore.cpp:840
+msgctxt "@info"
+msgid "Extracting text from image..."
+msgstr ""
+
+#: src/SpectacleCore.cpp:973
+msgctxt "@info:shell"
+msgid "Ignoring activation: a recording is already in progress"
+msgstr ""
+
+#: src/SpectacleCore.cpp:1181
+msgctxt "@info:shell"
+msgid ""
+"--scaled is only allowed together with -f/--fullscreen and will be ignored"
+msgstr ""
+
+#: src/SpectacleCore.cpp:1196
+msgctxt "@info:shell"
+msgid "%1 is not a valid mode for --record"
+msgstr "%1 ne stas valida reĝimo por --record"
+
+#: src/SpectacleCore.cpp:1462
+#, fuzzy
+msgctxt "%1 is the filename, %2 the path to the save location"
+msgid ""
+"A screenshot was saved as '%1' to '%2' and the file path of the screenshot "
+"has been saved to your clipboard."
+msgstr ""
+"Ekrankopio estis konservita kiel '%1' al '%2' kaj la dosiervojo de la "
+"ekrankopio estis konservita al via tondujo."
+
+#: src/SpectacleCore.cpp:1466
+#, fuzzy
+msgctxt "%1 is the filename"
+msgid "A screenshot was saved as '%1' to your Pictures folder."
+msgstr "Ekrankopio estis konservita kiel '%1' al via dosierujo de Bildoj."
+
+#: src/SpectacleCore.cpp:1469
+#, fuzzy
+msgctxt "%1 is the filename, %2 the path to the save location"
+msgid "A screenshot was saved as '%1' to '%2'."
+msgstr "Ekrankopio estis konservita kiel '%1' al '%2'."
+
+#: src/SpectacleCore.cpp:1472
+msgid "A screenshot was saved to your clipboard."
+msgstr "Ekrankopio estis konservita en via tondujo."
+
+#: src/SpectacleCore.cpp:1477
+#, fuzzy
+msgctxt "%1 is the filename, %2 the path to the save location"
+msgid ""
+"A recording was saved as '%1' to '%2' and the file path of the recording has "
+"been saved to your clipboard."
+msgstr ""
+"Registraĵo estis konservita kiel '%1' al '%2' kaj la dosiervojo de la "
+"registraĵo estis konservita al via tondujo."
+
+#: src/SpectacleCore.cpp:1481
+#, fuzzy
+msgctxt "%1 is the filename"
+msgid "A recording was saved as '%1' to your Videos folder."
+msgstr "Registraĵo estis konservita kiel '%1' al via dosierujo de Filmetoj."
+
+#: src/SpectacleCore.cpp:1484
+#, fuzzy
+msgctxt "%1 is the filename, %2 the path to the save location"
+msgid "A recording was saved as '%1' to '%2'."
+msgstr "Ekrankopio estis konservita kiel '%1' al '%2'."
+
+#: src/SpectacleCore.cpp:1496
+msgctxt "Open the screenshot we just saved"
+msgid "Open"
+msgstr "Malfermi"
+
+#: src/SpectacleCore.cpp:1508
+msgid "Annotate"
+msgstr "Komenti"
+
+#: src/Gui/AcceptAction.qml:9
+msgctxt "@action accept selection"
+msgid "Accept"
+msgstr "Akcepti"
+
+#: src/Gui/NewScreenshotToolButton.qml:15
+#: src/Gui/CaptureModeButtonsColumn.qml:32
+msgid "Cancel (%1 second)"
+msgid_plural "Cancel (%1 seconds)"
+msgstr[0] "Nuligi (%1 sekundo)"
+msgstr[1] "Nuligi (%1 sekundoj)"
+
+#: src/Gui/NewScreenshotToolButton.qml:27
+msgid "New Screenshot"
+msgstr "Nova Ekrankopio"
+
+#: src/Gui/OptionsMenuButton.qml:10
+msgctxt "@action"
+msgid "Options"
+msgstr "Elektebloj"
+
+#: src/Gui/CancelAction.qml:9
+#, fuzzy
+msgctxt "@action cancel selection"
+msgid "Cancel"
+msgstr "Nuligi:"
+
+#: src/Gui/CopyImageAction.qml:13
+msgctxt "@action"
+msgid "Copy"
+msgstr "Kopii"
+
+#: src/Gui/RecordAction.qml:11
+msgctxt "@action start recording"
+msgid "Record"
+msgstr "Registri"
+
+#: src/Gui/RecordOptions.qml:23
+msgid "Recording Settings"
+msgstr "Registradaj Agordoj"
+
+#: src/Gui/RecordOptions.qml:37
+msgid "Finish recording"
+msgstr "Fini registradon"
+
+#: src/Gui/CopyLocationAction.qml:9
+msgctxt "@action"
+msgid "Copy Location"
+msgstr "Kopiejo"
+
+#: src/Gui/EditAction.qml:11
+msgctxt "@action edit screenshot"
+msgid "Edit…"
+msgstr "Redakti…"
+
+#: src/Gui/CaptureOptions.qml:17
+msgid "Take a new screenshot"
+msgstr "Preni novan ekrankopion"
+
+#: src/Gui/CaptureOptions.qml:39
+msgctxt "@title:group"
+msgid "Screenshot Settings"
+msgstr "Agordoj de Ekrankopio"
+
+#: src/Gui/ExportMenu.cpp:44
+msgctxt "@title:menu"
+msgid "Export"
+msgstr "Eksporto"
+
+#: src/Gui/ExportMenu.cpp:47
+msgid "Open Default Screenshots Folder"
+msgstr "Malfermi Defaŭltan Ekrankopiojn Dosierujon"
+
+#: src/Gui/ExportMenu.cpp:133
+#, fuzzy
+msgctxt "@action:button open screenshot in other application"
+msgid "Other Application…"
+msgstr "Alia Apliko..."
+
+#: src/Gui/ExportMenu.cpp:165
+msgid "Share"
+msgstr "Kunhavigi"
+
+#: src/Gui/ExportMenu.cpp:258
+msgctxt "@action:menu"
+msgid "Extract Text by Language"
+msgstr ""
+
+#: src/Gui/ExportMenu.cpp:294
+#, fuzzy
+msgid "OCR engine is not available."
+msgstr "KWin Screencasting ne haveblas."
+
+#: src/Gui/ExportMenu.cpp:302
+msgid "OCR is not available. Please install Tesseract OCR."
+msgstr ""
+
+#: src/Gui/ExportMenu.cpp:303
+msgid "OCR engine is initializing…"
+msgstr ""
+
+#: src/Gui/ExportMenu.cpp:313
+msgid "No OCR language data available."
+msgstr ""
+
+#: src/Gui/HelpMenuButton.qml:10
+msgctxt "@action"
+msgid "Help"
+msgstr "Helpo"
+
+#: src/Gui/CaptureOverlay.qml:149
+msgctxt "@info basic crop tool explanation"
+msgid "Click and drag to make a selection."
+msgstr "Alklaki kaj treni por fari elekton."
+
+#: src/Gui/HelpMenu.cpp:40
+msgctxt "@title:menu"
+msgid "Help"
+msgstr "Helpo"
+
+#: src/Gui/ShortcutsTextBox.qml:13
+msgid "Take Screenshot:"
+msgstr "Preni Ekrankopion:"
+
+#: src/Gui/ShortcutsTextBox.qml:15
+msgid "Create new selection rectangle:"
+msgstr "Krei novan elektan rektangulon:"
+
+#: src/Gui/ShortcutsTextBox.qml:20
+msgid "Move selection rectangle:"
+msgstr "Movi elektan rektangulon:"
+
+#: src/Gui/ShortcutsTextBox.qml:23
+msgid "Resize selection rectangle:"
+msgstr "Regrandigi elektan rektangulon:"
+
+#: src/Gui/ShortcutsTextBox.qml:26
+msgid "Reset selection:"
+msgstr "Restarigi elekton:"
+
+#: src/Gui/ShortcutsTextBox.qml:28
+msgid "Cancel:"
+msgstr "Nuligi:"
+
+#: src/Gui/ShortcutsTextBox.qml:33
+msgctxt "Mouse action"
+msgid "Release left-click"
+msgstr "Malteni maldekstran klakon"
+
+#: src/Gui/ShortcutsTextBox.qml:33
+msgctxt "Mouse action"
+msgid "Double-click"
+msgstr "Duobla klako"
+
+#: src/Gui/ShortcutsTextBox.qml:34
+msgctxt "Keyboard action"
+msgid "Enter"
+msgstr "Eniga klavo"
+
+#: src/Gui/ShortcutsTextBox.qml:35
+msgctxt "Mouse action"
+msgid "Drag outside selection rectangle"
+msgstr "Treni eksteren de elekta rektangulo"
+
+#: src/Gui/ShortcutsTextBox.qml:37
+msgctxt "Keyboard action"
+msgid "+ Shift: Magnifier"
+msgstr "+ Shift: Lupeo"
+
+#: src/Gui/ShortcutsTextBox.qml:40
+msgctxt "Mouse action"
+msgid "Drag inside selection rectangle"
+msgstr "Treni en elektan rektangulon"
+
+#: src/Gui/ShortcutsTextBox.qml:41
+msgctxt "Keyboard action"
+msgid "Arrow keys"
+msgstr "Sagoklavoj"
+
+#: src/Gui/ShortcutsTextBox.qml:42
+msgctxt "Keyboard action"
+msgid "+ Shift: Move in 1 pixel steps"
+msgstr "+ Shift: Movi en 1-rastrumeraj paŝoj"
+
+#: src/Gui/ShortcutsTextBox.qml:43
+msgctxt "Mouse action"
+msgid "Drag handles"
+msgstr "Trenaj teniloj"
+
+#: src/Gui/ShortcutsTextBox.qml:44
+msgctxt "Keyboard action"
+msgid "Arrow keys + Alt"
+msgstr "Sagoklavoj + Alt"
+
+#: src/Gui/ShortcutsTextBox.qml:45
+msgctxt "Keyboard action"
+msgid "+ Shift: Resize in 1 pixel steps"
+msgstr "+ Shift: Regrandigi en 1-rastrumeraj paŝoj"
+
+#: src/Gui/ShortcutsTextBox.qml:46
+msgctxt "Mouse action"
+msgid "Right-click"
+msgstr "Dekstra alklako"
+
+#: src/Gui/ShortcutsTextBox.qml:48
+msgctxt "Keyboard action"
+msgid "Escape"
+msgstr "Eskapi"
+
+#: src/Gui/ScreenshotView.qml:196
+msgctxt "@info crop tool explanation"
+msgid ""
+"Click and drag to make a selection.\n"
+"Double click the selection to accept and crop.\n"
+"Right click to clear the selection."
+msgstr ""
+"Alklaku kaj trenu por fari elekton.\n"
+"Duoble alklaku la elekton por akcepti kaj stuci.\n"
+"Dekstre alklaku por forigi la elekton."
+
+#: src/Gui/OptionsMenu.cpp:38
+msgctxt "@title:menu"
+msgid "Screenshot Settings"
+msgstr "Agordoj de Ekrankopio"
+
+#: src/Gui/OptionsMenu.cpp:40
+msgctxt "@option:check for screenshots"
+msgid "Include mouse pointer"
+msgstr "Inkluzivi musmontrilon"
+
+#: src/Gui/OptionsMenu.cpp:43
+msgctxt "@info:tooltip"
+msgid "Show the mouse cursor in the screenshot image"
+msgstr "Montri la muskursoron en la ekrankopio"
+
+#: src/Gui/OptionsMenu.cpp:44
+#, fuzzy
+msgctxt "@info:tooltip"
+msgid "niri does not composite the cursor into screenshots"
+msgstr "Montri la muskursoron en la ekrankopio"
+
+#: src/Gui/OptionsMenu.cpp:52
+msgctxt "@option:check"
+msgid "Include window titlebar and borders"
+msgstr "Inkluzivi fenestra titolbreto kaj limoj"
+
+#: src/Gui/OptionsMenu.cpp:53
+msgctxt "@info:tooltip"
+msgid ""
+"Show the window title bar, the minimize/maximize/close buttons, and the "
+"window border"
+msgstr ""
+"Montri la fenestran titolbreton, la minimumigi/maksimumigi/fermi butonojn "
+"kaj la fenestran randon"
+
+#: src/Gui/OptionsMenu.cpp:61
+msgctxt "@option:check"
+msgid "Include window shadow"
+msgstr "Inkluzivi fenestran ombron"
+
+#: src/Gui/OptionsMenu.cpp:62
+msgctxt "@info:tooltip"
+msgid "Show the window shadow"
+msgstr "Montri la fenestran ombron"
+
+#: src/Gui/OptionsMenu.cpp:70
+msgctxt "@option:check"
+msgid "Quit after manual Save or Copy"
+msgstr "Forlasi post permana Konservado aŭ Kopiado"
+
+#: src/Gui/OptionsMenu.cpp:71
+msgctxt "@info:tooltip"
+msgid "Quit Spectacle after manually saving or copying the image"
+msgstr "Forlasi Spectacle post permana konservo aŭ kopio de la bildo"
+
+#: src/Gui/OptionsMenu.cpp:83
+msgctxt "@option:check"
+msgid "Capture On Click"
+msgstr "Kapti Sur Klako"
+
+#: src/Gui/OptionsMenu.cpp:98
+msgctxt "@label:spinbox"
+msgid "Delay:"
+msgstr "Prokrasto:"
+
+#: src/Gui/OptionsMenu.cpp:103
+msgctxt "@item 0 delay special value"
+msgid "No Delay"
+msgstr "Neniu Prokrasto"
+
+#: src/Gui/OptionsMenu.cpp:122
+msgctxt "@title:menu"
+msgid "Recording Settings"
+msgstr "Registradaj Agordoj"
+
+#: src/Gui/OptionsMenu.cpp:124
+msgctxt "@option:check for recordings"
+msgid "Include mouse pointer"
+msgstr "Inkluzivi musmontrilon"
+
+#: src/Gui/OptionsMenu.cpp:125
+msgctxt "@info:tooltip"
+msgid "Show the mouse cursor in the recording"
+msgstr "Montri la muskursoron en la registraĵo"
+
+#: src/Gui/OptionsMenu.cpp:133
+msgctxt "@option:check for recordings"
+msgid "Record system audio"
+msgstr ""
+
+#: src/Gui/OptionsMenu.cpp:134
+msgctxt "@info:tooltip"
+msgid ""
+"Include the audio that is currently playing on the system in the recording"
+msgstr ""
+
+#: src/Gui/OptionsMenu.cpp:142
+#, fuzzy
+msgctxt "@option:check for recordings"
+msgid "Record microphone"
+msgstr "Registri  Ekranon"
+
+#: src/Gui/OptionsMenu.cpp:143
+msgctxt "@info:tooltip"
+msgid "Include audio from the default microphone in the recording"
+msgstr ""
+
+#: src/Gui/RecordingModeMenu.cpp:17
+msgctxt "@title:menu"
+msgid "Recording Modes"
+msgstr "Reĝimoj de Registrado"
+
+#: src/Gui/RecordingSettingsColumn.qml:22
+#, fuzzy
+msgctxt "@option:check"
+msgid "Include mouse pointer"
+msgstr "Inkluzivi musmontrilon"
+
+#: src/Gui/RecordingSettingsColumn.qml:23
+#, fuzzy
+msgctxt "@info:tooltip"
+msgid "Show the mouse cursor in the screen recording."
+msgstr "Montri la muskursoron en la ekranregistrado."
+
+#: src/Gui/RecordingSettingsColumn.qml:32
+msgctxt "@option:check"
+msgid "Record system audio"
+msgstr ""
+
+#: src/Gui/RecordingSettingsColumn.qml:33
+msgctxt "@info:tooltip"
+msgid ""
+"Include the audio that is currently playing on the system in the recording."
+msgstr ""
+
+#: src/Gui/RecordingSettingsColumn.qml:45
+#, fuzzy
+msgctxt "@option:check"
+msgid "Record microphone"
+msgstr "Registri  Ekranon"
+
+#: src/Gui/RecordingSettingsColumn.qml:46
+msgctxt "@info:tooltip"
+msgid "Include audio from the default microphone in the recording."
+msgstr ""
+
+#: src/Gui/RecordingSettingsColumn.qml:57
+msgctxt "@info"
+msgid "The selected video format does not support audio."
+msgstr ""
+
+#: src/Gui/RecordingView.qml:90
+#, fuzzy
+msgctxt "Recording in progress, %1 is the length of the recording so far"
+msgid ""
+"Recording:\n"
+"%1"
+msgstr ""
+"Registrado:\n"
+"%1"
+
+#: src/Gui/RecordingView.qml:129
+msgid "Pause"
+msgstr "Paŭzo"
+
+#: src/Gui/RecordingView.qml:129
+msgid "Play"
+msgstr "Ludi"
+
+#: src/Gui/SaveAction.qml:13
+msgctxt "@action"
+msgid "Save"
+msgstr "Konservi"
+
+#: src/Gui/ScreenshotModeMenu.cpp:17
+msgctxt "@title:menu"
+msgid "Screenshot Modes"
+msgstr "Reĝimoj de Ekrankopio"
+
+#: src/Gui/FontPopup.qml:54
+#, fuzzy
+msgid "Font"
+msgstr "Tiparo:"
+
+#: src/Gui/FontPopup.qml:69
+msgid "Size"
+msgstr ""
+
+#: src/Gui/FontPopup.qml:82
+msgid "Bold"
+msgstr ""
+
+#: src/Gui/FontPopup.qml:86
+msgid "Italic"
+msgstr ""
+
+#: src/Gui/FontPopup.qml:94 src/Gui/ColorPopup.qml:292
+#, fuzzy
+msgid "Cancel"
+msgstr "Nuligi:"
+
+#: src/Gui/FontPopup.qml:99 src/Gui/ColorPopup.qml:297
+msgid "Apply"
+msgstr ""
+
+#: src/Gui/SaveAsAction.qml:9
+msgctxt "@action"
+msgid "Save As…"
+msgstr "Konservi Kiel…"
+
+#: src/Gui/ScreenshotModeMenuButton.qml:11
+msgctxt "@action select new screenshot mode"
+msgid "New Screenshot"
+msgstr "Nova Ekrankopio"
+
+#: src/Gui/UndoRedoGroup.qml:31
+msgid "Undo"
+msgstr "Malfari"
+
+#: src/Gui/UndoRedoGroup.qml:42
+msgid "Redo"
+msgstr "Refari"
+
+#: src/Gui/DialogPage.qml:53
+#, fuzzy
+msgid "Configure NekoShot…"
+msgstr "Agordi Spectacle…"
+
+#: src/Gui/DialogPage.qml:61
+msgid "Help"
+msgstr "Helpo"
+
+#: src/Gui/DialogPage.qml:80
+msgctxt "@title:group"
+msgid "Take a Screenshot:"
+msgstr "Preni Ekrankopion:"
+
+#: src/Gui/DialogPage.qml:95 src/Gui/DialogPage.qml:136
+msgctxt "@title:group"
+msgid "Options"
+msgstr "Elektebloj"
+
+#: src/Gui/DialogPage.qml:121
+msgctxt "@title:group"
+msgid "Make a Recording:"
+msgstr "Fari Registradon:"
+
+#: src/Gui/DialogPage.qml:162
+msgctxt "@title:tab"
+msgid "Screenshot"
+msgstr "Ekrankopio"
+
+#: src/Gui/DialogPage.qml:168
+msgctxt "@title:tab"
+msgid "Recording"
+msgstr "Registrado"
+
+#: src/Gui/DialogPage.qml:171 src/Gui/RecordingModeMenuButton.qml:18
+msgctxt "@info:tooltip"
+msgid "This feature is not supported on the current platform"
+msgstr ""
+
+#: src/Gui/SmartSpinBox.cpp:30
+msgctxt "Integer number of seconds"
+msgid " second"
+msgid_plural " seconds"
+msgstr[0] " sekundo"
+msgstr[1] " sekundoj"
+
+#: src/Gui/SmartSpinBox.cpp:32
+msgctxt "Decimal number of seconds"
+msgid " seconds"
+msgstr " sekundoj"
+
+#: src/Gui/ExportMenuButton.qml:13
+msgctxt "@action"
+msgid "Export"
+msgstr "Eksporto"
+
+#: src/Gui/ViewerWindow.cpp:53
+#, fuzzy
+msgctxt "@info, %1 is the error message"
+msgid "There was a problem sharing the image: %1"
+msgstr "Estis problemo kundividante la bildon: %1"
+
+#: src/Gui/CaptureSettingsColumn.qml:17
+msgid "Include mouse pointer"
+msgstr "Inkluzivi musmontrilon"
+
+#: src/Gui/CaptureSettingsColumn.qml:20
+msgid "Show the mouse cursor in the screenshot image."
+msgstr "Montri la muskursoron en la ekrankopio."
+
+#: src/Gui/CaptureSettingsColumn.qml:21
+#, fuzzy
+msgid "niri does not composite the cursor into screenshots."
+msgstr "Montri la muskursoron en la ekrankopio."
+
+#: src/Gui/CaptureSettingsColumn.qml:30
+msgid "Include window titlebar and borders"
+msgstr "Inkluzivi fenestra titolbreto kaj limoj"
+
+#: src/Gui/CaptureSettingsColumn.qml:31
+msgid ""
+"Show the window title bar and border when taking a screenshot of a window."
+msgstr ""
+"Montri la fenestran titolbreton kaj randon kiam vi prenas ekrankopion de "
+"fenestro."
+
+#: src/Gui/CaptureSettingsColumn.qml:40
+msgid "Include window shadow"
+msgstr "Inkluzivi fenestran ombron"
+
+#: src/Gui/CaptureSettingsColumn.qml:41
+msgid "Show the window shadow when taking a screenshot of a window."
+msgstr "Montri la fenestran ombron kiam vi prenas ekrankopion de fenestro."
+
+#: src/Gui/CaptureSettingsColumn.qml:51
+msgid "Quit after manual Save or Copy"
+msgstr "Forlasi post permana Konservado aŭ Kopiado"
+
+#: src/Gui/CaptureSettingsColumn.qml:52
+msgid "Quit Spectacle after manually saving or copying the image."
+msgstr "Forlasi Spectacle post permana konservado aŭ kopiado de bildo."
+
+#: src/Gui/CaptureSettingsColumn.qml:61
+msgid "Capture on click"
+msgstr "Kapti alklakante"
+
+#: src/Gui/CaptureSettingsColumn.qml:63
+msgid "Wait for a mouse click before capturing the screenshot image."
+msgstr "Atendu musklakon antaŭ ol kapti la ekrankopion."
+
+#: src/Gui/CaptureSettingsColumn.qml:74
+msgid "Delay:"
+msgstr "Prokrasto:"
+
+#: src/Gui/DelaySpinBox.qml:15
+msgctxt "0 second delay"
+msgid "No Delay"
+msgstr "Neniu Prokrasto"
+
+#: src/Gui/DelaySpinBox.qml:24
+msgctxt "Integer number of seconds"
+msgid "%2 second"
+msgid_plural "%2 seconds"
+msgstr[0] "%2 sekundo"
+msgstr[1] "%2 sekundoj"
+
+#: src/Gui/DelaySpinBox.qml:26
+msgctxt "Decimal number of seconds"
+msgid "%1 seconds"
+msgstr "%1 sekundoj"
+
+#: src/Gui/OcrAction.qml:15
+msgctxt "@action"
+msgid "Extract Text"
+msgstr ""
+
+#: src/Gui/RecordingModeMenuButton.qml:12
+msgctxt "@action select new recording mode"
+msgid "New Recording"
+msgstr "Nova Registrado"
+
+#: src/Gui/SizeLabel.qml:13
+#, fuzzy
+msgctxt "Size, width×height"
+msgid "%1×%2"
+msgstr "%1×%2"
+
+#: src/Gui/ViewerPage.qml:228
+msgid "Zoom:"
+msgstr "Zomi:"
+
+#: src/Gui/ViewerPage.qml:242
+msgid "Image Zoom"
+msgstr "Bildo Zoom"
+
+#: src/Gui/SpectacleWindow.cpp:170
+msgctxt "@title:window"
+msgid "%1 second"
+msgid_plural "%1 seconds"
+msgstr[0] "%1 sekundo"
+msgstr[1] "%1 sekundoj"
+
+#: src/Gui/SpectacleWindow.cpp:173
+msgctxt "@title:window Unsaved Screenshot"
+msgid "Unsaved"
+msgstr "Nekonservite"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:88
+msgid "Stroke:"
+msgstr "Bato:"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:120
+#, c-format
+msgctxt "px: pixels"
+msgid "%1px"
+msgid_plural "%1px"
+msgstr[0] "%1px"
+msgstr[1] "%1px"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:125
+msgid "Stroke Width"
+msgstr "Larĝo de streko"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:158 src/Gui/ColorPopup.qml:44
+msgid "Stroke Color"
+msgstr "Strekokoloro"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:192
+msgid "Fill:"
+msgstr "Plenigi:"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:204 src/Gui/ColorPopup.qml:45
+msgid "Fill Color"
+msgstr "Pleniga Koloro"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:241
+msgctxt "@label:slider strength of effect"
+msgid "Strength:"
+msgstr "Forto:"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:260
+msgctxt "@info:tooltip"
+msgid "The strength of the effect."
+msgstr "La forteco de la efekto."
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:287
+msgid "Font:"
+msgstr "Tiparo:"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:301
+msgctxt "%2 font family, %3 font style name, %1 font point size"
+msgid "%2 %3 %1pt"
+msgid_plural "%2 %3 %1pts"
+msgstr[0] "%2 %3 %1pt"
+msgstr[1] "%2 %3 %1pts"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:302
+msgctxt "%2 font family %1 font point size"
+msgid "%2 %1pt"
+msgid_plural "%2 %1pts"
+msgstr[0] "%2 %1pt"
+msgstr[1] "%2 %1pts"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:314
+msgid "Font Color"
+msgstr "Tiparo Koloro"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:351
+msgid "Number:"
+msgstr "Nombro:"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:370
+msgid "Number for number annotations"
+msgstr "Nombro por numeraj komentarioj"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:398
+msgid "Shadow"
+msgstr "Ombro"
+
+#: src/Gui/AnnotationsToolBarContents.qml:109
+msgctxt "@action:intoolbar no tool, to allow dragging"
+msgid "None"
+msgstr "Neniu"
+
+#: src/Gui/AnnotationsToolBarContents.qml:121
+msgctxt "@action:intoolbar crop image tool"
+msgid "Crop"
+msgstr "Stuci"
+
+#: src/Gui/AnnotationsToolBarContents.qml:128
+msgctxt "@action:intoolbar select annotation tool"
+msgid "Select"
+msgstr "Elekti"
+
+#: src/Gui/AnnotationsToolBarContents.qml:137
+msgctxt "@action:intoolbar freehand line tool"
+msgid "Freehand"
+msgstr "Libermane"
+
+#: src/Gui/AnnotationsToolBarContents.qml:138
+msgctxt "@info:tooltip"
+msgid "Shift: Snap to straight lines"
+msgstr "Shift: Kapti per rektaj linioj"
+
+#: src/Gui/AnnotationsToolBarContents.qml:145
+msgctxt "@action:intoolbar highlighter line tool"
+msgid "Highlighter"
+msgstr "Markilo"
+
+#: src/Gui/AnnotationsToolBarContents.qml:154
+msgctxt "@action:intoolbar straight line tool"
+msgid "Line"
+msgstr "Linio"
+
+#: src/Gui/AnnotationsToolBarContents.qml:155
+msgctxt "@info:tooltip"
+msgid "Shift: Snap to 45 degree increments"
+msgstr "Shift: Kapti per 45-gradaj pliiĝoj"
+
+#: src/Gui/AnnotationsToolBarContents.qml:162
+msgctxt "@action:intoolbar arrow line tool"
+msgid "Arrow"
+msgstr "Sago"
+
+#: src/Gui/AnnotationsToolBarContents.qml:171
+msgctxt "@action:intoolbar rectangle tool"
+msgid "Rectangle"
+msgstr "Rektangulo"
+
+#: src/Gui/AnnotationsToolBarContents.qml:173
+msgctxt "@info:tooltip"
+msgid ""
+"Shift: Snap to diagonal movements\n"
+"Control: Resize from center"
+msgstr ""
+"Shift: Kapti per diagonalaj movoj\n"
+"Control: Kapti de centro"
+
+#: src/Gui/AnnotationsToolBarContents.qml:180
+msgctxt "@action:intoolbar ellipse tool"
+msgid "Ellipse"
+msgstr "Elipso"
+
+#: src/Gui/AnnotationsToolBarContents.qml:188
+msgctxt "@action:intoolbar pixelate tool"
+msgid "Pixelate"
+msgstr "Pixelate"
+
+#: src/Gui/AnnotationsToolBarContents.qml:196
+msgctxt "@action:intoolbar blur tool"
+msgid "Blur"
+msgstr "Malklarigi"
+
+#: src/Gui/AnnotationsToolBarContents.qml:204
+msgctxt "@action:intoolbar text tool"
+msgid "Text"
+msgstr "Teksto"
+
+#: src/Gui/AnnotationsToolBarContents.qml:211
+msgctxt "@action:intoolbar number stamp tool"
+msgid "Number"
+msgstr "Numero"
+
+#: src/Gui/InlineMessageList.qml:129
+#, fuzzy
+msgctxt "@action:button"
+msgid "Open Containing Folder"
+msgstr "Malfermi Enhavan Dosierujon"
+
+#: src/Gui/InlineMessageList.qml:139
+#, fuzzy
+msgctxt "@action:button"
+msgid "Copy to Clipboard"
+msgstr "Kopii bildon al tondujo"
+
+#: src/Gui/InlineMessageList.qml:149
+msgctxt "@action:button close inline notification"
+msgid "Close"
+msgstr ""
+
+#: src/Gui/ColorPopup.qml:46
+#, fuzzy
+msgid "Text Color"
+msgstr "Tiparo Koloro"
+
+#: src/Gui/ColorPopup.qml:47
+#, fuzzy
+msgid "Color"
+msgstr "Pleniga Koloro"
+
+#: src/Gui/ColorPopup.qml:241
+msgid "Alpha"
+msgstr ""
+
+#: src/Gui/ColorPopup.qml:264
+msgid "Hex"
+msgstr ""
+
+#: src/Platforms/VideoPlatformWayland.cpp:165
+msgctxt "@info"
+msgid "KWin Screencasting is not available."
+msgstr "KWin Screencasting ne haveblas."
+
+#: src/Platforms/VideoPlatformWayland.cpp:179
+msgctxt "@info:shell"
+msgid "Failed to record: File URL is not a local file"
+msgstr "Malsukcesis registri: Dosier-URL ne estas loka dosiero"
+
+#: src/Platforms/VideoPlatformWayland.cpp:279
+msgctxt "@info"
+msgid ""
+"The stream closed because the target screen changed in a way that disrupted "
+"the recording."
+msgstr ""
+"La fluo fermiĝis ĉar la celekrano ŝanĝiĝis en maniero kiu disrompis la "
+"registradon."
+
+#: src/Platforms/VideoPlatformWayland.cpp:283
+msgctxt "@info"
+msgid ""
+"The stream closed because the target window changed in a way that disrupted "
+"the recording."
+msgstr ""
+"La fluo fermiĝis ĉar la celfenestro ŝanĝiĝis en maniero kiu disrompis la "
+"registradon."
+
+#: src/Platforms/VideoPlatformWayland.cpp:287
+msgctxt "@info"
+msgid ""
+"The stream closed because a screen containing the target region changed in a "
+"way that disrupted the recording."
+msgstr ""
+"La fluo fermiĝis ĉar la ekrano enhavanta la celregionon ŝanĝiĝis en maniero "
+"kiu disrompis la registradon."
+
+#: src/Platforms/VideoPlatformWayland.cpp:303
+#, fuzzy
+msgctxt "@info:shell, %1 is the temporary URL"
+msgid "Failed to record: Temporary file URL is not a local file (%1)"
+msgstr "Malsukcesis registri: Provizora dosier-URL ne estas loka dosiero (%1)"
+
+#: src/Platforms/VideoPlatformWayland.cpp:314
+#, fuzzy
+msgctxt "@info:shell, %1 is the output file URL"
+msgid "Failed to record: Output file URL is not a local file (%1)"
+msgstr "Malsukcesis registri: Eligdosiera URL ne estas loka dosiero (%1)"
+
+#: src/Platforms/VideoPlatformWayland.cpp:381
+#, fuzzy
+msgctxt "@info:shell, %1 is a directory path"
+msgid "Failed to record: Unable to create folder (%1)"
+msgstr "Malsukcesis registri: Ne eblas keri dosierujon (%1)"
+
+#: src/Platforms/VideoPlatformWayland.cpp:409
+msgctxt "@info:shell"
+msgid "Screen recording canceled"
+msgstr "Ekranregistrado nuligita"
+
+#: src/Platforms/VideoPlatformWayland.cpp:411
+msgctxt "@info:shell"
+msgid "Window recording canceled"
+msgstr "Fenestroregistrado nuligita"
+
+#: src/Platforms/VideoPlatformWayland.cpp:417
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to select screen: %1"
+msgstr "Malsukcesis elekti ekranon: %1"
+
+#: src/Platforms/VideoPlatformWayland.cpp:419
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to select window: %1"
+msgstr "Malsukcesis elekti fenestron: %1"
+
+#: src/Platforms/VideoPlatformWayland.cpp:447
+msgctxt "@info:shell"
+msgid "Failed to select screen: No screen contained the mouse cursor position"
+msgstr ""
+"Malsukcesis elekti ekranon: Neniu ekrano enhavis la muskorsoran pozicion"
+
+#: src/Platforms/VideoPlatformWayland.cpp:454
+msgctxt "@info:shell"
+msgid "Failed to select window: No window found"
+msgstr "Malsukcesis elekti fenestron"
+
+#: src/Platforms/ImagePlatformKWin.cpp:73
+#, fuzzy
+msgctxt "@info, %1 is the width"
+msgid "Bad width for KWin screenshot: %1"
+msgstr "Malbona larĝeco por KWin-ekrankopio: %1"
+
+#: src/Platforms/ImagePlatformKWin.cpp:78
+#, fuzzy
+msgctxt "@info, %1 is the height"
+msgid "Bad height for KWin screenshot: %1"
+msgstr "Malbona alteco por KWin-ekrankopio: %1"
+
+#: src/Platforms/ImagePlatformKWin.cpp:89
+#, fuzzy
+msgctxt "@info, %1 is a file format like 'png', 'jpg'"
+msgid "Bad format for KWin screenshot: %1"
+msgstr "Malbona formato por KWin-ekrankopio: %1"
+
+#: src/Platforms/ImagePlatformKWin.cpp:107
+msgctxt "@info"
+msgid "Could not open file descriptor for reading KWin screenshot."
+msgstr "Ne eblis malfermi dosierpriaĵon por legi KWin-ekrankopion."
+
+#: src/Platforms/ImagePlatformKWin.cpp:177
+#, fuzzy
+msgctxt "@info, %1 is an error code"
+msgid "pipe2() failed for KWin screenshot: %1"
+msgstr "pipe2() malsukcesis por KWin-ekrankopio: %1"
+
+#: src/Platforms/ImagePlatformKWin.cpp:233
+#, fuzzy
+msgctxt "@info, %1 is an error message"
+msgid ""
+"KWin screenshot request failed:\n"
+"%1"
+msgstr ""
+"Alpeto pri KWin-ekrankopio malsukcesis:\n"
+"%1"
+
+#: src/Platforms/ImagePlatformKWin.cpp:235
+msgctxt "@info"
+msgid ""
+"Potentially relevant information:\n"
+"%1"
+msgstr ""
+"Eble koncerna informo\n"
+"%1"
+
+#: src/Platforms/ImagePlatformKWin.cpp:243
+msgctxt "@info"
+msgid "Unsupported KWin screenshot type metadata: %1"
+msgstr "Nesubtenata KWin-ekrankopia tip-metadateno: %1"
+
+#: src/Platforms/ImagePlatformNiri.cpp:115
+#, fuzzy
+msgid "Failed to capture the window"
+msgstr "Malsukcesis elekti fenestron: %1"
+
+#: src/Platforms/ImagePlatformNiri.cpp:159
+#, fuzzy
+msgid "Unsupported capture mode"
+msgstr "Uzi la laste uzatan kaptoreĝimon"
+
+#: src/Platforms/ImagePlatformNiri.cpp:190
+msgid "No focused window"
+msgstr ""
+
+#: src/Platforms/ImagePlatformNiri.cpp:209
+msgid "No outputs found"
+msgstr ""
+
+#: src/Platforms/ImagePlatformNiri.cpp:215
+msgid "No focused output found"
+msgstr ""
+
+#: src/Platforms/ImagePlatformNiri.cpp:229
+#, fuzzy
+msgid "Failed to capture the screen"
+msgstr "Malsukcesis elekti ekranon: %1"
+
+#: src/Platforms/PlatformLoader.cpp:120
+msgid "wf-recorder is not installed"
+msgstr ""
+
+#: src/Platforms/PlatformLoader.cpp:127
+msgctxt "@info"
+msgid "Screen recording is not available on X11."
+msgstr "Ekranregistrado ne disponeblas en X11."
+
+#: src/Platforms/VideoPlatformNiri.cpp:197
+msgid "gst-launch-1.0 is not installed"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:200
+msgid "gst-inspect-1.0 is not installed"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:218
+msgid "missing GStreamer elements: %1"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:287
+msgid "missing GStreamer elements: mp4mux"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:291
+msgid "missing GStreamer elements: vah264enc+h264parse or x264enc"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:297
+msgid "H.265/HEVC requires vah265enc, h265parse and mp4mux"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:302
+msgid "AV1 requires vaav1enc, av1parse and mp4mux"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:306
+msgid "the video format is not supported"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:356
+msgid "missing GStreamer audio elements: %1"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:432
+#, fuzzy
+msgid "the D-Bus session bus is not available"
+msgstr "KWin Screencasting ne haveblas."
+
+#: src/Platforms/VideoPlatformNiri.cpp:500
+#: src/Platforms/VideoPlatformNiri.cpp:1241
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to record: could not start the window picker: %1"
+msgstr "Malsukcesis registri: Ne eblas keri dosierujon (%1)"
+
+#: src/Platforms/VideoPlatformNiri.cpp:518
+msgctxt "@info:shell, %1 is a process exit code"
+msgid "gst-launch-1.0 exited with code %1."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:520
+msgctxt "@info:shell, %1 is a process exit code"
+msgid "wf-recorder exited with code %1."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:917
+msgctxt "@info:shell"
+msgid "Recording canceled: no recording mode"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:921
+msgctxt "@info:shell"
+msgid "Failed to record: unsupported recording mode."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:925
+#: src/Platforms/VideoPlatformNiri.cpp:929
+#: src/Platforms/VideoPlatformNiri.cpp:1322
+#, fuzzy
+msgid "A recording is already starting"
+msgstr "Registradaj Agordoj"
+
+#: src/Platforms/VideoPlatformNiri.cpp:936
+#: src/Platforms/VideoPlatformNiri.cpp:1083
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to record: window recording is unavailable: %1."
+msgstr "Ekranregistrado ne disponeblas en X11."
+
+#: src/Platforms/VideoPlatformNiri.cpp:946
+#, fuzzy
+msgctxt "@info:shell"
+msgid "Failed to record: the output file URL is not a local file."
+msgstr "Malsukcesis registri: Eligdosiera URL ne estas loka dosiero (%1)"
+
+#: src/Platforms/VideoPlatformNiri.cpp:962
+msgctxt "@info:shell, %1 is a file path"
+msgid "Failed to record: the video format of %1 is not supported."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:964
+msgctxt "@info:shell"
+msgid "Failed to record: the selected video format is not supported."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:971
+#, fuzzy
+msgid "Recording format changed"
+msgstr "Registradaj Agordoj"
+
+#: src/Platforms/VideoPlatformNiri.cpp:973
+#, fuzzy
+msgid "WebM/VP9"
+msgstr "WebM/VP9"
+
+#: src/Platforms/VideoPlatformNiri.cpp:974
+#, fuzzy
+msgid "MP4/H.265"
+msgstr "MP4/H.264"
+
+#: src/Platforms/VideoPlatformNiri.cpp:975
+msgid "MP4/AV1"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:976
+#, fuzzy
+msgid "MP4/H.264"
+msgstr "MP4/H.264"
+
+#: src/Platforms/VideoPlatformNiri.cpp:972
+msgid ""
+"The selected format is not available for window recording; using %1 instead."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:992
+#, fuzzy
+msgctxt "@info:shell"
+msgid "Failed to record: unable to create a temporary output file."
+msgstr "Malsukcesis registri: Ne eblas keri dosierujon (%1)"
+
+#: src/Platforms/VideoPlatformNiri.cpp:998
+#, fuzzy
+msgctxt "@info:shell, %1 is a directory path"
+msgid "Failed to record: unable to create folder (%1)."
+msgstr "Malsukcesis registri: Ne eblas keri dosierujon (%1)"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1057
+#: src/Platforms/VideoPlatformNiri.cpp:1101
+#, fuzzy
+msgctxt "@info:shell"
+msgid "Failed to record: niri did not report a focused output."
+msgstr "Malsukcesis registri: Dosier-URL ne estas loka dosiero"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1059
+#: src/Platforms/VideoPlatformNiri.cpp:1103
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to record: %1"
+msgstr "Malsukcesis elekti ekranon: %1"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1066
+#: src/Platforms/VideoPlatformNiri.cpp:1361
+#, fuzzy
+msgid "Failed to record: the screen connector is empty."
+msgstr "Malsukcesis registri: Ne eblas keri dosierujon (%1)"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1113
+msgctxt "@info:shell"
+msgid "Failed to record: the recording region is empty."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1136
+msgid ""
+"Failed to record: wf-recorder does not support the selected video format."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1141
+msgid ""
+"Failed to record: HEVC region recording requires the libx265 encoder in wf-"
+"recorder."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1145
+msgid ""
+"Failed to record: AV1 region recording requires the libaom-av1 encoder in wf-"
+"recorder."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1149
+msgid ""
+"Failed to record: H.264 region recording requires the libx264 encoder in wf-"
+"recorder."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1153
+msgid ""
+"Failed to record: VP9 region recording requires the libvpx-vp9 encoder in wf-"
+"recorder."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1162
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to start wf-recorder: %1"
+msgstr "Malsukcesis elekti ekranon: %1"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1183
+#: src/Platforms/VideoPlatformNiri.cpp:1284
+msgid "Recording canceled: no window selected."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1191
+msgid "Recording canceled: the screencast stream did not start."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1247
+msgid "Recording canceled: no window was selected."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1271
+msgctxt "@info:shell, %1 is a process exit code"
+msgid "The window picker exited with code %1."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1327
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to record: screencast recording is unavailable: %1."
+msgstr "Ekranregistrado ne disponeblas en X11."
+
+#: src/Platforms/VideoPlatformNiri.cpp:1331
+msgid ""
+"Failed to record: this video format is not supported for screencast "
+"recording."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1336
+#: src/Platforms/VideoPlatformNiri.cpp:1341
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to record: %1."
+msgstr "Malsukcesis elekti ekranon: %1"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1353
+msgid "No window selected to record"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1367
+msgid ""
+"Failed to record: screencast recording only supports screen, window and "
+"region modes."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1384
+#: src/Platforms/VideoPlatformNiri.cpp:1396
+#: src/Platforms/VideoPlatformNiri.cpp:1420
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to start screencast recording: %1"
+msgstr "Malsukcesis elekti ekranon: %1"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1390
+msgid ""
+"Failed to start screencast recording: niri returned an empty screencast "
+"session."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1401
+msgid ""
+"Failed to start screencast recording: niri returned an empty screencast "
+"stream."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1410
+msgid ""
+"Failed to start screencast recording: could not subscribe to the screencast "
+"stream signal."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1414
+msgid ""
+"Failed to start screencast recording: could not subscribe to the screencast "
+"session signal."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1425
+msgid ""
+"Failed to start screencast recording: the niri screencast session was closed."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1440
+msgid "Timed out waiting for the PipeWire stream"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1474
+#: src/Platforms/VideoPlatformNiri.cpp:1500
+msgid ""
+"Failed to start screencast recording: the stream format is not supported."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1479
+#: src/Platforms/VideoPlatformNiri.cpp:1485
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to start screencast recording: %1."
+msgstr "Malsukcesis elekti ekranon: %1"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1517
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to start gst-launch-1.0: %1"
+msgstr "Malsukcesis elekti ekranon: %1"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1592
+msgid "Failed to record: the niri screencast session was closed."
+msgstr ""
+
+#: src/Gui/SettingsDialog/SaveOptionsUtils.h:40
+msgctxt "@info"
+msgid "<filename>%1</filename>"
+msgstr "<filename>%1</filename>"
+
+#: src/Gui/SettingsDialog/SaveOptionsUtils.h:72
+msgid ""
+"You can use the following placeholders in the filename, which will be "
+"replaced with actual text when the file is saved:"
+msgstr ""
+"Vi povas uzi la sekvajn anstataŭaĵojn en la dosiernomo, kiu estos "
+"anstataŭigita per reala teksto kiam la dosiero estas konservita:"
+
+#: src/Gui/SettingsDialog/SaveOptionsUtils.h:87
+msgid "To save to a sub-folder"
+msgstr "Por konservi en subdosierujo"
+
+#: src/Gui/SettingsDialog/SaveOptionsUtils.h:90
+msgctxt "show fewer filename placeholder templates"
+msgid "Show Fewer"
+msgstr "Montri Malpliajn"
+
+#: src/Gui/SettingsDialog/SaveOptionsUtils.h:92
+msgctxt "show more filename placeholder templates"
+msgid "Show More"
+msgstr "Montri Pliajn"
+
+#: src/Gui/SettingsDialog/VideoSaveOptionsPage.cpp:35
+msgid "Quality:"
+msgstr ""
+
+#: src/Gui/SettingsDialog/VideoSaveOptionsPage.cpp:37
+msgid "Low (smaller files)"
+msgstr ""
+
+#: src/Gui/SettingsDialog/VideoSaveOptionsPage.cpp:38
+msgid "Medium"
+msgstr ""
+
+#: src/Gui/SettingsDialog/VideoSaveOptionsPage.cpp:39
+msgid "High (larger files)"
+msgstr ""
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:37
+msgctxt "Settings category"
+msgid "General"
+msgstr "Ĝenerala"
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:38
+msgctxt "Settings category"
+msgid "Image Saving"
+msgstr "Konservado de Bildo"
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:39
+msgctxt "Settings category"
+msgid "Video Saving"
+msgstr "Konservado de Filmeto"
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:40
+msgctxt "Settings category"
+msgid "Shortcuts"
+msgstr "Ŝparvojoj"
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:104
+msgid "Shortcuts"
+msgstr "Ŝparvojoj"
+
+#, kde-format
+#~ msgctxt "translatable folder name"
+#~ msgid "Screenshots"
+#~ msgstr "Ekrankopioj"
+
+#, kde-format
+#~ msgctxt "part of default image filename template"
+#~ msgid "Screenshot"
+#~ msgstr "Ekrankopio"
+
+#, kde-format
+#~ msgctxt "translatable folder name"
+#~ msgid "Screencasts"
+#~ msgstr "Ekranregistraĵoj"
+
+#, kde-format
+#~ msgctxt "part of default video filename template"
+#~ msgid "Screencast"
+#~ msgstr "Ekranregistraĵoj"
+
+#, kde-format
+#~ msgid "When launching Spectacle:"
+#~ msgstr "Dum lanĉo de Spectacle:"
+
+#, kde-format
+#~ msgid "Take rectangular screenshot"
+#~ msgstr "Preni rektangulan ekrankopion"
+
+#, kde-format
+#~ msgid "Take full screen screenshot"
+#~ msgstr "Preni plenekranan ekrankopion"
+
+#, kde-format
+#~ msgid "Do not take a screenshot automatically"
+#~ msgstr "Ne preni ekrankopion aŭtomate"
+
+#, kde-format
+#~ msgid "After taking a screenshot:"
+#~ msgstr "Post preno de ekrankopio:"
+
+#, kde-format
+#~ msgid "Save file to default folder"
+#~ msgstr "Konservi dosieron al defaŭlta dosierujo"
+
+#, kde-format
+#~ msgid "Do not copy anything"
+#~ msgstr "Ne kopii ion ajn"
+
+#, kde-format
+#~ msgid "Copy image to clipboard"
+#~ msgstr "Kopii bildon al tondujo"
+
+#, kde-format
+#~ msgid "Copy file location to clipboard"
+#~ msgstr "Kopii dosierlokon al tondujo"
+
+#, kde-format
+#~ msgid "While Spectacle is running"
+#~ msgstr "Dum Spectacle funkcias"
+
+#, kde-format
+#~ msgid "Press screenshot key to:"
+#~ msgstr "Premu ekrankopian klavon por:"
+
+#, kde-format
+#~ msgid "Take a new Screenshot"
+#~ msgstr "Preni novan Ekrankopion"
+
+#, kde-format
+#~ msgid "Open a new Spectacle window"
+#~ msgstr "Malfermi novan Spectacle-fenestron"
+
+#, kde-format
+#~ msgid "Return focus to Spectacle"
+#~ msgstr "Redoni fokuson al Spectacle"
+
+#, kde-format
+#~ msgid "Rectangular Region Selection"
+#~ msgstr "Rektangula Regiona Elekto"
+
+#, kde-format
+#~ msgid "General:"
+#~ msgstr "Ĝenerala:"
+
+#, kde-format
+#~ msgid "Use light background"
+#~ msgstr "Uzi helan fonon"
+
+#, kde-format
+#~ msgid "Accept on click-and-release"
+#~ msgstr "Akcepti je klako-kaj-malteno"
+
+#, kde-format
+#~ msgid "Show magnifier:"
+#~ msgstr "Montri lupeon:"
+
+#, kde-format
+#~ msgid "Never"
+#~ msgstr "Neniam"
+
+#, kde-format
+#~ msgid "Always"
+#~ msgstr "Ĉiam"
+
+#, kde-format
+#~ msgid "While holding Shift"
+#~ msgstr "Tenante Shift"
+
+#, kde-format
+#~ msgid "Remember selected area:"
+#~ msgstr "Memori elektitan areon:"
+
+#, kde-format
+#~ msgid "Until Spectacle is closed"
+#~ msgstr "Ĝis Spectacle estas fermita"
+
+#, fuzzy, kde-format
+#~| msgid "Reset selection:"
+#~ msgid "Text extraction:"
+#~ msgstr "Restarigi elekton:"
+
+#, fuzzy, kde-format
+#~| msgctxt "@info"
+#~| msgid "KWin Screencasting is not available."
+#~ msgid "OCR functionality is not available"
+#~ msgstr "KWin Screencasting ne haveblas."
+
+#, kde-format
+#~ msgid "Save Location:"
+#~ msgstr "Konservejo:"
+
+#, kde-format
+#~ msgid "Compression Quality:"
+#~ msgstr "Kunprema Kvalito:"
+
+#, kde-format
+#~ msgid "For lossy image formats like JPEG"
+#~ msgstr "Por perdformatoj kiel JPEG"
+
+#, no-c-format, kde-format
+#~ msgid "%"
+#~ msgstr "%"
+
+#, kde-format
+#~ msgid "Filename:"
+#~ msgstr "Dosiernomo:"
+
+#, kde-format
+#~ msgctxt "Preview of the user configured filename"
+#~ msgid "Preview:"
+#~ msgstr "Antaŭrigardo:"
+
+#, kde-format
+#~ msgid "What to do when Spectacle is launched"
+#~ msgstr "Kion fari kiam Spectacle estas lanĉita"
+
+#, kde-format
+#~ msgid ""
+#~ "What should happen if print key is pressed when Spectacle is already "
+#~ "running"
+#~ msgstr ""
+#~ "Kio devus okazi se presa klavo estas premita kiam Spectacle jam funkcias"
+
+#, kde-format
+#~ msgid "Save screenshot automatically after it is taken"
+#~ msgstr "Konservi ekrankopion aŭtomate post kiam ĝi estas prenita"
+
+#, kde-format
+#~ msgid ""
+#~ "Clipboard action which should be executed after the screenshot is taken"
+#~ msgstr ""
+#~ "Ago de tondujo, kiu devus esti efektivigita post kiam la ekrankopio estas "
+#~ "prenita"
+
+#, kde-format
+#~ msgid "Whether to use a light color mask in the region selection dialog"
+#~ msgstr "Ĉu uzi lumkoloran maskon en la dialoga elekto de regiono"
+
+#, kde-format
+#~ msgid ""
+#~ "Whether the screenshot should be captured after selecting the region and "
+#~ "releasing the mouse"
+#~ msgstr ""
+#~ "Ĉu la ekrankopio devas esti kaptita post elekto de la regiono kaj "
+#~ "liberigado de la muso"
+
+#, kde-format
+#~ msgid "Remember the last rectangular region"
+#~ msgstr "Memori la lastan rektangulan regionon"
+
+#, kde-format
+#~ msgid "The last used region the user selected"
+#~ msgstr "La lasta uzata regiono kiun la uzanto elektis"
+
+#, kde-format
+#~ msgid "Take screenshot on click"
+#~ msgstr "Preni ekrankopion alklakante"
+
+#, kde-format
+#~ msgid "Whether the mouse cursor is included in the screenshot"
+#~ msgstr "Ĉu la muskursoro estas inkluzivita en la ekrankopio"
+
+#, kde-format
+#~ msgid "Whether the mouse cursor is included in the video"
+#~ msgstr "Ĉu la muskursoro estas inkluzivita en la filmeto"
+
+#, fuzzy, kde-format
+#~| msgid "Whether the mouse cursor is included in the video"
+#~ msgid "Whether system audio is included in the recording"
+#~ msgstr "Ĉu la muskursoro estas inkluzivita en la filmeto"
+
+#, fuzzy, kde-format
+#~| msgid "Whether the mouse cursor is included in the video"
+#~ msgid "Whether microphone audio is included in the recording"
+#~ msgstr "Ĉu la muskursoro estas inkluzivita en la filmeto"
+
+#, kde-format
+#~ msgid "Whether the window decorations are included in the screenshot"
+#~ msgstr "Ĉu la fenestraj dekoracioj estas inkluzivitaj en la ekrankopio"
+
+#, kde-format
+#~ msgid "Whether the window shadow is included in the screenshot"
+#~ msgstr "Ĉu la fenestra ombro estas inkluzivita en la ekrankopio"
+
+#, kde-format
+#~ msgid "Quit after saving or copying an image"
+#~ msgstr "Forlasi post konservi aŭ kopii bildon"
+
+#, kde-format
+#~ msgid "Delay"
+#~ msgstr "Prokrasto"
+
+#, kde-format
+#~ msgid "Default filename"
+#~ msgstr "Defaŭlta dosiernomo"
+
+#, kde-format
+#~ msgid "Compression quality for lossy file formats"
+#~ msgstr "Kunprema kvalito por perdaj dosierformatoj"
+
+#, kde-format
+#~ msgid "Default save image format"
+#~ msgstr "Defaŭlta konserva bildoformato"
+
+#, kde-format
+#~ msgid "The filename template used when saving screenshots"
+#~ msgstr "La dosiernoma ŝablono uzata dum konservado de ekrankopioj"
+
+#, kde-format
+#~ msgid "The path of the file saved last"
+#~ msgstr "La vojo de la dosiero konservita lasta"
+
+#, kde-format
+#~ msgid "Last path used for \"save as\" action"
+#~ msgstr "Lasta vojo uzata por ago \"konservi kiel\"."
+
+#, kde-format
+#~ msgid "Default video format"
+#~ msgstr "Defaŭlta filmetformato"
+
+#, kde-format
+#~ msgid "The filename template used when saving screencasts"
+#~ msgstr "La dosiernoma ŝablono uzata dum konservado de ekranregistraĵoj"
+
+#, kde-format
+#~ msgid "Save &Location:"
+#~ msgstr "&Loko de Konservado:"
+
+#, kde-format
+#~ msgid "Spectacle"
+#~ msgstr "Spectacle"
+
+#, kde-format
+#~ msgid "KDE Screenshot Utility"
+#~ msgstr "KDE-Ekrankapta Utilo"
+
+#~ msgid ""
+#~ "Capture the window currently under the cursor, excluding parents of pop-"
+#~ "up menus"
+#~ msgstr ""
+#~ "Kapti la fenestron nuntempe sub la kursoro, krom gepatroj de ŝprucmenuoj"
+
+#~ msgid "Capture the current pop-up only"
+#~ msgstr "Kapti nur la nunan ŝprucfenestron"
+
+#~ msgid ""
+#~ "Capture only the current pop-up window (like a menu, tooltip etc) when "
+#~ "taking a screenshot of a window. If disabled, the pop-up is captured "
+#~ "along with the parent window."
+#~ msgstr ""
+#~ "Kapti nur la nunan ŝprucfenestron (kiel menuo, konsileto ktp) dum "
+#~ "ekrankopio de fenestro. Se malebligita, la ŝprucfenestro estas kaptita "
+#~ "kune kun la gepatra fenestro."
+
+#~ msgctxt "@option:check"
+#~ msgid "Capture the current pop-up only"
+#~ msgstr "Kapti nur la nunan ŝprucfenestron"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid ""
+#~ "Capture only the current pop-up window (like a menu, tooltip etc).\n"
+#~ "If disabled, the pop-up is captured along with the parent window"
+#~ msgstr ""
+#~ "Kapti nur la nunan ŝprucfenestron (kiel menuo, konsileto ktp).\n"
+#~ "Se malŝaltita, la ŝprucfenestro estas kaptita kune kun la gepatra fenestro"
+
+#~ msgid "Only capture the current pop up menu"
+#~ msgstr "Kapti nur la nunan ŝprucmenuon"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "The shared image link (<a href=\"%1\">%1</a>) has been copied to the "
+#~ "clipboard."
+#~ msgstr ""
+#~ "La komuna bildligilo (<a href=\"%1\">%1</a>) estis kopiita al la tondujo."
+
+#, fuzzy
+#~| msgid "Open Containing Folder"
+#~ msgctxt "@action"
+#~ msgid "Open Containing Folder"
+#~ msgstr "Malfermi Enhavan Dosierujon"
+
+#~ msgid "The last used annotation tool type"
+#~ msgstr "La laste uzita prinotiltipo"
+
+#~ msgid "Stroke width for freehand annotation tool"
+#~ msgstr "Larĝo de streko por libermana prinotilo"
+
+#~ msgid "Stroke width for highlighter annotation tool"
+#~ msgstr "Larĝo de streko por prinotilo de lumigilo"
+
+#~ msgid "Stroke width for line annotation tool"
+#~ msgstr "Larĝo de streko por linia prinotilo"
+
+#~ msgid "Stroke width for arrow annotation tool"
+#~ msgstr "Larĝo de streko por sago-prinotilo"
+
+#~ msgid "Stroke width for rectangle annotation tool"
+#~ msgstr "Larĝo de streko por prinotilo de rektangulo"
+
+#~ msgid "Stroke width for ellipse annotation tool"
+#~ msgstr "Larĝo de streko por elipsa prinotilo"
+
+#~ msgid "Stroke color for freehand annotation tool"
+#~ msgstr "Trakkoloro por libermana prinotilo"
+
+#~ msgid "Stroke color for highlighter annotation tool"
+#~ msgstr "Trakkoloro por reliefiga prinotilo"
+
+#~ msgid "Stroke color for line annotation tool"
+#~ msgstr "Trakkoloro por linia prinotilo"
+
+#~ msgid "Stroke color for arrow annotation tool"
+#~ msgstr "Trakkoloro por sago komenta ilo"
+
+#~ msgid "Stroke color for rectangle annotation tool"
+#~ msgstr "Trakkoloro por ortangula prinotilo"
+
+#~ msgid "Stroke color for ellipse annotation tool"
+#~ msgstr "Trakkoloro por elipsa prinotilo"
+
+#~ msgid "Fill color for rectangle annotation tool"
+#~ msgstr "Pleniga koloro por ortangula prinotilo"
+
+#~ msgid "Fill color for ellipse annotation tool"
+#~ msgstr "Pleniga koloro por elipsa prinotilo"
+
+#~ msgid "Fill color for number annotation tool"
+#~ msgstr "Pleniga koloro por numera prinotilo"
+
+#~ msgid "The strength of the blur effect."
+#~ msgstr "La forteco de la malkarig-efekto."
+
+#~ msgid "The strength of the pixelate effect."
+#~ msgstr "La forteco de la bilderig-efekto."
+
+#~ msgid "Font for text annotations"
+#~ msgstr "Tiparo por tekstaj komentarioj"
+
+#~ msgid "Font for number annotations"
+#~ msgstr "Tiparo por numeraj komentarioj"
+
+#~ msgid "Font color for annotations"
+#~ msgstr "Tipara koloro por komentarioj"
+
+#~ msgid "Whether freehand annotation tool has a drop shadow"
+#~ msgstr "Ĉu libermana komenta ilo havas falombron"
+
+#~ msgid "Whether line annotation tool has a drop shadow"
+#~ msgstr "Ĉu linia komenta ilo havas falombron"
+
+#~ msgid "Whether arrow annotation tool has a drop shadow"
+#~ msgstr "Ĉu sago-komenta ilo havas falombron"
+
+#~ msgid "Whether rectangle annotation tool has a drop shadow"
+#~ msgstr "Ĉu rektangula komenta ilo havas falombron"
+
+#~ msgid "Whether ellipse annotation tool has a drop shadow"
+#~ msgstr "Ĉu elipskomenta ilo havas falombron"
+
+#~ msgid "Whether text annotation tool has a drop shadow"
+#~ msgstr "Ĉu tekstkomenta ilo havas falombron"
+
+#~ msgid "Whether number annotation tool has a drop shadow"
+#~ msgstr "Ĉu numerkomenta ilo havas falombron"
+
+#~ msgid "Show capture instructions"
+#~ msgstr "Montri kaptajn instrukciojn"
+
+#~ msgid "Whether to show capture instructions in the region selection"
+#~ msgstr "Ĉu montri kaptajn instrukciojn en la regiona elekto"
+
+#~ msgctxt "@action global shortcut"
+#~ msgid "Record Window"
+#~ msgstr "Registri Fenestron"
+
+#~ msgctxt "@action global shortcut"
+#~ msgid "Record Rectangular Region"
+#~ msgstr "Registri Rektangulan Regionon"
+
+#~ msgctxt "recording notification message"
+#~ msgid "Click the system tray icon to finish recording"
+#~ msgstr "Alklaku la sistempleton por fini registradon"
+
+#~ msgctxt "@info"
+#~ msgid "The screenshot location has been copied to the clipboard."
+#~ msgstr "La ekrankopiejo estis kopiita al la tondujo."
+
+#~ msgctxt "@info"
+#~ msgid "Video shared"
+#~ msgstr "Filmeto kundividita"
+
+#~ msgctxt "@info"
+#~ msgid "Image shared"
+#~ msgstr "Bildo kundividita"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "The shared video link (<a href=\"%1\">%1</a>) has been copied to the "
+#~ "clipboard."
+#~ msgstr ""
+#~ "La komuna filmligilo (<a href=\"%1\">%1</a>) estis kopiita al la tondujo."
+
+#~ msgctxt "@info"
+#~ msgid "There was a problem sharing the video: %1"
+#~ msgstr "Estis problemo kundividante la filmeton: %1"

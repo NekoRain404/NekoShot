@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="NekoShot — Spectacle-grade screenshots, natively on niri">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#090d18"/>
+      <stop offset="0.55" stop-color="#111827"/>
+      <stop offset="1" stop-color="#0b1220"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8b5cf6"/>
+      <stop offset="0.52" stop-color="#c084fc"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.84" cy="0.18" r="0.62">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="320" rx="28" fill="url(#bg)"/>
+  <rect width="1280" height="320" rx="28" fill="url(#glow)"/>
+
+  <circle cx="1168" cy="74" r="150" fill="none" stroke="#22d3ee" stroke-opacity="0.10" stroke-width="1.5"/>
+  <circle cx="1168" cy="74" r="102" fill="none" stroke="#8b5cf6" stroke-opacity="0.16" stroke-width="1.5"/>
+  <circle cx="1168" cy="74" r="54" fill="none" stroke="#c084fc" stroke-opacity="0.20" stroke-width="1.5"/>
+
+  <g transform="translate(152,158)">
+    <circle r="86" fill="url(#accent)" opacity="0.16" filter="url(#soft)"/>
+    <path d="M-64 -36 L-44 -92 L-16 -54 Z" fill="url(#accent)"/>
+    <path d="M64 -36 L44 -92 L16 -54 Z" fill="url(#accent)"/>
+    <circle r="76" fill="#0e1525" stroke="url(#accent)" stroke-width="4"/>
+    <circle r="47" fill="none" stroke="url(#accent)" stroke-width="6"/>
+    <circle r="25" fill="url(#accent)" opacity="0.92"/>
+    <circle r="10" fill="#0e1525" opacity="0.75"/>
+    <circle cx="-27" cy="-16" r="5.5" fill="#e2e8f0"/>
+    <circle cx="27" cy="-16" r="5.5" fill="#e2e8f0"/>
+  </g>
+
+  <text x="276" y="146" font-family="Inter, 'Segoe UI', 'Noto Sans', sans-serif" font-size="78" font-weight="800" fill="#f8fafc" letter-spacing="-2.5">NekoShot</text>
+  <text x="280" y="196" font-family="Inter, 'Segoe UI', 'Noto Sans', sans-serif" font-size="26" fill="#94a3b8" letter-spacing="0.2">Spectacle-grade screenshots, natively on niri</text>
+
+  <g font-family="Inter, 'Segoe UI', 'Noto Sans', sans-serif" font-size="17" fill="#cbd5e1">
+    <rect x="280" y="228" width="196" height="38" rx="19" fill="#0f172a" stroke="#334155"/>
+    <text x="378" y="252" text-anchor="middle">Wayland · layer-shell</text>
+    <rect x="490" y="228" width="132" height="38" rx="19" fill="#0f172a" stroke="#334155"/>
+    <text x="556" y="252" text-anchor="middle">Qt 6 · KF6</text>
+    <rect x="636" y="228" width="170" height="38" rx="19" fill="#0f172a" stroke="#334155"/>
+    <text x="721" y="252" text-anchor="middle">GPL-2.0-or-later</text>
+  </g>
+</svg>

@@ -1,0 +1,3128 @@
+# Copyright (C) YEAR This_file_is_part_of_KDE
+# This file is distributed under the same license as the PACKAGE package.
+# Adrián Chaves Fernández <adriyetichaves@gmail.com>, 2015, 2016.
+# SPDX-FileCopyrightText: 2023, 2024, 2025 Adrián Chaves (Gallaecio)
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-29 15:50+0800\n"
+"PO-Revision-Date: 2025-06-22 12:22+0200\n"
+"Last-Translator: Adrián Chaves (Gallaecio) <adrian@chaves.gal>\n"
+"Language-Team: Proxecto Trasno (proxecto@trasno.gal)\n"
+"Language: gl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Lokalize 25.04.2\n"
+
+#: src/OcrManager.cpp:578
+msgctxt "@item:inlistbox"
+msgid "Orientation and Script Detection"
+msgstr ""
+
+#: src/OcrManager.cpp:619
+msgid "Math/Equation Detection"
+msgstr ""
+
+#: src/OcrManager.cpp:622
+msgid "Orientation and Script Detection"
+msgstr ""
+
+#: src/ShortcutActions.cpp:38
+msgctxt "@action global shortcut"
+msgid "Launch Spectacle"
+msgstr "Iniciar Spectacle"
+
+#: src/ShortcutActions.cpp:44
+msgctxt "@action global shortcut"
+msgid "Capture Entire Desktop"
+msgstr "Capturar o escritorio completo"
+
+#: src/ShortcutActions.cpp:50
+msgctxt "@action global shortcut"
+msgid "Capture Current Monitor"
+msgstr "Capturar o monitor actual"
+
+#: src/ShortcutActions.cpp:56
+msgctxt "@action global shortcut"
+msgid "Capture Active Window"
+msgstr "Capturar a xanela activa"
+
+#: src/ShortcutActions.cpp:62
+msgctxt "@action global shortcut"
+msgid "Capture Rectangular Region"
+msgstr "Capturar unha zona rectangular"
+
+#: src/ShortcutActions.cpp:69
+msgctxt "@action global shortcut"
+msgid "Capture Selected Window"
+msgstr "Capturar a xanela seleccionada"
+
+#: src/ShortcutActions.cpp:69
+msgctxt "@action global shortcut"
+msgid "Capture Window Under Cursor"
+msgstr "Capturar a xanela baixo o cursor"
+
+#: src/ShortcutActions.cpp:76
+msgctxt "@action global shortcut"
+msgid "Start/Stop Screen Recording"
+msgstr "Conmutar a gravación de pantalla"
+
+#: src/ShortcutActions.cpp:82
+msgctxt "@action global shortcut"
+msgid "Start/Stop Window Recording"
+msgstr "Conmutar a gravación de xanela"
+
+#: src/ShortcutActions.cpp:88
+msgctxt "@action global shortcut"
+msgid "Start/Stop Region Recording"
+msgstr "Conmutar a gravación de rexión"
+
+#: src/ShortcutActions.cpp:94
+msgctxt "@action global shortcut"
+msgid "Launch Spectacle without capturing"
+msgstr "Iniciar Spectacle sen capturar"
+
+#: src/VideoFormatModel.cpp:31
+msgctxt "@item:inlistbox Container/encoder"
+msgid "WebM/VP9"
+msgstr "WebM/VP9"
+
+#: src/VideoFormatModel.cpp:38
+msgctxt "@item:inlistbox Container/encoder"
+msgid "MP4/H.264"
+msgstr "MP4/H.264"
+
+#: src/VideoFormatModel.cpp:45
+#, fuzzy
+msgctxt "@item:inlistbox Container/encoder"
+msgid "MP4/H.265"
+msgstr "MP4/H.264"
+
+#: src/VideoFormatModel.cpp:52
+msgctxt "@item:inlistbox Container/encoder"
+msgid "MP4/AV1"
+msgstr ""
+
+#: src/VideoFormatModel.cpp:59
+msgctxt "@item:inlistbox Container/encoder"
+msgid "Animated WebP (better than GIF)"
+msgstr "WebP animado (mellor que GIF)"
+
+#: src/VideoFormatModel.cpp:66
+msgctxt "@item:inlistbox Container/encoder"
+msgid "GIF (compatible, but inefficient)"
+msgstr "GIF (compatíbel, pero ineficiente)"
+
+#: src/CaptureModeModel.cpp:167
+msgctxt "@action in capture mode section"
+msgid "Rectangular Region"
+msgstr "Zona rectangular"
+
+#: src/CaptureModeModel.cpp:169
+msgctxt "@action in capture mode section"
+msgid "All Screens (Scaled to same size)"
+msgstr "Todas as pantallas (axustadas ao mesmo tamaño)"
+
+#: src/CaptureModeModel.cpp:171
+msgctxt "@action in capture mode section"
+msgid "Current Screen"
+msgstr "A pantalla actual"
+
+#: src/CaptureModeModel.cpp:173
+msgctxt "@action in capture mode section"
+msgid "Active Window"
+msgstr "A xanela activa"
+
+#: src/CaptureModeModel.cpp:176
+msgctxt "@action in capture mode section"
+msgid "Select Window"
+msgstr "Seleccionar unha xanela"
+
+#: src/CaptureModeModel.cpp:176
+msgctxt "@action in capture mode section"
+msgid "Window Under Cursor"
+msgstr "A xanela baixo o cursor"
+
+#: src/CaptureModeModel.cpp:179
+msgctxt "@action in capture mode section"
+msgid "All Screens"
+msgstr "Todas as pantallas"
+
+#: src/CaptureModeModel.cpp:181
+msgctxt "@action in capture mode section"
+msgid "Full Screen"
+msgstr "Pantalla completa"
+
+#: src/CommandLineOptions.h:22
+msgid "Capture the entire desktop (default)"
+msgstr "Capturar o escritorio completo (predeterminado)"
+
+#: src/CommandLineOptions.h:25
+msgid ""
+"When used with -f/--fullscreen, capture all screens scaled to the same size "
+"(niri: falls back to unscaled)"
+msgstr ""
+
+#: src/CommandLineOptions.h:28
+msgid "Capture the current monitor"
+msgstr "Capturar o monitor actual"
+
+#: src/CommandLineOptions.h:32
+msgid "Capture the active window"
+msgstr "Capturar a xanela activa"
+
+#: src/CommandLineOptions.h:35
+msgid ""
+"Capture the window currently under the cursor, including parents of pop-up "
+"menus"
+msgstr ""
+"Capturar a xanela que está baixo o cursor, incluíndo as xanelas das que "
+"dependen os menús emerxentes"
+
+#: src/CommandLineOptions.h:38
+msgid "Capture a rectangular region of the screen"
+msgstr "Capturar unha zona rectangular da pantalla"
+
+#: src/CommandLineOptions.h:42
+msgid ""
+"Record the screen using the given mode. Modes:\n"
+"- r, region\n"
+"- s, screen\n"
+"- w, window"
+msgstr ""
+"Gravar a pantalla usando o modo indicado. Modos:\n"
+"- r, zona\n"
+"- s, pantalla\n"
+"- w, xanela"
+
+#: src/CommandLineOptions.h:50
+msgid "Launch Spectacle without taking a screenshot"
+msgstr "Iniciar Spectacle sen facer unha captura de pantalla"
+
+#: src/CommandLineOptions.h:54
+msgid "Start in GUI mode (default)"
+msgstr "Iniciar en modo GUI (predeterminado)"
+
+#: src/CommandLineOptions.h:58
+msgid "Take a screenshot and exit without showing the GUI"
+msgstr "Facer unha captura de pantalla e saír sen amosar a GUI"
+
+#: src/CommandLineOptions.h:62
+msgid "Start in DBus-Activation mode"
+msgstr "Iniciar en modo de activación por DBus"
+
+#: src/CommandLineOptions.h:66
+msgid ""
+"In background mode, do not pop up a notification when the screenshot is taken"
+msgstr ""
+"No modo en segundo plano, non amosar unha notificación tras facer unha "
+"captura de pantalla"
+
+#: src/CommandLineOptions.h:70
+msgid "In background mode, save image to specified file"
+msgstr "No modo en segundo plano, gardar a imaxe no ficheiro indicado"
+
+#: src/CommandLineOptions.h:75
+msgid "In background mode, delay before taking the shot (in milliseconds)"
+msgstr ""
+"No modo en segundo plano, demora antes de facer a captura de pantalla (en "
+"milisegundos)"
+
+#: src/CommandLineOptions.h:80
+msgid ""
+"In background mode, copy screenshot image to clipboard, unless -o is also "
+"used."
+msgstr ""
+"No modo en segundo plano, copiar a imaxe de captura de pantalla no "
+"portapapeis, a non ser que tamén se use -o."
+
+#: src/CommandLineOptions.h:84
+msgid "In background mode, copy screenshot file path to clipboard"
+msgstr ""
+"No modo en segundo plano, copiar a ruta de ficheiro da captura de pantalla "
+"no portapapeis"
+
+#: src/CommandLineOptions.h:88
+msgid "Wait for a click before taking screenshot. Invalidates delay"
+msgstr ""
+"Agardar por un clic antes de facer a captura de pantalla. Se definiu un "
+"atraso, usar esta opción provocará que se ignore o atraso"
+
+#: src/CommandLineOptions.h:90
+#, fuzzy
+msgid "Starts a new GUI instance of NekoShot without registering to DBus"
+msgstr "Inicia unha nova instancia da GUI de Spectacle sen rexistrala en D-Bus"
+
+#: src/CommandLineOptions.h:93
+msgid "In background mode, include pointer in the screenshot"
+msgstr "No modo en segundo plano, incluír o cursor na captura de pantalla"
+
+#: src/CommandLineOptions.h:97
+msgid "In background mode, exclude decorations in the screenshot"
+msgstr ""
+"No modo en segundo plano, excluír as decoracións da captura de pantalla"
+
+#: src/CommandLineOptions.h:99
+msgid "In background mode, exclude shadows in the screenshot"
+msgstr "No modo en segundo plano, excluír as sombras da captura de pantalla"
+
+#: src/CommandLineOptions.h:102
+msgid "Open and edit existing screenshot file"
+msgstr "Abrir e editar o ficheiro de captura de pantalla existente"
+
+#: src/CommandLineOptions.h:105
+#, fuzzy
+msgid "Accept region selection on click-and-release"
+msgstr "Aceptar ao facer clic e soltar."
+
+#: src/CommandLineOptions.h:106
+msgid "Stay running and wait for D-Bus requests"
+msgstr ""
+
+#: src/CommandLineOptions.h:107
+#, fuzzy
+msgid "Stop the current recording"
+msgstr "Amosar o cursor do rato na gravación."
+
+#: src/ExportManager.cpp:466
+#, fuzzy
+msgctxt "%1 is an error message"
+msgid "QImageWriter cannot write image: %1"
+msgstr "QImageWriter non pode gardar a imaxe: %1"
+
+#: src/ExportManager.cpp:482
+msgctxt "@info"
+msgid ""
+"Cannot save screenshot because creating the directory failed:<nl/"
+"><filename>%1</filename>"
+msgstr ""
+"Non é posíbel gardar a captura de pantalla porque a creación do cartafol "
+"fallou:<nl/><filename>%1</filename>"
+
+#: src/ExportManager.cpp:491
+#, fuzzy
+msgid "Cannot save screenshot. Error while opening file."
+msgstr ""
+"Non é posíbel gardar a captura de pantalla. Produciuse un erro ao gardar o "
+"ficheiro."
+
+#: src/ExportManager.cpp:495
+msgid "Cannot save screenshot. Error while writing file."
+msgstr ""
+"Non é posíbel gardar a captura de pantalla. Produciuse un erro ao gardar o "
+"ficheiro."
+
+#: src/ExportManager.cpp:515
+msgctxt "@info"
+msgid ""
+"Cannot save screenshot because creating the remote directory failed:<nl/"
+"><filename>%1</filename>"
+msgstr ""
+"Non é posíbel gardar a captura de pantalla porque a creación do cartafol "
+"remoto fallou:<nl/><filename>%1</filename>"
+
+#: src/ExportManager.cpp:526 src/ExportManager.cpp:576
+msgid "Cannot save screenshot. Error while writing temporary local file."
+msgstr ""
+"Non é posíbel gardar a captura de pantalla. Produciuse un erro ao gardar o "
+"ficheiro temporal local."
+
+#: src/ExportManager.cpp:535
+msgid "Unable to save image. Could not upload file to remote location."
+msgstr ""
+"Non é posíbel gardar a imaxe. Non se puido subir o ficheiro ao lugar remoto."
+
+#: src/ExportManager.cpp:583
+msgid "Cannot save screenshot. The save filename is invalid."
+msgstr ""
+"Non é posíbel gardar a captura de pantalla. O nome do ficheiro no que "
+"gardala é incorrecto."
+
+#: src/ExportManager.cpp:627
+msgid "Cannot save an empty screenshot image."
+msgstr "Non é posíbel gardar unha captura de pantalla baleira."
+
+#: src/ExportManager.cpp:814
+msgctxt "@info:shell"
+msgid ""
+"Failed to export video: Temporary file URL must be an existing local file"
+msgstr ""
+"Non foi posíbel exportar o vídeo: o URL do ficheiro temporal debe ser un "
+"ficheiro local existente."
+
+#: src/ExportManager.cpp:821
+msgctxt "@info:shell"
+msgid ""
+"Failed to export video: Output file URL must be a valid URL with a file name"
+msgstr ""
+"Non foi posíbel exportar o vídeo: o URL do ficheiro de saída debe ser un URL "
+"válido cun nome de ficheiro."
+
+#: src/ExportManager.cpp:910
+#, fuzzy
+msgctxt "@info, %1 is a file path"
+msgid "Unable to save recording. Could not move file to location: %1"
+msgstr ""
+"Non é posíbel gardar a gravación. Non se puido mover o ficheiro á "
+"localización: %1"
+
+#: src/ExportManager.cpp:938
+msgid "Printing failed. The printer failed to initialize."
+msgstr ""
+"Produciuse un erro ao imprimir. Produciuse un erro ao inicializar a "
+"impresora."
+
+#: src/ExportManager.cpp:955
+msgctxt "filename placeholder description"
+msgid "Day (1–31)"
+msgstr "Día (1–31)"
+
+#: src/ExportManager.cpp:956
+msgctxt "filename placeholder description"
+msgid "Day (01–31)"
+msgstr "Día (01–31)"
+
+#: src/ExportManager.cpp:957
+msgctxt "filename placeholder description"
+msgid "Day (short name)"
+msgstr "Día (nome curto)"
+
+#: src/ExportManager.cpp:958
+msgctxt "filename placeholder description"
+msgid "Day (long name)"
+msgstr "Día (nome longo)"
+
+#: src/ExportManager.cpp:959
+msgctxt "filename placeholder description"
+msgid "Month (1–12)"
+msgstr "Mes (1–12)"
+
+#: src/ExportManager.cpp:960
+msgctxt "filename placeholder description"
+msgid "Month (01–12)"
+msgstr "Mes (01–12)"
+
+#: src/ExportManager.cpp:961
+msgctxt "filename placeholder description"
+msgid "Month (short name)"
+msgstr "Mes (nome curto)"
+
+#: src/ExportManager.cpp:962
+msgctxt "filename placeholder description"
+msgid "Month (long name)"
+msgstr "Mes (nome longo)"
+
+#: src/ExportManager.cpp:963
+msgctxt "filename placeholder description"
+msgid "Year (2 digit)"
+msgstr "Ano (2 díxitos)"
+
+#: src/ExportManager.cpp:964
+msgctxt "filename placeholder description"
+msgid "Year (4 digit)"
+msgstr "Ano (4 díxitos)"
+
+#: src/ExportManager.cpp:965
+msgctxt "filename placeholder description"
+msgid "Hour (0–23)"
+msgstr "Hora (0–23)"
+
+#: src/ExportManager.cpp:966
+msgctxt "filename placeholder description"
+msgid "Hour (00–23)"
+msgstr "Hora (00–23)"
+
+#: src/ExportManager.cpp:967
+msgctxt "filename placeholder description"
+msgid "Hour (1–12)"
+msgstr "Hora (1–12)"
+
+#: src/ExportManager.cpp:968
+msgctxt "filename placeholder description"
+msgid "Hour (01–12)"
+msgstr "Hora (01–12)"
+
+#: src/ExportManager.cpp:969
+msgctxt "filename placeholder description"
+msgid "Minute (0–59)"
+msgstr "Minuto (0–59)"
+
+#: src/ExportManager.cpp:970
+msgctxt "filename placeholder description"
+msgid "Minute (00–59)"
+msgstr "Minuto (00–59)"
+
+#: src/ExportManager.cpp:971
+msgctxt "filename placeholder description"
+msgid "Second (0–59)"
+msgstr "Segundo (0–59)"
+
+#: src/ExportManager.cpp:972
+msgctxt "filename placeholder description"
+msgid "Second (00–59)"
+msgstr "Segundo (00–59)"
+
+#: src/ExportManager.cpp:973
+msgctxt "filename placeholder description"
+msgid "Millisecond (0–999)"
+msgstr "Milisegundo (0–999)"
+
+#: src/ExportManager.cpp:975
+msgctxt "filename placeholder description"
+msgid "Millisecond (000–999)"
+msgstr "Milisegundo (000–999)"
+
+#: src/ExportManager.cpp:976
+msgctxt "filename placeholder description"
+msgid "AM/PM"
+msgstr "A.M./P.M."
+
+#: src/ExportManager.cpp:978
+msgctxt "filename placeholder description"
+msgid "am/pm"
+msgstr "a.m./p.m."
+
+#: src/ExportManager.cpp:980
+msgctxt "filename placeholder description"
+msgid "AM/PM or am/pm (localized)"
+msgstr "A.M./P.M. ou a.m./p.m. (localizado)"
+
+#: src/ExportManager.cpp:982
+msgctxt "filename placeholder description"
+msgid "Timezone (short name)"
+msgstr "Fuso horario (nome curto)"
+
+#: src/ExportManager.cpp:983
+msgctxt "filename placeholder description"
+msgid "Timezone offset (±0000)"
+msgstr "Desviación de fuso horario (±0000)"
+
+#: src/ExportManager.cpp:984
+msgctxt "filename placeholder description"
+msgid "Timezone offset (±00:00)"
+msgstr "Desviación de fuso horario (±00:00)"
+
+#: src/ExportManager.cpp:985
+msgctxt "filename placeholder description"
+msgid "Timezone (long name)"
+msgstr "Fuso horario (nome longo)"
+
+#: src/ExportManager.cpp:986
+msgctxt "filename placeholder description"
+msgid "Seconds since the Unix epoch"
+msgstr "Segundos desde a época de Unix"
+
+#: src/ExportManager.cpp:987
+msgctxt "filename placeholder description"
+msgid "Window Title"
+msgstr "Título da xanela"
+
+#: src/ExportManager.cpp:988
+msgctxt "filename placeholder description"
+msgid "Sequential numbering, padded by inserting additional '#' characters"
+msgstr "Numeración secuencial, enchido con cancelos (#) adicionais"
+
+#: src/Main.cpp:48 src/SpectacleCore.cpp:1408
+msgid "NekoShot"
+msgstr ""
+
+#: src/Main.cpp:50
+msgid "Screenshot utility for niri, based on Spectacle"
+msgstr ""
+
+#: src/Main.cpp:52
+#, fuzzy
+msgid "© 2015 Boudhayan Gupta and Spectacle contributors"
+msgstr "© 2015 Boudhayan Gupta"
+
+#: src/Main.cpp:60
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Adrián Chaves"
+
+#: src/Main.cpp:60
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "adrian@chaves.gal"
+
+#: src/Main.cpp:78
+msgid ""
+"On Wayland, Spectacle requires KDE Plasma's KWin compositor, which does not "
+"seem to be available. Use Spectacle on KDE Plasma, or use a different "
+"screenshot tool."
+msgstr ""
+"En Wayland, Spectacle necesita o compositor KWin de KDE Plasma, que non "
+"parece estar dispoñíbel. Use Spectacle en KDE Plasma, ou use unha ferramenta "
+"distinta de captura de pantalla."
+
+#: src/Main.cpp:103 src/Platforms/ImagePlatformNiri.cpp:167
+msgid "grim is not installed"
+msgstr ""
+
+#: src/Main.cpp:119
+msgid "--daemon cannot be combined with --new-instance"
+msgstr ""
+
+#: src/RecordingModeModel.cpp:104
+msgctxt "@item recording mode"
+msgid "Rectangular Region"
+msgstr "Zona rectangular"
+
+#: src/RecordingModeModel.cpp:106
+msgctxt "@item recording mode"
+msgid "Window"
+msgstr "Xanela"
+
+#: src/RecordingModeModel.cpp:108
+msgctxt "@item recording mode"
+msgid "Full Screen"
+msgstr "Pantalla completa"
+
+#: src/SpectacleCore.cpp:288
+msgctxt "@info"
+msgid "An error occurred while taking a screenshot."
+msgstr "Produciuse un erro ao facer unha captura de pantalla."
+
+#: src/SpectacleCore.cpp:318
+#, fuzzy
+msgctxt "@info:tooltip title for recording tray icon"
+msgid "Spectacle is Recording with Sound"
+msgstr "Spectacle está gravando."
+
+#: src/SpectacleCore.cpp:319
+msgctxt "@info:tooltip title for recording tray icon"
+msgid "Spectacle is Recording"
+msgstr "Spectacle está gravando."
+
+#: src/SpectacleCore.cpp:324
+#, fuzzy
+msgctxt "recording notification title"
+msgid "Spectacle is Recording with Sound"
+msgstr "Spectacle está gravando"
+
+#: src/SpectacleCore.cpp:325
+msgctxt "recording notification title"
+msgid "Spectacle is Recording"
+msgstr "Spectacle está gravando"
+
+#: src/SpectacleCore.cpp:354
+msgctxt "recording notification message without shortcut"
+msgid "To finish the recording, click the pulsing red System Tray icon."
+msgstr ""
+"Para finalizar a gravación, prema o punto vermello da área de notificación."
+
+#: src/SpectacleCore.cpp:356
+msgctxt "recording notification message with shortcut"
+msgid ""
+"To finish the recording, click the pulsing red System Tray icon or press "
+"<shortcut>%1</shortcut>."
+msgstr ""
+"Para finalizar a gravación, prema o punto vermello da área de notificación "
+"ou prema <shortcut>%1</shortcut>."
+
+#: src/SpectacleCore.cpp:373
+msgctxt "missing webp support notification title"
+msgid "WebP support is missing."
+msgstr "Non hai compatibilidade con WebP."
+
+#: src/SpectacleCore.cpp:375
+msgctxt "missing webp support notification message"
+msgid ""
+"Please install Qt Image Formats to get animated system tray icons for "
+"Spectacle, and then report this packaging issue to your distributor."
+msgstr ""
+"Instale «Qt Image Formats» (formatos de imaxe de Qt) para dispoñer de iconas "
+"animadas na área de notificación para Spectacle, e a continuación notifique "
+"este problema de empaquetado a quen lle subministrou Spectacle."
+
+#: src/SpectacleCore.cpp:412
+msgctxt "recording notification title"
+msgid "Spectacle is Finishing the Recording"
+msgstr "Spectacle está rematando a gravación"
+
+#: src/SpectacleCore.cpp:413
+msgctxt "recording notification message"
+msgid "Please wait"
+msgstr "Agarde"
+
+#: src/SpectacleCore.cpp:415
+msgctxt "@info:tooltip title for rendering tray icon"
+msgid "Spectacle is Finishing the Recording"
+msgstr "Spectacle está rematando a gravación"
+
+#: src/SpectacleCore.cpp:417
+msgctxt "@info:tooltip subtitle for rendering tray icon"
+msgid ""
+"Time recorded: %1\n"
+"Click to stop rendering early (this will lose data)"
+msgstr ""
+"Duración da gravación: %1\n"
+"Prema para deter a renderización antes de tempo (perderá datos)."
+
+#: src/SpectacleCore.cpp:442
+msgctxt "@info:tooltip subtitle for recording tray icon"
+msgid ""
+"Time recorded: %1\n"
+"Click to finish recording"
+msgstr ""
+"Duración da gravación: %1\n"
+"Prema para rematar a gravación."
+
+#: src/SpectacleCore.cpp:473
+msgctxt "@info"
+msgid "An error occurred while attempting to record the screen."
+msgstr "Produciuse un erro ao intentar gravar a pantalla."
+
+#: src/SpectacleCore.cpp:525
+msgctxt "@info"
+msgid ""
+"The screenshot was copied to the clipboard and saved as <link url=\"%1\">%2</"
+"link>"
+msgstr ""
+"A captura copiouse no portapapeis e gardouse como <link url=\"%1\">%2</link>"
+
+#: src/SpectacleCore.cpp:529
+msgctxt "@info"
+msgid ""
+"The screenshot has been saved as <link url=\"%1\">%2</link> and its location "
+"has been copied to clipboard"
+msgstr ""
+"A captura de pantalla gardouse como <link url=\"%1\">%2</link> e a súa "
+"localización copiouse no portapapeis"
+
+#: src/SpectacleCore.cpp:534
+msgctxt "@info"
+msgid "The screenshot was saved as <link url=\"%1\">%2</link>"
+msgstr "A captura gardouse como <link url=\"%1\">%2</link>"
+
+#: src/SpectacleCore.cpp:538
+msgctxt "@info"
+msgid "The screenshot has been copied to the clipboard."
+msgstr "A captura copiouse no portapapeis."
+
+#: src/SpectacleCore.cpp:570
+msgctxt "@info"
+msgid ""
+"The video has been saved as <link url=\"%1\">%2</link> and its location has "
+"been copied to clipboard"
+msgstr ""
+"O vídeo gardouse como <link url=\"%1\">%2</link> e a súa localización "
+"copiouse no portapapeis."
+
+#: src/SpectacleCore.cpp:575
+msgctxt "@info"
+msgid "The video was saved as <link url=\"%1\">%2</link>"
+msgstr "O vídeo gardouse como <link url=\"%1\">%2</link>"
+
+#: src/SpectacleCore.cpp:579
+msgctxt "@info"
+msgid "The video location has been copied to the clipboard."
+msgstr "A localización do vídeo copiouse no portapapeis."
+
+#: src/SpectacleCore.cpp:599
+#, fuzzy
+msgctxt "@info"
+msgid "Code found: %1"
+msgstr "Atopouse un código QR: %1"
+
+#: src/SpectacleCore.cpp:603
+msgctxt "@info"
+msgid "Found QR code with binary content."
+msgstr "Atopouse un código QR con código binario."
+
+#: src/SpectacleCore.cpp:611
+msgctxt "@info"
+msgid "Text extraction failed"
+msgstr ""
+
+#: src/SpectacleCore.cpp:616
+msgctxt "@info"
+msgid "No text found in the image"
+msgstr ""
+
+#: src/SpectacleCore.cpp:620
+msgctxt "@info"
+msgid "Text extraction completed"
+msgstr ""
+
+#: src/SpectacleCore.cpp:628
+msgctxt "@info:notification title"
+msgid "Text Extracted"
+msgstr ""
+
+#: src/SpectacleCore.cpp:648
+msgctxt "@info The variables are language names, e.g. 'English and German'"
+msgid "%1 and %2"
+msgstr ""
+
+#: src/SpectacleCore.cpp:653
+#, fuzzy
+msgctxt "@info:notification"
+msgid "Text copied to clipboard.<nl/>Languages used: %1"
+msgstr "Copiar a imaxe no portapapeis"
+
+#: src/SpectacleCore.cpp:658
+msgctxt "@action:button"
+msgid "Open in Text Editor"
+msgstr ""
+
+#: src/SpectacleCore.cpp:808
+msgctxt "@info"
+msgid "Please select a region before extracting text"
+msgstr ""
+
+#: src/SpectacleCore.cpp:830
+#, fuzzy
+msgctxt "@info"
+msgid "OCR is not available."
+msgstr "A gravación de pantalla de KWin non está dispoñíbel."
+
+#: src/SpectacleCore.cpp:836
+#, fuzzy
+msgctxt "@info"
+msgid "No screenshot available."
+msgstr "A gravación de pantalla de KWin non está dispoñíbel."
+
+#: src/SpectacleCore.cpp:840
+msgctxt "@info"
+msgid "Extracting text from image..."
+msgstr ""
+
+#: src/SpectacleCore.cpp:973
+msgctxt "@info:shell"
+msgid "Ignoring activation: a recording is already in progress"
+msgstr ""
+
+#: src/SpectacleCore.cpp:1181
+msgctxt "@info:shell"
+msgid ""
+"--scaled is only allowed together with -f/--fullscreen and will be ignored"
+msgstr ""
+
+#: src/SpectacleCore.cpp:1196
+msgctxt "@info:shell"
+msgid "%1 is not a valid mode for --record"
+msgstr "%1 non é un modo válido para «--record»."
+
+#: src/SpectacleCore.cpp:1462
+#, fuzzy
+msgctxt "%1 is the filename, %2 the path to the save location"
+msgid ""
+"A screenshot was saved as '%1' to '%2' and the file path of the screenshot "
+"has been saved to your clipboard."
+msgstr ""
+"Gardouse unha captura de pantalla como «%1» en «%2» e a ruta de ficheiro da "
+"captura de pantalla gardouse no portapapeis."
+
+#: src/SpectacleCore.cpp:1466
+#, fuzzy
+msgctxt "%1 is the filename"
+msgid "A screenshot was saved as '%1' to your Pictures folder."
+msgstr "Gardouse a captura co nome «%1» no cartafol persoal de imaxes."
+
+#: src/SpectacleCore.cpp:1469
+#, fuzzy
+msgctxt "%1 is the filename, %2 the path to the save location"
+msgid "A screenshot was saved as '%1' to '%2'."
+msgstr "Gardouse a captura co nome «%1» en «%2»."
+
+#: src/SpectacleCore.cpp:1472
+msgid "A screenshot was saved to your clipboard."
+msgstr "Gardouse unha captura no portapapeis."
+
+#: src/SpectacleCore.cpp:1477
+#, fuzzy
+msgctxt "%1 is the filename, %2 the path to the save location"
+msgid ""
+"A recording was saved as '%1' to '%2' and the file path of the recording has "
+"been saved to your clipboard."
+msgstr ""
+"Gardouse unha gravación como «%1» en «%2» e a ruta de ficheiro da gravación "
+"gardouse no portapapeis."
+
+#: src/SpectacleCore.cpp:1481
+#, fuzzy
+msgctxt "%1 is the filename"
+msgid "A recording was saved as '%1' to your Videos folder."
+msgstr "Gardouse a gravación co nome «%1» no cartafol persoal de vídeos."
+
+#: src/SpectacleCore.cpp:1484
+#, fuzzy
+msgctxt "%1 is the filename, %2 the path to the save location"
+msgid "A recording was saved as '%1' to '%2'."
+msgstr "Gardouse a gravación co nome «%1» en «%2»."
+
+#: src/SpectacleCore.cpp:1496
+msgctxt "Open the screenshot we just saved"
+msgid "Open"
+msgstr "Abrir"
+
+#: src/SpectacleCore.cpp:1508
+msgid "Annotate"
+msgstr "Anotar"
+
+#: src/Gui/AcceptAction.qml:9
+msgctxt "@action accept selection"
+msgid "Accept"
+msgstr "Aceptar"
+
+#: src/Gui/NewScreenshotToolButton.qml:15
+#: src/Gui/CaptureModeButtonsColumn.qml:32
+msgid "Cancel (%1 second)"
+msgid_plural "Cancel (%1 seconds)"
+msgstr[0] "Cancelar (%1 segundo("
+msgstr[1] "Cancelar (%1 segundos)"
+
+#: src/Gui/NewScreenshotToolButton.qml:27
+msgid "New Screenshot"
+msgstr "Nova captura de pantalla"
+
+#: src/Gui/OptionsMenuButton.qml:10
+msgctxt "@action"
+msgid "Options"
+msgstr "Opcións"
+
+#: src/Gui/CancelAction.qml:9
+#, fuzzy
+msgctxt "@action cancel selection"
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: src/Gui/CopyImageAction.qml:13
+msgctxt "@action"
+msgid "Copy"
+msgstr "Copiar"
+
+#: src/Gui/RecordAction.qml:11
+msgctxt "@action start recording"
+msgid "Record"
+msgstr "Gravar"
+
+#: src/Gui/RecordOptions.qml:23
+msgid "Recording Settings"
+msgstr "Configuración de gravación"
+
+#: src/Gui/RecordOptions.qml:37
+msgid "Finish recording"
+msgstr "Rematar a gravación"
+
+#: src/Gui/CopyLocationAction.qml:9
+msgctxt "@action"
+msgid "Copy Location"
+msgstr "Copiar a localización"
+
+#: src/Gui/EditAction.qml:11
+msgctxt "@action edit screenshot"
+msgid "Edit…"
+msgstr "Editar…"
+
+#: src/Gui/CaptureOptions.qml:17
+msgid "Take a new screenshot"
+msgstr "Facer unha captura nova"
+
+#: src/Gui/CaptureOptions.qml:39
+msgctxt "@title:group"
+msgid "Screenshot Settings"
+msgstr "Configuración de capturas de pantalla"
+
+#: src/Gui/ExportMenu.cpp:44
+msgctxt "@title:menu"
+msgid "Export"
+msgstr "Exportar"
+
+#: src/Gui/ExportMenu.cpp:47
+msgid "Open Default Screenshots Folder"
+msgstr "Abrir o cartafol predeterminado de capturas de pantalla"
+
+#: src/Gui/ExportMenu.cpp:133
+msgctxt "@action:button open screenshot in other application"
+msgid "Other Application…"
+msgstr "Outra aplicación…"
+
+#: src/Gui/ExportMenu.cpp:165
+msgid "Share"
+msgstr "Compartir"
+
+#: src/Gui/ExportMenu.cpp:258
+msgctxt "@action:menu"
+msgid "Extract Text by Language"
+msgstr ""
+
+#: src/Gui/ExportMenu.cpp:294
+#, fuzzy
+msgid "OCR engine is not available."
+msgstr "A gravación de pantalla de KWin non está dispoñíbel."
+
+#: src/Gui/ExportMenu.cpp:302
+msgid "OCR is not available. Please install Tesseract OCR."
+msgstr ""
+
+#: src/Gui/ExportMenu.cpp:303
+msgid "OCR engine is initializing…"
+msgstr ""
+
+#: src/Gui/ExportMenu.cpp:313
+#, fuzzy
+msgid "No OCR language data available."
+msgstr "Non hai complementos de KIPI dispoñíbeis."
+
+#: src/Gui/HelpMenuButton.qml:10
+msgctxt "@action"
+msgid "Help"
+msgstr "Axuda"
+
+#: src/Gui/CaptureOverlay.qml:149
+msgctxt "@info basic crop tool explanation"
+msgid "Click and drag to make a selection."
+msgstr "Prema e arrastre para seleccionar."
+
+#: src/Gui/HelpMenu.cpp:40
+msgctxt "@title:menu"
+msgid "Help"
+msgstr "Axuda"
+
+#: src/Gui/ShortcutsTextBox.qml:13
+msgid "Take Screenshot:"
+msgstr "Facer unha captura:"
+
+#: src/Gui/ShortcutsTextBox.qml:15
+msgid "Create new selection rectangle:"
+msgstr "Crear un novo rectángulo de selección"
+
+#: src/Gui/ShortcutsTextBox.qml:20
+msgid "Move selection rectangle:"
+msgstr "Mover o rectángulo de selección:"
+
+#: src/Gui/ShortcutsTextBox.qml:23
+msgid "Resize selection rectangle:"
+msgstr "Cambiar o tamaño do rectángulo de selección"
+
+#: src/Gui/ShortcutsTextBox.qml:26
+msgid "Reset selection:"
+msgstr "Restabelecer a selección:"
+
+#: src/Gui/ShortcutsTextBox.qml:28
+msgid "Cancel:"
+msgstr "Cancelar:"
+
+#: src/Gui/ShortcutsTextBox.qml:33
+msgctxt "Mouse action"
+msgid "Release left-click"
+msgstr "Soltar o clic esquerdo"
+
+#: src/Gui/ShortcutsTextBox.qml:33
+msgctxt "Mouse action"
+msgid "Double-click"
+msgstr "Clic duplo"
+
+#: src/Gui/ShortcutsTextBox.qml:34
+msgctxt "Keyboard action"
+msgid "Enter"
+msgstr "Intro"
+
+#: src/Gui/ShortcutsTextBox.qml:35
+msgctxt "Mouse action"
+msgid "Drag outside selection rectangle"
+msgstr "Arrastrar fóra do rectángulo de selección"
+
+#: src/Gui/ShortcutsTextBox.qml:37
+msgctxt "Keyboard action"
+msgid "+ Shift: Magnifier"
+msgstr "+ Maiús: Lupa"
+
+#: src/Gui/ShortcutsTextBox.qml:40
+msgctxt "Mouse action"
+msgid "Drag inside selection rectangle"
+msgstr "Arrastrar dentro do rectángulo de selección"
+
+#: src/Gui/ShortcutsTextBox.qml:41
+msgctxt "Keyboard action"
+msgid "Arrow keys"
+msgstr "Teclas de frecha"
+
+#: src/Gui/ShortcutsTextBox.qml:42
+msgctxt "Keyboard action"
+msgid "+ Shift: Move in 1 pixel steps"
+msgstr "+ Maiús: Mover de píxel en píxel"
+
+#: src/Gui/ShortcutsTextBox.qml:43
+msgctxt "Mouse action"
+msgid "Drag handles"
+msgstr "Asas para arrastrar"
+
+#: src/Gui/ShortcutsTextBox.qml:44
+msgctxt "Keyboard action"
+msgid "Arrow keys + Alt"
+msgstr "Teclas de frecha + Alt"
+
+#: src/Gui/ShortcutsTextBox.qml:45
+msgctxt "Keyboard action"
+msgid "+ Shift: Resize in 1 pixel steps"
+msgstr "+ Maiús: Cambiar de tamaño de píxel en píxel"
+
+#: src/Gui/ShortcutsTextBox.qml:46
+msgctxt "Mouse action"
+msgid "Right-click"
+msgstr "Clic dereito"
+
+#: src/Gui/ShortcutsTextBox.qml:48
+msgctxt "Keyboard action"
+msgid "Escape"
+msgstr "Escape"
+
+#: src/Gui/ScreenshotView.qml:196
+msgctxt "@info crop tool explanation"
+msgid ""
+"Click and drag to make a selection.\n"
+"Double click the selection to accept and crop.\n"
+"Right click to clear the selection."
+msgstr ""
+"Prema e arrastre para seleccionar.\n"
+"Faga un clic duplo na selección para aceptar e recortar.\n"
+"Faga un clic dereito para anular a selección."
+
+#: src/Gui/OptionsMenu.cpp:38
+msgctxt "@title:menu"
+msgid "Screenshot Settings"
+msgstr "Configuración de capturas de pantalla"
+
+#: src/Gui/OptionsMenu.cpp:40
+msgctxt "@option:check for screenshots"
+msgid "Include mouse pointer"
+msgstr "Incluír o punteiro do rato."
+
+#: src/Gui/OptionsMenu.cpp:43
+msgctxt "@info:tooltip"
+msgid "Show the mouse cursor in the screenshot image"
+msgstr "Amosar o cursor do rato na captura de pantalla."
+
+#: src/Gui/OptionsMenu.cpp:44
+#, fuzzy
+msgctxt "@info:tooltip"
+msgid "niri does not composite the cursor into screenshots"
+msgstr "Amosar o cursor do rato na captura de pantalla."
+
+#: src/Gui/OptionsMenu.cpp:52
+msgctxt "@option:check"
+msgid "Include window titlebar and borders"
+msgstr "Incluír a decoración da xanela."
+
+#: src/Gui/OptionsMenu.cpp:53
+msgctxt "@info:tooltip"
+msgid ""
+"Show the window title bar, the minimize/maximize/close buttons, and the "
+"window border"
+msgstr ""
+"Amosar a barra do título da xanela, os botóns de minimizar, maximizar e "
+"pechar, e o bordo da xanela."
+
+#: src/Gui/OptionsMenu.cpp:61
+msgctxt "@option:check"
+msgid "Include window shadow"
+msgstr "Incluír a sombra da xanela."
+
+#: src/Gui/OptionsMenu.cpp:62
+msgctxt "@info:tooltip"
+msgid "Show the window shadow"
+msgstr "Amosar a sombra da xanela."
+
+#: src/Gui/OptionsMenu.cpp:70
+msgctxt "@option:check"
+msgid "Quit after manual Save or Copy"
+msgstr "Saír tras gardar ou copiar manualmente"
+
+#: src/Gui/OptionsMenu.cpp:71
+msgctxt "@info:tooltip"
+msgid "Quit Spectacle after manually saving or copying the image"
+msgstr "Saír de Spectacle tras gardar ou copiar a imaxe manualmente"
+
+#: src/Gui/OptionsMenu.cpp:83
+msgctxt "@option:check"
+msgid "Capture On Click"
+msgstr "Capturar ao premer"
+
+#: src/Gui/OptionsMenu.cpp:98
+msgctxt "@label:spinbox"
+msgid "Delay:"
+msgstr "Atraso:"
+
+#: src/Gui/OptionsMenu.cpp:103
+msgctxt "@item 0 delay special value"
+msgid "No Delay"
+msgstr "Sen retardo"
+
+#: src/Gui/OptionsMenu.cpp:122
+msgctxt "@title:menu"
+msgid "Recording Settings"
+msgstr "Configuración de gravación"
+
+#: src/Gui/OptionsMenu.cpp:124
+msgctxt "@option:check for recordings"
+msgid "Include mouse pointer"
+msgstr "Incluír o punteiro do rato"
+
+#: src/Gui/OptionsMenu.cpp:125
+msgctxt "@info:tooltip"
+msgid "Show the mouse cursor in the recording"
+msgstr "Amosar o cursor do rato na gravación."
+
+#: src/Gui/OptionsMenu.cpp:133
+msgctxt "@option:check for recordings"
+msgid "Record system audio"
+msgstr ""
+
+#: src/Gui/OptionsMenu.cpp:134
+msgctxt "@info:tooltip"
+msgid ""
+"Include the audio that is currently playing on the system in the recording"
+msgstr ""
+
+#: src/Gui/OptionsMenu.cpp:142
+#, fuzzy
+msgctxt "@option:check for recordings"
+msgid "Record microphone"
+msgstr "Gravar a pantalla"
+
+#: src/Gui/OptionsMenu.cpp:143
+msgctxt "@info:tooltip"
+msgid "Include audio from the default microphone in the recording"
+msgstr ""
+
+#: src/Gui/RecordingModeMenu.cpp:17
+msgctxt "@title:menu"
+msgid "Recording Modes"
+msgstr "Modos de gravación"
+
+#: src/Gui/RecordingSettingsColumn.qml:22
+#, fuzzy
+msgctxt "@option:check"
+msgid "Include mouse pointer"
+msgstr "Incluír o punteiro do rato"
+
+#: src/Gui/RecordingSettingsColumn.qml:23
+#, fuzzy
+msgctxt "@info:tooltip"
+msgid "Show the mouse cursor in the screen recording."
+msgstr "Amosar o cursor do rato na gravación de pantalla."
+
+#: src/Gui/RecordingSettingsColumn.qml:32
+msgctxt "@option:check"
+msgid "Record system audio"
+msgstr ""
+
+#: src/Gui/RecordingSettingsColumn.qml:33
+msgctxt "@info:tooltip"
+msgid ""
+"Include the audio that is currently playing on the system in the recording."
+msgstr ""
+
+#: src/Gui/RecordingSettingsColumn.qml:45
+#, fuzzy
+msgctxt "@option:check"
+msgid "Record microphone"
+msgstr "Gravar a pantalla"
+
+#: src/Gui/RecordingSettingsColumn.qml:46
+msgctxt "@info:tooltip"
+msgid "Include audio from the default microphone in the recording."
+msgstr ""
+
+#: src/Gui/RecordingSettingsColumn.qml:57
+msgctxt "@info"
+msgid "The selected video format does not support audio."
+msgstr ""
+
+#: src/Gui/RecordingView.qml:90
+#, fuzzy
+msgctxt "Recording in progress, %1 is the length of the recording so far"
+msgid ""
+"Recording:\n"
+"%1"
+msgstr ""
+"Gravación:\n"
+"%1"
+
+#: src/Gui/RecordingView.qml:129
+msgid "Pause"
+msgstr "Deter"
+
+#: src/Gui/RecordingView.qml:129
+msgid "Play"
+msgstr "Reproducir"
+
+#: src/Gui/SaveAction.qml:13
+msgctxt "@action"
+msgid "Save"
+msgstr "Gardar"
+
+#: src/Gui/ScreenshotModeMenu.cpp:17
+msgctxt "@title:menu"
+msgid "Screenshot Modes"
+msgstr "Modos de captura de pantalla"
+
+#: src/Gui/FontPopup.qml:54
+#, fuzzy
+msgid "Font"
+msgstr "Tipo de letra:"
+
+#: src/Gui/FontPopup.qml:69
+msgid "Size"
+msgstr ""
+
+#: src/Gui/FontPopup.qml:82
+msgid "Bold"
+msgstr ""
+
+#: src/Gui/FontPopup.qml:86
+msgid "Italic"
+msgstr ""
+
+#: src/Gui/FontPopup.qml:94 src/Gui/ColorPopup.qml:292
+#, fuzzy
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: src/Gui/FontPopup.qml:99 src/Gui/ColorPopup.qml:297
+msgid "Apply"
+msgstr ""
+
+#: src/Gui/SaveAsAction.qml:9
+msgctxt "@action"
+msgid "Save As…"
+msgstr "Gardar como…"
+
+#: src/Gui/ScreenshotModeMenuButton.qml:11
+msgctxt "@action select new screenshot mode"
+msgid "New Screenshot"
+msgstr "Nova captura de pantalla"
+
+#: src/Gui/UndoRedoGroup.qml:31
+msgid "Undo"
+msgstr "Desfacer"
+
+#: src/Gui/UndoRedoGroup.qml:42
+msgid "Redo"
+msgstr "Refacer"
+
+#: src/Gui/DialogPage.qml:53
+#, fuzzy
+msgid "Configure NekoShot…"
+msgstr "Configurar Spectacle…"
+
+#: src/Gui/DialogPage.qml:61
+msgid "Help"
+msgstr "Axuda"
+
+#: src/Gui/DialogPage.qml:80
+msgctxt "@title:group"
+msgid "Take a Screenshot:"
+msgstr "Facer unha captura:"
+
+#: src/Gui/DialogPage.qml:95 src/Gui/DialogPage.qml:136
+msgctxt "@title:group"
+msgid "Options"
+msgstr "Opcións"
+
+#: src/Gui/DialogPage.qml:121
+msgctxt "@title:group"
+msgid "Make a Recording:"
+msgstr "Facer unha gravación:"
+
+#: src/Gui/DialogPage.qml:162
+msgctxt "@title:tab"
+msgid "Screenshot"
+msgstr "Captura de pantalla"
+
+#: src/Gui/DialogPage.qml:168
+msgctxt "@title:tab"
+msgid "Recording"
+msgstr "Gravación"
+
+#: src/Gui/DialogPage.qml:171 src/Gui/RecordingModeMenuButton.qml:18
+msgctxt "@info:tooltip"
+msgid "This feature is not supported on the current platform"
+msgstr ""
+
+#: src/Gui/SmartSpinBox.cpp:30
+msgctxt "Integer number of seconds"
+msgid " second"
+msgid_plural " seconds"
+msgstr[0] " segundo"
+msgstr[1] " segundos"
+
+#: src/Gui/SmartSpinBox.cpp:32
+msgctxt "Decimal number of seconds"
+msgid " seconds"
+msgstr " segundos"
+
+#: src/Gui/ExportMenuButton.qml:13
+msgctxt "@action"
+msgid "Export"
+msgstr "Exportar"
+
+#: src/Gui/ViewerWindow.cpp:53
+#, fuzzy
+msgctxt "@info, %1 is the error message"
+msgid "There was a problem sharing the image: %1"
+msgstr "Produciuse un problema ao compartir a imaxe: %1"
+
+#: src/Gui/CaptureSettingsColumn.qml:17
+msgid "Include mouse pointer"
+msgstr "Incluír o punteiro do rato"
+
+#: src/Gui/CaptureSettingsColumn.qml:20
+msgid "Show the mouse cursor in the screenshot image."
+msgstr "Amosar o cursor do rato na captura de pantalla."
+
+#: src/Gui/CaptureSettingsColumn.qml:21
+#, fuzzy
+msgid "niri does not composite the cursor into screenshots."
+msgstr "Amosar o cursor do rato na captura de pantalla."
+
+#: src/Gui/CaptureSettingsColumn.qml:30
+msgid "Include window titlebar and borders"
+msgstr "Incluír a decoración da xanela"
+
+#: src/Gui/CaptureSettingsColumn.qml:31
+msgid ""
+"Show the window title bar and border when taking a screenshot of a window."
+msgstr ""
+"Amosar a barra de título ao facer unha captura de pantalla dunha xanela."
+
+#: src/Gui/CaptureSettingsColumn.qml:40
+msgid "Include window shadow"
+msgstr "Incluír a sombra da xanela"
+
+#: src/Gui/CaptureSettingsColumn.qml:41
+msgid "Show the window shadow when taking a screenshot of a window."
+msgstr "Amosar a sombra ao facer unha captura de pantalla dunha xanela."
+
+#: src/Gui/CaptureSettingsColumn.qml:51
+msgid "Quit after manual Save or Copy"
+msgstr "Saír tras gardar ou copiar manualmente"
+
+#: src/Gui/CaptureSettingsColumn.qml:52
+msgid "Quit Spectacle after manually saving or copying the image."
+msgstr "Saír de Spectacle tras gardar ou copiar a imaxe manualmente."
+
+#: src/Gui/CaptureSettingsColumn.qml:61
+msgid "Capture on click"
+msgstr "Capturar ao premer"
+
+#: src/Gui/CaptureSettingsColumn.qml:63
+msgid "Wait for a mouse click before capturing the screenshot image."
+msgstr "Agardar por un clic do rato antes de capturar a pantalla."
+
+#: src/Gui/CaptureSettingsColumn.qml:74
+msgid "Delay:"
+msgstr "Atraso:"
+
+#: src/Gui/DelaySpinBox.qml:15
+msgctxt "0 second delay"
+msgid "No Delay"
+msgstr "Sen retardo"
+
+#: src/Gui/DelaySpinBox.qml:24
+msgctxt "Integer number of seconds"
+msgid "%2 second"
+msgid_plural "%2 seconds"
+msgstr[0] "%2 segundo"
+msgstr[1] "%2 segundos"
+
+#: src/Gui/DelaySpinBox.qml:26
+msgctxt "Decimal number of seconds"
+msgid "%1 seconds"
+msgstr "%1 segundos"
+
+#: src/Gui/OcrAction.qml:15
+msgctxt "@action"
+msgid "Extract Text"
+msgstr ""
+
+#: src/Gui/RecordingModeMenuButton.qml:12
+msgctxt "@action select new recording mode"
+msgid "New Recording"
+msgstr "Nova gravación"
+
+#: src/Gui/SizeLabel.qml:13
+#, fuzzy
+msgctxt "Size, width×height"
+msgid "%1×%2"
+msgstr "%1×%2"
+
+#: src/Gui/ViewerPage.qml:228
+msgid "Zoom:"
+msgstr "Ampliación:"
+
+#: src/Gui/ViewerPage.qml:242
+msgid "Image Zoom"
+msgstr "Ampliación da imaxe"
+
+#: src/Gui/SpectacleWindow.cpp:170
+msgctxt "@title:window"
+msgid "%1 second"
+msgid_plural "%1 seconds"
+msgstr[0] "%1 segundo"
+msgstr[1] "%1 segundos"
+
+#: src/Gui/SpectacleWindow.cpp:173
+msgctxt "@title:window Unsaved Screenshot"
+msgid "Unsaved"
+msgstr "Sen gardar"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:88
+msgid "Stroke:"
+msgstr "Trazo:"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:120
+#, fuzzy, c-format
+msgctxt "px: pixels"
+msgid "%1px"
+msgid_plural "%1px"
+msgstr[0] "%1 px"
+msgstr[1] "%1 px"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:125
+msgid "Stroke Width"
+msgstr "Anchura do trazo"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:158 src/Gui/ColorPopup.qml:44
+msgid "Stroke Color"
+msgstr "Cor do trazo"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:192
+msgid "Fill:"
+msgstr "Recheo:"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:204 src/Gui/ColorPopup.qml:45
+msgid "Fill Color"
+msgstr "Cor de recheo"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:241
+msgctxt "@label:slider strength of effect"
+msgid "Strength:"
+msgstr "Intensidade:"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:260
+msgctxt "@info:tooltip"
+msgid "The strength of the effect."
+msgstr "A intensidade do efecto."
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:287
+msgid "Font:"
+msgstr "Tipo de letra:"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:301
+msgctxt "%2 font family, %3 font style name, %1 font point size"
+msgid "%2 %3 %1pt"
+msgid_plural "%2 %3 %1pts"
+msgstr[0] "%2 %3 %1 pt"
+msgstr[1] "%2 %3 %1 pt"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:302
+msgctxt "%2 font family %1 font point size"
+msgid "%2 %1pt"
+msgid_plural "%2 %1pts"
+msgstr[0] "%2 %1 pt"
+msgstr[1] "%2 %1 pt"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:314
+msgid "Font Color"
+msgstr "Cor do texto"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:351
+msgid "Number:"
+msgstr "Número:"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:370
+msgid "Number for number annotations"
+msgstr "Número para as anotacións numéricas"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:398
+msgid "Shadow"
+msgstr "Sombra"
+
+#: src/Gui/AnnotationsToolBarContents.qml:109
+msgctxt "@action:intoolbar no tool, to allow dragging"
+msgid "None"
+msgstr "Ningunha"
+
+#: src/Gui/AnnotationsToolBarContents.qml:121
+msgctxt "@action:intoolbar crop image tool"
+msgid "Crop"
+msgstr "Recortar"
+
+#: src/Gui/AnnotationsToolBarContents.qml:128
+msgctxt "@action:intoolbar select annotation tool"
+msgid "Select"
+msgstr "Seleccionar"
+
+#: src/Gui/AnnotationsToolBarContents.qml:137
+msgctxt "@action:intoolbar freehand line tool"
+msgid "Freehand"
+msgstr "A man alzada"
+
+#: src/Gui/AnnotationsToolBarContents.qml:138
+msgctxt "@info:tooltip"
+msgid "Shift: Snap to straight lines"
+msgstr "Maiús: Axustar a liñas rectas"
+
+#: src/Gui/AnnotationsToolBarContents.qml:145
+msgctxt "@action:intoolbar highlighter line tool"
+msgid "Highlighter"
+msgstr "Realzador"
+
+#: src/Gui/AnnotationsToolBarContents.qml:154
+msgctxt "@action:intoolbar straight line tool"
+msgid "Line"
+msgstr "Liña"
+
+#: src/Gui/AnnotationsToolBarContents.qml:155
+msgctxt "@info:tooltip"
+msgid "Shift: Snap to 45 degree increments"
+msgstr "Maiús: Axustar a incrementos de 45 graos"
+
+#: src/Gui/AnnotationsToolBarContents.qml:162
+msgctxt "@action:intoolbar arrow line tool"
+msgid "Arrow"
+msgstr "Frecha"
+
+#: src/Gui/AnnotationsToolBarContents.qml:171
+msgctxt "@action:intoolbar rectangle tool"
+msgid "Rectangle"
+msgstr "Rectángulo"
+
+#: src/Gui/AnnotationsToolBarContents.qml:173
+msgctxt "@info:tooltip"
+msgid ""
+"Shift: Snap to diagonal movements\n"
+"Control: Resize from center"
+msgstr ""
+"Maiús: Axustar a movementos diagonais\n"
+"Control: Cambiar de tamaño desde o centro"
+
+#: src/Gui/AnnotationsToolBarContents.qml:180
+msgctxt "@action:intoolbar ellipse tool"
+msgid "Ellipse"
+msgstr "Elipse"
+
+#: src/Gui/AnnotationsToolBarContents.qml:188
+msgctxt "@action:intoolbar pixelate tool"
+msgid "Pixelate"
+msgstr "Pixelar"
+
+#: src/Gui/AnnotationsToolBarContents.qml:196
+msgctxt "@action:intoolbar blur tool"
+msgid "Blur"
+msgstr "Desenfocar"
+
+#: src/Gui/AnnotationsToolBarContents.qml:204
+msgctxt "@action:intoolbar text tool"
+msgid "Text"
+msgstr "Texto"
+
+#: src/Gui/AnnotationsToolBarContents.qml:211
+msgctxt "@action:intoolbar number stamp tool"
+msgid "Number"
+msgstr "Número"
+
+#: src/Gui/InlineMessageList.qml:129
+msgctxt "@action:button"
+msgid "Open Containing Folder"
+msgstr "Abrir o cartafol contedor"
+
+#: src/Gui/InlineMessageList.qml:139
+msgctxt "@action:button"
+msgid "Copy to Clipboard"
+msgstr "Copiar no portapapeis"
+
+#: src/Gui/InlineMessageList.qml:149
+msgctxt "@action:button close inline notification"
+msgid "Close"
+msgstr "Pechar"
+
+#: src/Gui/ColorPopup.qml:46
+#, fuzzy
+msgid "Text Color"
+msgstr "Cor do texto"
+
+#: src/Gui/ColorPopup.qml:47
+#, fuzzy
+msgid "Color"
+msgstr "Cor de recheo"
+
+#: src/Gui/ColorPopup.qml:241
+msgid "Alpha"
+msgstr ""
+
+#: src/Gui/ColorPopup.qml:264
+msgid "Hex"
+msgstr ""
+
+#: src/Platforms/VideoPlatformWayland.cpp:165
+msgctxt "@info"
+msgid "KWin Screencasting is not available."
+msgstr "A gravación de pantalla de KWin non está dispoñíbel."
+
+#: src/Platforms/VideoPlatformWayland.cpp:179
+msgctxt "@info:shell"
+msgid "Failed to record: File URL is not a local file"
+msgstr "Non foi posíbel gravar: o URL non corresponde a un ficheiro local."
+
+#: src/Platforms/VideoPlatformWayland.cpp:279
+msgctxt "@info"
+msgid ""
+"The stream closed because the target screen changed in a way that disrupted "
+"the recording."
+msgstr ""
+"Pechouse a fluxo porque a pantalla correspondente cambiou dun xeito que "
+"interrompeu a gravación."
+
+#: src/Platforms/VideoPlatformWayland.cpp:283
+msgctxt "@info"
+msgid ""
+"The stream closed because the target window changed in a way that disrupted "
+"the recording."
+msgstr ""
+"Pechouse a fluxo porque a xanela correspondente cambiou dun xeito que "
+"interrompeu a gravación."
+
+#: src/Platforms/VideoPlatformWayland.cpp:287
+msgctxt "@info"
+msgid ""
+"The stream closed because a screen containing the target region changed in a "
+"way that disrupted the recording."
+msgstr ""
+"Pechouse a fluxo porque a pantalla que contén a rexión correspondente "
+"cambiou dun xeito que interrompeu a gravación."
+
+#: src/Platforms/VideoPlatformWayland.cpp:303
+#, fuzzy
+msgctxt "@info:shell, %1 is the temporary URL"
+msgid "Failed to record: Temporary file URL is not a local file (%1)"
+msgstr ""
+"Non foi posíbel gravar: o URL de ficheiro temporal non corresponde a un "
+"ficheiro local (%1)."
+
+#: src/Platforms/VideoPlatformWayland.cpp:314
+#, fuzzy
+msgctxt "@info:shell, %1 is the output file URL"
+msgid "Failed to record: Output file URL is not a local file (%1)"
+msgstr ""
+"Non foi posíbel gravar: o URL de ficheiro de saída non corresponde a un "
+"ficheiro local (%1)."
+
+#: src/Platforms/VideoPlatformWayland.cpp:381
+#, fuzzy
+msgctxt "@info:shell, %1 is a directory path"
+msgid "Failed to record: Unable to create folder (%1)"
+msgstr "Non foi posíbel gravar: non é posíbel crear o cartafol (%1)."
+
+#: src/Platforms/VideoPlatformWayland.cpp:409
+msgctxt "@info:shell"
+msgid "Screen recording canceled"
+msgstr "Cancelouse a gravación de pantalla"
+
+#: src/Platforms/VideoPlatformWayland.cpp:411
+msgctxt "@info:shell"
+msgid "Window recording canceled"
+msgstr "Cancelouse a gravación de xanela"
+
+#: src/Platforms/VideoPlatformWayland.cpp:417
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to select screen: %1"
+msgstr "Non foi posíbel seleccionar a pantalla: %1"
+
+#: src/Platforms/VideoPlatformWayland.cpp:419
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to select window: %1"
+msgstr "Non foi posíbel seleccionar a xanela: %1"
+
+#: src/Platforms/VideoPlatformWayland.cpp:447
+msgctxt "@info:shell"
+msgid "Failed to select screen: No screen contained the mouse cursor position"
+msgstr ""
+"Non foi posíbel seleccionar a pantalla: ningunha pantalla contiña a posición "
+"do cursor do rato."
+
+#: src/Platforms/VideoPlatformWayland.cpp:454
+msgctxt "@info:shell"
+msgid "Failed to select window: No window found"
+msgstr "Non foi posíbel seleccionar a xanela: non se atopou ningunha xanela."
+
+#: src/Platforms/ImagePlatformKWin.cpp:73
+#, fuzzy
+msgctxt "@info, %1 is the width"
+msgid "Bad width for KWin screenshot: %1"
+msgstr "A anchura da captura de pantalla de KWin é incorrecta: %1"
+
+#: src/Platforms/ImagePlatformKWin.cpp:78
+#, fuzzy
+msgctxt "@info, %1 is the height"
+msgid "Bad height for KWin screenshot: %1"
+msgstr "A altura da captura de pantalla de KWin é incorrecta: %1"
+
+#: src/Platforms/ImagePlatformKWin.cpp:89
+#, fuzzy
+msgctxt "@info, %1 is a file format like 'png', 'jpg'"
+msgid "Bad format for KWin screenshot: %1"
+msgstr "O formato da captura de pantalla de KWin é incorrecto: %1"
+
+#: src/Platforms/ImagePlatformKWin.cpp:107
+msgctxt "@info"
+msgid "Could not open file descriptor for reading KWin screenshot."
+msgstr ""
+"Non foi posíbel abrir o descriptor do ficheiro para ler a captura de "
+"pantalla de KWin."
+
+#: src/Platforms/ImagePlatformKWin.cpp:177
+#, fuzzy
+msgctxt "@info, %1 is an error code"
+msgid "pipe2() failed for KWin screenshot: %1"
+msgstr "pipe2() fallou para a captura de pantalla de KWin: %1"
+
+#: src/Platforms/ImagePlatformKWin.cpp:233
+#, fuzzy
+msgctxt "@info, %1 is an error message"
+msgid ""
+"KWin screenshot request failed:\n"
+"%1"
+msgstr ""
+"A solicitude de captura de pantalla de KWin fallou:\n"
+"%1"
+
+#: src/Platforms/ImagePlatformKWin.cpp:235
+msgctxt "@info"
+msgid ""
+"Potentially relevant information:\n"
+"%1"
+msgstr ""
+"Información potencialmente relevante:\n"
+"%1"
+
+#: src/Platforms/ImagePlatformKWin.cpp:243
+msgctxt "@info"
+msgid "Unsupported KWin screenshot type metadata: %1"
+msgstr "Metadatos de tipo de captura de pantalla de KWin incompatíbeis: %1"
+
+#: src/Platforms/ImagePlatformNiri.cpp:115
+#, fuzzy
+msgid "Failed to capture the window"
+msgstr "Non foi posíbel seleccionar a xanela: %1"
+
+#: src/Platforms/ImagePlatformNiri.cpp:159
+#, fuzzy
+msgid "Unsupported capture mode"
+msgstr "Volver usar o último modo de captura"
+
+#: src/Platforms/ImagePlatformNiri.cpp:190
+msgid "No focused window"
+msgstr ""
+
+#: src/Platforms/ImagePlatformNiri.cpp:209
+msgid "No outputs found"
+msgstr ""
+
+#: src/Platforms/ImagePlatformNiri.cpp:215
+msgid "No focused output found"
+msgstr ""
+
+#: src/Platforms/ImagePlatformNiri.cpp:229
+#, fuzzy
+msgid "Failed to capture the screen"
+msgstr "Non foi posíbel seleccionar a pantalla: %1"
+
+#: src/Platforms/PlatformLoader.cpp:120
+msgid "wf-recorder is not installed"
+msgstr ""
+
+#: src/Platforms/PlatformLoader.cpp:127
+msgctxt "@info"
+msgid "Screen recording is not available on X11."
+msgstr "Non se pode gravar a pantalla en X11."
+
+#: src/Platforms/VideoPlatformNiri.cpp:197
+msgid "gst-launch-1.0 is not installed"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:200
+msgid "gst-inspect-1.0 is not installed"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:218
+msgid "missing GStreamer elements: %1"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:287
+msgid "missing GStreamer elements: mp4mux"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:291
+msgid "missing GStreamer elements: vah264enc+h264parse or x264enc"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:297
+msgid "H.265/HEVC requires vah265enc, h265parse and mp4mux"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:302
+msgid "AV1 requires vaav1enc, av1parse and mp4mux"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:306
+msgid "the video format is not supported"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:356
+msgid "missing GStreamer audio elements: %1"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:432
+#, fuzzy
+msgid "the D-Bus session bus is not available"
+msgstr "A gravación de pantalla de KWin non está dispoñíbel."
+
+#: src/Platforms/VideoPlatformNiri.cpp:500
+#: src/Platforms/VideoPlatformNiri.cpp:1241
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to record: could not start the window picker: %1"
+msgstr "Non foi posíbel gravar: non é posíbel crear o cartafol (%1)."
+
+#: src/Platforms/VideoPlatformNiri.cpp:518
+msgctxt "@info:shell, %1 is a process exit code"
+msgid "gst-launch-1.0 exited with code %1."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:520
+msgctxt "@info:shell, %1 is a process exit code"
+msgid "wf-recorder exited with code %1."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:917
+msgctxt "@info:shell"
+msgid "Recording canceled: no recording mode"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:921
+msgctxt "@info:shell"
+msgid "Failed to record: unsupported recording mode."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:925
+#: src/Platforms/VideoPlatformNiri.cpp:929
+#: src/Platforms/VideoPlatformNiri.cpp:1322
+#, fuzzy
+msgid "A recording is already starting"
+msgstr "Configuración de gravación"
+
+#: src/Platforms/VideoPlatformNiri.cpp:936
+#: src/Platforms/VideoPlatformNiri.cpp:1083
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to record: window recording is unavailable: %1."
+msgstr "Non se pode gravar a pantalla en X11."
+
+#: src/Platforms/VideoPlatformNiri.cpp:946
+#, fuzzy
+msgctxt "@info:shell"
+msgid "Failed to record: the output file URL is not a local file."
+msgstr ""
+"Non foi posíbel gravar: o URL de ficheiro de saída non corresponde a un "
+"ficheiro local (%1)."
+
+#: src/Platforms/VideoPlatformNiri.cpp:962
+msgctxt "@info:shell, %1 is a file path"
+msgid "Failed to record: the video format of %1 is not supported."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:964
+msgctxt "@info:shell"
+msgid "Failed to record: the selected video format is not supported."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:971
+#, fuzzy
+msgid "Recording format changed"
+msgstr "Configuración de gravación"
+
+#: src/Platforms/VideoPlatformNiri.cpp:973
+#, fuzzy
+msgid "WebM/VP9"
+msgstr "WebM/VP9"
+
+#: src/Platforms/VideoPlatformNiri.cpp:974
+#, fuzzy
+msgid "MP4/H.265"
+msgstr "MP4/H.264"
+
+#: src/Platforms/VideoPlatformNiri.cpp:975
+msgid "MP4/AV1"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:976
+#, fuzzy
+msgid "MP4/H.264"
+msgstr "MP4/H.264"
+
+#: src/Platforms/VideoPlatformNiri.cpp:972
+msgid ""
+"The selected format is not available for window recording; using %1 instead."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:992
+#, fuzzy
+msgctxt "@info:shell"
+msgid "Failed to record: unable to create a temporary output file."
+msgstr "Non foi posíbel gravar: non é posíbel crear o cartafol (%1)."
+
+#: src/Platforms/VideoPlatformNiri.cpp:998
+#, fuzzy
+msgctxt "@info:shell, %1 is a directory path"
+msgid "Failed to record: unable to create folder (%1)."
+msgstr "Non foi posíbel gravar: non é posíbel crear o cartafol (%1)."
+
+#: src/Platforms/VideoPlatformNiri.cpp:1057
+#: src/Platforms/VideoPlatformNiri.cpp:1101
+#, fuzzy
+msgctxt "@info:shell"
+msgid "Failed to record: niri did not report a focused output."
+msgstr "Non foi posíbel gravar: o URL non corresponde a un ficheiro local."
+
+#: src/Platforms/VideoPlatformNiri.cpp:1059
+#: src/Platforms/VideoPlatformNiri.cpp:1103
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to record: %1"
+msgstr "Non foi posíbel seleccionar a pantalla: %1"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1066
+#: src/Platforms/VideoPlatformNiri.cpp:1361
+#, fuzzy
+msgid "Failed to record: the screen connector is empty."
+msgstr "Non foi posíbel gravar: non é posíbel crear o cartafol (%1)."
+
+#: src/Platforms/VideoPlatformNiri.cpp:1113
+msgctxt "@info:shell"
+msgid "Failed to record: the recording region is empty."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1136
+msgid ""
+"Failed to record: wf-recorder does not support the selected video format."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1141
+msgid ""
+"Failed to record: HEVC region recording requires the libx265 encoder in wf-"
+"recorder."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1145
+msgid ""
+"Failed to record: AV1 region recording requires the libaom-av1 encoder in wf-"
+"recorder."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1149
+msgid ""
+"Failed to record: H.264 region recording requires the libx264 encoder in wf-"
+"recorder."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1153
+msgid ""
+"Failed to record: VP9 region recording requires the libvpx-vp9 encoder in wf-"
+"recorder."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1162
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to start wf-recorder: %1"
+msgstr "Non foi posíbel seleccionar a pantalla: %1"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1183
+#: src/Platforms/VideoPlatformNiri.cpp:1284
+msgid "Recording canceled: no window selected."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1191
+msgid "Recording canceled: the screencast stream did not start."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1247
+msgid "Recording canceled: no window was selected."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1271
+msgctxt "@info:shell, %1 is a process exit code"
+msgid "The window picker exited with code %1."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1327
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to record: screencast recording is unavailable: %1."
+msgstr "Non se pode gravar a pantalla en X11."
+
+#: src/Platforms/VideoPlatformNiri.cpp:1331
+msgid ""
+"Failed to record: this video format is not supported for screencast "
+"recording."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1336
+#: src/Platforms/VideoPlatformNiri.cpp:1341
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to record: %1."
+msgstr "Non foi posíbel seleccionar a pantalla: %1"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1353
+msgid "No window selected to record"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1367
+msgid ""
+"Failed to record: screencast recording only supports screen, window and "
+"region modes."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1384
+#: src/Platforms/VideoPlatformNiri.cpp:1396
+#: src/Platforms/VideoPlatformNiri.cpp:1420
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to start screencast recording: %1"
+msgstr "Non foi posíbel seleccionar a pantalla: %1"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1390
+msgid ""
+"Failed to start screencast recording: niri returned an empty screencast "
+"session."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1401
+msgid ""
+"Failed to start screencast recording: niri returned an empty screencast "
+"stream."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1410
+msgid ""
+"Failed to start screencast recording: could not subscribe to the screencast "
+"stream signal."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1414
+msgid ""
+"Failed to start screencast recording: could not subscribe to the screencast "
+"session signal."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1425
+msgid ""
+"Failed to start screencast recording: the niri screencast session was closed."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1440
+msgid "Timed out waiting for the PipeWire stream"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1474
+#: src/Platforms/VideoPlatformNiri.cpp:1500
+msgid ""
+"Failed to start screencast recording: the stream format is not supported."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1479
+#: src/Platforms/VideoPlatformNiri.cpp:1485
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to start screencast recording: %1."
+msgstr "Non foi posíbel seleccionar a pantalla: %1"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1517
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to start gst-launch-1.0: %1"
+msgstr "Non foi posíbel seleccionar a pantalla: %1"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1592
+msgid "Failed to record: the niri screencast session was closed."
+msgstr ""
+
+#: src/Gui/SettingsDialog/SaveOptionsUtils.h:40
+msgctxt "@info"
+msgid "<filename>%1</filename>"
+msgstr "<filename>%1</filename>"
+
+#: src/Gui/SettingsDialog/SaveOptionsUtils.h:72
+msgid ""
+"You can use the following placeholders in the filename, which will be "
+"replaced with actual text when the file is saved:"
+msgstr ""
+"Pode usar as seguintes marcas de posición no nome de ficheiro, que se "
+"substituirán por texto real cando se garda o ficheiro:"
+
+#: src/Gui/SettingsDialog/SaveOptionsUtils.h:87
+msgid "To save to a sub-folder"
+msgstr "Para gardar nun cartafol subordinado"
+
+#: src/Gui/SettingsDialog/SaveOptionsUtils.h:90
+msgctxt "show fewer filename placeholder templates"
+msgid "Show Fewer"
+msgstr "Amosar menos"
+
+#: src/Gui/SettingsDialog/SaveOptionsUtils.h:92
+msgctxt "show more filename placeholder templates"
+msgid "Show More"
+msgstr "Amosar máis"
+
+#: src/Gui/SettingsDialog/VideoSaveOptionsPage.cpp:35
+msgid "Quality:"
+msgstr ""
+
+#: src/Gui/SettingsDialog/VideoSaveOptionsPage.cpp:37
+msgid "Low (smaller files)"
+msgstr ""
+
+#: src/Gui/SettingsDialog/VideoSaveOptionsPage.cpp:38
+msgid "Medium"
+msgstr ""
+
+#: src/Gui/SettingsDialog/VideoSaveOptionsPage.cpp:39
+msgid "High (larger files)"
+msgstr ""
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:37
+msgctxt "Settings category"
+msgid "General"
+msgstr "Xeral"
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:38
+msgctxt "Settings category"
+msgid "Image Saving"
+msgstr "Garda da imaxe"
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:39
+msgctxt "Settings category"
+msgid "Video Saving"
+msgstr "Garda de vídeo"
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:40
+msgctxt "Settings category"
+msgid "Shortcuts"
+msgstr "Atallos"
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:104
+msgid "Shortcuts"
+msgstr "Atallos"
+
+#, kde-format
+#~ msgctxt "translatable folder name"
+#~ msgid "Screenshots"
+#~ msgstr "Capturas de pantalla"
+
+#, kde-format
+#~ msgctxt "part of default image filename template"
+#~ msgid "Screenshot"
+#~ msgstr "Captura de pantalla"
+
+#, kde-format
+#~ msgctxt "translatable folder name"
+#~ msgid "Screencasts"
+#~ msgstr "Gravacións de pantalla"
+
+#, kde-format
+#~ msgctxt "part of default video filename template"
+#~ msgid "Screencast"
+#~ msgstr "Gravación de pantalla"
+
+#, kde-format
+#~ msgid "When launching Spectacle:"
+#~ msgstr "Ao iniciar Spectacle:"
+
+#, kde-format
+#~ msgid "Take rectangular screenshot"
+#~ msgstr "Facer unha captura de pantalla rectangular"
+
+#, kde-format
+#~ msgid "Take full screen screenshot"
+#~ msgstr "Facer unha captura de toda a pantalla"
+
+#, kde-format
+#~ msgid "Do not take a screenshot automatically"
+#~ msgstr "Non facer unha captura de pantalla automaticamente"
+
+#, kde-format
+#~ msgid "After taking a screenshot:"
+#~ msgstr "Tras facer unha captura de pantalla:"
+
+#, kde-format
+#~ msgid "Save file to default folder"
+#~ msgstr "Gardar o ficheiro no cartafol predeterminado."
+
+#, kde-format
+#~ msgid "Do not copy anything"
+#~ msgstr "Non copiar nada"
+
+#, kde-format
+#~ msgid "Copy image to clipboard"
+#~ msgstr "Copiar a imaxe no portapapeis"
+
+#, kde-format
+#~ msgid "Copy file location to clipboard"
+#~ msgstr "Copiar a localización do ficheiro no portapapeis"
+
+#, kde-format
+#~ msgid "While Spectacle is running"
+#~ msgstr "Mentres Spectacle está en execución"
+
+#, kde-format
+#~ msgid "Press screenshot key to:"
+#~ msgstr "Premer a tecla de captura de pantalla para:"
+
+#, kde-format
+#~ msgid "Take a new Screenshot"
+#~ msgstr "Facer unha captura nova"
+
+#, kde-format
+#~ msgid "Open a new Spectacle window"
+#~ msgstr "Abrir unha nova xanela de Spectacle"
+
+#, kde-format
+#~ msgid "Return focus to Spectacle"
+#~ msgstr "Devolver o foco a Spectacle"
+
+#, kde-format
+#~ msgid "Rectangular Region Selection"
+#~ msgstr "Selección de zona rectangular"
+
+#, kde-format
+#~ msgid "General:"
+#~ msgstr "Xeral:"
+
+#, kde-format
+#~ msgid "Use light background"
+#~ msgstr "Usar un fondo claro."
+
+#, kde-format
+#~ msgid "Accept on click-and-release"
+#~ msgstr "Aceptar ao facer clic e soltar."
+
+#, kde-format
+#~ msgid "Show magnifier:"
+#~ msgstr "Amosar a lupa:"
+
+#, kde-format
+#~ msgid "Never"
+#~ msgstr "Nunca"
+
+#, kde-format
+#~ msgid "Always"
+#~ msgstr "Sempre"
+
+#, kde-format
+#~ msgid "While holding Shift"
+#~ msgstr "Mentres preme Maiús"
+
+#, kde-format
+#~ msgid "Remember selected area:"
+#~ msgstr "Lembrar a zona seleccionada:"
+
+#, kde-format
+#~ msgid "Until Spectacle is closed"
+#~ msgstr "Ata pecharse Spectacle"
+
+#, fuzzy, kde-format
+#~| msgid "Reset selection:"
+#~ msgid "Text extraction:"
+#~ msgstr "Restabelecer a selección:"
+
+#, fuzzy, kde-format
+#~| msgctxt "@info"
+#~| msgid "KWin Screencasting is not available."
+#~ msgid "OCR functionality is not available"
+#~ msgstr "A gravación de pantalla de KWin non está dispoñíbel."
+
+#, kde-format
+#~ msgid "Save Location:"
+#~ msgstr "Lugar no que gardar:"
+
+#, kde-format
+#~ msgid "Compression Quality:"
+#~ msgstr "Calidade da compresión:"
+
+#, kde-format
+#~ msgid "For lossy image formats like JPEG"
+#~ msgstr "Para os formatos de imaxe con perda como JPEG"
+
+#, no-c-format, kde-format
+#~ msgid "%"
+#~ msgstr "%"
+
+#, kde-format
+#~ msgid "Filename:"
+#~ msgstr "Nome do ficheiro:"
+
+#, kde-format
+#~ msgctxt "Preview of the user configured filename"
+#~ msgid "Preview:"
+#~ msgstr "Vista previa:"
+
+#, kde-format
+#~ msgid "What to do when Spectacle is launched"
+#~ msgstr "Que facer ao iniciar Spectacle"
+
+#, kde-format
+#~ msgid ""
+#~ "What should happen if print key is pressed when Spectacle is already "
+#~ "running"
+#~ msgstr ""
+#~ "Comportamento ao premer a tecla de imprimir cando Spectacle xa se está "
+#~ "executando"
+
+#, kde-format
+#~ msgid "Save screenshot automatically after it is taken"
+#~ msgstr "Gardar a captura de pantalla automaticamente tras facela"
+
+#, kde-format
+#~ msgid ""
+#~ "Clipboard action which should be executed after the screenshot is taken"
+#~ msgstr ""
+#~ "Acción do portapapeis para executar despois de facer unha captura de "
+#~ "pantalla"
+
+#, kde-format
+#~ msgid "Whether to use a light color mask in the region selection dialog"
+#~ msgstr "Se usar unha máscara de cor clara no diálogo de selección de zona"
+
+#, kde-format
+#~ msgid ""
+#~ "Whether the screenshot should be captured after selecting the region and "
+#~ "releasing the mouse"
+#~ msgstr "Se capturar a pantalla tras seleccionar a zona e soltar o rato"
+
+#, kde-format
+#~ msgid "Remember the last rectangular region"
+#~ msgstr "Lembrar a última zona rectangular"
+
+#, kde-format
+#~ msgid "The last used region the user selected"
+#~ msgstr "A última zona que a persoa usuaria seleccionou"
+
+#, kde-format
+#~ msgid "Take screenshot on click"
+#~ msgstr "Facer a captura ao facer clic"
+
+#, kde-format
+#~ msgid "Whether the mouse cursor is included in the screenshot"
+#~ msgstr "Se incluír o cursor do rato na captura de pantalla"
+
+#, kde-format
+#~ msgid "Whether the mouse cursor is included in the video"
+#~ msgstr "Se incluír o cursor do rato no vídeo"
+
+#, fuzzy, kde-format
+#~| msgid "Whether the mouse cursor is included in the video"
+#~ msgid "Whether system audio is included in the recording"
+#~ msgstr "Se incluír o cursor do rato no vídeo"
+
+#, fuzzy, kde-format
+#~| msgid "Whether the mouse cursor is included in the video"
+#~ msgid "Whether microphone audio is included in the recording"
+#~ msgstr "Se incluír o cursor do rato no vídeo"
+
+#, kde-format
+#~ msgid "Whether the window decorations are included in the screenshot"
+#~ msgstr "Se incluír as decoracións de xanela na captura de pantalla"
+
+#, kde-format
+#~ msgid "Whether the window shadow is included in the screenshot"
+#~ msgstr "Se incluír a sombra de xanela na captura de pantalla."
+
+#, kde-format
+#~ msgid "Quit after saving or copying an image"
+#~ msgstr "Saír tras gardar ou copiar unha imaxe"
+
+#, kde-format
+#~ msgid "Delay"
+#~ msgstr "Atraso"
+
+#, kde-format
+#~ msgid "Default filename"
+#~ msgstr "Nome de ficheiro predeterminado"
+
+#, kde-format
+#~ msgid "Compression quality for lossy file formats"
+#~ msgstr "Calidade de compresión para os formatos de ficheiro con perdas"
+
+#, kde-format
+#~ msgid "Default save image format"
+#~ msgstr "Formato de imaxe predeterminado para gardar"
+
+#, kde-format
+#~ msgid "The filename template used when saving screenshots"
+#~ msgstr "O modelo de nome de ficheiro para gardar capturas de pantalla"
+
+#, kde-format
+#~ msgid "The path of the file saved last"
+#~ msgstr "A ruta do último ficheiro gardado"
+
+#, kde-format
+#~ msgid "Last path used for \"save as\" action"
+#~ msgstr "A última ruta usada coa acción «Gardar como»"
+
+#, kde-format
+#~ msgid "Default video format"
+#~ msgstr "Formato de vídeo predeterminado"
+
+#, kde-format
+#~ msgid "The filename template used when saving screencasts"
+#~ msgstr "O modelo de nome de ficheiro para gardar gravacións de pantalla"
+
+#, kde-format
+#~ msgid "Save &Location:"
+#~ msgstr "&Localización de garda:"
+
+#, kde-format
+#~ msgid "Spectacle"
+#~ msgstr "Spectacle"
+
+#, kde-format
+#~ msgid "KDE Screenshot Utility"
+#~ msgstr "Utilidade de KDE para facer capturas de pantalla"
+
+#~ msgid ""
+#~ "Capture the window currently under the cursor, excluding parents of pop-"
+#~ "up menus"
+#~ msgstr ""
+#~ "Capturar a xanela que está baixo o cursor, excluíndo as xanelas das que "
+#~ "dependen os menús emerxentes"
+
+#~ msgid "Capture the current pop-up only"
+#~ msgstr "Só capturar o diálogo emerxente actual."
+
+#~ msgid ""
+#~ "Capture only the current pop-up window (like a menu, tooltip etc) when "
+#~ "taking a screenshot of a window. If disabled, the pop-up is captured "
+#~ "along with the parent window."
+#~ msgstr ""
+#~ "Capturar só a xanela emerxente actual (como un menú, unha indicación "
+#~ "emerxente, etc.) ao facer unha captura de pantalla dunha xanela. Se "
+#~ "desactiva esta opción, a xanela emerxente captúrase xunto coa xanela da "
+#~ "que depende."
+
+#~ msgctxt "@option:check"
+#~ msgid "Capture the current pop-up only"
+#~ msgstr "Só capturar o diálogo emerxente actual."
+
+#~ msgctxt "@info:tooltip"
+#~ msgid ""
+#~ "Capture only the current pop-up window (like a menu, tooltip etc).\n"
+#~ "If disabled, the pop-up is captured along with the parent window"
+#~ msgstr ""
+#~ "Capturar só a xanela emerxente actual (como un menú, unha indicación "
+#~ "emerxente, etc.).\n"
+#~ "Se desactiva esta opción, a xanela emerxente captúrase xunto coa xanela "
+#~ "da que depende."
+
+#~ msgid "Only capture the current pop up menu"
+#~ msgstr "Só capturar o menú despregábel actual"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "The shared image link (<a href=\"%1\">%1</a>) has been copied to the "
+#~ "clipboard."
+#~ msgstr ""
+#~ "A ligazón de imaxe compartida (<a href=\"%1\">%1</a>) copiouse no "
+#~ "portapapeis."
+
+#, fuzzy
+#~| msgctxt "@action:button"
+#~| msgid "Open Containing Folder"
+#~ msgctxt "@action"
+#~ msgid "Open Containing Folder"
+#~ msgstr "Abrir o cartafol contedor"
+
+#~ msgid "The last used annotation tool type"
+#~ msgstr "O último tipo de ferramenta de anotación usado"
+
+#~ msgid "Stroke width for freehand annotation tool"
+#~ msgstr "Anchura do trazo para a ferramenta de anotación de man alzada"
+
+#~ msgid "Stroke width for highlighter annotation tool"
+#~ msgstr "Anchura do trazo para a ferramenta de anotación de realce"
+
+#~ msgid "Stroke width for line annotation tool"
+#~ msgstr "Anchura do trazo para a ferramenta de anotación de liña"
+
+#~ msgid "Stroke width for arrow annotation tool"
+#~ msgstr "Anchura do trazo para a ferramenta de anotación de frecha"
+
+#~ msgid "Stroke width for rectangle annotation tool"
+#~ msgstr "Anchura do trazo para a ferramenta de anotación de rectángulo"
+
+#~ msgid "Stroke width for ellipse annotation tool"
+#~ msgstr "Anchura do trazo para a ferramenta de anotación de elipse"
+
+#~ msgid "Stroke color for freehand annotation tool"
+#~ msgstr "Cor do trazo para a ferramenta de anotación de man alzada"
+
+#~ msgid "Stroke color for highlighter annotation tool"
+#~ msgstr "Cor do trazo para a ferramenta de anotación de realce"
+
+#~ msgid "Stroke color for line annotation tool"
+#~ msgstr "Cor do trazo para a ferramenta de anotación de liña"
+
+#~ msgid "Stroke color for arrow annotation tool"
+#~ msgstr "Cor do trazo para a ferramenta de anotación de frecha"
+
+#~ msgid "Stroke color for rectangle annotation tool"
+#~ msgstr "Cor do trazo para a ferramenta de anotación de rectángulo"
+
+#~ msgid "Stroke color for ellipse annotation tool"
+#~ msgstr "Cor do trazo para a ferramenta de anotación de elipse"
+
+#~ msgid "Fill color for rectangle annotation tool"
+#~ msgstr "Cor do recheo para a ferramenta de anotación de rectángulo"
+
+#~ msgid "Fill color for ellipse annotation tool"
+#~ msgstr "Cor do recheo para a ferramenta de anotación de elipse"
+
+#~ msgid "Fill color for number annotation tool"
+#~ msgstr "Cor do recheo para a ferramenta de anotación de números"
+
+#~ msgid "The strength of the blur effect."
+#~ msgstr "A intensidade do efecto de desenfoque."
+
+#~ msgid "The strength of the pixelate effect."
+#~ msgstr "A intensidade do efecto de pixelar."
+
+#~ msgid "Font for text annotations"
+#~ msgstr "Tipo de letra das anotacións"
+
+#~ msgid "Font for number annotations"
+#~ msgstr "Tipo de letra das anotacións numéricas"
+
+#~ msgid "Font color for annotations"
+#~ msgstr "Cor de texto das anotacións"
+
+#~ msgid "Whether freehand annotation tool has a drop shadow"
+#~ msgstr "Se a ferramenta de anotación de man alzada ten sombra"
+
+#~ msgid "Whether line annotation tool has a drop shadow"
+#~ msgstr "Se a ferramenta de anotación de liña ten sombra"
+
+#~ msgid "Whether arrow annotation tool has a drop shadow"
+#~ msgstr "Se a ferramenta de anotación de frecha ten sombra"
+
+#~ msgid "Whether rectangle annotation tool has a drop shadow"
+#~ msgstr "Se a ferramenta de anotación de rectángulo ten sombra"
+
+#~ msgid "Whether ellipse annotation tool has a drop shadow"
+#~ msgstr "Se a ferramenta de anotación de elipse ten sombra"
+
+#~ msgid "Whether text annotation tool has a drop shadow"
+#~ msgstr "Se a ferramenta de anotación de texto ten sombra"
+
+#~ msgid "Whether number annotation tool has a drop shadow"
+#~ msgstr "Se a ferramenta de anotación de número ten sombra"
+
+#~ msgid "Show capture instructions"
+#~ msgstr "Amosar as instrucións de captura."
+
+#~ msgid "Whether to show capture instructions in the region selection"
+#~ msgstr "Se amosar as instrucións de captura na selección de zona."
+
+#~ msgctxt "@action global shortcut"
+#~ msgid "Record Window"
+#~ msgstr "Gravar unha xanela"
+
+#~ msgctxt "@action global shortcut"
+#~ msgid "Record Rectangular Region"
+#~ msgstr "Gravar unha zona rectangular"
+
+#~ msgctxt "recording notification message"
+#~ msgid "Click the system tray icon to finish recording"
+#~ msgstr "Prema a icona da área de notificación para rematar a gravación."
+
+#~ msgctxt "@info"
+#~ msgid "The screenshot location has been copied to the clipboard."
+#~ msgstr "A localización da captura copiouse no portapapeis."
+
+#~ msgctxt "@info"
+#~ msgid "Video shared"
+#~ msgstr "Compartiuse o vídeo."
+
+#~ msgctxt "@info"
+#~ msgid "Image shared"
+#~ msgstr "Compartiuse a imaxe."
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "The shared video link (<a href=\"%1\">%1</a>) has been copied to the "
+#~ "clipboard."
+#~ msgstr ""
+#~ "A ligazón do vídeo compartido (<a href=\"%1\">%1</a>) copiouse no "
+#~ "portapapeis."
+
+#~ msgctxt "@info"
+#~ msgid "There was a problem sharing the video: %1"
+#~ msgstr "Produciuse un problema ao compartir o vídeo: %1"
+
+#~ msgid "Screenshot"
+#~ msgstr "Captura de pantalla"
+
+#~ msgid "Configure..."
+#~ msgstr "Configurar…"
+
+#~ msgid "Capture Mode"
+#~ msgstr "Modo de captura"
+
+#~ msgid "Capture Settings"
+#~ msgstr "Configuración de captura"
+
+#~ msgctxt "@title:group"
+#~ msgid "Recording Settings"
+#~ msgstr "Configuración de gravación"
+
+# skip-rule: trasno-bug-report_reverse
+#~ msgid ""
+#~ "Could not take a screenshot. Please report this bug here: <a "
+#~ "href=\"https://bugs.kde.org/enter_bug.cgi?product=Spectacle\">create a "
+#~ "spectacle bug</a>"
+#~ msgstr ""
+#~ "Non foi posíbel facer unha captura de pantalla. Informe deste fallo aquí: "
+#~ "<a href=\"https://bugs.kde.org/enter_bug.cgi?product=Spectacle\">crear un "
+#~ "informe de fallo de Spectacle</a>"
+
+#~ msgid "Screenshot capture canceled or failed"
+#~ msgstr "A captura de pantalla cancelouse ou fallou."
+
+#~ msgid "Show Annotation Tools"
+#~ msgstr "Amosar as ferramentas de anotación"
+
+#~ msgid "Whether to show a magnifier in the region selection"
+#~ msgstr "Se amosar unha lupa na selección de zona"
+
+#~ msgid "Capture Modes"
+#~ msgstr "Modos de captura"
+
+#~ msgctxt "Decimal number of seconds"
+#~ msgid "%2 seconds"
+#~ msgstr "%2 segundos"
+
+#~ msgctxt ""
+#~ "A placeholder in the user configurable filename will replaced by the "
+#~ "specified value"
+#~ msgid "Day"
+#~ msgstr "Día"
+
+#~ msgctxt ""
+#~ "A placeholder in the user configurable filename will replaced by the "
+#~ "specified value"
+#~ msgid "Month"
+#~ msgstr "Mes"
+
+#~ msgctxt ""
+#~ "A placeholder in the user configurable filename will replaced by the "
+#~ "specified value"
+#~ msgid "Hour"
+#~ msgstr "Hora"
+
+#~ msgctxt ""
+#~ "A placeholder in the user configurable filename will replaced by the "
+#~ "specified value"
+#~ msgid "Minute"
+#~ msgstr "Minuto"
+
+#~ msgctxt ""
+#~ "A placeholder in the user configurable filename will replaced by the "
+#~ "specified value"
+#~ msgid "Second"
+#~ msgstr "Segundo"
+
+#~ msgctxt ""
+#~ "A placeholder in the user configurable filename will replaced by the "
+#~ "specified value"
+#~ msgid "Timezone"
+#~ msgstr "Fuso horario"
+
+#~ msgctxt ""
+#~ "A placeholder in the user configurable filename will replaced by the "
+#~ "specified value"
+#~ msgid "Sequential numbering"
+#~ msgstr "Numeración secuencial"
+
+#~ msgid "The default filename used when recording a video"
+#~ msgstr "O nome de ficheiro predeterminado para usar ao gravar un vídeo"
+
+#~ msgctxt "@item recording mode"
+#~ msgid "Region"
+#~ msgstr "Zona"
+
+#~ msgctxt "@item recording mode"
+#~ msgid "Screen"
+#~ msgstr "Pantalla"
+
+#~ msgid "Workspace"
+#~ msgstr "Espazo de traballo"
+
+#~ msgid "Failed to select output"
+#~ msgstr "Non foi posíbel seleccionar a saída"
+
+#~ msgctxt "@label:listbox"
+#~ msgid "Video format:"
+#~ msgstr "Formato de vídeo:"
+
+#, fuzzy
+#~| msgid "Save"
+#~ msgctxt "Settings category"
+#~ msgid "Save"
+#~ msgstr "Gardar"
+
+#~ msgid "File format for saved screen recordings"
+#~ msgstr "Formato de ficheiro para as gravacións de pantalla gardadas"
+
+#~ msgid "On Click"
+#~ msgstr "Ao premer"
+
+#~ msgid "Take a New Screenshot"
+#~ msgstr "Facer unha captura nova"
+
+#, fuzzy
+#~| msgid ""
+#~| "Capture only the current pop-up window (like a menu, tooltip etc).\n"
+#~| "If disabled, the pop-up is captured along with the parent window"
+#~ msgid "Capture only the current pop-up window (like a menu, tooltip etc).\n"
+#~ msgstr ""
+#~ "Capturar só a xanela emerxente actual (como un menú, unha axuda, etc.).\n"
+#~ "Se desactiva esta opción, a xanela emerxente captúrase xunto coa xanela "
+#~ "da que depende."
+
+#~ msgid "Full Screen (All Monitors)"
+#~ msgstr "Pantalla completa (todos os monitores)"
+
+#, fuzzy
+#~| msgid "Full Screen (All Monitors)"
+#~ msgid "Full Screen (All Monitors, scaled)"
+#~ msgstr "Pantalla completa (todos os monitores)"
+
+#~ msgid "Image Size: %1x%2 pixels"
+#~ msgstr "Tamaño da imaxe: %1x%2 píxeles"
+
+#~ msgid "Change Spectacle's settings."
+#~ msgstr "Cambiar a configuración de Spectacle."
+
+#, fuzzy
+#~| msgid "After taking a screenshot:"
+#~ msgid "Add annotation to the screenshot"
+#~ msgstr "Tras facer unha captura de pantalla:"
+
+#~ msgid "Tools"
+#~ msgstr "Ferramentas"
+
+#, fuzzy
+#~| msgid "Copy image to clipboard"
+#~ msgid "Copy Image to Clipboard"
+#~ msgstr "Copiar a imaxe no portapapeis"
+
+#, fuzzy
+#~| msgid "After taking a screenshot:"
+#~ msgid "Ready to take a screenshot"
+#~ msgstr "Tras facer unha captura de pantalla:"
+
+#~ msgid "Area:"
+#~ msgstr "Área:"
+
+#~ msgid "<b>Options</b>"
+#~ msgstr "<b>Opcións</b>"
+
+#, fuzzy
+#~| msgid "The last used save mode"
+#~ msgid "The last used copy mode"
+#~ msgstr "O último modo de garda usado"
+
+#~ msgctxt "The entire screen area was captured, heading"
+#~ msgid "Full Screen Captured"
+#~ msgstr "Capturouse a pantalla completa"
+
+#~ msgctxt "The current screen was captured, heading"
+#~ msgid "Current Screen Captured"
+#~ msgstr "Capturouse a pantalla actual"
+
+#~ msgctxt "The active window was captured, heading"
+#~ msgid "Active Window Captured"
+#~ msgstr "Capturouse a xanela activa"
+
+#~ msgctxt "The window under the mouse was captured, heading"
+#~ msgid "Window Under Cursor Captured"
+#~ msgstr "Capturouse a xanela na que está o cursor"
+
+#~ msgctxt "A rectangular region was captured, heading"
+#~ msgid "Rectangular Region Captured"
+#~ msgstr "Capturouse unha zona rectangular"
+
+#~ msgid "More Online Services"
+#~ msgstr "Máis servizos en Internet"
+
+#~ msgid "KIPI plugin from library %1 failed to load"
+#~ msgstr "Non se puido cargar o complemento KIPI da biblioteca %1."
+
+#~ msgctxt "%1 is collection name, %2 is image count in collection"
+#~ msgid "%1 (%2 image)"
+#~ msgid_plural "%1 (%2 images)"
+#~ msgstr[0] "%1 (%2 imaxe)"
+#~ msgstr[1] "%1 (%2 imaxes)"
+
+#~ msgid "Taken with Spectacle"
+#~ msgstr "Xerada con Spectacle."
+
+#~ msgid "Remember the region across restarts"
+#~ msgstr "Lembrar a rexión entre reinicios"
+
+#~ msgid ""
+#~ "Choose the image quality when saving with lossy image formats like JPEG"
+#~ msgstr ""
+#~ "Escoller a calidade da imaxe ao gardar en formatos de imaxe con perda "
+#~ "como JPEG"
+
+#~ msgid "Copy file location to clipboard after saving"
+#~ msgstr "Copiar a ruta do ficheiro no portapapeis despois de gardar."
+
+#~ msgid "Copy screenshot automatically to the clipboard after it is taken"
+#~ msgstr ""
+#~ "Copiar a captura de pantalla no portapapeis automaticamente tras facela"
+
+#~ msgid "Whether to copy the file path after saving to the clipboard"
+#~ msgstr "Se copar a ruta do ficheiro tras gardar no portapapeis"
+
+#~ msgid "Copy the current screenshot image to the clipboard."
+#~ msgstr "Copiar a captura actual no portapapeis."
+
+#~ msgid "currentText"
+#~ msgstr "textoActual"
+
+#, fuzzy
+#~| msgid "After taking a screenshot:"
+#~ msgid "Include pointer in the screenshot"
+#~ msgstr "Tras facer unha captura de pantalla:"
+
+#, fuzzy
+#~| msgid "Whether the window decorations are included in the screenshot"
+#~ msgid "Do not include window decorations in the screenshot"
+#~ msgstr "Se incluír as decoracións de xanela na captura de pantalla"
+
+#, fuzzy
+#~| msgid "Capture Entire Desktop"
+#~ msgctxt "The entire desktop was captured, heading"
+#~ msgid "Entire Desktop Captured"
+#~ msgstr "Capturar o escritorio completo"
+
+#~ msgctxt "@title:window"
+#~ msgid "Configure"
+#~ msgstr "Configurar"
+
+#~ msgid "Apply Unsaved Changes"
+#~ msgstr "Aplicar os cambios non gardados"
+
+#~ msgid ""
+#~ "You have made changes to the settings in this tab. Do you want to apply "
+#~ "those changes?"
+#~ msgstr "Cambiou a configuración desta lapela. Quere aplicar os cambios?"
+
+#~ msgctxt "Mouse action"
+#~ msgid "Click and drag,"
+#~ msgstr "Premer e arrastrar,"
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgctxt "Keyboard action"
+#~ msgid "Shift:"
+#~ msgstr "Maiús:"
+
+#~ msgctxt "Shift key action first half"
+#~ msgid "Hold to toggle magnifier"
+#~ msgstr "Manter para conmutar a lupa"
+
+#~ msgctxt "Shift key action second half"
+#~ msgid "while dragging selection handles"
+#~ msgstr "mentres arrastra os controladores da selección"
+
+#~ msgctxt "Shift key action second line"
+#~ msgid "Hold Alt to resize, Shift to fine‑tune"
+#~ msgstr "Manteña premida Alt para cambiar de tamaño, Maiús para axustar"
+
+#~ msgctxt "Keyboard action"
+#~ msgid "Esc:"
+#~ msgstr "Esc:"
+
+#~ msgctxt "%1 is the default filename of a screenshot"
+#~ msgid ""
+#~ "<p>You can use the following placeholders in the filename, which will be "
+#~ "replaced with actual text when the file is saved:</p><blockquote><b>%Y</"
+#~ "b>: Year (4 digit)<br /><b>%y</b>: Year (2 digit)<br /><b>%M</b>: "
+#~ "Month<br /><b>%D</b>: Day<br /><b>%H</b>: Hour<br /><b>%m</b>: Minute<br /"
+#~ "><b>%S</b>: Second<br /><b>%T</b>: Window title<br /><b>%d</b>: "
+#~ "Sequential numbering<br /><b>%Nd</b>: Sequential numbering, padded out to "
+#~ "N digits</blockquote><p>To save to a sub-folder, use slashes, e.g.:</"
+#~ "p><blockquote><b>%Y</b>/<b>%M</b>/%1</blockquote>"
+#~ msgstr ""
+#~ "<p>Pode usar as seguintes marcas de substitución no nome de ficheiro, que "
+#~ "se substituirán por texto real cando se garde o ficheiro:</p> "
+#~ "<blockquote> <b>%Y</b>: ano (4 díxitos)<br /> <b>%y</b>: ano (2 "
+#~ "díxitos)<br /> <b>%M</b>: mes<br /> <b>%D</b>: día<br /> <b>%H</b>: "
+#~ "hora<br /> <b>%m</b>: minuto<br /> <b>%S</b>: segundo<br /><b>%T</b>: "
+#~ "título da xanela<br /><b>%d</b>: numeración secuencial<br /><b>%Nd</b>: "
+#~ "numeración secuencial con N díxitos</blockquote><p>Para gardar nun sub-"
+#~ "cartafol use barras inclinadas, p. ex.:</p><blockquote><b>%Y</b>/<b>%M</"
+#~ "b>/%1</blockquote>"
+
+#~ msgid "Rectangular Region:"
+#~ msgstr "Unha zona rectangular:"
+
+#~ msgid "Default Save Location"
+#~ msgstr "Lugar de garda predeterminado"
+
+#~ msgid "You can find the shared image at: <a href=\"%1\">%1</a>"
+#~ msgstr "Pode atopar a imaxe compartida en <a href=\"%1\">%1</a>"
+
+#~ msgid ""
+#~ "To take the screenshot, double-click or press Enter. Right-click to reset "
+#~ "the selection, or press Esc to quit"
+#~ msgstr ""
+#~ "Para facer a captura de pantalla, faga clic duplo ou prema Intro. Prema "
+#~ "co botón secundario para restabelecer a selección, ou prema Esc para saír."
+
+#~ msgid "Save &&& Exit"
+#~ msgstr "Gardar &e saír"
+
+#~ msgid "Save screenshot in your Pictures directory and exit"
+#~ msgstr "Gardar a captura de pantalla no directorio de imaxes e saír."
+
+#~ msgid "Export Image..."
+#~ msgstr "Exportar a imaxe…"
+
+#~ msgid "Preferences"
+#~ msgstr "Preferencias"
+
+#~ msgid "Dynamic Save Button"
+#~ msgstr "Botón de gardar dinámico"
+
+#~ msgid ""
+#~ "The default behavior of the save button is to <b>Save & Exit</b>. Enable "
+#~ "this option to change the save button to either <b>Save</b>, <b>Save As</"
+#~ "b> or <b>Save & Exit</b>, according to the save action you perform, every "
+#~ "time you save an image."
+#~ msgstr ""
+#~ "O comportamento predeterminado do botón de gardar consiste en <b>gardar e "
+#~ "saír</b>. Active esta opción para cambiar o seu comportamento a "
+#~ "<b>gardar</b>, <b>gardar como</b> ou <b>gardar e saír</b>, dependendo da "
+#~ "acción de gardar que estea a realizar, cada vez que garde unha imaxe."
+
+#~ msgid "Set save button action to last used save method"
+#~ msgstr "Que o botón de gardar repita o comportamento da última vez."
+
+#~ msgid ""
+#~ "When a screenshot is saved, copy the location at which the file was saved "
+#~ "to the clipboard. You can then paste it anywhere that accepts text input. "
+#~ "Note that you must be running a clipboard manager in order to keep the "
+#~ "path in the clipboard after Spectacle quits."
+#~ msgstr ""
+#~ "Ao gardar unha captura de pantalla, copiar a ruta na que se gardou o "
+#~ "ficheiro no portapapeis. A continuación pode pegala en calquera lugar que "
+#~ "permite entrada de texto. Teña en conta que debe estar usando un xestor "
+#~ "de portapapeis para que a ruta continúe no portapapeis despois de saír de "
+#~ "Spectacle."
+
+#~ msgid "Light Background For Rectangular Region"
+#~ msgstr "Fondo claro para a zona rectangular"
+
+#~ msgid ""
+#~ "Use a light background color to mask the cropped-out area in the "
+#~ "rectangular region selector. This may make dark cursors easier to see."
+#~ msgstr ""
+#~ "Usar unha cor de fondo clara para aplicar ao selector da zona rectangular "
+#~ "de recorte. Isto pode facer máis doado ver cursores escuros."
+
+#~ msgid ""
+#~ "By default, Spectacle does not show an initial selection when you take a "
+#~ "screenshot of a rectangular region. Enable this option to remember the "
+#~ "last selected region of the screen, and set it as the initial selection "
+#~ "when you use the rectangular region selector the next time."
+#~ msgstr ""
+#~ "De maneira predeterminada, Spectacle non mostrar ningunha selección "
+#~ "inicial cando realiza a captura dunha zona rectangular. Active esta "
+#~ "opción para lembrar a última zona da pantalla que recortou, e usala como "
+#~ "a selección de partida cando use o selector de zona rectangular a próxima "
+#~ "vez."
+
+#~ msgid ""
+#~ "Set the directory where you'd like to save your screenshots when you "
+#~ "press <b>Save</b> or <b>Save & Exit</b>."
+#~ msgstr ""
+#~ "Defina o directorio onde queira gardar as capturas cando use o botón de "
+#~ "<b>Gardar</b> ou de <b>Gardar e Saír</b>."
+
+#~ msgid ""
+#~ "<p>Set a default filename for saved screenshots.</p><p>You can use the "
+#~ "following placeholders in the filename, which will be replaced with "
+#~ "actual text when the file is saved:</p><blockquote><b>%Y</b>: Year (4 "
+#~ "digit)<br /><b>%y</b>: Year (2 digit)<br /><b>%M</b>: Month<br /><b>%D</"
+#~ "b>: Day<br /><b>%H</b>: Hour<br /><b>%m</b>: Minute<br /><b>%S</b>: "
+#~ "Second</blockquote><p>If a file with this name already exists, a serial "
+#~ "number will be appended to the filename. For example, if the filename is "
+#~ "\"Screenshot\", and \"Screenshot.png\" already exists, the image will be "
+#~ "saved as \"Screenshot-1.png\".</p><p>Typing an extension into the "
+#~ "filename will automatically set the image format correctly and remove the "
+#~ "extension from the filename field.</p>"
+#~ msgstr ""
+#~ "<p>Defina un nome de ficheiro predeterminado co que gardar as capturas de "
+#~ "pantalla.</p> <p>Pode usar os seguintes códigos de substitución no nome "
+#~ "de ficheiro, que se substituirán polo que simbolizan ao gardar o ficheiro:"
+#~ "</p> <blockquote> <b>%Y</b>: ano (4 díxitos).<br /> <b>%y</b>: ano (2 "
+#~ "díxitos).<br /> <b>%M</b>: mes.<br /> <b>%D</b>: día.<br /> <b>%H</b>: "
+#~ "hora.<br /> <b>%m</b>: minutos.<br /> <b>%S</b>: segundos. </blockquote> "
+#~ "<p>Se xa existe un ficheiro co mesmo nome, engádese un número de serie "
+#~ "como sufixo ao nome do ficheiro. Por exemplo, se o nome de ficheiro é "
+#~ "«captura de pantalla» e xa existe «captura de pantalla.png», a imaxe "
+#~ "gardarase como «captura de pantalla-1.png».</p><p>Se inclúe unha "
+#~ "extensión de ficheiro no nome de ficheiro, o formato da imaxe definirase "
+#~ "automaticamente e a extensión retirarase do campo do nome de ficheiro.</p>"
+
+#~ msgid "Application Preferences"
+#~ msgstr "Configuración do aplicativo"
+
+#~ msgid "Open With..."
+#~ msgstr "Abrir con..."
+
+#~ msgid "Cannot send screenshot to the application"
+#~ msgstr "Non é posíbel enviar a captura de pantalla ao programa."
+
+#~ msgid "Cannot save screenshot. The file already exists."
+#~ msgstr "Non é posíbel gardar a captura de pantalla. O ficheiro xa existe."
+
+#, fuzzy
+#~| msgid "Capture Area"
+#~ msgid "Kapture"
+#~ msgstr "Zona de captura"
+
+#~ msgid "KScreenGenie"
+#~ msgstr "KScreenGenie"
+
+#~ msgid "Send To..."
+#~ msgstr "Enviar a…"
+
+#~ msgctxt "Untitled Screenshot"
+#~ msgid "Untitled"
+#~ msgstr "Sen título"

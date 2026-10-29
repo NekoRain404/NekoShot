@@ -1,0 +1,3092 @@
+# Lithuanian translations for trunk-kf package.
+# Copyright (C) 2015 This_file_is_part_of_KDE
+# This file is distributed under the same license as the trunk-kf package.
+#
+# Automatically generated, 2015.
+# Mindaugas Baranauskas <opensuse.lietuviu.kalba@gmail.com>, 2015, 2016, 2019.
+msgid ""
+msgstr ""
+"Project-Id-Version: trunk-kf 5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-10-29 15:50+0800\n"
+"PO-Revision-Date: 2026-08-01 14:13+0300\n"
+"Last-Translator: Moo <<>>\n"
+"Language-Team: Lithuanian <kde-i18n-lt@kde.org>\n"
+"Language: lt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : n%10>=2 && (n%100<10 || "
+"n%100>=20) ? 1 : n%10==0 || (n%100>10 && n%100<20) ? 2 : 3);\n"
+"X-Generator: Poedit 3.9\n"
+
+#: src/OcrManager.cpp:578
+msgctxt "@item:inlistbox"
+msgid "Orientation and Script Detection"
+msgstr "Orientacija ir scenarijų aptikimas"
+
+#: src/OcrManager.cpp:619
+msgid "Math/Equation Detection"
+msgstr "Matematikos/Lygčių aptikimas"
+
+#: src/OcrManager.cpp:622
+msgid "Orientation and Script Detection"
+msgstr "Orientacija ir scenarijų aptikimas"
+
+#: src/ShortcutActions.cpp:38
+msgctxt "@action global shortcut"
+msgid "Launch Spectacle"
+msgstr "Paleisti Spectacle"
+
+#: src/ShortcutActions.cpp:44
+msgctxt "@action global shortcut"
+msgid "Capture Entire Desktop"
+msgstr "Fotografuoti visą darbalaukį"
+
+#: src/ShortcutActions.cpp:50
+msgctxt "@action global shortcut"
+msgid "Capture Current Monitor"
+msgstr "Fotografuoti dabartinį monitorių"
+
+#: src/ShortcutActions.cpp:56
+msgctxt "@action global shortcut"
+msgid "Capture Active Window"
+msgstr "Fotografuoti aktyvų langą"
+
+#: src/ShortcutActions.cpp:62
+msgctxt "@action global shortcut"
+msgid "Capture Rectangular Region"
+msgstr "Fotografuoti stačiakampę sritį"
+
+#: src/ShortcutActions.cpp:69
+msgctxt "@action global shortcut"
+msgid "Capture Selected Window"
+msgstr "Fotografuoti pasirinktą langą"
+
+#: src/ShortcutActions.cpp:69
+msgctxt "@action global shortcut"
+msgid "Capture Window Under Cursor"
+msgstr "Fotografuoti langą po žymekliu"
+
+#: src/ShortcutActions.cpp:76
+msgctxt "@action global shortcut"
+msgid "Start/Stop Screen Recording"
+msgstr "Pradėti/Stabdyti ekrano įrašą"
+
+#: src/ShortcutActions.cpp:82
+msgctxt "@action global shortcut"
+msgid "Start/Stop Window Recording"
+msgstr "Pradėti/Stabdyti lango įrašą"
+
+#: src/ShortcutActions.cpp:88
+msgctxt "@action global shortcut"
+msgid "Start/Stop Region Recording"
+msgstr "Pradėti/Stabdyti srities įrašą"
+
+#: src/ShortcutActions.cpp:94
+msgctxt "@action global shortcut"
+msgid "Launch Spectacle without capturing"
+msgstr "Paleisti Spectacle nefotografuojant"
+
+#: src/VideoFormatModel.cpp:31
+msgctxt "@item:inlistbox Container/encoder"
+msgid "WebM/VP9"
+msgstr "WebM/VP9"
+
+#: src/VideoFormatModel.cpp:38
+msgctxt "@item:inlistbox Container/encoder"
+msgid "MP4/H.264"
+msgstr "MP4/H.264"
+
+#: src/VideoFormatModel.cpp:45
+#, fuzzy
+msgctxt "@item:inlistbox Container/encoder"
+msgid "MP4/H.265"
+msgstr "MP4/H.264"
+
+#: src/VideoFormatModel.cpp:52
+msgctxt "@item:inlistbox Container/encoder"
+msgid "MP4/AV1"
+msgstr ""
+
+#: src/VideoFormatModel.cpp:59
+msgctxt "@item:inlistbox Container/encoder"
+msgid "Animated WebP (better than GIF)"
+msgstr "Animuotas WebP (geriau nei GIF)"
+
+#: src/VideoFormatModel.cpp:66
+msgctxt "@item:inlistbox Container/encoder"
+msgid "GIF (compatible, but inefficient)"
+msgstr "GIF (suderinamas, bet neefektyvus)"
+
+#: src/CaptureModeModel.cpp:167
+msgctxt "@action in capture mode section"
+msgid "Rectangular Region"
+msgstr "Stačiakampė sritis"
+
+#: src/CaptureModeModel.cpp:169
+msgctxt "@action in capture mode section"
+msgid "All Screens (Scaled to same size)"
+msgstr "Visi ekranai (suvienodinto mastelio)"
+
+#: src/CaptureModeModel.cpp:171
+msgctxt "@action in capture mode section"
+msgid "Current Screen"
+msgstr "Dabartinis ekranas"
+
+#: src/CaptureModeModel.cpp:173
+msgctxt "@action in capture mode section"
+msgid "Active Window"
+msgstr "Aktyvus langas"
+
+#: src/CaptureModeModel.cpp:176
+msgctxt "@action in capture mode section"
+msgid "Select Window"
+msgstr "Pasirinkti langą"
+
+#: src/CaptureModeModel.cpp:176
+msgctxt "@action in capture mode section"
+msgid "Window Under Cursor"
+msgstr "Langas po žymekliu"
+
+#: src/CaptureModeModel.cpp:179
+msgctxt "@action in capture mode section"
+msgid "All Screens"
+msgstr "Visi ekranai"
+
+#: src/CaptureModeModel.cpp:181
+msgctxt "@action in capture mode section"
+msgid "Full Screen"
+msgstr "Visas ekranas"
+
+#: src/CommandLineOptions.h:22
+msgid "Capture the entire desktop (default)"
+msgstr "Fotografuoti visą darbalaukį (pagal numatymą)"
+
+#: src/CommandLineOptions.h:25
+#, fuzzy
+msgid ""
+"When used with -f/--fullscreen, capture all screens scaled to the same size "
+"(niri: falls back to unscaled)"
+msgstr ""
+"Kai naudojamas kartu su -f/--fullscreen, fotografuoti visus ekranus "
+"suvienodinto mastelio"
+
+#: src/CommandLineOptions.h:28
+msgid "Capture the current monitor"
+msgstr "Fotografuoti dabartinį monitorių"
+
+#: src/CommandLineOptions.h:32
+msgid "Capture the active window"
+msgstr "Fotografuoti aktyvų langą"
+
+#: src/CommandLineOptions.h:35
+msgid ""
+"Capture the window currently under the cursor, including parents of pop-up "
+"menus"
+msgstr ""
+"Fotografuoti šiuo metu po pele esantį langą, įskaitant iškylančiųjų meniu "
+"pirminius langus"
+
+#: src/CommandLineOptions.h:38
+msgid "Capture a rectangular region of the screen"
+msgstr "Fotografuoti stačiakampę ekrano sritį"
+
+#: src/CommandLineOptions.h:42
+msgid ""
+"Record the screen using the given mode. Modes:\n"
+"- r, region\n"
+"- s, screen\n"
+"- w, window"
+msgstr ""
+"Filmuoti ekraną naudojant nurodytą veikseną. Veiksenos:\n"
+"- r, sritis\n"
+"- s, ekranas\n"
+"- w, langas"
+
+#: src/CommandLineOptions.h:50
+msgid "Launch Spectacle without taking a screenshot"
+msgstr "Paleisti Spectacle nedarant ekrano kopijos"
+
+#: src/CommandLineOptions.h:54
+msgid "Start in GUI mode (default)"
+msgstr "Paleisti grafinės naudotojo sąsajos veiksenoje (pagal numatymą)"
+
+#: src/CommandLineOptions.h:58
+msgid "Take a screenshot and exit without showing the GUI"
+msgstr "Padaryti ekrano kopiją ir išeiti, nerodant grafinės naudotojo sąsajos"
+
+#: src/CommandLineOptions.h:62
+msgid "Start in DBus-Activation mode"
+msgstr "Paleisti DBus-Activation veiksenoje"
+
+#: src/CommandLineOptions.h:66
+msgid ""
+"In background mode, do not pop up a notification when the screenshot is taken"
+msgstr "Foninėje veiksenoje nerodyti pranešimo, kai yra padaroma ekrano kopija"
+
+#: src/CommandLineOptions.h:70
+msgid "In background mode, save image to specified file"
+msgstr "Foninėje veiksenoje įrašyti paveikslą į nurodytą failą"
+
+#: src/CommandLineOptions.h:75
+msgid "In background mode, delay before taking the shot (in milliseconds)"
+msgstr "Foninėje veiksenoje delsa prieš darant ekrano kopiją (milisekundėmis)"
+
+#: src/CommandLineOptions.h:80
+msgid ""
+"In background mode, copy screenshot image to clipboard, unless -o is also "
+"used."
+msgstr ""
+"Foninėje veiksenoje, kopijuoti ekrano kopijos paveikslą į iškarpinę, nebent "
+"taip pat yra naudojamas -o."
+
+#: src/CommandLineOptions.h:84
+msgid "In background mode, copy screenshot file path to clipboard"
+msgstr "Foninėje veiksenoje kopijuoti ekrano kopijos failo kelią į iškarpinę"
+
+#: src/CommandLineOptions.h:88
+msgid "Wait for a click before taking screenshot. Invalidates delay"
+msgstr ""
+"Prieš darant ekrano kopiją, laukti spustelėjimo. Padaro delsos parinktį "
+"negaliojančią"
+
+#: src/CommandLineOptions.h:90
+#, fuzzy
+msgid "Starts a new GUI instance of NekoShot without registering to DBus"
+msgstr ""
+"Paleidžia naują grafinės naudotojo sąsajos egzempliorių be registracijos su "
+"DBus"
+
+#: src/CommandLineOptions.h:93
+msgid "In background mode, include pointer in the screenshot"
+msgstr "Foninėje veiksenoje į ekrano kopiją įtraukti pelės rodyklę"
+
+#: src/CommandLineOptions.h:97
+msgid "In background mode, exclude decorations in the screenshot"
+msgstr "Foninėje veiksenoje į ekrano kopiją neįtraukti langų dekoracijų"
+
+#: src/CommandLineOptions.h:99
+msgid "In background mode, exclude shadows in the screenshot"
+msgstr "Foninėje veiksenoje į ekrano kopiją neįtraukti šešėlių"
+
+#: src/CommandLineOptions.h:102
+msgid "Open and edit existing screenshot file"
+msgstr "Atverti ir taisyti esamą ekrano kopijos failą"
+
+#: src/CommandLineOptions.h:105
+msgid "Accept region selection on click-and-release"
+msgstr "Priimti srities žymėjimą spustelėjus ir atleidus"
+
+#: src/CommandLineOptions.h:106
+msgid "Stay running and wait for D-Bus requests"
+msgstr ""
+
+#: src/CommandLineOptions.h:107
+#, fuzzy
+msgid "Stop the current recording"
+msgstr "Rodyti ekrano įraše pelės žymeklį"
+
+#: src/ExportManager.cpp:466
+msgctxt "%1 is an error message"
+msgid "QImageWriter cannot write image: %1"
+msgstr "QImageWriter negali rašyti paveikslo: %1"
+
+#: src/ExportManager.cpp:482
+msgctxt "@info"
+msgid ""
+"Cannot save screenshot because creating the directory failed:<nl/"
+"><filename>%1</filename>"
+msgstr ""
+"Nepavyksta įrašyti ekrano kopiją, nes nepavyko sukurti katalogą:<nl/"
+"><filename>%1</filename>"
+
+#: src/ExportManager.cpp:491
+msgid "Cannot save screenshot. Error while opening file."
+msgstr "Nepavyksta įrašyti ekrano kopijos. Klaida atveriant failą."
+
+#: src/ExportManager.cpp:495
+msgid "Cannot save screenshot. Error while writing file."
+msgstr "Nepavyksta įrašyti ekrano kopijos. Klaida rašant į failą."
+
+#: src/ExportManager.cpp:515
+msgctxt "@info"
+msgid ""
+"Cannot save screenshot because creating the remote directory failed:<nl/"
+"><filename>%1</filename>"
+msgstr ""
+"Nepavyksta įrašyti ekrano kopiją, nes nepavyko sukurti nuotolinio katalogo:"
+"<nl/><filename>%1</filename>"
+
+#: src/ExportManager.cpp:526 src/ExportManager.cpp:576
+msgid "Cannot save screenshot. Error while writing temporary local file."
+msgstr ""
+"Nepavyksta įrašyti ekrano kopijos. Klaida rašant į laikinąjį vietinį failą."
+
+#: src/ExportManager.cpp:535
+msgid "Unable to save image. Could not upload file to remote location."
+msgstr "Nepavyko įrašyti paveikslo. Nepavyko įkelti failo į nuotolinę vietą."
+
+#: src/ExportManager.cpp:583
+msgid "Cannot save screenshot. The save filename is invalid."
+msgstr ""
+"Nepavyksta įrašyti ekrano kopijos. Įrašymui netinkamas failo pavadinimas."
+
+#: src/ExportManager.cpp:627
+msgid "Cannot save an empty screenshot image."
+msgstr "Nepavyksta įrašyti tuščio ekrano kopijos paveikslo."
+
+#: src/ExportManager.cpp:814
+msgctxt "@info:shell"
+msgid ""
+"Failed to export video: Temporary file URL must be an existing local file"
+msgstr ""
+"Nepavyko eksportuoti vaizdo įrašo: Laikinuoju failo URL privalo būti esamas "
+"vietinis failas"
+
+#: src/ExportManager.cpp:821
+msgctxt "@info:shell"
+msgid ""
+"Failed to export video: Output file URL must be a valid URL with a file name"
+msgstr ""
+"Nepavyko eksportuoti vaizdo įrašo: Išvesties failo URL privalo būti tinkamas "
+"URL adresas su failo pavadinimu"
+
+#: src/ExportManager.cpp:910
+msgctxt "@info, %1 is a file path"
+msgid "Unable to save recording. Could not move file to location: %1"
+msgstr "Nepavyko įrašyti ekrano įrašo. Nepavyko perkelti failo į vietą: %1"
+
+#: src/ExportManager.cpp:938
+msgid "Printing failed. The printer failed to initialize."
+msgstr "Nepavyko atspausdinti. Nepavyko inicijuoti spausdintuvo."
+
+#: src/ExportManager.cpp:955
+msgctxt "filename placeholder description"
+msgid "Day (1–31)"
+msgstr "Diena (1–31)"
+
+#: src/ExportManager.cpp:956
+msgctxt "filename placeholder description"
+msgid "Day (01–31)"
+msgstr "Diena (01–31)"
+
+#: src/ExportManager.cpp:957
+msgctxt "filename placeholder description"
+msgid "Day (short name)"
+msgstr "Diena (trumpas pavadinimas)"
+
+#: src/ExportManager.cpp:958
+msgctxt "filename placeholder description"
+msgid "Day (long name)"
+msgstr ""
+"Diena (\n"
+"inimas)"
+
+#: src/ExportManager.cpp:959
+msgctxt "filename placeholder description"
+msgid "Month (1–12)"
+msgstr "Mėnesis (1–12)"
+
+#: src/ExportManager.cpp:960
+msgctxt "filename placeholder description"
+msgid "Month (01–12)"
+msgstr "Mėnesis (01–12)"
+
+#: src/ExportManager.cpp:961
+msgctxt "filename placeholder description"
+msgid "Month (short name)"
+msgstr "Mėnesis (trumpas pavadinimas)"
+
+#: src/ExportManager.cpp:962
+msgctxt "filename placeholder description"
+msgid "Month (long name)"
+msgstr "Mėnesis (ilgas pavadinimas)"
+
+#: src/ExportManager.cpp:963
+msgctxt "filename placeholder description"
+msgid "Year (2 digit)"
+msgstr "Metai (2 skaitmenys)"
+
+#: src/ExportManager.cpp:964
+msgctxt "filename placeholder description"
+msgid "Year (4 digit)"
+msgstr "Metai (4 skaitmenys)"
+
+#: src/ExportManager.cpp:965
+msgctxt "filename placeholder description"
+msgid "Hour (0–23)"
+msgstr "Valanda (0–23)"
+
+#: src/ExportManager.cpp:966
+msgctxt "filename placeholder description"
+msgid "Hour (00–23)"
+msgstr "Valanda (00–23)"
+
+#: src/ExportManager.cpp:967
+msgctxt "filename placeholder description"
+msgid "Hour (1–12)"
+msgstr "Valanda (1–12)"
+
+#: src/ExportManager.cpp:968
+msgctxt "filename placeholder description"
+msgid "Hour (01–12)"
+msgstr "Valanda (01–12)"
+
+#: src/ExportManager.cpp:969
+msgctxt "filename placeholder description"
+msgid "Minute (0–59)"
+msgstr "Minutė (0–59)"
+
+#: src/ExportManager.cpp:970
+msgctxt "filename placeholder description"
+msgid "Minute (00–59)"
+msgstr "Minutė (00–59)"
+
+#: src/ExportManager.cpp:971
+msgctxt "filename placeholder description"
+msgid "Second (0–59)"
+msgstr "Sekundė (0–59)"
+
+#: src/ExportManager.cpp:972
+msgctxt "filename placeholder description"
+msgid "Second (00–59)"
+msgstr "Sekundė (00–59)"
+
+#: src/ExportManager.cpp:973
+msgctxt "filename placeholder description"
+msgid "Millisecond (0–999)"
+msgstr "Milisekundė (0–999)"
+
+#: src/ExportManager.cpp:975
+msgctxt "filename placeholder description"
+msgid "Millisecond (000–999)"
+msgstr "Milisekundė (000–999)"
+
+#: src/ExportManager.cpp:976
+msgctxt "filename placeholder description"
+msgid "AM/PM"
+msgstr "AM/PM"
+
+#: src/ExportManager.cpp:978
+msgctxt "filename placeholder description"
+msgid "am/pm"
+msgstr "am/pm"
+
+#: src/ExportManager.cpp:980
+msgctxt "filename placeholder description"
+msgid "AM/PM or am/pm (localized)"
+msgstr "AM/PM arba am/pm (lokalizuota)"
+
+#: src/ExportManager.cpp:982
+msgctxt "filename placeholder description"
+msgid "Timezone (short name)"
+msgstr "Laiko juosta (trumpas pavadinimas)"
+
+#: src/ExportManager.cpp:983
+msgctxt "filename placeholder description"
+msgid "Timezone offset (±0000)"
+msgstr "Laiko juostos poslinkis (±0000)"
+
+#: src/ExportManager.cpp:984
+msgctxt "filename placeholder description"
+msgid "Timezone offset (±00:00)"
+msgstr "Laiko juostos poslinkis (±00:00)"
+
+#: src/ExportManager.cpp:985
+msgctxt "filename placeholder description"
+msgid "Timezone (long name)"
+msgstr "Laiko juosta (ilgas pavadinimas)"
+
+#: src/ExportManager.cpp:986
+msgctxt "filename placeholder description"
+msgid "Seconds since the Unix epoch"
+msgstr "Sekundės nuo Unix epochos pradžios"
+
+#: src/ExportManager.cpp:987
+msgctxt "filename placeholder description"
+msgid "Window Title"
+msgstr "Lango antraštė"
+
+#: src/ExportManager.cpp:988
+msgctxt "filename placeholder description"
+msgid "Sequential numbering, padded by inserting additional '#' characters"
+msgstr ""
+"Nuoseklus numeravimas, kai įterpiant papildomus „#“ simbolius, bus rašoma "
+"daugiau nulių"
+
+#: src/Main.cpp:48 src/SpectacleCore.cpp:1408
+msgid "NekoShot"
+msgstr ""
+
+#: src/Main.cpp:50
+msgid "Screenshot utility for niri, based on Spectacle"
+msgstr ""
+
+#: src/Main.cpp:52
+#, fuzzy
+msgid "© 2015 Boudhayan Gupta and Spectacle contributors"
+msgstr "© 2015 Boudhayan Gupta"
+
+#: src/Main.cpp:60
+msgctxt "NAME OF TRANSLATORS"
+msgid "Your names"
+msgstr "Mindaugas Baranauskas, Moo"
+
+#: src/Main.cpp:60
+msgctxt "EMAIL OF TRANSLATORS"
+msgid "Your emails"
+msgstr "opensuse.lietuviu.kalba@gmail.com, <>"
+
+#: src/Main.cpp:78
+msgid ""
+"On Wayland, Spectacle requires KDE Plasma's KWin compositor, which does not "
+"seem to be available. Use Spectacle on KDE Plasma, or use a different "
+"screenshot tool."
+msgstr ""
+"Wayland aplinkoje, Spectacle reikalauja KDE Plasma KWin kompozitoriaus, "
+"kuris, atrodo, nėra prieinamas. Naudokite Spectacle programą KDE Plasma "
+"aplinkoje arba naudokite kitą ekrano kopijos įrankį."
+
+#: src/Main.cpp:103 src/Platforms/ImagePlatformNiri.cpp:167
+msgid "grim is not installed"
+msgstr ""
+
+#: src/Main.cpp:119
+msgid "--daemon cannot be combined with --new-instance"
+msgstr ""
+
+#: src/RecordingModeModel.cpp:104
+msgctxt "@item recording mode"
+msgid "Rectangular Region"
+msgstr "Stačiakampė sritis"
+
+#: src/RecordingModeModel.cpp:106
+msgctxt "@item recording mode"
+msgid "Window"
+msgstr "Langas"
+
+#: src/RecordingModeModel.cpp:108
+msgctxt "@item recording mode"
+msgid "Full Screen"
+msgstr "Visas ekranas"
+
+#: src/SpectacleCore.cpp:288
+msgctxt "@info"
+msgid "An error occurred while taking a screenshot."
+msgstr "Įvyko klaida darant ekrano kopiją."
+
+#: src/SpectacleCore.cpp:318
+msgctxt "@info:tooltip title for recording tray icon"
+msgid "Spectacle is Recording with Sound"
+msgstr "Spectacle filmuoja su garsu"
+
+#: src/SpectacleCore.cpp:319
+msgctxt "@info:tooltip title for recording tray icon"
+msgid "Spectacle is Recording"
+msgstr "Spectacle filmuoja"
+
+#: src/SpectacleCore.cpp:324
+msgctxt "recording notification title"
+msgid "Spectacle is Recording with Sound"
+msgstr "Spectacle filmuoja su garsu"
+
+#: src/SpectacleCore.cpp:325
+msgctxt "recording notification title"
+msgid "Spectacle is Recording"
+msgstr "Spectacle filmuoja"
+
+#: src/SpectacleCore.cpp:354
+msgctxt "recording notification message without shortcut"
+msgid "To finish the recording, click the pulsing red System Tray icon."
+msgstr ""
+"Norėdami užbaigti filmavimą spustelėkite sistemos dėkle raudoną pulsuojančią "
+"piktogramą."
+
+#: src/SpectacleCore.cpp:356
+msgctxt "recording notification message with shortcut"
+msgid ""
+"To finish the recording, click the pulsing red System Tray icon or press "
+"<shortcut>%1</shortcut>."
+msgstr ""
+"Norėdami užbaigti filmavimą spustelėkite sistemos dėkle raudoną pulsuojančią "
+"piktogramą arba paspauskite <shortcut>%1</shortcut>."
+
+#: src/SpectacleCore.cpp:373
+msgctxt "missing webp support notification title"
+msgid "WebP support is missing."
+msgstr "Trūksta WebP palaikymo."
+
+#: src/SpectacleCore.cpp:375
+msgctxt "missing webp support notification message"
+msgid ""
+"Please install Qt Image Formats to get animated system tray icons for "
+"Spectacle, and then report this packaging issue to your distributor."
+msgstr ""
+"Įsidiekite Qt paveikslų formatus, kad matytumėte animuotas Spectacle "
+"sistemos dėklo piktogramas, o tuomet praneškite apie šią pakavimo problemą "
+"savo platinamojo paketo platintojui."
+
+#: src/SpectacleCore.cpp:412
+msgctxt "recording notification title"
+msgid "Spectacle is Finishing the Recording"
+msgstr "Spectacle užbaigia ekrano įrašą"
+
+#: src/SpectacleCore.cpp:413
+msgctxt "recording notification message"
+msgid "Please wait"
+msgstr "Palaukite"
+
+#: src/SpectacleCore.cpp:415
+msgctxt "@info:tooltip title for rendering tray icon"
+msgid "Spectacle is Finishing the Recording"
+msgstr "Spectacle užbaigia ekrano įrašą"
+
+#: src/SpectacleCore.cpp:417
+msgctxt "@info:tooltip subtitle for rendering tray icon"
+msgid ""
+"Time recorded: %1\n"
+"Click to stop rendering early (this will lose data)"
+msgstr ""
+"Kiek laiko filmuojama: %1\n"
+"Spustelėkite norėdami pirma laiko stabdyti perteikimą (bus prarasti duomenys)"
+
+#: src/SpectacleCore.cpp:442
+msgctxt "@info:tooltip subtitle for recording tray icon"
+msgid ""
+"Time recorded: %1\n"
+"Click to finish recording"
+msgstr ""
+"Kiek laiko filmuojama: %1\n"
+"Spustelėkite norėdami užbagti filmavimą"
+
+#: src/SpectacleCore.cpp:473
+msgctxt "@info"
+msgid "An error occurred while attempting to record the screen."
+msgstr "Įvyko klaida bandant filmuoti ekraną."
+
+#: src/SpectacleCore.cpp:525
+msgctxt "@info"
+msgid ""
+"The screenshot was copied to the clipboard and saved as <link url=\"%1\">%2</"
+"link>"
+msgstr ""
+"Ekrano kopija buvo nukopijuota į iškarpinę ir įrašyta kaip <link "
+"url=\"%1\">%2</link>"
+
+#: src/SpectacleCore.cpp:529
+msgctxt "@info"
+msgid ""
+"The screenshot has been saved as <link url=\"%1\">%2</link> and its location "
+"has been copied to clipboard"
+msgstr ""
+"Ekrano kopija įrašyta kaip <link url=\"%1\">%2</link>, o jos vieta "
+"nukopijuota į iškarpinę"
+
+#: src/SpectacleCore.cpp:534
+msgctxt "@info"
+msgid "The screenshot was saved as <link url=\"%1\">%2</link>"
+msgstr "Ekrano kopija buvo įrašyta kaip <link url=\"%1\">%2</link>"
+
+#: src/SpectacleCore.cpp:538
+msgctxt "@info"
+msgid "The screenshot has been copied to the clipboard."
+msgstr "Ekrano kopija nukopijuota į iškarpinę."
+
+#: src/SpectacleCore.cpp:570
+msgctxt "@info"
+msgid ""
+"The video has been saved as <link url=\"%1\">%2</link> and its location has "
+"been copied to clipboard"
+msgstr ""
+"Vaizdo įrašas įrašytas kaip <link url=\"%1\">%2</link>, o jo vieta "
+"nukopijuota į iškarpinę"
+
+#: src/SpectacleCore.cpp:575
+msgctxt "@info"
+msgid "The video was saved as <link url=\"%1\">%2</link>"
+msgstr "Vaizdo įrašas buvo įrašytas kaip <link url=\"%1\">%2</link>"
+
+#: src/SpectacleCore.cpp:579
+msgctxt "@info"
+msgid "The video location has been copied to the clipboard."
+msgstr "Vaizdo įrašo vieta nukopijuota į iškarpinę."
+
+#: src/SpectacleCore.cpp:599
+msgctxt "@info"
+msgid "Code found: %1"
+msgstr "Rastas kodas: %1"
+
+#: src/SpectacleCore.cpp:603
+msgctxt "@info"
+msgid "Found QR code with binary content."
+msgstr "Rastas QR kodas su dvejetainiu turiniu."
+
+#: src/SpectacleCore.cpp:611
+msgctxt "@info"
+msgid "Text extraction failed"
+msgstr "Nepavyko ištraukti teksto"
+
+#: src/SpectacleCore.cpp:616
+msgctxt "@info"
+msgid "No text found in the image"
+msgstr "Paveiksle nerasta jokio teksto"
+
+#: src/SpectacleCore.cpp:620
+msgctxt "@info"
+msgid "Text extraction completed"
+msgstr "Teksto ištraukimas užbaigtas"
+
+#: src/SpectacleCore.cpp:628
+msgctxt "@info:notification title"
+msgid "Text Extracted"
+msgstr "Tekstas ištrauktas"
+
+#: src/SpectacleCore.cpp:648
+msgctxt "@info The variables are language names, e.g. 'English and German'"
+msgid "%1 and %2"
+msgstr "%1 ir %2"
+
+#: src/SpectacleCore.cpp:653
+msgctxt "@info:notification"
+msgid "Text copied to clipboard.<nl/>Languages used: %1"
+msgstr "Tekstas nukopijuotas į iškarpinę.<nl/>Naudotos kalbos: %1"
+
+#: src/SpectacleCore.cpp:658
+msgctxt "@action:button"
+msgid "Open in Text Editor"
+msgstr "Atverti tekstų redaktoriuje"
+
+#: src/SpectacleCore.cpp:808
+msgctxt "@info"
+msgid "Please select a region before extracting text"
+msgstr "Prieš ištraukdami tekstą, pasirinkite sritį"
+
+#: src/SpectacleCore.cpp:830
+msgctxt "@info"
+msgid "OCR is not available."
+msgstr "Optinis ženklų atpažinimas yra neprieinamas."
+
+#: src/SpectacleCore.cpp:836
+msgctxt "@info"
+msgid "No screenshot available."
+msgstr "Neprieinama jokia ekrano kopija."
+
+#: src/SpectacleCore.cpp:840
+msgctxt "@info"
+msgid "Extracting text from image..."
+msgstr "Ištraukiamas tekstas iš paveikslo..."
+
+#: src/SpectacleCore.cpp:973
+msgctxt "@info:shell"
+msgid "Ignoring activation: a recording is already in progress"
+msgstr ""
+
+#: src/SpectacleCore.cpp:1181
+msgctxt "@info:shell"
+msgid ""
+"--scaled is only allowed together with -f/--fullscreen and will be ignored"
+msgstr ""
+"--scaled yra leidžiamas tik kartu su -f/--fullscreen ir jo bus nepaisoma"
+
+#: src/SpectacleCore.cpp:1196
+msgctxt "@info:shell"
+msgid "%1 is not a valid mode for --record"
+msgstr "%1 nėra tinkama --record veiksena"
+
+#: src/SpectacleCore.cpp:1462
+msgctxt "%1 is the filename, %2 the path to the save location"
+msgid ""
+"A screenshot was saved as '%1' to '%2' and the file path of the screenshot "
+"has been saved to your clipboard."
+msgstr ""
+"Ekrano kopijai buvo suteiktas pavadinimas „%1“ ir ji įrašyta į „%2“, o "
+"ekrano kopijos failo kelias įrašytas į iškarpinę."
+
+#: src/SpectacleCore.cpp:1466
+msgctxt "%1 is the filename"
+msgid "A screenshot was saved as '%1' to your Pictures folder."
+msgstr "Ekrano kopija buvo įrašyta į jūsų Paveikslų aplanką kaip „%1“."
+
+#: src/SpectacleCore.cpp:1469
+msgctxt "%1 is the filename, %2 the path to the save location"
+msgid "A screenshot was saved as '%1' to '%2'."
+msgstr "Ekrano kopija buvo įrašyta į „%2“ kaip „%1“."
+
+#: src/SpectacleCore.cpp:1472
+msgid "A screenshot was saved to your clipboard."
+msgstr "Ekrano kopija buvo įrašyta į jūsų iškarpinę."
+
+#: src/SpectacleCore.cpp:1477
+msgctxt "%1 is the filename, %2 the path to the save location"
+msgid ""
+"A recording was saved as '%1' to '%2' and the file path of the recording has "
+"been saved to your clipboard."
+msgstr ""
+"Ekrano įrašui buvo suteiktas pavadinimas „%1“ ir jis įrašytas į „%2“, o "
+"ekrano įrašo failo kelias įrašytas į iškarpinę."
+
+#: src/SpectacleCore.cpp:1481
+msgctxt "%1 is the filename"
+msgid "A recording was saved as '%1' to your Videos folder."
+msgstr "Ekrano įrašas buvo įrašytas į jūsų Vaizdo įrašų aplanką kaip „%1“."
+
+#: src/SpectacleCore.cpp:1484
+msgctxt "%1 is the filename, %2 the path to the save location"
+msgid "A recording was saved as '%1' to '%2'."
+msgstr "Ekrano įrašas buvo įrašytas į „%2“ kaip „%1“."
+
+#: src/SpectacleCore.cpp:1496
+msgctxt "Open the screenshot we just saved"
+msgid "Open"
+msgstr "Atverti"
+
+#: src/SpectacleCore.cpp:1508
+msgid "Annotate"
+msgstr "Kurti anotacijas"
+
+#: src/Gui/AcceptAction.qml:9
+msgctxt "@action accept selection"
+msgid "Accept"
+msgstr "Priimti"
+
+#: src/Gui/NewScreenshotToolButton.qml:15
+#: src/Gui/CaptureModeButtonsColumn.qml:32
+msgid "Cancel (%1 second)"
+msgid_plural "Cancel (%1 seconds)"
+msgstr[0] "Atsisakyti (%1 sekundė)"
+msgstr[1] "Atsisakyti (%1 sekundės)"
+msgstr[2] "Atsisakyti (%1 sekundžių)"
+msgstr[3] "Atsisakyti (%1 sekundė)"
+
+#: src/Gui/NewScreenshotToolButton.qml:27
+msgid "New Screenshot"
+msgstr "Nauja ekrano kopija"
+
+#: src/Gui/OptionsMenuButton.qml:10
+msgctxt "@action"
+msgid "Options"
+msgstr "Parinktys"
+
+#: src/Gui/CancelAction.qml:9
+msgctxt "@action cancel selection"
+msgid "Cancel"
+msgstr "Atsisakyti"
+
+#: src/Gui/CopyImageAction.qml:13
+msgctxt "@action"
+msgid "Copy"
+msgstr "Kopijuoti"
+
+#: src/Gui/RecordAction.qml:11
+msgctxt "@action start recording"
+msgid "Record"
+msgstr "Filmuoti"
+
+#: src/Gui/RecordOptions.qml:23
+msgid "Recording Settings"
+msgstr "Filmavimo nuostatos"
+
+#: src/Gui/RecordOptions.qml:37
+msgid "Finish recording"
+msgstr "Baigti filmavimą"
+
+#: src/Gui/CopyLocationAction.qml:9
+msgctxt "@action"
+msgid "Copy Location"
+msgstr "Kopijuoti vietą"
+
+#: src/Gui/EditAction.qml:11
+msgctxt "@action edit screenshot"
+msgid "Edit…"
+msgstr "Taisyti…"
+
+#: src/Gui/CaptureOptions.qml:17
+msgid "Take a new screenshot"
+msgstr "Padaryti naują ekrano kopiją"
+
+#: src/Gui/CaptureOptions.qml:39
+msgctxt "@title:group"
+msgid "Screenshot Settings"
+msgstr "Ekrano kopijos nuostatos"
+
+#: src/Gui/ExportMenu.cpp:44
+msgctxt "@title:menu"
+msgid "Export"
+msgstr "Eksportuoti"
+
+#: src/Gui/ExportMenu.cpp:47
+msgid "Open Default Screenshots Folder"
+msgstr "Atverti numatytąjį ekrano kopijų aplanką"
+
+#: src/Gui/ExportMenu.cpp:133
+msgctxt "@action:button open screenshot in other application"
+msgid "Other Application…"
+msgstr "Kita programa…"
+
+#: src/Gui/ExportMenu.cpp:165
+msgid "Share"
+msgstr "Bendrinti"
+
+#: src/Gui/ExportMenu.cpp:258
+msgctxt "@action:menu"
+msgid "Extract Text by Language"
+msgstr "Ištraukti tekstą pagal kalbą"
+
+#: src/Gui/ExportMenu.cpp:294
+msgid "OCR engine is not available."
+msgstr "Optinio ženklų atpažinimo modulis yra neprieinamas."
+
+#: src/Gui/ExportMenu.cpp:302
+msgid "OCR is not available. Please install Tesseract OCR."
+msgstr ""
+"Optinis ženklų atpažinimas yra neprieinamas. Įsidiekite Tesseract optinį "
+"ženklų atpažinimą."
+
+#: src/Gui/ExportMenu.cpp:303
+msgid "OCR engine is initializing…"
+msgstr "Inicijuojamas optinio ženklų atpažinimo modulis…"
+
+#: src/Gui/ExportMenu.cpp:313
+msgid "No OCR language data available."
+msgstr "Nėra prieinama jokia optinio ženklų atpažinimo duomenų kalba."
+
+#: src/Gui/HelpMenuButton.qml:10
+msgctxt "@action"
+msgid "Help"
+msgstr "Pagalba"
+
+#: src/Gui/CaptureOverlay.qml:149
+msgctxt "@info basic crop tool explanation"
+msgid "Click and drag to make a selection."
+msgstr "Spustelėkite ir tempkite norėdami žymėti sritį."
+
+#: src/Gui/HelpMenu.cpp:40
+msgctxt "@title:menu"
+msgid "Help"
+msgstr "Pagalba"
+
+#: src/Gui/ShortcutsTextBox.qml:13
+msgid "Take Screenshot:"
+msgstr "Padaryti ekrano kopiją:"
+
+#: src/Gui/ShortcutsTextBox.qml:15
+msgid "Create new selection rectangle:"
+msgstr "Sukurti naują žymėjimo stačiakampį:"
+
+#: src/Gui/ShortcutsTextBox.qml:20
+msgid "Move selection rectangle:"
+msgstr "Perkelti žymėjimo stačiakampį:"
+
+#: src/Gui/ShortcutsTextBox.qml:23
+msgid "Resize selection rectangle:"
+msgstr "Keisti žymėjimo stačiakampio dydį:"
+
+#: src/Gui/ShortcutsTextBox.qml:26
+msgid "Reset selection:"
+msgstr "Atstatyti žymėjimą:"
+
+#: src/Gui/ShortcutsTextBox.qml:28
+msgid "Cancel:"
+msgstr "Atsisakyti:"
+
+#: src/Gui/ShortcutsTextBox.qml:33
+msgctxt "Mouse action"
+msgid "Release left-click"
+msgstr "Kairiojo mygtuko atleidimas"
+
+#: src/Gui/ShortcutsTextBox.qml:33
+msgctxt "Mouse action"
+msgid "Double-click"
+msgstr "Dvikartis spustelėjimas"
+
+#: src/Gui/ShortcutsTextBox.qml:34
+msgctxt "Keyboard action"
+msgid "Enter"
+msgstr "Įvedimo (Enter) klavišas"
+
+#: src/Gui/ShortcutsTextBox.qml:35
+msgctxt "Mouse action"
+msgid "Drag outside selection rectangle"
+msgstr "Tempimas už žymėjimo stačiakampio ribų"
+
+#: src/Gui/ShortcutsTextBox.qml:37
+msgctxt "Keyboard action"
+msgid "+ Shift: Magnifier"
+msgstr "+ Lyg2: Didintuvas"
+
+#: src/Gui/ShortcutsTextBox.qml:40
+msgctxt "Mouse action"
+msgid "Drag inside selection rectangle"
+msgstr "Tempimas žymėjimo stačiakampio viduje"
+
+#: src/Gui/ShortcutsTextBox.qml:41
+msgctxt "Keyboard action"
+msgid "Arrow keys"
+msgstr "Krypties klavišai"
+
+#: src/Gui/ShortcutsTextBox.qml:42
+msgctxt "Keyboard action"
+msgid "+ Shift: Move in 1 pixel steps"
+msgstr "+ Lyg2: Keisti dydį 1 pikselio žingsniais"
+
+#: src/Gui/ShortcutsTextBox.qml:43
+msgctxt "Mouse action"
+msgid "Drag handles"
+msgstr "Rankenėlių tempimas"
+
+#: src/Gui/ShortcutsTextBox.qml:44
+msgctxt "Keyboard action"
+msgid "Arrow keys + Alt"
+msgstr "Krypties klavišai + Alt"
+
+#: src/Gui/ShortcutsTextBox.qml:45
+msgctxt "Keyboard action"
+msgid "+ Shift: Resize in 1 pixel steps"
+msgstr "+ Lyg2: Keisti dydį 1 pikselio žingsniais"
+
+#: src/Gui/ShortcutsTextBox.qml:46
+msgctxt "Mouse action"
+msgid "Right-click"
+msgstr "Dešinysis spustelėjimas"
+
+#: src/Gui/ShortcutsTextBox.qml:48
+msgctxt "Keyboard action"
+msgid "Escape"
+msgstr "Grįžimo (Esc) klavišas"
+
+#: src/Gui/ScreenshotView.qml:196
+msgctxt "@info crop tool explanation"
+msgid ""
+"Click and drag to make a selection.\n"
+"Double click the selection to accept and crop.\n"
+"Right click to clear the selection."
+msgstr ""
+"Spustelėkite ir tempkite, kad sukurtumėte žymėjimą.\n"
+"Du kartus spustelėkite žymėjimą, kad patvirtintumėte ir apkirptumėte.\n"
+"Spustelėkite dešiniuoju pelės mygtuku norėdami panaikinti žymėjimą."
+
+#: src/Gui/OptionsMenu.cpp:38
+msgctxt "@title:menu"
+msgid "Screenshot Settings"
+msgstr "Ekrano kopijos nuostatos"
+
+#: src/Gui/OptionsMenu.cpp:40
+msgctxt "@option:check for screenshots"
+msgid "Include mouse pointer"
+msgstr "Įtraukti pelės rodyklę"
+
+#: src/Gui/OptionsMenu.cpp:43
+msgctxt "@info:tooltip"
+msgid "Show the mouse cursor in the screenshot image"
+msgstr "Rodyti ekrano kopijos paveiksle pelės žymeklį"
+
+#: src/Gui/OptionsMenu.cpp:44
+#, fuzzy
+msgctxt "@info:tooltip"
+msgid "niri does not composite the cursor into screenshots"
+msgstr "Rodyti ekrano kopijos paveiksle pelės žymeklį"
+
+#: src/Gui/OptionsMenu.cpp:52
+msgctxt "@option:check"
+msgid "Include window titlebar and borders"
+msgstr "Įtraukti lango antraštę ir rėmelį"
+
+#: src/Gui/OptionsMenu.cpp:53
+msgctxt "@info:tooltip"
+msgid ""
+"Show the window title bar, the minimize/maximize/close buttons, and the "
+"window border"
+msgstr ""
+"Rodyti lango antraštės juostą su suskleidimo/išskleidimo/užvėrimo mygtukais "
+"bei lango rėmeliu"
+
+#: src/Gui/OptionsMenu.cpp:61
+msgctxt "@option:check"
+msgid "Include window shadow"
+msgstr "Įtraukti lango šešėlį"
+
+#: src/Gui/OptionsMenu.cpp:62
+msgctxt "@info:tooltip"
+msgid "Show the window shadow"
+msgstr "Rodyti lango šešėlį"
+
+#: src/Gui/OptionsMenu.cpp:70
+msgctxt "@option:check"
+msgid "Quit after manual Save or Copy"
+msgstr "Užverti po to, kai buvo rankiniu būdu įrašyta ar nukopijuota"
+
+#: src/Gui/OptionsMenu.cpp:71
+msgctxt "@info:tooltip"
+msgid "Quit Spectacle after manually saving or copying the image"
+msgstr ""
+"Išeiti iš Spectacle po to, kai paveikslas buvo rankiniu būdu įrašytas ar "
+"nukopijuotas"
+
+#: src/Gui/OptionsMenu.cpp:83
+msgctxt "@option:check"
+msgid "Capture On Click"
+msgstr "Fotografuoti spustelėjus"
+
+#: src/Gui/OptionsMenu.cpp:98
+msgctxt "@label:spinbox"
+msgid "Delay:"
+msgstr "Delsa:"
+
+#: src/Gui/OptionsMenu.cpp:103
+msgctxt "@item 0 delay special value"
+msgid "No Delay"
+msgstr "Jokios delsos"
+
+#: src/Gui/OptionsMenu.cpp:122
+msgctxt "@title:menu"
+msgid "Recording Settings"
+msgstr "Filmavimo nuostatos"
+
+#: src/Gui/OptionsMenu.cpp:124
+msgctxt "@option:check for recordings"
+msgid "Include mouse pointer"
+msgstr "Įtraukti pelės rodyklę"
+
+#: src/Gui/OptionsMenu.cpp:125
+msgctxt "@info:tooltip"
+msgid "Show the mouse cursor in the recording"
+msgstr "Rodyti ekrano įraše pelės žymeklį"
+
+#: src/Gui/OptionsMenu.cpp:133
+msgctxt "@option:check for recordings"
+msgid "Record system audio"
+msgstr "Įrašinėti sistemos garsą"
+
+#: src/Gui/OptionsMenu.cpp:134
+msgctxt "@info:tooltip"
+msgid ""
+"Include the audio that is currently playing on the system in the recording"
+msgstr "Įtraukti į ekrano įrašą garsą, kuris šiuo metu atkuriamas sistemoje"
+
+#: src/Gui/OptionsMenu.cpp:142
+msgctxt "@option:check for recordings"
+msgid "Record microphone"
+msgstr "Įrašinėti mikrofoną"
+
+#: src/Gui/OptionsMenu.cpp:143
+msgctxt "@info:tooltip"
+msgid "Include audio from the default microphone in the recording"
+msgstr "Įtraukti į ekrano įrašą garsą iš numatytojo mikrofono"
+
+#: src/Gui/RecordingModeMenu.cpp:17
+msgctxt "@title:menu"
+msgid "Recording Modes"
+msgstr "Filmavimo veiksenos"
+
+#: src/Gui/RecordingSettingsColumn.qml:22
+msgctxt "@option:check"
+msgid "Include mouse pointer"
+msgstr "Įtraukti pelės rodyklę"
+
+#: src/Gui/RecordingSettingsColumn.qml:23
+msgctxt "@info:tooltip"
+msgid "Show the mouse cursor in the screen recording."
+msgstr "Rodyti ekrano įraše pelės žymeklį."
+
+#: src/Gui/RecordingSettingsColumn.qml:32
+msgctxt "@option:check"
+msgid "Record system audio"
+msgstr "Įrašinėti sistemos garsą"
+
+#: src/Gui/RecordingSettingsColumn.qml:33
+msgctxt "@info:tooltip"
+msgid ""
+"Include the audio that is currently playing on the system in the recording."
+msgstr "Įtraukti į ekrano įrašą garsą, kuris šiuo metu atkuriamas sistemoje."
+
+#: src/Gui/RecordingSettingsColumn.qml:45
+msgctxt "@option:check"
+msgid "Record microphone"
+msgstr "Įrašinėti mikrofoną"
+
+#: src/Gui/RecordingSettingsColumn.qml:46
+msgctxt "@info:tooltip"
+msgid "Include audio from the default microphone in the recording."
+msgstr "Įtraukti į ekrano įrašą garsą iš numatytojo mikrofono."
+
+#: src/Gui/RecordingSettingsColumn.qml:57
+msgctxt "@info"
+msgid "The selected video format does not support audio."
+msgstr "Pasirinktas vaizdo įrašo formatas nepalaiko garso."
+
+#: src/Gui/RecordingView.qml:90
+msgctxt "Recording in progress, %1 is the length of the recording so far"
+msgid ""
+"Recording:\n"
+"%1"
+msgstr ""
+"Filmuojama:\n"
+"%1"
+
+#: src/Gui/RecordingView.qml:129
+msgid "Pause"
+msgstr "Pristabdyti"
+
+#: src/Gui/RecordingView.qml:129
+msgid "Play"
+msgstr "Atkurti"
+
+#: src/Gui/SaveAction.qml:13
+msgctxt "@action"
+msgid "Save"
+msgstr "Įrašyti"
+
+#: src/Gui/ScreenshotModeMenu.cpp:17
+msgctxt "@title:menu"
+msgid "Screenshot Modes"
+msgstr "Ekrano kopijos veiksenos"
+
+#: src/Gui/FontPopup.qml:54
+#, fuzzy
+msgid "Font"
+msgstr "Šriftas:"
+
+#: src/Gui/FontPopup.qml:69
+msgid "Size"
+msgstr ""
+
+#: src/Gui/FontPopup.qml:82
+msgid "Bold"
+msgstr ""
+
+#: src/Gui/FontPopup.qml:86
+msgid "Italic"
+msgstr ""
+
+#: src/Gui/FontPopup.qml:94 src/Gui/ColorPopup.qml:292
+#, fuzzy
+msgid "Cancel"
+msgstr "Atsisakyti"
+
+#: src/Gui/FontPopup.qml:99 src/Gui/ColorPopup.qml:297
+msgid "Apply"
+msgstr ""
+
+#: src/Gui/SaveAsAction.qml:9
+msgctxt "@action"
+msgid "Save As…"
+msgstr "Įrašyti kaip…"
+
+#: src/Gui/ScreenshotModeMenuButton.qml:11
+msgctxt "@action select new screenshot mode"
+msgid "New Screenshot"
+msgstr "Nauja ekrano kopija"
+
+#: src/Gui/UndoRedoGroup.qml:31
+msgid "Undo"
+msgstr "Atšaukti"
+
+#: src/Gui/UndoRedoGroup.qml:42
+msgid "Redo"
+msgstr "Grąžinti"
+
+#: src/Gui/DialogPage.qml:53
+#, fuzzy
+msgid "Configure NekoShot…"
+msgstr "Konfigūruoti Spectacle…"
+
+#: src/Gui/DialogPage.qml:61
+msgid "Help"
+msgstr "Pagalba"
+
+#: src/Gui/DialogPage.qml:80
+msgctxt "@title:group"
+msgid "Take a Screenshot:"
+msgstr "Padaryti ekrano kopiją:"
+
+#: src/Gui/DialogPage.qml:95 src/Gui/DialogPage.qml:136
+msgctxt "@title:group"
+msgid "Options"
+msgstr "Parinktys"
+
+#: src/Gui/DialogPage.qml:121
+msgctxt "@title:group"
+msgid "Make a Recording:"
+msgstr "Filmuoti:"
+
+#: src/Gui/DialogPage.qml:162
+msgctxt "@title:tab"
+msgid "Screenshot"
+msgstr "Ekrano kopija"
+
+#: src/Gui/DialogPage.qml:168
+msgctxt "@title:tab"
+msgid "Recording"
+msgstr "Filmavimas"
+
+#: src/Gui/DialogPage.qml:171 src/Gui/RecordingModeMenuButton.qml:18
+msgctxt "@info:tooltip"
+msgid "This feature is not supported on the current platform"
+msgstr "Ši ypatybė nepalaikoma dabartinėje platformoje"
+
+#: src/Gui/SmartSpinBox.cpp:30
+msgctxt "Integer number of seconds"
+msgid " second"
+msgid_plural " seconds"
+msgstr[0] " sekundė"
+msgstr[1] " sekundės"
+msgstr[2] " sekundžių"
+msgstr[3] " sekundė"
+
+#: src/Gui/SmartSpinBox.cpp:32
+msgctxt "Decimal number of seconds"
+msgid " seconds"
+msgstr " sek."
+
+#: src/Gui/ExportMenuButton.qml:13
+msgctxt "@action"
+msgid "Export"
+msgstr "Eksportuoti"
+
+#: src/Gui/ViewerWindow.cpp:53
+msgctxt "@info, %1 is the error message"
+msgid "There was a problem sharing the image: %1"
+msgstr "Bendrinant paveikslą, atsirado problemų: %1"
+
+#: src/Gui/CaptureSettingsColumn.qml:17
+msgid "Include mouse pointer"
+msgstr "Įtraukti pelės rodyklę"
+
+#: src/Gui/CaptureSettingsColumn.qml:20
+msgid "Show the mouse cursor in the screenshot image."
+msgstr "Rodyti ekrano kopijos paveiksle pelės žymeklį."
+
+#: src/Gui/CaptureSettingsColumn.qml:21
+#, fuzzy
+msgid "niri does not composite the cursor into screenshots."
+msgstr "Rodyti ekrano kopijos paveiksle pelės žymeklį."
+
+#: src/Gui/CaptureSettingsColumn.qml:30
+msgid "Include window titlebar and borders"
+msgstr "Įtraukti lango antraštę ir rėmelį"
+
+#: src/Gui/CaptureSettingsColumn.qml:31
+msgid ""
+"Show the window title bar and border when taking a screenshot of a window."
+msgstr "Darant lango ekrano kopiją, rodyti lango antraštės juostą ir rėmelį."
+
+#: src/Gui/CaptureSettingsColumn.qml:40
+msgid "Include window shadow"
+msgstr "Įtraukti lango šešėlį"
+
+#: src/Gui/CaptureSettingsColumn.qml:41
+msgid "Show the window shadow when taking a screenshot of a window."
+msgstr "Darant lango ekrano kopiją, rodyti lango šešėlį."
+
+#: src/Gui/CaptureSettingsColumn.qml:51
+msgid "Quit after manual Save or Copy"
+msgstr "Rankiniu būdu įrašius ar nukopijavus, užverti"
+
+#: src/Gui/CaptureSettingsColumn.qml:52
+msgid "Quit Spectacle after manually saving or copying the image."
+msgstr "Rankiniu būdu įrašius ar nukopijavus paveikslą, išeiti iš Spectacle."
+
+#: src/Gui/CaptureSettingsColumn.qml:61
+msgid "Capture on click"
+msgstr "Fotografuoti spustelėjus"
+
+#: src/Gui/CaptureSettingsColumn.qml:63
+msgid "Wait for a mouse click before capturing the screenshot image."
+msgstr "Prieš fotografuojant ekrano kopiją, laukti pelės mygtuko spustelėjimo."
+
+#: src/Gui/CaptureSettingsColumn.qml:74
+msgid "Delay:"
+msgstr "Delsa:"
+
+#: src/Gui/DelaySpinBox.qml:15
+msgctxt "0 second delay"
+msgid "No Delay"
+msgstr "Jokios delsos"
+
+#: src/Gui/DelaySpinBox.qml:24
+msgctxt "Integer number of seconds"
+msgid "%2 second"
+msgid_plural "%2 seconds"
+msgstr[0] "%2 sekundė"
+msgstr[1] "%2 sekundės"
+msgstr[2] "%2 sekundžių"
+msgstr[3] "%2 sekundė"
+
+#: src/Gui/DelaySpinBox.qml:26
+msgctxt "Decimal number of seconds"
+msgid "%1 seconds"
+msgstr "%1 sek."
+
+#: src/Gui/OcrAction.qml:15
+msgctxt "@action"
+msgid "Extract Text"
+msgstr "Ištraukti tekstą"
+
+#: src/Gui/RecordingModeMenuButton.qml:12
+msgctxt "@action select new recording mode"
+msgid "New Recording"
+msgstr "Naujas ekrano įrašas"
+
+#: src/Gui/SizeLabel.qml:13
+msgctxt "Size, width×height"
+msgid "%1×%2"
+msgstr "%1×%2"
+
+#: src/Gui/ViewerPage.qml:228
+msgid "Zoom:"
+msgstr "Mastelis:"
+
+#: src/Gui/ViewerPage.qml:242
+msgid "Image Zoom"
+msgstr "Paveikslo mastelis"
+
+#: src/Gui/SpectacleWindow.cpp:170
+msgctxt "@title:window"
+msgid "%1 second"
+msgid_plural "%1 seconds"
+msgstr[0] "%1 sekundė"
+msgstr[1] "%1 sekundės"
+msgstr[2] "%1 sekundžių"
+msgstr[3] "%1 sekundė"
+
+#: src/Gui/SpectacleWindow.cpp:173
+msgctxt "@title:window Unsaved Screenshot"
+msgid "Unsaved"
+msgstr "Neįrašyta"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:88
+msgid "Stroke:"
+msgstr "Brūkštelėjimas:"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:120
+#, c-format
+msgctxt "px: pixels"
+msgid "%1px"
+msgid_plural "%1px"
+msgstr[0] "%1piks."
+msgstr[1] "%1piks."
+msgstr[2] "%1piks."
+msgstr[3] "%1piks."
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:125
+msgid "Stroke Width"
+msgstr "Brūkštelėjimo plotis"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:158 src/Gui/ColorPopup.qml:44
+msgid "Stroke Color"
+msgstr "Brūkštelėjimo spalva"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:192
+msgid "Fill:"
+msgstr "Užpildas:"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:204 src/Gui/ColorPopup.qml:45
+msgid "Fill Color"
+msgstr "Užpildo spalva"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:241
+msgctxt "@label:slider strength of effect"
+msgid "Strength:"
+msgstr "Stiprumas:"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:260
+msgctxt "@info:tooltip"
+msgid "The strength of the effect."
+msgstr "Efekto stiprumas."
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:287
+msgid "Font:"
+msgstr "Šriftas:"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:301
+msgctxt "%2 font family, %3 font style name, %1 font point size"
+msgid "%2 %3 %1pt"
+msgid_plural "%2 %3 %1pts"
+msgstr[0] "%2 %3 %1tšk."
+msgstr[1] "%2 %3 %1tšk."
+msgstr[2] "%2 %3 %1tšk."
+msgstr[3] "%2 %3 %1tšk."
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:302
+msgctxt "%2 font family %1 font point size"
+msgid "%2 %1pt"
+msgid_plural "%2 %1pts"
+msgstr[0] "%2 %1tšk."
+msgstr[1] "%2 %1tšk."
+msgstr[2] "%2 %1tšk."
+msgstr[3] "%2 %1tšk."
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:314
+msgid "Font Color"
+msgstr "Šrifto spalva"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:351
+msgid "Number:"
+msgstr "Skaičius:"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:370
+msgid "Number for number annotations"
+msgstr "Skaičių anotacijų skaičius"
+
+#: src/Gui/AnnotationOptionsToolBarContents.qml:398
+msgid "Shadow"
+msgstr "Šešėlis"
+
+#: src/Gui/AnnotationsToolBarContents.qml:109
+msgctxt "@action:intoolbar no tool, to allow dragging"
+msgid "None"
+msgstr "Nėra"
+
+#: src/Gui/AnnotationsToolBarContents.qml:121
+msgctxt "@action:intoolbar crop image tool"
+msgid "Crop"
+msgstr "Apkirpti"
+
+#: src/Gui/AnnotationsToolBarContents.qml:128
+msgctxt "@action:intoolbar select annotation tool"
+msgid "Select"
+msgstr "Pasirinkti"
+
+#: src/Gui/AnnotationsToolBarContents.qml:137
+msgctxt "@action:intoolbar freehand line tool"
+msgid "Freehand"
+msgstr "Laisvas piešimas"
+
+#: src/Gui/AnnotationsToolBarContents.qml:138
+msgctxt "@info:tooltip"
+msgid "Shift: Snap to straight lines"
+msgstr "Lyg2: Pritraukti, kad būtų tiesios linijos"
+
+#: src/Gui/AnnotationsToolBarContents.qml:145
+msgctxt "@action:intoolbar highlighter line tool"
+msgid "Highlighter"
+msgstr "Markeris"
+
+#: src/Gui/AnnotationsToolBarContents.qml:154
+msgctxt "@action:intoolbar straight line tool"
+msgid "Line"
+msgstr "Linija"
+
+#: src/Gui/AnnotationsToolBarContents.qml:155
+msgctxt "@info:tooltip"
+msgid "Shift: Snap to 45 degree increments"
+msgstr "Lyg2: Pritraukti, kad būtų 45 laipsnių padidėjimai"
+
+#: src/Gui/AnnotationsToolBarContents.qml:162
+msgctxt "@action:intoolbar arrow line tool"
+msgid "Arrow"
+msgstr "Rodyklė"
+
+#: src/Gui/AnnotationsToolBarContents.qml:171
+msgctxt "@action:intoolbar rectangle tool"
+msgid "Rectangle"
+msgstr "Stačiakampis"
+
+#: src/Gui/AnnotationsToolBarContents.qml:173
+msgctxt "@info:tooltip"
+msgid ""
+"Shift: Snap to diagonal movements\n"
+"Control: Resize from center"
+msgstr ""
+"Lyg2: Pritraukti, kad būtų diagonalūs judesiai\n"
+"Vald: Keisti dydį iš vidaus"
+
+#: src/Gui/AnnotationsToolBarContents.qml:180
+msgctxt "@action:intoolbar ellipse tool"
+msgid "Ellipse"
+msgstr "Elipsė"
+
+#: src/Gui/AnnotationsToolBarContents.qml:188
+msgctxt "@action:intoolbar pixelate tool"
+msgid "Pixelate"
+msgstr "Iškloti pikseliais"
+
+#: src/Gui/AnnotationsToolBarContents.qml:196
+msgctxt "@action:intoolbar blur tool"
+msgid "Blur"
+msgstr "Sulieti"
+
+#: src/Gui/AnnotationsToolBarContents.qml:204
+msgctxt "@action:intoolbar text tool"
+msgid "Text"
+msgstr "Tekstas"
+
+#: src/Gui/AnnotationsToolBarContents.qml:211
+msgctxt "@action:intoolbar number stamp tool"
+msgid "Number"
+msgstr "Skaičius"
+
+#: src/Gui/InlineMessageList.qml:129
+msgctxt "@action:button"
+msgid "Open Containing Folder"
+msgstr "Atverti vidinį aplanką"
+
+#: src/Gui/InlineMessageList.qml:139
+msgctxt "@action:button"
+msgid "Copy to Clipboard"
+msgstr "Kopijuoti į iškarpinę"
+
+#: src/Gui/InlineMessageList.qml:149
+msgctxt "@action:button close inline notification"
+msgid "Close"
+msgstr "Užverti"
+
+#: src/Gui/ColorPopup.qml:46
+#, fuzzy
+msgid "Text Color"
+msgstr "Šrifto spalva"
+
+#: src/Gui/ColorPopup.qml:47
+#, fuzzy
+msgid "Color"
+msgstr "Užpildo spalva"
+
+#: src/Gui/ColorPopup.qml:241
+msgid "Alpha"
+msgstr ""
+
+#: src/Gui/ColorPopup.qml:264
+msgid "Hex"
+msgstr ""
+
+#: src/Platforms/VideoPlatformWayland.cpp:165
+msgctxt "@info"
+msgid "KWin Screencasting is not available."
+msgstr "KWin ekrano įrašymas yra neprieinamas."
+
+#: src/Platforms/VideoPlatformWayland.cpp:179
+msgctxt "@info:shell"
+msgid "Failed to record: File URL is not a local file"
+msgstr "Nepavyko filmuoti: Failo URL nėra vietinis failas"
+
+#: src/Platforms/VideoPlatformWayland.cpp:279
+msgctxt "@info"
+msgid ""
+"The stream closed because the target screen changed in a way that disrupted "
+"the recording."
+msgstr ""
+"Srautas užsivėrė, nes paskirties ekranas pasikeitė taip, kad sutrikdė "
+"filmavimą."
+
+#: src/Platforms/VideoPlatformWayland.cpp:283
+msgctxt "@info"
+msgid ""
+"The stream closed because the target window changed in a way that disrupted "
+"the recording."
+msgstr ""
+"Srautas užsivėrė, nes paskirties langas pasikeitė taip, kad sutrikdė "
+"filmavimą."
+
+#: src/Platforms/VideoPlatformWayland.cpp:287
+msgctxt "@info"
+msgid ""
+"The stream closed because a screen containing the target region changed in a "
+"way that disrupted the recording."
+msgstr ""
+"Srautas užsivėrė, nes ekranas, kuriame yra paskirties sritis, pasikeitė "
+"taip, kad sutrikdė filmavimą."
+
+#: src/Platforms/VideoPlatformWayland.cpp:303
+msgctxt "@info:shell, %1 is the temporary URL"
+msgid "Failed to record: Temporary file URL is not a local file (%1)"
+msgstr ""
+"Nepavyko filmuoti: Laikinojo failo URL adresas nėra vietinis failas (%1)"
+
+#: src/Platforms/VideoPlatformWayland.cpp:314
+msgctxt "@info:shell, %1 is the output file URL"
+msgid "Failed to record: Output file URL is not a local file (%1)"
+msgstr ""
+"Nepavyko filmuoti: Išvesties failo URL adresas nėra vietinis failas (%1)"
+
+#: src/Platforms/VideoPlatformWayland.cpp:381
+msgctxt "@info:shell, %1 is a directory path"
+msgid "Failed to record: Unable to create folder (%1)"
+msgstr "Nepavyko filmuoti: Nepavyko sukurti aplanko (%1)"
+
+#: src/Platforms/VideoPlatformWayland.cpp:409
+msgctxt "@info:shell"
+msgid "Screen recording canceled"
+msgstr "Ekrano filmavimo atsisakyta"
+
+#: src/Platforms/VideoPlatformWayland.cpp:411
+msgctxt "@info:shell"
+msgid "Window recording canceled"
+msgstr "Lango filmavimo atsisakyta"
+
+#: src/Platforms/VideoPlatformWayland.cpp:417
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to select screen: %1"
+msgstr "Nepavyko pasirinkti ekrano: %1"
+
+#: src/Platforms/VideoPlatformWayland.cpp:419
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to select window: %1"
+msgstr "Nepavyko pasirinkti lango: %1"
+
+#: src/Platforms/VideoPlatformWayland.cpp:447
+msgctxt "@info:shell"
+msgid "Failed to select screen: No screen contained the mouse cursor position"
+msgstr ""
+"Nepavyko pasirinkti ekrano: Jokiame ekrane nenurodyta nėra pelės žymeklio "
+"vieta"
+
+#: src/Platforms/VideoPlatformWayland.cpp:454
+msgctxt "@info:shell"
+msgid "Failed to select window: No window found"
+msgstr "Nepavyko pasirinkti lango: Nerasta jokių langų"
+
+#: src/Platforms/ImagePlatformKWin.cpp:73
+msgctxt "@info, %1 is the width"
+msgid "Bad width for KWin screenshot: %1"
+msgstr "Blogas KWin ekrano kopijos plotis: %1"
+
+#: src/Platforms/ImagePlatformKWin.cpp:78
+msgctxt "@info, %1 is the height"
+msgid "Bad height for KWin screenshot: %1"
+msgstr "Blogas KWin ekrano kopijos aukštis: %1"
+
+#: src/Platforms/ImagePlatformKWin.cpp:89
+msgctxt "@info, %1 is a file format like 'png', 'jpg'"
+msgid "Bad format for KWin screenshot: %1"
+msgstr "Blogas KWin ekrano kopijos formatas: %1"
+
+#: src/Platforms/ImagePlatformKWin.cpp:107
+msgctxt "@info"
+msgid "Could not open file descriptor for reading KWin screenshot."
+msgstr ""
+"Nepavyko atverti failo deskriptoriaus, skirto KWin ekrano kopijos skaitymui."
+
+#: src/Platforms/ImagePlatformKWin.cpp:177
+msgctxt "@info, %1 is an error code"
+msgid "pipe2() failed for KWin screenshot: %1"
+msgstr "KWin ekrano kopijos pipe2() patyrė nesėkmę: %1"
+
+#: src/Platforms/ImagePlatformKWin.cpp:233
+msgctxt "@info, %1 is an error message"
+msgid ""
+"KWin screenshot request failed:\n"
+"%1"
+msgstr ""
+"KWin ekrano kopijos užklausa patyrė nesėkmę:\n"
+"%1"
+
+#: src/Platforms/ImagePlatformKWin.cpp:235
+msgctxt "@info"
+msgid ""
+"Potentially relevant information:\n"
+"%1"
+msgstr ""
+"Galimai susijusi informacija:\n"
+"%1"
+
+#: src/Platforms/ImagePlatformKWin.cpp:243
+msgctxt "@info"
+msgid "Unsupported KWin screenshot type metadata: %1"
+msgstr "Nepalaikomi KWin ekrano kopijos tipo metaduomenys: %1"
+
+#: src/Platforms/ImagePlatformNiri.cpp:115
+#, fuzzy
+msgid "Failed to capture the window"
+msgstr "Nepavyko pasirinkti lango: %1"
+
+#: src/Platforms/ImagePlatformNiri.cpp:159
+#, fuzzy
+msgid "Unsupported capture mode"
+msgstr "Naudoti paskutinę naudotą fotografavimo veikseną"
+
+#: src/Platforms/ImagePlatformNiri.cpp:190
+msgid "No focused window"
+msgstr ""
+
+#: src/Platforms/ImagePlatformNiri.cpp:209
+msgid "No outputs found"
+msgstr ""
+
+#: src/Platforms/ImagePlatformNiri.cpp:215
+msgid "No focused output found"
+msgstr ""
+
+#: src/Platforms/ImagePlatformNiri.cpp:229
+#, fuzzy
+msgid "Failed to capture the screen"
+msgstr "Nepavyko pasirinkti ekrano: %1"
+
+#: src/Platforms/PlatformLoader.cpp:120
+msgid "wf-recorder is not installed"
+msgstr ""
+
+#: src/Platforms/PlatformLoader.cpp:127
+msgctxt "@info"
+msgid "Screen recording is not available on X11."
+msgstr "Ekrano filmavimas neprieinamas naudojant X11."
+
+#: src/Platforms/VideoPlatformNiri.cpp:197
+msgid "gst-launch-1.0 is not installed"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:200
+msgid "gst-inspect-1.0 is not installed"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:218
+msgid "missing GStreamer elements: %1"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:287
+msgid "missing GStreamer elements: mp4mux"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:291
+msgid "missing GStreamer elements: vah264enc+h264parse or x264enc"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:297
+msgid "H.265/HEVC requires vah265enc, h265parse and mp4mux"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:302
+msgid "AV1 requires vaav1enc, av1parse and mp4mux"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:306
+#, fuzzy
+msgid "the video format is not supported"
+msgstr "Pasirinktas vaizdo įrašo formatas nepalaiko garso."
+
+#: src/Platforms/VideoPlatformNiri.cpp:356
+msgid "missing GStreamer audio elements: %1"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:432
+#, fuzzy
+msgid "the D-Bus session bus is not available"
+msgstr "Optinio ženklų atpažinimo modulis yra neprieinamas."
+
+#: src/Platforms/VideoPlatformNiri.cpp:500
+#: src/Platforms/VideoPlatformNiri.cpp:1241
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to record: could not start the window picker: %1"
+msgstr "Nepavyko filmuoti: Nepavyko sukurti aplanko (%1)"
+
+#: src/Platforms/VideoPlatformNiri.cpp:518
+msgctxt "@info:shell, %1 is a process exit code"
+msgid "gst-launch-1.0 exited with code %1."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:520
+msgctxt "@info:shell, %1 is a process exit code"
+msgid "wf-recorder exited with code %1."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:917
+msgctxt "@info:shell"
+msgid "Recording canceled: no recording mode"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:921
+msgctxt "@info:shell"
+msgid "Failed to record: unsupported recording mode."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:925
+#: src/Platforms/VideoPlatformNiri.cpp:929
+#: src/Platforms/VideoPlatformNiri.cpp:1322
+#, fuzzy
+msgid "A recording is already starting"
+msgstr "Filmavimo nuostatos"
+
+#: src/Platforms/VideoPlatformNiri.cpp:936
+#: src/Platforms/VideoPlatformNiri.cpp:1083
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to record: window recording is unavailable: %1."
+msgstr "Ekrano filmavimas neprieinamas naudojant X11."
+
+#: src/Platforms/VideoPlatformNiri.cpp:946
+#, fuzzy
+msgctxt "@info:shell"
+msgid "Failed to record: the output file URL is not a local file."
+msgstr ""
+"Nepavyko filmuoti: Išvesties failo URL adresas nėra vietinis failas (%1)"
+
+#: src/Platforms/VideoPlatformNiri.cpp:962
+#, fuzzy
+msgctxt "@info:shell, %1 is a file path"
+msgid "Failed to record: the video format of %1 is not supported."
+msgstr "Pasirinktas vaizdo įrašo formatas nepalaiko garso."
+
+#: src/Platforms/VideoPlatformNiri.cpp:964
+#, fuzzy
+msgctxt "@info:shell"
+msgid "Failed to record: the selected video format is not supported."
+msgstr "Pasirinktas vaizdo įrašo formatas nepalaiko garso."
+
+#: src/Platforms/VideoPlatformNiri.cpp:971
+#, fuzzy
+msgid "Recording format changed"
+msgstr "Filmavimo nuostatos"
+
+#: src/Platforms/VideoPlatformNiri.cpp:973
+#, fuzzy
+msgid "WebM/VP9"
+msgstr "WebM/VP9"
+
+#: src/Platforms/VideoPlatformNiri.cpp:974
+#, fuzzy
+msgid "MP4/H.265"
+msgstr "MP4/H.264"
+
+#: src/Platforms/VideoPlatformNiri.cpp:975
+msgid "MP4/AV1"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:976
+#, fuzzy
+msgid "MP4/H.264"
+msgstr "MP4/H.264"
+
+#: src/Platforms/VideoPlatformNiri.cpp:972
+msgid ""
+"The selected format is not available for window recording; using %1 instead."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:992
+#, fuzzy
+msgctxt "@info:shell"
+msgid "Failed to record: unable to create a temporary output file."
+msgstr "Nepavyko filmuoti: Nepavyko sukurti aplanko (%1)"
+
+#: src/Platforms/VideoPlatformNiri.cpp:998
+#, fuzzy
+msgctxt "@info:shell, %1 is a directory path"
+msgid "Failed to record: unable to create folder (%1)."
+msgstr "Nepavyko filmuoti: Nepavyko sukurti aplanko (%1)"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1057
+#: src/Platforms/VideoPlatformNiri.cpp:1101
+#, fuzzy
+msgctxt "@info:shell"
+msgid "Failed to record: niri did not report a focused output."
+msgstr "Nepavyko filmuoti: Failo URL nėra vietinis failas"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1059
+#: src/Platforms/VideoPlatformNiri.cpp:1103
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to record: %1"
+msgstr "Nepavyko pasirinkti ekrano: %1"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1066
+#: src/Platforms/VideoPlatformNiri.cpp:1361
+#, fuzzy
+msgid "Failed to record: the screen connector is empty."
+msgstr "Nepavyko filmuoti: Nepavyko sukurti aplanko (%1)"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1113
+msgctxt "@info:shell"
+msgid "Failed to record: the recording region is empty."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1136
+msgid ""
+"Failed to record: wf-recorder does not support the selected video format."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1141
+msgid ""
+"Failed to record: HEVC region recording requires the libx265 encoder in wf-"
+"recorder."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1145
+msgid ""
+"Failed to record: AV1 region recording requires the libaom-av1 encoder in wf-"
+"recorder."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1149
+msgid ""
+"Failed to record: H.264 region recording requires the libx264 encoder in wf-"
+"recorder."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1153
+msgid ""
+"Failed to record: VP9 region recording requires the libvpx-vp9 encoder in wf-"
+"recorder."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1162
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to start wf-recorder: %1"
+msgstr "Nepavyko pasirinkti ekrano: %1"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1183
+#: src/Platforms/VideoPlatformNiri.cpp:1284
+msgid "Recording canceled: no window selected."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1191
+msgid "Recording canceled: the screencast stream did not start."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1247
+msgid "Recording canceled: no window was selected."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1271
+msgctxt "@info:shell, %1 is a process exit code"
+msgid "The window picker exited with code %1."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1327
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to record: screencast recording is unavailable: %1."
+msgstr "Ekrano filmavimas neprieinamas naudojant X11."
+
+#: src/Platforms/VideoPlatformNiri.cpp:1331
+msgid ""
+"Failed to record: this video format is not supported for screencast "
+"recording."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1336
+#: src/Platforms/VideoPlatformNiri.cpp:1341
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to record: %1."
+msgstr "Nepavyko pasirinkti ekrano: %1"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1353
+msgid "No window selected to record"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1367
+msgid ""
+"Failed to record: screencast recording only supports screen, window and "
+"region modes."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1384
+#: src/Platforms/VideoPlatformNiri.cpp:1396
+#: src/Platforms/VideoPlatformNiri.cpp:1420
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to start screencast recording: %1"
+msgstr "Nepavyko pasirinkti ekrano: %1"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1390
+msgid ""
+"Failed to start screencast recording: niri returned an empty screencast "
+"session."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1401
+msgid ""
+"Failed to start screencast recording: niri returned an empty screencast "
+"stream."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1410
+msgid ""
+"Failed to start screencast recording: could not subscribe to the screencast "
+"stream signal."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1414
+msgid ""
+"Failed to start screencast recording: could not subscribe to the screencast "
+"session signal."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1425
+msgid ""
+"Failed to start screencast recording: the niri screencast session was closed."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1440
+msgid "Timed out waiting for the PipeWire stream"
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1474
+#: src/Platforms/VideoPlatformNiri.cpp:1500
+msgid ""
+"Failed to start screencast recording: the stream format is not supported."
+msgstr ""
+
+#: src/Platforms/VideoPlatformNiri.cpp:1479
+#: src/Platforms/VideoPlatformNiri.cpp:1485
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to start screencast recording: %1."
+msgstr "Nepavyko pasirinkti ekrano: %1"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1517
+#, fuzzy
+msgctxt "@info:shell, %1 is an error message"
+msgid "Failed to start gst-launch-1.0: %1"
+msgstr "Nepavyko pasirinkti ekrano: %1"
+
+#: src/Platforms/VideoPlatformNiri.cpp:1592
+msgid "Failed to record: the niri screencast session was closed."
+msgstr ""
+
+#: src/Gui/SettingsDialog/SaveOptionsUtils.h:40
+msgctxt "@info"
+msgid "<filename>%1</filename>"
+msgstr "<filename>%1</filename>"
+
+#: src/Gui/SettingsDialog/SaveOptionsUtils.h:72
+msgid ""
+"You can use the following placeholders in the filename, which will be "
+"replaced with actual text when the file is saved:"
+msgstr ""
+"Galite failo pavadinime naudoti šiuos pakaitos simbolius, kurie, įrašant "
+"failą, bus pakeisti faktiniu tekstu:"
+
+#: src/Gui/SettingsDialog/SaveOptionsUtils.h:87
+msgid "To save to a sub-folder"
+msgstr "Norėdami įrašyti į poaplankį"
+
+#: src/Gui/SettingsDialog/SaveOptionsUtils.h:90
+msgctxt "show fewer filename placeholder templates"
+msgid "Show Fewer"
+msgstr "Rodyti mažiau"
+
+#: src/Gui/SettingsDialog/SaveOptionsUtils.h:92
+msgctxt "show more filename placeholder templates"
+msgid "Show More"
+msgstr "Rodyti daugiau"
+
+#: src/Gui/SettingsDialog/VideoSaveOptionsPage.cpp:35
+msgid "Quality:"
+msgstr ""
+
+#: src/Gui/SettingsDialog/VideoSaveOptionsPage.cpp:37
+msgid "Low (smaller files)"
+msgstr ""
+
+#: src/Gui/SettingsDialog/VideoSaveOptionsPage.cpp:38
+msgid "Medium"
+msgstr ""
+
+#: src/Gui/SettingsDialog/VideoSaveOptionsPage.cpp:39
+msgid "High (larger files)"
+msgstr ""
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:37
+msgctxt "Settings category"
+msgid "General"
+msgstr "Bendra"
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:38
+msgctxt "Settings category"
+msgid "Image Saving"
+msgstr "Paveikslų įrašymas"
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:39
+msgctxt "Settings category"
+msgid "Video Saving"
+msgstr "Vaizdo įrašų įrašymas"
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:40
+msgctxt "Settings category"
+msgid "Shortcuts"
+msgstr "Spartieji klavišai"
+
+#: src/Gui/SettingsDialog/SettingsDialog.cpp:104
+msgid "Shortcuts"
+msgstr "Spartieji klavišai"
+
+#, kde-format
+#~ msgctxt "translatable folder name"
+#~ msgid "Screenshots"
+#~ msgstr "Ekrano kopijos"
+
+#, kde-format
+#~ msgctxt "part of default image filename template"
+#~ msgid "Screenshot"
+#~ msgstr "Ekrano kopija"
+
+#, kde-format
+#~ msgctxt "translatable folder name"
+#~ msgid "Screencasts"
+#~ msgstr "Ekrano įrašai"
+
+#, kde-format
+#~ msgctxt "part of default video filename template"
+#~ msgid "Screencast"
+#~ msgstr "Ekrano įrašas"
+
+#, kde-format
+#~ msgid "When launching Spectacle:"
+#~ msgstr "Paleidžiant Spectacle:"
+
+#, kde-format
+#~ msgid "Take rectangular screenshot"
+#~ msgstr "Padaryti stačiakampę ekrano kopiją"
+
+#, kde-format
+#~ msgid "Take full screen screenshot"
+#~ msgstr "Padaryti viso ekrano kopiją"
+
+#, kde-format
+#~ msgid "Do not take a screenshot automatically"
+#~ msgstr "Nedaryti ekrano kopijos automatiškai"
+
+#, kde-format
+#~ msgid "After taking a screenshot:"
+#~ msgstr "Padarius ekrano kopiją:"
+
+#, kde-format
+#~ msgid "Save file to default folder"
+#~ msgstr "Įrašyti failą į numatytąjį aplanką"
+
+#, kde-format
+#~ msgid "Do not copy anything"
+#~ msgstr "Nieko nekopijuoti"
+
+#, kde-format
+#~ msgid "Copy image to clipboard"
+#~ msgstr "Kopijuoti paveikslą į iškarpinę"
+
+#, kde-format
+#~ msgid "Copy file location to clipboard"
+#~ msgstr "Kopijuoti failo vietą į iškarpinę"
+
+#, kde-format
+#~ msgid "While Spectacle is running"
+#~ msgstr "Kol Spectacle yra paleista"
+
+#, kde-format
+#~ msgid "Press screenshot key to:"
+#~ msgstr "Paspauskite ekrano kopijos klavišą, norėdami:"
+
+#, kde-format
+#~ msgid "Take a new Screenshot"
+#~ msgstr "Padaryti naują ekrano kopiją"
+
+#, kde-format
+#~ msgid "Open a new Spectacle window"
+#~ msgstr "Atverti naują Spectacle langą"
+
+#, kde-format
+#~ msgid "Return focus to Spectacle"
+#~ msgstr "Grąžinti fokusavimą į Spectacle"
+
+#, kde-format
+#~ msgid "Rectangular Region Selection"
+#~ msgstr "Stačiakampės srities žymėjimas"
+
+#, kde-format
+#~ msgid "General:"
+#~ msgstr "Bendri:"
+
+#, kde-format
+#~ msgid "Use light background"
+#~ msgstr "Naudoti šviesų foną"
+
+#, kde-format
+#~ msgid "Accept on click-and-release"
+#~ msgstr "Priimti spustelėjus ir atleidus"
+
+#, kde-format
+#~ msgid "Show magnifier:"
+#~ msgstr "Rodyti didintuvą:"
+
+#, kde-format
+#~ msgid "Never"
+#~ msgstr "Niekada"
+
+#, kde-format
+#~ msgid "Always"
+#~ msgstr "Visada"
+
+#, kde-format
+#~ msgid "While holding Shift"
+#~ msgstr "Laikant nuspaustą Lyg2"
+
+#, kde-format
+#~ msgid "Remember selected area:"
+#~ msgstr "Įsiminti pažymėtą sritį:"
+
+#, kde-format
+#~ msgid "Until Spectacle is closed"
+#~ msgstr "Kol Spectacle bus užverta"
+
+#, kde-format
+#~ msgid "Text Recognition (OCR)"
+#~ msgstr "Teksto atpažinimas (Optinis ženklų atpažinimas)"
+
+#, kde-format
+#~ msgid "Languages for OCR:"
+#~ msgstr "Optinio ženklų atpažinimo kalbos:"
+
+#, kde-format
+#~ msgid "Text extraction:"
+#~ msgstr "Teksto ištraukimas:"
+
+#, kde-format
+#~ msgid "Close after extraction (skips auto-save)"
+#~ msgstr "Užverti po ištraukimo (praleidžia automatinį įrašymą)"
+
+#, kde-format
+#~ msgid ""
+#~ "Spectacle will close after text extraction and automatic saving will be "
+#~ "skipped."
+#~ msgstr ""
+#~ "Po teksto ištraukimo Spectacle bus užverta, o automatinis įrašymas bus "
+#~ "praleistas."
+
+#, kde-format
+#~ msgid "OCR functionality is not available"
+#~ msgstr "Optinio ženklų atpažinimo funkcionalumas yra neprieinamas"
+
+#, kde-format
+#~ msgid ""
+#~ "Please install the required packages:\n"
+#~ "• tesseract\n"
+#~ "• tesseract language data (e.g., tesseract-ocr-eng for English)"
+#~ msgstr ""
+#~ "Įsidiekite reikalingus paketus:\n"
+#~ "• tesseract\n"
+#~ "• tesseract kalbos duomenis (pvz., tesseract-ocr-lit skirtas lietuvių "
+#~ "kalbos palaikymui)"
+
+#, kde-format
+#~ msgid "Save Location:"
+#~ msgstr "Įrašymo vieta:"
+
+#, kde-format
+#~ msgid "Compression Quality:"
+#~ msgstr "Glaudinimo kokybė:"
+
+#, kde-format
+#~ msgid "For lossy image formats like JPEG"
+#~ msgstr "Nuostolingiesiems paveikslų formatams, tokiems kaip JPEG"
+
+#, no-c-format, kde-format
+#~ msgid "%"
+#~ msgstr "%"
+
+#, kde-format
+#~ msgid "Filename:"
+#~ msgstr "Pavadinimas:"
+
+#, kde-format
+#~ msgctxt "Preview of the user configured filename"
+#~ msgid "Preview:"
+#~ msgstr "Peržiūra:"
+
+#, kde-format
+#~ msgid "What to do when Spectacle is launched"
+#~ msgstr "Ką daryti, kai Spectacle yra paleista"
+
+#, kde-format
+#~ msgid ""
+#~ "What should happen if print key is pressed when Spectacle is already "
+#~ "running"
+#~ msgstr ""
+#~ "Kas turėtų nutikti, kai paspaudžiamas spausdinimo klavišas, o Spectacle "
+#~ "jau yra paleista"
+
+#, kde-format
+#~ msgid "Save screenshot automatically after it is taken"
+#~ msgstr "Padarius ekrano kopiją, automatiškai ją įrašyti"
+
+#, kde-format
+#~ msgid ""
+#~ "Clipboard action which should be executed after the screenshot is taken"
+#~ msgstr "Iškarpinės veiksmas, kurį reikėtų atlikti padarius ekrano kopiją"
+
+#, kde-format
+#~ msgid "Whether to use a light color mask in the region selection dialog"
+#~ msgstr "Ar srities žymėjimo dialoge naudoti šviesios spalvos kaukę"
+
+#, kde-format
+#~ msgid ""
+#~ "Whether the screenshot should be captured after selecting the region and "
+#~ "releasing the mouse"
+#~ msgstr ""
+#~ "Ar ekrano kopija turėtų būti padaroma pažymėjus sritį ir paleidus pelės "
+#~ "mygtuką"
+
+#, kde-format
+#~ msgid "Remember the last rectangular region"
+#~ msgstr "Įsiminti paskutinę stačiakampę sritį"
+
+#, kde-format
+#~ msgid "Default languages for OCR text recognition"
+#~ msgstr "Numatytosios optinio ženklų atpažinimo kalbos"
+
+#, kde-format
+#~ msgid "The last used region the user selected"
+#~ msgstr "Paskutinė naudotojo naudota pažymėta sritis"
+
+#, kde-format
+#~ msgid "Take screenshot on click"
+#~ msgstr "Padaryti ekrano kopiją spustelėjus"
+
+#, kde-format
+#~ msgid "Whether the mouse cursor is included in the screenshot"
+#~ msgstr "Ar pelės žymeklis bus įtrauktas į ekrano kopiją"
+
+#, kde-format
+#~ msgid "Whether the mouse cursor is included in the video"
+#~ msgstr "Ar pelės žymeklis bus įtrauktas į vaizdo įrašą"
+
+#, kde-format
+#~ msgid "Whether system audio is included in the recording"
+#~ msgstr "Ar sistemos garsas bus įtrauktas į ekrano įrašą"
+
+#, kde-format
+#~ msgid "Whether microphone audio is included in the recording"
+#~ msgstr "Ar mikrofono garsas bus įtrauktas į ekrano įrašą"
+
+#, kde-format
+#~ msgid "Whether the window decorations are included in the screenshot"
+#~ msgstr "Ar lango dekoracijos bus įtrauktos į ekrano kopiją"
+
+#, kde-format
+#~ msgid "Whether the window shadow is included in the screenshot"
+#~ msgstr "Ar lango šešėlis bus įtrauktas į ekrano kopiją"
+
+#, kde-format
+#~ msgid "Quit after saving or copying an image"
+#~ msgstr "Įrašius ar nukopijavus paveikslą, išeiti iš Spectacle"
+
+#, kde-format
+#~ msgid "Delay"
+#~ msgstr "Delsa"
+
+#, kde-format
+#~ msgid "Default filename"
+#~ msgstr "Numatytasis failo pavadinimas"
+
+#, kde-format
+#~ msgid "Compression quality for lossy file formats"
+#~ msgstr "Nuostolingųjų failo formatų glaudinimo kokybė"
+
+#, kde-format
+#~ msgid "Default save image format"
+#~ msgstr "Numatytasis įrašomo paveikslo formatas"
+
+#, kde-format
+#~ msgid "The filename template used when saving screenshots"
+#~ msgstr "Failo pavadinimo šablonas, naudojamas įrašant ekrano kopijas"
+
+#, kde-format
+#~ msgid "The path of the file saved last"
+#~ msgstr "Paskutinio įrašyto failo kelias"
+
+#, kde-format
+#~ msgid "Last path used for \"save as\" action"
+#~ msgstr "Paskutinis \"Įrašyti kaip\" veiksmui naudotas kelias"
+
+#, kde-format
+#~ msgid "Default video format"
+#~ msgstr "Numatytasis vaizdo įrašo formatas"
+
+#, kde-format
+#~ msgid "The filename template used when saving screencasts"
+#~ msgstr "Failo pavadinimo šablonas, naudojamas įrašant ekrano įrašus"
+
+#, kde-format
+#~ msgid "Save &Location:"
+#~ msgstr "Įrašymo &vieta:"
+
+#, kde-format
+#~ msgid "Spectacle"
+#~ msgstr "Spectacle"
+
+#, kde-format
+#~ msgid "KDE Screenshot Utility"
+#~ msgstr "KDE ekrano kopijų darymo programa"
+
+#~ msgid ""
+#~ "Capture the window currently under the cursor, excluding parents of pop-"
+#~ "up menus"
+#~ msgstr ""
+#~ "Fotografuoti šiuo metu po pele esantį langą, neskaitant iškylančiųjų "
+#~ "meniu pirminius langus"
+
+#~ msgid "Capture the current pop-up only"
+#~ msgstr "Fotografuoti tik esamą iškylantįjį langą"
+
+#~ msgid ""
+#~ "Capture only the current pop-up window (like a menu, tooltip etc) when "
+#~ "taking a screenshot of a window. If disabled, the pop-up is captured "
+#~ "along with the parent window."
+#~ msgstr ""
+#~ "Darant lango ekrano kopiją, fotografuoti tik esamą iškylantįjį langą "
+#~ "(tokį kaip meniu, paaiškinimas ir t.t.). Jei išjungta, iškylantieji "
+#~ "langai yra fotografuojami kartu su pirminiu langu."
+
+#~ msgctxt "@option:check"
+#~ msgid "Capture the current pop-up only"
+#~ msgstr "Fotografuoti tik esamą iškylantįjį langą"
+
+#~ msgctxt "@info:tooltip"
+#~ msgid ""
+#~ "Capture only the current pop-up window (like a menu, tooltip etc).\n"
+#~ "If disabled, the pop-up is captured along with the parent window"
+#~ msgstr ""
+#~ "Fotografuoti tik esamą iškylantįjį langą (tokį kaip meniu, paaiškinimas "
+#~ "ir t.t.).\n"
+#~ "Jei išjungta, iškylantieji langai yra fotografuojami kartu su pirminiu "
+#~ "langu"
+
+#~ msgid "Only capture the current pop up menu"
+#~ msgstr "Fotografuoti tik esamą iškylantįjį meniu"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "The shared image link (<a href=\"%1\">%1</a>) has been copied to the "
+#~ "clipboard."
+#~ msgstr ""
+#~ "Bendrinamo paveikslo nuoroda (<a href=\"%1\">%1</a>) nukopijuota į "
+#~ "iškarpinę."
+
+#~ msgctxt "@action"
+#~ msgid "Open Containing Folder"
+#~ msgstr "Atverti vidinį aplanką"
+
+#~ msgid "The last used annotation tool type"
+#~ msgstr "Paskutinis naudotas anotacijų įrankio tipas"
+
+#~ msgid "Stroke width for freehand annotation tool"
+#~ msgstr "Laisvo piešimo anotacijų įrankio brūkštelėjimo plotis"
+
+#~ msgid "Stroke width for highlighter annotation tool"
+#~ msgstr "Markerio anotacijų įrankio brūkštelėjimo plotis"
+
+#~ msgid "Stroke width for line annotation tool"
+#~ msgstr "Linijos anotacijų įrankio brūkštelėjimo plotis"
+
+#~ msgid "Stroke width for arrow annotation tool"
+#~ msgstr "Rodyklės anotacijų įrankio brūkštelėjimo plotis"
+
+#~ msgid "Stroke width for rectangle annotation tool"
+#~ msgstr "Stačiakampio anotacijų įrankio brūkštelėjimo plotis"
+
+#~ msgid "Stroke width for ellipse annotation tool"
+#~ msgstr "Elipsės anotacijų įrankio brūkštelėjimo plotis"
+
+#~ msgid "Stroke color for freehand annotation tool"
+#~ msgstr "Laisvo piešimo anotacijų įrankio brūkštelėjimo spalva"
+
+#~ msgid "Stroke color for highlighter annotation tool"
+#~ msgstr "Markerio anotacijų įrankio brūkštelėjimo spalva"
+
+#~ msgid "Stroke color for line annotation tool"
+#~ msgstr "Linijos anotacijų įrankio brūkštelėjimo spalva"
+
+#~ msgid "Stroke color for arrow annotation tool"
+#~ msgstr "Rodyklės anotacijų įrankio brūkštelėjimo spalva"
+
+#~ msgid "Stroke color for rectangle annotation tool"
+#~ msgstr "Stačiakampio anotacijų įrankio brūkštelėjimo spalva"
+
+#~ msgid "Stroke color for ellipse annotation tool"
+#~ msgstr "Elipsės anotacijų įrankio brūkštelėjimo spalva"
+
+#~ msgid "Fill color for rectangle annotation tool"
+#~ msgstr "Stačiakampio anotacijų įrankio užpildo spalva"
+
+#~ msgid "Fill color for ellipse annotation tool"
+#~ msgstr "Elipsės anotacijų įrankio užpildo spalva"
+
+#~ msgid "Fill color for number annotation tool"
+#~ msgstr "Skaičių anotacijų įrankio užpildo spalva"
+
+#~ msgid "The strength of the blur effect."
+#~ msgstr "Suliejimo efekto stiprumas."
+
+#~ msgid "The strength of the pixelate effect."
+#~ msgstr "Išklojimo pikseliais efekto stiprumas."
+
+#~ msgid "Font for text annotations"
+#~ msgstr "Tekstinių anotacijų šriftas"
+
+#~ msgid "Font for number annotations"
+#~ msgstr "Skaičių anotacijų šriftas"
+
+#~ msgid "Font color for annotations"
+#~ msgstr "Anotacijų šrifto spalva"
+
+#~ msgid "Whether freehand annotation tool has a drop shadow"
+#~ msgstr "Ar laisvo piešimo anotacijų įrankis mes šešėlį"
+
+#~ msgid "Whether line annotation tool has a drop shadow"
+#~ msgstr "Ar linijos anotacijų įrankis mes šešėlį"
+
+#~ msgid "Whether arrow annotation tool has a drop shadow"
+#~ msgstr "Ar rodyklės anotacijų įrankis mes šešėlį"
+
+#~ msgid "Whether rectangle annotation tool has a drop shadow"
+#~ msgstr "Ar stačiakampio anotacijų įrankis mes šešėlį"
+
+#~ msgid "Whether ellipse annotation tool has a drop shadow"
+#~ msgstr "Ar elipsės anotacijų įrankis mes šešėlį"
+
+#~ msgid "Whether text annotation tool has a drop shadow"
+#~ msgstr "Ar teksto anotacijų įrankis mes šešėlį"
+
+#~ msgid "Whether number annotation tool has a drop shadow"
+#~ msgstr "Ar skaičių anotacijų įrankis mes šešėlį"
+
+#~ msgid "Show capture instructions"
+#~ msgstr "Rodyti ekrano kopijos darymo instrukcijas"
+
+#~ msgid "Whether to show capture instructions in the region selection"
+#~ msgstr "Ar srities žymėjime rodyti ekrano kopijos darymo instrukcijas"
+
+#~ msgctxt "@action global shortcut"
+#~ msgid "Record Window"
+#~ msgstr "Filmuoti langą"
+
+#~ msgctxt "@action global shortcut"
+#~ msgid "Record Rectangular Region"
+#~ msgstr "Filmuoti stačiakampę sritį"
+
+#~ msgctxt "recording notification message"
+#~ msgid "Click the system tray icon to finish recording"
+#~ msgstr "Spustelėkite sistemos dėklo piktogramą norėdami užbagti filmavimą"
+
+#~ msgctxt "@info"
+#~ msgid "The screenshot location has been copied to the clipboard."
+#~ msgstr "Ekrano kopijos vieta nukopijuota į iškarpinę."
+
+#~ msgctxt "@info"
+#~ msgid "Video shared"
+#~ msgstr "Vaizdo įrašas pradėtas bendrinti"
+
+#~ msgctxt "@info"
+#~ msgid "Image shared"
+#~ msgstr "Paveikslas pradėtas bendrinti"
+
+#~ msgctxt "@info"
+#~ msgid ""
+#~ "The shared video link (<a href=\"%1\">%1</a>) has been copied to the "
+#~ "clipboard."
+#~ msgstr ""
+#~ "Bendrinamo vaizdo įrašo nuoroda (<a href=\"%1\">%1</a>) nukopijuota į "
+#~ "iškarpinę."
+
+#~ msgctxt "@info"
+#~ msgid "There was a problem sharing the video: %1"
+#~ msgstr "Bendrinant vaizdo įrašą, atsirado problemų: %1"
+
+#~ msgid "Screenshot"
+#~ msgstr "Ekrano kopija"
+
+#~ msgid "Configure..."
+#~ msgstr "Konfigūruoti..."
+
+#~ msgid "Capture Mode"
+#~ msgstr "Fotografavimo veiksena"
+
+#~ msgid "Capture Settings"
+#~ msgstr "Fotografavimo nuostatos"
+
+#~ msgctxt "@title:group"
+#~ msgid "Recording Settings"
+#~ msgstr "Filmavimo nuostatos"
+
+#~ msgid ""
+#~ "Could not take a screenshot. Please report this bug here: <a "
+#~ "href=\"https://bugs.kde.org/enter_bug.cgi?product=Spectacle\">create a "
+#~ "spectacle bug</a>"
+#~ msgstr ""
+#~ "Nepavyko padaryti ekrano kopijos. Praneškite apie šią klaidą čia: <a "
+#~ "href=\"https://bugs.kde.org/enter_bug.cgi?product=Spectacle\">sukurti "
+#~ "pranešimą apie spectacle klaidą</a>"
+
+#~ msgid "Screenshot capture canceled or failed"
+#~ msgstr "Ekrano kopijos darymo atsisakyta arba jis patyrė nesėkmę"
+
+#~ msgid "Show Annotation Tools"
+#~ msgstr "Rodyti anotacijų įrankį"
+
+#~ msgid "Whether to show a magnifier in the region selection"
+#~ msgstr "Ar srities žymėjime rodyti didintuvą"
+
+#~ msgid "Capture Modes"
+#~ msgstr "Fotografavimo veiksenos"
+
+#~ msgctxt "Decimal number of seconds"
+#~ msgid "%2 seconds"
+#~ msgstr "%2 sek."
+
+#~ msgctxt ""
+#~ "A placeholder in the user configurable filename will replaced by the "
+#~ "specified value"
+#~ msgid "Day"
+#~ msgstr "Diena"
+
+#~ msgctxt ""
+#~ "A placeholder in the user configurable filename will replaced by the "
+#~ "specified value"
+#~ msgid "Month"
+#~ msgstr "Mėnuo"
+
+#~ msgctxt ""
+#~ "A placeholder in the user configurable filename will replaced by the "
+#~ "specified value"
+#~ msgid "Hour"
+#~ msgstr "Valanda"
+
+#~ msgctxt ""
+#~ "A placeholder in the user configurable filename will replaced by the "
+#~ "specified value"
+#~ msgid "Minute"
+#~ msgstr "Minutė"
+
+#~ msgctxt ""
+#~ "A placeholder in the user configurable filename will replaced by the "
+#~ "specified value"
+#~ msgid "Second"
+#~ msgstr "Sekundė"
+
+#~ msgctxt ""
+#~ "A placeholder in the user configurable filename will replaced by the "
+#~ "specified value"
+#~ msgid "Timezone"
+#~ msgstr "Laiko juosta"
+
+#~ msgctxt ""
+#~ "A placeholder in the user configurable filename will replaced by the "
+#~ "specified value"
+#~ msgid "Sequential numbering"
+#~ msgstr "Nuoseklus numeravimas"
+
+#, fuzzy
+#~| msgid "The default filename used when saving"
+#~ msgid "The default filename used when recording a video"
+#~ msgstr "Numatytasis failo pavadinimas įrašant"
+
+#, fuzzy
+#~| msgid "Screenshot"
+#~ msgctxt "@item recording mode"
+#~ msgid "Screen"
+#~ msgstr "Ekrano kopija"
+
+#~ msgid "Workspace"
+#~ msgstr "Darbo sritis"
+
+#~ msgid "Failed to select output"
+#~ msgstr "Nepavyko pasirinkti išvesties"
+
+#, fuzzy
+#~| msgid "Save"
+#~ msgctxt "Settings category"
+#~ msgid "Save"
+#~ msgstr "Įrašyti"
+
+#, fuzzy
+#~| msgid "New screen recording"
+#~ msgid "File format for saved screen recordings"
+#~ msgstr "Naujas ekrano įrašas"
+
+#~ msgid "On Click"
+#~ msgstr "Spustelėjus"
+
+#~ msgid "Take a New Screenshot"
+#~ msgstr "Padaryti naują ekrano kopiją"
+
+#, fuzzy
+#~| msgid ""
+#~| "Capture only the current pop-up window (like a menu, tooltip etc).\n"
+#~| "If disabled, the pop-up is captured along with the parent window"
+#~ msgid "Capture only the current pop-up window (like a menu, tooltip etc).\n"
+#~ msgstr ""
+#~ "Fotografuoti tik esamą iškylantįjį langą (tokį kaip meniu, paaiškinimas "
+#~ "ir t.t.).\n"
+#~ "Jei išjungta, iškylantieji langai yra fotografuojami kartu su pirminiu "
+#~ "langu"
+
+#~ msgid "Full Screen (All Monitors)"
+#~ msgstr "Visas ekranas (Visi monitoriai)"
+
+#~ msgid "Full Screen (All Monitors, scaled)"
+#~ msgstr "Visas ekranas (Visi monitoriai, pakeisto mastelio)"
+
+#~ msgid "Image Size: %1x%2 pixels"
+#~ msgstr "Paveikslo dydis: %1x%2 pikselių"
+
+#~ msgid "Change Spectacle's settings."
+#~ msgstr "Keisti programos Spectacle nustatymus."
+
+#~ msgid "Add annotation to the screenshot"
+#~ msgstr "Pridėti į ekrano kopiją anotacijas"
+
+#~ msgid "Tools"
+#~ msgstr "Įrankiai"
+
+#~ msgid "Copy Image to Clipboard"
+#~ msgstr "Kopijuoti paveikslą į iškarpinę"
+
+#~ msgid "Ready to take a screenshot"
+#~ msgstr "Pasiruošę daryti ekrano kopiją"
+
+#~ msgctxt "@action:button"
+#~ msgid "Annotate"
+#~ msgstr "Kurti anotacijas"
+
+#~ msgid "Area:"
+#~ msgstr "Sritis:"
+
+#~ msgid "<b>Options</b>"
+#~ msgstr "<b>Parinktys</b>"
+
+#~ msgid "The last used copy mode"
+#~ msgstr "Paskutinė naudota kopijavimo veiksena"
+
+#~ msgctxt "The entire screen area was captured, heading"
+#~ msgid "Full Screen Captured"
+#~ msgstr "Nufotografuotas visas ekranas"
+
+#~ msgctxt "The current screen was captured, heading"
+#~ msgid "Current Screen Captured"
+#~ msgstr "Nufotografuotas dabartinis ekranas"
+
+#~ msgctxt "The active window was captured, heading"
+#~ msgid "Active Window Captured"
+#~ msgstr "Nufotografuotas aktyvus langas"
+
+#~ msgctxt "The window under the mouse was captured, heading"
+#~ msgid "Window Under Cursor Captured"
+#~ msgstr "Nufotografuotas langas po žymekliu"
+
+#~ msgctxt "A rectangular region was captured, heading"
+#~ msgid "Rectangular Region Captured"
+#~ msgstr "Nufotografuota stačiakampė ekrano sritis"
+
+#~ msgid "More Online Services"
+#~ msgstr "Kitos internetinės paslaugos"
+
+#~ msgid "KIPI plugin from library %1 failed to load"
+#~ msgstr "Nepavyko įkelti KIPI priedo iš %1 bibliotekos"
+
+#~ msgctxt "%1 is collection name, %2 is image count in collection"
+#~ msgid "%1 (%2 image)"
+#~ msgid_plural "%1 (%2 images)"
+#~ msgstr[0] "%1 (%2 paveikslas)"
+#~ msgstr[1] "%1 (%2 paveikslai)"
+#~ msgstr[2] "%1 (%2 paveikslų)"
+#~ msgstr[3] "%1 (%2 paveikslas)"
+
+#~ msgid "Taken with Spectacle"
+#~ msgstr "Nufotografuota naudojant Spectacle"
+
+#~ msgid "Remember the region across restarts"
+#~ msgstr "Prisiminti sritį tarp paleidimų iš naujo"
+
+#~ msgid ""
+#~ "Choose the image quality when saving with lossy image formats like JPEG"
+#~ msgstr ""
+#~ "Pasirinkite paveikslo kokybę, įrašant į nuostolinguosius formatus, tokius "
+#~ "kaip JPEG"
+
+#~ msgid "Copy file location to clipboard after saving"
+#~ msgstr "Įrašius, kopijuoti failo vietą į iškarpinę"
+
+#~ msgid "Copy screenshot automatically to the clipboard after it is taken"
+#~ msgstr "Padarius ekrano kopiją, automatiškai kopijuoti ją į iškarpinę"
+
+#~ msgid "Whether to copy the file path after saving to the clipboard"
+#~ msgstr "Ar įrašius, kopijuoti failo kelią į iškarpinę"
+
+#~ msgid "Copy the current screenshot image to the clipboard."
+#~ msgstr "Kopijuoti dabartinį ekrano kopijos paveikslą į iškarpinę."
+
+#~ msgid "currentText"
+#~ msgstr "Esamas tekstas"
+
+#, fuzzy
+#~| msgid "After taking a screenshot:"
+#~ msgid "Include pointer in the screenshot"
+#~ msgstr "Padarius ekrano kopiją:"
+
+#, fuzzy
+#~| msgid "Whether the window decorations are included in the screenshot"
+#~ msgid "Do not include window decorations in the screenshot"
+#~ msgstr "Ar lango dekoracijos bus įtrauktos į ekrano kopiją"
+
+#, fuzzy
+#~| msgid "Capture Entire Desktop"
+#~ msgctxt "The entire desktop was captured, heading"
+#~ msgid "Entire Desktop Captured"
+#~ msgstr "Fotografuoti visą darbalaukį"
+
+#~ msgctxt "@title:window"
+#~ msgid "Configure"
+#~ msgstr "Konfigūruoti"
+
+#~ msgid "Apply Unsaved Changes"
+#~ msgstr "Taikyti neįrašytus pakeitimus"
+
+#~ msgid ""
+#~ "You have made changes to the settings in this tab. Do you want to apply "
+#~ "those changes?"
+#~ msgstr ""
+#~ "Šioje kortelėje pakeitėte nustatymus. Ar norite taikyti tuos pakeitimus?"
+
+#~ msgctxt "Mouse action"
+#~ msgid "Click and drag,"
+#~ msgstr "Spustelėti ir tempti,"
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgctxt "Keyboard action"
+#~ msgid "Shift:"
+#~ msgstr "Lyg2:"
+
+#~ msgctxt "Shift key action first half"
+#~ msgid "Hold to toggle magnifier"
+#~ msgstr "Laikykite, kad būtų perjungtas didintuvas"
+
+#~ msgctxt "Shift key action second half"
+#~ msgid "while dragging selection handles"
+#~ msgstr "tempdami žymėjimo rankenėles"
+
+#~ msgctxt "Shift key action second line"
+#~ msgid "Hold Alt to resize, Shift to fine‑tune"
+#~ msgstr "Laikykite Alt, norėdami keisti dydį, Lyg2, norėdami derinti"
+
+#~ msgctxt "Keyboard action"
+#~ msgid "Esc:"
+#~ msgstr "Grįžties (Esc):"
+
+#, fuzzy
+#~| msgid ""
+#~| "<p>Set a default filename for saved screenshots.</p><p>You can use the "
+#~| "following placeholders in the filename, which will be replaced with "
+#~| "actual text when the file is saved:</p><blockquote><b>%Y</b>: Year (4 "
+#~| "digit)<br /><b>%y</b>: Year (2 digit)<br /><b>%M</b>: Month<br /><b>%D</"
+#~| "b>: Day<br /><b>%H</b>: Hour<br /><b>%m</b>: Minute<br /><b>%S</b>: "
+#~| "Second</blockquote><p>You don't need to enter a filetype extension. By "
+#~| "default, screenshots are always saved as a <b>PNG (Portable Network "
+#~| "Graphics)</b> image with a <b>.png</b> extension.</p><p>If a file with "
+#~| "this name already exists, a serial number will be appended to the "
+#~| "filename. For example, if the filename is \"Screenshot\", and "
+#~| "\"Screenshot.png\" already exists, the image will be saved as "
+#~| "\"Screenshot-1.png\".</p>"
+#~ msgctxt "%1 is the default filename of a screenshot"
+#~ msgid ""
+#~ "<p>You can use the following placeholders in the filename, which will be "
+#~ "replaced with actual text when the file is saved:</p><blockquote><b>%Y</"
+#~ "b>: Year (4 digit)<br /><b>%y</b>: Year (2 digit)<br /><b>%M</b>: "
+#~ "Month<br /><b>%D</b>: Day<br /><b>%H</b>: Hour<br /><b>%m</b>: Minute<br /"
+#~ "><b>%S</b>: Second<br /><b>%T</b>: Window title<br /><b>%d</b>: "
+#~ "Sequential numbering<br /><b>%Nd</b>: Sequential numbering, padded out to "
+#~ "N digits</blockquote><p>To save to a sub-folder, use slashes, e.g.:</"
+#~ "p><blockquote><b>%Y</b>/<b>%M</b>/%1</blockquote>"
+#~ msgstr ""
+#~ "<p>Nurodykite numatytąjį ekranvaizdžių pavadinimą.</p><p> Failo "
+#~ "pavadinime galite naudoti pakaitalus, kurie įrašant pakeisimi atitinkamu "
+#~ "tekstu: </p><blockquote><b>%Y</b>: metai (4 skaitmenys) <br /><b>%y</b>: "
+#~ "metai (2 skaitmenys) <br /><b>%M</b>: mėnuo <br /><b>%D</b>: diena <br /"
+#~ "><b>%H</b>: valanda <br /><b>%m</b>: minutė <br /><b>%S</b>: sekundė </"
+#~ "blockquote><p>Paveiksliuko prievardžio nurodyti nereikia. Numatytuoju "
+#~ "atveju ekranvaizdžiai įrašomi <b>PNG</b> formatu su <b>.png</b> "
+#~ "prievardžiu.</p><p> Jei paveiksliukas tokiu pavadinimu jau yra, tuomet "
+#~ "pridėsimas eilinis numeris; pavyzdžiui, jeiprašote sukurti paveiksliuką "
+#~ "pavadinimu „Nuotrauka“, o „Nuotrauka.png“ jau yra, tuomet paveiksliukas "
+#~ "pavadinsimas „Nuotrauka-1.png“.</p>"
+
+#, fuzzy
+#~| msgid "Rectangular Region"
+#~ msgid "Rectangular Region:"
+#~ msgstr "stačiakampė sritis"
+
+#, fuzzy
+#~| msgid "Default Save Settings"
+#~ msgid "Default Save Location"
+#~ msgstr "Numatytosios įrašymo parinktys"
+
+#~ msgid "You can find the shared image at: <a href=\"%1\">%1</a>"
+#~ msgstr "Pasidalintą paveiksliuką rasite <a href=\"%1\">%1</a>"
+
+#~ msgid ""
+#~ "To take the screenshot, double-click or press Enter. Right-click to reset "
+#~ "the selection, or press Esc to quit"
+#~ msgstr ""
+#~ "Norėdami paveiksluoti, spauskite įvesties klavišą arba dukart "
+#~ "spragtelėkite. Dešiniu pelės klavišu galite iš naujo nurodyti "
+#~ "pasirinkimą. Baigsite spustelėję Gr(įžties) (Esc) klavišą"
+
+#~ msgid "Save &&& Exit"
+#~ msgstr "Įrašyti ir išeiti"
+
+#~ msgid "Save screenshot in your Pictures directory and exit"
+#~ msgstr "Ekranvaizdį įrašyti į numatytąjį paveiksliukų katalogą ir išeiti"
+
+#~ msgid "Export Image..."
+#~ msgstr "Paveiksliuko eksportavimas..."
+
+#~ msgid "Preferences"
+#~ msgstr "Parinktys"
+
+#~ msgid "Dynamic Save Button"
+#~ msgstr "Kintantis įrašymo mygtuko veiksmas"
+
+#~ msgid ""
+#~ "The default behavior of the save button is to <b>Save & Exit</b>. Enable "
+#~ "this option to change the save button to either <b>Save</b>, <b>Save As</"
+#~ "b> or <b>Save & Exit</b>, according to the save action you perform, every "
+#~ "time you save an image."
+#~ msgstr ""
+#~ "Numatytasis įrašymo mygtuko veiksmas yra <b>Įrašyti ir išeiti</b>. "
+#~ "Įgalinus šią parinktį, priklausomai nuo paskutinį kartą pasirinkto "
+#~ "įrašymo veiksmo, vėliau numatytuoju įrašymo mygtuko veiksmu taps arba "
+#~ "<b>Įrašyti</b>, arba <b>Įrašyti kaip</b> arba <b>Įrašyti ir išeiti</b>."
+
+#~ msgid "Set save button action to last used save method"
+#~ msgstr "Nustatyti įrašymo mygtuko veiksmą pagal paskutinį pasirinktą"
+
+#~ msgid ""
+#~ "When a screenshot is saved, copy the location at which the file was saved "
+#~ "to the clipboard. You can then paste it anywhere that accepts text input. "
+#~ "Note that you must be running a clipboard manager in order to keep the "
+#~ "path in the clipboard after Spectacle quits."
+#~ msgstr ""
+#~ "Įrašius paveikslėlį, į iškarpinę nukopijuoti kelią iki jo. Tuomet šį "
+#~ "adresą galėsite įterpti kaip tekstą. Užvėrus „Spectacle“, iškarpinėje "
+#~ "turinys liks tik tuomet, jei fone veiks iškarpinės programa."
+
+#~ msgid "Light Background For Rectangular Region"
+#~ msgstr "Šviesus fonas paveiksluojant stačiakampę sritį"
+
+#~ msgid ""
+#~ "Use a light background color to mask the cropped-out area in the "
+#~ "rectangular region selector. This may make dark cursors easier to see."
+#~ msgstr ""
+#~ "Nepažymėtai sričiai suteikti šviesesnį atspalvį. Tai gali padėti lengviau "
+#~ "matyti žymeklį, jei jis tamsus."
+
+#~ msgid ""
+#~ "By default, Spectacle does not show an initial selection when you take a "
+#~ "screenshot of a rectangular region. Enable this option to remember the "
+#~ "last selected region of the screen, and set it as the initial selection "
+#~ "when you use the rectangular region selector the next time."
+#~ msgstr ""
+#~ "Numatytuoju atveju paveiksluojant stačiakampę sritį, Spectacle iš anksto "
+#~ "nepažymi srities. Įgalinus šią parinktį, programa įsimins paskutinę "
+#~ "pažymėtą sritį ir ją siūlys paveiksluoti, jei vėl pasirinksite "
+#~ "stačiakampės srities paveikslavimo veikseną."
+
+#~ msgid ""
+#~ "Set the directory where you'd like to save your screenshots when you "
+#~ "press <b>Save</b> or <b>Save & Exit</b>."
+#~ msgstr ""
+#~ "Nurodykite aplanką, kuriame norėtumėte talpinti ekranvaizdžius, kai "
+#~ "spaudžiate <b>Įrašyti</b> arba <b>Įrašyti ir išeiti</b>."
+
+#~ msgid "Application Preferences"
+#~ msgstr "Programos parinktys"

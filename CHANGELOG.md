@@ -8,7 +8,7 @@ follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ### Added
 
-- **Recording limits**: Settings → Video now offers a maximum duration (minutes)
+- **Recording limits**: Settings → Video Saving now offers a maximum duration (minutes)
   and a maximum file size (MiB); 0 keeps the previous unlimited behaviour. When
   a limit is reached the recording is finalized through the regular stop path,
   the user is notified, and the file stays playable.

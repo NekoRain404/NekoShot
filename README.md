@@ -216,7 +216,7 @@ Screen/Window/Region 的 ScreenCast 路径使用 `compositor + videorate` 固定
 - **锁屏/DPMS**：录制期间持有 logind idle 抑制（ScreenSaver 回退），防止长录被空闲中断。
 - **资源预检与看门狗**：只读目录、剩余空间不足 64 MB 时直接拒绝；录制中每 10 秒复查，
   空间不足时自动收尾；编码器输出 0 字节按失败处理；锁屏会话直接拒绝。
-- **自动停止上限**：设置 → 录像可以指定最大时长（分钟）和最大文件大小（MiB），0 表示不限制；
+- **自动停止上限**：设置 → 视频保存可以指定最大时长（分钟）和最大文件大小（MiB），0 表示不限制；
   到达上限时按正常流程收尾并弹出通知，文件保持可播放。
 - **失败可见**：直接 one-shot 的后台截图/录制失败返回退出码 1；警告/错误写入
   `~/.local/state/nekoshot/nekoshot.log`（1 MB 轮转）；D-Bus 提供 `IsRecording()` 与 `LastError()`。

@@ -18,6 +18,7 @@
 #include "Gui/SelectionEditor.h"
 #include "Gui/SpectacleWindow.h"
 #include "ImageMetaData.h"
+#include "LongScreenshot.h"
 #include "OcrManager.h"
 #include "PlasmaVersion.h"
 #include "StartupProfile.h"
@@ -25,6 +26,7 @@
 #include "Platforms/ImagePlatformXcb.h"
 #endif
 #include "Platforms/AudioDevices.h"
+#include "Platforms/NiriCapture.h"
 #include "Platforms/NiriIpc.h"
 #include "Platforms/NiriPlatform.h"
 #include "Platforms/PlatformLoader.h"
@@ -965,6 +967,14 @@ void SpectacleCore::activate(const QStringList &arguments, const QString &workin
         m_daemonMode = true;
     }
 
+    // Long screenshot commands are control/IO requests. They run before any
+    // capture state machine so they can never open an overlay or a recording.
+    if (parser.isSet(CommandLineOptions::self()->longScreenshotStart) || parser.isSet(CommandLineOptions::self()->longScreenshotCapture)
+        || parser.isSet(CommandLineOptions::self()->longScreenshotFinish) || parser.isSet(CommandLineOptions::self()->longScreenshotCancel)) {
+        handleLongScreenshotCommand(parser);
+        return;
+    }
+
     // --stop-recording is a control request, not a capture: handle it before
     // anything else so it can never start a screenshot or a new recording.
     if (parser.isSet(CommandLineOptions::self()->stopRecording)) {
@@ -1777,6 +1787,162 @@ void SpectacleCore::unityLauncherUpdate(const QVariantMap &properties) const
     QDBusMessage message = QDBusMessage::createSignal(u"/org/kde/Spectacle"_s, u"com.canonical.Unity.LauncherEntry"_s, u"Update"_s);
     message.setArguments({QApplication::desktopFileName(), properties});
     QDBusConnection::sessionBus().send(message);
+}
+
+QImage SpectacleCore::captureLongScreenshotFrame(QString *error)
+{
+    const auto output = NiriIpc::focusedOutput(error);
+    if (!output) {
+        return {};
+    }
+    if (output->logicalRect.isEmpty()) {
+        if (error) {
+            *error = i18n("The focused output has no usable geometry.");
+        }
+        return {};
+    }
+    return NiriCapture::captureOutput(*output, false, error);
+}
+
+void SpectacleCore::handleLongScreenshotCommand(const QCommandLineParser &parser)
+{
+    using namespace LongScreenshot;
+
+    auto fail = [this](const QString &message) {
+        m_exitCode = 1;
+        m_lastError = message;
+        qWarning().noquote() << message;
+        if (!m_daemonMode) {
+            Q_EMIT allDone();
+        }
+    };
+    auto done = [this] {
+        if (!m_daemonMode) {
+            Q_EMIT allDone();
+        }
+    };
+
+    if (parser.isSet(CommandLineOptions::self()->longScreenshotCancel)) {
+        QString error;
+        const QString session = activeSession(&error);
+        if (session.isEmpty()) {
+            fail(error);
+            return;
+        }
+        removeSession(session);
+        done();
+        return;
+    }
+
+    if (parser.isSet(CommandLineOptions::self()->longScreenshotFinish)) {
+        QString error;
+        const QString session = activeSession(&error);
+        if (session.isEmpty()) {
+            fail(error);
+            return;
+        }
+        Stitcher stitcher;
+        const auto paths = framePaths(session);
+        for (const QString &path : paths) {
+            QImage frame(path);
+            if (frame.isNull()) {
+                fail(i18nc("@info:shell, %1 is a file path", "Failed to read long screenshot frame %1.", path));
+                return;
+            }
+            const auto result = stitcher.addFrame(frame);
+            if (!result.ok) {
+                fail(i18nc("@info:shell, %1 is a frame number, %2 is an error",
+                           "Failed to stitch long screenshot frame %1: %2.",
+                           paths.indexOf(path) + 1,
+                           result.error));
+                return;
+            }
+        }
+        if (stitcher.image().isNull()) {
+            fail(i18n("The long screenshot has no frames."));
+            return;
+        }
+
+        QString outputPath = parser.value(CommandLineOptions::self()->output);
+        if (outputPath.isEmpty()) {
+            const QUrl location = Settings::imageSaveLocation();
+            ExportManager::instance()->updateTimestamp();
+            const QString filename =
+                ExportManager::formattedFilename(Settings::imageFilenameTemplate(), ExportManager::instance()->timestamp(), i18n("Long screenshot"), location);
+            outputPath = QDir(location.toLocalFile()).filePath(filename + QStringLiteral(".png"));
+        } else if (!outputPath.startsWith(QLatin1Char('/'))) {
+            outputPath = QDir::current().absoluteFilePath(outputPath);
+        }
+        const QString saved = saveImage(stitcher.image(), outputPath, &error);
+        if (saved.isEmpty()) {
+            fail(error);
+            return;
+        }
+        removeSession(session);
+        QGuiApplication::clipboard()->setImage(stitcher.image());
+        auto notification = new KNotification(u"longScreenshotSaved"_s, KNotification::CloseOnTimeout, this);
+        notification->setTitle(i18n("Long screenshot saved"));
+        notification->setText(i18n("Saved to %1. The image is also in the clipboard.", QDir::toNativeSeparators(saved)));
+        notification->sendEvent();
+        QTextStream(stdout) << saved << Qt::endl;
+        done();
+        return;
+    }
+
+    // Start or capture.
+    QString error;
+    QString session;
+    if (parser.isSet(CommandLineOptions::self()->longScreenshotStart)) {
+        session = createSession(&error);
+    } else {
+        session = activeSession(&error);
+    }
+    if (session.isEmpty()) {
+        fail(error);
+        return;
+    }
+    if (NiriPlatform::sessionLocked()) {
+        fail(i18nc("@info:shell", "Failed to capture: the session is locked."));
+        return;
+    }
+
+    const QImage frame = captureLongScreenshotFrame(&error);
+    if (frame.isNull()) {
+        fail(error.isEmpty() ? i18n("Failed to capture a long screenshot frame.") : error);
+        if (parser.isSet(CommandLineOptions::self()->longScreenshotStart)) {
+            removeSession(session);
+        }
+        return;
+    }
+    // Reject frames that do not overlap the previous one right away, so the
+    // user can scroll again instead of discovering the broken frame at the end.
+    const auto existing = framePaths(session);
+    if (!existing.isEmpty()) {
+        QImage previous(existing.constLast());
+        if (!previous.isNull()) {
+            Stitcher check;
+            check.addFrame(previous);
+            const auto result = check.addFrame(frame);
+            if (!result.ok) {
+                if (qEnvironmentVariableIsSet("NEKOSHOT_LONG_DEBUG")) {
+                    // Keep the rejected frame for diagnosing overlap failures.
+                    frame.save(QDir(session).filePath(QStringLiteral("rejected.png")), "PNG");
+                }
+                fail(i18n("The new frame does not overlap the previous one. Scroll the content a little and capture again."));
+                return;
+            }
+        }
+    }
+
+    const QString path = appendFramePath(session);
+    if (!frame.save(path, "PNG")) {
+        fail(i18nc("@info:shell, %1 is a file path", "Failed to write long screenshot frame %1.", path));
+        return;
+    }
+    // No notification here on purpose: it would be part of the next frame and
+    // break the overlap detection. Scripts get the frame count on stdout.
+    QTextStream(stdout) << i18nc("@info:shell, %1 is a frame count", "Captured long screenshot frame %1", framePaths(session).size()) << Qt::endl;
+    done();
 }
 
 void SpectacleCore::startRecording(VideoPlatform::RecordingMode mode, bool withPointer)

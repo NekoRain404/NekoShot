@@ -435,3 +435,22 @@ Region AV1 via libaom (`/tmp/region-aom.mp4`): `av1 700x700`, 2.738767 s,
   does.
 - wf-recorder can only take the default output or a named source, so a region
   that falls back to it fails explicitly when application audio was selected.
+
+---
+
+# Unreleased - long screenshots
+
+- `LongScreenshot::Stitcher` compares consecutive frames after a 4x horizontal
+  and (for the coarse pass) 4x vertical downscale in colour. Overlap matching
+  uses the mean absolute channel difference, because fractional HiDPI scrolling
+  changes glyph rasterisation and makes exact row hashes fail.
+- The coarse pass searches the 4x downscaled frame so the candidate grid scales
+  with the content; the fine pass refines at full row resolution. A candidate
+  is accepted only when its score is low and clearly better than anything
+  outside its neighbourhood.
+- `SpectacleCore` keeps the session state in `$XDG_RUNTIME_DIR/nekoshot-long`
+  (one frame PNG per capture) so `--long-screenshot*` commands stay
+  short-lived. Capturing validates the new frame against the previous one and
+  rejects it immediately when the content did not scroll enough.
+- Set `NEKOSHOT_LONG_DEBUG=1` to keep a rejected frame as `rejected.png` inside
+  the session for diagnosis.

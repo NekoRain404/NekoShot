@@ -84,6 +84,23 @@ Default screenshot location.
 .TP
 .I ~/Videos/Screencasts
 Default recording location.
+.SH LONG SCREENSHOTS
+niri cannot inject scroll events, so long screenshots are captured between
+manual scrolls.  Start a session, scroll the content, capture a frame, and
+repeat; finishing stitches the frames into one PNG.  Frames that do not overlap
+the previous one are rejected so the picture is never silently broken.
+.TP
+.B \-\-long\-screenshot
+Start a session and capture the first frame.
+.TP
+.B \-\-long\-screenshot\-capture
+Capture another frame after scrolling.
+.TP
+.B \-\-long\-screenshot\-finish
+Stitch the frames and save the image (honours \fB\-o\fR).
+.TP
+.B \-\-long\-screenshot\-cancel
+Discard the current session.
 .SH SETTINGS
 Recording limits live in the
 .B VideoSave

@@ -13,6 +13,15 @@ follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
   in `videoSystemAudioSource` / `videoMicrophoneSource`. Empty means "default",
   and a configured device that disappears stays visible as "(unavailable)"
   instead of silently falling back.
+- **Long screenshots**: `--long-screenshot`, `--long-screenshot-capture`,
+  `--long-screenshot-finish` and `--long-screenshot-cancel` build one tall PNG
+  from frames captured between manual scrolls. Frames are stitched by matching
+  the overlap of consecutive screenshots (colour-aware, tolerant of the
+  fractional HiDPI scrolling that breaks exact row comparison). A frame that
+  does not overlap is rejected immediately so the user can scroll again, and
+  the session lives in the runtime directory so every command is a
+  short-lived process.
+
 - **Per-application audio**: a recording can capture a single application's
   PipeWire node (`videoAppAudio`, chosen from the applications currently
   playing audio). The application name is stored and its node resolved again

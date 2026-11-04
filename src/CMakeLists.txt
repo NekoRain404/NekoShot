@@ -24,6 +24,7 @@ target_sources(nekoshot PRIVATE
     CaptureModeModel.cpp
     CommandLineOptions.cpp
     ExportManager.cpp
+    LongScreenshot.cpp
     Geometry.cpp
     OcrManager.cpp
     Gui/CaptureWindow.cpp

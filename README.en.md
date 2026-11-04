@@ -53,6 +53,11 @@ stitching together `grim | slurp | satty` for every capture.
   interruptions, the output folder is re-checked every 10 s, locked sessions are rejected,
   encoder failures are partially recovered/remuxed, and one-shot failures return exit code 1.
   Optional maximum duration and file size stop a recording cleanly through the normal path.
+- **Long screenshots**: `--long-screenshot`, `--long-screenshot-capture`,
+  `--long-screenshot-finish` and `--long-screenshot-cancel` stitch frames taken
+  between manual scrolls into one tall PNG. Overlap matching is colour-aware and
+  tolerant of fractional HiDPI scrolling; a frame without overlap is rejected
+  immediately.
 - **Fast hotkeys**: `--daemon` preloads QML; hotkey→overlay is ~0.25 s on the first press and
   ~0.11 s afterwards on the reference machine.
 

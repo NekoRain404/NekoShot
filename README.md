@@ -70,6 +70,7 @@ NekoShot（猫 + Shot）解决的是很具体的问题：在 niri 这种没有 K
 | 音频 | 系统声音、麦克风、两者混音；可选择任意输出监听源/麦克风，也可只录某个正在播放声音的应用 |
 | 指针 | ScreenCast 录屏支持 `cursor-mode`；截图受 niri screencopy 限制（见[已知限制](#已知限制)） |
 | 常驻 | `--daemon` + niri binds；QML 预热后热键→遮罩约 0.1 秒 |
+| 长截图 | `--long-screenshot` / `--long-screenshot-capture` / `--long-screenshot-finish`：手动滚动逐段截取并拼接为一张竖长图 |
 | 稳健性 | fragmented MP4、录制期间 idle 抑制、磁盘/只读预检、最大时长/大小自动收尾、失败退出码、状态机防重入 |
 
 ## 安装
@@ -172,6 +173,9 @@ spawn-at-startup "nekoshot" "--daemon"
 | `nekoshot -p` | 请求包含指针（截图受 niri 限制，见下） |
 | `nekoshot -R r\|s\|w` | 开始录屏：区域 / 屏幕 / 窗口 |
 | `nekoshot --stop-recording` | 停止当前录制并等待 finalize |
+| `nekoshot --long-screenshot` | 开始长截图并截取第一帧 |
+| `nekoshot --long-screenshot-capture` | 滚动后追加一帧（无重叠会立即报错） |
+| `nekoshot --long-screenshot-finish` | 拼接全部帧并保存（`-o` 指定路径） |
 | `nekoshot --daemon` | 常驻，等待 D-Bus 请求 |
 
 D-Bus：`org.nekoshot.NekoShot`，对象路径 `/`，方法名与 Spectacle 一致

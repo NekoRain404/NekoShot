@@ -27,6 +27,8 @@
 #include <array>
 #include <memory>
 
+class QCommandLineParser;
+
 class SpectacleCore : public QObject
 {
     Q_OBJECT
@@ -165,6 +167,10 @@ private:
     // Shared setup for the GUI recording entry points: hides the capture
     // overlay, keeps the event loop alive and forwards the options.
     void startRecordingWithOptions(VideoPlatform::RecordingMode mode, const QVariantMap &options, bool withPointer);
+    // Manual-scroll long screenshots: a short-lived CLI command captures one
+    // frame per invocation, so the session lives on disk between processes.
+    void handleLongScreenshotCommand(const QCommandLineParser &parser);
+    QImage captureLongScreenshotFrame(QString *error);
 
     explicit SpectacleCore(QObject *parent = nullptr);
 

@@ -105,11 +105,41 @@ struct CommandLineOptions {
     const QCommandLineOption releaseCapture = {{u"k"_s, u"release-capture"_s}, i18n("Accept region selection on click-and-release")};
     const QCommandLineOption daemon = {{u"daemon"_s}, i18n("Stay running and wait for D-Bus requests")};
     const QCommandLineOption stopRecording = {{u"stop-recording"_s}, i18n("Stop the current recording")};
+    const QCommandLineOption longScreenshotStart = {{u"long-screenshot"_s}, i18n("Start a manual-scroll long screenshot and capture the first frame")};
+    const QCommandLineOption longScreenshotCapture = {{u"long-screenshot-capture"_s}, i18n("Capture another long screenshot frame after scrolling")};
+    const QCommandLineOption longScreenshotFinish = {{u"long-screenshot-finish"_s}, i18n("Stitch the long screenshot frames and save the result")};
+    const QCommandLineOption longScreenshotCancel = {{u"long-screenshot-cancel"_s}, i18n("Discard the current long screenshot")};
 
     const QList<QCommandLineOption> allOptions = {
-        fullscreen, scaled,       current,        activeWindow, windowUnderCursor, region,   record,  launchOnly,  gui,     background,
-        dbus,       noNotify,     output,         delay,        copyImage,         copyPath, onClick, newInstance, pointer, noDecoration,
-        noShadow,   editExisting, releaseCapture, daemon,       stopRecording,
+        fullscreen,
+        scaled,
+        current,
+        activeWindow,
+        windowUnderCursor,
+        region,
+        record,
+        launchOnly,
+        gui,
+        background,
+        dbus,
+        noNotify,
+        output,
+        delay,
+        copyImage,
+        copyPath,
+        onClick,
+        newInstance,
+        pointer,
+        noDecoration,
+        noShadow,
+        editExisting,
+        releaseCapture,
+        daemon,
+        stopRecording,
+        longScreenshotStart,
+        longScreenshotCapture,
+        longScreenshotFinish,
+        longScreenshotCancel,
     };
 
     // Keep order in sync with allOptions
@@ -139,6 +169,10 @@ struct CommandLineOptions {
         ReleaseCapture,
         Daemon,
         StopRecording,
+        LongScreenshotStart,
+        LongScreenshotCapture,
+        LongScreenshotFinish,
+        LongScreenshotCancel,
         TotalOptions
     };
 };

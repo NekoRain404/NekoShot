@@ -515,6 +515,10 @@ Comment[zh_CN]=已使用 OCR 从图像中提取文本
 Comment[zh_TW]=已透過文字辨識從影像取出文字
 Action=Popup
 
+[Event/longScreenshotSaved]
+Name=Long screenshot saved
+Comment=A stitched long screenshot was written to disk.
+
 [Event/recordingFormatChanged]
 Name=Recording format changed
 Comment=The preferred video format is not available for window recording.

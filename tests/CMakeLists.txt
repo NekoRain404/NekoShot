@@ -50,6 +50,13 @@ ecm_add_test(NiriCaptureTest.cpp
 )
 
 ecm_add_test(
+    LongScreenshotTest.cpp
+    ../src/LongScreenshot.cpp
+    TEST_NAME "long_screenshot_test"
+    LINK_LIBRARIES Qt::Test Qt::Core Qt::Gui
+)
+
+ecm_add_test(
     AudioDevicesTest.cpp
     ../src/Platforms/AudioDevices.cpp
     TEST_NAME "audio_devices_test"

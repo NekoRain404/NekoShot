@@ -50,6 +50,16 @@ QQC.Dialog {
         return title.indexOf(needle) !== -1 || appId.indexOf(needle) !== -1
     }
 
+    header: QQC.Label {
+        text: root.title
+        font.bold: true
+        horizontalAlignment: Text.AlignHCenter
+        leftPadding: Kirigami.Units.mediumSpacing
+        rightPadding: Kirigami.Units.mediumSpacing
+        topPadding: Kirigami.Units.smallSpacing
+        bottomPadding: Kirigami.Units.smallSpacing
+    }
+
     contentItem: ColumnLayout {
         spacing: Kirigami.Units.smallSpacing
 

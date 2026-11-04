@@ -4,6 +4,21 @@ All notable changes to NekoShot are documented here. The format is based on
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project
 follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### Added
+
+- **Audio device selection**: the recording settings list every
+  PulseAudio/PipeWire monitor source and microphone, and the choice is stored
+  in `videoSystemAudioSource` / `videoMicrophoneSource`. Empty means "default",
+  and a configured device that disappears stays visible as "(unavailable)"
+  instead of silently falling back.
+- **Per-application audio**: a recording can capture a single application's
+  PipeWire node (`videoAppAudio`, chosen from the applications currently
+  playing audio). The application name is stored and its node resolved again
+  for every recording; a recording fails with a clear message when the
+  application is not playing. ScreenCast is required for this path.
+
 ## [0.10.5] - 2026-11-04
 
 ### Added

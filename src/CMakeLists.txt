@@ -51,6 +51,7 @@ target_sources(nekoshot PRIVATE
     Logging.cpp
     Main.cpp
     PlasmaVersion.cpp
+    Platforms/AudioDevices.cpp
     Platforms/ClipboardGuard.cpp
     Platforms/IdleInhibitor.cpp
     Platforms/ImageComposition.cpp

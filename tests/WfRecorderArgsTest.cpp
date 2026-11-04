@@ -47,6 +47,8 @@ private Q_SLOTS:
     void testScreencastStartGuard();
     void testScreencastPendingGeneration();
     void testRecordingStopReason();
+    void testGstAudioDeviceSelection();
+    void testGstApplicationAudio();
 };
 
 void WfRecorderArgsTest::testRegionArguments()
@@ -895,6 +897,60 @@ void WfRecorderArgsTest::testRecordingStopReason()
 
     // Duration wins when both limits are reached in the same check.
     QCOMPARE(VideoPlatformNiri::stopReasonFor(60 * 1000, 1, 200 * mib, 100), Reason::MaxDuration);
+}
+
+void WfRecorderArgsTest::testGstAudioDeviceSelection()
+{
+    auto capabilities = fullGstCapabilities();
+    capabilities.pulsesrc = true;
+    const auto args = VideoPlatformNiri::gstArguments(VideoPlatform::MP4_H264,
+                                                      49,
+                                                      u"/tmp/rec.mp4"_s,
+                                                      capabilities,
+                                                      VideoPlatformNiri::AudioMode::System,
+                                                      {},
+                                                      10000,
+                                                      {},
+                                                      u"alsa_output.speaker.monitor"_s);
+    const int pulsesrcIndex = args.indexOf(u"pulsesrc"_s);
+    QVERIFY(pulsesrcIndex > 0);
+    QCOMPARE(args.value(pulsesrcIndex + 1), u"device=alsa_output.speaker.monitor"_s);
+
+    // An empty setting keeps the default monitor source.
+    const auto defaults = VideoPlatformNiri::gstArguments(VideoPlatform::MP4_H264, 49, u"/tmp/rec.mp4"_s, capabilities, VideoPlatformNiri::AudioMode::System);
+    const int defaultIndex = defaults.indexOf(u"pulsesrc"_s);
+    QVERIFY(defaultIndex > 0);
+    QCOMPARE(defaults.value(defaultIndex + 1), u"device=@DEFAULT_MONITOR@"_s);
+}
+
+void WfRecorderArgsTest::testGstApplicationAudio()
+{
+    auto capabilities = fullGstCapabilities();
+    // Per-application audio reads the application's PipeWire node, so pulsesrc
+    // is not required for a system-only audio recording.
+    capabilities.pulsesrc = false;
+    const auto args = VideoPlatformNiri::gstArguments(VideoPlatform::MP4_H264,
+                                                      49,
+                                                      u"/tmp/rec.mp4"_s,
+                                                      capabilities,
+                                                      VideoPlatformNiri::AudioMode::System,
+                                                      {},
+                                                      10000,
+                                                      {},
+                                                      {},
+                                                      101);
+    QVERIFY(!args.isEmpty());
+    QVERIFY(!args.contains(u"pulsesrc"_s));
+    const int appIndex = args.indexOf(u"pipewiresrc"_s);
+    QVERIFY(appIndex > 0);
+    QCOMPARE(args.value(appIndex + 1), u"path=101"_s);
+    // The video source keeps its own pipewiresrc entry.
+    QCOMPARE(args.count(u"pipewiresrc"_s), 2);
+
+    // Mixing application audio with a microphone still needs pulsesrc.
+    QVERIFY(VideoPlatformNiri::
+                gstArguments(VideoPlatform::MP4_H264, 49, u"/tmp/rec.mp4"_s, capabilities, VideoPlatformNiri::AudioMode::Both, {}, 10000, {}, {}, 101)
+                    .isEmpty());
 }
 
 QTEST_GUILESS_MAIN(WfRecorderArgsTest)

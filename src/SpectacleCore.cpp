@@ -24,6 +24,7 @@
 #if WITH_X11
 #include "Platforms/ImagePlatformXcb.h"
 #endif
+#include "Platforms/AudioDevices.h"
 #include "Platforms/NiriIpc.h"
 #include "Platforms/NiriPlatform.h"
 #include "Platforms/PlatformLoader.h"
@@ -1807,6 +1808,50 @@ QVariantList SpectacleCore::availableWindows() const
         entry.insert(u"id"_s, QVariant::fromValue<qulonglong>(window.id));
         entry.insert(u"title"_s, window.title.isEmpty() ? (window.appId.isEmpty() ? i18n("Untitled window") : window.appId) : window.title);
         entry.insert(u"appId"_s, window.appId);
+        result.append(entry);
+    }
+    return result;
+}
+
+QVariantList SpectacleCore::availableAudioSources() const
+{
+    QString error;
+    const auto sources = AudioDevices::sources(&error);
+    if (!error.isEmpty()) {
+        qWarning() << "Could not list audio sources:" << error;
+    }
+    QVariantList result;
+    result.reserve(sources.size());
+    for (const auto &source : sources) {
+        QVariantMap entry;
+        entry.insert(u"name"_s, source.name);
+        entry.insert(u"description"_s, source.description.isEmpty() ? source.name : source.description);
+        entry.insert(u"isMonitor"_s, source.isMonitor);
+        result.append(entry);
+    }
+    return result;
+}
+
+QVariantList SpectacleCore::availableAudioApplications() const
+{
+    QString error;
+    const auto streams = AudioDevices::applicationStreams(&error);
+    if (!error.isEmpty()) {
+        qWarning() << "Could not list audio applications:" << error;
+    }
+    // Several streams may belong to one application; only offer it once.
+    QStringList seen;
+    QVariantList result;
+    for (const auto &stream : streams) {
+        if (seen.contains(stream.application)) {
+            continue;
+        }
+        seen.append(stream.application);
+        QVariantMap entry;
+        entry.insert(u"application"_s, stream.application);
+        entry.insert(u"title"_s,
+                     stream.title.isEmpty() ? stream.application
+                                            : i18nc("@item:inlistbox application name and stream title", "%1 — %2", stream.application, stream.title));
         result.append(entry);
     }
     return result;

@@ -107,6 +107,18 @@
         <label>Whether system audio is included in the recording</label>
         <default>false</default>
     </entry>
+    <entry name="videoSystemAudioSource" type="String">
+        <label>PulseAudio/PipeWire source used for system audio (empty = default output monitor)</label>
+        <default></default>
+    </entry>
+    <entry name="videoMicrophoneSource" type="String">
+        <label>PulseAudio/PipeWire source used for the microphone (empty = default input)</label>
+        <default></default>
+    </entry>
+    <entry name="videoAppAudio" type="String">
+        <label>Application whose audio is recorded instead of the whole output (empty = whole output)</label>
+        <default></default>
+    </entry>
     <entry name="videoRecordMicrophone" type="Bool">
         <label>Whether microphone audio is included in the recording</label>
         <default>false</default>

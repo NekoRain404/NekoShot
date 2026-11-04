@@ -46,7 +46,8 @@ stitching together `grim | slurp | satty` for every capture.
   annotations, OCR and QR scanning from KQuickImageEditor / tesseract / Prison.
 - **Recording**: Screen, window and region. Windows are listed with search (every open window,
   including other workspaces) or picked with `niri msg pick-window`; WebM/VP9+Opus,
-  MP4/H.264+AAC, MP4/H.265+AAC, MP4/AV1+AAC; system audio, microphone or both; pointer via
+  MP4/H.264+AAC, MP4/H.265+AAC, MP4/AV1+AAC; system audio, microphone or both, with
+  selectable monitor/microphone devices or a single playing application; pointer via
   `cursor-mode`; low/medium/high quality presets (4/10/18 Mbps).
 - **Robust recording**: fragmented MP4 survives crashes, an idle inhibitor prevents DPMS/lock
   interruptions, the output folder is re-checked every 10 s, locked sessions are rejected,

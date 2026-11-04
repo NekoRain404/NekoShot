@@ -99,6 +99,19 @@ Stop a recording when the output file reaches this size.
 .TP
 .B videoQuality
 Quality preset: 0 (low), 1 (medium), 2 (high).
+.TP
+.B videoSystemAudioSource
+PulseAudio/PipeWire source used for system audio; empty selects the default
+output monitor.
+.TP
+.B videoMicrophoneSource
+PulseAudio/PipeWire source used for the microphone; empty selects the default
+input.
+.TP
+.B videoAppAudio
+Record only this application's audio stream instead of the whole output;
+empty records the whole output.  The application has to be playing when the
+recording starts, and this requires the ScreenCast recording path.
 .SH ENVIRONMENT
 .TP
 .B NIRI_SOCKET

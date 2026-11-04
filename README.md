@@ -67,7 +67,7 @@ NekoShot（猫 + Shot）解决的是很具体的问题：在 niri 这种没有 K
 | 导出 | 复制、保存、另存、路径复制、临时文件拖拽；KIO 目标 |
 | 录屏 | 区域 / 屏幕 / 窗口；窗口可从全部窗口列表搜索选择，或改用 `niri msg pick-window` 点击选择 |
 | 编码 | WebM/VP9、MP4/H.264、MP4/H.265、MP4/AV1；低/中/高 4/10/18 Mbps 质量档 |
-| 音频 | 系统声音、麦克风、两者混音（Screen/Window/Region ScreenCast 路径） |
+| 音频 | 系统声音、麦克风、两者混音；可选择任意输出监听源/麦克风，也可只录某个正在播放声音的应用 |
 | 指针 | ScreenCast 录屏支持 `cursor-mode`；截图受 niri screencopy 限制（见[已知限制](#已知限制)） |
 | 常驻 | `--daemon` + niri binds；QML 预热后热键→遮罩约 0.1 秒 |
 | 稳健性 | fragmented MP4、录制期间 idle 抑制、磁盘/只读预检、最大时长/大小自动收尾、失败退出码、状态机防重入 |
@@ -191,6 +191,7 @@ D-Bus：`org.nekoshot.NekoShot`，对象路径 `/`，方法名与 Spectacle 一�
 - **WebM**：VP9 + Opus
 - **MP4**：H.264/AAC（优先 `vah264enc`，回退 `x264enc`）、H.265/AAC（`vah265enc`）、AV1/AAC（`vaav1enc`）
 - **质量档**：低 4 Mbps / 中 10 Mbps / 高 18 Mbps（默认中）
+- **音频设备**：系统声音可选任意输出监听源，麦克风可选任意输入源；也可只录某个正在播放声音的应用（PipeWire 节点级捕获）。
 
 Screen/Window/Region 的 ScreenCast 路径使用 `compositor + videorate` 固定 30 fps，静态窗口也会持续输出重复帧，
 不会产生 0.03 秒的单帧文件。窗口录屏会先列出所有打开的窗口（可按标题或应用搜索），

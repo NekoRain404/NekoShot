@@ -50,6 +50,13 @@ ecm_add_test(NiriCaptureTest.cpp
 )
 
 ecm_add_test(
+    AudioDevicesTest.cpp
+    ../src/Platforms/AudioDevices.cpp
+    TEST_NAME "audio_devices_test"
+    LINK_LIBRARIES Qt::Test Qt::Core
+)
+
+ecm_add_test(
     ClipboardGuardTest.cpp
     ../src/Platforms/ClipboardGuard.cpp
     TEST_NAME "clipboard_guard_test"
@@ -58,6 +65,7 @@ ecm_add_test(
 
 SET(WF_RECORDER_TEST_SRCS
     WfRecorderArgsTest.cpp
+    ../src/Platforms/AudioDevices.cpp
     ../src/Platforms/VideoPlatformNiri.cpp
     ../src/Platforms/VideoPlatform.cpp
     ../src/Platforms/NiriIpc.cpp

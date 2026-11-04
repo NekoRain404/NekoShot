@@ -106,6 +106,11 @@ public:
     /// Open windows for the window list picker: id, title and appId.
     Q_INVOKABLE QVariantList availableWindows() const;
 
+    /// PulseAudio/PipeWire sources: name, description and isMonitor.
+    Q_INVOKABLE QVariantList availableAudioSources() const;
+    /// Applications that are currently playing audio: application and title.
+    Q_INVOKABLE QVariantList availableAudioApplications() const;
+
     Q_INVOKABLE QString timeFromMilliseconds(qint64 milliseconds) const;
 
     ExportManager::Actions autoExportActions() const;

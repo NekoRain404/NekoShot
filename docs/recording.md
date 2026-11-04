@@ -414,3 +414,24 @@ Region AV1 via libaom (`/tmp/region-aom.mp4`): `av1 700x700`, 2.738767 s,
   `niri msg pick-window` reachable from its footer.
 - `niri msg action screenshot-window --id` means the same window ids already
   work for screenshots; the list itself is only wired into recording for now.
+
+---
+
+# Unreleased - audio device and per-application capture
+
+- `AudioDevices` runs `pactl -f json list sources` / `list sink-inputs`; the
+  parsers are pure and unit-tested. Monitor sources are recognised through the
+  non-empty `monitor_source` field.
+- `Settings` gained `videoSystemAudioSource`, `videoMicrophoneSource` and
+  `videoAppAudio`. Device choices are passed to `gstArguments()` as the
+  `systemSource` and `appAudioNode` parameters; existing callers keep the old
+  defaults.
+- Per-application capture resolves the stored application name to a PipeWire
+  node id (`object.id`) at recording start and consumes it with
+  `pipewiresrc path=N`. The node id is never persisted, because it changes when
+  the application restarts.
+- `needsPulseSrc()` keeps the "pulsesrc missing" gate honest: application-only
+  audio does not require `pulsesrc`, while microphone or mixed audio still
+  does.
+- wf-recorder can only take the default output or a named source, so a region
+  that falls back to it fails explicitly when application audio was selected.

@@ -118,7 +118,9 @@ public:
                                     AudioMode audio = AudioMode::None,
                                     const QString &microphone = {},
                                     int bitrateKbps = 10000,
-                                    const QMargins &cropMargins = {});
+                                    const QMargins &cropMargins = {},
+                                    const QString &systemSource = {},
+                                    quint32 appAudioNode = 0);
 
     /// Why a recording should stop on its own, if it should.
     enum class StopReason {
@@ -178,6 +180,8 @@ private:
                                   quint64 windowId,
                                   AudioMode audio,
                                   const QString &microphone,
+                                  const QString &systemSource,
+                                  quint32 appAudioNode,
                                   int bitrateKbps,
                                   const QMargins &cropMargins = {});
     // Asks niri which window to record. The pick runs asynchronously so the
@@ -204,6 +208,8 @@ private:
     RecordingMode m_screencastMode = NoRecordingModes;
     AudioMode m_pendingAudioMode = AudioMode::None;
     QString m_pendingMicrophone;
+    QString m_pendingSystemSource;
+    quint32 m_pendingAppAudioNode = 0;
     int m_pendingBitrateKbps = 10000;
     QMargins m_pendingCropMargins;
     bool m_gstRecording = false;

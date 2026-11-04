@@ -4,6 +4,7 @@
 
 #include "VideoPlatformNiri.h"
 
+#include "AudioDevices.h"
 #include "ExportManager.h"
 #include "NiriIpc.h"
 #include "NiriPlatform.h"
@@ -337,14 +338,27 @@ bool gstAudiomixerAvailable()
     return available;
 }
 
-QString gstAudioSupportError(Format format, AudioMode audio)
+bool audioNeedsPulseSrc(AudioMode audio, quint32 appAudioNode)
+{
+    if (audio == AudioMode::None) {
+        return false;
+    }
+    if (audio == AudioMode::Microphone || audio == AudioMode::Both) {
+        return true;
+    }
+    // System audio comes from a playing application's PipeWire node when one
+    // was selected, and from the default monitor source otherwise.
+    return appAudioNode == 0;
+}
+
+QString gstAudioSupportError(Format format, AudioMode audio, bool needsPulseSrc)
 {
     if (audio == AudioMode::None) {
         return {};
     }
 
     QStringList missing;
-    if (!gstPulsesrcAvailable()) {
+    if (needsPulseSrc && !gstPulsesrcAvailable()) {
         missing << u"pulsesrc"_s;
     }
     if (format == VideoPlatform::WebM_VP9 && !gstOpusencAvailable()) {
@@ -378,7 +392,7 @@ AudioMode audioModeFromSettings()
     return AudioMode::None;
 }
 
-GstCapabilities gstCapabilitiesFor(Format format, AudioMode audio)
+GstCapabilities gstCapabilitiesFor(Format format, AudioMode audio, bool needsPulseSrc)
 {
     GstCapabilities capabilities;
     const auto &support = gstScreencastSupport();
@@ -405,7 +419,7 @@ GstCapabilities gstCapabilitiesFor(Format format, AudioMode audio)
         break;
     }
     if (audio != AudioMode::None) {
-        capabilities.pulsesrc = gstPulsesrcAvailable();
+        capabilities.pulsesrc = needsPulseSrc ? gstPulsesrcAvailable() : true;
         if (format == VideoPlatform::WebM_VP9) {
             capabilities.opusenc = gstOpusencAvailable();
         } else if (isMp4Format(format)) {
@@ -969,9 +983,11 @@ QStringList VideoPlatformNiri::gstArguments(Format format,
                                             AudioMode audio,
                                             const QString &microphone,
                                             int bitrateKbps,
-                                            const QMargins &cropMargins)
+                                            const QMargins &cropMargins,
+                                            const QString &systemSource,
+                                            quint32 appAudioNode)
 {
-    if (audio != AudioMode::None && !capabilities.pulsesrc) {
+    if (audioNeedsPulseSrc(audio, appAudioNode) && !capabilities.pulsesrc) {
         return {};
     }
     if (audio == AudioMode::Both && !capabilities.audiomixer) {
@@ -1089,14 +1105,34 @@ QStringList VideoPlatformNiri::gstArguments(Format format,
             args << u"!"_s << u"audioresample"_s << u"!"_s << audioEncoder << u"!"_s << u"mux."_s;
         }
     };
+    // Per-application audio: consume the application's PipeWire node directly
+    // instead of the output monitor, so other applications stay out of the
+    // recording.
+    auto appendApplicationSource = [&](bool toMixer) {
+        args << u"pipewiresrc"_s << QStringLiteral("path=%1").arg(appAudioNode) << u"do-timestamp=true"_s << u"!"_s << u"audioconvert"_s;
+        if (toMixer) {
+            args << u"!"_s << u"amix."_s;
+        } else {
+            args << u"!"_s << u"audioresample"_s << u"!"_s << audioEncoder << u"!"_s << u"mux."_s;
+        }
+    };
+    const QString systemDevice = systemSource.isEmpty() ? u"@DEFAULT_MONITOR@"_s : systemSource;
 
     if (audio == AudioMode::Both) {
         args << u"audiomixer"_s << u"name=amix"_s << u"!"_s << u"audioconvert"_s << u"!"_s << u"audioresample"_s << u"!"_s << audioEncoder << u"!"_s
              << u"mux."_s;
-        appendPulseSource(u"@DEFAULT_MONITOR@"_s, true);
+        if (appAudioNode != 0) {
+            appendApplicationSource(true);
+        } else {
+            appendPulseSource(systemDevice, true);
+        }
         appendPulseSource(micDevice, true);
     } else if (audio == AudioMode::System) {
-        appendPulseSource(u"@DEFAULT_MONITOR@"_s, false);
+        if (appAudioNode != 0) {
+            appendApplicationSource(false);
+        } else {
+            appendPulseSource(systemDevice, false);
+        }
     } else if (audio == AudioMode::Microphone) {
         appendPulseSource(micDevice, false);
     }
@@ -1243,19 +1279,45 @@ void VideoPlatformNiri::startRecording(const QUrl &fileUrl, RecordingMode mode, 
     // unavailable, Screen falls back to wf-recorder below; Region always stays
     // on wf-recorder.
     const AudioMode screencastAudio = audioModeFromSettings();
+    QString microphone = options.value(u"microphone"_s).toString();
+    if (microphone.isEmpty() && Settings::videoRecordMicrophone()) {
+        microphone = Settings::videoMicrophoneSource();
+    }
+    const QString systemSource = Settings::videoSystemAudioSource();
+    // Per-application audio captures a playing application's PipeWire node.
+    // Its id changes every time the application restarts, so the setting stores
+    // the application name and is resolved again for every recording.
+    quint32 appAudioNode = 0;
+    if (screencastAudio != AudioMode::None && !Settings::videoAppAudio().isEmpty()) {
+        QString appError;
+        const auto node = AudioDevices::nodeIdForApplication(Settings::videoAppAudio(), &appError);
+        if (!node) {
+            if (!appError.isEmpty()) {
+                Q_EMIT recordingFailed(i18nc("@info:shell, %1 is an error message", "Failed to record: %1", appError));
+            } else {
+                Q_EMIT recordingFailed(
+                    i18nc("@info:shell, %1 is an application name", "Failed to record: %1 is not playing audio.", Settings::videoAppAudio()));
+            }
+            return;
+        }
+        appAudioNode = *node;
+    }
+    const bool audioNeedsPulse = audioNeedsPulseSrc(screencastAudio, appAudioNode);
     const bool screencastBuildable = mode == Window
         || ((mode == Screen || (mode == Region && regionCapture.has_value()))
             && !gstArguments(format,
                              0,
                              u"/dev/null"_s,
-                             gstCapabilitiesFor(format, screencastAudio),
+                             gstCapabilitiesFor(format, screencastAudio, audioNeedsPulse),
                              screencastAudio,
-                             options.value(u"microphone"_s).toString(),
+                             microphone,
                              bitrateKbps,
-                             regionCapture ? regionCapture->margins : QMargins())
+                             regionCapture ? regionCapture->margins : QMargins(),
+                             systemSource,
+                             appAudioNode)
                     .isEmpty());
     if ((mode == Screen || mode == Window || (mode == Region && regionCapture.has_value())) && gstScreencastAvailable() && screencastBuildable) {
-        const AudioMode audio = audioModeFromSettings();
+        const AudioMode audio = screencastAudio;
         QString connector;
         if (mode == Region && regionCapture) {
             connector = regionCapture->output;
@@ -1285,7 +1347,9 @@ void VideoPlatformNiri::startRecording(const QUrl &fileUrl, RecordingMode mode, 
                                  connector,
                                  windowId,
                                  audio,
-                                 options.value(u"microphone"_s).toString(),
+                                 microphone,
+                                 systemSource,
+                                 appAudioNode,
                                  bitrateKbps,
                                  regionCapture ? regionCapture->margins : QMargins());
         return;
@@ -1293,6 +1357,13 @@ void VideoPlatformNiri::startRecording(const QUrl &fileUrl, RecordingMode mode, 
     if (mode == Window) {
         Q_EMIT recordingFailed(
             i18nc("@info:shell, %1 is an error message", "Failed to record: window recording is unavailable: %1.", gstScreencastSupportError()));
+        return;
+    }
+
+    if (appAudioNode != 0) {
+        // wf-recorder can only capture the default output or a named source,
+        // not a single application's PipeWire node.
+        Q_EMIT recordingFailed(i18n("Failed to record: application audio requires the ScreenCast recording path."));
         return;
     }
 
@@ -1329,16 +1400,13 @@ void VideoPlatformNiri::startRecording(const QUrl &fileUrl, RecordingMode mode, 
     const bool audioSupported = formatSupportsAudio(format);
 
     bool systemAudio = false;
-    QString microphone;
+    QString wfMicrophone;
     if (audioSupported) {
         systemAudio = Settings::videoRecordSystemAudio();
         if (Settings::videoRecordMicrophone()) {
-            microphone = options.value(u"microphone"_s).toString();
             // wf-recorder needs a PulseAudio/PipeWire source name; "default"
             // selects the default source, which is normally the microphone.
-            if (microphone.isEmpty()) {
-                microphone = u"default"_s;
-            }
+            wfMicrophone = microphone.isEmpty() ? u"default"_s : microphone;
         }
     }
 
@@ -1367,7 +1435,7 @@ void VideoPlatformNiri::startRecording(const QUrl &fileUrl, RecordingMode mode, 
     }
 
     m_stderr.clear();
-    m_process.start(u"wf-recorder"_s, argumentsFor(mode, outputUrl.toLocalFile(), region, format, systemAudio, microphone, bitrateKbps));
+    m_process.start(u"wf-recorder"_s, argumentsFor(mode, outputUrl.toLocalFile(), region, format, systemAudio, wfMicrophone, bitrateKbps));
     if (!m_process.waitForStarted(s_startTimeoutMsec)) {
         m_process.kill();
         m_process.waitForFinished(s_killTimeoutMsec);
@@ -1542,6 +1610,8 @@ void VideoPlatformNiri::startScreencastRecording(RecordingMode mode,
                                                  quint64 windowId,
                                                  AudioMode audio,
                                                  const QString &microphone,
+                                                 const QString &systemSource,
+                                                 quint32 appAudioNode,
                                                  int bitrateKbps,
                                                  const QMargins &cropMargins)
 {
@@ -1563,7 +1633,7 @@ void VideoPlatformNiri::startScreencastRecording(RecordingMode mode,
         Q_EMIT recordingFailed(i18nc("@info:shell, %1 is an error message", "Failed to record: %1.", videoError));
         return;
     }
-    const QString audioError = gstAudioSupportError(format, audio);
+    const QString audioError = gstAudioSupportError(format, audio, audioNeedsPulseSrc(audio, appAudioNode));
     if (!audioError.isEmpty()) {
         Q_EMIT recordingFailed(i18nc("@info:shell, %1 is an error message", "Failed to record: %1.", audioError));
         return;
@@ -1602,6 +1672,8 @@ void VideoPlatformNiri::startScreencastRecording(RecordingMode mode,
     m_screencastMode = mode;
     m_pendingAudioMode = audio;
     m_pendingMicrophone = microphone;
+    m_pendingSystemSource = systemSource;
+    m_pendingAppAudioNode = appAudioNode;
     m_pendingBitrateKbps = bitrateKbps;
     m_pendingCropMargins = cropMargins;
 
@@ -1707,14 +1779,16 @@ void VideoPlatformNiri::maybeStartGst()
         return;
     }
 
-    const QString audioError = gstAudioSupportError(format, m_pendingAudioMode);
+    const quint32 appAudioNode = m_pendingAppAudioNode;
+    const bool audioNeedsPulse = audioNeedsPulseSrc(m_pendingAudioMode, appAudioNode);
+    const QString audioError = gstAudioSupportError(format, m_pendingAudioMode, audioNeedsPulse);
     if (!audioError.isEmpty()) {
         failScreencastRecording(i18nc("@info:shell, %1 is an error message", "Failed to start screencast recording: %1.", audioError));
         return;
     }
 
     const quint32 nodeId = m_pendingNodeId;
-    const GstCapabilities capabilities = gstCapabilitiesFor(format, m_pendingAudioMode);
+    const GstCapabilities capabilities = gstCapabilitiesFor(format, m_pendingAudioMode, audioNeedsPulse);
     const QStringList args = gstArguments(format,
                                           nodeId,
                                           m_fileUrl.toLocalFile(),
@@ -1722,7 +1796,9 @@ void VideoPlatformNiri::maybeStartGst()
                                           m_pendingAudioMode,
                                           m_pendingMicrophone,
                                           m_pendingBitrateKbps,
-                                          m_pendingCropMargins);
+                                          m_pendingCropMargins,
+                                          m_pendingSystemSource,
+                                          appAudioNode);
     if (args.isEmpty()) {
         failScreencastRecording(i18n("Failed to start screencast recording: the stream format is not supported."));
         return;
@@ -1761,6 +1837,8 @@ void VideoPlatformNiri::stopScreencastSession()
     m_screencastMode = NoRecordingModes;
     m_pendingAudioMode = AudioMode::None;
     m_pendingMicrophone.clear();
+    m_pendingSystemSource.clear();
+    m_pendingAppAudioNode = 0;
 
     if (m_screencastSessionPath.isEmpty()) {
         return;

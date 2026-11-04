@@ -65,12 +65,12 @@ NekoShot（猫 + Shot）解决的是很具体的问题：在 niri 这种没有 K
 | 标注 | KQuickImageEditor：箭头、文字、矩形、椭圆、高亮、模糊、撤销/重做；颜色弹层内置 HSV 取色 |
 | OCR / 二维码 | tesseract C API；二维码沿用上游 Prison |
 | 导出 | 复制、保存、另存、路径复制、临时文件拖拽；KIO 目标 |
-| 录屏 | 区域 / 屏幕 / 窗口；窗口通过 `niri msg pick-window` 点击选择 |
+| 录屏 | 区域 / 屏幕 / 窗口；窗口可从全部窗口列表搜索选择，或改用 `niri msg pick-window` 点击选择 |
 | 编码 | WebM/VP9、MP4/H.264、MP4/H.265、MP4/AV1；低/中/高 4/10/18 Mbps 质量档 |
 | 音频 | 系统声音、麦克风、两者混音（Screen/Window/Region ScreenCast 路径） |
 | 指针 | ScreenCast 录屏支持 `cursor-mode`；截图受 niri screencopy 限制（见[已知限制](#已知限制)） |
 | 常驻 | `--daemon` + niri binds；QML 预热后热键→遮罩约 0.1 秒 |
-| 稳健性 | fragmented MP4、录制期间 idle 抑制、磁盘/只读预检、失败退出码、状态机防重入 |
+| 稳健性 | fragmented MP4、录制期间 idle 抑制、磁盘/只读预检、最大时长/大小自动收尾、失败退出码、状态机防重入 |
 
 ## 安装
 
@@ -80,7 +80,7 @@ NekoShot（猫 + Shot）解决的是很具体的问题：在 niri 这种没有 K
 `nekoshot-<version>-1-x86_64.pkg.tar.zst`，然后：
 
 ```bash
-sudo pacman -U nekoshot-0.10.4-1-x86_64.pkg.tar.zst
+sudo pacman -U nekoshot-0.10.5-1-x86_64.pkg.tar.zst
 ```
 
 包会安装二进制、桌面文件、D-Bus/systemd 单元、KConfig schema、通知、翻译、图标和
@@ -193,7 +193,8 @@ D-Bus：`org.nekoshot.NekoShot`，对象路径 `/`，方法名与 Spectacle 一�
 - **质量档**：低 4 Mbps / 中 10 Mbps / 高 18 Mbps（默认中）
 
 Screen/Window/Region 的 ScreenCast 路径使用 `compositor + videorate` 固定 30 fps，静态窗口也会持续输出重复帧，
-不会产生 0.03 秒的单帧文件。窗口录屏通过 `niri msg pick-window` 选择，不需要先手动聚焦。
+不会产生 0.03 秒的单帧文件。窗口录屏会先列出所有打开的窗口（可按标题或应用搜索），
+包括其他工作区和被遮挡的窗口；也可以用列表底部的“用鼠标选择”走 `niri msg pick-window`。
 
 ## 性能
 
@@ -215,6 +216,8 @@ Screen/Window/Region 的 ScreenCast 路径使用 `compositor + videorate` 固定
 - **锁屏/DPMS**：录制期间持有 logind idle 抑制（ScreenSaver 回退），防止长录被空闲中断。
 - **资源预检与看门狗**：只读目录、剩余空间不足 64 MB 时直接拒绝；录制中每 10 秒复查，
   空间不足时自动收尾；编码器输出 0 字节按失败处理；锁屏会话直接拒绝。
+- **自动停止上限**：设置 → 录像可以指定最大时长（分钟）和最大文件大小（MiB），0 表示不限制；
+  到达上限时按正常流程收尾并弹出通知，文件保持可播放。
 - **失败可见**：直接 one-shot 的后台截图/录制失败返回退出码 1；警告/错误写入
   `~/.local/state/nekoshot/nekoshot.log`（1 MB 轮转）；D-Bus 提供 `IsRecording()` 与 `LastError()`。
 - **状态机**：拾取器等待中 Stop 会取消；finalize 期间二次 Stop 不会杀编码器；剪贴板快照/恢复在进程内串行化。
@@ -227,9 +230,9 @@ Screen/Window/Region 的 ScreenCast 路径使用 `compositor + videorate` 固定
 - **截图指针**：niri 的 screencopy 不合成光标；截图设置中的指针选项在 niri 下禁用，`-p` 对截图不生效。录屏通过 `cursor-mode` 支持指针。
 - **多屏 / 混合 DPI / 负原点**：代码按每个输出的物理尺寸和图像本地坐标裁剪，负原点不再拒绝，但真实多屏环境尚未做端到端验收，目前只有单元测试覆盖几何换算。
 - **Region 跨输出**：回退 `wf-recorder`，失去指针和 ScreenCast 编码；该回退文件不是 fragmented MP4，但异常退出时会尝试 ffmpeg remux 并保留 `.broken` 原件。
-- **Window 拾取**：只能选当前可见窗口；没有窗口列表/搜索。
 - **录制起始延迟**：ScreenCast/PipeWire 协商可能让文件比等待时间短 4–10 秒；尚无“录制已开始”提示。
-- **A/V 起始对齐**：总时长漂移已测（67 秒约 53 ms），首帧音画偏移未测。
+- **A/V 起始对齐**：容器层两路 `start_time` 均为 0（4 秒 H.264+AAC 实测），总时长漂移约 53 ms/67 秒；
+  更长的端到端音画偏移仍需专门测量。
 - **转发 CLI**：`nekoshot -r` 等请求发给常驻实例后 CLI 先退出，不等待最终保存；`--stop-recording` 返回也不代表文件写完。直接 one-shot 的退出码可靠。
 - **D-Bus 默认开放**：默认允许同会话程序触发截图/录制，与 Spectacle 语义一致；可在设置中关闭。
 - **分享**：KDE Purpose 分享菜单已移除，专注本地导出。

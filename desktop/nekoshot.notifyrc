@@ -523,6 +523,10 @@ Comment=The preferred video format is not available for window recording.
 Name=Recording stopped: disk almost full
 Comment=The output folder ran out of free space and the recording was finalized.
 
+[Event/recordingLimitReached]
+Name=Recording limit reached
+Comment=The recording stopped because it reached the configured duration or size limit.
+
 [Event/recordingRecovered]
 Name=Recording repaired
 Comment=The encoder failed but a partial or remuxed file was kept.

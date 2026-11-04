@@ -1,6 +1,6 @@
 .\" SPDX-FileCopyrightText: 2026 NekoShot contributors
 .\" SPDX-License-Identifier: GPL-2.0-or-later
-.TH NEKOSHOT 1 "2026-10-29" "nekoshot 0.10.4" "User Commands"
+.TH NEKOSHOT 1 "2026-11-04" "nekoshot 0.10.5" "User Commands"
 .SH NAME
 nekoshot \- Spectacle-based screenshot and screen recording utility for niri
 .SH SYNOPSIS
@@ -84,6 +84,21 @@ Default screenshot location.
 .TP
 .I ~/Videos/Screencasts
 Default recording location.
+.SH SETTINGS
+Recording limits live in the
+.B VideoSave
+group of
+.IR ~/.config/nekoshotrc .
+A value of 0 disables the limit.
+.TP
+.B videoMaxDurationMinutes
+Stop a recording after this many minutes.
+.TP
+.B videoMaxSizeMiB
+Stop a recording when the output file reaches this size.
+.TP
+.B videoQuality
+Quality preset: 0 (low), 1 (medium), 2 (high).
 .SH ENVIRONMENT
 .TP
 .B NIRI_SOCKET
@@ -100,7 +115,8 @@ Capture a region headlessly and write it to a file.
 Record the focused output until \fBnekoshot \-\-stop\-recording\fR is called.
 .TP
 .B nekoshot \-R w
-Pick a window with the pointer and record it.
+Open the window list and record the chosen window.  The list footer also
+offers picking a window with the pointer.
 .SH SEE ALSO
 .BR grim (1),
 .BR wf-recorder (1),

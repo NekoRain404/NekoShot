@@ -382,3 +382,34 @@ Region AV1 via libaom (`/tmp/region-aom.mp4`): `av1 700x700`, 2.738767 s,
   exit with a zero-byte file is treated as a failure.
 - wf-recorder fallback is still non-fragmented; see
   [robustness.md](robustness.md) for the full failure matrix.
+
+---
+
+# 0.10.5 additions - recording limits and window list
+
+## Recording limits
+
+- `Settings` gained `videoMaxDurationMinutes` and `videoMaxSizeMiB` (0 disables
+  each limit), editable under Settings → Video.
+- `VideoPlatformNiri::stopReasonFor()` is a pure check shared by both limits.
+  Duration uses an exact single-shot `QTimer` armed when the recording state
+  becomes `Recording`; size is evaluated by the existing 10-second health
+  timer, so a size limit can overshoot by up to one tick.
+- Reaching a limit calls `stopForLimit()`, which sends a
+  `recordingLimitReached` notification and then uses the normal
+  `finishRecording()` path, so fragmented MP4 finalisation, `Rendering` state
+  and the save/export flow are unchanged.
+
+## Window list
+
+- `NiriIpc::windows()` runs `niri msg --json windows`; `parseWindows()` skips
+  entries without a numeric id and rejects non-array documents.
+- `SpectacleCore::availableWindows()` converts the list to QML-friendly maps
+  (`id`, `title`, `appId`, with the app id as a title fallback) and
+  `startRecordingForWindow()` injects `window_id` into the options map, so the
+  existing `startScreencastRecording()` path handles every workspace, not just
+  the visible one.
+- `WindowPickerDialog.qml` is opened by the Window recording button. It filters
+  by title or app id and keeps `niri msg pick-window` reachable from its footer.
+- `niri msg action screenshot-window --id` means the same window ids already
+  work for screenshots; the list itself is only wired into recording for now.

@@ -24,6 +24,7 @@
 #if WITH_X11
 #include "Platforms/ImagePlatformXcb.h"
 #endif
+#include "Platforms/NiriIpc.h"
 #include "Platforms/NiriPlatform.h"
 #include "Platforms/PlatformLoader.h"
 #include "RecordingModeModel.h"
@@ -1778,6 +1779,40 @@ void SpectacleCore::unityLauncherUpdate(const QVariantMap &properties) const
 
 void SpectacleCore::startRecording(VideoPlatform::RecordingMode mode, bool withPointer)
 {
+    startRecordingWithOptions(mode, {}, withPointer);
+}
+
+void SpectacleCore::startRecordingForWindow(qulonglong windowId, bool withPointer)
+{
+    if (windowId == 0) {
+        return;
+    }
+    QVariantMap options;
+    options.insert(u"window_id"_s, QVariant::fromValue<qulonglong>(windowId));
+    startRecordingWithOptions(VideoPlatform::Window, options, withPointer);
+}
+
+QVariantList SpectacleCore::availableWindows() const
+{
+    QString error;
+    const auto windows = NiriIpc::windows(&error);
+    if (!error.isEmpty()) {
+        qWarning() << "Could not list windows:" << error;
+    }
+    QVariantList result;
+    result.reserve(windows.size());
+    for (const auto &window : windows) {
+        QVariantMap entry;
+        entry.insert(u"id"_s, QVariant::fromValue<qulonglong>(window.id));
+        entry.insert(u"title"_s, window.title.isEmpty() ? (window.appId.isEmpty() ? i18n("Untitled window") : window.appId) : window.title);
+        entry.insert(u"appId"_s, window.appId);
+        result.append(entry);
+    }
+    return result;
+}
+
+void SpectacleCore::startRecordingWithOptions(VideoPlatform::RecordingMode mode, const QVariantMap &options, bool withPointer)
+{
     if (m_videoPlatform->isRecordingOrStarting() || mode == VideoPlatform::NoRecordingModes) {
         return;
     }
@@ -1794,7 +1829,7 @@ void SpectacleCore::startRecording(VideoPlatform::RecordingMode mode, bool withP
     m_lastRecordingMode = mode;
     setVideoMode(true);
     const auto &output = m_outputUrl.isLocalFile() ? videoOutputUrl() : QUrl();
-    m_videoPlatform->startRecording(output, mode, {}, withPointer);
+    m_videoPlatform->startRecording(output, mode, options, withPointer);
 }
 
 void SpectacleCore::finishRecording()

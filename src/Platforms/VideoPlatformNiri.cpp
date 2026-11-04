@@ -553,14 +553,32 @@ VideoPlatformNiri::VideoPlatformNiri(QObject *parent)
             // file is finalised.
             m_idleInhibitor.start();
             m_diskCheckTimer.start();
+            // The duration limit fires exactly when it expires; the 10 s health
+            // timer below covers the file size limit.
+            const int maxMinutes = Settings::videoMaxDurationMinutes();
+            if (maxMinutes > 0) {
+                m_limitTimer.start(maxMinutes * 60 * 1000);
+            }
         } else if (state == RecordingState::NotRecording || state == RecordingState::Finished) {
             m_idleInhibitor.stop();
             m_diskCheckTimer.stop();
+            m_limitTimer.stop();
         }
+    });
+    m_limitTimer.setSingleShot(true);
+    connect(&m_limitTimer, &QTimer::timeout, this, [this] {
+        stopForLimit(StopReason::MaxDuration);
     });
     m_diskCheckTimer.setInterval(s_diskCheckIntervalMsec);
     connect(&m_diskCheckTimer, &QTimer::timeout, this, [this] {
         if (recordingState() != RecordingState::Recording || m_fileUrl.isEmpty()) {
+            return;
+        }
+        const QFileInfo fileInfo(m_fileUrl.toLocalFile());
+        const auto limitReason =
+            stopReasonFor(recordedTime(), Settings::videoMaxDurationMinutes(), fileInfo.exists() ? fileInfo.size() : 0, Settings::videoMaxSizeMiB());
+        if (limitReason != StopReason::None) {
+            stopForLimit(limitReason);
             return;
         }
         const QStorageInfo storage(QFileInfo(m_fileUrl.toLocalFile()).absolutePath());
@@ -892,6 +910,19 @@ int VideoPlatformNiri::bitrateKbpsForQuality(int quality)
     default:
         return 10000;
     }
+}
+
+VideoPlatformNiri::StopReason VideoPlatformNiri::stopReasonFor(qint64 recordedMsec, int maxDurationMinutes, qint64 fileBytes, int maxSizeMiB)
+{
+    // 0 disables a limit. The duration check is inclusive so a recording that
+    // lands exactly on the limit stops instead of running one more tick.
+    if (maxDurationMinutes > 0 && recordedMsec >= qint64(maxDurationMinutes) * 60 * 1000) {
+        return StopReason::MaxDuration;
+    }
+    if (maxSizeMiB > 0 && fileBytes >= qint64(maxSizeMiB) * 1024 * 1024) {
+        return StopReason::MaxSize;
+    }
+    return StopReason::None;
 }
 
 QStringList VideoPlatformNiri::argumentsFor(RecordingMode mode,
@@ -1356,6 +1387,21 @@ bool VideoPlatformNiri::screencastStartAllowed(bool pending, const QString &sess
 bool VideoPlatformNiri::screencastPendingGenerationIsCurrent(bool pending, quint64 expectedGeneration, quint64 currentGeneration)
 {
     return pending && expectedGeneration == currentGeneration;
+}
+
+void VideoPlatformNiri::stopForLimit(StopReason reason)
+{
+    if (recordingState() != RecordingState::Recording || reason == StopReason::None) {
+        return;
+    }
+    m_limitTimer.stop();
+    qCWarning(SPECTACLE_LOG) << "Recording stopped by a configured limit:" << (reason == StopReason::MaxDuration ? "duration" : "size");
+    auto notification = new KNotification(u"recordingLimitReached"_s, KNotification::CloseOnTimeout, this);
+    notification->setTitle(i18n("Recording stopped"));
+    notification->setText(reason == StopReason::MaxDuration ? i18n("The recording reached the configured maximum duration.")
+                                                            : i18n("The recording reached the configured maximum file size."));
+    notification->sendEvent();
+    finishRecording();
 }
 
 void VideoPlatformNiri::finishRecording()

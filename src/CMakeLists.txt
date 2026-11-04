@@ -201,6 +201,7 @@ qt_target_qml_sources(nekoshot
     Gui/TtToolButton.qml
     Gui/UndoRedoGroup.qml
     Gui/ViewerPage.qml
+    Gui/WindowPickerDialog.qml
 )
 
 install(TARGETS nekoshot ${KDE_INSTALL_TARGETS_DEFAULT_ARGS})

@@ -4,6 +4,35 @@ All notable changes to NekoShot are documented here. The format is based on
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project
 follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.10.5] - 2026-11-04
+
+### Added
+
+- **Recording limits**: Settings → Video now offers a maximum duration (minutes)
+  and a maximum file size (MiB); 0 keeps the previous unlimited behaviour. When
+  a limit is reached the recording is finalized through the regular stop path,
+  the user is notified, and the file stays playable.
+- **Window list picker**: recording a window now opens a searchable list of
+  every open window, including windows on other workspaces or covered by the
+  overlay. The interactive `niri msg pick-window` workflow remains available
+  from the list footer.
+- Fault-injection coverage in the live integration test: an unwritable output
+  folder must fail with a non-zero exit code and leave no file behind.
+- Optional A/V start-alignment check (opt in with `NEKOSHOT_AV_TEST=1`) that
+  compares the container start times of the video and audio streams.
+
+### Changed
+
+- The Window recording button opens the window list instead of immediately
+  starting the click-to-pick workflow.
+- The duration limit uses an exact one-shot timer; the size limit is evaluated
+  by the existing 10-second recording health check.
+
+### Tests
+
+- `stopReasonFor()` covers disabled, exact-boundary and combined limits.
+- `parseWindows()` covers skipped entries and non-array/malformed documents.
+
 ## [0.10.4] - 2026-11-04
 
 ### Fixed

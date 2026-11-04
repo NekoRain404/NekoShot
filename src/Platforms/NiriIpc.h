@@ -56,4 +56,7 @@ std::optional<Output> focusedOutput(QString *error = nullptr);
 std::optional<Output> outputForWindow(const Window &window, QString *error = nullptr);
 std::optional<Window> focusedWindow(QString *error = nullptr);
 std::optional<Window> pickWindow(QString *error = nullptr);
+// All open windows, in niri's order. Entries without a numeric id are skipped.
+QList<Window> parseWindows(const QByteArray &json, QString *error = nullptr);
+QList<Window> windows(QString *error = nullptr);
 }

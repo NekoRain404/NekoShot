@@ -120,6 +120,21 @@ public:
                                     int bitrateKbps = 10000,
                                     const QMargins &cropMargins = {});
 
+    /// Why a recording should stop on its own, if it should.
+    enum class StopReason {
+        None,
+        MaxDuration,
+        MaxSize,
+    };
+
+    /**
+     * Pure limit check used by the recording health timer.
+     *
+     * A limit of 0 disables that dimension. Duration uses the length reported
+     * by the base class, size uses the bytes already written by the encoder.
+     */
+    static StopReason stopReasonFor(qint64 recordedMsec, int maxDurationMinutes, qint64 fileBytes, int maxSizeMiB);
+
     /// True when a new recording may start. Pending screencast starts and
     /// active screencast sessions block a second request just like a running
     /// encoder.
@@ -171,6 +186,7 @@ private:
     void startWindowPick(const QUrl &fileUrl, const QVariantMap &options, bool includePointer);
     void handleWindowPickFinished(int exitCode, QProcess::ExitStatus status);
     void cancelWindowPick(const QString &message);
+    void stopForLimit(StopReason reason);
     void maybeStartGst();
     void stopScreencastSession();
     void failScreencastRecording(const QString &message);
@@ -178,6 +194,7 @@ private:
     QProcess m_process;
     IdleInhibitor m_idleInhibitor;
     QTimer m_diskCheckTimer;
+    QTimer m_limitTimer;
     QProcess m_windowPickProcess;
     QByteArray m_stderr;
     QUrl m_fileUrl;

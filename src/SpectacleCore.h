@@ -98,7 +98,13 @@ public:
     void syncExportImage();
 
     Q_INVOKABLE void startRecording(VideoPlatform::RecordingMode mode, bool withPointer = Settings::videoIncludePointer());
+    /// Records a specific window chosen from the window list instead of the
+    /// interactive picker, so windows on other workspaces are reachable.
+    Q_INVOKABLE void startRecordingForWindow(qulonglong windowId, bool withPointer = Settings::videoIncludePointer());
     Q_INVOKABLE void finishRecording();
+
+    /// Open windows for the window list picker: id, title and appId.
+    Q_INVOKABLE QVariantList availableWindows() const;
 
     Q_INVOKABLE QString timeFromMilliseconds(qint64 milliseconds) const;
 
@@ -151,6 +157,10 @@ Q_SIGNALS:
     void ocrStatusChanged();
 
 private:
+    // Shared setup for the GUI recording entry points: hides the capture
+    // overlay, keeps the event loop alive and forwards the options.
+    void startRecordingWithOptions(VideoPlatform::RecordingMode mode, const QVariantMap &options, bool withPointer);
+
     explicit SpectacleCore(QObject *parent = nullptr);
 
     enum class ScreenCapture {

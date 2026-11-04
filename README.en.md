@@ -44,12 +44,14 @@ stitching together `grim | slurp | satty` for every capture.
   cursor, scaled all-screens, delay and pointer options.
 - **Native layer-shell overlay**: frozen image, magnifier, keyboard nudging, selection memory,
   annotations, OCR and QR scanning from KQuickImageEditor / tesseract / Prison.
-- **Recording**: Screen, window (picked with `niri msg pick-window`) and region. WebM/VP9+Opus,
+- **Recording**: Screen, window and region. Windows are listed with search (every open window,
+  including other workspaces) or picked with `niri msg pick-window`; WebM/VP9+Opus,
   MP4/H.264+AAC, MP4/H.265+AAC, MP4/AV1+AAC; system audio, microphone or both; pointer via
   `cursor-mode`; low/medium/high quality presets (4/10/18 Mbps).
 - **Robust recording**: fragmented MP4 survives crashes, an idle inhibitor prevents DPMS/lock
   interruptions, the output folder is re-checked every 10 s, locked sessions are rejected,
   encoder failures are partially recovered/remuxed, and one-shot failures return exit code 1.
+  Optional maximum duration and file size stop a recording cleanly through the normal path.
 - **Fast hotkeys**: `--daemon` preloads QML; hotkey→overlay is ~0.25 s on the first press and
   ~0.11 s afterwards on the reference machine.
 
@@ -59,7 +61,7 @@ Download `nekoshot-<version>-1-x86_64.pkg.tar.zst` from
 [Releases](https://github.com/NekoRain404/NekoShot/releases/latest):
 
 ```bash
-sudo pacman -U nekoshot-0.10.4-1-x86_64.pkg.tar.zst
+sudo pacman -U nekoshot-0.10.5-1-x86_64.pkg.tar.zst
 ```
 
 The package installs the binary, desktop file, D-Bus/systemd units, KConfig schema, notifications,
@@ -146,10 +148,10 @@ See [`docs/validation.md`](docs/validation.md) for the full matrix and
 - **Multi-monitor / mixed DPI / negative origins**: geometry is computed per output and cropped in
   image-local coordinates, but only unit-tested; a real multi-monitor setup has not been validated.
 - **Cross-output regions** fall back to `wf-recorder` (no pointer, non-fragmented file).
-- **Window picker** only offers currently visible windows.
 - **Recording start latency**: ScreenCast negotiation can make the file 4–10 s shorter than the wait;
   there is no "recording started" indicator yet.
-- **A/V start alignment** has not been measured; total drift over 67 s was ~53 ms.
+- **A/V start alignment**: both container `start_time`s are 0 (4 s H.264+AAC sample) and total
+  drift is ~53 ms over 67 s; longer end-to-end lip-sync has not been measured.
 - **DPMS-black sessions** are not detected (logind-locked sessions are rejected).
 - **Forwarded CLI**: a request sent to a resident instance returns before the capture is saved;
   `--stop-recording` also returns before finalisation. Direct one-shot exit codes are reliable.

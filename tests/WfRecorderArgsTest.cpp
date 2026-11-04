@@ -46,6 +46,7 @@ private Q_SLOTS:
     void testEffectiveFormatContainerPreference();
     void testScreencastStartGuard();
     void testScreencastPendingGeneration();
+    void testRecordingStopReason();
 };
 
 void WfRecorderArgsTest::testRegionArguments()
@@ -872,6 +873,28 @@ void WfRecorderArgsTest::testWindowFallbackFormat()
     QCOMPARE(VideoPlatformNiri::windowFallbackFormat(QUrl::fromLocalFile(u"/tmp/a.mkv"_s), gst), VideoPlatform::NoFormat);
     // Implicit output (no path) may choose an MP4 fallback.
     QCOMPARE(VideoPlatformNiri::windowFallbackFormat(QUrl(), gst), VideoPlatform::MP4_H264);
+}
+
+void WfRecorderArgsTest::testRecordingStopReason()
+{
+    using Reason = VideoPlatformNiri::StopReason;
+    const qint64 mib = 1024 * 1024;
+
+    // Unset limits never stop a recording, whatever the counters say.
+    QCOMPARE(VideoPlatformNiri::stopReasonFor(0, 0, 0, 0), Reason::None);
+    QCOMPARE(VideoPlatformNiri::stopReasonFor(999999999, 0, 999 * mib, 0), Reason::None);
+
+    // Duration is inclusive and converted from minutes.
+    QCOMPARE(VideoPlatformNiri::stopReasonFor(59 * 1000, 1, 0, 0), Reason::None);
+    QCOMPARE(VideoPlatformNiri::stopReasonFor(60 * 1000, 1, 0, 0), Reason::MaxDuration);
+    QCOMPARE(VideoPlatformNiri::stopReasonFor(150 * 60 * 1000, 2, 0, 0), Reason::MaxDuration);
+
+    // Size is inclusive and converted from MiB.
+    QCOMPARE(VideoPlatformNiri::stopReasonFor(0, 0, 100 * mib - 1, 100), Reason::None);
+    QCOMPARE(VideoPlatformNiri::stopReasonFor(0, 0, 100 * mib, 100), Reason::MaxSize);
+
+    // Duration wins when both limits are reached in the same check.
+    QCOMPARE(VideoPlatformNiri::stopReasonFor(60 * 1000, 1, 200 * mib, 100), Reason::MaxDuration);
 }
 
 QTEST_GUILESS_MAIN(WfRecorderArgsTest)

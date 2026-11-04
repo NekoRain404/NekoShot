@@ -20,6 +20,7 @@ private Q_SLOTS:
     void testWorkspaces();
     void testWorkspacesMalformed();
     void testPhysicalSize();
+    void testWindows();
 };
 
 static const char *s_outputs = R"({
@@ -177,6 +178,35 @@ void NiriIpcTest::testPhysicalSize()
     // A rotated output falls back to logical*scale instead of guessing the
     // screencopy buffer orientation.
     QVERIFY(dp->physicalSize.isEmpty());
+}
+
+void NiriIpcTest::testWindows()
+{
+    const QByteArray json = R"([
+        {"id":15,"title":"Terminal","app_id":"kitty","workspace_id":3,"is_focused":false},
+        {"id":16,"title":"","app_id":"firefox","workspace_id":1},
+        {"title":"no id","app_id":"broken"},
+        {"id":17,"title":"Scratch","app_id":"","workspace_id":2}
+    ])";
+    QString error;
+    const auto windows = NiriIpc::parseWindows(json, &error);
+    QVERIFY2(error.isEmpty(), qPrintable(error));
+    // The entry without an id is skipped instead of producing window 0.
+    QCOMPARE(windows.size(), 3);
+    QCOMPARE(windows.at(0).id, quint64(15));
+    QCOMPARE(windows.at(0).title, u"Terminal"_s);
+    QCOMPARE(windows.at(0).appId, u"kitty"_s);
+    QCOMPARE(windows.at(0).workspaceId, quint64(3));
+    QCOMPARE(windows.at(1).title, QString());
+    QCOMPARE(windows.at(2).id, quint64(17));
+
+    // Documents that are not arrays are rejected with an error.
+    error.clear();
+    QVERIFY(NiriIpc::parseWindows(R"({"id":1})", &error).isEmpty());
+    QVERIFY(!error.isEmpty());
+    error.clear();
+    QVERIFY(NiriIpc::parseWindows("not json", &error).isEmpty());
+    QVERIFY(!error.isEmpty());
 }
 
 QTEST_GUILESS_MAIN(NiriIpcTest)

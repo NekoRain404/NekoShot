@@ -446,3 +446,42 @@ $ cd packaging && makepkg -f --noconfirm
   sha256 `6c4166eebaf5df6bfc55bf3c0fd4662eb873def2d0e48394383a92e333a6b360`
 - 包内含 man page、57 个 `nekoshot.mo`、桌面/D-Bus/systemd/KConfig/通知/图标/appdata。
 - 构建使用 `TMPDIR=$srcdir/tmp`（磁盘），不占用 tmpfs。
+
+## 0.10.5 录制上限、窗口列表与故障注入
+
+参考环境同上（eDP-1 2880×1800 @175%，niri 26.04，Release 构建，`XDG_CONFIG_HOME` 指向临时目录）。
+
+- **最大文件大小**（`videoMaxSizeMiB=1`）：后台屏幕录制在 12 秒内按正常流程收尾，退出码 0，
+  文件 12,121,077 字节（约 12.1 MB，受 10 秒健康检查粒度影响），`ffprobe` 可读；
+  日志记录 `Recording stopped by a configured limit: size`。
+- **最大时长**（`videoMaxDurationMinutes=1`）：61 秒后自动收尾，退出码 0，
+  `ffprobe` 时长 59.67 秒，日志记录 `Recording stopped by a configured limit: duration`。
+- **A/V 起始对齐**（4 秒 H.264 + AAC 系统声音）：视频 `start_time=0.000000`，
+  音频 `start_time=0.000000`，容器层无偏移。
+- **故障注入**：只读输出目录下 `-b -f` 与 `-b -R s` 均以非零退出码失败且不留下文件
+  （集成脚本在 root 下跳过该检查）。
+- **单元测试**：`filename_test`、`niri_ipc_test`、`niri_capture_test`、`clipboard_guard_test`、
+  `wf_recorder_args_test` 全部通过；新增 `stopReasonFor()` 与 `parseWindows()` 用例。
+- **集成测试**：`ctest -R integration_smoke` 通过（36.70 秒，含只读目录故障注入）。
+- **窗口列表**：`niri msg --json windows` 与 `SpectacleCore.availableWindows()` 的解析由
+  `niri_ipc_test` 覆盖；列表对话框随 `WindowPickerDialog.qml` 编译进 QML 缓存，
+  GUI 启动无 QML 错误。
+
+可选的 A/V 检查默认关闭，需要可用的系统音频源：
+
+```sh
+NEKOSHOT_AV_TEST=1 ./tests/integration/run-niri.sh ./build/bin/nekoshot
+```
+
+## 打包（0.10.5）
+
+```text
+$ cd packaging && makepkg -f --noconfirm
+==> Finished making: nekoshot 0.10.5-1 (Wed 04 Nov 2026 07:20:51 PM CST)
+```
+
+- `packaging/nekoshot-0.10.5-1-x86_64.pkg.tar.zst`，1,621,212 字节（1.55M），
+  sha256 `e5140e7eed222686771a1435078c1fbef99580bd44e09a69a78976f94408ebc5`
+- 调试符号包 `nekoshot-debug-0.10.5-1-x86_64.pkg.tar.zst`（24,553,226 字节）。
+- `check()` 在打包过程中运行完整 `ctest`（7/7 通过，含集成冒烟与只读目录故障注入）。
+- 构建使用 `TMPDIR=$srcdir/tmp`（磁盘）与 `cmake --build build --parallel 4`。

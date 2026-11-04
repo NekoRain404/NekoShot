@@ -21,7 +21,21 @@ ColumnLayout {
             topPadding: Kirigami.Units.mediumSpacing
             bottomPadding: Kirigami.Units.mediumSpacing
             text: model.display
-            onClicked: SpectacleCore.startRecording(model.recordingMode, Settings.videoIncludePointer)
+            onClicked: {
+                if (model.recordingMode === VideoPlatform.Window) {
+                    // Show the window list first; it offers the interactive
+                    // picker as an alternative in its footer.
+                    windowPicker.open()
+                } else {
+                    SpectacleCore.startRecording(model.recordingMode, Settings.videoIncludePointer)
+                }
+            }
         }
+    }
+
+    WindowPickerDialog {
+        id: windowPicker
+        onWindowChosen: (windowId) => SpectacleCore.startRecordingForWindow(windowId, Settings.videoIncludePointer)
+        onPickWithMouse: SpectacleCore.startRecording(VideoPlatform.Window, Settings.videoIncludePointer)
     }
 }

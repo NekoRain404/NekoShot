@@ -189,6 +189,41 @@ std::optional<Window> parseWindow(const QByteArray &json, QString *error)
     return window;
 }
 
+QList<Window> parseWindows(const QByteArray &json, QString *error)
+{
+    QJsonParseError parseError;
+    const QJsonDocument document = QJsonDocument::fromJson(json, &parseError);
+    if (parseError.error != QJsonParseError::NoError) {
+        setError(error, parseError.errorString());
+        return {};
+    }
+    if (!document.isArray()) {
+        setError(error, QStringLiteral("expected a JSON array"));
+        return {};
+    }
+
+    QList<Window> windows;
+    const QJsonArray array = document.array();
+    windows.reserve(array.size());
+    for (const auto &value : array) {
+        if (!value.isObject()) {
+            continue;
+        }
+        const QJsonObject object = value.toObject();
+        const QJsonValue idValue = object.value(QStringLiteral("id"));
+        if (!idValue.isDouble()) {
+            continue;
+        }
+        Window window;
+        window.id = static_cast<quint64>(idValue.toInteger());
+        window.title = object.value(QStringLiteral("title")).toString();
+        window.appId = object.value(QStringLiteral("app_id")).toString();
+        window.workspaceId = static_cast<quint64>(object.value(QStringLiteral("workspace_id")).toInteger());
+        windows.append(window);
+    }
+    return windows;
+}
+
 QList<Workspace> parseWorkspaces(const QByteArray &json, QString *error)
 {
     QJsonParseError parseError;
@@ -292,6 +327,15 @@ std::optional<Window> focusedWindow(QString *error)
         return std::nullopt;
     }
     return parseWindow(*json, error);
+}
+
+QList<Window> windows(QString *error)
+{
+    const auto json = runNiri({QStringLiteral("windows")}, error);
+    if (!json) {
+        return {};
+    }
+    return parseWindows(*json, error);
 }
 
 std::optional<Window> pickWindow(QString *error)

@@ -211,6 +211,18 @@
         </choices>
         <default>Medium</default>
     </entry>
+    <entry name="videoMaxDurationMinutes" type="Int">
+        <label>Stop a recording automatically after this many minutes (0 = unlimited)</label>
+        <default>0</default>
+        <min>0</min>
+        <max>1440</max>
+    </entry>
+    <entry name="videoMaxSizeMiB" type="Int">
+        <label>Stop a recording automatically when the file reaches this size in MiB (0 = unlimited)</label>
+        <default>0</default>
+        <min>0</min>
+        <max>1048576</max>
+    </entry>
     <entry name="videoFilenameTemplate" type="String">
         <label>The filename template used when saving screencasts</label>
         <default code="true">

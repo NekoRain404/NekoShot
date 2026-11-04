@@ -73,7 +73,10 @@ cpack -G DEB -G RPM -G TGZ
   Fedora naming); RPM also gets soname requirements from the built binaries.
   The Arch package remains the primary artifact.
 - `.tar.gz`: the installed tree, usable with any prefix.
-- `packaging/flatpak/org.nekoshot.NekoShot.yml`: Flatpak manifest (KDE runtime
-  + KQuickImageEditor). Build with `flatpak-builder`; not built in CI yet.
-- `packaging/appimage/build-appimage.sh`: best-effort AppImage built with
-  linuxdeploy; downloads the tools on first use and is not part of CI.
+- `packaging/appimage/build-appimage.sh`: builds a tested AppImage with
+  linuxdeploy + appimagetool (Qt/KF6/QML modules bundled, wrapper AppRun). It
+  needs `curl` and the Qt imageformat dependencies (e.g. `jxrlib` on Arch)
+  because linuxdeploy resolves every Qt plugin.
+- `packaging/flatpak/org.nekoshot.NekoShot.yml`: kept as a starting point, but
+  **not buildable against current Flathub runtimes**: NekoShot needs KF6 >=
+  6.30 while org.kde.Platform 6.11 ships KF6 6.11.

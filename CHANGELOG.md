@@ -4,6 +4,18 @@ All notable changes to NekoShot are documented here. The format is based on
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project
 follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.11.1] - 2026-11-04
+
+### Added
+
+- **AppImage**: the AppImage now bundles Qt/KF6/QML modules, uses a wrapper
+  `AppRun` (the linuxdeploy symlink broke `$ORIGIN` when extracted elsewhere)
+  and is built from the same install tree as the other packages. CI builds it
+  alongside DEB/RPM/TGZ.
+- **Flatpak**: the manifest is kept as a starting point but is not buildable
+  against current Flathub runtimes, which ship KF6 6.11 while NekoShot requires
+  KF6 6.30; this is documented in `packaging/README.md`.
+
 ## [0.11.0] - 2026-11-04
 
 ### Added

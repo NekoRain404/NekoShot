@@ -1,6 +1,12 @@
 # Flatpak manifest for NekoShot.
 #
-# Build from a checkout:
+# NOT BUILDABLE against current Flathub runtimes: NekoShot requires
+# Qt >= 6.11 and KF6 >= 6.30, while the newest org.kde.Platform branch (6.11)
+# ships Qt 6.11 and KF6 6.11. Building KF6 6.30 inside the sandbox is possible
+# but not done here. This file is a starting point for when a suitable runtime
+# is published.
+#
+# Build from a checkout (once a compatible runtime exists):
 #   flatpak-builder --force-clean --user --install-deps-from=flathub \
 #     --repo=repo build packaging/flatpak/org.nekoshot.NekoShot.yml
 #
@@ -8,7 +14,7 @@
 # runtime, so it is built from source as a second module.
 app-id: org.nekoshot.NekoShot
 runtime: org.kde.Platform
-runtime-version: '6.9'
+runtime-version: '6.11'
 sdk: org.kde.Sdk
 command: nekoshot
 finish-args:
@@ -23,7 +29,6 @@ finish-args:
   - --talk-name=org.freedesktop.portal.ScreenCast
   - --talk-name=org.gnome.Mutter.ScreenCast
   - --talk-name=org.kde.StatusNotifierWatcher
-  - --filesystem=/run/user/1000/wayland-0
 modules:
   - name: kquickimageeditor
     buildsystem: cmake-ninja
@@ -42,8 +47,3 @@ modules:
     sources:
       - type: dir
         path: ../..
-    modules:
-      - name: tesseract-ocr
-        buildsystem: simple
-        build-commands:
-          - echo "tesseract is expected from the runtime; remove this module if present"

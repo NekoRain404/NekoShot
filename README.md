@@ -81,9 +81,10 @@ NekoShot（猫 + Shot）解决的是很具体的问题：在 niri 这种没有 K
 `nekoshot-<version>-1-x86_64.pkg.tar.zst`，然后：
 
 ```bash
-sudo pacman -U nekoshot-0.11.0-1-x86_64.pkg.tar.zst
+sudo pacman -U nekoshot-0.11.1-1-x86_64.pkg.tar.zst
 ```
 
+也可以直接下载 `nekoshot-0.11.1-x86_64.AppImage`（无需安装，已内置 Qt/KF6/QML 模块）。
 Debian/RPM 用户可以用 `cpack -G DEB` / `-G RPM` 从同一构建树生成安装包；
 Flatpak 清单和 AppImage 脚本分别在 `packaging/flatpak/` 与 `packaging/appimage/`。
 

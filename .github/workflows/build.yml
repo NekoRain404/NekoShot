@@ -33,6 +33,10 @@ jobs:
           pacman -S --noconfirm --needed dpkg rpm-tools curl
           cd build
           cpack -G DEB -G RPM -G TGZ
+      - name: Build AppImage
+        run: |
+          pacman -S --noconfirm --needed jxrlib
+          packaging/appimage/build-appimage.sh build
       - uses: actions/upload-artifact@v4
         with:
           name: nekoshot-packages
@@ -40,3 +44,4 @@ jobs:
             build/*.deb
             build/*.rpm
             build/*.tar.gz
+            nekoshot-*-x86_64.AppImage

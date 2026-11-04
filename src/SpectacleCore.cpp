@@ -1703,6 +1703,7 @@ void SpectacleCore::prepareForDaemon()
         QUrl(QString(SPECTACLE_QML_PATH) + u"/Gui/CaptureSettingsColumn.qml"_s),
         QUrl(QString(SPECTACLE_QML_PATH) + u"/Gui/ViewerWindow.qml"_s),
         QUrl(QString(SPECTACLE_QML_PATH) + u"/Gui/DialogPage.qml"_s),
+        QUrl(QString(SPECTACLE_QML_PATH) + u"/Gui/WindowPickerDialog.qml"_s),
     };
     for (const auto &url : components) {
         QQmlComponent component(engine, url);

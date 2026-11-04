@@ -57,6 +57,13 @@ QQC.Dialog {
             id: searchField
             Layout.fillWidth: true
             placeholderText: i18nc("@info:placeholder", "Search by title or application…")
+            // Enter records the first entry that matches the current filter.
+            onAccepted: {
+                if (listView.count > 0) {
+                    root.windowChosen(listView.model[0].id)
+                    root.close()
+                }
+            }
         }
 
         QQC.ScrollView {

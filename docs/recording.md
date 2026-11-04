@@ -410,6 +410,7 @@ Region AV1 via libaom (`/tmp/region-aom.mp4`): `av1 700x700`, 2.738767 s,
   existing `startScreencastRecording()` path handles every workspace, not just
   the visible one.
 - `WindowPickerDialog.qml` is opened by the Window recording button. It filters
-  by title or app id and keeps `niri msg pick-window` reachable from its footer.
+  by title or app id (Enter records the first match) and keeps
+  `niri msg pick-window` reachable from its footer.
 - `niri msg action screenshot-window --id` means the same window ids already
   work for screenshots; the list itself is only wired into recording for now.

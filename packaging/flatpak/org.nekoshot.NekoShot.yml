@@ -1,0 +1,49 @@
+# Flatpak manifest for NekoShot.
+#
+# Build from a checkout:
+#   flatpak-builder --force-clean --user --install-deps-from=flathub \
+#     --repo=repo build packaging/flatpak/org.nekoshot.NekoShot.yml
+#
+# The KDE runtime provides Qt 6 and KF6. KQuickImageEditor is not part of the
+# runtime, so it is built from source as a second module.
+app-id: org.nekoshot.NekoShot
+runtime: org.kde.Platform
+runtime-version: '6.9'
+sdk: org.kde.Sdk
+command: nekoshot
+finish-args:
+  - --share=ipc
+  - --socket=wayland
+  - --socket=fallback-x11
+  - --device=dri
+  - --filesystem=xdg-pictures
+  - --filesystem=xdg-videos
+  - --filesystem=xdg-config/nekoshotrc:ro
+  - --talk-name=org.freedesktop.login1
+  - --talk-name=org.freedesktop.portal.ScreenCast
+  - --talk-name=org.gnome.Mutter.ScreenCast
+  - --talk-name=org.kde.StatusNotifierWatcher
+  - --filesystem=/run/user/1000/wayland-0
+modules:
+  - name: kquickimageeditor
+    buildsystem: cmake-ninja
+    config-opts:
+      - -DBUILD_TESTING=OFF
+    sources:
+      - type: git
+        url: https://invent.kde.org/libraries/kquickimageeditor.git
+        tag: v0.4.0
+  - name: nekoshot
+    buildsystem: cmake-ninja
+    config-opts:
+      - -DCMAKE_BUILD_TYPE=Release
+      - -DWITH_X11=OFF
+      - -DBUILD_TESTING=OFF
+    sources:
+      - type: dir
+        path: ../..
+    modules:
+      - name: tesseract-ocr
+        buildsystem: simple
+        build-commands:
+          - echo "tesseract is expected from the runtime; remove this module if present"

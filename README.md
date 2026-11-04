@@ -81,8 +81,11 @@ NekoShot（猫 + Shot）解决的是很具体的问题：在 niri 这种没有 K
 `nekoshot-<version>-1-x86_64.pkg.tar.zst`，然后：
 
 ```bash
-sudo pacman -U nekoshot-0.10.5-1-x86_64.pkg.tar.zst
+sudo pacman -U nekoshot-0.11.0-1-x86_64.pkg.tar.zst
 ```
+
+Debian/RPM 用户可以用 `cpack -G DEB` / `-G RPM` 从同一构建树生成安装包；
+Flatpak 清单和 AppImage 脚本分别在 `packaging/flatpak/` 与 `packaging/appimage/`。
 
 包会安装二进制、桌面文件、D-Bus/systemd 单元、KConfig schema、通知、翻译、图标和
 `nekoshot(1)` man page。NekoShot 与 `spectacle` 包冲突，安装前请先移除或避免同时安装。

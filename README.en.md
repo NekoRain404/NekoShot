@@ -67,7 +67,7 @@ Download `nekoshot-<version>-1-x86_64.pkg.tar.zst` from
 [Releases](https://github.com/NekoRain404/NekoShot/releases/latest):
 
 ```bash
-sudo pacman -U nekoshot-0.10.5-1-x86_64.pkg.tar.zst
+sudo pacman -U nekoshot-0.11.0-1-x86_64.pkg.tar.zst
 ```
 
 The package installs the binary, desktop file, D-Bus/systemd units, KConfig schema, notifications,

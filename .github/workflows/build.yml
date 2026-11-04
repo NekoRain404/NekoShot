@@ -28,3 +28,15 @@ jobs:
         run: cmake --build build --parallel 4
       - name: Test
         run: ctest --test-dir build --output-on-failure
+      - name: Build DEB, RPM and TGZ packages
+        run: |
+          pacman -S --noconfirm --needed dpkg rpm-tools curl
+          cd build
+          cpack -G DEB -G RPM -G TGZ
+      - uses: actions/upload-artifact@v4
+        with:
+          name: nekoshot-packages
+          path: |
+            build/*.deb
+            build/*.rpm
+            build/*.tar.gz

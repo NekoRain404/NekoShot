@@ -57,3 +57,23 @@ and rebuild the tarball.
   but are not part of the niri package.
 - Optional dependencies are runtime-only; the package advertises them but does
   not pull GStreamer/VA-API automatically.
+
+## Other package formats
+
+CPack builds generic distributions from the same install tree:
+
+```sh
+cmake -S . -B build -DCMAKE_BUILD_TYPE=Release -DWITH_X11=OFF
+cmake --build build --parallel 4
+cd build
+cpack -G DEB -G RPM -G TGZ
+```
+
+- `.deb` / `.rpm`: runtime dependencies are listed explicitly (Debian 13 /
+  Fedora naming); RPM also gets soname requirements from the built binaries.
+  The Arch package remains the primary artifact.
+- `.tar.gz`: the installed tree, usable with any prefix.
+- `packaging/flatpak/org.nekoshot.NekoShot.yml`: Flatpak manifest (KDE runtime
+  + KQuickImageEditor). Build with `flatpak-builder`; not built in CI yet.
+- `packaging/appimage/build-appimage.sh`: best-effort AppImage built with
+  linuxdeploy; downloads the tools on first use and is not part of CI.

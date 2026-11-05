@@ -1,17 +1,20 @@
 # Flatpak manifest for NekoShot.
 #
-# NOT BUILDABLE against current Flathub runtimes: NekoShot requires
-# Qt >= 6.11 and KF6 >= 6.30, while the newest org.kde.Platform branch (6.11)
-# ships Qt 6.11 and KF6 6.11. Building KF6 6.30 inside the sandbox is possible
-# but not done here. This file is a starting point for when a suitable runtime
-# is published.
+# STATUS: builds and launches against org.kde.Platform/Sdk 6.11 (Qt 6.11.3,
+# KF6 6.31.0), but is NOT yet usable for niri capture: NekoShot shells out to
+# the host's `niri`, `grim`, `wf-recorder` and `pactl`, none of which exist
+# inside the sandbox, and the niri IPC socket is not bind-mounted. Making this
+# work needs `flatpak-spawn --host` integration in the backends (including
+# signal forwarding for recording) plus a runtime-dir mount. No Flatpak bundle
+# is published until that exists.
 #
-# Build from a checkout (once a compatible runtime exists):
-#   flatpak-builder --force-clean --user --install-deps-from=flathub \
+# Build:
+#   flatpak-builder --user --force-clean --install-deps-from=flathub \
 #     --repo=repo build packaging/flatpak/org.nekoshot.NekoShot.yml
 #
-# The KDE runtime provides Qt 6 and KF6. KQuickImageEditor is not part of the
-# runtime, so it is built from source as a second module.
+# The KQuickImageEditor QML module is not part of the KDE runtime, and
+# tesseract is not either, so both are built here. OCR language data (English
+# and Simplified Chinese) is installed to /app/share/tessdata.
 app-id: org.nekoshot.NekoShot
 runtime: org.kde.Platform
 runtime-version: '6.11'
@@ -24,12 +27,101 @@ finish-args:
   - --device=dri
   - --filesystem=xdg-pictures
   - --filesystem=xdg-videos
-  - --filesystem=xdg-config/nekoshotrc:ro
   - --talk-name=org.freedesktop.login1
-  - --talk-name=org.freedesktop.portal.ScreenCast
-  - --talk-name=org.gnome.Mutter.ScreenCast
   - --talk-name=org.kde.StatusNotifierWatcher
+  - --talk-name=org.gnome.Mutter.ScreenCast
+  - --env=TESSDATA_PREFIX=/app/share/tessdata
+cleanup:
+  - /include
+  - /lib/cmake
+  - /lib/pkgconfig
+  - /share/man
+  - /share/doc
 modules:
+  - name: plasma-wayland-protocols
+    buildsystem: cmake-ninja
+    config-opts:
+      - -DBUILD_TESTING=OFF
+    sources:
+      - type: git
+        url: https://invent.kde.org/libraries/plasma-wayland-protocols.git
+        tag: v1.23.0
+  - name: pipewire
+    buildsystem: meson
+    config-opts:
+      - -Ddocs=disabled
+      - -Dexamples=disabled
+      - -Dtests=disabled
+      - -Dtest=disabled
+      - -Dgstreamer=disabled
+      - -Dpipewire-jack=disabled
+      - -Dpipewire-v4l2=disabled
+      - -Djack=disabled
+      - -Dbluez5=disabled
+      - -Dudev=disabled
+      - -Dlibsystemd=disabled
+      - -Dlibcamera=disabled
+      - -Dffmpeg=disabled
+      - -Dx11=disabled
+      - -Dlibpulse=disabled
+      - -Dsdl2=disabled
+      - -Dsession-managers=
+    sources:
+      - type: git
+        url: https://gitlab.freedesktop.org/pipewire/pipewire.git
+        tag: 1.6.11
+  - name: kpipewire
+    buildsystem: cmake-ninja
+    config-opts:
+      - -DBUILD_TESTING=OFF
+    sources:
+      - type: git
+        url: https://invent.kde.org/plasma/kpipewire.git
+        tag: v6.8.2
+  - name: layer-shell-qt
+    buildsystem: cmake-ninja
+    config-opts:
+      - -DBUILD_TESTING=OFF
+    sources:
+      - type: git
+        url: https://invent.kde.org/plasma/layer-shell-qt.git
+        tag: v6.8.2
+  - name: leptonica
+    # Built out of source explicitly: leptonica refuses an in-source CMake
+    # generation, and the generic cmake-ninja build system can end up there.
+    buildsystem: simple
+    build-commands:
+      - cmake -S . -B _build -G Ninja -DCMAKE_INSTALL_PREFIX=/app -DCMAKE_INSTALL_LIBDIR=lib -DBUILD_PROG=OFF -DBUILD_SHARED_LIBS=ON
+      - cmake --build _build
+      - cmake --install _build
+    sources:
+      - type: git
+        url: https://github.com/DanBloomberg/leptonica.git
+        tag: 1.87.0
+        disable-submodules: true
+  - name: tesseract
+    buildsystem: simple
+    build-commands:
+      - cmake -S . -B _build -G Ninja -DCMAKE_INSTALL_PREFIX=/app -DCMAKE_INSTALL_LIBDIR=lib -DBUILD_SHARED_LIBS=ON -DBUILD_TRAINING_TOOLS=OFF -DBUILD_TESTS=OFF -DENABLE_LTO=OFF
+      - cmake --build _build
+      - cmake --install _build
+    sources:
+      - type: git
+        url: https://github.com/tesseract-ocr/tesseract.git
+        tag: 5.5.4
+        disable-submodules: true
+  - name: tessdata
+    buildsystem: simple
+    build-commands:
+      - install -d /app/share/tessdata
+      - install -m644 eng.traineddata chi_sim.traineddata /app/share/tessdata/
+    sources:
+      - type: file
+        url: https://github.com/tesseract-ocr/tessdata_fast/raw/4.1.0/eng.traineddata
+        sha256: 7d4322bd2a7749724879683fc3912cb542f19906c83bcc1a52132556427170b2
+      - type: file
+        url: https://github.com/tesseract-ocr/tessdata_fast/raw/4.1.0/chi_sim.traineddata
+        sha256: a5fcb6f0db1e1d6d8522f39db4e848f05984669172e584e8d76b6b3141e1f730
   - name: kquickimageeditor
     buildsystem: cmake-ninja
     config-opts:
@@ -37,7 +129,7 @@ modules:
     sources:
       - type: git
         url: https://invent.kde.org/libraries/kquickimageeditor.git
-        tag: v0.4.0
+        tag: v0.7.0.1
   - name: nekoshot
     buildsystem: cmake-ninja
     config-opts:
@@ -45,5 +137,6 @@ modules:
       - -DWITH_X11=OFF
       - -DBUILD_TESTING=OFF
     sources:
-      - type: dir
-        path: ../..
+      - type: archive
+        url: https://github.com/NekoRain404/NekoShot/releases/download/v0.11.1/nekoshot-0.11.1.tar.gz
+        sha256: 265cffd310f67e964072e700212b46e5c2f15536efcdca240c549ad1b4513276

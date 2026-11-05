@@ -77,6 +77,19 @@ cpack -G DEB -G RPM -G TGZ
   linuxdeploy + appimagetool (Qt/KF6/QML modules bundled, wrapper AppRun). It
   needs `curl` and the Qt imageformat dependencies (e.g. `jxrlib` on Arch)
   because linuxdeploy resolves every Qt plugin.
-- `packaging/flatpak/org.nekoshot.NekoShot.yml`: kept as a starting point, but
-  **not buildable against current Flathub runtimes**: NekoShot needs KF6 >=
-  6.30 while org.kde.Platform 6.11 ships KF6 6.11.
+- `packaging/flatpak/org.nekoshot.NekoShot.yml`: builds and launches against
+  `org.kde.Platform`/`Sdk` 6.11 (Qt 6.11.3, KF6 6.31.0) with flatpak-builder.
+  Besides NekoShot it builds plasma-wayland-protocols, pipewire, kpipewire,
+  layer-shell-qt, leptonica, tesseract (plus eng/chi_sim language data) and
+  KQuickImageEditor, which are not part of the KDE runtime.
+  **Not functional for capture yet**: the niri backend needs the host `niri`,
+  `grim`, `wf-recorder` and `pactl`, and the niri IPC socket; none are
+  available in the sandbox. This needs `flatpak-spawn --host` support in the
+  external-process helpers (with signal forwarding for recording). No Flatpak
+  bundle is published.
+
+  ```sh
+  flatpak-builder --user --force-clean --disable-rofiles-fuse \
+    --state-dir=/var/tmp/nekoshot-flatpak/state --repo=/var/tmp/nekoshot-flatpak/repo \
+    /var/tmp/nekoshot-flatpak/build packaging/flatpak/org.nekoshot.NekoShot.yml
+  ```

@@ -4,6 +4,17 @@ All notable changes to NekoShot are documented here. The format is based on
 [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project
 follows [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [Unreleased]
+
+### Packaging
+
+- The Flatpak manifest now builds and launches against org.kde.Platform/Sdk
+  6.11 (Qt 6.11.3, KF6 6.31.0), building the Plasma/PipeWire libraries,
+  tesseract and KQuickImageEditor that the runtime lacks. It is not usable for
+  capture yet: NekoShot needs the host `niri`, `grim`, `wf-recorder` and
+  `pactl` plus the niri IPC socket, which are unavailable inside the sandbox.
+  `flatpak-spawn --host` integration is required before a bundle is published.
+
 ## [0.11.1] - 2026-11-04
 
 ### Added

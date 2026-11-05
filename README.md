@@ -245,6 +245,8 @@ Screen/Window/Region 的 ScreenCast 路径使用 `compositor + videorate` 固定
 - **转发 CLI**：`nekoshot -r` 等请求发给常驻实例后 CLI 先退出，不等待最终保存；`--stop-recording` 返回也不代表文件写完。直接 one-shot 的退出码可靠。
 - **D-Bus 默认开放**：默认允许同会话程序触发截图/录制，与 Spectacle 语义一致；可在设置中关闭。
 - **分享**：KDE Purpose 分享菜单已移除，专注本地导出。
+- **Flatpak**：manifest 可以在 KDE 6.11 运行时下构建并启动，但沙箱内没有 `niri`/`grim`/`wf-recorder`/`pactl`，
+  暂时不能截图/录屏，因此不发布 Flatpak 包；详见 `packaging/README.md`。
 - **预览/OCR**：预览窗沿用上游，OCR 未做语言级验收。
 - **X11/KWin**：KWin/X11 后端保留在源码中，但默认不构建、未做回归；发布包为 Wayland/niri。
 - **构建/发布**：PKGBUILD 仍从本地源码树构建，尚未提交 AUR；CI workflow 需要仓库推送后才能实际运行。

@@ -165,6 +165,9 @@ See [`docs/validation.md`](docs/validation.md) for the full matrix and
 - **D-Bus** is open to same-session applications by default; disable with
   `[General] dbusRemoteCapture=false`.
 - **Purpose/share** is removed; X11/KWin backends are retained but not built or regression-tested.
+- **Flatpak** builds and launches against the KDE 6.11 runtime, but the sandbox lacks the host
+  `niri`/`grim`/`wf-recorder`/`pactl`, so capture is not possible yet and no Flatpak bundle is
+  published; see `packaging/README.md`.
 - The PKGBUILD currently builds from the local source tree; AUR publication is not done yet.
 
 ## Development
